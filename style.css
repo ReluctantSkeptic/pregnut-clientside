@@ -4,72 +4,60 @@ body {
     background: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     width: 100%;
-  }
-   
+}
+
 .border{
     border: 1px solid  black;
 }
 
+.logo {
+    border: 0px solid blue; 
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
 
 .header {
     background: #F0F0F0; 
     padding: 10px 10px;
-    position: relative;
+    /* position: relative; */
     text-align: left;
+}
 
-
-  }
-  
-  .header a {
+.header a {
     background: #BABABA;
-    border: 1px solid #B3B3B3;
+    border: 1px solid #B9B9B9;
     border-radius: 6px;
     color: white;
     display: inline-block;
     margin: 0px 5px;
     padding: 10px 15px 10px 15px;
     text-decoration: none;
-  }
-  
-  .header a:hover {
+}
+
+.header a:hover {
     background: white;
     border: 1px solid #A2A2A2;
     color: #3D3D3D;
-  }
-
-.logo {
-
-    border: 0px solid blue; 
-    float: left;
-    padding: 0px 0px 0px 0px;
 }
 
-
-
 .nutriForm {
-   
     background:#F0F0F0;
     margin:1px 0;
     padding:1px 1px;
     display: inline-block;
-   
 }
 
 .nutriForm input {
     border-radius: 6px;
-    width:100%;
-    max-width:600px;
-    outline:0;
+    /* outline:0; */
     height:40px;
 }
-
 
 .vn_container { 
     text-align: center;
     height: 2em;
     border: 0px solid blue;
     padding: 5px 5px;
-  
 }
 
 .vn_objects {
@@ -77,53 +65,4 @@ body {
     height: 1.5em;
     margin: 5px;
     border: 0px solid gray;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* .nav ul {
-    list-style: none;
-    background-color: #444;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    }
-.nav li {
-    font-family: 'Raleway', sans-serif;
-    line-height: 40px;
-    height: 40px;
-    border-bottom: 1px solid #888;
-    font-size: 1em;
-    display: inline-block;
-    width: 120px;
-    border-bottom: none;
-    margin-left: 10px;
-    }
-
-.nav a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    transition: .3s background-color;
-    }
-
-.nav a:hover {
-    background-color: #005f5f;
-    }
-
-.nav a.active {
-    background-color: #fff;
-    color: #444;
-    cursor: default;
-    } */
-

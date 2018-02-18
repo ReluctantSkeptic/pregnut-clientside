@@ -1,53 +1,36 @@
 <html>
 <head>
     <title>PNC_onedrive</title>
-    
     <link type="text/css" rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="auto-complete.css">
-
     <script type="text/javascript"  src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
     <script type="text/javascript" src="app.js"></script> 
 </head>
 
 <header>
-    <div class="header ">   
-        <img class ="logo" src="http://www.freeiconspng.com/uploads/restaurant-menu-icon-png-28.png" height="40" width="40"/>
-        <img class ="logo" src="" height="40" width="5"/>
+    <div class="header  ">   
+        <img class ="logo " src="http://www.freeiconspng.com/uploads/restaurant-menu-icon-png-28.png" height="40" width="40"/>
+        <img class ="logo " src="" height="40" width="5"/>
         <a href="#" onclick="switchView('FoodCalcDash');" >FoodDash</a>
         <a href="#" onclick="switchView('FoodFinder');" >FoodFinder</a>
         <a href="#" onclick="switchView('TopTen');" >Top Foods</a>
         <a href="#" onclick="switchView('FoodList');" >List</a>
-
-        <form onsubmit="foodFilter();" 
-            class="nutriForm">
-                    <input id="FoodFinderInput" autofocus type="text" name="q" 
-                placeholder="Find Your Food">
-            
-            <!-- <input type="submit" value="SubmitMe"> -->
-
+        <form onsubmit="foodFinderChain();"  class="nutriForm">
+            <input id="FoodFinderInput" autofocus type="text" name="q" placeholder="Find Your Food">
+            <input id="FoodFinderSearchButton" type="submit" value="Search">
         </form>
-
     </div>
-    
 </header>
 
 
 <body onload="initViz();">
-        
-
     <div class="vn_container">
-
-
         <div class="vn_objects" > 
             My choice: <span id="myChoice"></span>
-            <!-- Sheet: <span id="mySheet"></span> -->
+            Sheet: <span id="mySheet"></span>
         </div>
-
-    
     <div id="vizContainer" style="width:1200; height:800;"></div>
-
     <script src="auto-complete.js"></script>
-    
     <script>
        // Run Search Bar
         var Demo1 = new autoComplete({
@@ -64,8 +47,6 @@
             }
         });
     </script>
-
-
 </body>
 </html>
 
