@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>PNC_onedrive_withgit</title>
+    
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="auto-complete.css">
+
+    <script type="text/javascript"  src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript" src="app.js"></script> 
+</head>
+
+<header>
+    <div class="header ">   
+        <img class ="logo" src="http://www.freeiconspng.com/uploads/restaurant-menu-icon-png-28.png" height="40" width="40"/>
+        <img class ="logo" src="" height="40" width="5"/>
+        <a href="#" onclick="switchView('FoodCalcDash');" >FoodDash</a>
+        <a href="#" onclick="switchView('FoodFinder');" >FoodFinder</a>
+        <a href="#" onclick="switchView('TopTen');" >Top Foods</a>
+        <a href="#" onclick="switchView('FoodList');" >List</a>
+
+        <form onsubmit="foodFilter();" 
+            class="nutriForm">
+                    <input id="FoodFinderInput" autofocus type="text" name="q" 
+                placeholder="Find Your Food" 
+                style="width:100%;max-width:600px;outline:0;height:25px;">
+            
+            <!-- <input type="submit" value="SubmitMe"> -->
+
+        </form>
+
+    </div>
+    
+</header>
+
+
+<body onload="initViz();">
+        
+
+    <div class="vn_container">
+
+        <!-- <div class="vn_objects">
+            <input type="button" value="Reset" onclick="clearFilters();" />
+        </div> -->
+
+        <div class="vn_objects" > 
+            My choice: <span id="myChoice"></span>
+            <!-- Sheet: <span id="mySheet"></span> -->
+        </div>
+
+    
+    <div id="vizContainer" style="width:1200; height:800;"></div>
+
+    <script src="auto-complete.js"></script>
+    <script>
+        var demo1 = new autoComplete({
+            selector: '#FoodFinderInput',
+            minChars: 2,
+            source: function(term, suggest){
+                term = term.toLowerCase();
+                var choices = ['Catsup', 'AppleScriptAppleScriptAppleScriptAppleScriptAppleScript', 'Asp', 'Assembly', 'BASIC', 'Batch', 'C', 'C++', 'CSS', 'Clojure', 'COBOL', 'ColdFusion', 'Erlang', 'Fortran', 'Groovy', 'Haskell', 'HTML', 'Java', 'JavaScript', 'Lisp', 'Perl', 'PHP', 'PowerShell', 'Python', 'Ruby', 'Scala', 'Scheme', 'SQL', 'TeX', 'XML'
+            ];
+                var suggestions = [''];
+                for (i=0;i<choices.length;i++)
+                    if (~choices[i].toLowerCase().indexOf(term)) suggestions.push(choices[i]);
+                suggest(suggestions);
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+
+      
+        
+        
+        
