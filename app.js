@@ -50,7 +50,7 @@ function switchView(sheetName) {
        
         document.getElementById("myChoice").innerHTML = document.getElementById("selectFood").value;
         document.getElementById("mySheet").innerHTML =  workbook.getActiveSheet().getName() ;
-    }
+    };
 
 
 

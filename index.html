@@ -21,8 +21,7 @@
         <form onsubmit="foodFilter();" 
             class="nutriForm">
                     <input id="FoodFinderInput" autofocus type="text" name="q" 
-                placeholder="Find Your Food" 
-                style="width:100%;max-width:600px;outline:0;height:25px;">
+                placeholder="Find Your Food">
             
             <!-- <input type="submit" value="SubmitMe"> -->
 
@@ -48,8 +47,10 @@
     <div id="vizContainer" style="width:1200; height:800;"></div>
 
     <script src="auto-complete.js"></script>
+    
     <script>
-        var demo1 = new autoComplete({
+       // Run Search Bar
+        var Demo1 = new autoComplete({
             selector: '#FoodFinderInput',
             minChars: 2,
             source: function(term, suggest){
@@ -63,8 +64,9 @@
             }
         });
     </script>
-</body>
 
+
+</body>
 </html>
 
 

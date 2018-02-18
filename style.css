@@ -47,14 +47,22 @@ body {
 
 
 .nutriForm {
-    border-top: 1px solid #eee;
-    border-bottom:1px solid #eee;
-    background:#fafafa;
+   
+    background:#F0F0F0;
     margin:1px 0;
     padding:1px 1px;
     display: inline-block;
-    border-radius: 6px;
+   
 }
+
+.nutriForm input {
+    border-radius: 6px;
+    width:100%;
+    max-width:600px;
+    outline:0;
+    height:40px;
+}
+
 
 .vn_container { 
     text-align: center;
