@@ -52,10 +52,10 @@ function foodFinderChain() {
         });
     }; 
 
+
 // Filter a dashboard not sheet  //http://www.datablick.com/blog/tableau-js-api-101
 function filterDash() {
     var selectedFood = document.getElementById("FoodFinderInput").value;
-    sheet=viz.getWorkbook().getActiveSheet();
 
     var dashboard, finderDash;
     workbook.activateSheetAsync("FoodCalcDash")
@@ -65,6 +65,8 @@ function filterDash() {
         return finderDash.applyFilterAsync("FoodName", selectedFood, tableau.FilterUpdateType.REPLACE);
     }); 
 };
+
+
 
 // query which worksheets exist in dash
 function vizFilter(filterValue){
