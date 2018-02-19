@@ -17,10 +17,9 @@
         <a href="#" onclick="switchView('TopTen');" >Top Foods</a>
         <a href="#" onclick="switchView('FoodList');" >List</a>
        
-        <div  class="nutriForm" name="sb" onsubmit="onclick="filterMulti();"" >
-            <input id="FoodFinderInput"  type="text" placeholder="Find Your Food" name="sbvalue"
-                   onkeydown = "if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()"   
-            >
+        <div  class="nutriForm">
+            <input id="FoodFinderInput"  type="text" placeholder="Find Your Food"
+                   onkeydown = "if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()" >
             <input id="FoodFinderSearchButton" type="button"  onclick="filterMulti();" value="Search" >
         </div>
        </div>
@@ -28,36 +27,41 @@
 
 
 <body onload="initViz();">
+    
     <div class="vn_container">
         <div class="vn_objects" > 
             My choice: <span id="myChoice"></span>
             Sheet: <span id="mySheet"></span>
         </div>
+    </div>
+
     <div id="vizContainer" style="width:1200; height:620;"></div>
 
     
     <script src="auto-complete.js"></script>
     <script>
+
        // Run Search Bar
         var PregKnowSearch = new autoComplete({
             selector: '#FoodFinderInput',
             minChars: 2,
             source: function(term, suggest){
                 term = term.toLowerCase();
-                var choices = ['Catsup', 'Eggnog', 'Asp', 'Assembly', 'BASIC', 'Batch', 'C', 'C++', 'CSS', 'Clojure', 'COBOL', 'ColdFusion', 'Erlang', 'Fortran', 'Groovy', 'Haskell', 'HTML', 'Java', 'JavaScript', 'Lisp', 'Perl', 'PHP', 'PowerShell', 'Python', 'Ruby', 'Scala', 'Scheme', 'SQL', 'TeX', 'XML'
-            ];
-                var suggestions = [''];
+                var choices = ['Lard','Miso','Natto','Honey','Eggnog','Catsup','Wasabi','Jellies'];
+                var suggestions = [];
                 for (i=0;i<choices.length;i++)
                     if (~choices[i].toLowerCase().indexOf(term)) suggestions.push(choices[i]);
                 suggest(suggestions);
             }
         });
+
     </script>
 </body>
 </html>
 
 
       
-        
+
+
         
         
