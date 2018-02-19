@@ -4,7 +4,7 @@
 // 2. Initialize the Tableau workbook to pull it into the html div container
     function initViz() {
         var containerDiv = document.getElementById("vizContainer")
-        var url = "https://public.tableau.com/views/PregnancyNutritionFinder/TopTen";
+        var url = "https://public.tableau.com/views/PregnancyNutritionFinder/FoodList";
         var options = {
                     hideTabs: true,
                     hideToolbar: true,
@@ -28,17 +28,16 @@ function switchView(sheetName) {
 }
 
 //4. Clear all filters
-function clearFilters() {
-    var sheet = viz.getWorkbook().getActiveSheet();
-    alert("clearing sheet:" + workbook.getActiveSheet().getName());
-    activeSheet.clearFilterAsync("FoodName");
-    } 
+// function clearFilters() {
+//     var sheet = viz.getWorkbook().getActiveSheet();
+//     alert("clearing sheet:" + workbook.getActiveSheet().getName());
+//     activeSheet.clearFilterAsync("FoodName");
+//     } 
 
 //Print out your selection in html
 function print() {
     document.getElementById("mySheet").innerHTML =  workbook.getActiveSheet().getName() ;
     document.getElementById("myChoice").innerHTML = document.getElementById("FoodFinderInput").value;
-   //document.getElementById("myChoice").innerHTML = document.getElementById("selectFood").value;
 };
 
 
@@ -57,6 +56,7 @@ function print() {
 // 5. Filter Multi Execute 
 function filterMulti() {
     selectedFood = document.getElementById("FoodFinderInput").value;
+    print();
     filterDash(selectedFood);
 }
     // 5.2 Filter a dashboard not sheet  //http://www.datablick.com/blog/tableau-js-api-101
@@ -72,25 +72,25 @@ function filterMulti() {
 
 
 // Custom lookup - if on finderDash, just look, if on other page, go to finderDash
-function dynamicFoodFind(){
-    var selectedFood = document.getElementById("FoodFinderInput").value
-    if(workbook.getActiveSheet().getName() === 'FoodCalcDash')
-        {
-            sheet=viz.getWorkbook().getActiveSheet();
-            worksheetArray = sheet.getWorksheets();
-            for(var i =0; i < worksheetArray.length; i++){
-                worksheetArray[i].applyFilterAsync("FoodName",selectedFood,tableau.FilterUpdateType.REPLACE);}
-        }
-    else{
-            var dashboard, finderDash;
-            workbook.activateSheetAsync("FoodCalcDash")
-                .then(function (sheet) {
-                dashboard = sheet;
-                finderDash = dashboard.getWorksheets().get("FoodFinder");
-                return finderDash.applyFilterAsync("FoodName", selectedFood, tableau.FilterUpdateType.REPLACE);
-            }) 
-        }
-    };
+// function dynamicFoodFind(){
+//     var selectedFood = document.getElementById("FoodFinderInput").value
+//     if(workbook.getActiveSheet().getName() === 'FoodCalcDash')
+//         {
+//             sheet=viz.getWorkbook().getActiveSheet();
+//             worksheetArray = sheet.getWorksheets();
+//             for(var i =0; i < worksheetArray.length; i++){
+//                 worksheetArray[i].applyFilterAsync("FoodName",selectedFood,tableau.FilterUpdateType.REPLACE);}
+//         }
+//     else{
+//             var dashboard, finderDash;
+//             workbook.activateSheetAsync("FoodCalcDash")
+//                 .then(function (sheet) {
+//                 dashboard = sheet;
+//                 finderDash = dashboard.getWorksheets().get("FoodFinder");
+//                 return finderDash.applyFilterAsync("FoodName", selectedFood, tableau.FilterUpdateType.REPLACE);
+//             }) 
+//         }
+//     };
 
 
 // query which worksheets exist in dash

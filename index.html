@@ -11,16 +11,17 @@
     <div class="header  ">   
         <img class ="logo " src="http://www.freeiconspng.com/uploads/restaurant-menu-icon-png-28.png" height="40" width="40"/>
         <img class ="logo " src="" height="40" width="5"/>
+        
         <a href="#" onclick="switchView('FoodCalcDash');" >FoodDash</a>
-        <!-- <a href="#" onclick="switchView('FoodFinder');" >FoodFinder</a> -->
-        <!-- <a href="#" onclick="switchView('TopTen');" >Top Foods</a> -->
+        <a href="#" onclick="switchView('FoodFinder');" >FoodFinder</a>
+        <a href="#" onclick="switchView('TopTen');" >Top Foods</a>
         <a href="#" onclick="switchView('FoodList');" >List</a>
         <a href="#" onclick="filterDash('Catsup');" >catsup</a>
         <a href="#" onclick="filterDash('Eggnog');" >eggnog</a>
 
-        <form onsubmit="filterMulti();"  class="nutriForm">
-            <input id="FoodFinderInput" autofocus type="text" placeholder="Find Your Food">
-            <input id="FoodFinderSearchButton" type="submit" value="Search">
+        <form action="#" onsubmit="filterMulti();"  class="nutriForm">
+            <input id="FoodFinderInput"  type="text" placeholder="Find Your Food">
+            <!-- <input id="FoodFinderSearchButton" type="submit" value="Search"> -->
         </form>
     </div>
 </header>
@@ -32,11 +33,13 @@
             My choice: <span id="myChoice"></span>
             Sheet: <span id="mySheet"></span>
         </div>
-    <div id="vizContainer" style="width:1200; height:800;"></div>
+    <div id="vizContainer" style="width:1200; height:620;"></div>
+
+    
     <script src="auto-complete.js"></script>
     <script>
        // Run Search Bar
-        var Demo1 = new autoComplete({
+        var PregKnowSearch = new autoComplete({
             selector: '#FoodFinderInput',
             minChars: 2,
             source: function(term, suggest){
