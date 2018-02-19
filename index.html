@@ -16,14 +16,14 @@
         <a href="#" onclick="switchView('FoodFinder');" >FoodFinder</a>
         <a href="#" onclick="switchView('TopTen');" >Top Foods</a>
         <a href="#" onclick="switchView('FoodList');" >List</a>
-        <a href="#" onclick="filterDash('Catsup');" >catsup</a>
-        <a href="#" onclick="filterDash('Eggnog');" >eggnog</a>
-
-        <form action="#" onsubmit="filterMulti();"  class="nutriForm">
-            <input id="FoodFinderInput"  type="text" placeholder="Find Your Food">
-            <!-- <input id="FoodFinderSearchButton" type="submit" value="Search"> -->
-        </form>
-    </div>
+       
+        <div  class="nutriForm" name="sb" onsubmit="onclick="filterMulti();"" >
+            <input id="FoodFinderInput"  type="text" placeholder="Find Your Food" name="sbvalue"
+                   onkeydown = "if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()"   
+            >
+            <input id="FoodFinderSearchButton" type="button"  onclick="filterMulti();" value="Search" >
+        </div>
+       </div>
 </header>
 
 

@@ -1,10 +1,10 @@
 // 1 - Global Variable 
-    var viz , selectedFood;
+    var viz,workbook;
 
 // 2. Initialize the Tableau workbook to pull it into the html div container
     function initViz() {
         var containerDiv = document.getElementById("vizContainer")
-        var url = "https://public.tableau.com/views/PregnancyNutritionFinder/FoodList";
+        var url = "https://public.tableau.com/views/PregnancyNutritionFinder/TopTen";
         var options = {
                     hideTabs: true,
                     hideToolbar: true,
@@ -17,7 +17,7 @@
                     }
                 };
         viz = new tableau.Viz(containerDiv, url, options);
-        }
+        };
 
 // 3. Switch to alternative sheets
 function switchView(sheetName) {
@@ -25,7 +25,7 @@ function switchView(sheetName) {
     workbook.activateSheetAsync(sheetName);
     print();
 
-}
+};
 
 //4. Clear all filters
 // function clearFilters() {
@@ -34,10 +34,11 @@ function switchView(sheetName) {
 //     activeSheet.clearFilterAsync("FoodName");
 //     } 
 
-//Print out your selection in html
+// Print out your selection in html
 function print() {
-    document.getElementById("mySheet").innerHTML =  workbook.getActiveSheet().getName() ;
+    // document.getElementById("mySheet").innerHTML =  workbook.getActiveSheet().getName() ;
     document.getElementById("myChoice").innerHTML = document.getElementById("FoodFinderInput").value;
+  
 };
 
 
@@ -53,22 +54,39 @@ function print() {
 
 
 
+
+
+
+
+
+
+
+
+
+
 // 5. Filter Multi Execute 
 function filterMulti() {
-    selectedFood = document.getElementById("FoodFinderInput").value;
-    print();
+    var selectedFood = document.getElementById("FoodFinderInput").value;
+    // var selectedFood = document.forms["sb"]["sbvalue"].value;
+    document.getElementById("myChoice").innerHTML = selectedFood;
     filterDash(selectedFood);
-}
-    // 5.2 Filter a dashboard not sheet  //http://www.datablick.com/blog/tableau-js-api-101
-    function filterDash(mySelectedFood) {
-        var dashboard, finderDash;
-        workbook.activateSheetAsync("FoodCalcDash")
-            .then(function (sheet) {
-            dashboard = sheet;
-            finderDash = dashboard.getWorksheets().get("FoodFinder");
-            return finderDash.applyFilterAsync("FoodName", mySelectedFood , tableau.FilterUpdateType.REPLACE);
-        }); 
-    };
+};
+
+// 5.2 Filter a dashboard not sheet  //http://www.datablick.com/blog/tableau-js-api-101
+function filterDash(mySelectedFood) {
+    var dashboard, finderDash;
+    workbook.activateSheetAsync("FoodCalcDash")
+        .then(function (sheetName) {
+        dashboard = sheetName;
+        finderDash = dashboard.getWorksheets().get("FoodFinder");
+        return finderDash.applyFilterAsync("FoodName", mySelectedFood , tableau.FilterUpdateType.REPLACE);
+    }); 
+};
+
+
+
+
+
 
 
 // Custom lookup - if on finderDash, just look, if on other page, go to finderDash
