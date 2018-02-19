@@ -12,13 +12,14 @@
         <img class ="logo " src="http://www.freeiconspng.com/uploads/restaurant-menu-icon-png-28.png" height="40" width="40"/>
         <img class ="logo " src="" height="40" width="5"/>
         <a href="#" onclick="switchView('FoodCalcDash');" >FoodDash</a>
-        <a href="#" onclick="switchView('FoodFinder');" >FoodFinder</a>
-        <a href="#" onclick="switchView('TopTen');" >Top Foods</a>
+        <!-- <a href="#" onclick="switchView('FoodFinder');" >FoodFinder</a> -->
+        <!-- <a href="#" onclick="switchView('TopTen');" >Top Foods</a> -->
         <a href="#" onclick="switchView('FoodList');" >List</a>
-        <a href="#" onclick="filterDash('Catsup');" >magic</a>
+        <a href="#" onclick="filterDash('Catsup');" >catsup</a>
+        <a href="#" onclick="filterDash('Eggnog');" >eggnog</a>
 
-        <form onsubmit="filterDash();"  class="nutriForm">
-            <input id="FoodFinderInput" autofocus type="text" name="q" placeholder="Find Your Food">
+        <form onsubmit="filterMulti();"  class="nutriForm">
+            <input id="FoodFinderInput" autofocus type="text" placeholder="Find Your Food">
             <input id="FoodFinderSearchButton" type="submit" value="Search">
         </form>
     </div>
@@ -40,7 +41,7 @@
             minChars: 2,
             source: function(term, suggest){
                 term = term.toLowerCase();
-                var choices = ['Catsup', 'AppleScriptAppleScriptAppleScriptAppleScriptAppleScript', 'Asp', 'Assembly', 'BASIC', 'Batch', 'C', 'C++', 'CSS', 'Clojure', 'COBOL', 'ColdFusion', 'Erlang', 'Fortran', 'Groovy', 'Haskell', 'HTML', 'Java', 'JavaScript', 'Lisp', 'Perl', 'PHP', 'PowerShell', 'Python', 'Ruby', 'Scala', 'Scheme', 'SQL', 'TeX', 'XML'
+                var choices = ['Catsup', 'Eggnog', 'Asp', 'Assembly', 'BASIC', 'Batch', 'C', 'C++', 'CSS', 'Clojure', 'COBOL', 'ColdFusion', 'Erlang', 'Fortran', 'Groovy', 'Haskell', 'HTML', 'Java', 'JavaScript', 'Lisp', 'Perl', 'PHP', 'PowerShell', 'Python', 'Ruby', 'Scala', 'Scheme', 'SQL', 'TeX', 'XML'
             ];
                 var suggestions = [''];
                 for (i=0;i<choices.length;i++)
