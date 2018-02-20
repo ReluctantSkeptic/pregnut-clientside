@@ -45,13 +45,17 @@ body {
     margin:1px 0;
     padding:1px 1px;
     display: inline-block;
+    
 }
 
 .nutriForm input {
     border-radius: 6px;
     /* outline:0; */
     height:40px;
+    padding: 10px 100px;
 }
+
+#FoodFinderSearchButton {padding:5px;}
 
 .vn_container { 
     text-align: center;
