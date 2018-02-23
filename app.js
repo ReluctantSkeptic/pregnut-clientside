@@ -1,10 +1,11 @@
 // 1 - Global Variable 
 var viz,workbook;
 
+
 // 2. Initialize the Tableau workbook to pull it into the html div container
 function initViz() {
     var containerDiv = document.getElementById("vizContainer")
-    var url = "https://public.tableau.com/views/PregnancyNutritionFinder/TopTen";
+    var url = "https://public.tableau.com/views/PregnancyNutritionFinder/TopTenDash";
     var options = {
                 hideTabs: true,
                 hideToolbar: true,
@@ -19,6 +20,8 @@ function initViz() {
     viz = new tableau.Viz(containerDiv, url, options);
 };
 
+
+
 // 3. Switch to alternative sheets
 function switchView(sheetName) {
     var workbook = viz.getWorkbook();
@@ -27,6 +30,8 @@ function switchView(sheetName) {
 
 };
 
+
+
 //4. Clear all filters
 function clearFilters() {
     var sheet = viz.getWorkbook().getActiveSheet();
@@ -34,11 +39,14 @@ function clearFilters() {
     activeSheet.clearFilterAsync("FoodName");
 };
 
+
+
 // Print out your selection in html - for testing
 function print() {
     document.getElementById("mySheet").innerHTML =  workbook.getActiveSheet().getName() ;
     document.getElementById("myChoice").innerHTML = document.getElementById("FoodFinderInput").value;
 };
+
 
 
 //4. Switch to Finder Sheet and do chain call for food - only works on sheet, not dash
@@ -53,14 +61,13 @@ function foodFinderChain() {
 
 
 
-
 // 5. Filter Multi Execute 
 function filterMulti() {
     var selectedFood = document.getElementById("FoodFinderInput").value;
-    // var selectedFood = document.forms["sb"]["sbvalue"].value;
-    document.getElementById("myChoice").innerHTML = selectedFood;
     filterDash(selectedFood);
 };
+
+
 
 // 5.2 Filter a dashboard not sheet  //http://www.datablick.com/blog/tableau-js-api-101
 function filterDash(mySelectedFood) {
@@ -75,39 +82,11 @@ function filterDash(mySelectedFood) {
 
 
 
-// Custom lookup - if on finderDash, just look, if on other page, go to finderDash
-// function dynamicFoodFind(){
-//     var selectedFood = document.getElementById("FoodFinderInput").value
-//     if(workbook.getActiveSheet().getName() === 'FoodCalcDash')
-//         {
-//             sheet=viz.getWorkbook().getActiveSheet();
-//             worksheetArray = sheet.getWorksheets();
-//             for(var i =0; i < worksheetArray.length; i++){
-//                 worksheetArray[i].applyFilterAsync("FoodName",selectedFood,tableau.FilterUpdateType.REPLACE);}
-//         }
-//     else{
-//             var dashboard, finderDash;
-//             workbook.activateSheetAsync("FoodCalcDash")
-//                 .then(function (sheet) {
-//                 dashboard = sheet;
-//                 finderDash = dashboard.getWorksheets().get("FoodFinder");
-//                 return finderDash.applyFilterAsync("FoodName", selectedFood, tableau.FilterUpdateType.REPLACE);
-//             }) 
-//         }
-//     };
 
 
-// query which worksheets exist in dash
-// function vizFilter(filterValue){
-//     sheet=viz.getWorkbook().getActiveSheet();
-//     if(sheet.getSheetType() === 'worksheet'){
-//         sheet.applyFilterAsync("FoodName",filterValue,tableau.FilterUpdateType.REPLACE);
-//     }
-//     else{
-//         worksheetArray = sheet.getWorksheets();
-//         for(var i =0; i < worksheetArray.length; i++){
-//             worksheetArray[i].applyFilterAsync("FoodName",filterValue,tableau.FilterUpdateType.REPLACE);
-//             }
-//         }
-//     };
+
+function clearToolbar(){
+
+    document.getElementById("FoodFinderInput").setAttribute("style","height: 1px;");
+};
 

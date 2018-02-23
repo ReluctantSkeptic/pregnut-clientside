@@ -1,9 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFFFFF;
+    background: #F6F6F6;
     font-family: 'Raleway', sans-serif;
     width: 100%;
+    
 }
 
 .border{
@@ -17,7 +18,7 @@ body {
 }
 
 .header {
-    background: #F0F0F0; 
+    background: #E2E1E1; 
     padding: 10px 10px;
     /* position: relative; */
     text-align: left;
@@ -36,12 +37,12 @@ body {
 
 .header a:hover {
     background: white;
-    border: 1px solid #A2A2A2;
+    border: 1px solid rgb(224, 223, 223);
     color: #3D3D3D;
 }
 
 .nutriForm {
-    background:#F0F0F0;
+    background:#E2E1E1;
     margin:1px 0;
     padding:1px 1px;
     display: inline-block;
@@ -52,21 +53,13 @@ body {
     border-radius: 6px;
     /* outline:0; */
     height:40px;
-    padding: 10px 100px;
+    width: 400px;
 }
 
-#FoodFinderSearchButton {padding:5px;}
 
-.vn_container { 
-    text-align: center;
-    height: 2em;
-    border: 0px solid blue;
-    padding: 5px 5px;
-}
+#FoodFinderSearchButton {width:80px;}
 
-.vn_objects {
-    float:left;
-    height: 1.5em;
-    margin: 5px;
-    border: 0px solid gray;
-}
+
+#toolbar-container {height:0px}
+
+
