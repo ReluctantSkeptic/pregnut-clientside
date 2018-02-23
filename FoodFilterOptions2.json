@@ -1,3 +1,3698 @@
-[
-"yuriy","inna"
+﻿[
+	{
+		"FoodName" : "Abalone, raw"
+	},
+	{
+		"FoodName" : "Alfalfa seeds, sprouted, raw"
+	},
+	{
+		"FoodName" : "Almond milk, sweetened, vanilla flavor"
+	},
+	{
+		"FoodName" : "Almond milk, unsweetened"
+	},
+	{
+		"FoodName" : "Aloe vera juice drink, fortified with Vitamin C"
+	},
+	{
+		"FoodName" : "Anchovy, european, canned in oil"
+	},
+	{
+		"FoodName" : "Animal fat, bacon grease"
+	},
+	{
+		"FoodName" : "Apple juice, canned or bottled, unsweetened"
+	},
+	{
+		"FoodName" : "Apples, dehydrated (low moisture), uncooked"
+	},
+	{
+		"FoodName" : "Apples, dried, uncooked"
+	},
+	{
+		"FoodName" : "Apples, raw, with skin"
+	},
+	{
+		"FoodName" : "Apples, raw, without skin"
+	},
+	{
+		"FoodName" : "Applesauce, canned, unsweetened"
+	},
+	{
+		"FoodName" : "Apricot nectar, canned"
+	},
+	{
+		"FoodName" : "Apricots, canned, in syrup, with skin"
+	},
+	{
+		"FoodName" : "Apricots, canned, in water, with skin"
+	},
+	{
+		"FoodName" : "Apricots, dried, uncooked"
+	},
+	{
+		"FoodName" : "Apricots, raw"
+	},
+	{
+		"FoodName" : "Artichokes, (globe or french), boiled"
+	},
+	{
+		"FoodName" : "Arugula, raw"
+	},
+	{
+		"FoodName" : "Asparagus, boiled"
+	},
+	{
+		"FoodName" : "Asparagus, canned"
+	},
+	{
+		"FoodName" : "Asparagus, raw"
+	},
+	{
+		"FoodName" : "Avocados, raw"
+	},
+	{
+		"FoodName" : "Bacon, meatless"
+	},
+	{
+		"FoodName" : "Bagel chips"
+	},
+	{
+		"FoodName" : "Bagels, cinnamon-raisin"
+	},
+	{
+		"FoodName" : "Bagels, multigrain"
+	},
+	{
+		"FoodName" : "Bagels, whole grain white"
+	},
+	{
+		"FoodName" : "Baking chocolate, unsweetened, squares"
+	},
+	{
+		"FoodName" : "Balsam-pear (bitter gourd), leafy tips, boiled"
+	},
+	{
+		"FoodName" : "Balsam-pear (bitter gourd), pods, boiled"
+	},
+	{
+		"FoodName" : "Bamboo shoots, canned"
+	},
+	{
+		"FoodName" : "Bamboo shoots, raw"
+	},
+	{
+		"FoodName" : "Banana chips"
+	},
+	{
+		"FoodName" : "Bananas, dehydrated"
+	},
+	{
+		"FoodName" : "Bananas, raw"
+	},
+	{
+		"FoodName" : "Beans, baked, canned"
+	},
+	{
+		"FoodName" : "Beans, baked, canned, with pork and sweet sauce"
+	},
+	{
+		"FoodName" : "Beans, black turtle, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Beans, black, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Beans, chili, barbecue, ranch style, cooked"
+	},
+	{
+		"FoodName" : "Beans, kidney, all types, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Beans, kidney, red, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Beans, kidney, red, mature seeds, canned"
+	},
+	{
+		"FoodName" : "Beans, mung, mature seeds, sprouted, canned"
+	},
+	{
+		"FoodName" : "Beans, navy, mature seeds, canned"
+	},
+	{
+		"FoodName" : "Beans, pink, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Beans, pinto, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Beans, shellie, canned"
+	},
+	{
+		"FoodName" : "Beans, snap, green, boiled"
+	},
+	{
+		"FoodName" : "Beans, snap, green, canned"
+	},
+	{
+		"FoodName" : "Beans, snap, green, raw"
+	},
+	{
+		"FoodName" : "Beans, snap, yellow, boiled"
+	},
+	{
+		"FoodName" : "Beans, snap, yellow, canned"
+	},
+	{
+		"FoodName" : "Beans, white, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Beans, yellow, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Beef jerky, chopped and formed"
+	},
+	{
+		"FoodName" : "Beef sausage, cooked"
+	},
+	{
+		"FoodName" : "Beef, brisket, whole, separable lean and fat, trimmed to 1\/8\" fat, braised"
+	},
+	{
+		"FoodName" : "Beef, corned beef, brisket, cooked"
+	},
+	{
+		"FoodName" : "Beef, ground, patties, broiled"
+	},
+	{
+		"FoodName" : "Beef, ground, unspecified fat content, cooked"
+	},
+	{
+		"FoodName" : "Beef, pastrami"
+	},
+	{
+		"FoodName" : "Beef, rib eye steak, boneless, lip-on, separable lean and fat, trimmed to 1\/8\" fat, cooked, grilled"
+	},
+	{
+		"FoodName" : "Beef, rib, large end (ribs 6-9), separable lean and fat, trimmed to 1\/8\" fat, roasted"
+	},
+	{
+		"FoodName" : "Beef, top sirloin, steak, separable lean and fat, trimmed to 1\/8\" fat, broiled"
+	},
+	{
+		"FoodName" : "Beef, variety meats and by-products, liver, pan-fried"
+	},
+	{
+		"FoodName" : "Beet greens, boiled"
+	},
+	{
+		"FoodName" : "Beet greens, raw"
+	},
+	{
+		"FoodName" : "Beets, boiled"
+	},
+	{
+		"FoodName" : "Beets, canned"
+	},
+	{
+		"FoodName" : "Beets, pickled, canned"
+	},
+	{
+		"FoodName" : "Beets, raw"
+	},
+	{
+		"FoodName" : "Blackberries, canned, in syrup"
+	},
+	{
+		"FoodName" : "Blackberries, frozen, unsweetened"
+	},
+	{
+		"FoodName" : "Blackberries, raw"
+	},
+	{
+		"FoodName" : "Blackberry juice, canned"
+	},
+	{
+		"FoodName" : "Blueberries, canned, in syrup"
+	},
+	{
+		"FoodName" : "Blueberries, canned, in syrup"
+	},
+	{
+		"FoodName" : "Blueberries, dried, sweetened"
+	},
+	{
+		"FoodName" : "Blueberries, raw"
+	},
+	{
+		"FoodName" : "Bologna, pork"
+	},
+	{
+		"FoodName" : "Boysenberries, frozen, unsweetened"
+	},
+	{
+		"FoodName" : "Bratwurst, pork, cooked"
+	},
+	{
+		"FoodName" : "Bread sticks, plain"
+	},
+	{
+		"FoodName" : "Bread, cinnamon"
+	},
+	{
+		"FoodName" : "Bread, french or vienna (includes sourdough)"
+	},
+	{
+		"FoodName" : "Bread, french or vienna, whole wheat"
+	},
+	{
+		"FoodName" : "Bread, gluten-free, white, made with rice flour, corn starch, and\/or tapioca"
+	},
+	{
+		"FoodName" : "Bread, italian"
+	},
+	{
+		"FoodName" : "Bread, multi-grain (includes whole-grain)"
+	},
+	{
+		"FoodName" : "Bread, naan, whole wheat, refrigerated"
+	},
+	{
+		"FoodName" : "Bread, oat bran"
+	},
+	{
+		"FoodName" : "Bread, pita, whole-wheat"
+	},
+	{
+		"FoodName" : "Bread, rye"
+	},
+	{
+		"FoodName" : "Bread, wheat"
+	},
+	{
+		"FoodName" : "Bread, white"
+	},
+	{
+		"FoodName" : "Bread, whole-wheat"
+	},
+	{
+		"FoodName" : "Breadfruit, raw"
+	},
+	{
+		"FoodName" : "Breadstick, soft, prepared with garlic and parmesan cheese"
+	},
+	{
+		"FoodName" : "Broadbeans (fava beans), mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Broccoli raab, cooked"
+	},
+	{
+		"FoodName" : "Broccoli raab, raw"
+	},
+	{
+		"FoodName" : "Broccoli, boiled"
+	},
+	{
+		"FoodName" : "Broccoli, chinese, cooked"
+	},
+	{
+		"FoodName" : "Broccoli, chinese, raw"
+	},
+	{
+		"FoodName" : "Broccoli, raw"
+	},
+	{
+		"FoodName" : "Brown rice chips"
+	},
+	{
+		"FoodName" : "Brussels sprouts, boiled"
+	},
+	{
+		"FoodName" : "Brussels sprouts, raw"
+	},
+	{
+		"FoodName" : "Burdock root, boiled"
+	},
+	{
+		"FoodName" : "Burdock root, raw"
+	},
+	{
+		"FoodName" : "Burrito, with beans, cheese, and beef"
+	},
+	{
+		"FoodName" : "Butter replacement, without fat, powder"
+	},
+	{
+		"FoodName" : "Butter, light, stick"
+	},
+	{
+		"FoodName" : "Butter, light, stick"
+	},
+	{
+		"FoodName" : "CLIF BAR, mixed flavors"
+	},
+	{
+		"FoodName" : "COCA-COLA, POWERADE, lemon-lime flavored"
+	},
+	{
+		"FoodName" : "Cabbage, boiled"
+	},
+	{
+		"FoodName" : "Cabbage, chinese (pak-choi), boiled"
+	},
+	{
+		"FoodName" : "Cabbage, chinese (pe-tsai), raw"
+	},
+	{
+		"FoodName" : "Cabbage, japanese style, fresh, pickled"
+	},
+	{
+		"FoodName" : "Cabbage, kimchi"
+	},
+	{
+		"FoodName" : "Cabbage, mustard, salted"
+	},
+	{
+		"FoodName" : "Cabbage, raw"
+	},
+	{
+		"FoodName" : "Cabbage, red, boiled"
+	},
+	{
+		"FoodName" : "Cabbage, red, raw"
+	},
+	{
+		"FoodName" : "Cabbage, savoy, raw"
+	},
+	{
+		"FoodName" : "Cake, chocolate, in-store bakery"
+	},
+	{
+		"FoodName" : "Cake, fruitcake"
+	},
+	{
+		"FoodName" : "Cake, pound, fat-free"
+	},
+	{
+		"FoodName" : "Cake, snack cakes, creme-filled, sponge"
+	},
+	{
+		"FoodName" : "Cake, sponge"
+	},
+	{
+		"FoodName" : "Cake, white"
+	},
+	{
+		"FoodName" : "Cake, yellow, with vanilla frosting"
+	},
+	{
+		"FoodName" : "Canadian bacon, pan-fried"
+	},
+	{
+		"FoodName" : "Candied fruit"
+	},
+	{
+		"FoodName" : "Candy, honey-combed, with peanut butter"
+	},
+	{
+		"FoodName" : "Carambola, (starfruit), raw"
+	},
+	{
+		"FoodName" : "Caramels"
+	},
+	{
+		"FoodName" : "Carbonated beverage, SPRITE, lemon-lime, without caffeine"
+	},
+	{
+		"FoodName" : "Carbonated beverage, ginger ale"
+	},
+	{
+		"FoodName" : "Carbonated beverage, lemon-lime soda, no caffeine"
+	},
+	{
+		"FoodName" : "Carbonated beverage, root beer"
+	},
+	{
+		"FoodName" : "Carbonated, cola, regular"
+	},
+	{
+		"FoodName" : "Carob flour"
+	},
+	{
+		"FoodName" : "Carp, raw"
+	},
+	{
+		"FoodName" : "Carrot juice, canned"
+	},
+	{
+		"FoodName" : "Carrots, boiled"
+	},
+	{
+		"FoodName" : "Carrots, canned"
+	},
+	{
+		"FoodName" : "Carrots, raw"
+	},
+	{
+		"FoodName" : "Cassava, raw"
+	},
+	{
+		"FoodName" : "Catsup"
+	},
+	{
+		"FoodName" : "Cauliflower, boiled"
+	},
+	{
+		"FoodName" : "Cauliflower, green, cooked"
+	},
+	{
+		"FoodName" : "Cauliflower, green, raw"
+	},
+	{
+		"FoodName" : "Cauliflower, raw"
+	},
+	{
+		"FoodName" : "Caviar, black and red, granular"
+	},
+	{
+		"FoodName" : "Celeriac, raw"
+	},
+	{
+		"FoodName" : "Celery, boiled"
+	},
+	{
+		"FoodName" : "Celery, raw"
+	},
+	{
+		"FoodName" : "Cereal, 100% Natural Granola, Oats, Wheat and Honey"
+	},
+	{
+		"FoodName" : "Cereal, 25% Less Sugar CINNAMON TOAST CRUNCH"
+	},
+	{
+		"FoodName" : "Cereal, 25% Less Sugar TRIX"
+	},
+	{
+		"FoodName" : "Cereal, ALPEN"
+	},
+	{
+		"FoodName" : "Cereal, ALPHA-BITS"
+	},
+	{
+		"FoodName" : "Cereal, APPLE CINNAMON CHEERIOS"
+	},
+	{
+		"FoodName" : "Cereal, BASIC 4"
+	},
+	{
+		"FoodName" : "Cereal, BERRY BERRY KIX"
+	},
+	{
+		"FoodName" : "Cereal, BOO BERRY"
+	},
+	{
+		"FoodName" : "Cereal, Berry Burst CHEERIOS, Triple Berry"
+	},
+	{
+		"FoodName" : "Cereal, Big Bite"
+	},
+	{
+		"FoodName" : "Cereal, CAP'N CRUNCH"
+	},
+	{
+		"FoodName" : "Cereal, CAP'N CRUNCH with CRUNCHBERRIES"
+	},
+	{
+		"FoodName" : "Cereal, CAP'N CRUNCH'S PEANUT BUTTER CRUNCH"
+	},
+	{
+		"FoodName" : "Cereal, CHEERIOS"
+	},
+	{
+		"FoodName" : "Cereal, CHEERIOS, Banana Nut"
+	},
+	{
+		"FoodName" : "Cereal, CHEERIOS, Chocolate"
+	},
+	{
+		"FoodName" : "Cereal, CHEERIOS, Yogurt Burst, strawberry"
+	},
+	{
+		"FoodName" : "Cereal, CHOCOLATE LUCKY CHARMS"
+	},
+	{
+		"FoodName" : "Cereal, CINNAMON TOAST CRUNCH"
+	},
+	{
+		"FoodName" : "Cereal, CINNAMON TOASTERS"
+	},
+	{
+		"FoodName" : "Cereal, COCO-ROOS"
+	},
+	{
+		"FoodName" : "Cereal, COCOA PEBBLES"
+	},
+	{
+		"FoodName" : "Cereal, COCOA PUFFS"
+	},
+	{
+		"FoodName" : "Cereal, COCOA PUFFS, 25% Reduced Sugar"
+	},
+	{
+		"FoodName" : "Cereal, COLOSSAL CRUNCH"
+	},
+	{
+		"FoodName" : "Cereal, COOKIE CRISP"
+	},
+	{
+		"FoodName" : "Cereal, CORN BURSTS"
+	},
+	{
+		"FoodName" : "Cereal, COUNT CHOCULA"
+	},
+	{
+		"FoodName" : "Cereal, Chocolate CHEX"
+	},
+	{
+		"FoodName" : "Cereal, Christmas Crunch"
+	},
+	{
+		"FoodName" : "Cereal, Cinnamon CHEX"
+	},
+	{
+		"FoodName" : "Cereal, Cocoa DYNO-BITES"
+	},
+	{
+		"FoodName" : "Cereal, Corn CHEX"
+	},
+	{
+		"FoodName" : "Cereal, DORA THE EXPLORER"
+	},
+	{
+		"FoodName" : "Cereal, FAMILIA"
+	},
+	{
+		"FoodName" : "Cereal, FIBER 7 Flakes"
+	},
+	{
+		"FoodName" : "Cereal, FIBER ONE Bran Cereal"
+	},
+	{
+		"FoodName" : "Cereal, FIBER ONE, Caramel Delight"
+	},
+	{
+		"FoodName" : "Cereal, FIBER ONE, HONEY CLUSTERS"
+	},
+	{
+		"FoodName" : "Cereal, FIBER ONE, RAISIN BRAN CLUSTERS"
+	},
+	{
+		"FoodName" : "Cereal, FRANKENBERRY"
+	},
+	{
+		"FoodName" : "Cereal, FROSTED CHEERIOS"
+	},
+	{
+		"FoodName" : "Cereal, FRUITY PEBBLES"
+	},
+	{
+		"FoodName" : "Cereal, Frosted Flakes"
+	},
+	{
+		"FoodName" : "Cereal, Frosted Mini SPOONERS"
+	},
+	{
+		"FoodName" : "Cereal, Fruity CHEERIOS"
+	},
+	{
+		"FoodName" : "Cereal, Fruity DYNO-BITES"
+	},
+	{
+		"FoodName" : "Cereal, GOLDEN CRISP"
+	},
+	{
+		"FoodName" : "Cereal, GOLDEN GRAHAMS"
+	},
+	{
+		"FoodName" : "Cereal, GRAPE-NUTS Cereal"
+	},
+	{
+		"FoodName" : "Cereal, GRAPE-NUTS Flakes"
+	},
+	{
+		"FoodName" : "Cereal, GREAT GRAINS Crunchy Pecan Cereal"
+	},
+	{
+		"FoodName" : "Cereal, GREAT GRAINS, Raisin, Date & Pecan"
+	},
+	{
+		"FoodName" : "Cereal, HEALTH VALLEY"
+	},
+	{
+		"FoodName" : "Cereal, HEART TO HEART, Oat Flakes & Blueberry Clusters"
+	},
+	{
+		"FoodName" : "Cereal, HONEY BUNCHES OF OATS with vanilla bunches"
+	},
+	{
+		"FoodName" : "Cereal, HONEY BUNCHES OF OATS, honey roasted"
+	},
+	{
+		"FoodName" : "Cereal, HONEY BUNCHES OF OATS, pecan bunches"
+	},
+	{
+		"FoodName" : "Cereal, HONEY BUNCHES OF OATS, with almonds"
+	},
+	{
+		"FoodName" : "Cereal, HONEY GRAHAM OH!S"
+	},
+	{
+		"FoodName" : "Cereal, HONEY NUT CHEERIOS"
+	},
+	{
+		"FoodName" : "Cereal, HONEY NUT CLUSTERS"
+	},
+	{
+		"FoodName" : "Cereal, Honey Almond Flax"
+	},
+	{
+		"FoodName" : "Cereal, Honey KIX"
+	},
+	{
+		"FoodName" : "Cereal, Honey Nut CHEX"
+	},
+	{
+		"FoodName" : "Cereal, Honey Nut Shredded Wheat"
+	},
+	{
+		"FoodName" : "Cereal, Honey Toasted Oat"
+	},
+	{
+		"FoodName" : "Cereal, Honeycomb Cereal"
+	},
+	{
+		"FoodName" : "Cereal, KASHI 7 Whole Grain Puffs"
+	},
+	{
+		"FoodName" : "Cereal, KASHI GOLEAN"
+	},
+	{
+		"FoodName" : "Cereal, KASHI GOLEAN CRUNCH!"
+	},
+	{
+		"FoodName" : "Cereal, KASHI GOOD FRIENDS"
+	},
+	{
+		"FoodName" : "Cereal, KASHI Honey Sunshine"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S ALL-BRAN BRAN BUDS"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S ALL-BRAN COMPLETE Wheat Flakes"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S ALL-BRAN Original"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S APPLE JACKS"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S CINNABON cereal"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S COCOA KRISPIES"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S CORN POPS"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S CRACKLIN' OAT BRAN"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S CRISPIX"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S Corn Flakes"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S FROOT LOOPS"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S FROSTED FLAKES"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S FROSTED RICE KRISPIES"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S HONEY CRUNCH CORN FLAKES"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S HONEY SMACKS"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S Low Fat Granola with Raisins"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S Low Fat Granola without Raisins"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S MARSHMALLOW FROOT LOOPS"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S MUESLIX"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S PRODUCT 19"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S RAISIN BRAN"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S RICE KRISPIES"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S RICE KRISPIES TREATS Cereal"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S SMART START Strong Heart Antioxidants Cereal"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S SPECIAL K"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S SPECIAL K Blueberry"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S SPECIAL K Chocolatey Delight"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S SPECIAL K Red Berries"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S SPECIAL K, Cinnamon Pecan"
+	},
+	{
+		"FoodName" : "Cereal, KELLOGG'S, RAISIN BRAN CRUNCH"
+	},
+	{
+		"FoodName" : "Cereal, KING VITAMAN"
+	},
+	{
+		"FoodName" : "Cereal, KIX"
+	},
+	{
+		"FoodName" : "Cereal, KRETSCHMER Honey Crunch Wheat Germ"
+	},
+	{
+		"FoodName" : "Cereal, LUCKY CHARMS"
+	},
+	{
+		"FoodName" : "Cereal, Low Fat 100% Natural Granola with Raisins"
+	},
+	{
+		"FoodName" : "Cereal, MARSHMALLOW MATEYS"
+	},
+	{
+		"FoodName" : "Cereal, Multi-Grain CHEERIOS"
+	},
+	{
+		"FoodName" : "Cereal, NATURE VALLEY LOW FAT FRUIT GRANOLA"
+	},
+	{
+		"FoodName" : "Cereal, OATMEAL CRISP, Crunchy Almond"
+	},
+	{
+		"FoodName" : "Cereal, OATMEAL CRISP, Hearty Raisin"
+	},
+	{
+		"FoodName" : "Cereal, ORGANIC PROMISE Autumn Wheat"
+	},
+	{
+		"FoodName" : "Cereal, Oat Cluster CHEERIOS Crunch"
+	},
+	{
+		"FoodName" : "Cereal, Oatmeal Squares"
+	},
+	{
+		"FoodName" : "Cereal, Organic FLAX PLUS flakes"
+	},
+	{
+		"FoodName" : "Cereal, Organic FLAX PLUS, Pumpkin Granola"
+	},
+	{
+		"FoodName" : "Cereal, POST Bran Flakes"
+	},
+	{
+		"FoodName" : "Cereal, POST GREAT GRAINS Banana Nut Crunch"
+	},
+	{
+		"FoodName" : "Cereal, POST GREAT GRAINS Cranberry Almond Crunch"
+	},
+	{
+		"FoodName" : "Cereal, POST Raisin Bran Cereal"
+	},
+	{
+		"FoodName" : "Cereal, POST SELECTS Blueberry Morning"
+	},
+	{
+		"FoodName" : "Cereal, POST SELECTS Maple Pecan Crunch"
+	},
+	{
+		"FoodName" : "Cereal, QUAKER 100% Natural Granola with Oats, Wheat, Honey, and Raisins"
+	},
+	{
+		"FoodName" : "Cereal, QUAKER CRUNCHY BRAN"
+	},
+	{
+		"FoodName" : "Cereal, QUAKER OAT LIFE"
+	},
+	{
+		"FoodName" : "Cereal, QUAKER Puffed Rice"
+	},
+	{
+		"FoodName" : "Cereal, QUAKER Puffed Wheat"
+	},
+	{
+		"FoodName" : "Cereal, RAISIN NUT BRAN"
+	},
+	{
+		"FoodName" : "Cereal, RALSTON CRISP RICE"
+	},
+	{
+		"FoodName" : "Cereal, RALSTON TASTEEOS"
+	},
+	{
+		"FoodName" : "Cereal, REESE'S PUFFS"
+	},
+	{
+		"FoodName" : "Cereal, Raisin Bran Cereal"
+	},
+	{
+		"FoodName" : "Cereal, Reduced Sugar Frosted Flakes Cereal"
+	},
+	{
+		"FoodName" : "Cereal, Rice CHEX"
+	},
+	{
+		"FoodName" : "Cereal, SPECIAL K Vanilla Almond"
+	},
+	{
+		"FoodName" : "Cereal, SPECIAL K, Fruit & Yogurt"
+	},
+	{
+		"FoodName" : "Cereal, SWEET CRUNCH\/QUISP"
+	},
+	{
+		"FoodName" : "Cereal, Shredded Wheat n' Bran, spoon-size"
+	},
+	{
+		"FoodName" : "Cereal, Shredded Wheat, lightly frosted, spoon-size"
+	},
+	{
+		"FoodName" : "Cereal, Shredded Wheat, original big biscuit"
+	},
+	{
+		"FoodName" : "Cereal, Shredded Wheat, original spoon-size"
+	},
+	{
+		"FoodName" : "Cereal, TOOTIE FRUITIES"
+	},
+	{
+		"FoodName" : "Cereal, TOTAL Raisin Bran"
+	},
+	{
+		"FoodName" : "Cereal, TRIX"
+	},
+	{
+		"FoodName" : "Cereal, Toasted Multigrain Crisps"
+	},
+	{
+		"FoodName" : "Cereal, UNCLE SAM CEREAL"
+	},
+	{
+		"FoodName" : "Cereal, WEETABIX whole grain cereal"
+	},
+	{
+		"FoodName" : "Cereal, WHEATIES"
+	},
+	{
+		"FoodName" : "Cereal, Waffle Crisp"
+	},
+	{
+		"FoodName" : "Cereal, Wheat CHEX"
+	},
+	{
+		"FoodName" : "Cereal, Whole Grain TOTAL"
+	},
+	{
+		"FoodName" : "Cereal, chocolate-flavored frosted puffed corn"
+	},
+	{
+		"FoodName" : "Cereal, frosted oat cereal with marshmallows"
+	},
+	{
+		"FoodName" : "Cereal, homemade"
+	},
+	{
+		"FoodName" : "Cereal, original"
+	},
+	{
+		"FoodName" : "Cereal, presweetened with nuts and fruits"
+	},
+	{
+		"FoodName" : "Cereal, wheat germ"
+	},
+	{
+		"FoodName" : "Cereals, CREAM OF RICE, cooked with water"
+	},
+	{
+		"FoodName" : "Cereals, oats, instant, fortified, prepared with water (boiling water added or microwaved)"
+	},
+	{
+		"FoodName" : "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving)"
+	},
+	{
+		"FoodName" : "Chard, swiss, boiled"
+	},
+	{
+		"FoodName" : "Chard, swiss, raw"
+	},
+	{
+		"FoodName" : "Chayote, fruit, boiled"
+	},
+	{
+		"FoodName" : "Chayote, fruit, raw"
+	},
+	{
+		"FoodName" : "Cheese puffs and twists, corn based, baked, low fat"
+	},
+	{
+		"FoodName" : "Cheese, Mexican blend"
+	},
+	{
+		"FoodName" : "Cheese, american cheddar, imitation"
+	},
+	{
+		"FoodName" : "Cheese, blue"
+	},
+	{
+		"FoodName" : "Cheese, brick"
+	},
+	{
+		"FoodName" : "Cheese, brie"
+	},
+	{
+		"FoodName" : "Cheese, camembert"
+	},
+	{
+		"FoodName" : "Cheese, cheddar"
+	},
+	{
+		"FoodName" : "Cheese, cheddar, sharp, sliced"
+	},
+	{
+		"FoodName" : "Cheese, colby"
+	},
+	{
+		"FoodName" : "Cheese, cottage, creamed, large or small curd"
+	},
+	{
+		"FoodName" : "Cheese, cream"
+	},
+	{
+		"FoodName" : "Cheese, edam"
+	},
+	{
+		"FoodName" : "Cheese, feta"
+	},
+	{
+		"FoodName" : "Cheese, fontina"
+	},
+	{
+		"FoodName" : "Cheese, goat, hard type"
+	},
+	{
+		"FoodName" : "Cheese, goat, semisoft type"
+	},
+	{
+		"FoodName" : "Cheese, goat, soft type"
+	},
+	{
+		"FoodName" : "Cheese, gouda"
+	},
+	{
+		"FoodName" : "Cheese, gruyere"
+	},
+	{
+		"FoodName" : "Cheese, limburger"
+	},
+	{
+		"FoodName" : "Cheese, monterey"
+	},
+	{
+		"FoodName" : "Cheese, mozzarella, part skim milk"
+	},
+	{
+		"FoodName" : "Cheese, mozzarella, whole milk"
+	},
+	{
+		"FoodName" : "Cheese, muenster"
+	},
+	{
+		"FoodName" : "Cheese, parmesan, hard"
+	},
+	{
+		"FoodName" : "Cheese, pasteurized process, pimento"
+	},
+	{
+		"FoodName" : "Cheese, pasteurized process, swiss"
+	},
+	{
+		"FoodName" : "Cheese, port de salut"
+	},
+	{
+		"FoodName" : "Cheese, provolone"
+	},
+	{
+		"FoodName" : "Cheese, ricotta, whole milk"
+	},
+	{
+		"FoodName" : "Cheese, romano"
+	},
+	{
+		"FoodName" : "Cheese, swiss"
+	},
+	{
+		"FoodName" : "Cheeseburger; double, large patty; with condiments, vegetables and mayonnaise"
+	},
+	{
+		"FoodName" : "Cheeseburger; single, large patty; with condiments, vegetables and mayonnaise"
+	},
+	{
+		"FoodName" : "Cheesecake commercially prepared"
+	},
+	{
+		"FoodName" : "Cherries, sour, red, canned, in syrup"
+	},
+	{
+		"FoodName" : "Cherries, sour, red, raw"
+	},
+	{
+		"FoodName" : "Cherries, sweet, canned, pitted, in syrup"
+	},
+	{
+		"FoodName" : "Cherries, sweet, raw"
+	},
+	{
+		"FoodName" : "Cherries, tart, dried, sweetened"
+	},
+	{
+		"FoodName" : "Chewing gum"
+	},
+	{
+		"FoodName" : "Chewing gum, sugarless"
+	},
+	{
+		"FoodName" : "Chicken breast tenders, breaded, uncooked"
+	},
+	{
+		"FoodName" : "Chicken patty, frozen, cooked"
+	},
+	{
+		"FoodName" : "Chicken tenders"
+	},
+	{
+		"FoodName" : "Chicken, breast, meat and skin, roasted"
+	},
+	{
+		"FoodName" : "Chicken, breast, meat only, roasted"
+	},
+	{
+		"FoodName" : "Chicken, canned, meat only, with broth"
+	},
+	{
+		"FoodName" : "Chicken, liver, all classes, simmered"
+	},
+	{
+		"FoodName" : "Chicken, meat and skin, roasted"
+	},
+	{
+		"FoodName" : "Chicken, meat only, roasted"
+	},
+	{
+		"FoodName" : "Chicken, meatless"
+	},
+	{
+		"FoodName" : "Chicken, meatless, breaded, fried"
+	},
+	{
+		"FoodName" : "Chicken, wing, meat and skin, roasted"
+	},
+	{
+		"FoodName" : "Chickpeas (garbanzo beans, bengal gram), mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Chicory greens, raw"
+	},
+	{
+		"FoodName" : "Chili with beans, canned"
+	},
+	{
+		"FoodName" : "Chinese, beef and vegetables"
+	},
+	{
+		"FoodName" : "Chinese, fried rice, without meat"
+	},
+	{
+		"FoodName" : "Chinese, general tso's chicken"
+	},
+	{
+		"FoodName" : "Chinese, kung pao chicken"
+	},
+	{
+		"FoodName" : "Chinese, orange chicken"
+	},
+	{
+		"FoodName" : "Chinese, sesame chicken"
+	},
+	{
+		"FoodName" : "Chinese, vegetable chow mein, without meat or noodles"
+	},
+	{
+		"FoodName" : "Chives, raw"
+	},
+	{
+		"FoodName" : "Chocolate covered, caramel with nuts"
+	},
+	{
+		"FoodName" : "Chocolate syrup"
+	},
+	{
+		"FoodName" : "Chocolate, dark, NFS (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)"
+	},
+	{
+		"FoodName" : "Chocolate-flavored hazelnut spread"
+	},
+	{
+		"FoodName" : "Chorizo, pork and beef"
+	},
+	{
+		"FoodName" : "Chrysanthemum, garland, boiled"
+	},
+	{
+		"FoodName" : "Cinnamon buns, frosted (includes honey buns)"
+	},
+	{
+		"FoodName" : "Cisco, smoked"
+	},
+	{
+		"FoodName" : "Clam, canned"
+	},
+	{
+		"FoodName" : "Clam, raw"
+	},
+	{
+		"FoodName" : "Cocoa mix, powder"
+	},
+	{
+		"FoodName" : "Coconut milk, sweetened, fortified with calcium, vitamins A, B12, D2"
+	},
+	{
+		"FoodName" : "Coconut water, unsweetened"
+	},
+	{
+		"FoodName" : "Cod, Atlantic, canned, solids and liquid"
+	},
+	{
+		"FoodName" : "Coffee substitute, cereal grain beverage, prepared with water"
+	},
+	{
+		"FoodName" : "Coffee, brewed"
+	},
+	{
+		"FoodName" : "Coffee, brewed, espresso"
+	},
+	{
+		"FoodName" : "Coffee, brewed, espresso, decaffeinated"
+	},
+	{
+		"FoodName" : "Coffee, instant, mocha, sweetened"
+	},
+	{
+		"FoodName" : "Collards, boiled"
+	},
+	{
+		"FoodName" : "Collards, raw"
+	},
+	{
+		"FoodName" : "Cookies, animal, with frosting or icing"
+	},
+	{
+		"FoodName" : "Cookies, brownies"
+	},
+	{
+		"FoodName" : "Cookies, chocolate chip, regular, lower fat"
+	},
+	{
+		"FoodName" : "Cookies, chocolate sandwich, with creme filling, regular"
+	},
+	{
+		"FoodName" : "Cookies, coconut macaroon"
+	},
+	{
+		"FoodName" : "Cookies, fig bars"
+	},
+	{
+		"FoodName" : "Cookies, gingersnaps"
+	},
+	{
+		"FoodName" : "Cookies, gluten-free, chocolate sandwich, with creme filling"
+	},
+	{
+		"FoodName" : "Cookies, graham crackers"
+	},
+	{
+		"FoodName" : "Cookies, graham crackers, lowfat"
+	},
+	{
+		"FoodName" : "Cookies, molasses"
+	},
+	{
+		"FoodName" : "Cookies, oatmeal, reduced fat"
+	},
+	{
+		"FoodName" : "Cookies, oatmeal, regular"
+	},
+	{
+		"FoodName" : "Cookies, peanut butter, regular"
+	},
+	{
+		"FoodName" : "Cookies, raisin, soft-type"
+	},
+	{
+		"FoodName" : "Cookies, shortbread"
+	},
+	{
+		"FoodName" : "Cookies, vanilla sandwich with creme filling"
+	},
+	{
+		"FoodName" : "Coriander (cilantro) leaves, raw"
+	},
+	{
+		"FoodName" : "Corn, sweet, white, boiled"
+	},
+	{
+		"FoodName" : "Corn, sweet, white, canned, whole kernel"
+	},
+	{
+		"FoodName" : "Corn, sweet, yellow, boiled"
+	},
+	{
+		"FoodName" : "Corn, sweet, yellow, canned, whole kernel"
+	},
+	{
+		"FoodName" : "Corn-based, extruded, chips"
+	},
+	{
+		"FoodName" : "Corn-based, extruded, puffs or twists, cheese-flavor"
+	},
+	{
+		"FoodName" : "Cowpeas (blackeyes), immature seeds, boiled"
+	},
+	{
+		"FoodName" : "Cowpeas, common (blackeyes, crowder, southern), mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Crab, alaska king, imitation, made from surimi"
+	},
+	{
+		"FoodName" : "Crab, blue, canned"
+	},
+	{
+		"FoodName" : "Crab, blue, cooked, moist heat"
+	},
+	{
+		"FoodName" : "Crackers, cheese, regular"
+	},
+	{
+		"FoodName" : "Crackers, crispbread, rye"
+	},
+	{
+		"FoodName" : "Crackers, gluten-free, multi-seeded and multigrain"
+	},
+	{
+		"FoodName" : "Crackers, multigrain"
+	},
+	{
+		"FoodName" : "Crackers, saltines (includes oyster, soda, soup)"
+	},
+	{
+		"FoodName" : "Crackers, standard snack-type, regular"
+	},
+	{
+		"FoodName" : "Crackers, whole-wheat"
+	},
+	{
+		"FoodName" : "Cranberries, dried, sweetened"
+	},
+	{
+		"FoodName" : "Cranberries, raw"
+	},
+	{
+		"FoodName" : "Cranberry juice, unsweetened"
+	},
+	{
+		"FoodName" : "Cranberry sauce, canned, sweetened"
+	},
+	{
+		"FoodName" : "Crayfish, wild, cooked, moist heat"
+	},
+	{
+		"FoodName" : "Cream puff, eclair, custard or cream filled, iced"
+	},
+	{
+		"FoodName" : "Cream, sour, reduced fat, cultured"
+	},
+	{
+		"FoodName" : "Cream, whipped, cream topping, pressurized"
+	},
+	{
+		"FoodName" : "Creamy dressing, made with sour cream and\/or buttermilk and oil, reduced calorie"
+	},
+	{
+		"FoodName" : "Creamy dressing, made with sour cream and\/or buttermilk and oil, reduced calorie, fat-free"
+	},
+	{
+		"FoodName" : "Cress, garden, boiled"
+	},
+	{
+		"FoodName" : "Cress, garden, raw"
+	},
+	{
+		"FoodName" : "Croaker, Atlantic, raw"
+	},
+	{
+		"FoodName" : "Croissants, butter"
+	},
+	{
+		"FoodName" : "Croissants, cheese"
+	},
+	{
+		"FoodName" : "Croutons, seasoned"
+	},
+	{
+		"FoodName" : "Cucumber, peeled, raw"
+	},
+	{
+		"FoodName" : "Cucumber, with peel, raw"
+	},
+	{
+		"FoodName" : "Currants, red and white, raw"
+	},
+	{
+		"FoodName" : "Currants, zante, dried"
+	},
+	{
+		"FoodName" : "Dandelion greens, boiled"
+	},
+	{
+		"FoodName" : "Dandelion greens, raw"
+	},
+	{
+		"FoodName" : "Danish pastry, cheese"
+	},
+	{
+		"FoodName" : "Dates, deglet noor"
+	},
+	{
+		"FoodName" : "Dip, bean, original flavor"
+	},
+	{
+		"FoodName" : "Dip, salsa con queso, cheese and salsa- medium"
+	},
+	{
+		"FoodName" : "Doughnuts, cake-type, chocolate-coated or frosted"
+	},
+	{
+		"FoodName" : "Doughnuts, french crullers, glazed"
+	},
+	{
+		"FoodName" : "Doughnuts, yeast-leavened, with creme filling"
+	},
+	{
+		"FoodName" : "Doughnuts, yeast-leavened, with jelly filling"
+	},
+	{
+		"FoodName" : "Dove, cooked (includes squab)"
+	},
+	{
+		"FoodName" : "Dressing, honey mustard, fat-free"
+	},
+	{
+		"FoodName" : "Drumstick leaves, boiled"
+	},
+	{
+		"FoodName" : "Duck, meat and skin, roasted"
+	},
+	{
+		"FoodName" : "Duck, meat only, roasted"
+	},
+	{
+		"FoodName" : "Dulce de Leche"
+	},
+	{
+		"FoodName" : "Edamame, frozen, prepared"
+	},
+	{
+		"FoodName" : "Eel, raw"
+	},
+	{
+		"FoodName" : "Egg substitute, powder"
+	},
+	{
+		"FoodName" : "Egg, duck, fresh"
+	},
+	{
+		"FoodName" : "Egg, fried"
+	},
+	{
+		"FoodName" : "Egg, goose, fresh"
+	},
+	{
+		"FoodName" : "Egg, hard-boiled"
+	},
+	{
+		"FoodName" : "Egg, omelet"
+	},
+	{
+		"FoodName" : "Egg, poached"
+	},
+	{
+		"FoodName" : "Egg, quail, fresh"
+	},
+	{
+		"FoodName" : "Egg, scrambled"
+	},
+	{
+		"FoodName" : "Egg, white, fresh"
+	},
+	{
+		"FoodName" : "Egg, yolk, fresh"
+	},
+	{
+		"FoodName" : "Eggnog"
+	},
+	{
+		"FoodName" : "Eggplant, boiled"
+	},
+	{
+		"FoodName" : "Eggplant, pickled"
+	},
+	{
+		"FoodName" : "Eggplant, raw"
+	},
+	{
+		"FoodName" : "Endive, raw"
+	},
+	{
+		"FoodName" : "English muffins, mixed-grain (includes granola)"
+	},
+	{
+		"FoodName" : "English muffins, raisin-cinnamon (includes apple-cinnamon)"
+	},
+	{
+		"FoodName" : "English muffins, whole-wheat"
+	},
+	{
+		"FoodName" : "Escarole, boiled"
+	},
+	{
+		"FoodName" : "FRITOLAY, SUNCHIPS, Multigrain Snack"
+	},
+	{
+		"FoodName" : "Fat free ice cream, no sugar added, flavors other than chocolate"
+	},
+	{
+		"FoodName" : "Fat, beef tallow"
+	},
+	{
+		"FoodName" : "Fat, chicken"
+	},
+	{
+		"FoodName" : "Fat, duck"
+	},
+	{
+		"FoodName" : "Fat, mutton tallow"
+	},
+	{
+		"FoodName" : "Fat, turkey"
+	},
+	{
+		"FoodName" : "Fennel, bulb, raw"
+	},
+	{
+		"FoodName" : "Figs, canned, in syrup"
+	},
+	{
+		"FoodName" : "Figs, dried, uncooked"
+	},
+	{
+		"FoodName" : "Figs, raw"
+	},
+	{
+		"FoodName" : "Fish broth"
+	},
+	{
+		"FoodName" : "Fish sandwich, with tartar sauce and cheese"
+	},
+	{
+		"FoodName" : "Fish sticks, prepared"
+	},
+	{
+		"FoodName" : "Focaccia, Italian flatbread"
+	},
+	{
+		"FoodName" : "Frankfurter, meatless"
+	},
+	{
+		"FoodName" : "French toast sticks"
+	},
+	{
+		"FoodName" : "Fried Chicken, Breast"
+	},
+	{
+		"FoodName" : "Fried Chicken, Drumstick"
+	},
+	{
+		"FoodName" : "Fried Chicken, Thigh"
+	},
+	{
+		"FoodName" : "Fried Chicken, Wing"
+	},
+	{
+		"FoodName" : "Frog legs, raw"
+	},
+	{
+		"FoodName" : "Frozen yogurts, chocolate"
+	},
+	{
+		"FoodName" : "Frozen yogurts, vanilla, soft-serve"
+	},
+	{
+		"FoodName" : "Fruit juice smoothie, BOLTHOUSE FARMS, GREEN GOODNESS"
+	},
+	{
+		"FoodName" : "Fruit juice smoothie, BOLTHOUSE FARMS, strawberry banana"
+	},
+	{
+		"FoodName" : "Fruit juice smoothie, NAKED JUICE, GREEN MACHINE"
+	},
+	{
+		"FoodName" : "Fruit juice smoothie, NAKED JUICE, strawberry banana"
+	},
+	{
+		"FoodName" : "Fruit juice smoothie, ODWALLA, ORIGINAL SUPERFOOD"
+	},
+	{
+		"FoodName" : "Fruit juice smoothie, ODWALLA, strawberry banana"
+	},
+	{
+		"FoodName" : "Fruit salad, (peach and pear and apricot and pineapple and cherry), canned, in syrup"
+	},
+	{
+		"FoodName" : "GENERAL MILLS, CHEX MIX"
+	},
+	{
+		"FoodName" : "Game meat, bison, separable lean only, roasted"
+	},
+	{
+		"FoodName" : "Game meat, boar, wild, roasted"
+	},
+	{
+		"FoodName" : "Game meat, deer, ground, pan-broiled"
+	},
+	{
+		"FoodName" : "Game meat, deer, shoulder clod, separable lean only, 3-5 lb roast, braised"
+	},
+	{
+		"FoodName" : "Game meat, goat, roasted"
+	},
+	{
+		"FoodName" : "Game meat, moose, roasted"
+	},
+	{
+		"FoodName" : "Game meat, rabbit, composite of cuts, stewed"
+	},
+	{
+		"FoodName" : "Game meat, rabbit, wild, stewed"
+	},
+	{
+		"FoodName" : "Garlic bread, frozen"
+	},
+	{
+		"FoodName" : "Garlic, raw"
+	},
+	{
+		"FoodName" : "Gatorade, G performance O 2, ready-to-drink."
+	},
+	{
+		"FoodName" : "Ginger root, pickled, canned, with artificial sweetener"
+	},
+	{
+		"FoodName" : "Ginger root, raw"
+	},
+	{
+		"FoodName" : "Glaceau Vitamin Water, Revive Fruit Punch, ortified with vitamins C, B3, B5, B6, B12,  potas,  Mg,  Ca MS 8\/6\/15"
+	},
+	{
+		"FoodName" : "Goose, meat and skin, roasted"
+	},
+	{
+		"FoodName" : "Granola bar, fruit-filled, nonfat"
+	},
+	{
+		"FoodName" : "Granola bars, hard"
+	},
+	{
+		"FoodName" : "Granola bars, soft, coated, milk chocolate coating, peanut butter"
+	},
+	{
+		"FoodName" : "Granola bars, soft, uncoated, chocolate chip"
+	},
+	{
+		"FoodName" : "Grape juice, canned or bottled, unsweetened"
+	},
+	{
+		"FoodName" : "Grape leaves, raw"
+	},
+	{
+		"FoodName" : "Grapefruit juice, white, raw"
+	},
+	{
+		"FoodName" : "Grapefruit, raw, pink and red and white, all areas"
+	},
+	{
+		"FoodName" : "Grapes, american type (slip skin), raw"
+	},
+	{
+		"FoodName" : "Grapes, canned, thompson seedless, in syrup"
+	},
+	{
+		"FoodName" : "Grapes, red or green (European type, raw"
+	},
+	{
+		"FoodName" : "Gravy, beef, canned"
+	},
+	{
+		"FoodName" : "Gravy, chicken, canned or bottled"
+	},
+	{
+		"FoodName" : "Gravy, turkey, canned"
+	},
+	{
+		"FoodName" : "Ground turkey, cooked"
+	},
+	{
+		"FoodName" : "Guanabana nectar, canned"
+	},
+	{
+		"FoodName" : "Guava nectar, with sucralose, canned"
+	},
+	{
+		"FoodName" : "Guava sauce, cooked"
+	},
+	{
+		"FoodName" : "Guavas, common, raw"
+	},
+	{
+		"FoodName" : "HERSHEY'S SKOR Toffee Bar"
+	},
+	{
+		"FoodName" : "HERSHEY, REESESTICKS crispy wafers, peanut butter, milk chocolate"
+	},
+	{
+		"FoodName" : "HERSHEYS, PAYDAY Bar"
+	},
+	{
+		"FoodName" : "Haddock, smoked"
+	},
+	{
+		"FoodName" : "Halibut, Atlantic and Pacific, raw"
+	},
+	{
+		"FoodName" : "Hamburger; single, regular patty; with condiments"
+	},
+	{
+		"FoodName" : "Hearts of palm, raw"
+	},
+	{
+		"FoodName" : "Hi-C Flashin' Fruit Punch"
+	},
+	{
+		"FoodName" : "Honey"
+	},
+	{
+		"FoodName" : "Hummus, home prepared"
+	},
+	{
+		"FoodName" : "Hush puppies"
+	},
+	{
+		"FoodName" : "Ice cream bar, covered with chocolate and nuts"
+	},
+	{
+		"FoodName" : "Ice cream cone, chocolate covered, with nuts, flavors other than chocolate"
+	},
+	{
+		"FoodName" : "Ice cream cones, cake or wafer-type"
+	},
+	{
+		"FoodName" : "Ice cream cones, sugar, rolled-type"
+	},
+	{
+		"FoodName" : "Ice cream cookie sandwich"
+	},
+	{
+		"FoodName" : "Ice cream sandwich"
+	},
+	{
+		"FoodName" : "Ice cream sundae cone"
+	},
+	{
+		"FoodName" : "Ice cream, bar or stick, chocolate covered"
+	},
+	{
+		"FoodName" : "Ice cream, light, soft serve, chocolate"
+	},
+	{
+		"FoodName" : "Ice cream, lowfat, no sugar added, cone, added peanuts and chocolate sauce"
+	},
+	{
+		"FoodName" : "Ice cream, soft serve, chocolate"
+	},
+	{
+		"FoodName" : "Ice creams, chocolate"
+	},
+	{
+		"FoodName" : "Ice creams, vanilla"
+	},
+	{
+		"FoodName" : "Imitation cheese, american or cheddar, low cholesterol"
+	},
+	{
+		"FoodName" : "Italian, lasagna with meat"
+	},
+	{
+		"FoodName" : "Jams and preserves"
+	},
+	{
+		"FoodName" : "Jams and preserves, apricot"
+	},
+	{
+		"FoodName" : "Jams, preserves, marmalades, sweetened with fruit juice"
+	},
+	{
+		"FoodName" : "Jellies"
+	},
+	{
+		"FoodName" : "Jellybeans"
+	},
+	{
+		"FoodName" : "Jerusalem-artichokes, raw"
+	},
+	{
+		"FoodName" : "Jute, potherb, boiled"
+	},
+	{
+		"FoodName" : "KELLOGG'S, NUTRI-GRAIN Cereal Bars, fruit"
+	},
+	{
+		"FoodName" : "KELLOGG, KELLOGG'S RICE KRISPIES TREATS Squares"
+	},
+	{
+		"FoodName" : "KIT KAT Wafer Bar"
+	},
+	{
+		"FoodName" : "KRAFT, CORNNUTS"
+	},
+	{
+		"FoodName" : "Kale, boiled"
+	},
+	{
+		"FoodName" : "Kefir, lowfat, LIFEWAY"
+	},
+	{
+		"FoodName" : "Kefir, lowfat, strawberry, LIFEWAY"
+	},
+	{
+		"FoodName" : "Kiwifruit, green, raw"
+	},
+	{
+		"FoodName" : "Kohlrabi, boiled"
+	},
+	{
+		"FoodName" : "Kohlrabi, raw"
+	},
+	{
+		"FoodName" : "Kumquats, raw"
+	},
+	{
+		"FoodName" : "LUNA BAR, NUTZ OVER CHOCOLATE"
+	},
+	{
+		"FoodName" : "Lamb, cubed for stew or kabob (leg and shoulder), separable lean only, trimmed to 1\/4\" fat, braised"
+	},
+	{
+		"FoodName" : "Lamb, ground, broiled"
+	},
+	{
+		"FoodName" : "Lambsquarters, boiled"
+	},
+	{
+		"FoodName" : "Lard"
+	},
+	{
+		"FoodName" : "Latino, empanadas, beef, prepared"
+	},
+	{
+		"FoodName" : "Latino, pupusas con queso (pupusas, cheese)"
+	},
+	{
+		"FoodName" : "Latino, pupusas del cerdo (pupusas, pork)"
+	},
+	{
+		"FoodName" : "Latino, tamale, corn"
+	},
+	{
+		"FoodName" : "Latino, tamale, pork"
+	},
+	{
+		"FoodName" : "Leeks, (bulb and lower leaf-portion), raw"
+	},
+	{
+		"FoodName" : "Lemon juice from concentrate, canned or bottled"
+	},
+	{
+		"FoodName" : "Lemon juice, raw"
+	},
+	{
+		"FoodName" : "Lemons, raw, without peel"
+	},
+	{
+		"FoodName" : "Lentils, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Lentils, raw"
+	},
+	{
+		"FoodName" : "Lettuce, butterhead (includes boston and bibb types), raw"
+	},
+	{
+		"FoodName" : "Lettuce, cos or romaine, raw"
+	},
+	{
+		"FoodName" : "Lettuce, green leaf, raw"
+	},
+	{
+		"FoodName" : "Lettuce, iceberg (includes crisphead types), raw"
+	},
+	{
+		"FoodName" : "Light ice cream, Creamsicle"
+	},
+	{
+		"FoodName" : "Lima beans, immature seeds, boiled"
+	},
+	{
+		"FoodName" : "Lima beans, immature seeds, canned"
+	},
+	{
+		"FoodName" : "Lima beans, large, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Lime juice, canned or bottled, unsweetened"
+	},
+	{
+		"FoodName" : "Lime juice, raw"
+	},
+	{
+		"FoodName" : "Limes, raw"
+	},
+	{
+		"FoodName" : "Litchis, dried"
+	},
+	{
+		"FoodName" : "Litchis, raw"
+	},
+	{
+		"FoodName" : "Lobster, northern, cooked, moist heat"
+	},
+	{
+		"FoodName" : "Loganberries, frozen"
+	},
+	{
+		"FoodName" : "Lotus root, boiled"
+	},
+	{
+		"FoodName" : "Luncheon slices, meatless"
+	},
+	{
+		"FoodName" : "M&M MARS, COMBOS Snacks Cheddar Cheese Pretzel"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, 3 MUSKETEERS Bar"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, M&M's Milk Chocolate Candies"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, MARS Almond Bar"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, MILKY WAY Bar"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, MILKY WAY Midnight Bar"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, SKITTLES Original Bite Size Candies"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, SNICKERS Bar"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, STARBURST Fruit Chews, Original fruits"
+	},
+	{
+		"FoodName" : "MARS SNACKFOOD US, TWIX Caramel Cookie Bars"
+	},
+	{
+		"FoodName" : "MOUNDS Candy Bar"
+	},
+	{
+		"FoodName" : "MR. GOODBAR Chocolate Bar"
+	},
+	{
+		"FoodName" : "Mackerel, Atlantic, raw"
+	},
+	{
+		"FoodName" : "Mango nectar, canned"
+	},
+	{
+		"FoodName" : "Mango, dried, sweetened"
+	},
+	{
+		"FoodName" : "Mangos, raw"
+	},
+	{
+		"FoodName" : "Maraschino cherries, canned"
+	},
+	{
+		"FoodName" : "Margarine, regular, 80% fat, composite, stick"
+	},
+	{
+		"FoodName" : "Margarine, regular, 80% fat, composite, tub"
+	},
+	{
+		"FoodName" : "Margarine-like, vegetable oil spread, 20% fat"
+	},
+	{
+		"FoodName" : "Margarine-like, vegetable oil spread, 60% fat, stick"
+	},
+	{
+		"FoodName" : "Margarine-like, vegetable oil spread, fat-free, tub"
+	},
+	{
+		"FoodName" : "Margarine-like, vegetable oil spread, stick or tub, sweetened"
+	},
+	{
+		"FoodName" : "Marmalade, orange"
+	},
+	{
+		"FoodName" : "Marshmallows"
+	},
+	{
+		"FoodName" : "Mayonnaise, made with tofu"
+	},
+	{
+		"FoodName" : "Mayonnaise, reduced fat, with olive oil"
+	},
+	{
+		"FoodName" : "Mayonnaise, reduced-calorie or diet, cholesterol-free"
+	},
+	{
+		"FoodName" : "Meatballs, meatless"
+	},
+	{
+		"FoodName" : "Melons, cantaloupe, raw"
+	},
+	{
+		"FoodName" : "Melons, casaba, raw"
+	},
+	{
+		"FoodName" : "Melons, honeydew, raw"
+	},
+	{
+		"FoodName" : "Mexican, refried beans"
+	},
+	{
+		"FoodName" : "Mexican, spanish rice"
+	},
+	{
+		"FoodName" : "Milk chocolate coated peanuts"
+	},
+	{
+		"FoodName" : "Milk chocolate coated raisins"
+	},
+	{
+		"FoodName" : "Milk chocolate"
+	},
+	{
+		"FoodName" : "Milk chocolate, with almonds"
+	},
+	{
+		"FoodName" : "Milk chocolate, with rice cereal"
+	},
+	{
+		"FoodName" : "Milk dessert bar, frozen, made from lowfat milk"
+	},
+	{
+		"FoodName" : "Milk, buttermilk, fluid"
+	},
+	{
+		"FoodName" : "Milk, buttermilk, fluid, cultured, reduced fat"
+	},
+	{
+		"FoodName" : "Milk, chocolate, lowfat, reduced sugar"
+	},
+	{
+		"FoodName" : "Milk, fluid, nonfat, calcium fortified (fat free or skim)"
+	},
+	{
+		"FoodName" : "Milk, human, mature, fluid"
+	},
+	{
+		"FoodName" : "Milk, imitation, non-soy"
+	},
+	{
+		"FoodName" : "Millet, puffed"
+	},
+	{
+		"FoodName" : "Minute Maid, Lemonade"
+	},
+	{
+		"FoodName" : "Miso"
+	},
+	{
+		"FoodName" : "Molasses"
+	},
+	{
+		"FoodName" : "Muffins, blueberry"
+	},
+	{
+		"FoodName" : "Muffins, corn"
+	},
+	{
+		"FoodName" : "Muffins, oat bran"
+	},
+	{
+		"FoodName" : "Mulberries, raw"
+	},
+	{
+		"FoodName" : "Mullet, striped, raw"
+	},
+	{
+		"FoodName" : "Mung beans, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Mung beans, mature seeds, sprouted, boiled"
+	},
+	{
+		"FoodName" : "Mung beans, mature seeds, sprouted, raw"
+	},
+	{
+		"FoodName" : "Mungo beans, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Mushrooms, canned"
+	},
+	{
+		"FoodName" : "Mushrooms, shiitake, cooked"
+	},
+	{
+		"FoodName" : "Mushrooms, shiitake, dried"
+	},
+	{
+		"FoodName" : "Mushrooms, white, boiled"
+	},
+	{
+		"FoodName" : "Mussel, blue, raw"
+	},
+	{
+		"FoodName" : "Mustard greens, boiled"
+	},
+	{
+		"FoodName" : "Mustard greens, raw"
+	},
+	{
+		"FoodName" : "NESTLE, 100 GRAND Bar"
+	},
+	{
+		"FoodName" : "NESTLE, BABY RUTH Bar"
+	},
+	{
+		"FoodName" : "NESTLE, BUTTERFINGER Bar"
+	},
+	{
+		"FoodName" : "NUTRI-GRAIN FRUIT AND NUT BAR"
+	},
+	{
+		"FoodName" : "Nachos, with cheese"
+	},
+	{
+		"FoodName" : "Natto"
+	},
+	{
+		"FoodName" : "Nectarines, raw"
+	},
+	{
+		"FoodName" : "Noodles, chinese, cellophane or long rice (mung beans), dehydrated"
+	},
+	{
+		"FoodName" : "Noodles, egg, unenriched, cooked"
+	},
+	{
+		"FoodName" : "Noodles, flat, crunchy, Chinese restaurant"
+	},
+	{
+		"FoodName" : "Nopales, cooked"
+	},
+	{
+		"FoodName" : "Nopales, raw"
+	},
+	{
+		"FoodName" : "Nuts, almond butter"
+	},
+	{
+		"FoodName" : "Nuts, almonds"
+	},
+	{
+		"FoodName" : "Nuts, almonds, blanched"
+	},
+	{
+		"FoodName" : "Nuts, brazilnuts, dried, unblanched"
+	},
+	{
+		"FoodName" : "Nuts, cashew butter"
+	},
+	{
+		"FoodName" : "Nuts, chestnuts, european, roasted"
+	},
+	{
+		"FoodName" : "Nuts, coconut cream, canned, sweetened"
+	},
+	{
+		"FoodName" : "Nuts, coconut meat, dried (desiccated), not sweetened"
+	},
+	{
+		"FoodName" : "Nuts, coconut meat, dried (desiccated), sweetened, shredded"
+	},
+	{
+		"FoodName" : "Nuts, coconut meat, raw"
+	},
+	{
+		"FoodName" : "Nuts, coconut milk, raw (liquid expressed from grated meat and water)"
+	},
+	{
+		"FoodName" : "Nuts, coconut water (liquid from coconuts)"
+	},
+	{
+		"FoodName" : "Nuts, hazelnuts or filberts"
+	},
+	{
+		"FoodName" : "Nuts, pecans"
+	},
+	{
+		"FoodName" : "Nuts, pine nuts, dried"
+	},
+	{
+		"FoodName" : "Nuts, walnuts, english"
+	},
+	{
+		"FoodName" : "OCEAN SPRAY, Cran-Energy, Cranberry Energy Juice Drink"
+	},
+	{
+		"FoodName" : "OVALTINE, Classic Malt powder"
+	},
+	{
+		"FoodName" : "Oat bran, raw"
+	},
+	{
+		"FoodName" : "Octopus, common, cooked, moist heat"
+	},
+	{
+		"FoodName" : "Oil, PAM cooking spray, original"
+	},
+	{
+		"FoodName" : "Oil, almond"
+	},
+	{
+		"FoodName" : "Oil, canola"
+	},
+	{
+		"FoodName" : "Oil, coconut"
+	},
+	{
+		"FoodName" : "Oil, corn and canola"
+	},
+	{
+		"FoodName" : "Oil, corn, industrial and retail, all purpose salad or cooking"
+	},
+	{
+		"FoodName" : "Oil, corn, peanut, and olive"
+	},
+	{
+		"FoodName" : "Oil, cottonseed, salad or cooking"
+	},
+	{
+		"FoodName" : "Oil, flaxseed, cold pressed"
+	},
+	{
+		"FoodName" : "Oil, industrial, coconut, confection fat, typical basis for ice cream coatings"
+	},
+	{
+		"FoodName" : "Oil, industrial, soy ( partially hydrogenated), all purpose"
+	},
+	{
+		"FoodName" : "Oil, olive, salad or cooking"
+	},
+	{
+		"FoodName" : "Oil, peanut, salad or cooking"
+	},
+	{
+		"FoodName" : "Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)"
+	},
+	{
+		"FoodName" : "Oil, sesame, salad or cooking"
+	},
+	{
+		"FoodName" : "Oil, soybean, salad or cooking"
+	},
+	{
+		"FoodName" : "Oil, sunflower, linoleic, (approx. 65%)"
+	},
+	{
+		"FoodName" : "Oil, walnut"
+	},
+	{
+		"FoodName" : "Oil, wheat germ"
+	},
+	{
+		"FoodName" : "Okra, boiled"
+	},
+	{
+		"FoodName" : "Okra, frozen, unprepared"
+	},
+	{
+		"FoodName" : "Okra, raw"
+	},
+	{
+		"FoodName" : "Olives, pickled, canned or bottled, green"
+	},
+	{
+		"FoodName" : "Olives, ripe, canned (small-extra large)"
+	},
+	{
+		"FoodName" : "Onion rings, breaded and fried"
+	},
+	{
+		"FoodName" : "Onion rings, breaded, par fried, prepared, heated in oven"
+	},
+	{
+		"FoodName" : "Onions, boiled"
+	},
+	{
+		"FoodName" : "Onions, raw"
+	},
+	{
+		"FoodName" : "Onions, spring or scallions (includes tops and bulb), raw"
+	},
+	{
+		"FoodName" : "Onions, young green, tops only"
+	},
+	{
+		"FoodName" : "Orange juice, canned, unsweetened"
+	},
+	{
+		"FoodName" : "Orange juice, chilled, includes from concentrate"
+	},
+	{
+		"FoodName" : "Orange juice, light, No pulp"
+	},
+	{
+		"FoodName" : "Orange juice, raw"
+	},
+	{
+		"FoodName" : "Oranges, raw"
+	},
+	{
+		"FoodName" : "Oriental mix, rice-based"
+	},
+	{
+		"FoodName" : "Ostrich, ground, pan-broiled"
+	},
+	{
+		"FoodName" : "Oyster, eastern, canned"
+	},
+	{
+		"FoodName" : "Oyster, eastern, wild, raw"
+	},
+	{
+		"FoodName" : "POWER BAR, chocolate"
+	},
+	{
+		"FoodName" : "POWERADE, Zero, Mixed Berry"
+	},
+	{
+		"FoodName" : "Pancakes, gluten-free"
+	},
+	{
+		"FoodName" : "Pancakes, plain, reduced fat"
+	},
+	{
+		"FoodName" : "Papad"
+	},
+	{
+		"FoodName" : "Papaya nectar, canned"
+	},
+	{
+		"FoodName" : "Papayas, raw"
+	},
+	{
+		"FoodName" : "Parmesan cheese topping, fat free"
+	},
+	{
+		"FoodName" : "Parsley, fresh"
+	},
+	{
+		"FoodName" : "Parsnips, boiled"
+	},
+	{
+		"FoodName" : "Passion-fruit juice, purple, raw"
+	},
+	{
+		"FoodName" : "Passion-fruit juice, yellow, raw"
+	},
+	{
+		"FoodName" : "Pasta, cooked, enriched"
+	},
+	{
+		"FoodName" : "Pasta, gluten-free, brown rice flour, cooked, TINKYADA"
+	},
+	{
+		"FoodName" : "Pasta, whole-wheat, cooked"
+	},
+	{
+		"FoodName" : "Peach nectar, canned"
+	},
+	{
+		"FoodName" : "Peaches, canned, in syrup"
+	},
+	{
+		"FoodName" : "Peaches, canned, in water"
+	},
+	{
+		"FoodName" : "Peaches, dried, uncooked"
+	},
+	{
+		"FoodName" : "Peaches, yellow, raw"
+	},
+	{
+		"FoodName" : "Peanut butter, chunk style"
+	},
+	{
+		"FoodName" : "Peanut butter, smooth style"
+	},
+	{
+		"FoodName" : "Peanut butter, smooth, reduced fat"
+	},
+	{
+		"FoodName" : "Peanut flour, defatted"
+	},
+	{
+		"FoodName" : "Peanuts, all types, oil-roasted"
+	},
+	{
+		"FoodName" : "Peanuts, all types, raw"
+	},
+	{
+		"FoodName" : "Pear nectar, canned"
+	},
+	{
+		"FoodName" : "Pears, asian, raw"
+	},
+	{
+		"FoodName" : "Pears, canned, in syrup"
+	},
+	{
+		"FoodName" : "Pears, canned, in water"
+	},
+	{
+		"FoodName" : "Pears, dried, uncooked"
+	},
+	{
+		"FoodName" : "Pears, raw"
+	},
+	{
+		"FoodName" : "Peas and carrots, canned"
+	},
+	{
+		"FoodName" : "Peas and carrots, frozen, boiled"
+	},
+	{
+		"FoodName" : "Peas and onions, frozen, boiled"
+	},
+	{
+		"FoodName" : "Peas, edible-podded, boiled"
+	},
+	{
+		"FoodName" : "Peas, edible-podded, raw"
+	},
+	{
+		"FoodName" : "Peas, green, boiled"
+	},
+	{
+		"FoodName" : "Peas, green, canned"
+	},
+	{
+		"FoodName" : "Peas, green, raw"
+	},
+	{
+		"FoodName" : "Peas, green, split, mature seeds, raw"
+	},
+	{
+		"FoodName" : "Peas, roasted, wasabi-flavored"
+	},
+	{
+		"FoodName" : "Peas, split, mature seeds, boiled"
+	},
+	{
+		"FoodName" : "Pectin, liquid"
+	},
+	{
+		"FoodName" : "Pepper, banana, raw"
+	},
+	{
+		"FoodName" : "Pepperoni, beef and pork, sliced"
+	},
+	{
+		"FoodName" : "Peppers, hot chile, sun-dried"
+	},
+	{
+		"FoodName" : "Peppers, hot chili, green, canned, pods, excluding seeds"
+	},
+	{
+		"FoodName" : "Peppers, hot chili, green, raw"
+	},
+	{
+		"FoodName" : "Peppers, hot chili, red, canned, excluding seeds"
+	},
+	{
+		"FoodName" : "Peppers, hot chili, red, raw"
+	},
+	{
+		"FoodName" : "Peppers, hot pickled, canned"
+	},
+	{
+		"FoodName" : "Peppers, jalapeno, raw"
+	},
+	{
+		"FoodName" : "Peppers, serrano, raw"
+	},
+	{
+		"FoodName" : "Peppers, sweet, green, boiled"
+	},
+	{
+		"FoodName" : "Peppers, sweet, green, freeze-dried"
+	},
+	{
+		"FoodName" : "Peppers, sweet, green, raw"
+	},
+	{
+		"FoodName" : "Peppers, sweet, red, boiled"
+	},
+	{
+		"FoodName" : "Peppers, sweet, red, raw"
+	},
+	{
+		"FoodName" : "Perch, raw"
+	},
+	{
+		"FoodName" : "Persimmons, japanese, raw"
+	},
+	{
+		"FoodName" : "Pheasant, cooked, total edible"
+	},
+	{
+		"FoodName" : "Phyllo dough"
+	},
+	{
+		"FoodName" : "Pickle relish, sweet"
+	},
+	{
+		"FoodName" : "Pickles, chowchow, with cauliflower onion mustard, sweet"
+	},
+	{
+		"FoodName" : "Pickles, cucumber, dill or kosher dill"
+	},
+	{
+		"FoodName" : "Pickles, cucumber, sour"
+	},
+	{
+		"FoodName" : "Pie, banana cream"
+	},
+	{
+		"FoodName" : "Pie, blueberry"
+	},
+	{
+		"FoodName" : "Pie, cherry"
+	},
+	{
+		"FoodName" : "Pie, lemon meringue"
+	},
+	{
+		"FoodName" : "Pie, peach"
+	},
+	{
+		"FoodName" : "Pie, pecan"
+	},
+	{
+		"FoodName" : "Pie, pumpkin"
+	},
+	{
+		"FoodName" : "Pie, vanilla cream"
+	},
+	{
+		"FoodName" : "Pigeonpeas, immature seeds, boiled"
+	},
+	{
+		"FoodName" : "Pigeonpeas, immature seeds, raw"
+	},
+	{
+		"FoodName" : "Pike, northern, raw"
+	},
+	{
+		"FoodName" : "Pimento, canned"
+	},
+	{
+		"FoodName" : "Pineapple juice, canned or bottled, unsweetened, with added ascorbic acid"
+	},
+	{
+		"FoodName" : "Pineapple, canned, in syrup"
+	},
+	{
+		"FoodName" : "Pineapple, canned, in water"
+	},
+	{
+		"FoodName" : "Pineapple, raw, all varieties"
+	},
+	{
+		"FoodName" : "Pita chips"
+	},
+	{
+		"FoodName" : "Pizza, cheese topping, regular crust"
+	},
+	{
+		"FoodName" : "Pizza, meat and vegetable topping, regular crust"
+	},
+	{
+		"FoodName" : "Pizza, pepperoni topping, regular crust"
+	},
+	{
+		"FoodName" : "Plantain chips"
+	},
+	{
+		"FoodName" : "Plantains, cooked"
+	},
+	{
+		"FoodName" : "Plantains, raw"
+	},
+	{
+		"FoodName" : "Plums, canned, purple, in syrup"
+	},
+	{
+		"FoodName" : "Plums, canned, purple, in water"
+	},
+	{
+		"FoodName" : "Plums, dried (prunes), uncooked"
+	},
+	{
+		"FoodName" : "Plums, raw"
+	},
+	{
+		"FoodName" : "Poi"
+	},
+	{
+		"FoodName" : "Pokeberry shoots, (poke), boiled"
+	},
+	{
+		"FoodName" : "Pomegranate juice, bottled"
+	},
+	{
+		"FoodName" : "Pomegranates, raw"
+	},
+	{
+		"FoodName" : "Pompano, florida, raw"
+	},
+	{
+		"FoodName" : "Popcorn, air-popped"
+	},
+	{
+		"FoodName" : "Popcorn, cakes"
+	},
+	{
+		"FoodName" : "Popcorn, home-prepared, oil-popped"
+	},
+	{
+		"FoodName" : "Popcorn, microwave, low fat"
+	},
+	{
+		"FoodName" : "Popcorn, microwave, regular (butter) flavor, made with palm oil"
+	},
+	{
+		"FoodName" : "Pork skins"
+	},
+	{
+		"FoodName" : "Pork, bacon, pre-sliced, pan-fried"
+	},
+	{
+		"FoodName" : "Pork, ground, cooked"
+	},
+	{
+		"FoodName" : "Pork, ham, boneless, extra lean and regular, unheated"
+	},
+	{
+		"FoodName" : "Pork, ham, boneless, regular (approximately 11% fat), roasted"
+	},
+	{
+		"FoodName" : "Pork, loin, whole, separable lean and fat, broiled"
+	},
+	{
+		"FoodName" : "Pork, loin, whole, separable lean only, broiled"
+	},
+	{
+		"FoodName" : "Pork, separable fat, cooked"
+	},
+	{
+		"FoodName" : "Pork, spareribs, separable lean and fat, braised"
+	},
+	{
+		"FoodName" : "Potato chips"
+	},
+	{
+		"FoodName" : "Potato chips, fat free"
+	},
+	{
+		"FoodName" : "Potato flour"
+	},
+	{
+		"FoodName" : "Potato puffs, frozen, oven-heated"
+	},
+	{
+		"FoodName" : "Potato sticks"
+	},
+	{
+		"FoodName" : "Potatoes, baked, flesh"
+	},
+	{
+		"FoodName" : "Potatoes, baked, flesh and skin"
+	},
+	{
+		"FoodName" : "Potatoes, baked, skin"
+	},
+	{
+		"FoodName" : "Potatoes, boiled, cooked in skin, flesh"
+	},
+	{
+		"FoodName" : "Potatoes, boiled, cooked without skin, flesh"
+	},
+	{
+		"FoodName" : "Potatoes, french fried, all types, salt added in processing, home-prepared, oven heated"
+	},
+	{
+		"FoodName" : "Potatoes, frozen, whole, unprepared"
+	},
+	{
+		"FoodName" : "Potatoes, hash brown, home-prepared"
+	},
+	{
+		"FoodName" : "Potatoes, hash brown, prepared, pan fried in canola oil"
+	},
+	{
+		"FoodName" : "Potatoes, hash browns, round pieces or patty"
+	},
+	{
+		"FoodName" : "Potatoes, mashed, home-prepared, whole milk added"
+	},
+	{
+		"FoodName" : "Pretzel, hard chocolate coated"
+	},
+	{
+		"FoodName" : "Pretzels, hard"
+	},
+	{
+		"FoodName" : "Pretzels, soft"
+	},
+	{
+		"FoodName" : "Protein powder soy based"
+	},
+	{
+		"FoodName" : "Protein powder whey based"
+	},
+	{
+		"FoodName" : "Protein supplement, milk based, Muscle Milk, powder"
+	},
+	{
+		"FoodName" : "Prune juice, canned"
+	},
+	{
+		"FoodName" : "Puddings, chocolate, ready-to-eat"
+	},
+	{
+		"FoodName" : "Puddings, rice, ready-to-eat"
+	},
+	{
+		"FoodName" : "Puddings, tapioca, ready-to-eat"
+	},
+	{
+		"FoodName" : "Puddings, vanilla, ready-to-eat"
+	},
+	{
+		"FoodName" : "Puff pastry, frozen, ready-to-bake, baked"
+	},
+	{
+		"FoodName" : "Pumpkin flowers, boiled"
+	},
+	{
+		"FoodName" : "Pumpkin leaves, boiled"
+	},
+	{
+		"FoodName" : "Pumpkin, boiled"
+	},
+	{
+		"FoodName" : "Pumpkin, canned"
+	},
+	{
+		"FoodName" : "Quail, cooked, total edible"
+	},
+	{
+		"FoodName" : "Quesadilla, with chicken"
+	},
+	{
+		"FoodName" : "Quinoa, cooked"
+	},
+	{
+		"FoodName" : "REESE'S PIECES Candy"
+	},
+	{
+		"FoodName" : "REESE'S Peanut Butter Cups"
+	},
+	{
+		"FoodName" : "REESE's Fast Break, milk chocolate, peanut butter, soft nougats, candy bar"
+	},
+	{
+		"FoodName" : "ROLO Caramels in Milk Chocolate"
+	},
+	{
+		"FoodName" : "Radicchio, raw"
+	},
+	{
+		"FoodName" : "Radishes, hawaiian style, pickled"
+	},
+	{
+		"FoodName" : "Radishes, oriental, boiled"
+	},
+	{
+		"FoodName" : "Radishes, oriental, raw"
+	},
+	{
+		"FoodName" : "Radishes, raw"
+	},
+	{
+		"FoodName" : "Raisins, golden seedless"
+	},
+	{
+		"FoodName" : "Raisins, seedless"
+	},
+	{
+		"FoodName" : "Raspberries, canned, red, in syrup"
+	},
+	{
+		"FoodName" : "Raspberries, raw"
+	},
+	{
+		"FoodName" : "Reddi Wip Fat Free Whipped Topping"
+	},
+	{
+		"FoodName" : "Refried beans, canned"
+	},
+	{
+		"FoodName" : "Refried beans, canned, fat-free"
+	},
+	{
+		"FoodName" : "Rhubarb, frozen, uncooked"
+	},
+	{
+		"FoodName" : "Rhubarb, raw"
+	},
+	{
+		"FoodName" : "Rice cakes, brown rice"
+	},
+	{
+		"FoodName" : "Rice cracker brown rice"
+	},
+	{
+		"FoodName" : "Rice crackers"
+	},
+	{
+		"FoodName" : "Rice flour, white, unenriched"
+	},
+	{
+		"FoodName" : "Rice milk, unsweetened"
+	},
+	{
+		"FoodName" : "Rice noodles, cooked"
+	},
+	{
+		"FoodName" : "Rice, brown, long-grain, cooked"
+	},
+	{
+		"FoodName" : "Rice, white, glutinous, unenriched, cooked"
+	},
+	{
+		"FoodName" : "Roe, raw"
+	},
+	{
+		"FoodName" : "Rolls, dinner"
+	},
+	{
+		"FoodName" : "Rolls, hamburger or hotdog"
+	},
+	{
+		"FoodName" : "Rolls, hamburger or hotdog, mixed-grain"
+	},
+	{
+		"FoodName" : "Rutabagas, boiled"
+	},
+	{
+		"FoodName" : "Rutabagas, raw"
+	},
+	{
+		"FoodName" : "Rye flour, dark"
+	},
+	{
+		"FoodName" : "SLIM-FAST OPTIMA meal bar, milk chocolate peanut"
+	},
+	{
+		"FoodName" : "SLIMFAST, Meal replacement, High Protein Shake, 3-2-1 plan"
+	},
+	{
+		"FoodName" : "SOUTH BEACH protein bar"
+	},
+	{
+		"FoodName" : "Salad Dressing, coleslaw, reduced fat"
+	},
+	{
+		"FoodName" : "Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing"
+	},
+	{
+		"FoodName" : "Salad dressing, bacon and tomato"
+	},
+	{
+		"FoodName" : "Salad dressing, blue or roquefort cheese, commercial, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, blue or roquefort cheese, fat-free"
+	},
+	{
+		"FoodName" : "Salad dressing, blue or roquefort cheese, light"
+	},
+	{
+		"FoodName" : "Salad dressing, buttermilk, lite"
+	},
+	{
+		"FoodName" : "Salad dressing, caesar, fat-free"
+	},
+	{
+		"FoodName" : "Salad dressing, caesar, low calorie"
+	},
+	{
+		"FoodName" : "Salad dressing, caesar, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, coleslaw"
+	},
+	{
+		"FoodName" : "Salad dressing, french, commercial, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, french, fat-free"
+	},
+	{
+		"FoodName" : "Salad dressing, french, reduced fat"
+	},
+	{
+		"FoodName" : "Salad dressing, green goddess, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, home recipe, vinegar and oil"
+	},
+	{
+		"FoodName" : "Salad dressing, honey mustard, reduced calorie"
+	},
+	{
+		"FoodName" : "Salad dressing, honey mustard, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, italian, commercial, reduced fat"
+	},
+	{
+		"FoodName" : "Salad dressing, italian, commercial, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, italian, fat-free"
+	},
+	{
+		"FoodName" : "Salad dressing, mayonnaise type, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, mayonnaise, imitation, soybean"
+	},
+	{
+		"FoodName" : "Salad dressing, mayonnaise, light"
+	},
+	{
+		"FoodName" : "Salad dressing, mayonnaise, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, mayonnaise-type, light"
+	},
+	{
+		"FoodName" : "Salad dressing, peppercorn, commercial, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, poppyseed, creamy"
+	},
+	{
+		"FoodName" : "Salad dressing, ranch, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, russian"
+	},
+	{
+		"FoodName" : "Salad dressing, russian, low calorie"
+	},
+	{
+		"FoodName" : "Salad dressing, sesame seed, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, sweet and sour"
+	},
+	{
+		"FoodName" : "Salad dressing, thousand island, commercial, regular"
+	},
+	{
+		"FoodName" : "Salad dressing, thousand island, fat-free"
+	},
+	{
+		"FoodName" : "Salmon, pink, canned, total can contents"
+	},
+	{
+		"FoodName" : "Salsify, boiled"
+	},
+	{
+		"FoodName" : "Sardine, Atlantic, canned in oil, drained solids with bone"
+	},
+	{
+		"FoodName" : "Sardine, Pacific, canned in tomato sauce, drained solids with bone"
+	},
+	{
+		"FoodName" : "Sauce, barbecue"
+	},
+	{
+		"FoodName" : "Sauce, chili, peppers, hot, immature green, canned"
+	},
+	{
+		"FoodName" : "Sauce, cocktail"
+	},
+	{
+		"FoodName" : "Sauce, duck"
+	},
+	{
+		"FoodName" : "Sauce, enchilada, red, mild"
+	},
+	{
+		"FoodName" : "Sauce, fish"
+	},
+	{
+		"FoodName" : "Sauce, hoisin"
+	},
+	{
+		"FoodName" : "Sauce, homemade, white, medium"
+	},
+	{
+		"FoodName" : "Sauce, homemade, white, thick"
+	},
+	{
+		"FoodName" : "Sauce, homemade, white, thin"
+	},
+	{
+		"FoodName" : "Sauce, horseradish"
+	},
+	{
+		"FoodName" : "Sauce, oyster"
+	},
+	{
+		"FoodName" : "Sauce, pasta, spaghetti\/marinara"
+	},
+	{
+		"FoodName" : "Sauce, peanut, made from coconut, water, sugar, peanuts"
+	},
+	{
+		"FoodName" : "Sauce, peanut, made from peanut butter, water, soy sauce"
+	},
+	{
+		"FoodName" : "Sauce, pepper, TABASCO"
+	},
+	{
+		"FoodName" : "Sauce, peppers, hot, chili, mature red, canned"
+	},
+	{
+		"FoodName" : "Sauce, salsa"
+	},
+	{
+		"FoodName" : "Sauce, salsa, verde"
+	},
+	{
+		"FoodName" : "Sauce, steak, tomato based"
+	},
+	{
+		"FoodName" : "Sauce, sweet and sour"
+	},
+	{
+		"FoodName" : "Sauce, tartar"
+	},
+	{
+		"FoodName" : "Sauce, teriyaki"
+	},
+	{
+		"FoodName" : "Sauce, tomato chili sauce, bottled"
+	},
+	{
+		"FoodName" : "Sauce, worcestershire"
+	},
+	{
+		"FoodName" : "Sauerkraut, canned"
+	},
+	{
+		"FoodName" : "Sausage, Italian, pork, cooked"
+	},
+	{
+		"FoodName" : "Sausage, meatless"
+	},
+	{
+		"FoodName" : "Sausage, turkey, breakfast links, mild"
+	},
+	{
+		"FoodName" : "Scallop, (bay and sea), steamed"
+	},
+	{
+		"FoodName" : "Scup, raw"
+	},
+	{
+		"FoodName" : "Sea bass, raw"
+	},
+	{
+		"FoodName" : "Seaweed, agar, dried"
+	},
+	{
+		"FoodName" : "Seaweed, agar, raw"
+	},
+	{
+		"FoodName" : "Seaweed, irishmoss, raw"
+	},
+	{
+		"FoodName" : "Seaweed, kelp, raw"
+	},
+	{
+		"FoodName" : "Seaweed, laver, raw"
+	},
+	{
+		"FoodName" : "Seaweed, spirulina, dried"
+	},
+	{
+		"FoodName" : "Seaweed, wakame, raw"
+	},
+	{
+		"FoodName" : "Seeds, flaxseed"
+	},
+	{
+		"FoodName" : "Seeds, pumpkin and squash seed kernels, dried"
+	},
+	{
+		"FoodName" : "Seeds, pumpkin and squash seed kernels, roasted"
+	},
+	{
+		"FoodName" : "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)"
+	},
+	{
+		"FoodName" : "Seeds, sesame seed kernels, with salt added (decorticated)"
+	},
+	{
+		"FoodName" : "Seeds, sesame seeds, whole, dried"
+	},
+	{
+		"FoodName" : "Seeds, sunflower seed kernels, dried"
+	},
+	{
+		"FoodName" : "Seeds, sunflower seed kernels, oil roasted"
+	},
+	{
+		"FoodName" : "Semisweet chocolate"
+	},
+	{
+		"FoodName" : "Sesame crunch"
+	},
+	{
+		"FoodName" : "Sesame sticks, wheat-based"
+	},
+	{
+		"FoodName" : "Shad, american, raw"
+	},
+	{
+		"FoodName" : "Shake, fast food, vanilla"
+	},
+	{
+		"FoodName" : "Sherbet, orange"
+	},
+	{
+		"FoodName" : "Shortening industrial, soybean (hydrogenated) and cottonseed"
+	},
+	{
+		"FoodName" : "Shortening, industrial, soy (partially hydrogenated ) and corn for frying"
+	},
+	{
+		"FoodName" : "Shortening, vegetable, household, composite"
+	},
+	{
+		"FoodName" : "Shrimp cracker"
+	},
+	{
+		"FoodName" : "Shrimp, breaded and fried"
+	},
+	{
+		"FoodName" : "Shrimp, canned"
+	},
+	{
+		"FoodName" : "Shrimp, cooked"
+	},
+	{
+		"FoodName" : "Snacks, fruit leather, rolls"
+	},
+	{
+		"FoodName" : "Snail, raw"
+	},
+	{
+		"FoodName" : "Snapper, raw"
+	},
+	{
+		"FoodName" : "Soup, beef and vegetables, canned"
+	},
+	{
+		"FoodName" : "Soup, beef broth or bouillon canned"
+	},
+	{
+		"FoodName" : "Soup, beef stroganoff, canned, chunky style"
+	},
+	{
+		"FoodName" : "Soup, chicken and vegetable, canned"
+	},
+	{
+		"FoodName" : "Soup, chicken broth"
+	},
+	{
+		"FoodName" : "Soup, chicken rice, canned, chunky"
+	},
+	{
+		"FoodName" : "Soup, chicken vegetable with potato and cheese, chunky"
+	},
+	{
+		"FoodName" : "Soup, chicken, canned, chunky"
+	},
+	{
+		"FoodName" : "Soup, chunky beef, canned"
+	},
+	{
+		"FoodName" : "Soup, chunky chicken noodle, canned"
+	},
+	{
+		"FoodName" : "Soup, chunky vegetable, canned"
+	},
+	{
+		"FoodName" : "Soup, clam chowder, manhattan style, canned, chunky"
+	},
+	{
+		"FoodName" : "Soup, minestrone, canned, chunky"
+	},
+	{
+		"FoodName" : "Soup, pea, split with ham, canned, chunky"
+	},
+	{
+		"FoodName" : "Sour cream, fat free"
+	},
+	{
+		"FoodName" : "Sour cream, light"
+	},
+	{
+		"FoodName" : "Sour cream, reduced fat"
+	},
+	{
+		"FoodName" : "Soursop, raw"
+	},
+	{
+		"FoodName" : "Soy chips or crisps"
+	},
+	{
+		"FoodName" : "Soy flour, full-fat, raw"
+	},
+	{
+		"FoodName" : "Soy flour, low-fat"
+	},
+	{
+		"FoodName" : "Soy protein isolate"
+	},
+	{
+		"FoodName" : "Soy sauce made from hydrolyzed vegetable protein"
+	},
+	{
+		"FoodName" : "Soy sauce made from soy (tamari)"
+	},
+	{
+		"FoodName" : "Soybean, curd cheese"
+	},
+	{
+		"FoodName" : "Soybeans, mature cooked, boiled"
+	},
+	{
+		"FoodName" : "Soybeans, mature seeds, sprouted, steamed"
+	},
+	{
+		"FoodName" : "Soymilk (all flavors), nonfat, with added calcium, vitamins A and D"
+	},
+	{
+		"FoodName" : "Soymilk, chocolate, with added calcium, vitamins A and D"
+	},
+	{
+		"FoodName" : "Soymilk, original and vanilla, light, with added calcium, vitamins A and D"
+	},
+	{
+		"FoodName" : "Soymilk, original and vanilla, unfortified"
+	},
+	{
+		"FoodName" : "Soymilk, original and vanilla, with added calcium, vitamins A and D"
+	},
+	{
+		"FoodName" : "Spinach, boiled"
+	},
+	{
+		"FoodName" : "Spinach, canned"
+	},
+	{
+		"FoodName" : "Spinach, raw"
+	},
+	{
+		"FoodName" : "Squash, summer, all varieties, boiled"
+	},
+	{
+		"FoodName" : "Squash, summer, all varieties, raw"
+	},
+	{
+		"FoodName" : "Squash, summer, crookneck and straightneck, boiled"
+	},
+	{
+		"FoodName" : "Squash, summer, scallop, boiled"
+	},
+	{
+		"FoodName" : "Squash, summer, zucchini, includes skin, boiled"
+	},
+	{
+		"FoodName" : "Squash, winter, all varieties, baked"
+	},
+	{
+		"FoodName" : "Squash, winter, hubbard, boiled, mashed"
+	},
+	{
+		"FoodName" : "Squash, winter, spaghetti, boiled, or baked"
+	},
+	{
+		"FoodName" : "Squid, raw"
+	},
+	{
+		"FoodName" : "Strawberries, canned, in syrup"
+	},
+	{
+		"FoodName" : "Strawberries, raw"
+	},
+	{
+		"FoodName" : "Strudel, apple"
+	},
+	{
+		"FoodName" : "Succotash, (corn and limas), boiled"
+	},
+	{
+		"FoodName" : "Sugars, brown"
+	},
+	{
+		"FoodName" : "Sugars, granulated"
+	},
+	{
+		"FoodName" : "Sweet Potatoes, french fried, salt added in processing"
+	},
+	{
+		"FoodName" : "Sweet potato chips"
+	},
+	{
+		"FoodName" : "Sweet potato, baked in skin, flesh"
+	},
+	{
+		"FoodName" : "Sweet potato, boiled, without skin"
+	},
+	{
+		"FoodName" : "Sweet potato, candied, home-prepared"
+	},
+	{
+		"FoodName" : "Sweet rolls, cinnamon"
+	},
+	{
+		"FoodName" : "Sweetener, herbal extract powder from Stevia leaf"
+	},
+	{
+		"FoodName" : "Sweetener, syrup, agave"
+	},
+	{
+		"FoodName" : "Swordfish, raw"
+	},
+	{
+		"FoodName" : "TOBLERONE, milk chocolate with honey and almond nougat"
+	},
+	{
+		"FoodName" : "Taco shells, baked"
+	},
+	{
+		"FoodName" : "Taco with beef, cheese and lettuce, hard shell"
+	},
+	{
+		"FoodName" : "Taco with beef, cheese and lettuce, soft"
+	},
+	{
+		"FoodName" : "Taco with chicken, lettuce and cheese, soft"
+	},
+	{
+		"FoodName" : "Tamarinds, raw"
+	},
+	{
+		"FoodName" : "Tangerine juice, raw"
+	},
+	{
+		"FoodName" : "Tangerines, (mandarin oranges), canned, in juice"
+	},
+	{
+		"FoodName" : "Tangerines, (mandarin oranges), raw"
+	},
+	{
+		"FoodName" : "Taro chips"
+	},
+	{
+		"FoodName" : "Taro, cooked"
+	},
+	{
+		"FoodName" : "Tea, Oolong, brewed"
+	},
+	{
+		"FoodName" : "Tea, black, brewed"
+	},
+	{
+		"FoodName" : "Tea, green, brewed, regular"
+	},
+	{
+		"FoodName" : "Tea, herb, brewed, chamomile"
+	},
+	{
+		"FoodName" : "Tea, hibiscus, brewed"
+	},
+	{
+		"FoodName" : "Toaster Pastries, fruit, frosted (include apples, blueberry, cherry, strawberry)"
+	},
+	{
+		"FoodName" : "Tofu yogurt"
+	},
+	{
+		"FoodName" : "Tofu, fried"
+	},
+	{
+		"FoodName" : "Tofu, soft, prepared with calcium sulfate and magnesium chloride (nigari)"
+	},
+	{
+		"FoodName" : "Tomatillos, raw"
+	},
+	{
+		"FoodName" : "Tomato juice, canned"
+	},
+	{
+		"FoodName" : "Tomato products, canned, paste"
+	},
+	{
+		"FoodName" : "Tomato products, canned, puree"
+	},
+	{
+		"FoodName" : "Tomato products, canned, sauce"
+	},
+	{
+		"FoodName" : "Tomato products, canned, sauce, with onions, green peppers, and celery"
+	},
+	{
+		"FoodName" : "Tomatoes, green, raw"
+	},
+	{
+		"FoodName" : "Tomatoes, red, ripe, canned, packed in tomato juice"
+	},
+	{
+		"FoodName" : "Tomatoes, red, ripe, cooked"
+	},
+	{
+		"FoodName" : "Tomatoes, red, ripe, raw, year round average"
+	},
+	{
+		"FoodName" : "Tomatoes, sun-dried"
+	},
+	{
+		"FoodName" : "Tortilla chips, yellow"
+	},
+	{
+		"FoodName" : "Tortillas, corn"
+	},
+	{
+		"FoodName" : "Tortillas, flour, shelf stable"
+	},
+	{
+		"FoodName" : "Tortillas, whole wheat"
+	},
+	{
+		"FoodName" : "Trail mix, regular, with chocolate chips, salted nuts and seeds"
+	},
+	{
+		"FoodName" : "Trout, raw"
+	},
+	{
+		"FoodName" : "Tuna, fresh, bluefin, raw"
+	},
+	{
+		"FoodName" : "Tuna, light, canned in oil"
+	},
+	{
+		"FoodName" : "Tuna, light, canned in water"
+	},
+	{
+		"FoodName" : "Turkey breast, sliced, prepackaged"
+	},
+	{
+		"FoodName" : "Turkey, breast, from whole bird, non-enhanced, meat only, roasted"
+	},
+	{
+		"FoodName" : "Turkey, canned, meat only, with broth"
+	},
+	{
+		"FoodName" : "Turkey, whole, meat and skin, roasted"
+	},
+	{
+		"FoodName" : "Turkey, whole, meat only, roasted"
+	},
+	{
+		"FoodName" : "Turnip greens and turnips, frozen, boiled"
+	},
+	{
+		"FoodName" : "Turnip greens, boiled"
+	},
+	{
+		"FoodName" : "Turnip greens, canned"
+	},
+	{
+		"FoodName" : "Turnips, boiled"
+	},
+	{
+		"FoodName" : "Turnips, frozen, boiled"
+	},
+	{
+		"FoodName" : "Turtle, green, raw"
+	},
+	{
+		"FoodName" : "Veal, ground, broiled"
+	},
+	{
+		"FoodName" : "Veal, loin, separable lean and fat, roasted"
+	},
+	{
+		"FoodName" : "Veal, sirloin, separable lean and fat, roasted"
+	},
+	{
+		"FoodName" : "Vegetable chips, made from garden vegetables"
+	},
+	{
+		"FoodName" : "Vegetable juice cocktail, canned"
+	},
+	{
+		"FoodName" : "Vegetable juice, BOLTHOUSE FARMS, DAILY GREENS"
+	},
+	{
+		"FoodName" : "Vegetable oil, palm kernel"
+	},
+	{
+		"FoodName" : "Vegetable oil-butter spread, reduced calorie"
+	},
+	{
+		"FoodName" : "Vegetable smoothie, NAKED JUICE, KALE BLAZER"
+	},
+	{
+		"FoodName" : "Vegetables, mixed (corn, lima beans, peas, green beans, carrots) canned"
+	},
+	{
+		"FoodName" : "Vegetables, mixed, canned"
+	},
+	{
+		"FoodName" : "Vegetarian fillets"
+	},
+	{
+		"FoodName" : "Vegetarian meatloaf or patties"
+	},
+	{
+		"FoodName" : "Veggie burgers or soyburgers, unprepared"
+	},
+	{
+		"FoodName" : "Vermicelli, made from soy"
+	},
+	{
+		"FoodName" : "WHATCHAMACALLIT Candy Bar"
+	},
+	{
+		"FoodName" : "Waffle, buttermilk"
+	},
+	{
+		"FoodName" : "Waffles, chocolate chip"
+	},
+	{
+		"FoodName" : "Waffles, gluten-free"
+	},
+	{
+		"FoodName" : "Waffles, plain, ready -to-heat"
+	},
+	{
+		"FoodName" : "Waffles, whole wheat, lowfat"
+	},
+	{
+		"FoodName" : "Wasabi"
+	},
+	{
+		"FoodName" : "Water, bottled, generic"
+	},
+	{
+		"FoodName" : "Water, tap, drinking"
+	},
+	{
+		"FoodName" : "Waterchestnuts, chinese, canned"
+	},
+	{
+		"FoodName" : "Watercress, raw"
+	},
+	{
+		"FoodName" : "Watermelon, raw"
+	},
+	{
+		"FoodName" : "Waxgourd, (chinese preserving melon), boiled"
+	},
+	{
+		"FoodName" : "Wheat flour, white, all-purpose, enriched, bleached"
+	},
+	{
+		"FoodName" : "Wheat flour, whole-grain"
+	},
+	{
+		"FoodName" : "Whey, sweet, dried"
+	},
+	{
+		"FoodName" : "Whipped topping, frozen, low fat"
+	},
+	{
+		"FoodName" : "White chocolate"
+	},
+	{
+		"FoodName" : "Whitefish, smoked"
+	},
+	{
+		"FoodName" : "Wild rice, cooked"
+	},
+	{
+		"FoodName" : "Yam, boiled, or baked"
+	},
+	{
+		"FoodName" : "Yam, raw"
+	},
+	{
+		"FoodName" : "Yambean (jicama), raw"
+	},
+	{
+		"FoodName" : "Yeast extract spread"
+	},
+	{
+		"FoodName" : "Yogurt, Greek, lowfat"
+	},
+	{
+		"FoodName" : "Yogurt, Greek, nonfat"
+	},
+	{
+		"FoodName" : "Yogurt, Greek, whole milk"
+	},
+	{
+		"FoodName" : "Yogurt, plain, low fat, 12 grams protein per 8 ounce"
+	},
+	{
+		"FoodName" : "Yogurt, plain, skim milk, 13 grams protein per 8 ounce"
+	},
+	{
+		"FoodName" : "Yogurt, plain, whole milk, 8 grams protein per 8 ounce"
+	},
+	{
+		"FoodName" : "ZONE PERFECT CLASSIC CRUNCH BAR, mixed flavors"
+	}
 ]

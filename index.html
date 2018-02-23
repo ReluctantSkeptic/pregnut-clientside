@@ -2,10 +2,14 @@
 <head>
     <title>PregNut - Pregnancy Nutrition Calculator</title>
     <link type="text/css" rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="auto-complete.css">
+    <!-- <link rel="stylesheet" href="auto-complete.css"> -->
     <script type="text/javascript"  src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
     <script type="text/javascript" src="app.js"></script> 
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="EasyAutocomplete-1.3.5/jquery.easy-autocomplete.min.js"></script> 
+    <link rel="stylesheet" href="EasyAutocomplete-1.3.5/easy-autocomplete.css"> 
+
 </head>
 
 <header>
@@ -14,7 +18,6 @@
         <img class ="logo " src="" height="40" width="5"/>
         
         <a href="#" onclick="switchView('FoodCalcDash');" >FoodDash</a>
-        <a href="#" onclick= "clearToolbar();" >clear</a>
         <a href="#" onclick="switchView('TopTenDash');" >Top Foods</a>
         <a href="#" onclick="switchView('FoodList');" >List</a>
        
@@ -23,58 +26,34 @@
                    onkeydown = "if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()" >
             <input id="FoodFinderSearchButton" type="button"  onclick="filterMulti();" value="Search" >
         </div>
+
+
        </div>
 </header>
 
 
 <body onload="initViz();">
-    
- 
-    <div id="vizContainer" 
-    
-    ></div>
+     
+    <div id="vizContainer" ></div>
+   
 
+   <script>
+       
+    // Run Search Bar
+    var foodFinderInit = {
+	url: "FoodFilterOptions2.json",
+	getValue: "FoodName",
+	list: {
+        match: {	enabled: true	},
+        maxNumberOfElements: 15
+	    }
+    };
     
-    <script src="auto-complete.js"></script>
-    <script>
-   // Run Search Bar
-   var PregKnowSearch = new autoComplete({
-            selector: '#FoodFinderInput',
-            minChars: 1,
-            source: function(term, response){
-                $.getJSON('FoodFilterOptions.json', { FoodFinderInput: term }, function(data){ response(data); });
-            }
-          
-        });
+    $("#FoodFinderInput").easyAutocomplete(foodFinderInit);
+       
     </script>
-
-
-    <!-- <script>
-    
-        var tbl_toolbar = document.getElementById("toolbar-container");
-        tbl_toolbar.setAttribute("style","visibility: hidden;");
-
-    
-    </script> -->
-
-    <div class="vn_container">
-            <div class="vn_objects" > 
-                <!-- My choice: <span id="myChoice"></span> -->
-                <!-- Sheet: <span id="mySheet"></span> -->
-                JSON: <span id="myJSON"></span>
-            </div>
-        </div>
-    
 
 </body>
-
-    <script>
-    
-// tbl_toolbar = document.getElementById("toolbar-container").setAttribute("style","visibility: hidden;");
-
-
-// console.log(tbl_toolbar)
-    </script>
 
 </html>
 
