@@ -8,8 +8,8 @@ function initViz() {
     var options = {
                 hideTabs: true,
                 hideToolbar: true,
-                //width: "800px",
-                //height: "800px",
+                // width: "1200px",
+                // height: "900px",
                 //"Long Desc": "Catsup",
                 onFirstInteractive: function () {
                 workbook = viz.getWorkbook();

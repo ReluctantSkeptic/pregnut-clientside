@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>PregNut - Pregnancy Nutrition Calculator</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="auto-complete.css"> -->
+    <script type="text/javascript"  src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript" src="app.js"></script> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="EasyAutocomplete-1.3.5/jquery.easy-autocomplete.min.js"></script> 
+    <link rel="stylesheet" href="EasyAutocomplete-1.3.5/easy-autocomplete.css"> 
+
+</head>
+
+<header>
+    <div class="header  ">   
+        <img class ="logo "   src="http://www.freeiconspng.com/uploads/restaurant-menu-icon-png-28.png" height="40" width="40"/>
+        <img class ="logo " src="" height="40" width="5"/>
+        
+        <!-- <a href="#" onclick="switchView('FoodCalcDash');" >FoodDash</a> -->
+        <a href="#" onclick="switchView('TopTenDash');" >Most Nutritous Foods</a>
+        <a href="#" onclick="switchView('FoodList');" >Full List of Foods</a>
+       
+        <div  class="nutriForm">
+            <input id="FoodFinderInput"  type="text" placeholder="Search Food"
+                   onkeydown = "if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()" >
+            <input id="FoodFinderSearchButton" type="button"  onclick="filterMulti();" value="Search" >
+        </div>
+
+
+       </div>
+</header>
+
+
+<body onload="initViz();">
+     
+    <div id="vizContainer" style="height:90%;" ></div>
+   
+
+   <script>
+       
+    // Run Search Bar
+    var foodFinderInit = {
+	url: "FoodFilterOptions2.json",
+	getValue: "FoodName",
+	list: {
+        match: {	enabled: true	},
+        maxNumberOfElements: 15
+	    }
+    };
+    
+    $("#FoodFinderInput").easyAutocomplete(foodFinderInit);
+       
+    </script>
+
+</body>
+
+</html>
+
+
+
+      
+
+
+        
+        
