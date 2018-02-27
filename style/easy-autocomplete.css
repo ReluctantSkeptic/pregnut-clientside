@@ -245,7 +245,7 @@
 .easy-autocomplete-container {
   display: block;
   position: absolute;
-  width: 50%;
+  width: 100%;
   z-index: 2;
 }
 .easy-autocomplete-container ul {
