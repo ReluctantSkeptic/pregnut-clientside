@@ -1,13 +1,20 @@
-# ChangeLog
-1. Tested new autocomplete search bar
+# PregNut
+A Nerdy Moms Nutrition Calculator
+
+## Dependencies
+- [Bootstrap 4.*](http://getbootstrap.com/)
+- autocomplete-js
+- Tableau API
+
+## ChangeLog
+- [x] Tested new autocomplete search bar
+- [x] Made responsive using bootstrap]
+- [x] Make search bar automatically open Finder page
+- [x] Cleaned up database values (maybe group by first two csv items)
 
 
-# Future Goals
-1. Make responsive to mobile
-2. Make search bar automatically open Finder page
-3. Clean up database values (maybe group by first two csv items)
-4. Add a worst foods database column
-5. Add a worst foods page
-6. Add a box in the finder with warns if selected food is unhealthy
-
-
+## Future Goals
+- [ ] Add a worst foods database column
+- [ ] Add a worst foods page
+- [ ] Add a warning the finder if selected food is unhealthy
+- [ ] Add about page with references and use guidelines
