@@ -1,6 +1,6 @@
 ﻿[
 	{
-		"FoodName" : "Abalone, Raw"
+		"FoodName" : "Abalone"
 	},
 	{
 		"FoodName" : "Alfalfa seeds, Sprouted, Raw"
@@ -456,7 +456,7 @@
 		"FoodName" : "Carob flour"
 	},
 	{
-		"FoodName" : "Carp, Raw"
+		"FoodName" : "Carp"
 	},
 	{
 		"FoodName" : "Carrot juice, Canned"
@@ -1236,10 +1236,10 @@
 		"FoodName" : "Cisco, Smoked"
 	},
 	{
-		"FoodName" : "Clam, Canned"
+		"FoodName" : "Clam"
 	},
 	{
-		"FoodName" : "Clam, Raw"
+		"FoodName" : "Clam, Canned"
 	},
 	{
 		"FoodName" : "Clif bar, Mixed flavors"
@@ -1437,7 +1437,7 @@
 		"FoodName" : "Cress, Garden, Raw"
 	},
 	{
-		"FoodName" : "Croaker, Atlantic, Raw"
+		"FoodName" : "Croaker, Atlantic"
 	},
 	{
 		"FoodName" : "Croissants, Butter"
@@ -1512,7 +1512,7 @@
 		"FoodName" : "Edamame, Frozen, Prepared"
 	},
 	{
-		"FoodName" : "Eel, Raw"
+		"FoodName" : "Eel"
 	},
 	{
 		"FoodName" : "Egg substitute, Powder"
@@ -1641,7 +1641,7 @@
 		"FoodName" : "Fritolay, Sunchips, Multigrain snack"
 	},
 	{
-		"FoodName" : "Frog legs, Raw"
+		"FoodName" : "Frog legs"
 	},
 	{
 		"FoodName" : "Frozen yogurts, Chocolate"
@@ -1782,7 +1782,7 @@
 		"FoodName" : "Haddock, Smoked"
 	},
 	{
-		"FoodName" : "Halibut, Atlantic and pacific, Raw"
+		"FoodName" : "Halibut, Atlantic and pacific"
 	},
 	{
 		"FoodName" : "Hamburger; single, Regular patty; with condiments"
@@ -2016,7 +2016,7 @@
 		"FoodName" : "M&m mars, Combos snacks cheddar cheese pretzel"
 	},
 	{
-		"FoodName" : "Mackerel, Atlantic, Raw"
+		"FoodName" : "Mackerel, Atlantic"
 	},
 	{
 		"FoodName" : "Mango nectar, Canned"
@@ -2130,9 +2130,6 @@
 		"FoodName" : "Milk dessert bar, Frozen, Made from lowfat milk"
 	},
 	{
-		"FoodName" : "Milk, 3.25% milkfat, Without added vitamin a and vitamin d"
-	},
-	{
 		"FoodName" : "Milk, Buttermilk, Fluid"
 	},
 	{
@@ -2155,12 +2152,6 @@
 	},
 	{
 		"FoodName" : "Milk, Low sodium, Fluid"
-	},
-	{
-		"FoodName" : "Milk, Nonfat, Fluid, Without added vitamin a and vitamin d (fat free or skim)"
-	},
-	{
-		"FoodName" : "Milk, Reduced fat, Fluid, 2% milkfat, Without added vitamin a and vitamin d"
 	},
 	{
 		"FoodName" : "Millet, Puffed"
@@ -2193,7 +2184,7 @@
 		"FoodName" : "Mulberries, Raw"
 	},
 	{
-		"FoodName" : "Mullet, Striped, Raw"
+		"FoodName" : "Mullet, Striped"
 	},
 	{
 		"FoodName" : "Mung beans, Mature seeds, Boiled"
@@ -2220,7 +2211,7 @@
 		"FoodName" : "Mushrooms, White, Boiled"
 	},
 	{
-		"FoodName" : "Mussel, Blue, Raw"
+		"FoodName" : "Mussel, Blue"
 	},
 	{
 		"FoodName" : "Mustard greens, Boiled"
@@ -2457,7 +2448,7 @@
 		"FoodName" : "Oyster, Eastern, Canned"
 	},
 	{
-		"FoodName" : "Oyster, Eastern, Wild, Raw"
+		"FoodName" : "Oyster, Eastern, Wild"
 	},
 	{
 		"FoodName" : "Pancakes, Gluten-free"
@@ -2634,7 +2625,7 @@
 		"FoodName" : "Peppers, Sweet, Red, Raw"
 	},
 	{
-		"FoodName" : "Perch, Raw"
+		"FoodName" : "Perch"
 	},
 	{
 		"FoodName" : "Persimmons, Japanese, Raw"
@@ -2688,7 +2679,7 @@
 		"FoodName" : "Pigeonpeas, Immature seeds, Raw"
 	},
 	{
-		"FoodName" : "Pike, Northern, Raw"
+		"FoodName" : "Pike, Northern"
 	},
 	{
 		"FoodName" : "Pimento, Canned"
@@ -2754,7 +2745,7 @@
 		"FoodName" : "Pomegranates, Raw"
 	},
 	{
-		"FoodName" : "Pompano, Florida, Raw"
+		"FoodName" : "Pompano, Florida"
 	},
 	{
 		"FoodName" : "Popcorn, Air-popped"
@@ -2991,7 +2982,7 @@
 		"FoodName" : "Rockfish, Pacific, Cooked, Dry heat"
 	},
 	{
-		"FoodName" : "Roe, Raw"
+		"FoodName" : "Roe"
 	},
 	{
 		"FoodName" : "Rolls, Dinner"
@@ -3234,10 +3225,7 @@
 		"FoodName" : "Scallop, (bay and sea), Steamed"
 	},
 	{
-		"FoodName" : "Scup, Raw"
-	},
-	{
-		"FoodName" : "Sea bass, Raw"
+		"FoodName" : "Sea bass"
 	},
 	{
 		"FoodName" : "Seaweed, Agar, Dried"
@@ -3297,7 +3285,7 @@
 		"FoodName" : "Sesame sticks, Wheat-based"
 	},
 	{
-		"FoodName" : "Shad, American, Raw"
+		"FoodName" : "Shad, American"
 	},
 	{
 		"FoodName" : "Shake, Fast food, Vanilla"
@@ -3336,10 +3324,10 @@
 		"FoodName" : "Snacks, Fruit leather, Rolls"
 	},
 	{
-		"FoodName" : "Snail, Raw"
+		"FoodName" : "Snail"
 	},
 	{
-		"FoodName" : "Snapper, Raw"
+		"FoodName" : "Snapper"
 	},
 	{
 		"FoodName" : "Soup, Beef and vegetables, Canned"
@@ -3477,7 +3465,7 @@
 		"FoodName" : "Squash, Winter, Spaghetti, Boiled, Or baked"
 	},
 	{
-		"FoodName" : "Squid, Raw"
+		"FoodName" : "Squid"
 	},
 	{
 		"FoodName" : "Strawberries, Canned, in syrup"
@@ -3525,7 +3513,7 @@
 		"FoodName" : "Sweetener, Syrup, Agave"
 	},
 	{
-		"FoodName" : "Swordfish, Raw"
+		"FoodName" : "Swordfish"
 	},
 	{
 		"FoodName" : "Taco shells, Baked"
@@ -3645,10 +3633,10 @@
 		"FoodName" : "Trail mix, Regular, With chocolate chips, Salted nuts and seeds"
 	},
 	{
-		"FoodName" : "Trout, Raw"
+		"FoodName" : "Trout"
 	},
 	{
-		"FoodName" : "Tuna, Fresh, Bluefin, Raw"
+		"FoodName" : "Tuna, Fresh, Bluefin"
 	},
 	{
 		"FoodName" : "Tuna, Light, Canned in oil"
@@ -3687,7 +3675,7 @@
 		"FoodName" : "Turnips, Frozen, Boiled"
 	},
 	{
-		"FoodName" : "Turtle, Green, Raw"
+		"FoodName" : "Turtle, Green"
 	},
 	{
 		"FoodName" : "Veal, Ground, Broiled"
