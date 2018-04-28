@@ -7,8 +7,7 @@
     <meta name="author" content="Yuriy Stasyuk">
     <title>Preg Nut - A Nerdy Moms Nutrition Calculator</title>
 
-    <script src="js/jquery.min.js"></script>
-   
+    <script src="js/jquery.min.js"></script>   
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
     <script type="text/javascript"  src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
@@ -18,49 +17,327 @@
 
    </head>
 
+ 
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+          <a class="navbar-brand" href="index.html">PregNut</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav">
+                <li class="nav-item"> <a class="nav-link" href="about.html">About</a>            </li>
+                <li class="nav-item"> <a class="nav-link" href="#" onclick="index.html" >Top Foods</a>  </li>
+                </ul> 
+
+              <div class="form-inline ml-auto"> 
+                <input class="form-control" style="width:17em;"  id="FoodFinderInput"  type="text" placeholder="Search Food"
+                onkeydown = "if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()" > 
+                <input  class="btn btn-secondary " id="FoodFinderSearchButton" type="button"  onclick="filterMulti();" value="Search" >
+              </div> 
+          </div>
+    </nav>
 
 
-<div class="container">
 
-    <div class="jumbotron">
-        <span class="display-4">How to use this site</span>
-        <p>This site is a pregnancy nutrition tool for moms who are nuts for nutrition</p>
+<!-- ****************************************************************************** -->
+<body>
+
+
+
+
+
+
+<!--  HEADER WHAT IS PREGNUT? -->
+<!-- ****************************************************************************** -->
+
+<div class="container-fluid wider py-4 mt-5">
+    <div class="view overlay">
+      <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/08/16/12/38/pregnant-1597889_1280.jpg" alt="Card image cap">
     </div>
+</div>
 
-    <div class="my-5">
-        <h2>How to use this site</h2>
-        <p>This site is a pregnancy nutrition tool for moms who are nuts for nutrition</p>
-    </div>
-    
-    <div class="card my-5">
-        <div class="card-body">
-            <h2>How to use this site</h2>
-            <p>This site is a pregnancy nutrition tool for moms who are nuts for nutrition</p>
+<section class="mb-1">
+    <div class="container marketing">
+      <div class="row featurette-heading">
+
+        <div class="col-md-12">
+        <h1 class="font-weight-bold">What is PregNut?</h1>
+        <p class="card-text">PregNut is a handy food lookup tool for pregnant women who are nuts about nutrition science. If you are one of these women, who we affectionately call “pregnuts,” you can use it to discover which foods contain more (or less) of the 11 most essential nutrients for your healthy pregnancy.</p>
+        <p class="card-text">While most doctors offices redily provide lists of pregnancy approved foods, as well as the key nutrients for pregnancy, it can be challenging to find detailed information about which specific foods help you reach your prengancy nutrition goals. This task was so frustrating that my wife kindly forced me to create this app. So yeah, you should probably thank her.</p>
         </div>
+
+      </div>
     </div>
-    
-    <div class="card my-5">
-        <span class="card-header h2">
-            How to use this site
-        </span>
-        <div class="card-body">
-            <p>This site is a pregnancy nutrition tool for moms who are nuts for nutrition</p>
-        </div>
+</section>
+
+<!-- <hr class="featurette-divider"> -->
+
+
+
+
+
+<!--  HOW TO USE -->
+<!-- ****************************************************************************** -->
+<section class="bg-secondary py-5 my-5">
+<div class="container marketing">
+
+  <div class="row featurette-heading">
+    <div class="col-md-12">
+    <h1 class="font-weight-bold">How to use Pregnut? </h1>
+    </div>
+  </div>
+
+
+  <div class="row featurette text-white py-5">
+
+    <div class="col-md-7">
+      <h3 class="featurette-heading">Top Foods. </h3>
+      <p>The “top food page” shows the most nutritionally dense options for each of 11 essential nutrients, broken down by food group categories. You can toggle between each of these nutrients by using a drop down box. In addition, if you hover over any food item you will see a pop up with the complete nutrition summary for that food item</p>
     </div>
 
-    <div class="my-5">
-        <h2>What Nutrients are Essential For Pregnancy?</h2>
-        <p>This site is a pregnancy nutrition tool for moms who are nuts for nutrition</p>
+    <div class="col-md-5">
+      <img class="featurette-image img-fluid mx-auto"  src="https://cdn.pixabay.com/photo/2016/08/16/12/38/pregnant-1597889_1280.jpg" >
+      <!-- style="width: 500px; height: 400px;" -->
     </div>
 
-    <div class="my-5">
-        <h3>Best Foods</h3>
-        <p>This site is a pregnancy nutrition tool for moms who are nuts for nutrition</p>
+  </div>
+
+
+  <div class="row featurette text-white py-5">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">Search.</h2>
+        <p>Simply begin typing in the food search bar and you will see a list of foods that match your input. Select one of the options that show ups by clicking on it and this will take you to a summary page, giving you complete information about this food item.. If the  item does not show up in the search bar as you type, that item does not exist in the database.</p>
     </div>
 
-    <div class="my-5">
-        <h3>Worst Foods</h3>
-        <p>This site is a pregnancy nutrition tool for moms who are nuts for nutrition</p>
+    <div class="col-md-5">
+      <img class="featurette-image img-fluid mx-auto" src="https://cdn.pixabay.com/photo/2016/08/16/12/38/pregnant-1597889_1280.jpg" >
+    </div>
+
     </div>
 
 </div>
+</section>
+
+
+
+
+
+<!--  EVIDENCE -->
+<!-- ****************************************************************************** -->
+<section class="py-5 my-5">
+    <div class="container marketing">
+        
+
+      <div class="row featurette-heading">
+        <div class="col-md-12">
+        <h1 class="font-weight-bold">What is the Evidence behind PregNut?</h1>
+        </div>
+      </div>
+
+
+      <div class="row featurette py-5">
+
+          <div class="col-md-6">
+              <h3 id="the-nutrients">The Nutrients</h3>
+              <p>All of the nutritional recommendations are based on peer reviewed evidence and guidelines set by some of the leading healthcare organizations around the world. The most important consideration for including a nutrient as &quot;essential&quot; was a unison of scientific voices around that nutrient.
+              (
+                <a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>
+              , <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-nutrition/art-20045082?pg=1">2</a>
+              , <a href="http://americanpregnancy.org/pregnancy-health/nutrients-vitamins-pregnancy/">3</a>
+              , <a href="https://www.nrv.gov.au/nutrients">4</a>
+              , <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/">5</a>
+              ).</p>
+              <p>The list below shows the 11 most important pregnancy nutrients tracked by PregNut.</p>
+          </div>
+      
+          <div class="col-md-6">
+
+              <table class="table" style="width:100%">
+                <thead class="thead-dark">
+                  <tr><th>Nutrient</th></tr>
+                  <tr><td>Calcium</td></tr>
+                  <tr><td>Choline</td></tr>
+                  <tr><td>DHA</td></tr>
+                  <tr><td>Folate (Folic Acid)</td></tr>
+                  <tr><td>Iodine</td></tr>
+                  <tr><td>Iron</td></tr>
+                  <tr><td>Potassium</td></tr>
+                  <tr><td>Protein</td></tr>
+                  <tr><td>Vitamin B2 (Riboflavin)</td></tr>
+                  <tr><td>Vitamin B12</td></tr>
+                  <tr><td>Vitamin B6</td></tr>
+                  <tr><td>Vitamin C</td></tr>
+                  <tr><td>Vitamin D</td></tr>
+                  <tr><td>Zinc</td></tr>
+
+                  
+
+                 
+              </table>
+
+              <!-- <ul>
+                  <li>Calcium</li>
+                  <li>Choline</li>
+                  <li>DHA</li>
+                  <li>Folate (Folic Acid)</li>
+                  <li>Iodine</li>
+                  <li>Iron</li>
+                  <li>Potassium</li>
+                  <li>Protein</li>
+                  <li>Vitamin B2 (Riboflavin)</li>
+                  <li>Vitamin B12</li>
+                  <li>Vitamin B6</li>
+                  <li>Vitamin C</li>
+                  <li>Vitamin D</li>
+                  <li>Zinc</li>
+                  </ul> -->
+          </div>
+
+      </div>
+
+
+        <p><br></p>
+        <h3 id="the-recomendations">The Recomendations</h3>
+        <p>For each nutrient, the daily recommended amounts come from the National Institutes of Health. The benefits to the mother and child are sourced from  WebMD and a small number of studies</p>
+        <table>
+        <thead>
+        <tr>
+        <th><strong>Nutrient</strong></th>
+        <th><strong>DailyNeed</strong></th>
+        <th><strong>Baby Benefit</strong></th>
+        <th><strong>Mother Benefit</strong></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/#h8">Calcium</a></td>
+        <td>1000 mg</td>
+        <td>Builds bones and teeth. Your growing baby takes the calcium she needs from your body, so to keep your bones and teeth healthy, you need to get enough to replace that amount. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        <td>Protects your bone density. It may also help prevent high blood pressure while you&#39;re pregnant. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/#h8">Choline</a></td>
+        <td>450 mg</td>
+        <td>Helps prevent problems in the spinal cord and brain, called neural tube defects, and enhances brain development. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        <td>Builds strong bones and may help prevent high blood pressure (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/#h8">DHA</a></td>
+        <td>0.3 g</td>
+        <td>Helps boost brain development, including communication (<a href="https://www.ncbi.nlm.nih.gov/pubmed/18353804">3</a>) and vision (<a href="https://www.ncbi.nlm.nih.gov/pubmed/17307104">4</a>)</td>
+        <td>May reduce your risk of heart disease in the future (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>) and post-partum depression  (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/">2</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/#h8">Folate (Folic Acid)</a></td>
+        <td>600 mcg</td>
+        <td>Helps protect against spinal cord birth defects during the first 30 days of pregnancy (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>), in addition to other birth defects, miscarriage, and premature delivery. (<a href="#">5</a>)</td>
+        <td>Prevents anemia. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/#h8">Iodine</a></td>
+        <td>250 mcg</td>
+        <td>Needed for brain and nervous system development; important for preventing stunted growth, severe mental disability, and deafness; important in preventing miscarriage and stillbirth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        <td>Important for a healthy thyroid. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/#h8">Iron</a></td>
+        <td>27 mg</td>
+        <td>Helps prevent premature delivery (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>) low birth weight,  and post-partum hemorrhages, and possibly cardiovascular risk for the baby in the future (<a href="#">4</a>)</td>
+        <td>Wards off anemia in pregnant women. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="http://lpi.oregonstate.edu/mic/minerals/potassium">Potassium</a></td>
+        <td>4700 mg</td>
+        <td>Too much potassium can adversely affect your child (<a href="https://www.ncbi.nlm.nih.gov/pubmed/20059438">6</a>)</td>
+        <td>But a small amount is necessary  to keep blood pressure in check and maintain proper fluid balance; its essential for normal heart beat and energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4942872/">Protein</a></td>
+        <td>70 g</td>
+        <td>Protein is crucial for your baby&#39;s growth throughout pregnancy (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/#h8">Vitamin B2 (Riboflavin)</a></td>
+        <td>1.4 mg</td>
+        <td>Helps prevent birth defects including outflow tract defects of the heart (<a href="https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/#h6">7</a>)</td>
+        <td>Needed to produce energy; helps your body use the protein from food. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/#h8">Vitamin B6</a></td>
+        <td>1.9 mg</td>
+        <td>May help promote a healthy birthweight (<a href="https://www.ncbi.nlm.nih.gov/pubmed/22742602">8</a> )</td>
+        <td>Helps produce protein for new cells, boosts the immune system, and helps form red blood cells. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/#h8">Vitamin B12</a></td>
+        <td>2.6 mcg</td>
+        <td>May help prevent preterm birth (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5390862/">9</a>)</td>
+        <td>Helps produce red blood cells and helps your body use fat and carbohydrates for energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/#h8">Vitamin C</a></td>
+        <td>85 mg</td>
+        <td>Helps build a healthy brain and protects against poor memory (<a href="https://www.sciencedaily.com/releases/2012/11/121116085629.htm">10</a>)</td>
+        <td></td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/#h8">Vitamin D</a></td>
+        <td>600 IU</td>
+        <td>Helps your baby&#39;s body use calcium to build bones and teeth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        <td>Helps your body absorb calcium from food and use it to build your bones and teeth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        <tr>
+        <td><a href="https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/#h8">Zinc</a></td>
+        <td>11 mg</td>
+        <td>Brain development. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        <td>Necessary to grow and repair cells and produce energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+        </tr>
+        </tbody>
+        </table>
+        <p><br></p>
+
+        <h3 id="the-nutritional-data">The Nutritional data</h3>
+        <p>The nutritional contents of every food item is extracted from the <a href="https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/usda-national-nutrient-database-for-standard-reference/">USDA Food Composition Database</a>, which is offered to the public by the US Department of Agriculture. The food naming was cleaned up for ease of use, but the numerical data is unaltered.</p>
+        <p><br><br></p>
+
+
+        <h2 id="disclaimer">Disclaimer</h2>
+        <p>Pregnut is created with the intention to be a starting point for some of your pregnancy nutrition research. It is not meant to replace your doctor or nutritionist, nor to diagnose, cure, or treat any disease, and certainly not to be the final word on any of your nutrition science.</p>
+   
+   
+      </div>
+    </section>
+    
+
+
+    <!-- <div id="vizContainer" ></div> -->
+
+    <script>
+
+    // Run Search Bar
+    var foodFinderInit = {
+      url: "foodfindersearch.json",
+      getValue: "FoodName",
+      list: {
+            match: {	enabled: true	},
+            maxNumberOfElements: 20
+          }
+        };
+      $("#FoodFinderInput").easyAutocomplete(foodFinderInit);
+      $('div.easy-autocomplete').removeAttr('style');
+
+    // Show selected menu link
+      $(function(){
+      var $h3s = $('nav-item').click(function(){
+          $h3s.removeClass('active');
+          $(this).addClass('active');
+      });
+    });
+    </script>
+   
+   <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
