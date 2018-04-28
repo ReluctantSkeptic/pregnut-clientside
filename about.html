@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="">
     <meta name="author" content="Yuriy Stasyuk">
     <title>Preg Nut - A Nerdy Moms Nutrition Calculator</title>
 
-    <script src="js/jquery.min.js"></script>   
+    <script src="js/jquery.min.js"></script>
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
-    <script type="text/javascript"  src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script> 
-    <link rel="stylesheet" href="style/easy-autocomplete.css"> 
-    <script src="js/jquery.easy-autocomplete.min.js"></script> 
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" href="style/easy-autocomplete.css">
+    <script src="js/jquery.easy-autocomplete.min.js"></script>
 
-   </head>
+</head>
 
- 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-          <a class="navbar-brand" href="index.html">PregNut</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+    <a class="navbar-brand" href="index.html">PregNut</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span> 
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav">
-                <li class="nav-item"> <a class="nav-link" href="about.html">About</a>            </li>
-                <li class="nav-item"> <a class="nav-link" href="#" onclick="index.html" >Top Foods</a>  </li>
-                </ul> 
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#" onclick="index.html">Top Foods</a> </li>
+        </ul>
 
-              <div class="form-inline ml-auto"> 
-                <input class="form-control" style="width:17em;"  id="FoodFinderInput"  type="text" placeholder="Search Food"
-                onkeydown = "if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()" > 
-                <input  class="btn btn-secondary " id="FoodFinderSearchButton" type="button"  onclick="filterMulti();" value="Search" >
-              </div> 
-          </div>
-    </nav>
+        <div class="form-inline ml-auto">
+            <input class="form-control" style="width:17em;" id="FoodFinderInput" type="text" placeholder="Search Food" onkeydown="if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()">
+            <input class="btn btn-secondary " id="FoodFinderSearchButton" type="button" onclick="filterMulti();" value="Search">
+        </div>
+    </div>
+</nav>
 
 
 
 <!-- ****************************************************************************** -->
+
 <body>
 
 
@@ -49,388 +50,395 @@
 
 
 
-<!--  HEADER WHAT IS PREGNUT? -->
-<!-- ****************************************************************************** -->
+    <!--  HEADER WHAT IS PREGNUT? -->
+    <!-- ****************************************************************************** -->
 
-<div class="container-fluid wider py-4 mt-5">
-    <div class="view overlay">
-      <img class="card-img-top" src="http://data.yuriystasyuk.com/pregnut/resource/pregnut_about_header.jpg" alt="Card image cap">
-    </div>
-</div>
-
-<section class="mb-5 pb-5">
-    <div class="container marketing py-5">
-      <div class="row">
-
-        <div class="col-md-12">
-        <h1 class="display-4">What is PregNut?</h1>
-        <p class="card-text">PregNut is a handy food lookup tool for pregnant women who are nuts about nutrition science. If you are one of these women, who we affectionately call “pregnuts,” you can use it to discover which foods contain more (or less) of the 15 most essential nutrients for your healthy pregnancy.</p>
-        <p class="card-text">While most doctors offices redily provide lists of pregnancy approved foods, as well as the key nutrients for pregnancy, it can be challenging to find detailed information about which specific foods help you reach your prengancy nutrition goals. This task was so frustrating that my wife kindly forced me to create this app. So yeah, you should probably thank her.</p>
+    <div class="container-fluid wider py-4 mt-5">
+        <div class="view overlay">
+            <img class="card-img-top" src="http://data.yuriystasyuk.com/pregnut/resource/pregnut_about_header.jpg" alt="Card image cap">
         </div>
-
-      </div>
-    </div>
-</section>
-
-<!-- <hr class="featurette-divider"> -->
-
-
-
-
-
-<!--  HOW TO USE -->
-<!-- ****************************************************************************** -->
-<section class="py-5 my-5" style='background-color: #eeecec;'>
-<div class="container marketing py-5">
-
-  <div class="row featurette-heading">
-    <div class="col-md-12">
-    <h1 class="display-4">How to use Pregnut? </h1>
-    </div>
-  </div>
-
-
-  <div class="row featurette py-4">
-   
-    <div class="col-md-6 pt-4">
-      <img class="featurette-image img-fluid mx-auto"  src="http://data.yuriystasyuk.com/pregnut/resource/top_foods.jpg" >
     </div>
 
-    <div class="col-md-6 pt-4">
-      <h3 class="featurette-heading">Top Foods. </h3>
-      <p>The “top food page” shows the most nutritionally dense options for each of 15 essential nutrients, broken down by food group categories.</p>
-      <p>One of the toggles allows you to switch bbetween each of these nutrients. The other lets you select nutrient sources that are "natural" vs "processed" (this includes items that are fortified with vitamins. </p>
-      <p>In addition, if you hover over any food item you will see a pop up with the complete nutrition summary for that food item</p>
+    <section class="mb-5 pb-5">
+        <div class="container marketing py-5">
+            <div class="row">
 
-    
-    
-    </div>
+                <div class="col-md-12">
+                    <h1 class="display-4">What is PregNut?</h1>
+                    <p class="card-text pt-4">PregNut is a handy food lookup tool for pregnant women who are nuts about nutrition science. If you are one of these women, who we affectionately call “pregnuts,” you can use it to discover which foods contain more (or less) of the
+                        15 most essential nutrients for your healthy pregnancy.</p>
+                    <p class="card-text">While most doctors offices redily provide lists of pregnancy approved foods, as well as the key nutrients for pregnancy, it can be challenging to find detailed information about which specific foods help you reach your prengancy nutrition
+                        goals. This task was so frustrating that my wife kindly forced me to create this app. So yeah, you should probably thank her.</p>
+                </div>
 
-  </div>
-
-
-   <div class="row featurette py-4">
-    <div class="col-md-6 pt-4">
-      <img class="featurette-image img-fluid mx-auto" src="http://data.yuriystasyuk.com/pregnut/resource/search_foods.jpg" >
-    </div>
-
-    <div class="col-md-6 pt-4">
-      <h2 class="featurette-heading">Search.</h2>
-      <p>Begin typing in the food search bar and you will see a list of foods that match your query. Select one and click Search.</p>
-      <p>This will take you to a summary page where you can see what percent of your daily need is met by 100 grams of this food.</p>
-      <p>All foods use 100 gram (3.5 oz) portions to be able compare apples to oranges (see what I did there). How much is this? It depends on the food, but for many items its close to 1 cup. </p>
-      <p>If the item does not show up in the search bar as you type, that item does not exist in the database.</p>
-
-    </div>
- 
-    </div>
-
-</div>
-</section>
-
-
-
-
-
-<!--  EVIDENCE/NUTRIENTS -->
-<!-- ****************************************************************************** -->
-<section class="pt-5 mt-5">
-    <div class="container">
-        
-
-      <div class="row ">
-        <div class="col-md-12">
-        <h1 class="display-4">Is it based on science?</h1>
-    
+            </div>
         </div>
-      </div>
-
-
-      <div class="row pt-5">
-          <div class="col-md-12">
-          <h3 id="the-nutrients">The Nutrients</h3>
-          </div>
-        </div>
-
-      <div class="row featurette pt-3">
-
-          <div class="col-md-4">
-              
-              <p class="py-2">Yes! All of the nutritional recommendations are based on peer reviewed evidence and guidelines set by some of the leading healthcare organizations around the world.</p>
-              <p class="py-2"> The most important consideration for including a nutrient as &quot;essential&quot; was a unison of scientific voices around that nutrient. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>, <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-nutrition/art-20045082?pg=1">2</a>, <a href="http://americanpregnancy.org/pregnancy-health/nutrients-vitamins-pregnancy/">3</a>, <a href="https://www.nrv.gov.au/nutrients">4</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/">5</a>).</p>
-              <p class="py-2">This list shows the 15 most important pregnancy nutrients which are identified and tracked by PregNut.</p>
-          </div>
-      
-
-                  <div class="col-md-4">
-
-                      <div class="mt-2 py-0" style='background-color: #82C4D8;' >
-                          <div class="py-2 px-3">
-                          <p class="card-text">Calcium</p>
-                          </div>
-                      </div>
-                 
-                      <div class="mt-2 py-0" style='background-color: #92D5D3;' >
-                          <div class="py-2 px-3">
-                              <p class="card-text">Choline</p>
-                          </div>
-                      </div>
-      
-                      <div class="mt-2 py-0" style='background-color: #85CBB0;' >
-                          <div class="py-2 px-3">
-                              <p class="card-text">DHA</p>
-                          </div>
-                      </div>
-
-                      <div class="mt-2 py-0" style='background-color: #95C289;' >
-                          <div class="py-2 px-3">
-                              <p class="card-text">Folate (Folic Acid)</p>
-                          </div>
-                      </div>
-                
-      
-                      <div class="mt-2" style='background-color: #D1D378;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Iron</p>
-                          </div>
-                      </div>
-                      
-                      <div class="mt-2" style='background-color: #F0CF76;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Potassium</p>
-                          </div>
-                      </div>
-
-                      <div class="mt-2" style='background-color: #EEB070;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Protein</p>
-                          </div>
-                      </div>
-
-                  </div>
-
-                  <div class="col-md-4">
-                    
-                      <div class="mt-2" style='background-color: #DF837E;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Vitamin B2 (Riboflavin)</p>
-                          </div>
-                      </div>
-
-                      <div class="mt-2" style='background-color: #EA8AA1;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Vitamin B6</p>
-                          </div>
-                      </div>
-
-                      <div class="mt-2" style='background-color: #F0AEC8;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Vitamin B12</p>
-                          </div>
-                      </div>
-
-                      <div class="mt-2" style='background-color: #dda4d4;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Vitamin C</p>
-                          </div>
-                      </div>     
-                      
-                      <div class="mt-2" style='background-color: #B9A7D7;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Vitamin D</p>
-                          </div>
-                      </div>
-
-                      <div class="mt-2" style='background-color: #99AED2;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Zinc</p>
-                          </div>
-                      </div>
-
-                      <div class="mt-2" style='background-color: #a5c5f7;'>
-                          <div class="py-2 px-3">
-                              <p class="card-text">Hugs (well its almost a nutrient)</p>
-                          </div>
-                      </div>
-                     
-                  </div>
-    
-                 
-                </div> 
-                <!-- <hr class="featurette-divider"> -->
-  </div>
-</section>     
-
-
-
-    
-<!-- SCIENCE/BENEFITS -->
-<!-- ****************************************************************************** -->
-
-<section class="py-5 my-5" style='background-color: #eeecec;'> 
-
-<!-- <section class=""> -->
-    <div class="container">
-
-      <div class="row pt-5">
-        <div class="col-md-12">
-          <h3>The Recomendations</h3>
-          <p class="pt-3">For each nutrient, the daily recommended amounts come from the National Institutes of Health. The benefits to the mother and child are sourced from  WebMD and a small number of studies</p>
-        </div>  
-      </div> 
-
-
-      <div class="row pt-2"> 
-          <div class="col-md-12">
-          <table class="table-hover table table-striped table small">
-            <thead style='background-color: #99AED2;'>
-              <tr >
-                <th scope="col"><strong>Nutrient</strong></th>
-                <th scope="col"><strong>Need</strong></th>
-                <th scope="col"><strong>Baby Benefit</strong></th>
-                <th scope="col"><strong>Mother Benefit</strong></th>
-              </tr>
-            </thead>
-          <tbody>
-          <tr>
-            <td><a href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/#h8">Calcium</a></td>
-            <td>1000mg</td>
-            <td>Builds bones and teeth. Your growing baby takes the calcium she needs from your body, so to keep your bones and teeth healthy, you need to get enough to replace that amount. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-            <td>Protects your bone density. It may also help prevent high blood pressure while you&#39;re pregnant. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/#h8">Choline</a></td>
-          <td>450mg</td>
-          <td>Helps prevent problems in the spinal cord and brain, called neural tube defects, and enhances brain development. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          <td>Builds strong bones and may help prevent high blood pressure (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/#h8">DHA</a></td>
-          <td>0.3g</td>
-          <td>Helps boost brain development, including communication (<a href="https://www.ncbi.nlm.nih.gov/pubmed/18353804">3</a>) and vision (<a href="https://www.ncbi.nlm.nih.gov/pubmed/17307104">4</a>)</td>
-          <td>May reduce your risk of heart disease in the future (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>) and post-partum depression  (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/">2</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/#h8">Folate (Folic Acid)</a></td>
-          <td>600mcg</td>
-          <td>Helps protect against spinal cord birth defects during the first 30 days of pregnancy (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>), in addition to other birth defects, miscarriage, and premature delivery. (<a href="#">5</a>)</td>
-          <td>Prevents anemia. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/#h8">Iodine</a></td>
-          <td>250mcg</td>
-          <td>Needed for brain and nervous system development; important for preventing stunted growth, severe mental disability, and deafness; important in preventing miscarriage and stillbirth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          <td>Important for a healthy thyroid. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/#h8">Iron</a></td>
-          <td>27mg</td>
-          <td>Helps prevent premature delivery (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>) low birth weight,  and post-partum hemorrhages, and possibly cardiovascular risk for the baby in the future (<a href="#">4</a>)</td>
-          <td>Wards off anemia in pregnant women. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="http://lpi.oregonstate.edu/mic/minerals/potassium">Potassium</a></td>
-          <td>4700mg</td>
-          <td>Too much potassium can adversely affect your child (<a href="https://www.ncbi.nlm.nih.gov/pubmed/20059438">6</a>)</td>
-          <td>But a small amount is necessary  to keep blood pressure in check and maintain proper fluid balance; its essential for normal heart beat and energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4942872/">Protein</a></td>
-          <td>70g</td>
-          <td>Protein is crucial for your baby&#39;s growth throughout pregnancy (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/#h8">Vitamin B2 (Riboflavin)</a></td>
-          <td>1.4mg</td>
-          <td>Helps prevent birth defects including outflow tract defects of the heart (<a href="https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/#h6">7</a>)</td>
-          <td>Needed to produce energy; helps your body use the protein from food. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/#h8">Vitamin B6</a></td>
-          <td>1.9mg</td>
-          <td>May help promote a healthy birthweight (<a href="https://www.ncbi.nlm.nih.gov/pubmed/22742602">8</a> )</td>
-          <td>Helps produce protein for new cells, boosts the immune system, and helps form red blood cells. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/#h8">Vitamin B12</a></td>
-          <td>2.6mcg</td>
-          <td>May help prevent preterm birth (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5390862/">9</a>)</td>
-          <td>Helps produce red blood cells and helps your body use fat and carbohydrates for energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/#h8">Vitamin C</a></td>
-          <td>85 mg</td>
-          <td>Helps build a healthy brain and protects against poor memory (<a href="https://www.sciencedaily.com/releases/2012/11/121116085629.htm">10</a>)</td>
-          <td></td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/#h8">Vitamin D</a></td>
-          <td>600IU</td>
-          <td>Helps your baby&#39;s body use calcium to build bones and teeth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          <td>Helps your body absorb calcium from food and use it to build your bones and teeth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          <tr>
-          <td><a href="https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/#h8">Zinc</a></td>
-          <td>11mg</td>
-          <td>Brain development. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          <td>Necessary to grow and repair cells and produce energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
-          </tr>
-          </tbody>
-          </table>
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>    
-
-
-
-
-<!--  HOW TO USE -->
-<!-- ****************************************************************************** -->
-<!-- <section class="py-5 my-5" style='background-color: #dbdbdb;'> -->
-<section class="py-5 my-5" >
-    <div class="container marketing">
-    
-      <div class="row featurette-heading">
-        <div class="col-md-12">
-        <h3>Disclaimer</h1>
-        <p>Pregnut is created with the intention to be a starting point for some of your pregnancy nutrition research. It is not meant to replace your doctor or nutritionist, nor to diagnose, cure, or treat any disease, and certainly not to be the final word on any of your nutrition science.</p>
-        <p>The nutritional contents of every food item is extracted from the <a href="https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/usda-national-nutrient-database-for-standard-reference/">USDA Food Composition Database</a>, which is offered to the public by the US Department of Agriculture. The food naming was cleaned up for ease of use, but the numerical data is unaltered.</p>
-
-      </div>
-      </div>
-    </div>
     </section>
-    
+
+    <!-- <hr class="featurette-divider"> -->
+
+
+
+
+
+    <!--  HOW TO USE -->
+    <!-- ****************************************************************************** -->
+    <section class="py-5 my-5" style='background-color: #eeecec;'>
+        <div class="container marketing py-5">
+
+            <div class="row featurette-heading">
+                <div class="col-md-12">
+                    <h1 class="display-4">How to use Pregnut? </h1>
+                </div>
+            </div>
+
+
+            <div class="row featurette py-4">
+
+                <div class="col-md-6 pt-4">
+                    <img class="featurette-image img-fluid mx-auto" src="http://data.yuriystasyuk.com/pregnut/resource/top_foods.jpg">
+                </div>
+
+                <div class="col-md-6 pt-4">
+                    <h3 class="featurette-heading">Top Foods. </h3>
+                    <p>The “top food page” shows the most nutritionally dense options for each of 15 essential nutrients, broken down by food group categories.</p>
+                    <p>One of the toggles allows you to switch bbetween each of these nutrients. The other lets you select nutrient sources that are "natural" vs "processed" (this includes items that are fortified with vitamins. </p>
+                    <p>In addition, if you hover over any food item you will see a pop up with the complete nutrition summary for that food item</p>
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="row featurette py-4">
+                <div class="col-md-6 pt-4">
+                    <img class="featurette-image img-fluid mx-auto" src="http://data.yuriystasyuk.com/pregnut/resource/search_foods.jpg">
+                </div>
+
+                <div class="col-md-6 pt-4">
+                    <h2 class="featurette-heading">Search.</h2>
+                    <p>Begin typing in the food search bar and you will see a list of foods that match your query. Select one and click Search.</p>
+                    <p>This will take you to a summary page where you can see what percent of your daily need is met by 100 grams of this food.</p>
+                    <p>All foods use 100 gram (3.5 oz) portions to be able compare apples to oranges (see what I did there). How much is this? It depends on the food, but for many items its close to 1 cup. </p>
+                    <p>If the item does not show up in the search bar as you type, that item does not exist in the database.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!--  EVIDENCE/NUTRIENTS -->
+    <!-- ****************************************************************************** -->
+    <section class="pt-5 mt-5">
+        <div class="container">
+
+
+            <div class="row ">
+                <div class="col-md-12">
+                    <h1 class="display-4">Is it based on science?</h1>
+
+                </div>
+            </div>
+
+
+            <div class="row pt-5">
+                <div class="col-md-12">
+                    <h3 id="the-nutrients">The Nutrients</h3>
+                </div>
+            </div>
+
+            <div class="row featurette pt-3">
+
+                <div class="col-md-4">
+
+                    <p class="py-2">Yes! All of the nutritional recommendations are based on peer reviewed evidence and guidelines set by some of the leading healthcare organizations around the world.</p>
+                    <p class="py-2"> The most important consideration for including a nutrient as &quot;essential&quot; was a unison of scientific voices around that nutrient. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>, <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-nutrition/art-20045082?pg=1">2</a>,
+                        <a href="http://americanpregnancy.org/pregnancy-health/nutrients-vitamins-pregnancy/">3</a>, <a href="https://www.nrv.gov.au/nutrients">4</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/">5</a>).</p>
+                    <p class="py-2">This list shows the 15 most important pregnancy nutrients which are identified and tracked by PregNut.</p>
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="mt-2 py-0" style='background-color: #82C4D8;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Calcium</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2 py-0" style='background-color: #92D5D3;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Choline</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2 py-0" style='background-color: #85CBB0;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">DHA</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2 py-0" style='background-color: #95C289;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Folate (Folic Acid)</p>
+                        </div>
+                    </div>
+
+
+                    <div class="mt-2" style='background-color: #D1D378;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Iron</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2" style='background-color: #F0CF76;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Potassium</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2" style='background-color: #EEB070;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Protein</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="mt-2" style='background-color: #DF837E;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Vitamin B2 (Riboflavin)</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2" style='background-color: #EA8AA1;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Vitamin B6</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2" style='background-color: #F0AEC8;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Vitamin B12</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2" style='background-color: #dda4d4;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Vitamin C</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2" style='background-color: #B9A7D7;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Vitamin D</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2" style='background-color: #99AED2;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Zinc</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-2" style='background-color: #a5c5f7;'>
+                        <div class="py-2 px-3">
+                            <p class="card-text">Hugs (well its almost a nutrient)</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- <hr class="featurette-divider"> -->
+        </div>
+    </section>
+
+
+
+
+    <!-- SCIENCE/BENEFITS -->
+    <!-- ****************************************************************************** -->
+
+    <section class="py-5 my-5" style='background-color: #eeecec;'>
+
+        <!-- <section class=""> -->
+        <div class="container">
+
+            <div class="row pt-5">
+                <div class="col-md-12">
+                    <h3>The Recomendations</h3>
+                    <p class="pt-3">For each nutrient, the daily recommended amounts come from the National Institutes of Health. The benefits to the mother and child are sourced from WebMD and a small number of studies</p>
+                </div>
+            </div>
+
+
+            <div class="row pt-2">
+                <div class="col-md-12">
+                    <table class="table-hover table table-striped table small">
+                        <thead style='background-color: #99AED2;'>
+                            <tr>
+                                <th scope="col"><strong>Nutrient</strong></th>
+                                <th scope="col"><strong>Need</strong></th>
+                                <th scope="col"><strong>Baby Benefit</strong></th>
+                                <th scope="col"><strong>Mother Benefit</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/#h8">Calcium</a></td>
+                                <td>1000mg</td>
+                                <td>Builds bones and teeth. Your growing baby takes the calcium she needs from your body, so to keep your bones and teeth healthy, you need to get enough to replace that amount. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                                <td>Protects your bone density. It may also help prevent high blood pressure while you&#39;re pregnant. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/#h8">Choline</a></td>
+                                <td>450mg</td>
+                                <td>Helps prevent problems in the spinal cord and brain, called neural tube defects, and enhances brain development. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                                <td>Builds strong bones and may help prevent high blood pressure (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/#h8">DHA</a></td>
+                                <td>0.3g</td>
+                                <td>Helps boost brain development, including communication (<a href="https://www.ncbi.nlm.nih.gov/pubmed/18353804">3</a>) and vision (<a href="https://www.ncbi.nlm.nih.gov/pubmed/17307104">4</a>)</td>
+                                <td>May reduce your risk of heart disease in the future (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>) and post-partum depression (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/">2</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/#h8">Folate (Folic Acid)</a></td>
+                                <td>600mcg</td>
+                                <td>Helps protect against spinal cord birth defects during the first 30 days of pregnancy (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>), in addition to other birth defects, miscarriage, and
+                                    premature delivery. (<a href="#">5</a>)</td>
+                                <td>Prevents anemia. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/#h8">Iodine</a></td>
+                                <td>250mcg</td>
+                                <td>Needed for brain and nervous system development; important for preventing stunted growth, severe mental disability, and deafness; important in preventing miscarriage and stillbirth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                                <td>Important for a healthy thyroid. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/#h8">Iron</a></td>
+                                <td>27mg</td>
+                                <td>Helps prevent premature delivery (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>) low birth weight, and post-partum hemorrhages, and possibly cardiovascular risk for the baby in the future
+                                    (<a href="#">4</a>)</td>
+                                <td>Wards off anemia in pregnant women. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="http://lpi.oregonstate.edu/mic/minerals/potassium">Potassium</a></td>
+                                <td>4700mg</td>
+                                <td>Too much potassium can adversely affect your child (<a href="https://www.ncbi.nlm.nih.gov/pubmed/20059438">6</a>)</td>
+                                <td>But a small amount is necessary to keep blood pressure in check and maintain proper fluid balance; its essential for normal heart beat and energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4942872/">Protein</a></td>
+                                <td>70g</td>
+                                <td>Protein is crucial for your baby&#39;s growth throughout pregnancy (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/#h8">Vitamin B2 (Riboflavin)</a></td>
+                                <td>1.4mg</td>
+                                <td>Helps prevent birth defects including outflow tract defects of the heart (<a href="https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/#h6">7</a>)</td>
+                                <td>Needed to produce energy; helps your body use the protein from food. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/#h8">Vitamin B6</a></td>
+                                <td>1.9mg</td>
+                                <td>May help promote a healthy birthweight (<a href="https://www.ncbi.nlm.nih.gov/pubmed/22742602">8</a> )</td>
+                                <td>Helps produce protein for new cells, boosts the immune system, and helps form red blood cells. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/#h8">Vitamin B12</a></td>
+                                <td>2.6mcg</td>
+                                <td>May help prevent preterm birth (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5390862/">9</a>)</td>
+                                <td>Helps produce red blood cells and helps your body use fat and carbohydrates for energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/#h8">Vitamin C</a></td>
+                                <td>85 mg</td>
+                                <td>Helps build a healthy brain and protects against poor memory (<a href="https://www.sciencedaily.com/releases/2012/11/121116085629.htm">10</a>)</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/#h8">Vitamin D</a></td>
+                                <td>600IU</td>
+                                <td>Helps your baby&#39;s body use calcium to build bones and teeth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                                <td>Helps your body absorb calcium from food and use it to build your bones and teeth. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/#h8">Zinc</a></td>
+                                <td>11mg</td>
+                                <td>Brain development. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                                <td>Necessary to grow and repair cells and produce energy. (<a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <!--  HOW TO USE -->
+    <!-- ****************************************************************************** -->
+    <!-- <section class="py-5 my-5" style='background-color: #dbdbdb;'> -->
+    <section class="py-5 my-5">
+        <div class="container marketing">
+
+            <div class="row featurette-heading">
+                <div class="col-md-12">
+                    <h3>Disclaimer</h1>
+                        <p class="pt-4">Pregnut is created with the intention to be a starting point for some of your pregnancy nutrition research. It is not meant to replace your doctor or nutritionist, nor to diagnose, cure, or treat any disease, and certainly not
+                            to be the final word on any of your nutrition science.</p>
+                        <p>The nutritional contents of every food item is extracted from the <a href="https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/usda-national-nutrient-database-for-standard-reference/">USDA Food Composition Database</a>,
+                            which is offered to the public by the US Department of Agriculture. The food naming was cleaned up for ease of use, but the numerical data is unaltered.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- <div id="vizContainer" ></div> -->
 
     <script>
-
-    // Run Search Bar
-    var foodFinderInit = {
-      url: "foodfindersearch.json",
-      getValue: "FoodName",
-      list: {
-            match: {	enabled: true	},
-            maxNumberOfElements: 20
-          }
-        };
-      $("#FoodFinderInput").easyAutocomplete(foodFinderInit);
-      $('div.easy-autocomplete').removeAttr('style');
-
-    // Show selected menu link
-      $(function(){
-      var $h3s = $('nav-item').click(function(){
-          $h3s.removeClass('active');
-          $(this).addClass('active');
-      });
-    });
+        // Run Search Bar
+        var foodFinderInit = {
+          url: "foodfindersearch.json",
+          getValue: "FoodName",
+          list: {
+                match: {	enabled: true	},
+                maxNumberOfElements: 20
+              }
+            };
+          $("#FoodFinderInput").easyAutocomplete(foodFinderInit);
+          $('div.easy-autocomplete').removeAttr('style');
+    
+        // Show selected menu link
+          $(function(){
+          var $h3s = $('nav-item').click(function(){
+              $h3s.removeClass('active');
+              $(this).addClass('active');
+          });
+        });
     </script>
-   
-   <script src="js/bootstrap.min.js"></script>
 
-  </body>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
