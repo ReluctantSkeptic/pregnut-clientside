@@ -14,6 +14,13 @@ function initViz() {
                 onFirstInteractive: function () {
                 workbook = viz.getWorkbook();
                 activeSheet = workbook.getActiveSheet();
+                // If a food param is present in the URL, filter
+                var params = new URLSearchParams(window.location.search);
+                var food = params.get('food');
+                if (food) {
+                  filterDash(food);
+                  document.getElementById("FoodFinderInput").value = food;
+                }
                 }
             };
     viz = new tableau.Viz(containerDiv, url, options);

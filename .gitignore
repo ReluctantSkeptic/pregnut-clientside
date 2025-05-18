@@ -31,3 +31,9 @@
 .archive/Libraries/JS_Autocomplete/img/ru.png
 .archive/Libraries/JS_Autocomplete/img/tr.png
 .archive/Libraries/JS_Autocomplete/img/us.png
+
+# Eleventy output directory
+_site/
+
+# Node dependencies
+node_modules/

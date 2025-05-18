@@ -1,0 +1,26 @@
+{
+  "name": "pregnut-clientside",
+  "version": "1.0.0",
+  "description": "A Nerdy Moms Nutrition Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "serve": "serve _site -p 8080"
+  }  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReluctantSkeptic/pregnut-clientside.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReluctantSkeptic/pregnut-clientside/issues"
+  },
+  "homepage": "https://github.com/ReluctantSkeptic/pregnut-clientside#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

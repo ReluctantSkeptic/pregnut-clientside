@@ -1,0 +1,30 @@
+---
+title: My Blog
+layout: post.njk 
+permalink: /blog/index.html # Ensures output to _site/blog/index.html
+---
+
+{% include "components/navbar.njk" %}
+
+<link rel="stylesheet" href="/style/easy-autocomplete.css">
+    <link rel="stylesheet" href="/style/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+
+    <script src="/js/jquery.min.js"></script>   
+    <script src="/js/jquery.easy-autocomplete.min.js"></script>     
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script src="/js/app.js"></script>   
+     <script src="/js/searchbar.js"></script>  
+
+<h1>{{ title }}</h1>
+
+<ul>
+{%- for post in mycollections.post -%}
+  <li>
+    <a href="{{ post.url | url }}">
+      {{ post.data.title }}
+    </a>
+  </li>
+{%- endfor -%}
+</ul>
