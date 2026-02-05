@@ -319,7 +319,8 @@ p {
 }
 
 .post {
-  max-width: 760px;
+  max-width: var(--max);
+  width: 100%;
   margin: 0 auto 80px;
   background: #fff;
   padding: 48px;
