@@ -21,8 +21,13 @@ $(function () {
       return;
     }
     if (typeof filterMulti === "function" && typeof window.viz !== "undefined") {
-      filterMulti();
-      return;
+      var currentName = window.currentDashboardName || null;
+      var foodDashName = typeof window.FOOD_DASHBOARD_NAME === "string" ? window.FOOD_DASHBOARD_NAME : null;
+      var foodSheetName = typeof window.SHEET_NAME === "string" ? window.SHEET_NAME : null;
+      if (currentName && (currentName === foodDashName || currentName === foodSheetName)) {
+        filterMulti();
+        return;
+      }
     }
     window.location.href = "/app/?food=" + encodeURIComponent(value);
   });

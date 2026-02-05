@@ -5,6 +5,7 @@ var FOOD_DASHBOARD_NAME = "FoodCalcDash";
 var SHEET_NAME = "FoodFinder";
 var FILTER_FIELD = "FoodName";
 var pendingFood = null;
+var currentDashboardName = null;
 
 function getInitialView(params) {
     if (params && params.get("food")) return FOOD_DASHBOARD_NAME;
@@ -25,7 +26,9 @@ function initViz() {
                 //"Long Desc": "Catsup",
                 onFirstInteractive: function () {
                 workbook = viz.getWorkbook();
-                activeSheet = workbook.getActiveSheet();
+                                activeSheet = workbook.getActiveSheet();
+                                currentDashboardName = activeSheet && activeSheet.getName ? activeSheet.getName() : null;
+                                window.currentDashboardName = currentDashboardName;
                 var food = pendingFood || params.get('food');
                 if (food) {
                   pendingFood = null;
@@ -41,7 +44,11 @@ function initViz() {
 // 3. Switch to alternative sheets
 function switchView(sheetName) {
     var workbook = viz.getWorkbook();
-    workbook.activateSheetAsync(sheetName);
+    workbook.activateSheetAsync(sheetName)
+        .then(function (activeSheet) {
+            currentDashboardName = activeSheet && activeSheet.getName ? activeSheet.getName() : sheetName;
+            window.currentDashboardName = currentDashboardName;
+        });
 };
 
 //4. Clear all filters
@@ -86,6 +93,8 @@ function filterDash(mySelectedFood) {
 
     workbook.activateSheetAsync(FOOD_DASHBOARD_NAME)
         .then(function (activeSheet) {
+            currentDashboardName = activeSheet && activeSheet.getName ? activeSheet.getName() : FOOD_DASHBOARD_NAME;
+            window.currentDashboardName = currentDashboardName;
             if (activeSheet.getSheetType && activeSheet.getSheetType() === tableau.SheetType.DASHBOARD) {
                 var finderDash = findWorksheet(activeSheet.getWorksheets(), SHEET_NAME);
                 if (finderDash) {
