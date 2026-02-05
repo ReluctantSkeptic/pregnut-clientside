@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ description or '' }}">
+    <meta name="author" content="Yuriy Stasyuk">
+    <title>{{ title }} | PregNut</title>
+    <link rel="stylesheet" href="/style/easy-autocomplete.css">
+    <link rel="stylesheet" href="/style/style.css">
+    {% if pageStyles %}
+      {% for href in pageStyles %}
+        <link rel="stylesheet" href="{{ href }}">
+      {% endfor %}
+    {% endif %}
+  </head>
+  <body>
+    {% include "components/navbar.njk" %}
+    <main class="page">
+      {{ content | safe }}
+    </main>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.easy-autocomplete.min.js"></script>
+    <script src="/js/searchbar.js"></script>
+    {% if pageScripts %}
+      {% for src in pageScripts %}
+        <script src="{{ src }}"></script>
+      {% endfor %}
+    {% endif %}
+  </body>
+</html>

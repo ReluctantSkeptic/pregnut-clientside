@@ -14,7 +14,5 @@ A Nerdy Moms Nutrition Calculator
 
 
 ## Future Goals
-- [ ] Add a worst foods database column
-- [ ] Add a worst foods page
-- [ ] Add a warning the finder if selected food is unhealthy
-- [ ] Add about page with references and use guidelines
+- [ ] Add blog
+

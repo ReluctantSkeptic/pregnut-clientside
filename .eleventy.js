@@ -5,6 +5,15 @@ module.exports = function(eleventyConfig) {
    eleventyConfig.addPassthroughCopy("src/style");
    eleventyConfig.addPassthroughCopy("src/resource");
    eleventyConfig.addPassthroughCopy("src/foodfindersearch.json");
+
+   eleventyConfig.addFilter("readableDate", (dateObj) => {
+     const date = new Date(dateObj);
+     return date.toLocaleDateString("en-US", {
+       year: "numeric",
+       month: "long",
+       day: "numeric"
+     });
+   });
  
  return {
      dir: {

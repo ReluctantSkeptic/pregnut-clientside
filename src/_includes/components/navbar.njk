@@ -1,21 +1,20 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="/index.html">PregNut</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="/index.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="/app">Top Foods</a></li>
-            <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
-        </ul>
-        <div class="form-inline ml-auto">
-            <input class="form-control" style="width:17em;" id="FoodFinderInput" type="text" placeholder="Search Food"
-                onkeydown="if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()">
-            <input class="btn btn-secondary" id="FoodFinderSearchButton" type="button" onclick="filterMulti();" value="Search">
+<header class="site-header">
+    <nav class="nav-shell" aria-label="Primary">
+        <a class="brand" href="/">PregNut</a>
+        <div class="nav-links">
+            <a class="nav-link{% if page.url == '/' %} is-active{% endif %}" href="/">Home</a>
+            <a class="nav-link{% if page.url == '/about/' %} is-active{% endif %}" href="/about/">About</a>
+            <a class="nav-link{% if page.url == '/app/' %} is-active{% endif %}" href="/app/">Top Foods</a>
+            <a class="nav-link{% if page.url == '/blog/' or '/blog/' in page.url or '/posts/' in page.url %} is-active{% endif %}" href="/blog/">Blog</a>
         </div>
-    </div>
-</nav>
+        <div class="nav-search">
+            <label class="sr-only" for="FoodFinderInput">Search Food</label>
+            <input id="FoodFinderInput" class="nav-input" type="text" placeholder="Search Food"
+                onkeydown="if (event.keyCode == 13) document.getElementById('FoodFinderSearchButton').click()">
+            <button id="FoodFinderSearchButton" class="nav-button" type="button">Search</button>
+        </div>
+    </nav>
+</header>
 
 
  

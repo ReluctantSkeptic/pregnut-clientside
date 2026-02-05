@@ -1,34 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="">
-    <meta name="author" content="Yuriy Stasyuk">
-    <title>Preg Nut - A Nerdy Moms Nutrition Calculator</title>
- 
-    
-    <link rel="stylesheet" href="/style/easy-autocomplete.css">
-    <link rel="stylesheet" href="/style/bootstrap.min.css">
-    <link rel="stylesheet" href="/style/style.css">
+---
+title: Top Foods
+layout: base.njk
+permalink: /app/index.html
+pageScripts:
+  - https://public.tableau.com/javascripts/api/tableau-2.min.js
+  - /js/app.js
+---
 
-   
+<section class="hero slim">
+  <div>
+    <p class="eyebrow">Top Foods</p>
+    <h1 class="hero-title">Explore nutrient-dense foods</h1>
+    <p class="hero-lede">Use the interactive dashboard to compare foods by nutrient, food group, and source.</p>
+  </div>
+</section>
 
-    
-   </head>
+<section class="section viz-section">
+  <div id="vizContainer" class="viz-shell"></div>
+</section>
 
-   <body onload="initViz();">
-    {% include "components/navbar.njk" %}
-    <div id="vizContainer" ></div>
- </div>
-   
-
-
-    <script src="/js/jquery.min.js"></script>   
-    <script src="/js/jquery.easy-autocomplete.min.js"></script>     
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script src="/js/app.js"></script>   
-     <script src="/js/searchbar.js"></script>  
-  </body>
-</html>
+<script>
+  window.addEventListener("load", () => {
+    if (typeof initViz === "function") {
+      initViz();
+    }
+  });
+</script>

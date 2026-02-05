@@ -1,30 +1,26 @@
 ---
-title: My Blog
-layout: post.njk 
-permalink: /blog/index.html # Ensures output to _site/blog/index.html
+title: Blog
+layout: base.njk
+permalink: /blog/index.html
 ---
 
-{% include "components/navbar.njk" %}
+<section class="hero slim">
+  <div>
+    <p class="eyebrow">PregNut Journal</p>
+    <h1 class="hero-title">{{ title }}</h1>
+    <p class="hero-lede">Short, science-forward notes on nutrition, evidence, and practical tips.</p>
+  </div>
+</section>
 
-<link rel="stylesheet" href="/style/easy-autocomplete.css">
-    <link rel="stylesheet" href="/style/bootstrap.min.css">
-    <link rel="stylesheet" href="/style/style.css">
-
-    <script src="/js/jquery.min.js"></script>   
-    <script src="/js/jquery.easy-autocomplete.min.js"></script>     
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script src="/js/app.js"></script>   
-     <script src="/js/searchbar.js"></script>  
-
-<h1>{{ title }}</h1>
-
-<ul>
-{%- for post in mycollections.post -%}
-  <li>
-    <a href="{{ post.url | url }}">
-      {{ post.data.title }}
-    </a>
-  </li>
-{%- endfor -%}
-</ul>
+<section class="section">
+  <div class="card-grid">
+    {%- for post in collections.post | reverse -%}
+      <article class="card">
+        <p class="card-meta">{{ post.date | readableDate }}</p>
+        <h2 class="card-title">
+          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        </h2>
+      </article>
+    {%- endfor -%}
+  </div>
+</section>

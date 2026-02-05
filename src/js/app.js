@@ -1,23 +1,34 @@
 // 1 - Global Variable 
 var viz,workbook;
+var TOP_DASHBOARD_NAME = "TopTenDash";
+var FOOD_DASHBOARD_NAME = "FoodCalcDash";
+var SHEET_NAME = "FoodFinder";
+var FILTER_FIELD = "FoodName";
+var pendingFood = null;
+
+function getInitialView(params) {
+    if (params && params.get("food")) return FOOD_DASHBOARD_NAME;
+    return TOP_DASHBOARD_NAME;
+}
 
 // 2. Initialize the Tableau workbook to pull it into the html div container
 function initViz() {
     var containerDiv = document.getElementById("vizContainer")
-    var url = "https://public.tableau.com/views/PregnancyNutritionFinder/TopTenDash";
+    var params = new URLSearchParams(window.location.search);
+    var initialView = getInitialView(params);
+    var url = "https://public.tableau.com/views/PregnancyNutritionFinder/" + initialView + "?:showVizHome=no";
     var options = {
                 hideTabs: true,
                 hideToolbar: true,
-                // width: "1200px",
-                // height: "900px",
+                width: "100%",
+                height: "100%",
                 //"Long Desc": "Catsup",
                 onFirstInteractive: function () {
                 workbook = viz.getWorkbook();
                 activeSheet = workbook.getActiveSheet();
-                // If a food param is present in the URL, filter
-                var params = new URLSearchParams(window.location.search);
-                var food = params.get('food');
+                var food = pendingFood || params.get('food');
                 if (food) {
+                  pendingFood = null;
                   filterDash(food);
                   document.getElementById("FoodFinderInput").value = food;
                 }
@@ -48,13 +59,47 @@ function filterMulti() {
 };
 
 
-// 5.2 Filter a dashboard not sheet  //http://www.datablick.com/blog/tableau-js-api-101
+// 5.2 Filter a dashboard not sheet
 function filterDash(mySelectedFood) {
-    var dashboard, finderDash;
-    workbook.activateSheetAsync("FoodCalcDash")
-        .then(function (sheetName) {
-        dashboard = sheetName;
-        finderDash = dashboard.getWorksheets().get("FoodFinder");
-        return finderDash.applyFilterAsync("FoodName", mySelectedFood , tableau.FilterUpdateType.REPLACE);
-    }); 
+    if (!mySelectedFood) return;
+    if (!workbook) {
+        pendingFood = mySelectedFood;
+        return;
+    }
+
+    var applyFoodFilter = function(sheet) {
+        return sheet.applyFilterAsync(FILTER_FIELD, mySelectedFood, "replace");
+    };
+    var normalizeName = function(name) {
+        return String(name || "").toLowerCase().replace(/\s+/g, "");
+    };
+    var findWorksheet = function(worksheets, targetName) {
+        var target = normalizeName(targetName);
+        for (var i = 0; i < worksheets.length; i++) {
+            var current = normalizeName(worksheets[i].getName());
+            if (current === target || current.indexOf(target) !== -1) {
+                return worksheets[i];
+            }
+        }
+        return worksheets[0] || null;
+    };
+
+    workbook.activateSheetAsync(FOOD_DASHBOARD_NAME)
+        .then(function (activeSheet) {
+            if (activeSheet.getSheetType && activeSheet.getSheetType() === tableau.SheetType.DASHBOARD) {
+                var finderDash = findWorksheet(activeSheet.getWorksheets(), SHEET_NAME);
+                if (finderDash) {
+                    return applyFoodFilter(finderDash);
+                }
+            }
+
+            if (activeSheet.getName && activeSheet.getName() === SHEET_NAME) {
+                return applyFoodFilter(activeSheet);
+            }
+
+            return workbook.activateSheetAsync(SHEET_NAME)
+                .then(function(sheet) {
+                    return applyFoodFilter(sheet);
+                });
+        });
 };
