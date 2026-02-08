@@ -1,0 +1,40 @@
+:root {
+  --food-ink: var(--ink);
+  --food-muted: var(--muted);
+}
+
+.page-food {
+  position: relative;
+}
+
+.page-food::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(860px 420px at 14% 8%, rgba(31, 122, 122, 0.14), transparent 58%),
+    radial-gradient(920px 520px at 92% 10%, rgba(160, 220, 255, 0.20), transparent 62%),
+    radial-gradient(820px 620px at 70% 92%, rgba(255, 180, 200, 0.14), transparent 64%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
+  opacity: 0.95;
+  mix-blend-mode: multiply;
+}
+
+.food-shell {
+  max-width: 1400px;
+}
+
+.page-food.food-ready .content-card {
+  animation: weekly-rise 0.7s ease both;
+}
+
+.page-food #FoodResult:empty::before {
+  content: "Pick a food using the search bar above.";
+  display: block;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px dashed rgba(225, 214, 203, 0.95);
+  color: rgba(31, 26, 23, 0.72);
+  background: rgba(255, 255, 255, 0.55);
+}

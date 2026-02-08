@@ -1,18 +1,37 @@
-# PregNut
-A Nerdy Moms Nutrition Calculator
+# PregNut (Client)
 
-## Dependencies
-- [Bootstrap 4.*](http://getbootstrap.com/)
-- autocomplete-js
-- Tableau API
+Static Eleventy site for pregnancy nutrition exploration.
 
-## ChangeLog
-- [x] Tested new autocomplete search bar
-- [x] Made responsive using bootstrap]
-- [x] Make search bar automatically open Finder page
-- [x] Cleaned up database values (maybe group by first two csv items)
+## Requirements
 
+- Node.js >= 18 (Eleventy v3 requires Node 18+)
 
-## Future Goals
-- [ ] Add blog
+## Local Development
+
+```bash
+npm install
+npm run start
+```
+
+Build output is written to `_site/`.
+
+## Data
+
+The weekly tracker ranks foods by "% of daily target per 100g" using a generated JSON dataset:
+
+- Source CSVs: `database/FoodList.csv`, `database/NutrientList.csv`, `database/daily requirements.csv`
+- Generator: `scripts/build-fooddata.js`
+- Output: `src/resource/pregnut_fooddata.v1.json`
+
+The week-by-week time period protocol and citations live in:
+
+- `src/resource/weekly_protocol.v1.json`
+
+## Pages
+
+- `/` Home
+- `/app/` Top Foods (Tableau Public embed)
+- `/weekly-diet/` Weekly tracker (period-based priorities + ranked foods)
+- `/blog/` Blog listing and posts
+- `/about/` About + references + disclaimer
 

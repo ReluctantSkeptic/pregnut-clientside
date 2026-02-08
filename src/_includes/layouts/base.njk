@@ -14,11 +14,12 @@
       {% endfor %}
     {% endif %}
   </head>
-  <body>
+  <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
     {% include "components/navbar.njk" %}
     <main class="page">
       {{ content | safe }}
     </main>
+    {% include "components/footer.njk" %}
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery.easy-autocomplete.min.js"></script>
     <script src="/js/searchbar.js"></script>

@@ -5,10 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve",
+    "build:fooddata": "node scripts/build-fooddata.js",
+    "build": "npm run build:fooddata && npx @11ty/eleventy",
+    "start": "npm run build:fooddata && npx @11ty/eleventy --serve",
     "serve": "serve _site -p 8080"
   }  ,
+  "engines": {
+    "node": ">=18"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ReluctantSkeptic/pregnut-clientside.git"

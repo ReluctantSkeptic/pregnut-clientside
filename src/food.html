@@ -1,0 +1,45 @@
+---
+title: Food
+layout: base.njk
+permalink: /food/index.html
+bodyClass: page-food
+pageStyles:
+  - /style/weekly-diet.css
+  - /style/food.css
+pageScripts:
+  - /js/food.js
+---
+
+<section class="hero slim">
+  <div>
+    <p class="eyebrow">Food profile</p>
+    <h1 class="hero-title" id="FoodTitle">Search for a food</h1>
+    <p class="hero-lede" id="FoodSubtitle">Use the search bar in the top right to view a food's nutrient coverage per 100 grams.</p>
+  </div>
+</section>
+
+<section class="section food-shell" aria-label="Food nutrient profile">
+  <section class="content-card">
+    <div class="content-head">
+      <p class="content-eyebrow">100 grams</p>
+      <h2 class="content-title">Daily coverage</h2>
+      <p class="content-summary">Bars show percent of daily target provided by 100g of this food. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
+    </div>
+
+    <div class="food-source-card" aria-label="Food source filter">
+      <div class="food-source-kicker">Food source</div>
+      <label class="food-source-toggle">
+        <input type="checkbox" id="ToggleNaturalOnly" aria-label="Natural foods only">
+        <span class="food-source-track" aria-hidden="true">
+          <span class="food-source-text is-left">Processed</span>
+          <span class="food-source-text is-right">Natural</span>
+          <span class="food-source-thumb"></span>
+        </span>
+      </label>
+      <div class="food-source-hint" id="FoodSourceHint">Affects Top Foods and Weekly Diet rankings. This page always shows your selected food.</div>
+    </div>
+
+    <div class="food-list" id="FoodResult" aria-label="Food nutrient bars"></div>
+  </section>
+</section>
+

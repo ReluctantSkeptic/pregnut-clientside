@@ -20,15 +20,13 @@ $(function () {
     if (!value) {
       return;
     }
-    if (typeof filterMulti === "function" && typeof window.viz !== "undefined") {
-      var currentName = window.currentDashboardName || null;
-      var foodDashName = typeof window.FOOD_DASHBOARD_NAME === "string" ? window.FOOD_DASHBOARD_NAME : null;
-      var foodSheetName = typeof window.SHEET_NAME === "string" ? window.SHEET_NAME : null;
-      if (currentName && (currentName === foodDashName || currentName === foodSheetName)) {
-        filterMulti();
-        return;
-      }
+    window.location.href = "/food/?food=" + encodeURIComponent(value);
+  });
+
+  $input.on("keydown", function (ev) {
+    if (ev && ev.key === "Enter") {
+      ev.preventDefault();
+      $("#FoodFinderSearchButton").trigger("click");
     }
-    window.location.href = "/app/?food=" + encodeURIComponent(value);
   });
 });

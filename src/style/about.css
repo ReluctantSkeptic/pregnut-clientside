@@ -1,0 +1,130 @@
+:root {
+  --portion-border: rgba(225, 214, 203, 0.92);
+}
+
+.portion-guide {
+  position: relative;
+  overflow: hidden;
+}
+
+.portion-guide::before {
+  content: "";
+  position: absolute;
+  inset: -40px -80px;
+  background:
+    radial-gradient(720px 320px at 10% 10%, rgba(255, 180, 200, 0.22), transparent 60%),
+    radial-gradient(760px 360px at 92% 10%, rgba(160, 220, 255, 0.20), transparent 58%),
+    radial-gradient(820px 420px at 40% 92%, rgba(186, 235, 210, 0.20), transparent 60%);
+  pointer-events: none;
+  opacity: 0.9;
+  mix-blend-mode: multiply;
+}
+
+.portion-guide > * {
+  position: relative;
+  z-index: 1;
+}
+
+.portion-note {
+  max-width: 78ch;
+  margin: 0;
+  color: var(--muted);
+}
+
+.portion-grid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.portion-card {
+  background: #fff;
+  border: 1px solid var(--portion-border);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.portion-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(31, 122, 122, 0.26);
+  box-shadow: 0 30px 90px rgba(23, 19, 16, 0.16);
+}
+
+.portion-media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.portion-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.02);
+  transition: transform 0.65s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.portion-card:hover .portion-media img {
+  transform: scale(1.08);
+}
+
+.portion-badge {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(225, 214, 203, 0.9);
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(20, 90, 90, 0.9);
+}
+
+.portion-body {
+  padding: 14px 16px 16px;
+  display: grid;
+  gap: 8px;
+}
+
+.portion-title {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--ink);
+}
+
+.portion-amount {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.portion-link {
+  font-size: 0.92rem;
+  font-weight: 650;
+  color: rgba(20, 90, 90, 0.92);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 4px;
+  width: fit-content;
+}
+
+.portion-link:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .portion-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

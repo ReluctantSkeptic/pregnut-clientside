@@ -1,0 +1,555 @@
+{
+  "version": "v1",
+  "generatedAt": "2026-02-08",
+  "weeksTotal": 40,
+  "sources": [
+    {
+      "id": "nhs-1-8",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 1-8)",
+      "url": "https://111.wales.nhs.uk/LiveWell/Pregnancy/4to8weeks/"
+    },
+    {
+      "id": "nhs-9-12",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 9-12)",
+      "url": "https://111.wales.nhs.uk/livewell/pregnancy/9to12weeks?print=1"
+    },
+    {
+      "id": "nhs-13-16",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 13-16)",
+      "url": "https://111.wales.nhs.uk/livewell/pregnancy/13to16weeks/"
+    },
+    {
+      "id": "nhs-17-20",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 17-20)",
+      "url": "https://111.wales.nhs.uk/livewell/pregnancy/17to20weeks/"
+    },
+    {
+      "id": "nhs-21-24",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 21-24)",
+      "url": "https://111.wales.nhs.uk/doityourself/pregnancy/21to24weeks/"
+    },
+    {
+      "id": "nhs-25-28",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 25-28)",
+      "url": "https://111.wales.nhs.uk/doityourself/pregnancy/25to28weeks/"
+    },
+    {
+      "id": "nhs-29-32",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 29-32)",
+      "url": "https://111.wales.nhs.uk/LiveWell/Pregnancy/29to32weeks/"
+    },
+    {
+      "id": "nhs-33-36",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 33-36)",
+      "url": "https://111.wales.nhs.uk/doityourself/pregnancy/33to36weeks/"
+    },
+    {
+      "id": "nhs-37-40",
+      "label": "NHS 111 Wales: Pregnancy week by week (weeks 37-40)",
+      "url": "https://111.wales.nhs.uk/doityourself/pregnancy/37to40weeks/"
+    },
+    {
+      "id": "cdc-ntd",
+      "label": "CDC: Neural tube defects (prevention and timing)",
+      "url": "https://www.cdc.gov/ncbddd/birthdefects/neural-tube-defects.html"
+    },
+    {
+      "id": "ods-pregnancy",
+      "label": "NIH Office of Dietary Supplements: Dietary Supplements and Life Stages: Pregnancy (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    {
+      "id": "ods-calcium",
+      "label": "NIH Office of Dietary Supplements: Calcium (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+    },
+    {
+      "id": "ods-choline",
+      "label": "NIH Office of Dietary Supplements: Choline (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+    },
+    {
+      "id": "ods-folate",
+      "label": "NIH Office of Dietary Supplements: Folate (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+    },
+    {
+      "id": "ods-iron",
+      "label": "NIH Office of Dietary Supplements: Iron (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+    },
+    {
+      "id": "ods-omega3",
+      "label": "NIH Office of Dietary Supplements: Omega-3 Fatty Acids (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+    },
+    {
+      "id": "ods-riboflavin",
+      "label": "NIH Office of Dietary Supplements: Riboflavin (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
+    },
+    {
+      "id": "ods-b6",
+      "label": "NIH Office of Dietary Supplements: Vitamin B6 (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+    },
+    {
+      "id": "ods-b12",
+      "label": "NIH Office of Dietary Supplements: Vitamin B12 (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+    },
+    {
+      "id": "ods-vitamin-c",
+      "label": "NIH Office of Dietary Supplements: Vitamin C (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+    },
+    {
+      "id": "ods-vitamin-d",
+      "label": "NIH Office of Dietary Supplements: Vitamin D (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+    },
+    {
+      "id": "ods-zinc",
+      "label": "NIH Office of Dietary Supplements: Zinc (Health Professional)",
+      "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+    },
+    {
+      "id": "cdc-weight-gain",
+      "label": "CDC: Weight gain during pregnancy (calorie needs by trimester)",
+      "url": "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html"
+    },
+    {
+      "id": "odphp-calories",
+      "label": "health.gov MyHealthfinder: Eat healthy during pregnancy (calorie needs by trimester)",
+      "url": "https://odphp.health.gov/myhealthfinder/healthtopics/category/pregnancy/nutrition-and-physical-activity/eat-healthy-during-pregnancy-quick-tips"
+    },
+    {
+      "id": "nap-protein",
+      "label": "National Academies Press: Dietary Reference Intakes (Protein and Amino Acids; pregnancy RDA summary)",
+      "url": "https://nap.nationalacademies.org/read/10490/chapter/12"
+    }
+  ],
+  "periods": [
+    {
+      "id": "wk1-8",
+      "title": "Foundations (brain, spinal cord, heart, early organs)",
+      "weeks": { "start": 1, "end": 8 },
+      "citations": ["nhs-1-8", "cdc-ntd"],
+      "summary": "This is the build-the-blueprint stage. A lot happens fast, even before you may feel very pregnant.",
+      "development": [
+        "Early brain and spinal cord structures form very early (neural tube).",
+        "The heart forms and begins working early on.",
+        "Early limb and facial structures begin to appear and take shape.",
+        "The placenta develops to support the rest of pregnancy."
+      ],
+      "notes": [
+        { "text": "Weeks are counted from the first day of your last period (so week 1-2 happen before conception).", "citations": ["nhs-1-8"] },
+        { "text": "In general, the first trimester does not require extra calories. Focus on nutrient density.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "Folate (DFE)",
+          "priority": "high",
+          "why": "Folate is most time-sensitive early on because neural tube development happens very early.",
+          "details": "Neural tube defects occur very early in pregnancy, which is why folate adequacy before and early in pregnancy matters so much.",
+          "citations": ["cdc-ntd", "ods-folate"]
+        },
+        {
+          "id": "Choline",
+          "priority": "high",
+          "why": "Choline supports early brain and spinal cord development.",
+          "details": "Choline is involved in normal brain and spinal cord development and supports many cell processes.",
+          "citations": ["ods-choline"]
+        },
+        {
+          "id": "Zinc",
+          "priority": "medium",
+          "why": "Zinc supports rapid cell growth and early tissue formation.",
+          "details": "Early development is a high-growth phase, and zinc is required for many enzymes and cell processes.",
+          "citations": ["ods-zinc", "nhs-1-8"]
+        },
+        {
+          "id": "Vitamin B-12",
+          "priority": "medium",
+          "why": "Vitamin B-12 supports nervous system function and red blood cell formation.",
+          "details": "B-12 works closely with folate in key metabolic pathways and supports neurological function.",
+          "citations": ["ods-b12", "ods-folate"]
+        },
+        {
+          "id": "Protein",
+          "priority": "supporting",
+          "why": "Protein supports foundational growth of fetal and maternal tissue.",
+          "details": "Protein needs rise in pregnancy overall, and it supports growth of new tissues.",
+          "citations": ["nap-protein"]
+        }
+      ]
+    },
+    {
+      "id": "wk9-12",
+      "title": "Organ formation wraps up (now it's growth + refinement)",
+      "weeks": { "start": 9, "end": 12 },
+      "citations": ["nhs-9-12"],
+      "summary": "By the end of this period, the baby is fully formed with organs and limbs in place, then shifts toward growth and maturation.",
+      "development": [
+        "Major internal organs continue developing and refining.",
+        "By about 12 weeks, organs, muscles, limbs, and bones are in place and development shifts toward growth and maturation.",
+        "Placenta development continues and becomes fully formed around this stage."
+      ],
+      "notes": [
+        { "text": "In general, the first trimester does not require extra calories. Focus on nutrient density.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "Folate (DFE)",
+          "priority": "high",
+          "why": "Folate remains a key foundation nutrient in early pregnancy.",
+          "details": "Folate supports normal cell division and is emphasized in pregnancy guidance.",
+          "citations": ["ods-folate", "ods-pregnancy"]
+        },
+        {
+          "id": "Zinc",
+          "priority": "medium",
+          "why": "Rapid growth continues, and zinc supports many growth and development processes.",
+          "details": "Zinc is required for numerous enzymes and supports immune function and growth.",
+          "citations": ["ods-zinc", "nhs-9-12"]
+        },
+        {
+          "id": "Protein",
+          "priority": "medium",
+          "why": "This is a major growth period and protein supports new tissue.",
+          "details": "Protein needs increase in pregnancy and support fetal and maternal tissue growth.",
+          "citations": ["nap-protein"]
+        },
+        {
+          "id": "Vitamin B-6",
+          "priority": "supporting",
+          "why": "Vitamin B-6 supports metabolism and red blood cell formation.",
+          "details": "B-6 is involved in many metabolic processes important during pregnancy.",
+          "citations": ["ods-b6", "ods-pregnancy"]
+        }
+      ]
+    },
+    {
+      "id": "wk13-16",
+      "title": "Brain + skeleton momentum",
+      "weeks": { "start": 13, "end": 16 },
+      "citations": ["nhs-13-16"],
+      "summary": "You're in the second trimester: growth accelerates and coordination and movement increase.",
+      "development": [
+        "Swallowing begins and kidneys start to work.",
+        "Hearing and light sensitivity begin to emerge.",
+        "Facial muscles and nervous system development allow more movement and early expressions."
+      ],
+      "notes": [
+        { "text": "Second trimester often means about 340 extra calories/day, depending on your starting weight and situation.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "DHA",
+          "priority": "high",
+          "why": "DHA is a key building block for the developing brain and eyes.",
+          "details": "Omega-3s (including DHA) are structural components in the brain and retina; many people don't get enough from food.",
+          "citations": ["ods-omega3"]
+        },
+        {
+          "id": "Choline",
+          "priority": "high",
+          "why": "Choline supports brain and nervous system development.",
+          "details": "Choline is involved in normal brain and spinal cord development and supports many cellular processes.",
+          "citations": ["ods-choline"]
+        },
+        {
+          "id": "Calcium",
+          "priority": "medium",
+          "why": "As the skeleton develops, calcium becomes increasingly important.",
+          "details": "Calcium is essential for bone structure and is emphasized in pregnancy nutrition guidance.",
+          "citations": ["ods-calcium", "ods-pregnancy"]
+        },
+        {
+          "id": "Vitamin D",
+          "priority": "medium",
+          "why": "Vitamin D helps with calcium use and bone development.",
+          "details": "Vitamin D supports calcium absorption and is relevant to skeletal development.",
+          "citations": ["ods-vitamin-d", "ods-calcium"]
+        },
+        {
+          "id": "Protein",
+          "priority": "supporting",
+          "why": "Protein supports overall growth as the fetus gets bigger each week.",
+          "details": "Protein needs increase in pregnancy and support new tissue growth.",
+          "citations": ["nap-protein"]
+        }
+      ]
+    },
+    {
+      "id": "wk17-20",
+      "title": "Movement + senses (a very active stretch)",
+      "weeks": { "start": 17, "end": 20 },
+      "citations": ["nhs-17-20"],
+      "summary": "This period is often when movement becomes obvious, and the fetus keeps building capacity for life outside the womb.",
+      "development": [
+        "Fingerprints and nails form; grip strengthens.",
+        "Movement increases and responses to sound can begin.",
+        "Weight gain starts to accelerate and the fetus begins to \"fill out\" over time."
+      ],
+      "notes": [
+        { "text": "Second trimester often means about 340 extra calories/day, depending on your starting weight and situation.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "Iron",
+          "priority": "high",
+          "why": "Iron supports red blood cell production and oxygen delivery for both you and the fetus.",
+          "details": "Iron needs increase in pregnancy and iron deficiency is common; adequacy supports healthy red blood cells.",
+          "citations": ["ods-iron", "ods-pregnancy"]
+        },
+        {
+          "id": "Protein",
+          "priority": "high",
+          "why": "Growth is the main job right now, and protein is the main building material.",
+          "details": "Protein needs rise in pregnancy overall and support fetal growth.",
+          "citations": ["nap-protein"]
+        },
+        {
+          "id": "DHA",
+          "priority": "medium",
+          "why": "Brain and nervous system development continues all pregnancy long.",
+          "details": "Omega-3s (including DHA) contribute to brain and retina structure.",
+          "citations": ["ods-omega3"]
+        },
+        {
+          "id": "Vitamin C",
+          "priority": "supporting",
+          "why": "Vitamin C supports collagen formation and helps improve iron absorption from plant foods.",
+          "details": "Vitamin C is involved in collagen synthesis and can increase nonheme iron absorption.",
+          "citations": ["ods-vitamin-c", "ods-iron"]
+        }
+      ]
+    },
+    {
+      "id": "wk21-24",
+      "title": "Lungs practice + viability threshold",
+      "weeks": { "start": 21, "end": 24 },
+      "citations": ["nhs-21-24"],
+      "summary": "The fetus practices breathing movements, and around 24 weeks the chance of survival begins if born early (with intensive care).",
+      "development": [
+        "The placenta continues growing (though the baby weighs more than the placenta from around this stage).",
+        "Breathing movements are practiced, though lungs are not yet ready to work fully.",
+        "By about 24 weeks, survival becomes possible if born very early, but risks remain."
+      ],
+      "notes": [
+        { "text": "Second trimester often means about 340 extra calories/day, depending on your starting weight and situation.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "Iron",
+          "priority": "high",
+          "why": "Iron supports expanding maternal blood volume and fetal needs.",
+          "details": "Pregnancy increases iron requirements; iron deficiency is common and matters for oxygen transport.",
+          "citations": ["ods-iron", "ods-pregnancy"]
+        },
+        {
+          "id": "Protein",
+          "priority": "high",
+          "why": "A growth-and-maturation stretch: protein remains a core building block.",
+          "details": "Protein supports tissue growth for both fetus and mother during pregnancy.",
+          "citations": ["nap-protein"]
+        },
+        {
+          "id": "Vitamin C",
+          "priority": "medium",
+          "why": "Vitamin C supports tissue structure and can help with iron absorption.",
+          "details": "Vitamin C supports collagen and can improve absorption of iron from plant foods.",
+          "citations": ["ods-vitamin-c", "ods-iron"]
+        },
+        {
+          "id": "Zinc",
+          "priority": "supporting",
+          "why": "Zinc supports growth and immune function.",
+          "details": "Zinc is involved in many enzyme systems and supports immune and growth processes.",
+          "citations": ["ods-zinc"]
+        }
+      ]
+    },
+    {
+      "id": "wk25-28",
+      "title": "More fat, more brain, more readiness",
+      "weeks": { "start": 25, "end": 28 },
+      "citations": ["nhs-25-28"],
+      "summary": "Growth continues and the fetus becomes \"perfectly formed\" by this stage, while still needing major maturation.",
+      "development": [
+        "Responses to sound and touch are strong; hiccups can happen.",
+        "Eyelids can open around this time and the baby keeps gaining weight.",
+        "Brain, lungs, and digestive system are formed but still maturing."
+      ],
+      "notes": [
+        { "text": "Third trimester begins around week 28. Calorie needs typically rise to about +450/day for many people.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "DHA",
+          "priority": "high",
+          "why": "DHA supports ongoing brain and eye development, which is very active late pregnancy.",
+          "details": "Omega-3s (including DHA) are structural components in the brain and retina.",
+          "citations": ["ods-omega3", "nhs-25-28"]
+        },
+        {
+          "id": "Iron",
+          "priority": "high",
+          "why": "Iron supports blood and oxygen delivery and helps prevent anemia.",
+          "details": "Iron needs increase in pregnancy; adequacy supports red blood cell production.",
+          "citations": ["ods-iron", "ods-pregnancy"]
+        },
+        {
+          "id": "Protein",
+          "priority": "medium",
+          "why": "This is still a growth-heavy window and protein supports tissue expansion.",
+          "details": "Protein supports fetal growth and maternal tissue changes during pregnancy.",
+          "citations": ["nap-protein"]
+        },
+        {
+          "id": "Calcium",
+          "priority": "supporting",
+          "why": "Bone development continues, and calcium supports skeletal structure.",
+          "details": "Calcium is essential for bones and is emphasized in pregnancy guidance.",
+          "citations": ["ods-calcium", "ods-pregnancy"]
+        }
+      ]
+    },
+    {
+      "id": "wk29-32",
+      "title": "Lungs develop rapidly; positioning for birth",
+      "weeks": { "start": 29, "end": 32 },
+      "citations": ["nhs-29-32"],
+      "summary": "A high-growth stretch: lungs develop rapidly and many babies start moving into a head-down position.",
+      "development": [
+        "Sucking reflex develops and practice continues.",
+        "Lungs develop rapidly, though full readiness is later.",
+        "Many babies shift toward a head-down position by around 32 weeks."
+      ],
+      "notes": [
+        { "text": "Third trimester calorie needs often rise to about +450/day for many people.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "Protein",
+          "priority": "high",
+          "why": "Protein supports the rapid growth and maturation happening now.",
+          "details": "Protein needs rise in pregnancy overall and support growth of fetal and maternal tissues.",
+          "citations": ["nap-protein"]
+        },
+        {
+          "id": "Iron",
+          "priority": "high",
+          "why": "Iron supports oxygen delivery and helps prevent anemia as demands remain high.",
+          "details": "Iron needs increase in pregnancy and iron deficiency is common.",
+          "citations": ["ods-iron", "ods-pregnancy"]
+        },
+        {
+          "id": "Calcium",
+          "priority": "medium",
+          "why": "Bone mineral needs continue as the fetus gets larger.",
+          "details": "Calcium is essential for skeletal structure.",
+          "citations": ["ods-calcium"]
+        },
+        {
+          "id": "Vitamin D",
+          "priority": "supporting",
+          "why": "Vitamin D supports calcium use and bone development.",
+          "details": "Vitamin D helps the body absorb calcium and supports bone health.",
+          "citations": ["ods-vitamin-d", "ods-calcium"]
+        }
+      ]
+    },
+    {
+      "id": "wk33-36",
+      "title": "Final development + weight gain",
+      "weeks": { "start": 33, "end": 36 },
+      "citations": ["nhs-33-36"],
+      "summary": "The baby's systems are largely in place; the focus is on maturing and preparing for delivery.",
+      "development": [
+        "Brain and nervous system development continues.",
+        "Your baby's body keeps gaining weight and smoothing out.",
+        "Readiness for breathing improves as lungs keep developing."
+      ],
+      "notes": [
+        { "text": "Third trimester calorie needs often rise to about +450/day for many people.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "Iron",
+          "priority": "high",
+          "why": "Iron supports maternal and fetal blood needs late in pregnancy.",
+          "details": "Iron needs increase in pregnancy and adequacy matters for red blood cell production.",
+          "citations": ["ods-iron", "ods-pregnancy"]
+        },
+        {
+          "id": "Protein",
+          "priority": "high",
+          "why": "Protein supports ongoing growth and tissue repair and preparation for birth.",
+          "details": "Protein supports growth of new tissue during pregnancy.",
+          "citations": ["nap-protein"]
+        },
+        {
+          "id": "Calcium",
+          "priority": "medium",
+          "why": "Bone structure continues to mature as birth approaches.",
+          "details": "Calcium is essential for bones and teeth.",
+          "citations": ["ods-calcium"]
+        },
+        {
+          "id": "Vitamin D",
+          "priority": "supporting",
+          "why": "Vitamin D supports calcium absorption and bone health.",
+          "details": "Vitamin D helps the body use calcium effectively.",
+          "citations": ["ods-vitamin-d", "ods-calcium"]
+        }
+      ]
+    },
+    {
+      "id": "wk37-40",
+      "title": "Full term: finishing touches",
+      "weeks": { "start": 37, "end": 40 },
+      "citations": ["nhs-37-40"],
+      "summary": "Full-term begins around 37 weeks. At this point, it's mostly about final maturation and steady nourishment.",
+      "development": [
+        "Baby is considered full-term around 37 weeks and ready to be born in the coming weeks.",
+        "Lanugo is mostly gone by around 40 weeks for many babies.",
+        "The baby continues to prepare for birth and life outside the womb."
+      ],
+      "notes": [
+        { "text": "Third trimester calorie needs often rise to about +450/day for many people.", "citations": ["cdc-weight-gain", "odphp-calories"] }
+      ],
+      "nutrients": [
+        {
+          "id": "Protein",
+          "priority": "high",
+          "why": "Protein supports steady nourishment and maternal recovery needs.",
+          "details": "Protein supports tissue maintenance and repair during pregnancy.",
+          "citations": ["nap-protein"]
+        },
+        {
+          "id": "Iron",
+          "priority": "high",
+          "why": "Iron supports red blood cells and helps prevent anemia late pregnancy.",
+          "details": "Iron needs remain elevated in pregnancy and deficiency is common.",
+          "citations": ["ods-iron", "ods-pregnancy"]
+        },
+        {
+          "id": "Calcium",
+          "priority": "medium",
+          "why": "Calcium supports bones and teeth as growth completes.",
+          "details": "Calcium is essential for skeletal structure.",
+          "citations": ["ods-calcium"]
+        },
+        {
+          "id": "Vitamin D",
+          "priority": "supporting",
+          "why": "Vitamin D supports calcium use and bone health.",
+          "details": "Vitamin D helps with calcium absorption.",
+          "citations": ["ods-vitamin-d", "ods-calcium"]
+        }
+      ]
+    }
+  ]
+}

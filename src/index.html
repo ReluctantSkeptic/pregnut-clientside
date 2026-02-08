@@ -2,102 +2,158 @@
 title: PregNut
 description: Pregnancy nutrition insights and food lookup tools.
 layout: base.njk
+bodyClass: page-home
+pageStyles:
+  - /style/home.css
 ---
 
-<section class="hero">
-  <div class="hero-content">
-    <p class="eyebrow">Nerdy nutrition for pregnancy</p>
-    <h1 class="hero-title">PregNut</h1>
-    <p class="hero-lede">A practical way to find the most nutrient-dense foods for a healthy pregnancy, backed by evidence and easy to explore.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="/app/">Explore top foods</a>
-      <a class="button ghost" href="/blog/">Read the blog</a>
+<aside class="home-announce" aria-label="Announcement">
+  <div class="home-announce-shell">
+    <div class="home-announce-left">
+      <span class="home-announce-badge" aria-hidden="true">New</span>
+      <span class="home-announce-text">Weekly Diet is live: pick your week and see what to prioritize right now.</span>
     </div>
+    <a class="home-announce-link" href="/weekly-diet/">Explore Weekly Diet</a>
   </div>
-  <div class="hero-visual">
-    <img src="/resource/pregnut_about_header.jpg" alt="PregNut overview" />
+</aside>
+
+<section class="home-hero" aria-label="Hero">
+  <div class="home-hero-shell">
+    <div class="home-hero-copy">
+      <p class="home-kicker">Nerdy nutrition for pregnancy</p>
+      <h1 class="home-title">
+        <span class="home-title-pill">
+          <span>Preg</span>
+          <span class="home-title-divider" aria-hidden="true"></span>
+          <span class="home-title-italic">Nut</span>
+        </span>
+      </h1>
+      <p class="home-lede">A practical way to find nutrient-dense foods for a healthy pregnancy, backed by evidence and easy to explore.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="/app/">Explore top foods</a>
+        <a class="button ghost" href="/blog/">Read the blog</a>
+      </div>
+
+      <dl class="home-stats" aria-label="Key stats">
+        <div class="home-stat">
+          <dt class="home-stat-value">15</dt>
+          <dd class="home-stat-label">essential nutrients</dd>
+        </div>
+        <div class="home-stat">
+          <dt class="home-stat-value">100g</dt>
+          <dd class="home-stat-label">consistent portions</dd>
+        </div>
+        <div class="home-stat">
+          <dt class="home-stat-value">Weekly</dt>
+          <dd class="home-stat-label">trimester-aware priorities</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="home-hero-visual" aria-label="App preview">
+      <div class="home-hero-frame">
+        <img src="/resource/pregnut_about_header.jpg" alt="PregNut overview" />
+        <div class="home-hero-frame-caption">Evidence-first guidance. Calm UI. Fast answers.</div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="section-header">
-    <p class="eyebrow">What is PregNut?</p>
-    <h2>Nutrition guidance that respects your time.</h2>
-  </div>
-  <div class="split">
-    <div>
-      <p>PregNut is a food lookup tool for pregnancy nutrition. It helps you discover which foods deliver more (or less) of the 15 essential nutrients for a healthy pregnancy.</p>
+<section class="section home-slab" aria-label="What is PregNut">
+  <div class="home-slab-shell">
+    <div class="home-slab-head">
+      <p class="home-label">What is PregNut?</p>
+      <h2 class="home-slab-title">Nutrition guidance that respects your time.</h2>
+    </div>
+    <div class="home-slab-body">
+      <p>PregNut is a food lookup tool for pregnancy nutrition. It helps you discover which foods deliver more (or less) of the essential nutrients for a healthy pregnancy.</p>
       <p>Finding detailed nutrient data can be frustrating. PregNut organizes the evidence so you can see the best options fast, then dig deeper when you want to.</p>
-    </div>
-    <div class="callout">
-      <h3>15 essential nutrients</h3>
-      <p>Evidence-based recommendations from leading health organizations, summarized in one place.</p>
+      <div class="home-callout">
+        <h3 class="home-callout-title">15 essential nutrients</h3>
+        <p class="home-callout-body">Evidence-based recommendations from leading health organizations, summarized in one place.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section tone">
-  <div class="section-header">
-    <p class="eyebrow">How to use PregNut</p>
-    <h2>Two ways to explore.</h2>
-  </div>
-  <div class="card-grid">
-    <article class="card">
-      <img src="/resource/top_foods.jpg" alt="Top foods view" class="card-image" />
-      <h3 class="card-title">Top Foods</h3>
-      <p>The top food page shows the most nutritionally dense options for each of 15 essential nutrients, broken down by food group categories.</p>
-      <p>One of the toggles lets you switch between each of these nutrients. The other lets you select nutrient sources that are "natural" vs "processed" (including items fortified with vitamins).</p>
-      <p>If you hover over any food item you will see a pop up with the complete nutrition summary for that food item.</p>
-    </article>
-    <article class="card">
-      <img src="/resource/search_foods.jpg" alt="Search view" class="card-image" />
-      <h3 class="card-title">Search</h3>
-      <p>Begin typing in the food search bar and you will see a list of foods that match your query. Select one and click Search.</p>
-      <p>This will take you to a summary page where you can see what percent of your daily need is met by 100 grams of this food.</p>
-      <p>All foods use 100 gram (3.5 oz) portions to compare apples to oranges. How much is this? It depends on the food, but for many items its close to 1 cup.</p>
-      <p>If the item does not show up in the search bar as you type, that item does not exist in the database.</p>
-    </article>
+<section class="section home-slab is-tone" aria-label="How to use PregNut">
+  <div class="home-slab-shell">
+    <div class="home-slab-head">
+      <p class="home-label">How to use PregNut</p>
+      <h2 class="home-slab-title">Two ways to explore.</h2>
+      <p class="home-slab-desc">Browse the best foods for a nutrient, or search a food and see the full profile (always in 100g portions).</p>
+    </div>
+    <div class="home-panels" aria-label="Explore options">
+      <article class="home-panel">
+        <div class="home-panel-media">
+          <img src="/resource/top_foods.jpg" alt="Top foods view" loading="lazy" />
+          <div class="home-panel-stamp" aria-hidden="true">01</div>
+        </div>
+        <div class="home-panel-body">
+          <h3 class="home-panel-title">Top Foods</h3>
+          <p class="home-panel-text">The Top Foods view shows the most nutrient-dense options for each essential nutrient, broken down by food group.</p>
+          <p class="home-panel-text">Toggle between nutrients, then filter sources from processed (fortified) to natural (whole-food) sources.</p>
+          <p class="home-panel-text">Hover a food to see its complete nutrition summary.</p>
+          <a class="home-panel-link" href="/app/">Open Top Foods</a>
+        </div>
+      </article>
+
+      <article class="home-panel">
+        <div class="home-panel-media">
+          <img src="/resource/search_foods.jpg" alt="Search view" loading="lazy" />
+          <div class="home-panel-stamp" aria-hidden="true">02</div>
+        </div>
+        <div class="home-panel-body">
+          <h3 class="home-panel-title">Search</h3>
+          <p class="home-panel-text">Type in the search bar to find foods in the database, then click Search to open a summary.</p>
+          <p class="home-panel-text">You will see what percent of your daily need is met by 100 grams of that food.</p>
+          <p class="home-panel-text">Need a visual? See <a href="/about/#hundred-grams">how much is 100 grams</a>.</p>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="section-header">
-    <p class="eyebrow">Is it based on science?</p>
-    <h2>Yes. The short answer is evidence.</h2>
-  </div>
-  <div class="split">
-    <div>
+<section class="section home-slab" aria-label="Evidence">
+  <div class="home-slab-shell">
+    <div class="home-slab-head">
+      <p class="home-label">Is it based on science?</p>
+      <h2 class="home-slab-title">Yes. The short answer is evidence.</h2>
+    </div>
+    <div class="home-slab-body">
       <p>All recommendations are based on peer-reviewed evidence and guidelines from healthcare organizations worldwide.</p>
       <p>References: <a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>, <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-nutrition/art-20045082?pg=1">2</a>, <a href="http://americanpregnancy.org/pregnancy-health/nutrients-vitamins-pregnancy/">3</a>, <a href="https://www.nrv.gov.au/nutrients">4</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/">5</a>.</p>
-    </div>
-    <div class="nutrient-grid">
-      <span>Calcium</span>
-      <span>Choline</span>
-      <span>DHA</span>
-      <span>Folate</span>
-      <span>Iron</span>
-      <span>Potassium</span>
-      <span>Protein</span>
-      <span>Vitamin B2</span>
-      <span>Vitamin B6</span>
-      <span>Vitamin B12</span>
-      <span>Vitamin C</span>
-      <span>Vitamin D</span>
-      <span>Vitamin E</span>
-      <span>Iodine</span>
-      <span>Zinc</span>
+      <div class="home-nutrient-tags" aria-label="Essential nutrients">
+        <span>Calcium</span>
+        <span>Choline</span>
+        <span>DHA</span>
+        <span>Folate</span>
+        <span>Iron</span>
+        <span>Potassium</span>
+        <span>Protein</span>
+        <span>Vitamin B2</span>
+        <span>Vitamin B6</span>
+        <span>Vitamin B12</span>
+        <span>Vitamin C</span>
+        <span>Vitamin D</span>
+        <span>Vitamin E</span>
+        <span>Iodine</span>
+        <span>Zinc</span>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section tone">
-  <div class="section-header">
-    <p class="eyebrow">The Recommendations</p>
-    <h2>Daily nutrient needs and benefits.</h2>
+<section class="section home-slab is-tone" aria-label="Recommendations">
+  <div class="home-slab-shell">
+    <div class="home-slab-head">
+      <p class="home-label">The recommendations</p>
+      <h2 class="home-slab-title">Daily nutrient needs and benefits.</h2>
+      <p class="home-slab-desc">Needs come from the NIH. Benefits are summarized from trusted health sources.</p>
+    </div>
   </div>
-  <p>For each nutrient, the daily recommended amounts come from the National Institutes of Health. The benefits to the mother and child are sourced from WebMD and a small number of studies.</p>
   <div class="table-shell">
-    <table class="data-table">
+    <table class="data-table" aria-label="Nutrient needs and benefits">
       <thead>
         <tr>
           <th>Nutrient</th>
