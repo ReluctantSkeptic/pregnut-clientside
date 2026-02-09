@@ -7,7 +7,7 @@
   var STORAGE_KEY = "pregnut.topFoods.v1";
 
   var BAR_CAP_PERCENT = 200;
-  var BY_NUTRIENT_LIMIT = 30;
+  var PER_GROUP_LIMIT = 5;
 
   // Pastel rainbow palette: nutrients are bound to colors in alphabetical order.
   var NUTRIENT_ALPHA = [
@@ -149,6 +149,33 @@
     return node;
   }
 
+  function buildFoodNameNode(className, rawName) {
+    // Split on first comma only, then wrap the remainder in parentheses as a subdued detail.
+    var node = document.createElement("p");
+    if (className) node.className = className;
+
+    var s = String(rawName || "").trim();
+    if (!s) return node;
+
+    var idx = s.indexOf(",");
+    if (idx === -1) {
+      node.textContent = s;
+      return node;
+    }
+
+    var main = s.slice(0, idx).trim();
+    var rest = s.slice(idx + 1).trim();
+    node.textContent = main || s;
+
+    if (rest) {
+      var detail = document.createElement("span");
+      detail.className = className + "-detail";
+      detail.textContent = "(" + rest + ")";
+      node.appendChild(detail);
+    }
+    return node;
+  }
+
   function clear(node) {
     while (node && node.firstChild) node.removeChild(node.firstChild);
   }
@@ -213,50 +240,104 @@
     return wrap;
   }
 
-  function renderFoodBoxByNutrient(fooddata, foods, nutrientId, root) {
+  function renderFoodGroupsByNutrient(fooddata, foods, nutrientId, root) {
     if (!root) return;
     clear(root);
     closeAllCautions();
 
-    var box = el("div", "food-box", null);
+    if (!foods || !foods.length || !nutrientId) {
+      root.textContent = "No foods available.";
+      return;
+    }
+
+    var groupMap = {};
     for (var i = 0; i < foods.length; i++) {
       var food = foods[i];
+      if (!food) continue;
       var pct = percentOfRda(fooddata, food, nutrientId);
       if (pct === null) continue;
 
-      var row = el("div", "food-row", null);
-
-      var main = el("div", "food-row-main", null);
-      main.appendChild(el("p", "food-row-name", food.name));
-
-      var metaLine = el("div", "food-row-meta-line", null);
-      metaLine.appendChild(el("p", "food-row-meta", food.group));
-
-      var warn = String(food.warning || "").trim();
-      if (warn && warn.toLowerCase() !== "0") {
-        var wt = String(food.warningText || "").trim();
-        var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
-        metaLine.appendChild(buildCautionNode(msg));
-      }
-      main.appendChild(metaLine);
-
-      var bars = el("div", "food-row-bars", null);
-      bars.style.setProperty("--nutrient-color", nutrientColor(nutrientId));
-
-      var track = el("div", "bar-track", null);
-      var fill = el("div", "bar-fill", null);
-      var w = Math.min(Math.max(pct, 0), BAR_CAP_PERCENT);
-      fill.style.width = String(w) + "%";
-      track.appendChild(fill);
-      bars.appendChild(track);
-      bars.appendChild(el("div", "bar-value", Math.round(pct) + "%"));
-
-      row.appendChild(main);
-      row.appendChild(bars);
-      box.appendChild(row);
+      var g = String(food.group || "").trim();
+      if (!g) g = "Other";
+      if (!groupMap[g]) groupMap[g] = [];
+      groupMap[g].push({ food: food, pct: pct });
     }
 
-    root.appendChild(box);
+    var groups = [];
+    for (var name in groupMap) {
+      if (!groupMap.hasOwnProperty(name)) continue;
+      var arr = groupMap[name];
+      arr.sort(function (a, b) { return (b.pct - a.pct); });
+      var top = arr.slice(0, PER_GROUP_LIMIT);
+      if (!top.length) continue;
+      groups.push({ name: name, items: top, maxPct: top[0].pct });
+    }
+
+    groups.sort(function (a, b) {
+      var d = b.maxPct - a.maxPct;
+      if (d) return d;
+      return a.name.localeCompare(b.name);
+    });
+
+    if (!groups.length) {
+      root.textContent = "No data available for this nutrient.";
+      return;
+    }
+
+    var grid = el("div", "food-group-grid", null);
+    for (var gi = 0; gi < groups.length; gi++) {
+      var group = groups[gi];
+      var card = el("section", "food-group-card", null);
+      card.setAttribute("aria-label", group.name + " top foods");
+
+      var head = el("div", "food-group-head", null);
+      head.appendChild(el("h3", "food-group-title", group.name));
+      head.appendChild(el("p", "food-group-meta", "Top " + String(group.items.length) + " foods"));
+      card.appendChild(head);
+
+      var box = el("div", "food-box", null);
+      for (var fi = 0; fi < group.items.length; fi++) {
+        var item = group.items[fi];
+        var foodItem = item.food;
+        var pctItem = item.pct;
+
+        var row = el("div", "food-row", null);
+
+        var main = el("div", "food-row-main", null);
+        main.appendChild(buildFoodNameNode("food-row-name", foodItem.name));
+        var barCaution = null;
+        var warn = String(foodItem.warning || "").trim();
+        if (warn && warn.toLowerCase() !== "0") {
+          var wt = String(foodItem.warningText || "").trim();
+          var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
+          barCaution = buildCautionNode(msg);
+        }
+
+        var bars = el("div", "food-row-bars", null);
+        bars.style.setProperty("--nutrient-color", nutrientColor(nutrientId));
+
+        var track = el("div", "bar-track", null);
+        var fill = el("div", "bar-fill", null);
+        var w = Math.min(Math.max(pctItem, 0), BAR_CAP_PERCENT);
+        fill.style.width = String(w) + "%";
+        track.appendChild(fill);
+        bars.appendChild(track);
+
+        var overlay = el("div", "bar-overlay", null);
+        if (barCaution) overlay.appendChild(barCaution);
+        overlay.appendChild(el("div", "bar-overlay-value", Math.round(pctItem) + "%"));
+        bars.appendChild(overlay);
+
+        row.appendChild(main);
+        row.appendChild(bars);
+        box.appendChild(row);
+      }
+
+      card.appendChild(box);
+      grid.appendChild(card);
+    }
+
+    root.appendChild(grid);
   }
 
   function readUrlNutrient() {
@@ -317,20 +398,7 @@
       excludeAvoid: true
     });
 
-    foods.sort(function (a, b) {
-      var pa = percentOfRda(fooddata, a, state.selectedNutrient);
-      var pb = percentOfRda(fooddata, b, state.selectedNutrient);
-      return (pb === null ? -Infinity : pb) - (pa === null ? -Infinity : pa);
-    });
-
-    var top = [];
-    for (var f = 0; f < foods.length; f++) {
-      if (percentOfRda(fooddata, foods[f], state.selectedNutrient) === null) continue;
-      top.push(foods[f]);
-      if (top.length >= BY_NUTRIENT_LIMIT) break;
-    }
-
-    renderFoodBoxByNutrient(fooddata, top, state.selectedNutrient, root);
+    renderFoodGroupsByNutrient(fooddata, foods, state.selectedNutrient, root);
   }
 
   function start(fooddata) {
@@ -390,4 +458,3 @@
       });
   });
 })();
-

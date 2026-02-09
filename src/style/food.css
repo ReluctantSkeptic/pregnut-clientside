@@ -21,10 +21,6 @@
   mix-blend-mode: multiply;
 }
 
-.food-shell {
-  max-width: 1400px;
-}
-
 .page-food.food-ready .content-card {
   animation: weekly-rise 0.7s ease both;
 }

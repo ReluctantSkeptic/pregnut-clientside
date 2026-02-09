@@ -272,6 +272,33 @@
     return node;
   }
 
+  function buildFoodNameNode(className, rawName) {
+    // Split on first comma only, then wrap the remainder in parentheses as a subdued detail.
+    var node = document.createElement("p");
+    if (className) node.className = className;
+
+    var s = String(rawName || "").trim();
+    if (!s) return node;
+
+    var idx = s.indexOf(",");
+    if (idx === -1) {
+      node.textContent = s;
+      return node;
+    }
+
+    var main = s.slice(0, idx).trim();
+    var rest = s.slice(idx + 1).trim();
+    node.textContent = main || s;
+
+    if (rest) {
+      var detail = document.createElement("span");
+      detail.className = className + "-detail";
+      detail.textContent = "(" + rest + ")";
+      node.appendChild(detail);
+    }
+    return node;
+  }
+
   function clear(node) {
     while (node && node.firstChild) node.removeChild(node.firstChild);
   }
@@ -649,7 +676,7 @@
 
       var head = el("div", "food-head", null);
       var headLeft = el("div", "food-head-left", null);
-      headLeft.appendChild(el("p", "food-name", food.name));
+      headLeft.appendChild(buildFoodNameNode("food-name", food.name));
       head.appendChild(headLeft);
 
       var headRight = el("div", "food-head-right", null);
@@ -679,9 +706,9 @@
         var w = Math.min(Math.max(pct, 0), BAR_CAP_PERCENT);
         fill.style.width = String(w) + "%";
         track.appendChild(fill);
+        track.appendChild(el("div", "bar-value", Math.round(pct) + "%"));
         row.appendChild(track);
 
-        row.appendChild(el("div", "bar-value", Math.round(pct) + "%"));
         barRoot.appendChild(row);
       }
       item.appendChild(barRoot);
@@ -702,16 +729,17 @@
       var row = el("div", "food-row", null);
 
       var main = el("div", "food-row-main", null);
-      main.appendChild(el("p", "food-row-name", food.name));
+      main.appendChild(buildFoodNameNode("food-row-name", food.name));
 
       var metaLine = el("div", "food-row-meta-line", null);
       metaLine.appendChild(el("p", "food-row-meta", food.group));
 
+      var barCaution = null;
       var warn = String(food.warning || "").trim();
       if (warn && warn.toLowerCase() !== "0") {
         var wt = String(food.warningText || "").trim();
         var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
-        metaLine.appendChild(buildCautionNode(msg));
+        barCaution = buildCautionNode(msg);
       }
       main.appendChild(metaLine);
 
@@ -724,7 +752,11 @@
       fill.style.width = String(w) + "%";
       track.appendChild(fill);
       bars.appendChild(track);
-      bars.appendChild(el("div", "bar-value", Math.round(pct) + "%"));
+
+      var overlay = el("div", "bar-overlay", null);
+      if (barCaution) overlay.appendChild(barCaution);
+      overlay.appendChild(el("div", "bar-overlay-value", Math.round(pct) + "%"));
+      bars.appendChild(overlay);
 
       row.appendChild(main);
       row.appendChild(bars);

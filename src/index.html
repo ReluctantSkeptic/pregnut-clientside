@@ -5,58 +5,28 @@ layout: base.njk
 bodyClass: page-home
 pageStyles:
   - /style/home.css
+pageScripts:
+  - /js/home.js
 ---
 
-<aside class="home-announce" aria-label="Announcement">
-  <div class="home-announce-shell">
-    <div class="home-announce-left">
-      <span class="home-announce-badge" aria-hidden="true">New</span>
-      <span class="home-announce-text">Weekly Diet is live: pick your week and see what to prioritize right now.</span>
-    </div>
-    <a class="home-announce-link" href="/weekly-diet/">Explore Weekly Diet</a>
-  </div>
-</aside>
-
 <section class="home-hero" aria-label="Hero">
-  <div class="home-hero-shell">
-    <div class="home-hero-copy">
-      <p class="home-kicker">Nerdy nutrition for pregnancy</p>
-      <h1 class="home-title">
-        <span class="home-title-pill">
-          <span>Preg</span>
-          <span class="home-title-divider" aria-hidden="true"></span>
-          <span class="home-title-italic">Nut</span>
-        </span>
-      </h1>
-      <p class="home-lede">A practical way to find nutrient-dense foods for a healthy pregnancy, backed by evidence and easy to explore.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="/app/">Explore top foods</a>
-        <a class="button ghost" href="/blog/">Read the blog</a>
-      </div>
-
-      <dl class="home-stats" aria-label="Key stats">
-        <div class="home-stat">
-          <dt class="home-stat-value">15</dt>
-          <dd class="home-stat-label">essential nutrients</dd>
-        </div>
-        <div class="home-stat">
-          <dt class="home-stat-value">100g</dt>
-          <dd class="home-stat-label">consistent portions</dd>
-        </div>
-        <div class="home-stat">
-          <dt class="home-stat-value">Weekly</dt>
-          <dd class="home-stat-label">trimester-aware priorities</dd>
-        </div>
-      </dl>
-    </div>
-
-    <div class="home-hero-visual" aria-label="App preview">
-      <div class="home-hero-frame">
-        <img src="/resource/pregnut_about_header.jpg" alt="PregNut overview" />
-        <div class="home-hero-frame-caption">Evidence-first guidance. Calm UI. Fast answers.</div>
+  <div class="home-hero-visual" aria-label="App preview">
+    <div class="home-hero-frame">
+      <img src="/resource/pregnut_acorn_hero.png" alt="PregNut overview" />
+      <div class="home-hero-overlay">
+        <h1 class="home-title">
+          <span class="home-title-pill">
+            <span>Preg</span>
+            <span class="home-title-divider" aria-hidden="true"></span>
+            <span class="home-title-italic">Nut</span>
+          </span>
+        </h1>
       </div>
     </div>
   </div>
+  <p class="home-lede">Pregnancy nutrition is confusing.<br><br>
+We read the studies, mapped the nutrients,<br><br>
+and yes—went a little nuts doing it.<br><br></p>
 </section>
 
 <section class="section home-slab" aria-label="What is PregNut">
@@ -72,6 +42,20 @@ pageStyles:
         <h3 class="home-callout-title">15 essential nutrients</h3>
         <p class="home-callout-body">Evidence-based recommendations from leading health organizations, summarized in one place.</p>
       </div>
+      <dl class="home-stats" aria-label="Key stats">
+        <div class="home-stat">
+          <dt class="home-stat-value">15</dt>
+          <dd class="home-stat-label">essential nutrients</dd>
+        </div>
+        <div class="home-stat">
+          <dt class="home-stat-value">100g</dt>
+          <dd class="home-stat-label">consistent portions</dd>
+        </div>
+        <div class="home-stat">
+          <dt class="home-stat-value">Weekly</dt>
+          <dd class="home-stat-label">trimester-aware priorities</dd>
+        </div>
+      </dl>
     </div>
   </div>
 </section>
@@ -93,7 +77,7 @@ pageStyles:
           <h3 class="home-panel-title">Top Foods</h3>
           <p class="home-panel-text">The Top Foods view shows the most nutrient-dense options for each essential nutrient, broken down by food group.</p>
           <p class="home-panel-text">Toggle between nutrients, then filter sources from processed (fortified) to natural (whole-food) sources.</p>
-          <p class="home-panel-text">Hover a food to see its complete nutrition summary.</p>
+          <p class="home-panel-text">Use the top search bar to open a full nutrient profile for any food.</p>
           <a class="home-panel-link" href="/app/">Open Top Foods</a>
         </div>
       </article>
@@ -152,102 +136,341 @@ pageStyles:
       <p class="home-slab-desc">Needs come from the NIH. Benefits are summarized from trusted health sources.</p>
     </div>
   </div>
-  <div class="table-shell">
-    <table class="data-table" aria-label="Nutrient needs and benefits">
-      <thead>
-        <tr>
-          <th>Nutrient</th>
-          <th>Need</th>
-          <th>Baby Benefit</th>
-          <th>Mother Benefit</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Calcium</td>
-          <td>1000mg</td>
-          <td>Builds bones and teeth. Your growing baby takes the calcium she needs from your body, so to keep your bones and teeth healthy, you need to get enough to replace that amount. (1)</td>
-          <td>Protects your bone density. It may also help prevent high blood pressure while you're pregnant. (1)</td>
-        </tr>
-        <tr>
-          <td>Choline</td>
-          <td>450mg</td>
-          <td>Helps prevent problems in the spinal cord and brain, called neural tube defects, and enhances brain development. (1)</td>
-          <td>Builds strong bones and may help prevent high blood pressure. (1)</td>
-        </tr>
-        <tr>
-          <td>DHA</td>
-          <td>0.3g</td>
-          <td>Helps boost brain development, including communication (3) and vision. (4)</td>
-          <td>May reduce your risk of heart disease in the future (1) and post-partum depression. (2)</td>
-        </tr>
-        <tr>
-          <td>Folate (Folic Acid)</td>
-          <td>600mcg</td>
-          <td>Helps protect against spinal cord birth defects during the first 30 days of pregnancy (1), in addition to other birth defects, miscarriage, and premature delivery. (5)</td>
-          <td>Prevents anemia. (1)</td>
-        </tr>
-        <tr>
-          <td>Iodine</td>
-          <td>250mcg</td>
-          <td>Needed for brain and nervous system development; important for preventing stunted growth, severe mental disability, and deafness; important in preventing miscarriage and stillbirth. (1)</td>
-          <td>Important for a healthy thyroid. (1)</td>
-        </tr>
-        <tr>
-          <td>Iron</td>
-          <td>27mg</td>
-          <td>Helps prevent premature delivery (1), low birth weight, and post-partum hemorrhages, and possibly cardiovascular risk for the baby in the future. (4)</td>
-          <td>Wards off anemia in pregnant women. (1)</td>
-        </tr>
-        <tr>
-          <td>Potassium</td>
-          <td>4700mg</td>
-          <td>Too much potassium can adversely affect your child. (6)</td>
-          <td>A small amount is necessary to keep blood pressure in check and maintain proper fluid balance; its essential for normal heart beat and energy. (1)</td>
-        </tr>
-        <tr>
-          <td>Protein</td>
-          <td>70g</td>
-          <td>Protein is crucial for your baby's growth throughout pregnancy. (1)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Vitamin B2 (Riboflavin)</td>
-          <td>1.4mg</td>
-          <td>Helps prevent birth defects including outflow tract defects of the heart. (7)</td>
-          <td>Needed to produce energy; helps your body use the protein from food. (1)</td>
-        </tr>
-        <tr>
-          <td>Vitamin B6</td>
-          <td>1.9mg</td>
-          <td>May help promote a healthy birthweight. (8)</td>
-          <td>Helps produce protein for new cells, boosts the immune system, and helps form red blood cells. (1)</td>
-        </tr>
-        <tr>
-          <td>Vitamin B12</td>
-          <td>2.6mcg</td>
-          <td>May help prevent preterm birth. (9)</td>
-          <td>Helps produce red blood cells and helps your body use fat and carbohydrates for energy. (1)</td>
-        </tr>
-        <tr>
-          <td>Vitamin C</td>
-          <td>85mg</td>
-          <td>Helps build a healthy brain and protects against poor memory. (10)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Vitamin D</td>
-          <td>600IU</td>
-          <td>Helps your baby's body use calcium to build bones and teeth. (1)</td>
-          <td>Helps your body absorb calcium from food and use it to build your bones and teeth. (1)</td>
-        </tr>
-        <tr>
-          <td>Zinc</td>
-          <td>11mg</td>
-          <td>Brain development. (1)</td>
-          <td>Necessary to grow and repair cells and produce energy. (1)</td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="needs-deck" id="NeedsDeck" aria-label="Nutrient needs and benefits">
+    <article class="need-card" data-need-card data-nutrient="Calcium">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Calcium</h3>
+          <p class="need-card-need">1000mg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Builds bones and teeth. Your growing baby takes the calcium she needs from your body, so to keep your bones and teeth healthy, you need to get enough to replace that amount. (1)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Protects your bone density. It may also help prevent high blood pressure while you're pregnant. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Choline">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Choline</h3>
+          <p class="need-card-need">450mg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Helps prevent problems in the spinal cord and brain, called neural tube defects, and enhances brain development. (1)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Builds strong bones and may help prevent high blood pressure. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="DHA">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">DHA</h3>
+          <p class="need-card-need">0.3g</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Helps boost brain development, including communication (3) and vision. (4)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">May reduce your risk of heart disease in the future (1) and post-partum depression. (2)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Folate (DFE)">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Folate (Folic Acid)</h3>
+          <p class="need-card-need">600mcg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Helps protect against spinal cord birth defects during the first 30 days of pregnancy (1), in addition to other birth defects, miscarriage, and premature delivery. (5)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Prevents anemia. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Iodine">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Iodine</h3>
+          <p class="need-card-need">250mcg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Needed for brain and nervous system development; important for preventing stunted growth, severe mental disability, and deafness; important in preventing miscarriage and stillbirth. (1)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Important for a healthy thyroid. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Iron">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Iron</h3>
+          <p class="need-card-need">27mg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Helps prevent premature delivery (1), low birth weight, and post-partum hemorrhages, and possibly cardiovascular risk for the baby in the future. (4)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Wards off anemia in pregnant women. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Potassium">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Potassium</h3>
+          <p class="need-card-need">4700mg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Too much potassium can adversely affect your child. (6)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">A small amount is necessary to keep blood pressure in check and maintain proper fluid balance; its essential for normal heart beat and energy. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Protein">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Protein</h3>
+          <p class="need-card-need">70g</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Protein is crucial for your baby's growth throughout pregnancy. (1)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text is-muted">—</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Riboflavin">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Vitamin B2 (Riboflavin)</h3>
+          <p class="need-card-need">1.4mg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Helps prevent birth defects including outflow tract defects of the heart. (7)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Needed to produce energy; helps your body use the protein from food. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Vitamin B-6">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Vitamin B6</h3>
+          <p class="need-card-need">1.9mg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">May help promote a healthy birthweight. (8)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Helps produce protein for new cells, boosts the immune system, and helps form red blood cells. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Vitamin B-12">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Vitamin B12</h3>
+          <p class="need-card-need">2.6mcg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">May help prevent preterm birth. (9)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Helps produce red blood cells and helps your body use fat and carbohydrates for energy. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Vitamin C">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Vitamin C</h3>
+          <p class="need-card-need">85mg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Helps build a healthy brain and protects against poor memory. (10)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text is-muted">—</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Vitamin D">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Vitamin D</h3>
+          <p class="need-card-need">600IU</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Helps your baby's body use calcium to build bones and teeth. (1)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Helps your body absorb calcium from food and use it to build your bones and teeth. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="need-card" data-need-card data-nutrient="Zinc">
+      <header class="need-card-head">
+        <div class="need-card-cover" aria-hidden="true">
+          <div class="need-card-cover-inner">Need</div>
+        </div>
+        <div class="need-card-head-main">
+          <h3 class="need-card-nutrient">Zinc</h3>
+          <p class="need-card-need">11mg</p>
+        </div>
+      </header>
+      <div class="need-card-body">
+        <div class="need-card-cols">
+          <div class="need-card-col">
+            <p class="need-card-col-title">Baby benefit</p>
+            <p class="need-card-text">Brain development. (1)</p>
+          </div>
+          <div class="need-card-col">
+            <p class="need-card-col-title">Mother benefit</p>
+            <p class="need-card-text">Necessary to grow and repair cells and produce energy. (1)</p>
+          </div>
+        </div>
+      </div>
+    </article>
   </div>
 </section>

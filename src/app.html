@@ -20,29 +20,26 @@ pageScripts:
 
 <section class="section topfoods-shell" aria-label="Top foods per nutrient">
   <section class="content-card">
-    <div class="content-head">
-      <p class="content-eyebrow">By nutrient</p>
-      <h2 class="content-title">Top foods per nutrient</h2>
-      <p class="content-summary">Percent of daily target per 100g. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
-    </div>
-
     <div class="by-nutrient">
-      <div class="by-nutrient-controls">
-        <label class="control-label" for="NutrientSelect">Nutrient</label>
-        <select class="control-select" id="NutrientSelect"></select>
-      </div>
+      <div class="food-source-card topfoods-filter-card" aria-label="Top foods filters">
+        <div class="topfoods-filter-grid">
+          <div class="topfoods-filter-select">
+            <label class="control-label" for="NutrientSelect">Nutrient</label>
+            <select class="control-select" id="NutrientSelect"></select>
+          </div>
 
-      <div class="food-source-card" aria-label="Food source filter">
-        <div class="food-source-kicker">Food source</div>
-        <label class="food-source-toggle">
-          <input type="checkbox" id="ToggleNaturalOnly" aria-label="Natural foods only">
-          <span class="food-source-track" aria-hidden="true">
-            <span class="food-source-text is-left">Processed</span>
-            <span class="food-source-text is-right">Natural</span>
-            <span class="food-source-thumb"></span>
-          </span>
-        </label>
-        <div class="food-source-hint">Processed includes fortified foods; Natural is whole-food sources.</div>
+          <div class="topfoods-filter-toggle">
+            <div class="control-label" aria-hidden="true">Food source</div>
+            <label class="food-source-toggle">
+              <input type="checkbox" id="ToggleNaturalOnly" aria-label="Natural foods only">
+              <span class="food-source-track" aria-hidden="true">
+                <span class="food-source-text is-left">Processed</span>
+                <span class="food-source-text is-right">Natural</span>
+                <span class="food-source-thumb"></span>
+              </span>
+            </label>
+          </div>
+        </div>
       </div>
 
       <div class="food-list" id="FoodsByNutrient" aria-label="Top foods list"></div>
