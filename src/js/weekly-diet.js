@@ -144,34 +144,61 @@
     saveKey(GLOBAL_PREFS_KEY, prefs);
   }
 
-  function utcDateFromIso(iso) {
-    // iso: YYYY-MM-DD
-    var parts = String(iso || "").split("-");
-    if (parts.length !== 3) return null;
-    var y = parseInt(parts[0], 10);
-    var m = parseInt(parts[1], 10);
-    var d = parseInt(parts[2], 10);
-    if (!isFinite(y) || !isFinite(m) || !isFinite(d)) return null;
-    return Date.UTC(y, m - 1, d);
-  }
-
-  function utcToday() {
-    var now = new Date();
-    return Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-  }
-
-  function weekFromDueDate(dueIso) {
-    var dueUtc = utcDateFromIso(dueIso);
-    if (dueUtc === null) return null;
-    var daysUntilDue = Math.round((dueUtc - utcToday()) / 86400000);
-    var gestationalDays = 280 - daysUntilDue;
-    var week = Math.floor(gestationalDays / 7) + 1;
-    return clamp(week, MIN_WEEK, MAX_WEEK);
-  }
-
   function formatWeeks(start, end) {
     if (start === end) return "Week " + start;
     return "Weeks " + start + "\u2013" + end;
+  }
+
+  function formatWeeksNav(start, end) {
+    if (start === end) return "Week " + start;
+    return "Weeks " + start + "-" + end;
+  }
+
+  var TIMELINE_SHORT_TITLES = {
+    "wk1-8": "Foundations",
+    "wk9-12": "Organ formation",
+    "wk13-16": "Brain skeleton",
+    "wk17-20": "Movement senses",
+    "wk21-24": "Lungs practice",
+    "wk25-28": "Readiness",
+    "wk29-32": "Birth position",
+    "wk33-36": "Weight gain",
+    "wk37-40": "Full term"
+  };
+
+  function timelineShortTitle(period) {
+    if (!period) return "";
+    var id = String(period.id || "");
+    if (TIMELINE_SHORT_TITLES.hasOwnProperty(id)) return TIMELINE_SHORT_TITLES[id];
+    var s = String(period.title || "").trim();
+    if (!s) return "";
+    var idx = s.indexOf("(");
+    if (idx !== -1) s = s.slice(0, idx).trim();
+    s = s.replace(/[+;:]/g, " ");
+    var words = s.replace(/[^a-zA-Z0-9]+/g, " ").trim().split(/\s+/).filter(Boolean);
+    return words.slice(0, 2).join(" ");
+  }
+
+  function placeBarLabel(node, visiblePct, isOver100) {
+    if (!node) return;
+    var p = Number(visiblePct);
+    if (!isFinite(p)) p = 0;
+    p = Math.max(0, Math.min(p, 100));
+
+    var inside = !!isOver100;
+    try {
+      node.classList.toggle("is-inside", inside);
+      node.classList.toggle("is-outside", !inside);
+    } catch (e) {}
+
+    var gap = "var(--bar-value-gap)";
+    node.style.right = "auto";
+    node.style.left = inside
+      ? ("calc(100% - " + gap + ")")
+      : ("calc(" + String(p) + "% + " + gap + ")");
+    node.style.transform = inside
+      ? "translate(-100%, -50%)"
+      : "translate(0%, -50%)";
   }
 
   function normalizePriority(p) {
@@ -244,11 +271,15 @@
   function filterFoods(fooddata, opts) {
     var foods = (fooddata && fooddata.foods) ? fooddata.foods : [];
     var out = [];
+    // Toggle is binary: either Natural-only (natSource=1) or Processed-only (natSource=0).
+    var wantsNatural = null;
+    if (opts && typeof opts.naturalOnly === "boolean") wantsNatural = opts.naturalOnly;
     for (var i = 0; i < foods.length; i++) {
       var f = foods[i];
       if (!f) continue;
       if (opts && opts.excludeAvoid && String(f.warning || "").toLowerCase() === "avoid") continue;
-      if (opts && opts.naturalOnly && Number(f.natSource) !== 1) continue;
+      if (wantsNatural === true && Number(f.natSource) !== 1) continue;
+      if (wantsNatural === false && Number(f.natSource) !== 0) continue;
       out.push(f);
     }
     return out;
@@ -350,28 +381,46 @@
   function renderTimeline(protocol, week, onPickWeek) {
     var root = $("Timeline");
     if (!root) return;
-    clear(root);
-    for (var i = 0; i < protocol.periods.length; i++) {
-      var p = protocol.periods[i];
-      var item = el("button", "timeline-item", null);
-      item.type = "button";
-      item.setAttribute("data-period-id", p.id);
-      if (week >= p.weeks.start && week <= p.weeks.end) {
-        item.className += " is-active";
-        item.setAttribute("aria-pressed", "true");
-      } else {
-        item.setAttribute("aria-pressed", "false");
+    var needsBuild = false;
+    try {
+      needsBuild = root.getAttribute("data-built") !== "1" || !root.children || root.children.length !== protocol.periods.length;
+    } catch (e) {
+      needsBuild = true;
+    }
+
+    if (needsBuild) {
+      clear(root);
+      for (var i = 0; i < protocol.periods.length; i++) {
+        var p = protocol.periods[i];
+        var item = el("button", "weekly-timeline-step", null);
+        item.type = "button";
+        item.setAttribute("data-period-id", p.id);
+        item.title = p.title || "";
+        try { item.style.setProperty("--step-color", String(PASTEL_RAINBOW[i % PASTEL_RAINBOW.length] || "#9EC3E6")); } catch (e) {}
+
+        var weeks = el("span", "weekly-timeline-label", formatWeeksNav(p.weeks.start, p.weeks.end));
+        var title = el("span", "weekly-timeline-title", timelineShortTitle(p));
+        item.appendChild(weeks);
+        item.appendChild(title);
+        item.addEventListener("click", (function (start) {
+          return function () { onPickWeek(start); };
+        })(p.weeks.start));
+
+        root.appendChild(item);
       }
+      try { root.setAttribute("data-built", "1"); } catch (e) {}
+    }
 
-      var weeks = el("div", "timeline-weeks", formatWeeks(p.weeks.start, p.weeks.end));
-      var title = el("p", "timeline-title", p.title);
-      item.appendChild(weeks);
-      item.appendChild(title);
-      item.addEventListener("click", (function (start) {
-        return function () { onPickWeek(start); };
-      })(p.weeks.start));
-
-      root.appendChild(item);
+    // Update active state without rebuilding (keeps animations smooth).
+    for (var j = 0; j < protocol.periods.length; j++) {
+      var pj = protocol.periods[j];
+      var node = root.children && root.children[j] ? root.children[j] : null;
+      if (!node) continue;
+      var isActive = week >= pj.weeks.start && week <= pj.weeks.end;
+      try {
+        node.classList.toggle("is-active", isActive);
+        node.setAttribute("aria-pressed", isActive ? "true" : "false");
+      } catch (e) {}
     }
 
     try {
@@ -380,7 +429,7 @@
       var rect = root.getBoundingClientRect();
       var inView = rect.bottom > 0 && rect.top < (window.innerHeight || 0);
       if (!inView) return;
-      var active = root.querySelector(".timeline-item.is-active");
+      var active = root.querySelector(".weekly-timeline-step.is-active");
       if (active && active.scrollIntoView) active.scrollIntoView({ block: "nearest", inline: "center" });
     } catch (e) {}
   }
@@ -400,7 +449,7 @@
     if (summary) summary.textContent = period.summary || "";
 
     var tCurrent = $("TimelineCurrent");
-    if (tCurrent) tCurrent.textContent = formatWeeks(period.weeks.start, period.weeks.end) + " \u00b7 " + period.title;
+    if (tCurrent) tCurrent.textContent = formatWeeksNav(period.weeks.start, period.weeks.end) + " \u00b7 " + timelineShortTitle(period);
 
     // Period-level citations (shown in details mode)
     var pCites = $("PeriodCites");
@@ -703,10 +752,12 @@
 
         var track = el("div", "bar-track", null);
         var fill = el("div", "bar-fill", null);
-        var w = Math.min(Math.max(pct, 0), BAR_CAP_PERCENT);
-        fill.style.width = String(w) + "%";
+        var visible = Math.min(Math.max(pct, 0), 100);
+        fill.style.width = String(visible) + "%";
         track.appendChild(fill);
-        track.appendChild(el("div", "bar-value", Math.round(pct) + "%"));
+        var val = el("div", "bar-value", Math.round(pct) + "%");
+        placeBarLabel(val, visible, pct > 100);
+        track.appendChild(val);
         row.appendChild(track);
 
         barRoot.appendChild(row);
@@ -748,8 +799,8 @@
 
       var track = el("div", "bar-track", null);
       var fill = el("div", "bar-fill", null);
-      var w = Math.min(Math.max(pct, 0), BAR_CAP_PERCENT);
-      fill.style.width = String(w) + "%";
+      var visible = Math.min(Math.max(pct, 0), 100);
+      fill.style.width = String(visible) + "%";
       track.appendChild(fill);
       bars.appendChild(track);
 
@@ -757,6 +808,7 @@
       if (barCaution) overlay.appendChild(barCaution);
       overlay.appendChild(el("div", "bar-overlay-value", Math.round(pct) + "%"));
       bars.appendChild(overlay);
+      placeBarLabel(overlay, visible, pct > 100);
 
       row.appendChild(main);
       row.appendChild(bars);
@@ -795,122 +847,13 @@
 
   function persist(state) {
     savePrefs({
-      mode: state.mode,
       week: state.week,
-      dueDate: state.dueDate || null,
       naturalOnly: !!state.naturalOnly,
-      details: !!state.details,
       selectedNutrient: state.selectedNutrient || null
     });
     saveGlobalPrefs({
       naturalOnly: !!state.naturalOnly
     });
-  }
-
-  function applyControls(state) {
-    var wInput = $("WeeklyWeek");
-    var wRange = $("WeeklyWeekRange");
-    var dInput = $("WeeklyDueDate");
-    var nat = $("ToggleNaturalOnly");
-    var det = $("ToggleDetails");
-
-    if (wInput) wInput.value = String(state.week);
-    if (wRange) wRange.value = String(state.week);
-    if (dInput) dInput.value = state.mode === "dueDate" ? (state.dueDate || "") : "";
-    if (nat) nat.checked = !!state.naturalOnly;
-    if (det) det.setAttribute("aria-expanded", state.details ? "true" : "false");
-  }
-
-  function initControls(protocol, fooddata, state) {
-    var wInput = $("WeeklyWeek");
-    var wRange = $("WeeklyWeekRange");
-    var prev = $("WeekPrev");
-    var next = $("WeekNext");
-    var dInput = $("WeeklyDueDate");
-    var nat = $("ToggleNaturalOnly");
-    var det = $("ToggleDetails");
-
-    function setWeek(newWeek) {
-      state.week = clamp(parseInt(newWeek, 10) || state.week, MIN_WEEK, MAX_WEEK);
-      state.mode = "week";
-      state.dueDate = null;
-      applyControls(state);
-      writeUrlWeek(state.week);
-      persist(state);
-      renderTimeline(protocol, state.week, setWeek);
-      renderPeriod(protocol, fooddata, state);
-
-      // Mobile UX: collapse the timeline after picking.
-      try {
-        var td = $("TimelineDetails");
-        if (td && window.matchMedia && window.matchMedia("(max-width: 640px)").matches) td.open = false;
-      } catch (e) {}
-    }
-
-    function recomputeFromDueDate() {
-      if (!state.dueDate) return;
-      var w = weekFromDueDate(state.dueDate);
-      if (w === null) return;
-      state.week = w;
-      applyControls(state);
-      writeUrlWeek(state.week);
-      persist(state);
-      renderTimeline(protocol, state.week, setWeek);
-      renderPeriod(protocol, fooddata, state);
-    }
-
-    if (wInput) {
-      wInput.addEventListener("change", function () { setWeek(wInput.value); });
-    }
-    if (wRange) {
-      wRange.addEventListener("input", function () { setWeek(wRange.value); });
-    }
-    if (prev) prev.addEventListener("click", function () { setWeek(state.week - 1); });
-    if (next) next.addEventListener("click", function () { setWeek(state.week + 1); });
-
-    if (dInput) {
-      dInput.addEventListener("change", function () {
-        var v = String(dInput.value || "").trim();
-        if (!v) {
-          state.mode = "week";
-          state.dueDate = null;
-          persist(state);
-          return;
-        }
-        state.mode = "dueDate";
-        state.dueDate = v;
-        recomputeFromDueDate();
-      });
-    }
-
-    if (nat) {
-      nat.addEventListener("change", function () {
-        state.naturalOnly = !!nat.checked;
-        persist(state);
-        renderPeriod(protocol, fooddata, state);
-      });
-    }
-
-    if (det) {
-      det.addEventListener("click", function () {
-        state.details = !state.details;
-        applyControls(state);
-        persist(state);
-        renderPeriod(protocol, fooddata, state);
-      });
-    }
-
-    // Keyboard: left/right arrows to move weeks.
-    window.addEventListener("keydown", function (ev) {
-      if (!ev || ev.altKey || ev.ctrlKey || ev.metaKey) return;
-      if (ev.key === "ArrowLeft") { setWeek(state.week - 1); }
-      if (ev.key === "ArrowRight") { setWeek(state.week + 1); }
-    });
-
-    // If user chose due date mode previously, recompute on load.
-    if (state.mode === "dueDate" && state.dueDate) {
-      recomputeFromDueDate();
-    }
   }
 
   function renderError(msg) {
@@ -938,36 +881,59 @@
     var globalPrefs = loadGlobalPrefs();
     var initialWeek = readUrlWeek();
     var state = {
-      mode: prefs.mode === "dueDate" ? "dueDate" : "week",
       week: clamp(safeNumber(initialWeek !== null ? initialWeek : prefs.week) || 4, MIN_WEEK, MAX_WEEK),
-      dueDate: typeof prefs.dueDate === "string" ? prefs.dueDate : null,
       naturalOnly: typeof globalPrefs.naturalOnly === "boolean" ? globalPrefs.naturalOnly : !!prefs.naturalOnly,
-      details: !!prefs.details,
+      details: false,
       selectedNutrient: typeof prefs.selectedNutrient === "string" ? prefs.selectedNutrient : null
     };
 
-    applyControls(state);
-    function onPickWeek(w) {
-      // Timeline picks always switch to manual week mode.
-      state.mode = "week";
-      state.dueDate = null;
-      state.week = clamp(parseInt(w, 10) || state.week, MIN_WEEK, MAX_WEEK);
-      applyControls(state);
+    function periodIndexForWeek(week) {
+      for (var i = 0; i < protocol.periods.length; i++) {
+        var p = protocol.periods[i];
+        if (week >= p.weeks.start && week <= p.weeks.end) return i;
+      }
+      return 0;
+    }
+
+    function setWeek(newWeek) {
+      state.week = clamp(parseInt(newWeek, 10) || state.week, MIN_WEEK, MAX_WEEK);
       writeUrlWeek(state.week);
       persist(state);
-      renderTimeline(protocol, state.week, onPickWeek);
+      renderTimeline(protocol, state.week, setWeek);
       renderPeriod(protocol, fooddata, state);
-
-      // Mobile UX: collapse the timeline after picking.
-      try {
-        var td = $("TimelineDetails");
-        if (td && window.matchMedia && window.matchMedia("(max-width: 640px)").matches) td.open = false;
-      } catch (e) {}
     }
-    renderTimeline(protocol, state.week, onPickWeek);
 
+    // One global toggle remains: natural vs processed sources.
+    var nat = $("ToggleNaturalOnly");
+    if (nat) {
+      nat.checked = !!state.naturalOnly;
+      nat.addEventListener("change", function () {
+        state.naturalOnly = !!nat.checked;
+        persist(state);
+        renderPeriod(protocol, fooddata, state);
+      });
+    }
+
+    // Keyboard: left/right arrows switch between timeline "chapters" (periods).
+    window.addEventListener("keydown", function (ev) {
+      if (!ev || ev.altKey || ev.ctrlKey || ev.metaKey || ev.shiftKey) return;
+      if (ev.key !== "ArrowLeft" && ev.key !== "ArrowRight") return;
+
+      var ae = document.activeElement;
+      if (ae) {
+        var tag = String(ae.tagName || "").toLowerCase();
+        if (tag === "input" || tag === "textarea" || tag === "select" || ae.isContentEditable) return;
+      }
+
+      var idx = periodIndexForWeek(state.week);
+      var nextIdx = idx + (ev.key === "ArrowRight" ? 1 : -1);
+      if (nextIdx < 0 || nextIdx >= protocol.periods.length) return;
+      try { ev.preventDefault(); } catch (e) {}
+      setWeek(protocol.periods[nextIdx].weeks.start);
+    });
+
+    renderTimeline(protocol, state.week, setWeek);
     renderPeriod(protocol, fooddata, state);
-    initControls(protocol, fooddata, state);
     writeUrlWeek(state.week);
     persist(state);
 

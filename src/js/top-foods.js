@@ -132,14 +132,40 @@
   function filterFoods(fooddata, opts) {
     var foods = (fooddata && fooddata.foods) ? fooddata.foods : [];
     var out = [];
+    // Toggle is binary: either Natural-only (natSource=1) or Processed-only (natSource=0).
+    var wantsNatural = null;
+    if (opts && typeof opts.naturalOnly === "boolean") wantsNatural = opts.naturalOnly;
     for (var i = 0; i < foods.length; i++) {
       var f = foods[i];
       if (!f) continue;
       if (opts && opts.excludeAvoid && String(f.warning || "").toLowerCase() === "avoid") continue;
-      if (opts && opts.naturalOnly && Number(f.natSource) !== 1) continue;
+      if (wantsNatural === true && Number(f.natSource) !== 1) continue;
+      if (wantsNatural === false && Number(f.natSource) !== 0) continue;
       out.push(f);
     }
     return out;
+  }
+
+  function placeBarLabel(node, visiblePct, isOver100) {
+    if (!node) return;
+    var p = Number(visiblePct);
+    if (!isFinite(p)) p = 0;
+    p = Math.max(0, Math.min(p, 100));
+
+    var inside = !!isOver100;
+    try {
+      node.classList.toggle("is-inside", inside);
+      node.classList.toggle("is-outside", !inside);
+    } catch (e) {}
+
+    var gap = "var(--bar-value-gap)";
+    node.style.right = "auto";
+    node.style.left = inside
+      ? ("calc(100% - " + gap + ")")
+      : ("calc(" + String(p) + "% + " + gap + ")");
+    node.style.transform = inside
+      ? "translate(-100%, -50%)"
+      : "translate(0%, -50%)";
   }
 
   function el(tag, className, text) {
@@ -318,8 +344,8 @@
 
         var track = el("div", "bar-track", null);
         var fill = el("div", "bar-fill", null);
-        var w = Math.min(Math.max(pctItem, 0), BAR_CAP_PERCENT);
-        fill.style.width = String(w) + "%";
+        var visible = Math.min(Math.max(pctItem, 0), 100);
+        fill.style.width = String(visible) + "%";
         track.appendChild(fill);
         bars.appendChild(track);
 
@@ -327,6 +353,7 @@
         if (barCaution) overlay.appendChild(barCaution);
         overlay.appendChild(el("div", "bar-overlay-value", Math.round(pctItem) + "%"));
         bars.appendChild(overlay);
+        placeBarLabel(overlay, visible, pctItem > 100);
 
         row.appendChild(main);
         row.appendChild(bars);

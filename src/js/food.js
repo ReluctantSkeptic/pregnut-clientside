@@ -210,14 +210,15 @@
   }
 
   function buildCautionNode(message) {
-    var wrap = el("div", "caution", null);
+    // Use phrasing elements so this can be embedded inline (e.g., inside <p>).
+    var wrap = el("span", "caution", null);
     var btn = el("button", "caution-trigger", "!");
     btn.type = "button";
     btn.setAttribute("aria-label", "Caution");
     btn.setAttribute("aria-expanded", "false");
     btn.setAttribute("data-caution-message", message);
 
-    var pop = el("div", "caution-popover", message);
+    var pop = el("span", "caution-popover", message);
     pop.setAttribute("role", "tooltip");
 
     wrap.appendChild(btn);
@@ -293,6 +294,28 @@
       : "Processed includes fortified foods; Natural is whole-food sources.";
   }
 
+  function placeBarLabel(node, visiblePct, isOver100) {
+    if (!node) return;
+    var p = Number(visiblePct);
+    if (!isFinite(p)) p = 0;
+    p = Math.max(0, Math.min(p, 100));
+
+    var inside = !!isOver100;
+    try {
+      node.classList.toggle("is-inside", inside);
+      node.classList.toggle("is-outside", !inside);
+    } catch (e) {}
+
+    var gap = "var(--bar-value-gap)";
+    node.style.right = "auto";
+    node.style.left = inside
+      ? ("calc(100% - " + gap + ")")
+      : ("calc(" + String(p) + "% + " + gap + ")");
+    node.style.transform = inside
+      ? "translate(-100%, -50%)"
+      : "translate(0%, -50%)";
+  }
+
   function renderFoodCard(fooddata, food, root) {
     if (!root) return;
     clear(root);
@@ -304,23 +327,6 @@
     }
 
     var item = el("article", "food-item", null);
-
-    var head = el("div", "food-head", null);
-    var headLeft = el("div", "food-head-left", null);
-    headLeft.appendChild(buildFoodNameNode("food-name", food.name));
-    head.appendChild(headLeft);
-
-    var headRight = el("div", "food-head-right", null);
-    headRight.appendChild(el("p", "food-meta", food.group));
-
-    var warn = String(food.warning || "").trim();
-    if (warn && warn.toLowerCase() !== "0") {
-      var wt = String(food.warningText || "").trim();
-      var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
-      headRight.appendChild(buildCautionNode(msg));
-    }
-    head.appendChild(headRight);
-    item.appendChild(head);
 
     var barRoot = el("div", "food-bars", null);
     var nutrients = orderedNutrients(fooddata);
@@ -334,10 +340,14 @@
 
       var track = el("div", "bar-track", null);
       var fill = el("div", "bar-fill", null);
-      var w = pct === null ? 0 : Math.min(Math.max(pct, 0), BAR_CAP_PERCENT);
-      fill.style.width = String(w) + "%";
+      var visible = pct === null ? 0 : Math.min(Math.max(pct, 0), 100);
+      fill.style.width = String(visible) + "%";
       track.appendChild(fill);
-      track.appendChild(el("div", "bar-value", pct === null ? "\u2014" : (Math.round(pct) + "%")));
+
+      var val = el("div", "bar-value", pct === null ? "\u2014" : (Math.round(pct) + "%"));
+      placeBarLabel(val, visible, pct > 100);
+      track.appendChild(val);
+
       row.appendChild(track);
 
       barRoot.appendChild(row);
@@ -378,7 +388,27 @@
     var food = findFoodByName(foods, foodName);
 
     setText("FoodTitle", food ? food.name : foodName);
-    setText("FoodSubtitle", food ? (food.group + " \u00b7 100g portion") : "Food not found. Try searching again.");
+    (function () {
+      var subtitle = $("FoodSubtitle");
+      if (!subtitle) return;
+
+      clear(subtitle);
+
+      if (!food) {
+        subtitle.textContent = "Food not found. Try searching again.";
+        return;
+      }
+
+      subtitle.appendChild(document.createTextNode(food.group + " \u00b7 100g portion"));
+
+      var warn = String(food.warning || "").trim();
+      if (warn && warn.toLowerCase() !== "0") {
+        var wt = String(food.warningText || "").trim();
+        var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
+        subtitle.appendChild(document.createTextNode(" "));
+        subtitle.appendChild(buildCautionNode(msg));
+      }
+    })();
 
     renderFoodCard(fooddata, food, root);
 

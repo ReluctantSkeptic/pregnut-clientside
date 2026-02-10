@@ -24,127 +24,152 @@ pageScripts:
       </div>
     </div>
   </div>
-  <p class="home-lede">Pregnancy nutrition is confusing.<br><br>
-We read the studies, mapped the nutrients,<br><br>
-and yes—went a little nuts doing it.<br><br></p>
+  <p class="home-lede">Nutrition is confusing.<br>
+We read the studies,<br>
+mapped the nutrients,<br>
+and went a little nuts doing it.<br></p>
 </section>
 
-<section class="section home-slab" aria-label="What is PregNut">
-  <div class="home-slab-shell">
-    <div class="home-slab-head">
-      <p class="home-label">What is PregNut?</p>
-      <h2 class="home-slab-title">Nutrition guidance that respects your time.</h2>
-    </div>
-    <div class="home-slab-body">
-      <p>PregNut is a food lookup tool for pregnancy nutrition. It helps you discover which foods deliver more (or less) of the essential nutrients for a healthy pregnancy.</p>
-      <p>Finding detailed nutrient data can be frustrating. PregNut organizes the evidence so you can see the best options fast, then dig deeper when you want to.</p>
-      <div class="home-callout">
-        <h3 class="home-callout-title">15 essential nutrients</h3>
-        <p class="home-callout-body">Evidence-based recommendations from leading health organizations, summarized in one place.</p>
-      </div>
-      <dl class="home-stats" aria-label="Key stats">
-        <div class="home-stat">
-          <dt class="home-stat-value">15</dt>
-          <dd class="home-stat-label">essential nutrients</dd>
-        </div>
-        <div class="home-stat">
-          <dt class="home-stat-value">100g</dt>
-          <dd class="home-stat-label">consistent portions</dd>
-        </div>
-        <div class="home-stat">
-          <dt class="home-stat-value">Weekly</dt>
-          <dd class="home-stat-label">trimester-aware priorities</dd>
-        </div>
-      </dl>
-    </div>
-  </div>
-</section>
 
 <section class="section home-slab is-tone" aria-label="How to use PregNut">
   <div class="home-slab-shell">
-    <div class="home-slab-head">
-      <p class="home-label">How to use PregNut</p>
-      <h2 class="home-slab-title">Two ways to explore.</h2>
-      <p class="home-slab-desc">Browse the best foods for a nutrient, or search a food and see the full profile (always in 100g portions).</p>
-    </div>
-    <div class="home-panels" aria-label="Explore options">
-      <article class="home-panel">
-        <div class="home-panel-media">
-          <img src="/resource/top_foods.jpg" alt="Top foods view" loading="lazy" />
-          <div class="home-panel-stamp" aria-hidden="true">01</div>
-        </div>
-        <div class="home-panel-body">
-          <h3 class="home-panel-title">Top Foods</h3>
-          <p class="home-panel-text">The Top Foods view shows the most nutrient-dense options for each essential nutrient, broken down by food group.</p>
-          <p class="home-panel-text">Toggle between nutrients, then filter sources from processed (fortified) to natural (whole-food) sources.</p>
-          <p class="home-panel-text">Use the top search bar to open a full nutrient profile for any food.</p>
-          <a class="home-panel-link" href="/app/">Open Top Foods</a>
-        </div>
-      </article>
+ 
+    <div class="home-use" aria-label="Explore features">
+      <section class="home-search-stage" aria-label="Search foods">
+        <div class="home-search-stage-inner">
+          <h3 class="home-lede">Search</h3>
+          <form class="home-search-form" action="/food/" method="get" autocomplete="off">
+            <label class="sr-only" for="HomeFoodSearchInput">Search a food</label>
+            <input
+              id="HomeFoodSearchInput"
+              name="food"
+              class="home-search-input"
+              type="text"
+              inputmode="search"
+              placeholder="Start typing: salmon, lentils, spinach..."
+            />
+            <button class="home-search-submit" type="submit">Search</button>
+          </form>
 
-      <article class="home-panel">
-        <div class="home-panel-media">
-          <img src="/resource/search_foods.jpg" alt="Search view" loading="lazy" />
-          <div class="home-panel-stamp" aria-hidden="true">02</div>
+          <p class="home-search-hint">
+            Always 100g portions. Need a visual? <a href="/about/#hundred-grams">See how much is 100 grams</a>.
+          </p>
         </div>
-        <div class="home-panel-body">
-          <h3 class="home-panel-title">Search</h3>
-          <p class="home-panel-text">Type in the search bar to find foods in the database, then click Search to open a summary.</p>
-          <p class="home-panel-text">You will see what percent of your daily need is met by 100 grams of that food.</p>
-          <p class="home-panel-text">Need a visual? See <a href="/about/#hundred-grams">how much is 100 grams</a>.</p>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
+      </section>
 
-<section class="section home-slab" aria-label="Evidence">
-  <div class="home-slab-shell">
-    <div class="home-slab-head">
-      <p class="home-label">Is it based on science?</p>
-      <h2 class="home-slab-title">Yes. The short answer is evidence.</h2>
-    </div>
-    <div class="home-slab-body">
-      <p>All recommendations are based on peer-reviewed evidence and guidelines from healthcare organizations worldwide.</p>
-      <p>References: <a href="https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1">1</a>, <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-nutrition/art-20045082?pg=1">2</a>, <a href="http://americanpregnancy.org/pregnancy-health/nutrients-vitamins-pregnancy/">3</a>, <a href="https://www.nrv.gov.au/nutrients">4</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/">5</a>.</p>
-      <div class="home-nutrient-tags" aria-label="Essential nutrients">
-        <span>Calcium</span>
-        <span>Choline</span>
-        <span>DHA</span>
-        <span>Folate</span>
-        <span>Iron</span>
-        <span>Potassium</span>
-        <span>Protein</span>
-        <span>Vitamin B2</span>
-        <span>Vitamin B6</span>
-        <span>Vitamin B12</span>
-        <span>Vitamin C</span>
-        <span>Vitamin D</span>
-        <span>Vitamin E</span>
-        <span>Iodine</span>
-        <span>Zinc</span>
+      <div class="home-use-grid" aria-label="Feature highlights">
+        <article class="home-feature" data-kind="topfoods">
+          <div class="home-feature-head">
+            <h3 class="home-lede">Top Foods</h3>
+          </div>
+          <p class="home-feature-text">Pick a nutrient to see the most nutrient-dense foods per 100g. Filter from fortified (processed) to natural (whole-food) sources when you want the cleanest signal.</p>
+          <a class="home-feature-cta" href="/app/">Open Top Foods</a>
+          <div class="home-feature-media" aria-hidden="true">
+            <div class="home-preview-phone" data-home-preview="topfoods">
+              <div class="home-preview-topbar">
+                <span class="home-preview-app">Top Foods</span>
+                <span class="home-preview-pill" data-home-preview-title>Loading…</span>
+              </div>
+              <div class="home-preview-body">
+                <p class="home-preview-caption">Top 5 foods · per 100g</p>
+                <div class="home-preview-rows" data-home-preview-rows>
+                  <div class="home-preview-row" style="--p: 0.85">
+                    <span class="home-preview-label">Egg yolk</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">182%</span>
+                  </div>
+                  <div class="home-preview-row" style="--p: 0.62">
+                    <span class="home-preview-label">Egg (fried)</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">70%</span>
+                  </div>
+                  <div class="home-preview-row" style="--p: 0.54">
+                    <span class="home-preview-label">Lentils</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">52%</span>
+                  </div>
+                  <div class="home-preview-row" style="--p: 0.48">
+                    <span class="home-preview-label">Spinach</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">48%</span>
+                  </div>
+                  <div class="home-preview-row" style="--p: 0.42">
+                    <span class="home-preview-label">Salmon</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">41%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="home-feature" data-kind="weekly">
+          <div class="home-feature-head">
+            <h3 class="home-lede">Weekly Diet</h3>
+          </div>
+          <p class="home-feature-text">Set your week (or due date) to see which nutrients matter most right now, plus the best foods that cover those priorities per 100g.</p>
+          <a class="home-feature-cta" href="/weekly-diet/">Open Weekly Diet</a>
+          <div class="home-feature-media" aria-hidden="true">
+            <div class="home-preview-phone" data-home-preview="weekly">
+              <div class="home-preview-topbar">
+                <span class="home-preview-app">Weekly Diet</span>
+                <span class="home-preview-pill" data-home-preview-week>Loading…</span>
+              </div>
+              <div class="home-preview-body">
+                <p class="home-preview-caption" data-home-preview-period>Loading…</p>
+                <div class="home-preview-timeline" data-home-preview-timeline aria-hidden="true"></div>
+                <div class="home-preview-rows is-compact" data-home-preview-nutrients>
+                  <div class="home-preview-row" style="--p: 1">
+                    <span class="home-preview-label">Roe</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">235</span>
+                  </div>
+                  <div class="home-preview-row" style="--p: 0.92">
+                    <span class="home-preview-label">Salmon</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">199</span>
+                  </div>
+                  <div class="home-preview-row" style="--p: 0.86">
+                    <span class="home-preview-label">Egg yolk</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">174</span>
+                  </div>
+                  <div class="home-preview-row" style="--p: 0.78">
+                    <span class="home-preview-label">Sardines</span>
+                    <span class="home-preview-bar" aria-hidden="true"></span>
+                    <span class="home-preview-value">171</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </div>
 </section>
+
 
 <section class="section home-slab is-tone" aria-label="Recommendations">
   <div class="home-slab-shell">
     <div class="home-slab-head">
-      <p class="home-label">The recommendations</p>
-      <h2 class="home-slab-title">Daily nutrient needs and benefits.</h2>
+      
+      <h2 class="home-lede">Daily nutrient needs and benefits.</h2>
       <p class="home-slab-desc">Needs come from the NIH. Benefits are summarized from trusted health sources.</p>
     </div>
   </div>
   <div class="needs-deck" id="NeedsDeck" aria-label="Nutrient needs and benefits">
     <article class="need-card" data-need-card data-nutrient="Calcium">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">1000mg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Calcium</h3>
-          <p class="need-card-need">1000mg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -163,12 +188,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Choline">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">450mg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Choline</h3>
-          <p class="need-card-need">450mg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -187,12 +214,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="DHA">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">0.3g</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">DHA</h3>
-          <p class="need-card-need">0.3g</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -211,12 +240,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Folate (DFE)">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">600mcg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Folate (Folic Acid)</h3>
-          <p class="need-card-need">600mcg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -235,12 +266,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Iodine">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">250mcg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Iodine</h3>
-          <p class="need-card-need">250mcg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -259,12 +292,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Iron">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">27mg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Iron</h3>
-          <p class="need-card-need">27mg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -283,12 +318,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Potassium">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">4700mg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Potassium</h3>
-          <p class="need-card-need">4700mg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -307,12 +344,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Protein">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">70g</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Protein</h3>
-          <p class="need-card-need">70g</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -331,12 +370,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Riboflavin">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">1.4mg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Vitamin B2 (Riboflavin)</h3>
-          <p class="need-card-need">1.4mg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -355,12 +396,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Vitamin B-6">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">1.9mg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Vitamin B6</h3>
-          <p class="need-card-need">1.9mg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -379,12 +422,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Vitamin B-12">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">2.6mcg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Vitamin B12</h3>
-          <p class="need-card-need">2.6mcg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -403,12 +448,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Vitamin C">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">85mg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Vitamin C</h3>
-          <p class="need-card-need">85mg</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -427,12 +474,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Vitamin D">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">600IU</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Vitamin D</h3>
-          <p class="need-card-need">600IU</p>
         </div>
       </header>
       <div class="need-card-body">
@@ -451,12 +500,14 @@ and yes—went a little nuts doing it.<br><br></p>
 
     <article class="need-card" data-need-card data-nutrient="Zinc">
       <header class="need-card-head">
-        <div class="need-card-cover" aria-hidden="true">
-          <div class="need-card-cover-inner">Need</div>
+        <div class="need-card-cover">
+          <div class="need-card-cover-inner">
+            <span class="need-card-cover-label">Need</span>
+            <span class="need-card-cover-amount">11mg</span>
+          </div>
         </div>
         <div class="need-card-head-main">
           <h3 class="need-card-nutrient">Zinc</h3>
-          <p class="need-card-need">11mg</p>
         </div>
       </header>
       <div class="need-card-body">

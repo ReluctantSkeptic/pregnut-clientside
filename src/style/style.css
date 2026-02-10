@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
 
 :root {
   color-scheme: light;
@@ -31,9 +31,12 @@
 body {
   margin: 0;
   font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  font-weight: 400;
   color: var(--ink);
   background: radial-gradient(circle at top, #fff5e8 0%, var(--bg) 45%, #efe6dd 100%);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -53,6 +56,7 @@ a:hover {
 
 .page {
   padding: 120px clamp(10px, 2.75vw, 24px) 80px;
+  flex: 1 0 auto;
 }
 
 .section {
@@ -354,24 +358,22 @@ p {
 .nav-link {
   display: inline-flex;
   align-items: center;
-  padding: 10px 12px;
-  border-radius: 999px;
-  border: 1px solid rgba(225, 214, 203, 0.88);
-  background: rgba(255, 255, 255, 0.68);
+  padding: 10px 8px;
+  border-radius: 0;
+  border: none;
+  background: transparent;
   font-weight: 600;
   color: var(--muted);
   position: relative;
 }
 
 .nav-link:hover {
-  background: rgba(31, 122, 122, 0.08);
-  border-color: rgba(31, 122, 122, 0.22);
+  background: transparent;
 }
 
 .nav-link.is-active {
   color: var(--ink);
-  background: rgba(31, 122, 122, 0.10);
-  border-color: rgba(31, 122, 122, 0.20);
+  background: transparent;
 }
 
 .nav-link.is-active::after {
@@ -446,6 +448,7 @@ p {
 }
 
 .site-footer {
+  margin-top: auto;
   border-top: 1px solid rgba(225, 214, 203, 0.8);
   background: rgba(253, 249, 244, 0.85);
   backdrop-filter: blur(10px);

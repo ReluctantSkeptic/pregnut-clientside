@@ -8,21 +8,121 @@
 }
 
 .page-food::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(860px 420px at 14% 8%, rgba(31, 122, 122, 0.14), transparent 58%),
-    radial-gradient(920px 520px at 92% 10%, rgba(160, 220, 255, 0.20), transparent 62%),
-    radial-gradient(820px 620px at 70% 92%, rgba(255, 180, 200, 0.14), transparent 64%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
-  opacity: 0.95;
-  mix-blend-mode: multiply;
+  content: none;
 }
 
 .page-food.food-ready .content-card {
   animation: weekly-rise 0.7s ease both;
+}
+
+.page-food .hero {
+  margin-bottom: 34px;
+}
+
+/* Remove the outer gradient "card" wrapper so the chart reads cleaner. */
+.page-food .content-card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.page-food .content-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.page-food .food-item {
+  box-shadow: 0 18px 60px rgba(23, 19, 16, 0.10);
+}
+
+.page-food .food-list {
+  margin-top: 0;
+  gap: 10px;
+}
+
+.page-food .food-bars {
+  margin-top: 6px;
+  gap: 10px;
+}
+
+.page-food #FoodSubtitle .caution {
+  margin-left: 10px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.page-food #FoodSubtitle .caution-trigger {
+  width: 24px;
+  height: 24px;
+  font-size: 13px;
+}
+
+.page-food .food-head {
+  justify-content: flex-end;
+}
+
+/* Bars: text-only labels, tight alignment, % label hugs the bar end. */
+.page-food .bar-row {
+  grid-template-columns: minmax(0, 120px) minmax(0, 1fr);
+  gap: 3px;
+}
+
+.page-food .bar-label {
+  justify-content: flex-end;
+  text-align: right;
+  gap: 0;
+}
+
+.page-food .bar-label::before {
+  content: none;
+  display: none;
+}
+
+.page-food .bar-value {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: auto;
+  transform: translate(0%, -50%);
+  white-space: nowrap;
+  text-shadow: none;
+  pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  /* Mobile: label above bar, with tighter padding/margins. */
+  .page-food .food-item {
+    padding: 12px 12px 10px;
+  }
+
+  .page-food .food-bars {
+    gap: 22px;
+  }
+
+  .page-food .bar-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .page-food .bar-track {
+    height: 28px;
+    border-radius: 10px;
+  }
+
+  .page-food .bar-fill {
+    border-radius: 10px;
+  }
+
+  .page-food .bar-label {
+    font-size: 0.84rem;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .page-food .bar-value {
+    font-size: 0.84rem;
+  }
 }
 
 .page-food #FoodResult:empty::before {

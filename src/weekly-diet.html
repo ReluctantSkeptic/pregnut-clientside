@@ -11,114 +11,72 @@ pageScripts:
 
 <section class="hero slim weekly-hero">
   <div>
-    <p class="eyebrow">Week-by-week food priorities</p>
     <h1 class="hero-title">Weekly Diet</h1>
-    <p class="hero-lede">Pick your week (or due date) to see which nutrients to prioritize right now and the top foods that deliver them.</p>
+    <p class="hero-lede">Select a stage to see which nutrients to prioritize right now and the top foods that deliver them.</p>
   </div>
 </section>
 
 <section class="section weekly-shell">
-  <div class="weekly-timeline-card" aria-label="Period timeline">
-    <details class="timeline-details" id="TimelineDetails">
-      <summary class="timeline-summary">
-        <span class="timeline-summary-label">Timeline</span>
-        <span class="timeline-summary-current" id="TimelineCurrent">Loading...</span>
-        <svg class="timeline-summary-chevron" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
-          <path d="M5.5 7.5l4.5 4.5 4.5-4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </summary>
-      <div class="timeline" id="Timeline"></div>
-    </details>
-  </div>
-
-  <div class="weekly-grid">
-    <aside class="weekly-controls" aria-label="Week controls">
-      <div class="control-card">
-        <h2 class="control-title">Set Your Week</h2>
-        <p class="control-subtitle">Choose a week directly, or enter a due date to keep it updated automatically.</p>
-
-        <div class="control-row">
-          <label class="control-label" for="WeeklyWeek">Week</label>
-          <div class="control-inline">
-            <button class="control-step" type="button" id="WeekPrev" aria-label="Previous week">-</button>
-            <input class="control-number" id="WeeklyWeek" type="number" min="1" max="40" step="1" inputmode="numeric">
-            <button class="control-step" type="button" id="WeekNext" aria-label="Next week">+</button>
-          </div>
-          <input class="control-range" id="WeeklyWeekRange" type="range" min="1" max="40" step="1">
-          <p class="control-hint" id="WeekPeriodHint">Loading...</p>
-        </div>
-
-        <div class="control-row">
-          <label class="control-label" for="WeeklyDueDate">Due date (optional)</label>
-          <input class="control-date" id="WeeklyDueDate" type="date">
-          <p class="control-hint">If you enter a due date, your week is calculated as of today.</p>
-        </div>
-
-        <button class="details-toggle" type="button" id="ToggleDetails" aria-expanded="false">
-          <span>Details + citations</span>
-          <svg class="details-chevron" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
-            <path d="M5.5 7.5l4.5 4.5 4.5-4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </button>
-      </div>
-    </aside>
-
-    <div class="weekly-content" aria-label="Weekly diet content">
-      <section class="content-card" aria-label="Development summary">
-        <div class="content-head">
-          <p class="content-eyebrow" id="PeriodLabel">Loading...</p>
-          <h2 class="content-title" id="PeriodTitle">Loading...</h2>
-          <p class="content-summary" id="PeriodSummary"></p>
-          <div class="cite-list period-cites" id="PeriodCites" aria-label="Sources"></div>
-        </div>
-        <ul class="dev-list" id="DevList" aria-label="What is developing"></ul>
-        <div class="period-notes" id="PeriodNotes" aria-label="Notes"></div>
-      </section>
-
-      <section class="content-card" aria-label="Priority nutrients">
-        <div class="content-head">
-          <p class="content-eyebrow">Priority nutrients</p>
-          <h2 class="content-title">What to focus on right now</h2>
-          <p class="content-summary">These priorities change with each time period. They are not medical advice, and they do not replace prenatal vitamins or your clinician's guidance.</p>
-        </div>
-        <div class="nutrient-cards" id="NutrientCards"></div>
-      </section>
-
-      <section class="content-card" aria-label="Top foods this period">
-        <div class="content-head">
-          <p class="content-eyebrow">Top foods</p>
-          <h2 class="content-title">Best overall picks for this period</h2>
-          <p class="content-summary">Ranked by how well 100g of each food covers the priority nutrients for this time period. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
-        </div>
-        <div class="food-source-card" aria-label="Food source filter">
-          <div class="food-source-kicker">Food source</div>
-          <label class="food-source-toggle">
-            <input type="checkbox" id="ToggleNaturalOnly" aria-label="Natural foods only">
-            <span class="food-source-track" aria-hidden="true">
-              <span class="food-source-text is-left">Processed</span>
-              <span class="food-source-text is-right">Natural</span>
-              <span class="food-source-thumb"></span>
-            </span>
-          </label>
-          <div class="food-source-hint">Processed includes fortified foods; Natural is whole-food sources.</div>
-        </div>
-        <div class="food-list" id="TopFoods"></div>
-      </section>
-
-      <section class="content-card" aria-label="Top foods by nutrient">
-        <div class="content-head">
-          <p class="content-eyebrow">By nutrient</p>
-          <h2 class="content-title">Top foods per nutrient</h2>
-          <p class="content-summary">Use this view when you're trying to push a specific nutrient higher.</p>
-        </div>
-        <div class="by-nutrient">
-          <div class="by-nutrient-controls">
-            <label class="control-label" for="NutrientSelect">Nutrient</label>
-            <select class="control-select" id="NutrientSelect"></select>
-          </div>
-          <div class="food-list" id="FoodsByNutrient"></div>
-        </div>
-      </section>
+  <section class="weekly-timeline-stage" aria-label="Timeline">
+    <div class="weekly-timeline-meta" aria-hidden="true">
+      <p class="weekly-timeline-kicker">Choose a chapter</p>
+      <p class="weekly-timeline-current" id="TimelineCurrent">Loading...</p>
     </div>
+    <div class="weekly-timeline" id="Timeline" aria-label="Timeline"></div>
+  </section>
+
+  <div class="weekly-content" aria-label="Weekly diet content">
+    <section class="content-card" aria-label="Development summary">
+      <div class="content-head">
+        <p class="content-eyebrow" id="PeriodLabel">Loading...</p>
+        <h2 class="content-title" id="PeriodTitle">Loading...</h2>
+        <p class="content-summary" id="PeriodSummary"></p>
+        <div class="cite-list period-cites" id="PeriodCites" aria-label="Sources"></div>
+      </div>
+      <ul class="dev-list" id="DevList" aria-label="What is developing"></ul>
+      <div class="period-notes" id="PeriodNotes" aria-label="Notes"></div>
+    </section>
+
+    <section class="content-card" aria-label="Priority nutrients">
+      <div class="content-head">
+        <h2 class="content-title">What to focus on right now</h2>
+        <p class="content-summary">These priorities change with each time period. They are not medical advice, and they do not replace prenatal vitamins or your clinician's guidance.</p>
+      </div>
+      <div class="nutrient-cards" id="NutrientCards"></div>
+    </section>
+
+    <section class="content-card" aria-label="Top foods this period">
+      <div class="content-head">
+        <h2 class="content-title">Best overall picks for this period</h2>
+        <p class="content-summary">Ranked by how well 100g of each food covers the priority nutrients for this time period. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
+      </div>
+      <div class="food-source-card" aria-label="Food source filter">
+        <div class="food-source-kicker">Food source</div>
+        <label class="food-source-toggle">
+          <input type="checkbox" id="ToggleNaturalOnly" aria-label="Natural foods only">
+          <span class="food-source-track" aria-hidden="true">
+            <span class="food-source-text is-left">Processed</span>
+            <span class="food-source-text is-right">Natural</span>
+            <span class="food-source-thumb"></span>
+          </span>
+        </label>
+        <div class="food-source-hint">Processed includes fortified foods; Natural is whole-food sources.</div>
+      </div>
+      <div class="food-list" id="TopFoods"></div>
+    </section>
+
+    <section class="content-card" aria-label="Top foods by nutrient">
+      <div class="content-head">
+        <h2 class="content-title">Top foods per nutrient</h2>
+        <p class="content-summary">Use this view when you're trying to push a specific nutrient higher.</p>
+      </div>
+      <div class="by-nutrient">
+        <div class="by-nutrient-controls">
+          <label class="control-label" for="NutrientSelect">Nutrient</label>
+          <select class="control-select" id="NutrientSelect"></select>
+        </div>
+        <div class="food-list" id="FoodsByNutrient"></div>
+      </div>
+    </section>
   </div>
 </section>
