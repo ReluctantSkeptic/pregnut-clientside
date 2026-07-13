@@ -166,6 +166,10 @@
   }
 
   function closeAllCautions() {
+    if (window.PregnutCautions) {
+      window.PregnutCautions.closeAll();
+      return;
+    }
     var open = document.querySelectorAll(".caution[data-open=\"1\"]");
     for (var i = 0; i < open.length; i++) {
       open[i].removeAttribute("data-open");
@@ -177,6 +181,10 @@
   }
 
   function initCautionEvents() {
+    if (window.PregnutCautions) {
+      window.PregnutCautions.init();
+      return;
+    }
     if (window.__pregnutWeeklyCautionInit) return;
     window.__pregnutWeeklyCautionInit = true;
 

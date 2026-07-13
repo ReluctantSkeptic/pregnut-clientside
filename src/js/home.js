@@ -17,9 +17,16 @@
       var input = document.getElementById("HomeFoodSearchInput");
       if (!input) return;
 
+      var form = input.closest ? input.closest("form") : null;
+
+      function submitHomeSearch() {
+        if (!form) return;
+        if (form.requestSubmit) form.requestSubmit();
+        else form.submit();
+      }
+
       // Prevent empty submits (keeps the interaction feeling deliberate).
       try {
-        var form = input.closest ? input.closest("form") : null;
         if (form && form.addEventListener) {
           form.addEventListener("submit", function (ev) {
             var v = String(input.value || "").trim();
@@ -41,7 +48,8 @@
             getValue: "FoodName",
             list: {
               match: { enabled: true },
-              maxNumberOfElements: 18
+              maxNumberOfElements: 18,
+              onChooseEvent: submitHomeSearch
             }
           });
 
@@ -337,44 +345,43 @@
       } catch (e) {}
     })();
 
-    // Handle lede text color change on scroll.
-    var lede = document.querySelector(".home-lede");
-    if (lede && window.requestAnimationFrame) {
-      function updateLedeColor() {
-        var rect = lede.getBoundingClientRect();
-        var heroHeight = window.innerHeight;
-        // When lede is near top of viewport, darken it
-        // Transition happens as we scroll past the hero image
-        var progress = Math.max(0, Math.min(1, 1 - (rect.top / heroHeight)));
-        if (progress > 0.3) {
-          try { lede.classList.add("is-dark"); } catch (e) {}
-        } else {
-          try { lede.classList.remove("is-dark"); } catch (e) {}
-        }
-      }
-
-      var ledeTicking = false;
-      window.addEventListener("scroll", function () {
-        if (ledeTicking) return;
-        ledeTicking = true;
-        window.requestAnimationFrame(function () {
-          ledeTicking = false;
-          updateLedeColor();
-        });
-      }, { passive: true });
-      updateLedeColor();
-    }
-
     var cards = document.querySelectorAll("[data-need-card]");
     if (!cards || !cards.length) return;
 
-    for (var i = 0; i < cards.length; i++) {
-      try { cards[i].style.setProperty("--i", String(i)); } catch (e) {}
+    var nutrientIconIndex = {
+      "Calcium": 0,
+      "Choline": 1,
+      "DHA": 2,
+      "Folate (DFE)": 3,
+      "Iodine": 4,
+      "Iron": 5,
+      "Potassium": 6,
+      "Protein": 7,
+      "Riboflavin": 8,
+      "Vitamin B-6": 9,
+      "Vitamin B-12": 10,
+      "Vitamin C": 11,
+      "Vitamin D": 12,
+      "Zinc": 13
+    };
 
-      // Stable per-load randomness so cards feel like a paper pile that "orders" as they stack.
+    for (var i = 0; i < cards.length; i++) {
       try {
-        cards[i].dataset.pileRot = (Math.random() * 12 - 6).toFixed(3); // deg, [-6, 6]
-        cards[i].dataset.pileX = (Math.random() * 18 - 9).toFixed(3); // px, [-9, 9]
+        cards[i].style.setProperty("--i", String(i));
+
+        var nutrientId = cards[i].getAttribute("data-nutrient") || "";
+        var iconIndex = Object.prototype.hasOwnProperty.call(nutrientIconIndex, nutrientId)
+          ? nutrientIconIndex[nutrientId]
+          : i;
+        var cover = cards[i].querySelector(".need-card-cover");
+        if (cover && !cover.querySelector(".need-card-icon")) {
+          var icon = document.createElement("span");
+          icon.className = "need-card-icon";
+          icon.setAttribute("aria-hidden", "true");
+          icon.style.setProperty("--icon-col", String(iconIndex % 4));
+          icon.style.setProperty("--icon-row", String(Math.floor(iconIndex / 4)));
+          cover.insertBefore(icon, cover.firstChild);
+        }
       } catch (e) {}
     }
 
@@ -396,9 +403,19 @@
       return isFinite(n) ? n : 16;
     }
 
+    function getDeckMaxOffsetPx() {
+      var deck = document.getElementById("NeedsDeck");
+      if (!deck || !window.getComputedStyle) return 75;
+      var raw = "";
+      try { raw = window.getComputedStyle(deck).getPropertyValue("--deck-max-offset") || ""; } catch (e) { raw = ""; }
+      var n = parseFloat(String(raw).trim());
+      return isFinite(n) ? n : 75;
+    }
+
     function updateActiveCard() {
       var deckTop = getDeckTopPx();
       var deckPeek = getDeckPeekPx();
+      var deckMaxOffset = getDeckMaxOffsetPx();
       var best = null;
       var bestI = -1;
 
@@ -412,81 +429,103 @@
         if (!isFinite(idx)) idx = j;
 
         // Card is "active" once it's reached its sticky stack position.
-        var stackTop = deckTop + (deckPeek * idx);
+        var stackTop = deckTop + Math.min(deckPeek * idx, deckMaxOffset);
         if (r.top <= stackTop + 1 && idx >= bestI) {
           bestI = idx;
           best = c;
         }
       }
 
-      if (!best) best = cards[0];
+      if (!best) {
+        best = cards[0];
+        bestI = 0;
+      }
       for (var k = 0; k < cards.length; k++) {
         try { cards[k].classList.toggle("is-active", cards[k] === best); } catch (e) {}
       }
+      return bestI;
     }
 
-    // Keep only one drop-shadow in the stacked deck to avoid hazy "stacked shadows".
-    var ticking = false;
-    
-    function updateTilt() {
-      var deckTop = getDeckTopPx();
-      var deckPeek = getDeckPeekPx();
+    function updateStackMotion(activeIndex) {
+      var supportsStack = true;
       var reduceMotion = false;
       try {
+        supportsStack = !window.matchMedia || window.matchMedia("(min-width: 981px)").matches;
         reduceMotion = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
-      } catch (e) { reduceMotion = false; }
-      
-      for (var j = 0; j < cards.length; j++) {
-        var card = cards[j];
-        if (!card || !card.getBoundingClientRect) continue;
-        
-        var rect = card.getBoundingClientRect();
-        var idx = -1;
-        try { idx = parseInt(card.style.getPropertyValue("--i"), 10); } catch (e) { idx = -1; }
-        if (!isFinite(idx)) idx = j;
+      } catch (e) {}
 
-        var tiltAngle = 0;
-        var shiftX = 0;
-        
-        // Once a card has reached its sticky position, it becomes "ordered" (straight).
-        var stackTop = deckTop + (deckPeek * idx);
+      var deckTop = getDeckTopPx();
+      var deckPeek = getDeckPeekPx();
+      var deckMaxOffset = getDeckMaxOffsetPx();
+      var motionDistance = Math.max(280, (window.innerHeight || 720) * 0.48);
 
-        if (!reduceMotion && rect.top > stackTop + 1 && !card.classList.contains("is-active")) {
-          var distanceFromStack = rect.top - stackTop;
-          var maxDistance = window.innerHeight * 0.45;
-          var progress = Math.max(0, Math.min(1, distanceFromStack / maxDistance));
+      for (var i = 0; i < cards.length; i++) {
+        var card = cards[i];
+        if (!card) continue;
 
-          var baseRot = 0;
-          var baseX = 0;
-          try { baseRot = parseFloat(card.dataset.pileRot || "0"); } catch (e) { baseRot = 0; }
-          try { baseX = parseFloat(card.dataset.pileX || "0"); } catch (e) { baseX = 0; }
-          if (!isFinite(baseRot)) baseRot = 0;
-          if (!isFinite(baseX)) baseX = 0;
-
-          tiltAngle = progress * baseRot;
-          shiftX = progress * baseX;
+        if (!supportsStack || reduceMotion) {
+          card.style.setProperty("--card-lift", "0px");
+          card.style.setProperty("--card-shift", "0px");
+          card.style.setProperty("--card-tilt", "0deg");
+          card.style.setProperty("--card-pitch", "0deg");
+          card.style.setProperty("--card-depth", "0px");
+          card.style.setProperty("--card-scale", "1");
+          card.style.setProperty("--card-opacity", "1");
+          card.style.setProperty("--card-z", String(i + 1));
+          card.classList.remove("is-stacked");
+          continue;
         }
-        
-        try {
-          card.style.transform =
-            "translateX(" + shiftX.toFixed(2) + "px) rotate(" + tiltAngle.toFixed(2) + "deg)";
-        } catch (e) {}
+
+        var rect = card.getBoundingClientRect();
+        var previousLift = parseFloat(card.style.getPropertyValue("--card-lift") || "0");
+        if (!isFinite(previousLift)) previousLift = 0;
+
+        var stackTop = deckTop + Math.min(deckPeek * i, deckMaxOffset);
+        var naturalTop = rect.top - previousLift;
+        var approach = 1 - Math.max(0, Math.min(1, (naturalTop - stackTop) / motionDistance));
+        if (i <= activeIndex) approach = 1;
+
+        var depth = Math.max(0, activeIndex - i);
+        var scale = 1 - (Math.min(depth, 4) * 0.009) - ((1 - approach) * 0.014);
+        var lift = (1 - approach) * 24;
+        var direction = i % 2 === 0 ? -1 : 1;
+        var shift = (1 - approach) * direction * 4;
+        var tilt = (1 - approach) * direction * 0.24;
+        var pitch = (1 - approach) * 0.72;
+        var depthOffset = -Math.min(depth, 4) * 4;
+        // Keep the card surface opaque while it approaches the stack so its icon
+        // never sits over ghosted body copy from the card underneath.
+        var opacity = 1;
+
+        card.style.setProperty("--card-lift", lift.toFixed(2) + "px");
+        card.style.setProperty("--card-shift", shift.toFixed(2) + "px");
+        card.style.setProperty("--card-tilt", tilt.toFixed(3) + "deg");
+        card.style.setProperty("--card-pitch", pitch.toFixed(3) + "deg");
+        card.style.setProperty("--card-depth", depthOffset.toFixed(2) + "px");
+        card.style.setProperty("--card-scale", scale.toFixed(4));
+        card.style.setProperty("--card-opacity", opacity.toFixed(3));
+        card.style.setProperty("--card-z", String(i + 1));
+        card.style.setProperty("--stack-depth", String(depth));
+        card.classList.toggle("is-stacked", depth > 0);
       }
     }
-    
+
+    // Keep one stable drop-shadow in the stacked deck.
+    var ticking = false;
+
     function onScroll() {
       if (ticking) return;
       ticking = true;
       window.requestAnimationFrame(function () {
         ticking = false;
-        updateActiveCard();
-        updateTilt();
+        var activeIndex = updateActiveCard();
+        updateStackMotion(activeIndex);
       });
     }
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);
-    updateActiveCard();
-    updateTilt();
+    var initialActiveIndex = updateActiveCard();
+    updateStackMotion(initialActiveIndex);
 
     // No observer support: just show everything.
     if (!("IntersectionObserver" in window)) {

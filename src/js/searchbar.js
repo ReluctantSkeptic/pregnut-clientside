@@ -2,13 +2,21 @@
 
 $(function () {
   var $input = $("#FoodFinderInput");
+
+  function submitFoodSearch() {
+    var value = String($input.val() || "").trim();
+    if (!value) return;
+    window.location.href = "/food/?food=" + encodeURIComponent(value);
+  }
+
   if ($input.length && $.fn.easyAutocomplete) {
     var foodFinderInit = {
       url: "/foodfindersearch.json",
       getValue: "FoodName",
       list: {
         match: { enabled: true },
-        maxNumberOfElements: 20
+        maxNumberOfElements: 20,
+        onChooseEvent: submitFoodSearch
       }
     };
     $input.easyAutocomplete(foodFinderInit);
@@ -79,17 +87,13 @@ $(function () {
   }
 
   $("#FoodFinderSearchButton").on("click", function () {
-    var value = $input.val();
-    if (!value) {
-      return;
-    }
-    window.location.href = "/food/?food=" + encodeURIComponent(value);
+    submitFoodSearch();
   });
 
   $input.on("keydown", function (ev) {
     if (ev && ev.key === "Enter") {
       ev.preventDefault();
-      $("#FoodFinderSearchButton").trigger("click");
+      submitFoodSearch();
     }
   });
 });

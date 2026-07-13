@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ description or '' }}">
+    <meta name="description" content="{{ description or 'Clear, evidence-forward pregnancy nutrition guidance and food comparisons.' }}">
     <meta name="author" content="Yuriy Stasyuk">
-    <title>{{ title }} | PregNut</title>
+    <meta name="theme-color" content="#f3f0e8">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PregNut">
+    <meta property="og:title" content="{% if title == 'PregNut' %}PregNut{% else %}{{ title }} | PregNut{% endif %}">
+    <meta property="og:description" content="{{ description or 'Clear, evidence-forward pregnancy nutrition guidance and food comparisons.' }}">
+    <meta name="twitter:card" content="summary">
+    <title>{% if title == 'PregNut' %}PregNut{% else %}{{ title }} | PregNut{% endif %}</title>
     <link rel="stylesheet" href="/style/easy-autocomplete.css">
     <link rel="stylesheet" href="/style/style.css">
     {% if pageStyles %}
@@ -13,6 +19,7 @@
         <link rel="stylesheet" href="{{ href }}">
       {% endfor %}
     {% endif %}
+    <link rel="stylesheet" href="/style/overhaul.css">
   </head>
   <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
     {% include "components/navbar.njk" %}
@@ -23,6 +30,7 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery.easy-autocomplete.min.js"></script>
     <script src="/js/searchbar.js"></script>
+    <script src="/js/caution.js"></script>
     {% if pageScripts %}
       {% for src in pageScripts %}
         <script src="{{ src }}"></script>

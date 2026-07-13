@@ -6,7 +6,6 @@
   var GLOBAL_PREFS_KEY = "pregnut.foodPrefs.v1";
   var STORAGE_KEY = "pregnut.topFoods.v1";
 
-  var BAR_CAP_PERCENT = 200;
   var PER_GROUP_LIMIT = 5;
 
   // Pastel rainbow palette: nutrients are bound to colors in alphabetical order.
@@ -129,6 +128,29 @@
     return (v / rdaVal) * 100;
   }
 
+  function buildPercentTrack(percent) {
+    var p = safeNumber(percent);
+    if (p === null) p = 0;
+    p = Math.max(0, p);
+
+    var track = el("div", "bar-track percent-track" + (p > 100 ? " has-overflow" : ""), null);
+    track.setAttribute("role", "img");
+    track.setAttribute("aria-label", Math.round(p) + "% of daily target");
+
+    var targetZone = el("span", "bar-zone is-target-zone", null);
+    var targetFill = el("span", "bar-fill is-target-fill", null);
+    targetFill.style.width = String(Math.min(p, 100)) + "%";
+    targetZone.appendChild(targetFill);
+
+    track.appendChild(targetZone);
+    if (p > 100) {
+      var overage = el("span", "bar-overage-section", null);
+      overage.setAttribute("aria-hidden", "true");
+      track.appendChild(overage);
+    }
+    return track;
+  }
+
   function filterFoods(fooddata, opts) {
     var foods = (fooddata && fooddata.foods) ? fooddata.foods : [];
     var out = [];
@@ -146,33 +168,38 @@
     return out;
   }
 
-  function placeBarLabel(node, visiblePct, isOver100) {
-    if (!node) return;
-    var p = Number(visiblePct);
-    if (!isFinite(p)) p = 0;
-    p = Math.max(0, Math.min(p, 100));
-
-    var inside = !!isOver100;
-    try {
-      node.classList.toggle("is-inside", inside);
-      node.classList.toggle("is-outside", !inside);
-    } catch (e) {}
-
-    var gap = "var(--bar-value-gap)";
-    node.style.right = "auto";
-    node.style.left = inside
-      ? ("calc(100% - " + gap + ")")
-      : ("calc(" + String(p) + "% + " + gap + ")");
-    node.style.transform = inside
-      ? "translate(-100%, -50%)"
-      : "translate(0%, -50%)";
-  }
-
   function el(tag, className, text) {
     var node = document.createElement(tag);
     if (className) node.className = className;
     if (text !== undefined && text !== null) node.textContent = String(text);
     return node;
+  }
+
+  function appendChartGuide(root, nutrientId, targetLabel) {
+    var guide = el("div", "chart-guide", null);
+    var copy = el("div", "chart-guide-copy", null);
+    copy.appendChild(el("p", "chart-guide-kicker", "100 g comparison"));
+    copy.appendChild(el("h3", "chart-guide-title", nutrientId));
+    copy.appendChild(el(
+      "p",
+      "chart-guide-text",
+      "The rail fills from 0–100% of the daily target" +
+        (targetLabel ? " (" + targetLabel + ")" : "") +
+        ". When a food exceeds the target, a short overage section appears beside the full rail; the number shows the exact total."
+    ));
+    guide.appendChild(copy);
+
+    var scale = el("div", "chart-scale", null);
+    scale.setAttribute("aria-label", "Chart scale from zero to one hundred percent of daily target");
+    var line = el("div", "chart-scale-line", null);
+    line.appendChild(el("span", "chart-scale-zone is-target-zone", ""));
+    scale.appendChild(line);
+    var ticks = el("div", "chart-scale-ticks", null);
+    ticks.appendChild(el("span", "", "0"));
+    ticks.appendChild(el("span", "is-target", "100% target"));
+    scale.appendChild(ticks);
+    guide.appendChild(scale);
+    root.appendChild(guide);
   }
 
   function buildFoodNameNode(className, rawName) {
@@ -207,6 +234,10 @@
   }
 
   function closeAllCautions() {
+    if (window.PregnutCautions) {
+      window.PregnutCautions.closeAll();
+      return;
+    }
     var open = document.querySelectorAll(".caution[data-open=\"1\"]");
     for (var i = 0; i < open.length; i++) {
       open[i].removeAttribute("data-open");
@@ -218,6 +249,10 @@
   }
 
   function initCautionEvents() {
+    if (window.PregnutCautions) {
+      window.PregnutCautions.init();
+      return;
+    }
     if (window.__pregnutWeeklyCautionInit) return;
     window.__pregnutWeeklyCautionInit = true;
 
@@ -310,6 +345,10 @@
       return;
     }
 
+    var nInfo = fooddata && fooddata.nutrients ? fooddata.nutrients[nutrientId] : null;
+    var targetLabel = nInfo && nInfo.rda && nInfo.rda.label ? nInfo.rda.label : "";
+    appendChartGuide(root, nutrientId, targetLabel);
+
     var grid = el("div", "food-group-grid", null);
     for (var gi = 0; gi < groups.length; gi++) {
       var group = groups[gi];
@@ -327,10 +366,13 @@
         var foodItem = item.food;
         var pctItem = item.pct;
 
-        var row = el("div", "food-row", null);
+        var row = el("div", "food-row is-ranked", null);
 
         var main = el("div", "food-row-main", null);
-        main.appendChild(buildFoodNameNode("food-row-name", foodItem.name));
+        main.appendChild(el("span", "food-row-rank", String(fi + 1)));
+        var mainCopy = el("div", "food-row-copy", null);
+        mainCopy.appendChild(buildFoodNameNode("food-row-name", foodItem.name));
+        var metaLine = el("div", "food-row-meta-line", null);
         var barCaution = null;
         var warn = String(foodItem.warning || "").trim();
         if (warn && warn.toLowerCase() !== "0") {
@@ -338,22 +380,15 @@
           var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
           barCaution = buildCautionNode(msg);
         }
+        if (barCaution) metaLine.appendChild(barCaution);
+        if (barCaution) mainCopy.appendChild(metaLine);
+        main.appendChild(mainCopy);
 
         var bars = el("div", "food-row-bars", null);
         bars.style.setProperty("--nutrient-color", nutrientColor(nutrientId));
 
-        var track = el("div", "bar-track", null);
-        var fill = el("div", "bar-fill", null);
-        var visible = Math.min(Math.max(pctItem, 0), 100);
-        fill.style.width = String(visible) + "%";
-        track.appendChild(fill);
-        bars.appendChild(track);
-
-        var overlay = el("div", "bar-overlay", null);
-        if (barCaution) overlay.appendChild(barCaution);
-        overlay.appendChild(el("div", "bar-overlay-value", Math.round(pctItem) + "%"));
-        bars.appendChild(overlay);
-        placeBarLabel(overlay, visible, pctItem > 100);
+        bars.appendChild(buildPercentTrack(pctItem));
+        bars.appendChild(el("div", "bar-reading", Math.round(pctItem) + "%"));
 
         row.appendChild(main);
         row.appendChild(bars);
