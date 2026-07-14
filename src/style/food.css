@@ -3,134 +3,266 @@
   --food-muted: var(--muted);
 }
 
-.page-food {
+.page-food,
+.page-food-detail {
   position: relative;
 }
 
-.page-food::before {
-  content: none;
+.food-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+  color: var(--food-muted);
+  font-size: 0.9rem;
 }
 
-.page-food.food-ready .content-card {
-  animation: weekly-rise 0.7s ease both;
+.food-breadcrumbs a {
+  color: inherit;
 }
 
-.page-food .hero {
-  margin-bottom: 34px;
+.food-detail-hero.has-image {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
+  gap: 32px;
+  align-items: center;
 }
 
-/* Remove the outer gradient "card" wrapper so the chart reads cleaner. */
-.page-food .content-card {
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  padding: 0;
+.food-detail-image {
+  margin: 0;
 }
 
-.page-food .content-card:hover {
-  transform: none;
-  box-shadow: none;
+.food-detail-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid var(--border);
 }
 
-.page-food .food-item {
-  box-shadow: 0 18px 60px rgba(23, 19, 16, 0.10);
+.food-group-label {
+  margin: 18px 0 0;
+  color: var(--food-muted);
+  font-weight: 750;
 }
 
-.page-food .food-list {
+.food-safety-note {
+  border-left: 5px solid #d6a354;
+}
+
+.food-safety-note.is-avoid {
+  border-left-color: #b64a45;
+}
+
+.food-chart-card .food-item {
+  box-shadow: 0 18px 60px rgba(23, 19, 16, 0.1);
+}
+
+.food-chart-card .food-list {
+  margin-top: 18px;
+}
+
+.food-chart-card .food-bars {
   margin-top: 0;
   gap: 10px;
 }
 
-.page-food .food-bars {
-  margin-top: 6px;
-  gap: 10px;
-}
-
-.page-food #FoodSubtitle .caution {
-  margin-left: 10px;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-.page-food #FoodSubtitle .caution-trigger {
-  width: 24px;
-  height: 24px;
-  font-size: 13px;
-}
-
-.page-food .food-head {
-  justify-content: flex-end;
-}
-
-/* Bars: text-only labels, tight alignment, % label hugs the bar end. */
-.page-food .bar-row {
+.food-chart-card .bar-row {
   grid-template-columns: minmax(0, 120px) minmax(0, 1fr);
-  gap: 3px;
+  gap: 6px;
 }
 
-.page-food .bar-label {
+.food-chart-card .bar-label {
   justify-content: flex-end;
-  text-align: right;
   gap: 0;
+  text-align: right;
 }
 
-.page-food .bar-label::before {
+.food-chart-card .bar-label::before {
   content: none;
-  display: none;
 }
 
-.page-food .bar-value {
-  position: absolute;
-  top: 50%;
-  left: 0;
+.food-chart-card .bar-fill {
+  width: var(--bar-percent);
+}
+
+.food-chart-card .bar-value {
   right: auto;
-  transform: translate(0%, -50%);
   white-space: nowrap;
-  text-shadow: none;
   pointer-events: none;
 }
 
+.food-chart-card .bar-value.is-outside {
+  left: calc(var(--bar-percent) + var(--bar-value-gap));
+  transform: translate(0, -50%);
+}
+
+.food-chart-card .bar-value.is-inside {
+  right: var(--bar-value-gap);
+  left: auto;
+  transform: translate(0, -50%);
+}
+
+.related-food-list,
+.food-directory-results,
+.food-group-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.related-food-list,
+.food-directory-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
+}
+
+.related-food-list a,
+.food-directory-results a,
+.food-group-links a {
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.food-directory-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.food-directory-input {
+  min-width: 0;
+  flex: 1;
+  min-height: 48px;
+  padding: 11px 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--food-ink);
+  font: inherit;
+}
+
+.food-directory-form .easy-autocomplete {
+  min-width: 0;
+  flex: 1;
+}
+
+.food-directory-form .easy-autocomplete .food-directory-input {
+  width: 100%;
+}
+
+.food-directory-input:focus {
+  outline: 3px solid rgba(31, 122, 122, 0.2);
+  outline-offset: 1px;
+}
+
+.food-directory-button {
+  min-height: 48px;
+  padding: 11px 20px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--accent-2);
+  color: #fff;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.food-directory-status {
+  margin: 18px 0 10px;
+  color: var(--food-muted);
+  font-weight: 700;
+}
+
+.food-directory-results {
+  margin-top: 12px;
+}
+
+.food-group-directory {
+  display: grid;
+  gap: 10px;
+}
+
+.food-group-details {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.food-group-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 15px 17px;
+  color: var(--food-ink);
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.food-group-details summary span {
+  color: var(--food-muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.food-group-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px 24px;
+  padding: 4px 17px 18px;
+}
+
+@media (max-width: 720px) {
+  .food-detail-hero.has-image {
+    grid-template-columns: 1fr;
+  }
+
+  .related-food-list,
+  .food-directory-results,
+  .food-group-links {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 640px) {
-  /* Mobile: label above bar, with tighter padding/margins. */
-  .page-food .food-item {
+  .food-chart-card .food-item {
     padding: 12px 12px 10px;
   }
 
-  .page-food .food-bars {
+  .food-chart-card .food-bars {
     gap: 22px;
   }
 
-  .page-food .bar-row {
+  .food-chart-card .bar-row {
     grid-template-columns: 1fr;
     gap: 2px;
   }
 
-  .page-food .bar-track {
+  .food-chart-card .bar-track {
     height: 28px;
     border-radius: 10px;
   }
 
-  .page-food .bar-fill {
+  .food-chart-card .bar-fill {
     border-radius: 10px;
   }
 
-  .page-food .bar-label {
-    font-size: 0.84rem;
+  .food-chart-card .bar-label {
     justify-content: flex-start;
     text-align: left;
-  }
-
-  .page-food .bar-value {
     font-size: 0.84rem;
   }
-}
 
-.page-food #FoodResult:empty::before {
-  content: "Pick a food using the search bar above.";
-  display: block;
-  padding: 14px 16px;
-  border-radius: 16px;
-  border: 1px dashed rgba(225, 214, 203, 0.95);
-  color: rgba(31, 26, 23, 0.72);
-  background: rgba(255, 255, 255, 0.55);
+  .food-chart-card .bar-value {
+    font-size: 0.84rem;
+  }
+
+  .food-directory-form {
+    align-items: stretch;
+    flex-direction: column;
+  }
 }

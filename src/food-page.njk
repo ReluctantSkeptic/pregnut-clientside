@@ -6,34 +6,68 @@ pagination:
   alias: food
 permalink: "/food/{{ food.slug }}/index.html"
 eleventyComputed:
-  title: "{{ food.name }} Nutrition in Pregnancy"
-  description: "{{ food.name }} nutrition facts per 100 grams, including pregnancy-relevant nutrients and food safety notes."
+  title: "{{ food.pageName }} Nutrition in Pregnancy"
+  description: "{{ food.pageName }} nutrition facts per 100 grams, including pregnancy daily-target coverage and food safety notes."
   schemaType: WebPage
   bodyClass: page-food-detail
 pageStyles:
   - /style/weekly-diet.css
+  - /style/food.css
 ---
 
 <article class="section food-static-page">
-  <header class="hero slim">
+  <nav class="food-breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a><span aria-hidden="true">/</span><a href="/food/">Foods</a><span aria-hidden="true">/</span><span aria-current="page">{{ food.pageName }}</span>
+  </nav>
+
+  <header class="hero slim food-detail-hero{% if food.image and food.image.src %} has-image{% endif %}">
     <div>
       <p class="eyebrow">Pregnancy food guide</p>
-      <h1 class="hero-title">{{ food.name }} nutrition in pregnancy</h1>
+      <h1 class="hero-title">{{ food.pageName }} nutrition in pregnancy</h1>
       <p class="hero-lede">Nutrient values for a 100 gram portion of {{ food.name }}. Use this as a comparison tool, not personalized medical advice.</p>
+      <p class="food-group-label">Food group: {{ food.group }}</p>
     </div>
+    {% if food.image and food.image.src %}
+      <figure class="food-detail-image">
+        <img src="{{ food.image.src }}" alt="{{ food.image.alt or ('100 grams of ' ~ food.pageName) }}"{% if food.image.width %} width="{{ food.image.width }}"{% endif %}{% if food.image.height %} height="{{ food.image.height }}"{% endif %} loading="lazy">
+      </figure>
+    {% endif %}
   </header>
 
   {% if food.warning %}
-    <aside class="content-card" aria-label="Food safety note">
+    <aside class="content-card food-safety-note{% if food.warning | lower == 'avoid' %} is-avoid{% endif %}" aria-label="Food safety note">
       <h2 class="content-title">Food safety note: {{ food.warning }}</h2>
       <p class="content-summary">{{ food.warningText }}</p>
     </aside>
   {% endif %}
 
-  <section class="content-card">
+  <section class="content-card food-chart-card" aria-labelledby="food-chart-title">
     <div class="content-head">
-      <h2 class="content-title">Nutrients per 100 grams</h2>
-      <p class="content-summary">Food group: {{ food.group }}. Daily targets are shown for context and are not a recommendation to meet them from one food.</p>
+      <p class="content-eyebrow">Per 100 grams</p>
+      <h2 class="content-title" id="food-chart-title">Pregnancy daily-target coverage</h2>
+      <p class="content-summary">Each bar shows how much of the pregnancy daily target this food provides. Bars stop visually at 100%, while the label shows the full value.</p>
+    </div>
+    <div class="food-list" aria-label="Food nutrient bars">
+      <div class="food-item">
+        <div class="food-bars">
+          {% for row in food.nutrientRows %}
+            <div class="bar-row" style="--nutrient-color: {{ row.color }}; --bar-percent: {{ row.barPercent }}%;">
+              <div class="bar-label">{{ row.name }}</div>
+              <div class="bar-track" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the pregnancy daily target{% endif %}">
+                <span class="bar-fill" aria-hidden="true"></span>
+                <span class="bar-value {% if row.isOver100 %}is-inside{% else %}is-outside{% endif %}" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{{ row.displayPercent }}%{% endif %}</span>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-card" aria-labelledby="food-table-title">
+    <div class="content-head">
+      <h2 class="content-title" id="food-table-title">Nutrients per 100 grams</h2>
+      <p class="content-summary">Daily targets are shown for context and are not a recommendation to meet them from one food.</p>
     </div>
     <div class="table-shell">
       <table class="data-table">
@@ -47,8 +81,17 @@ pageStyles:
     </div>
   </section>
 
-  <section class="content-card">
-    <h2 class="content-title">Explore more</h2>
-    <p class="content-summary"><a href="/food/">Search another food</a> or compare this food with the <a href="/app/">top foods per nutrient</a>.</p>
+  <section class="content-card food-related" aria-labelledby="related-foods-title">
+    <div class="content-head">
+      <h2 class="content-title" id="related-foods-title">More from {{ food.group }}</h2>
+      <p class="content-summary"><a href="/food/">Search or browse all foods</a>, or compare nutrient-dense choices in <a href="/app/">Top Foods</a>.</p>
+    </div>
+    {% if food.relatedFoods.length %}
+      <ul class="guide-link-list related-food-list">
+        {% for related in food.relatedFoods %}
+          <li><a href="{{ related.url }}">{{ related.name }} nutrition in pregnancy</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </section>
 </article>

@@ -6,7 +6,15 @@ $(function () {
   function submitFoodSearch() {
     var value = String($input.val() || "").trim();
     if (!value) return;
-    window.location.href = "/food/?food=" + encodeURIComponent(value);
+
+    var selected = null;
+    try { selected = $input.getSelectedItemData(); } catch (e) {}
+    if (selected && selected.FoodUrl && String(selected.FoodName || "").trim() === value) {
+      window.location.href = selected.FoodUrl;
+      return;
+    }
+
+    window.location.href = "/food/?q=" + encodeURIComponent(value);
   }
 
   if ($input.length && $.fn.easyAutocomplete) {

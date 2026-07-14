@@ -1,18 +1,15 @@
 
 module.exports = function(eleventyConfig) {
    const site = require("./src/_data/site.js");
-   const foodpages = require("./src/_data/foodpages.js");
    const sitemapData = require("./src/_data/sitemapData.js");
 
    eleventyConfig.addGlobalData("site", site);
-   eleventyConfig.addGlobalData("foodpages", foodpages);
    eleventyConfig.addGlobalData("sitemapData", { items: sitemapData });
 
    // Passthroughs
    eleventyConfig.addPassthroughCopy("src/js");
    eleventyConfig.addPassthroughCopy("src/style");
    eleventyConfig.addPassthroughCopy("src/resource");
-   eleventyConfig.addPassthroughCopy("src/foodfindersearch.json");
    eleventyConfig.addPassthroughCopy("src/_redirects");
 
    eleventyConfig.addFilter("isoDate", (dateObj) => {

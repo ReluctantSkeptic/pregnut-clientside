@@ -15,10 +15,9 @@ npm run start
 
 Build output is written to `_site/`.
 
-For production builds, set `SITE_URL` to the public origin, for example
-`SITE_URL=https://your-domain.example`. Eleventy uses it for canonical URLs,
-Open Graph URLs, JSON-LD, `robots.txt`, and `sitemap.xml`; production builds
-fail when it is missing.
+Canonical URLs default to `https://pregnut.com`. Set `SITE_URL` only when a
+different public origin is intentionally required. Eleventy uses it for
+canonical URLs, Open Graph URLs, JSON-LD, `robots.txt`, and `sitemap.xml`.
 
 ## Data
 

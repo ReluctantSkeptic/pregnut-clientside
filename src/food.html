@@ -1,40 +1,59 @@
 ---
-title: Food
-description: Search pregnancy foods and compare their nutrient coverage per 100 grams, with food safety notes where available.
+title: Pregnancy Food Nutrition Guide
 layout: base.njk
 permalink: /food/index.html
 bodyClass: page-food
+eleventyComputed:
+  description: "Search and browse pregnancy nutrition facts for {{ foodpages.count }} foods, with nutrient coverage per 100 grams and food safety notes."
 pageStyles:
   - /style/weekly-diet.css
   - /style/food.css
 pageScripts:
-  - /js/food.js
+  - /js/food-directory.js
 ---
 
 <section class="hero slim">
   <div>
-    <h1 class="hero-title" id="FoodTitle">Search for a food</h1>
-    <p class="hero-lede" id="FoodSubtitle">Use the search bar in the top right to view a food's nutrient coverage per 100 grams.</p>
+    <p class="eyebrow">Pregnancy food guide</p>
+    <h1 class="hero-title">Search food nutrition</h1>
+    <p class="hero-lede">Find nutrient coverage, amounts per 100 grams, and pregnancy food safety notes for {{ foodpages.count }} foods.</p>
   </div>
 </section>
 
-<section class="section food-shell" aria-label="Food nutrient profile">
-  <section class="content-card">
-    <div class="food-list" id="FoodResult" aria-label="Food nutrient bars"></div>
-  </section>
-</section>
-
-<section class="section" aria-label="Food nutrition guides">
+<section class="section food-directory-search" aria-labelledby="food-search-title">
   <div class="content-card">
     <div class="content-head">
-      <p class="content-eyebrow">Browse guides</p>
-      <h2 class="content-title">Pregnancy food nutrition guides</h2>
-      <p class="content-summary">Explore selected nutrient-dense foods with values shown per 100 grams.</p>
+      <h2 class="content-title" id="food-search-title">Find a food</h2>
+      <p class="content-summary">Enter a full or partial food name. Choose an autocomplete suggestion to open its nutrition page directly.</p>
     </div>
-    <ul class="dev-list guide-link-list">
-      {% for food in foodpages.items %}
-        <li><a href="/food/{{ food.slug }}/">{{ food.name }} nutrition in pregnancy</a></li>
+    <form class="food-directory-form" action="/food/" method="get" autocomplete="off">
+      <label class="sr-only" for="FoodDirectoryInput">Search foods</label>
+      <input id="FoodDirectoryInput" class="food-directory-input" name="q" type="search" placeholder="Try salmon, lentils, or spinach">
+      <button class="food-directory-button" type="submit">Search</button>
+    </form>
+    <p id="FoodDirectoryStatus" class="food-directory-status" aria-live="polite" hidden></p>
+    <ul id="FoodDirectoryResults" class="guide-link-list food-directory-results" hidden></ul>
+  </div>
+</section>
+
+<section class="section food-directory" aria-labelledby="food-directory-title">
+  <div class="content-card">
+    <div class="content-head">
+      <p class="content-eyebrow">Browse all foods</p>
+      <h2 class="content-title" id="food-directory-title">Food nutrition guides by group</h2>
+      <p class="content-summary">Every searchable food has one canonical page containing its nutrient chart and full table.</p>
+    </div>
+    <div class="food-group-directory">
+      {% for group in foodpages.groups %}
+        <details class="food-group-details">
+          <summary>{{ group.name }} <span>{{ group.foods.length }} foods</span></summary>
+          <ul class="guide-link-list food-group-links">
+            {% for food in group.foods %}
+              <li><a href="{{ food.url }}">{{ food.name }} nutrition in pregnancy</a></li>
+            {% endfor %}
+          </ul>
+        </details>
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </section>

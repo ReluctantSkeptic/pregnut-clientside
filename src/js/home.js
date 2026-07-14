@@ -19,10 +19,11 @@
 
       var form = input.closest ? input.closest("form") : null;
 
-      function submitHomeSearch() {
-        if (!form) return;
-        if (form.requestSubmit) form.requestSubmit();
-        else form.submit();
+      function openSelectedFood($input) {
+        var selected = null;
+        try { selected = $input.getSelectedItemData(); } catch (e) {}
+        if (!selected || !selected.FoodUrl) return;
+        window.location.href = selected.FoodUrl;
       }
 
       // Prevent empty submits (keeps the interaction feeling deliberate).
@@ -49,7 +50,7 @@
             list: {
               match: { enabled: true },
               maxNumberOfElements: 18,
-              onChooseEvent: submitHomeSearch
+              onChooseEvent: function () { openSelectedFood($input); }
             }
           });
 
