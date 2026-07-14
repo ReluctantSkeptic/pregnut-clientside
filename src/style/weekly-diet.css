@@ -396,94 +396,22 @@
   max-width: 70ch;
 }
 
-.development-art[hidden] {
-  display: none;
-}
-
-.development-art {
+.development-summary-head {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(190px, 30%);
   gap: 22px;
   align-items: center;
-  margin: 22px 0 4px;
-  padding: 16px;
-  border: 1px solid rgba(225, 214, 203, 0.9);
-  border-radius: var(--radius-sm);
-  background:
-    radial-gradient(circle at 18% 12%, rgba(255, 184, 140, 0.18), transparent 48%),
-    linear-gradient(135deg, rgba(255, 250, 242, 0.94), rgba(246, 241, 236, 0.78));
 }
 
-.development-art-copy {
+.development-summary-copy {
   min-width: 0;
 }
 
-.development-art-kicker {
-  margin: 0 0 6px;
-  color: var(--weekly-accent-2);
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+.chapter-art[hidden] {
+  display: none;
 }
 
-.development-art-title {
-  margin: 0 0 8px;
-  color: var(--weekly-ink);
-  font-size: 1.15rem;
-}
-
-.development-art-caption {
-  margin: 0;
-  color: var(--weekly-muted);
-  line-height: 1.5;
-}
-
-.development-art-weeks {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 14px;
-}
-
-.development-art-week {
-  min-width: 38px;
-  min-height: 32px;
-  padding: 5px 8px;
-  border: 1px solid rgba(31, 122, 122, 0.24);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.76);
-  color: var(--weekly-accent-2);
-  font-size: 0.8rem;
-  font-weight: 850;
-  cursor: pointer;
-  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
-}
-
-.development-art-week:hover,
-.development-art-week[aria-pressed="true"] {
-  border-color: rgba(20, 90, 90, 0.52);
-  background: rgba(31, 122, 122, 0.12);
-  transform: translateY(-1px);
-}
-
-.development-art-week:focus-visible {
-  outline: 2px solid rgba(31, 122, 122, 0.55);
-  outline-offset: 3px;
-}
-
-.development-art-source {
-  margin: 12px 0 0;
-  color: var(--weekly-muted);
-  font-size: 0.78rem;
-}
-
-.development-art-source a {
-  color: var(--weekly-accent-2);
-  font-weight: 750;
-}
-
-.development-art-figure {
+.chapter-art {
   width: 100%;
   max-width: 270px;
   aspect-ratio: 1;
@@ -495,7 +423,7 @@
   box-shadow: 0 16px 34px rgba(23, 19, 16, 0.12);
 }
 
-.development-art-figure img {
+.chapter-art img {
   display: block;
   width: 100%;
   height: 100%;
@@ -1079,11 +1007,11 @@
     padding: 18px;
   }
 
-  .development-art {
+  .development-summary-head {
     grid-template-columns: 1fr;
   }
 
-  .development-art-figure {
+  .chapter-art {
     max-width: none;
     justify-self: stretch;
   }

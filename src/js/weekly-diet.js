@@ -4,12 +4,9 @@
 (function () {
   var PROTOCOL_URL = "/resource/weekly_protocol.v1.json";
   var FOODDATA_URL = "/resource/pregnut_fooddata.v1.json";
-  var ART_URL = "/resource/weekly_development_art.v1.json";
+  var CHAPTER_ART_URL = "/resource/weekly_chapter_art.v1.json";
   var STORAGE_KEY = "pregnut.weeklyDiet.v1";
   var GLOBAL_PREFS_KEY = "pregnut.foodPrefs.v1";
-
-  var ART_START_WEEK = 23;
-  var ART_END_WEEK = 32;
 
   var PRIORITY_LABEL = {
     high: "High priority",
@@ -198,24 +195,10 @@
     return protocol.periods[0] || null;
   }
 
-  function artRangeForPeriod(period) {
-    if (!period || !period.weeks) return null;
-    if (period.weeks.end < ART_START_WEEK || period.weeks.start > ART_END_WEEK) return null;
-    return {
-      start: Math.max(ART_START_WEEK, period.weeks.start),
-      end: Math.min(ART_END_WEEK, period.weeks.end)
-    };
-  }
-
-  function preferredWeekForPeriod(period) {
-    var range = artRangeForPeriod(period);
-    return range ? range.start : (period && period.weeks ? period.weeks.start : MIN_WEEK);
-  }
-
-  function getArtForWeek(artdata, week) {
-    var entries = artdata && Array.isArray(artdata.weeks) ? artdata.weeks : [];
+  function getChapterArt(artdata, period) {
+    var entries = artdata && Array.isArray(artdata.chapters) ? artdata.chapters : [];
     for (var i = 0; i < entries.length; i++) {
-      if (Number(entries[i].week) === Number(week)) return entries[i];
+      if (entries[i].periodId === period.id) return entries[i];
     }
     return null;
   }
@@ -481,7 +464,7 @@
         item.appendChild(copy);
         item.addEventListener("click", (function (start) {
           return function () { onPickWeek(start); };
-        })(preferredWeekForPeriod(p)));
+        })(p.weeks.start));
 
         root.appendChild(item);
       }
@@ -514,66 +497,27 @@
     } catch (e) {}
   }
 
-  function renderDevelopmentArt(artdata, period, state, onPickWeek) {
-    var root = $("DevelopmentArt");
+  function renderChapterArt(artdata, period) {
+    var root = $("ChapterArt");
     if (!root) return;
 
-    var range = artRangeForPeriod(period);
-    if (!range) {
-      root.hidden = true;
-      return;
-    }
-
-    var selectedWeek = clamp(Number(state.week) || range.start, range.start, range.end);
-    var entry = getArtForWeek(artdata, selectedWeek);
+    var entry = getChapterArt(artdata, period);
     if (!entry) {
       root.hidden = true;
       return;
     }
 
     root.hidden = false;
-    root.setAttribute("data-week", String(selectedWeek));
+    root.setAttribute("data-period-id", period.id || "");
 
-    var title = $("DevelopmentArtTitle");
-    if (title) title.textContent = "Week " + selectedWeek + " development snapshot";
-
-    var caption = $("DevelopmentArtCaption");
-    if (caption) caption.textContent = entry.caption || "Development continues week by week.";
-
-    var image = $("DevelopmentArtImage");
+    var image = $("ChapterArtImage");
     if (image) {
       image.src = entry.image || "";
       image.alt = entry.alt || "Illustration of fetal development.";
     }
-
-    var weekPicker = $("DevelopmentArtWeeks");
-    if (weekPicker) {
-      clear(weekPicker);
-      for (var week = ART_START_WEEK; week <= ART_END_WEEK; week++) {
-        var button = el("button", "development-art-week", String(week));
-        button.type = "button";
-        button.setAttribute("aria-label", "Show development illustration for week " + week);
-        button.setAttribute("aria-pressed", week === selectedWeek ? "true" : "false");
-        button.addEventListener("click", (function (nextWeek) {
-          return function () { onPickWeek(nextWeek); };
-        })(week));
-        weekPicker.appendChild(button);
-      }
-    }
-
-    var source = $("DevelopmentArtSource");
-    if (source) {
-      clear(source);
-      source.appendChild(document.createTextNode("Reference: "));
-      var link = el("a", "", entry.sourceLabel || "NHS week-by-week pregnancy guide");
-      link.href = entry.sourceUrl || "#";
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      source.appendChild(link);
-    }
   }
 
-  function renderPeriod(protocol, fooddata, state, artdata, onPickWeek) {
+  function renderPeriod(protocol, fooddata, state, artdata) {
     var period = getPeriodForWeek(protocol, state.week);
     if (!period) return;
 
@@ -590,7 +534,7 @@
     var tCurrent = $("TimelineCurrent");
     if (tCurrent) tCurrent.textContent = formatWeeksNav(period.weeks.start, period.weeks.end) + " \u00b7 " + timelineShortTitle(period);
 
-    renderDevelopmentArt(artdata, period, state, onPickWeek);
+    renderChapterArt(artdata, period);
 
     // Period-level citations (shown in details mode)
     var pCites = $("PeriodCites");
@@ -1060,7 +1004,7 @@
       writeUrlWeek(state.week);
       persist(state);
       renderTimeline(protocol, state.week, setWeek);
-      renderPeriod(protocol, fooddata, state, artdata, setWeek);
+      renderPeriod(protocol, fooddata, state, artdata);
     }
 
     // One global toggle remains: natural vs processed sources.
@@ -1070,7 +1014,7 @@
       nat.addEventListener("change", function () {
         state.naturalOnly = !!nat.checked;
         persist(state);
-        renderPeriod(protocol, fooddata, state, artdata, setWeek);
+        renderPeriod(protocol, fooddata, state, artdata);
       });
     }
 
@@ -1093,7 +1037,7 @@
     });
 
     renderTimeline(protocol, state.week, setWeek);
-    renderPeriod(protocol, fooddata, state, artdata, setWeek);
+    renderPeriod(protocol, fooddata, state, artdata);
     writeUrlWeek(state.week);
     persist(state);
 
@@ -1106,7 +1050,7 @@
     Promise.all([
       fetchJson(PROTOCOL_URL),
       fetchJson(FOODDATA_URL),
-      fetchJson(ART_URL).catch(function () { return { weeks: [] }; })
+      fetchJson(CHAPTER_ART_URL).catch(function () { return { chapters: [] }; })
     ])
       .then(function (all) {
         var protocol = all[0];

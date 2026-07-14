@@ -1,0 +1,50 @@
+{
+  "version": "v1",
+  "chapters": [
+    {
+      "periodId": "wk1-8",
+      "image": "/resource/weekly-guides/chapter-wk1-8.webp",
+      "alt": "Friendly flat-cartoon illustration of an early embryo-like form inside a heart-shaped translucent womb with teal outlines and pastel accents."
+    },
+    {
+      "periodId": "wk9-12",
+      "image": "/resource/weekly-guides/chapter-wk9-12.webp",
+      "alt": "Friendly flat-cartoon illustration of a small curled developing baby inside a heart-shaped translucent womb with teal outlines and pastel accents."
+    },
+    {
+      "periodId": "wk13-16",
+      "image": "/resource/weekly-guides/chapter-wk13-16.webp",
+      "alt": "Friendly flat-cartoon illustration of a growing curled baby with a stylized spine and brain-development star inside a heart-shaped translucent womb."
+    },
+    {
+      "periodId": "wk17-20",
+      "image": "/resource/weekly-guides/chapter-wk17-20.webp",
+      "alt": "Friendly flat-cartoon illustration of a growing baby with soft sound waves and motion marks inside a heart-shaped translucent womb."
+    },
+    {
+      "periodId": "wk21-24",
+      "image": "/resource/weekly-guides/chapter-wk21-24.webp",
+      "alt": "Friendly flat-cartoon illustration of a growing baby with gentle breathing bubbles inside a heart-shaped translucent womb."
+    },
+    {
+      "periodId": "wk25-28",
+      "image": "/resource/weekly-guides/chapter-wk25-28.webp",
+      "alt": "Friendly flat-cartoon illustration of a larger curled baby with an open eye inside a heart-shaped translucent womb."
+    },
+    {
+      "periodId": "wk29-32",
+      "image": "/resource/weekly-guides/chapter-wk29-32.webp",
+      "alt": "Friendly flat-cartoon illustration of a curled baby in a head-down position inside a heart-shaped translucent womb."
+    },
+    {
+      "periodId": "wk33-36",
+      "image": "/resource/weekly-guides/chapter-wk33-36.webp",
+      "alt": "Friendly flat-cartoon illustration of a rounder curled baby inside a heart-shaped translucent womb with pastel growth motifs."
+    },
+    {
+      "periodId": "wk37-40",
+      "image": "/resource/weekly-guides/chapter-wk37-40.webp",
+      "alt": "Friendly flat-cartoon illustration of a full-term baby sleeping snugly inside a heart-shaped translucent womb with pastel stars and hearts."
+    }
+  ]
+}
