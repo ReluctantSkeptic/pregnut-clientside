@@ -17,21 +17,6 @@ pageScripts:
   </div>
 </section>
 
-<section class="section" aria-label="Pregnancy stage guides">
-  <div class="content-card">
-    <div class="content-head">
-      <p class="content-eyebrow">Static guides</p>
-      <h2 class="content-title">Browse pregnancy nutrition by stage</h2>
-      <p class="content-summary">Read the development notes and nutrient priorities for each stage of pregnancy.</p>
-    </div>
-    <ul class="dev-list guide-link-list">
-      {% for period in weeklyProtocol.periods %}
-        <li><a href="/weekly-guide/{{ period.id }}/">Weeks {{ period.weeks.start }}–{{ period.weeks.end }}: {{ period.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
 <section class="section weekly-shell">
   <section class="weekly-timeline-stage" aria-label="Timeline">
     <div class="weekly-timeline-meta" aria-hidden="true">
