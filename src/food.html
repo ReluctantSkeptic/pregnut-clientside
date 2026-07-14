@@ -1,5 +1,6 @@
 ---
 title: Food
+description: Search pregnancy foods and compare their nutrient coverage per 100 grams, with food safety notes where available.
 layout: base.njk
 permalink: /food/index.html
 bodyClass: page-food
@@ -21,4 +22,19 @@ pageScripts:
   <section class="content-card">
     <div class="food-list" id="FoodResult" aria-label="Food nutrient bars"></div>
   </section>
+</section>
+
+<section class="section" aria-label="Food nutrition guides">
+  <div class="content-card">
+    <div class="content-head">
+      <p class="content-eyebrow">Browse guides</p>
+      <h2 class="content-title">Pregnancy food nutrition guides</h2>
+      <p class="content-summary">Explore selected nutrient-dense foods with values shown per 100 grams.</p>
+    </div>
+    <ul class="dev-list guide-link-list">
+      {% for food in foodpages.items %}
+        <li><a href="/food/{{ food.slug }}/">{{ food.name }} nutrition in pregnancy</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>

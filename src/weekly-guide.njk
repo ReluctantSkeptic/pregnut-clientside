@@ -1,0 +1,74 @@
+---
+layout: base.njk
+pagination:
+  data: weeklyProtocol.periods
+  size: 1
+  alias: period
+permalink: "/weekly-guide/{{ period.id }}/index.html"
+eleventyComputed:
+  title: "Pregnancy Nutrition Weeks {{ period.weeks.start }}–{{ period.weeks.end }}"
+  description: "{{ period.summary }}"
+  schemaType: WebPage
+  bodyClass: page-weekly-static
+pageStyles:
+  - /style/weekly-diet.css
+---
+
+<article class="section weekly-static-page">
+  <header class="hero slim weekly-hero">
+    <div>
+      <p class="eyebrow">Pregnancy nutrition guide</p>
+      <h1 class="hero-title">Pregnancy nutrition for weeks {{ period.weeks.start }}–{{ period.weeks.end }}</h1>
+      <p class="hero-lede">{{ period.summary }}</p>
+    </div>
+  </header>
+
+  <section class="content-card">
+    <div class="content-head">
+      <p class="content-eyebrow">{{ period.title }}</p>
+      <h2 class="content-title">What is developing</h2>
+    </div>
+    <ul class="dev-list">
+      {% for item in period.development %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="content-card focus-card">
+    <div class="content-head">
+      <h2 class="content-title">Nutrients to prioritize</h2>
+      <p class="content-summary">These food ideas support general nutrition planning. They are not medical advice and do not replace prenatal vitamins or clinician guidance.</p>
+    </div>
+    <div class="nutrient-cards">
+      {% for nutrient in period.nutrients %}
+        <article class="nutrient-card priority-{{ nutrient.priority }}">
+          <div class="nutrient-top">
+            <h3 class="nutrient-name">{{ nutrient.id }}</h3>
+            <span class="nutrient-rda">{{ nutrient.priority | capitalize }} priority</span>
+          </div>
+          <p class="nutrient-why">{{ nutrient.why }}</p>
+          {% if nutrient.details %}<p class="nutrient-details">{{ nutrient.details }}</p>{% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if period.notes %}
+    <section class="content-card">
+      <div class="content-head"><h2 class="content-title">Practical notes</h2></div>
+      <ul class="dev-list">
+        {% for note in period.notes %}<li>{{ note.text }}</li>{% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  <section class="content-card">
+    <div class="content-head"><h2 class="content-title">Sources</h2></div>
+    <ul class="cite-list is-visible">
+      {% for source in period.citations %}
+        <li><a href="{{ source.url }}" rel="noopener noreferrer">{{ source.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>

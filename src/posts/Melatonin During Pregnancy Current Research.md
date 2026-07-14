@@ -1,14 +1,23 @@
 ---
 title: "Melatonin During Pregnancy: Common Questions"
 layout: post.njk
+permalink: /blog/melatonin-during-pregnancy/index.html
+description: A cautious review of what research can and cannot tell us about melatonin, pregnancy insomnia, and breastfeeding.
+author: Yuriy Stasyuk
+dateModified: 2026-07-14
+ogType: article
+schemaType: Article
 tags: post
 date: 2025-05-17
 ---
 
-
 > This article is educational and not a substitute for your clinician’s advice. Pregnancy varies, and the right choice depends on your symptoms, trimester, and medical history.
 
 ---
+
+## Sources and limitations
+
+This article summarizes research rather than making a treatment recommendation. Key references include the [systematic review of melatonin in pregnancy](https://pmc.ncbi.nlm.nih.gov/articles/PMC9169489/), the [review of CBT-I for pregnancy insomnia](https://pmc.ncbi.nlm.nih.gov/articles/PMC8210706/), and research on [melatonin supplement label accuracy](https://pubmed.ncbi.nlm.nih.gov/27855744/). Evidence remains limited, so medication or supplement decisions should be made with a qualified clinician.
 
 ## 1) What is melatonin?
 

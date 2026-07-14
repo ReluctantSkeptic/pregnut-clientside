@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:fooddata": "node scripts/build-fooddata.js",
-    "build": "npm run build:fooddata && npx @11ty/eleventy",
-    "start": "npm run build:fooddata && npx @11ty/eleventy --serve",
+    "clean": "node scripts/clean-site.js",
+    "eleventy": "node node_modules/@11ty/eleventy/cmd.cjs",
+    "build": "npm run clean && npm run build:fooddata && npm run eleventy",
+    "start": "npm run clean && npm run build:fooddata && npm run eleventy -- --serve",
     "serve": "serve _site -p 8080"
   }  ,
   "engines": {
@@ -23,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/ReluctantSkeptic/pregnut-clientside/issues"
   },
-  "homepage": "https://github.com/ReluctantSkeptic/pregnut-clientside#readme",
+    "homepage": "https://github.com/ReluctantSkeptic/pregnut-clientside#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
   }

@@ -1,12 +1,12 @@
 ---
 layout: base.njk
-permalink: /posts/{{ page.fileSlug }}/index.html
 ---
 
 <article class="post">
   <header class="post-header">
-    <p class="post-meta">{{ page.date | readableDate }}</p>
+    <p class="post-meta"><time datetime="{{ page.date | isoDate }}">Published {{ page.date | readableDate }}</time>{% if dateModified %} · <time datetime="{{ dateModified | isoDate }}">Updated {{ dateModified | readableDate }}</time>{% endif %}{% if author %} · By {{ author }}{% endif %}</p>
     <h1 class="post-title">{{ title }}</h1>
+    {% if description %}<p class="post-dek">{{ description }}</p>{% endif %}
   </header>
   <div class="prose">
     {{ content | safe }}

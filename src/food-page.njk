@@ -1,0 +1,54 @@
+---
+layout: base.njk
+pagination:
+  data: "foodpages.items"
+  size: 1
+  alias: food
+permalink: "/food/{{ food.slug }}/index.html"
+eleventyComputed:
+  title: "{{ food.name }} Nutrition in Pregnancy"
+  description: "{{ food.name }} nutrition facts per 100 grams, including pregnancy-relevant nutrients and food safety notes."
+  schemaType: WebPage
+  bodyClass: page-food-detail
+pageStyles:
+  - /style/weekly-diet.css
+---
+
+<article class="section food-static-page">
+  <header class="hero slim">
+    <div>
+      <p class="eyebrow">Pregnancy food guide</p>
+      <h1 class="hero-title">{{ food.name }} nutrition in pregnancy</h1>
+      <p class="hero-lede">Nutrient values for a 100 gram portion of {{ food.name }}. Use this as a comparison tool, not personalized medical advice.</p>
+    </div>
+  </header>
+
+  {% if food.warning %}
+    <aside class="content-card" aria-label="Food safety note">
+      <h2 class="content-title">Food safety note: {{ food.warning }}</h2>
+      <p class="content-summary">{{ food.warningText }}</p>
+    </aside>
+  {% endif %}
+
+  <section class="content-card">
+    <div class="content-head">
+      <h2 class="content-title">Nutrients per 100 grams</h2>
+      <p class="content-summary">Food group: {{ food.group }}. Daily targets are shown for context and are not a recommendation to meet them from one food.</p>
+    </div>
+    <div class="table-shell">
+      <table class="data-table">
+        <thead><tr><th scope="col">Nutrient</th><th scope="col">Amount</th><th scope="col">Pregnancy target</th></tr></thead>
+        <tbody>
+          {% for row in food.nutrientRows %}
+            <tr><th scope="row">{{ row.name }}</th><td>{{ row.value | formatNumber }} {{ row.unit }}</td><td>{{ row.target }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="content-card">
+    <h2 class="content-title">Explore more</h2>
+    <p class="content-summary"><a href="/food/">Search another food</a> or compare this food with the <a href="/app/">top foods per nutrient</a>.</p>
+  </section>
+</article>

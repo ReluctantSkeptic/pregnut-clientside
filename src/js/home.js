@@ -77,12 +77,25 @@
 
       var protocolPromise = null;
       var fooddataPromise = null;
+      function runWhenIdle(fn) {
+        if (window.requestIdleCallback) {
+          window.requestIdleCallback(fn, { timeout: 1500 });
+        } else {
+          window.setTimeout(fn, 1200);
+        }
+      }
       function getProtocol() {
         if (!protocolPromise) protocolPromise = fetchJson("/resource/weekly_protocol.v1.json");
         return protocolPromise;
       }
       function getFooddata() {
-        if (!fooddataPromise) fooddataPromise = fetchJson("/resource/pregnut_fooddata.v1.json");
+        if (!fooddataPromise) {
+          fooddataPromise = new Promise(function (resolve, reject) {
+            runWhenIdle(function () {
+              fetchJson("/resource/pregnut_fooddata.v1.json").then(resolve, reject);
+            });
+          });
+        }
         return fooddataPromise;
       }
 

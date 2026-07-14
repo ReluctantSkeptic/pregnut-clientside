@@ -1,5 +1,6 @@
 ---
 title: Weekly Guide
+description: Pregnancy nutrition guidance by week, including development milestones, priority nutrients, and food comparisons.
 layout: base.njk
 permalink: /weekly-diet/index.html
 bodyClass: page-weekly
@@ -13,6 +14,21 @@ pageScripts:
   <div>
     <h1 class="hero-title">Weekly Guide</h1>
     <p class="hero-lede">Select a stage to see which nutrients to prioritize right now and the top foods that deliver them.</p>
+  </div>
+</section>
+
+<section class="section" aria-label="Pregnancy stage guides">
+  <div class="content-card">
+    <div class="content-head">
+      <p class="content-eyebrow">Static guides</p>
+      <h2 class="content-title">Browse pregnancy nutrition by stage</h2>
+      <p class="content-summary">Read the development notes and nutrient priorities for each stage of pregnancy.</p>
+    </div>
+    <ul class="dev-list guide-link-list">
+      {% for period in weeklyProtocol.periods %}
+        <li><a href="/weekly-guide/{{ period.id }}/">Weeks {{ period.weeks.start }}–{{ period.weeks.end }}: {{ period.title }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
 

@@ -15,6 +15,11 @@ npm run start
 
 Build output is written to `_site/`.
 
+For production builds, set `SITE_URL` to the public origin, for example
+`SITE_URL=https://your-domain.example`. Eleventy uses it for canonical URLs,
+Open Graph URLs, JSON-LD, `robots.txt`, and `sitemap.xml`; production builds
+fail when it is missing.
+
 ## Data
 
 The weekly tracker ranks foods by "% of daily target per 100g" using a generated JSON dataset:
@@ -34,4 +39,3 @@ The week-by-week time period protocol and citations live in:
 - `/weekly-diet/` Weekly tracker (period-based priorities + ranked foods)
 - `/blog/` Blog listing and posts
 - `/about/` About + references + disclaimer
-

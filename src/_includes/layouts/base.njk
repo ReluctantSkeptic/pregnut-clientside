@@ -1,17 +1,53 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% set pageTitle = title or site.name %}
+    {% set pageDescription = description or site.description %}
+    {% set pageUrl = site.url + page.url %}
+    {% set pageSchemaType = schemaType or "WebPage" %}
+    {% set pageModifiedDate = dateModified or page.date %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ description or 'Clear, evidence-forward pregnancy nutrition guidance and food comparisons.' }}">
-    <meta name="author" content="Yuriy Stasyuk">
+    <meta name="description" content="{{ pageDescription | escape }}">
+    <meta name="author" content="{{ (author or site.author) | escape }}">
     <meta name="theme-color" content="#f3f0e8">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="PregNut">
-    <meta property="og:title" content="{% if title == 'PregNut' %}PregNut{% else %}{{ title }} | PregNut{% endif %}">
-    <meta property="og:description" content="{{ description or 'Clear, evidence-forward pregnancy nutrition guidance and food comparisons.' }}">
-    <meta name="twitter:card" content="summary">
-    <title>{% if title == 'PregNut' %}PregNut{% else %}{{ title }} | PregNut{% endif %}</title>
+    <meta property="og:type" content="{{ ogType or 'website' }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:title" content="{% if pageTitle == site.name %}{{ pageTitle | escape }}{% else %}{{ pageTitle | escape }} | {{ site.name }}{% endif %}">
+    <meta property="og:description" content="{{ pageDescription | escape }}">
+    <meta name="twitter:card" content="summary_large_image">
+    {% if site.url %}
+      <link rel="canonical" href="{{ pageUrl }}">
+      <meta property="og:url" content="{{ pageUrl }}">
+      <meta property="og:image" content="{{ site.url }}{{ socialImage or site.socialImage }}">
+      <meta property="og:image:alt" content="PregNut pregnancy nutrition guidance">
+      <meta name="twitter:image" content="{{ site.url }}{{ socialImage or site.socialImage }}">
+      {% if pageSchemaType == "Article" %}
+        <script type="application/ld+json">{{ {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": pageTitle,
+          "description": pageDescription,
+          "url": pageUrl,
+          "datePublished": page.date | isoDate,
+          "dateModified": pageModifiedDate | isoDate,
+          "author": {"@type": "Person", "name": author or site.author},
+          "isPartOf": {"@type": "WebSite", "name": site.name, "url": site.url}
+        } | jsonLd | safe }}</script>
+      {% else %}
+        <script type="application/ld+json">{{ {
+          "@context": "https://schema.org",
+          "@type": pageSchemaType,
+          "name": pageTitle,
+          "description": pageDescription,
+          "url": pageUrl,
+          "isPartOf": {"@type": "WebSite", "name": site.name, "url": site.url}
+        } | jsonLd | safe }}</script>
+      {% endif %}
+    {% endif %}
+    {% if pageSchemaType == "Article" and page.date %}<meta property="article:published_time" content="{{ page.date | isoDate }}">{% endif %}
+    {% if pageSchemaType == "Article" and dateModified %}<meta property="article:modified_time" content="{{ dateModified | isoDate }}">{% endif %}
+    <title>{% if pageTitle == site.name %}{{ pageTitle | escape }}{% else %}{{ pageTitle | escape }} | {{ site.name }}{% endif %}</title>
     <link rel="stylesheet" href="/style/easy-autocomplete.css">
     <link rel="stylesheet" href="/style/style.css">
     {% if pageStyles %}
