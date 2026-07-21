@@ -1,8 +1,17 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% set pageTitle = title or site.name %}
-    {% set pageDescription = description or site.description %}
+    {% if food %}
+      {% set pageTitle = food.pageName + " Nutrition in Pregnancy" %}
+      {% set pageDescription = food.pageName + " nutrition facts per 100 grams, including pregnancy daily-target coverage and food safety notes." %}
+    {% elif period %}
+      {% set pageTitle = "Pregnancy Nutrition Weeks " + period.weeks.start + "–" + period.weeks.end %}
+      {% set pageDescription = period.summary %}
+    {% else %}
+      {% set pageTitle = title or site.name %}
+      {% set pageDescription = description or site.description %}
+    {% endif %}
+    {% set socialTitle = pageTitle if pageTitle == site.name else pageTitle + " | " + site.name %}
     {% set pageUrl = site.url + page.url %}
     {% set pageSchemaType = schemaType or "WebPage" %}
     {% set pageModifiedDate = dateModified or page.date %}
@@ -13,9 +22,12 @@
     <meta name="theme-color" content="#f3f0e8">
     <meta property="og:type" content="{{ ogType or 'website' }}">
     <meta property="og:site_name" content="{{ site.name }}">
-    <meta property="og:title" content="{% if pageTitle == site.name %}{{ pageTitle | escape }}{% else %}{{ pageTitle | escape }} | {{ site.name }}{% endif %}">
+    <meta property="og:title" content="{{ socialTitle | escape }}">
     <meta property="og:description" content="{{ pageDescription | escape }}">
+    <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ socialTitle | escape }}">
+    <meta name="twitter:description" content="{{ pageDescription | escape }}">
     {% if site.url %}
       <link rel="canonical" href="{{ pageUrl }}">
       <meta property="og:url" content="{{ pageUrl }}">
@@ -29,9 +41,11 @@
           "headline": pageTitle,
           "description": pageDescription,
           "url": pageUrl,
+          "image": site.url + (socialImage or site.socialImage),
           "datePublished": page.date | isoDate,
           "dateModified": pageModifiedDate | isoDate,
           "author": {"@type": "Person", "name": author or site.author},
+          "mainEntityOfPage": {"@type": "WebPage", "@id": pageUrl},
           "isPartOf": {"@type": "WebSite", "name": site.name, "url": site.url}
         } | jsonLd | safe }}</script>
       {% else %}
@@ -42,6 +56,17 @@
           "description": pageDescription,
           "url": pageUrl,
           "isPartOf": {"@type": "WebSite", "name": site.name, "url": site.url}
+        } | jsonLd | safe }}</script>
+      {% endif %}
+      {% if food %}
+        <script type="application/ld+json">{{ {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": site.url + "/"},
+            {"@type": "ListItem", "position": 2, "name": "Foods", "item": site.url + "/food/"},
+            {"@type": "ListItem", "position": 3, "name": food.pageName, "item": pageUrl}
+          ]
         } | jsonLd | safe }}</script>
       {% endif %}
     {% endif %}

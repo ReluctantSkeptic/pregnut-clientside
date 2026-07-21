@@ -17,6 +17,21 @@ pageScripts:
   </div>
 </section>
 
+<section class="section weekly-chapter-links" aria-labelledby="weekly-chapters-title">
+  <div class="content-card">
+    <div class="content-head">
+      <p class="content-eyebrow">Browse the static guides</p>
+      <h2 class="content-title" id="weekly-chapters-title">Pregnancy nutrition by week</h2>
+      <p class="content-summary">Open a chapter for a crawlable summary of development, priority nutrients, practical notes, and sources.</p>
+    </div>
+    <ul class="guide-link-list">
+      {% for period in weeklyProtocol.periods %}
+        <li><a href="/weekly-guide/{{ period.id }}/">Pregnancy nutrition weeks {{ period.weeks.start }}–{{ period.weeks.end }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
 <section class="section weekly-shell">
   <section class="weekly-timeline-stage" aria-label="Timeline">
     <div class="weekly-timeline-meta" aria-hidden="true">

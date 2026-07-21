@@ -15,5 +15,5 @@ const paths = [
 
 module.exports = [...new Set(paths)].sort().map((path) => ({
   path,
-  lastmod: path === "/blog/melatonin-during-pregnancy/" ? "2025-05-17" : ""
+  lastmod: path === "/blog/melatonin-during-pregnancy/" ? "2026-07-14" : ""
 }));
