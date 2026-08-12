@@ -30,6 +30,7 @@ pageStyles:
     {% if food.image and food.image.src %}
       <figure class="food-detail-image">
         <img src="{{ food.image.src }}" alt="{{ food.image.alt or ('100 grams of ' ~ food.pageName) }}"{% if food.image.width %} width="{{ food.image.width }}"{% endif %}{% if food.image.height %} height="{{ food.image.height }}"{% endif %} loading="lazy">
+        <figcaption>Illustrative 100 gram portion</figcaption>
       </figure>
     {% endif %}
   </header>

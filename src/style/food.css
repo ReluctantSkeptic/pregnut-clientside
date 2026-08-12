@@ -40,6 +40,13 @@
   border: 1px solid var(--border);
 }
 
+.food-detail-image figcaption {
+  margin-top: 8px;
+  color: var(--food-muted);
+  font-size: 0.78rem;
+  text-align: center;
+}
+
 .food-group-label {
   margin: 18px 0 0;
   color: var(--food-muted);

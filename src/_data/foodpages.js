@@ -1,4 +1,5 @@
 const foodData = require("../resource/pregnut_fooddata.v1.json");
+const foodImages = require("./foodimages");
 
 const NUTRIENT_COLORS = [
   "#9EC3E6",
@@ -91,7 +92,15 @@ const items = (foodData.foods || [])
       nutrientRows: rows,
       chartRows,
       topNutrients: chartRows.filter((row) => row.percent > 0).slice(0, 3),
-      calories: food.nutrients && food.nutrients.Calories
+      calories: food.nutrients && food.nutrients.Calories,
+      image: foodImages.has(String(food.id))
+        ? {
+            src: foodImages.get(String(food.id)),
+            alt: `100 grams of ${hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name}`,
+            width: 400,
+            height: 400
+          }
+        : null
     };
   })
   .sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id));
