@@ -1,0 +1,802 @@
+[
+  {
+    "id": "11955",
+    "name": "Tomatoes, Sun-dried",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "18403",
+    "name": "Waffles, Plain, Ready -to-heat",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "20081",
+    "name": "Wheat flour, White, All-purpose, Enriched, Bleached",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "14016",
+    "name": "Almond milk, Sweetened, Vanilla flavor",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "07974",
+    "name": "Bacon, Turkey, Low sodium",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "21401",
+    "name": "Chicken tenders",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "43287",
+    "name": "Dove, Cooked (includes squab)",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 58,
+    "appearances": 5
+  },
+  {
+    "id": "01138",
+    "name": "Egg, Duck, Fresh",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "21471",
+    "name": "Fried chicken, Thigh",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "17181",
+    "name": "Game meat, Rabbit, Wild, Stewed",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 58,
+    "appearances": 5
+  },
+  {
+    "id": "36418",
+    "name": "Mexican, Refried beans",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "19132",
+    "name": "Milk chocolate, With almonds",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "11962",
+    "name": "Peppers, Hot chile, Sun-dried",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 58,
+    "appearances": 5
+  },
+  {
+    "id": "42192",
+    "name": "Salad dressing, Blue or roquefort cheese, Fat-free",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "15086",
+    "name": "Salmon, Sockeye, Cooked, Dry heat",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "27059",
+    "name": "Sauce, Peanut, Made from peanut butter, Water, Soy sauce",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "12516",
+    "name": "Seeds, Pumpkin and squash seed kernels, Roasted",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 5
+  },
+  {
+    "id": "06980",
+    "name": "Soup, Beef stroganoff, Canned, Chunky style",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "16122",
+    "name": "Soy protein isolate",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 58,
+    "appearances": 4
+  },
+  {
+    "id": "09009",
+    "name": "Apples, Dehydrated (low moisture), Uncooked",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 56,
+    "appearances": 4
+  },
+  {
+    "id": "36619",
+    "name": "Chinese, Kung pao chicken",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 56,
+    "appearances": 4
+  },
+  {
+    "id": "01139",
+    "name": "Egg, Goose, Fresh",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 56,
+    "appearances": 4
+  },
+  {
+    "id": "19120",
+    "name": "Milk chocolate",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 56,
+    "appearances": 4
+  },
+  {
+    "id": "19126",
+    "name": "Milk chocolate coated peanuts",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 56,
+    "appearances": 4
+  },
+  {
+    "id": "20654",
+    "name": "Pasta, Gluten-free, Brown rice flour, Cooked, Tinkyada",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 52,
+    "appearances": 4
+  },
+  {
+    "id": "20125",
+    "name": "Pasta, Whole-wheat, Cooked",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 52,
+    "appearances": 4
+  },
+  {
+    "id": "08001",
+    "name": "Cereal, Kellogg's all-bran original",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "19165",
+    "name": "Cocoa, Dry powder, Unsweetened",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "17179",
+    "name": "Game meat, Rabbit, Composite of cuts, Stewed",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "17225",
+    "name": "Lamb, Ground, Broiled",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "36412",
+    "name": "Latino, Tamale, Pork",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "09165",
+    "name": "Litchis, Dried",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "19304",
+    "name": "Molasses",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "15170",
+    "name": "Oyster, Eastern, Canned",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "43283",
+    "name": "Pheasant, Cooked, Total edible",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "20137",
+    "name": "Quinoa, Cooked",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "06179",
+    "name": "Sauce, Fish",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "06165",
+    "name": "Sauce, Homemade, White, Thin",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "12023",
+    "name": "Seeds, Sesame seeds, Whole, Dried",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "19154",
+    "name": "Sesame crunch",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "01115",
+    "name": "Whey, Sweet, Dried",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 50,
+    "appearances": 4
+  },
+  {
+    "id": "09016",
+    "name": "Apple juice, Canned or bottled, Unsweetened",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "21520",
+    "name": "Breadstick, Soft, Prepared with garlic and parmesan cheese",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "21399",
+    "name": "Cheeseburger; double, Large patty; with condiments, Vegetables and mayonnaise",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "21106",
+    "name": "Fish sandwich, With tartar sauce and cheese",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "19441",
+    "name": "Kellogg's, Nutri-grain cereal bars, Fruit",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 48,
+    "appearances": 4
+  },
+  {
+    "id": "42178",
+    "name": "Mayonnaise, Made with tofu",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "01185",
+    "name": "Parmesan cheese topping, Fat free",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "42153",
+    "name": "Salad dressing, Blue or roquefort cheese, Light",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "06166",
+    "name": "Sauce, Homemade, White, Medium",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 48,
+    "appearances": 4
+  },
+  {
+    "id": "07919",
+    "name": "Sausage, Turkey, Breakfast links, Mild",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "05220",
+    "name": "Turkey, Breast, From whole bird, Non-enhanced, Meat only, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "05166",
+    "name": "Turkey, Whole, Meat and skin, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 48,
+    "appearances": 3
+  },
+  {
+    "id": "14091",
+    "name": "Almond milk, Unsweetened",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 46,
+    "appearances": 3
+  },
+  {
+    "id": "21397",
+    "name": "Cheeseburger; single, Large patty; with condiments, Vegetables and mayonnaise",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 46,
+    "appearances": 3
+  },
+  {
+    "id": "05327",
+    "name": "Chicken breast tenders, Breaded, Uncooked",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 46,
+    "appearances": 3
+  },
+  {
+    "id": "05103",
+    "name": "Chicken, Wing, Meat and skin, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 46,
+    "appearances": 3
+  },
+  {
+    "id": "01128",
+    "name": "Egg, Fried",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 46,
+    "appearances": 3
+  },
+  {
+    "id": "19923",
+    "name": "Hersheys, Payday bar",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 46,
+    "appearances": 4
+  },
+  {
+    "id": "14038",
+    "name": "Ocean spray, Cran-energy, Cranberry energy juice drink",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 46,
+    "appearances": 4
+  },
+  {
+    "id": "21299",
+    "name": "Pizza, Cheese topping, Regular crust",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 46,
+    "appearances": 3
+  },
+  {
+    "id": "10182",
+    "name": "Pork, Ham, Boneless, Extra lean and regular, Unheated",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 46,
+    "appearances": 4
+  },
+  {
+    "id": "43282",
+    "name": "Quail, Cooked, Total edible",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 46,
+    "appearances": 4
+  },
+  {
+    "id": "07081",
+    "name": "Turkey breast, Sliced, Prepackaged",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 46,
+    "appearances": 3
+  },
+  {
+    "id": "09011",
+    "name": "Apples, Dried, Uncooked",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 44,
+    "appearances": 3
+  },
+  {
+    "id": "18080",
+    "name": "Bread sticks, Plain",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 44,
+    "appearances": 3
+  },
+  {
+    "id": "01156",
+    "name": "Cheese, Goat, Hard type",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 44,
+    "appearances": 3
+  },
+  {
+    "id": "27065",
+    "name": "Dip, Bean, Original flavor",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 44,
+    "appearances": 3
+  },
+  {
+    "id": "01140",
+    "name": "Egg, Quail, Fresh",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 44,
+    "appearances": 3
+  },
+  {
+    "id": "16104",
+    "name": "Bacon, Meatless",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "08084",
+    "name": "Cereal, Wheat germ",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "28345",
+    "name": "Crackers, Gluten-free, Multi-seeded and multigrain",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "05147",
+    "name": "Goose, Meat and skin, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "16069",
+    "name": "Lentils, Raw",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "09178",
+    "name": "Mango, Dried, Sweetened",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "16113",
+    "name": "Natto",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "28324",
+    "name": "Pancakes, Whole wheat, Dry mix, Incomplete",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "10007",
+    "name": "Pork, Separable fat, Cooked",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "43015",
+    "name": "Salad dressing, Caesar, Regular",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "04636",
+    "name": "Salad dressing, Italian, Fat-free",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "04015",
+    "name": "Salad dressing, Russian",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "27066",
+    "name": "Sauce, Horseradish",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "12537",
+    "name": "Seeds, Sunflower seed kernels, Dry roasted",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "43134",
+    "name": "Vegetarian fillets",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 40,
+    "appearances": 3
+  },
+  {
+    "id": "09032",
+    "name": "Apricots, Dried, Uncooked",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "09037",
+    "name": "Avocados, Raw",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 38,
+    "appearances": 2
+  },
+  {
+    "id": "04601",
+    "name": "Butter, Light, Stick",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "08005",
+    "name": "Cereal, Kellogg's all-bran bran buds",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "08085",
+    "name": "Cereal, Kretschmer honey crunch wheat germ",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "43410",
+    "name": "Chicken, Meatless, Breaded, Fried",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 38,
+    "appearances": 2
+  },
+  {
+    "id": "04542",
+    "name": "Fat, Chicken",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 2
+  },
+  {
+    "id": "21108",
+    "name": "Hamburger; single, Regular patty; with condiments",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "36417",
+    "name": "Mexican, Spanish rice",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 2
+  },
+  {
+    "id": "19134",
+    "name": "Milk chocolate, With rice cereal",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 2
+  },
+  {
+    "id": "18283",
+    "name": "Muffins, Oat bran",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 2
+  },
+  {
+    "id": "21026",
+    "name": "Potatoes, Hash browns, Round pieces or patty",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 2
+  },
+  {
+    "id": "21488",
+    "name": "Quesadilla, With chicken",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 2
+  },
+  {
+    "id": "42137",
+    "name": "Salad dressing, Peppercorn, Commercial, Regular",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "06167",
+    "name": "Sauce, Homemade, White, Thick",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "06112",
+    "name": "Sauce, Teriyaki",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  }
+]

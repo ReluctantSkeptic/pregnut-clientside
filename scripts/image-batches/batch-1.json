@@ -1,0 +1,802 @@
+[
+  {
+    "id": "12117",
+    "name": "Nuts, Coconut milk, Raw (liquid expressed from grated meat and water)",
+    "group": "Nut and Seed Products",
+    "natSource": 1,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "20033",
+    "name": "Oat bran, Raw",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 1,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "09409",
+    "name": "Pineapple juice, Canned or bottled, Unsweetened, With added ascorbic acid",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "11403",
+    "name": "Potatoes, French fried, All types, Salt added in processing, Home-prepared, Oven heated",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "11657",
+    "name": "Potatoes, Mashed, Home-prepared, Whole milk added",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "01223",
+    "name": "Protein supplement, Milk based, Muscle milk, Powder",
+    "group": "Dairy and Egg Products",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "16230",
+    "name": "Soymilk (all flavors), Nonfat, With added calcium, Vitamins a and d",
+    "group": "Legumes and Legume Products",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "16168",
+    "name": "Soymilk, Chocolate, With added calcium, Vitamins a and d",
+    "group": "Legumes and Legume Products",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "16225",
+    "name": "Soymilk, Original and vanilla, Light, With added calcium, Vitamins a and d",
+    "group": "Legumes and Legume Products",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "16139",
+    "name": "Soymilk, Original and vanilla, With added calcium, Vitamins a and d",
+    "group": "Legumes and Legume Products",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "31023",
+    "name": "Sweet potatoes, French fried, Salt added in processing",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 0,
+    "score": 148,
+    "appearances": 13
+  },
+  {
+    "id": "01306",
+    "name": "Ice cream, Lowfat, No sugar added, Cone, Added peanuts and chocolate sauce",
+    "group": "Dairy and Egg Products",
+    "natSource": 0,
+    "score": 146,
+    "appearances": 13
+  },
+  {
+    "id": "42290",
+    "name": "Milk, Fluid, Nonfat, Calcium fortified (fat free or skim)",
+    "group": "Dairy and Egg Products",
+    "natSource": 0,
+    "score": 146,
+    "appearances": 13
+  },
+  {
+    "id": "01243",
+    "name": "Fat free ice cream, No sugar added, Flavors other than chocolate",
+    "group": "Dairy and Egg Products",
+    "natSource": 0,
+    "score": 140,
+    "appearances": 13
+  },
+  {
+    "id": "12104",
+    "name": "Nuts, Coconut meat, Raw",
+    "group": "Nut and Seed Products",
+    "natSource": 1,
+    "score": 140,
+    "appearances": 13
+  },
+  {
+    "id": "23220",
+    "name": "Beef, Ground, Unspecified fat content, Cooked",
+    "group": "Beef Products",
+    "natSource": 1,
+    "score": 138,
+    "appearances": 12
+  },
+  {
+    "id": "13327",
+    "name": "Beef, Liver, Cooked",
+    "group": "Beef Products",
+    "natSource": 1,
+    "score": 128,
+    "appearances": 11
+  },
+  {
+    "id": "10026",
+    "name": "Pork, Loin, Whole, Separable lean only, Broiled",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 128,
+    "appearances": 12
+  },
+  {
+    "id": "13804",
+    "name": "Beef, Brisket, Whole, Separable lean and fat, braised",
+    "group": "Beef Products",
+    "natSource": 1,
+    "score": 118,
+    "appearances": 10
+  },
+  {
+    "id": "17346",
+    "name": "Game meat, Deer, Shoulder clod, Separable lean only, 3-5 lb roast, Braised",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 110,
+    "appearances": 10
+  },
+  {
+    "id": "05028",
+    "name": "Chicken, Liver, Cooked",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 108,
+    "appearances": 9
+  },
+  {
+    "id": "07019",
+    "name": "Chorizo, Pork and beef",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 108,
+    "appearances": 9
+  },
+  {
+    "id": "20126",
+    "name": "Spaghetti, Spinach, Dry",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 108,
+    "appearances": 9
+  },
+  {
+    "id": "13317",
+    "name": "Beef, Ground, Patties, Broiled",
+    "group": "Beef Products",
+    "natSource": 1,
+    "score": 106,
+    "appearances": 9
+  },
+  {
+    "id": "13840",
+    "name": "Beef, Rib, Large end (ribs 6-9), Separable lean and fat, roasted",
+    "group": "Beef Products",
+    "natSource": 1,
+    "score": 106,
+    "appearances": 9
+  },
+  {
+    "id": "07089",
+    "name": "Sausage, Italian, Pork, Cooked",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 104,
+    "appearances": 10
+  },
+  {
+    "id": "25021",
+    "name": "Luna bar, Nutz over chocolate",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 100,
+    "appearances": 9
+  },
+  {
+    "id": "10862",
+    "name": "Pork, Bacon, Pre-sliced, Pan-fried",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 100,
+    "appearances": 9
+  },
+  {
+    "id": "10089",
+    "name": "Pork, Spareribs, Separable lean and fat, Braised",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 100,
+    "appearances": 9
+  },
+  {
+    "id": "20080",
+    "name": "Wheat flour, Whole-grain",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 100,
+    "appearances": 9
+  },
+  {
+    "id": "36410",
+    "name": "Latino, Pupusas del cerdo (pupusas, Pork)",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 98,
+    "appearances": 9
+  },
+  {
+    "id": "07072",
+    "name": "Salami, Dry or hard, Pork, Beef",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 98,
+    "appearances": 8
+  },
+  {
+    "id": "25020",
+    "name": "Slim-fast optima meal bar, Milk chocolate peanut",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 98,
+    "appearances": 8
+  },
+  {
+    "id": "10022",
+    "name": "Pork, Loin, Whole, Separable lean and fat, Broiled",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 96,
+    "appearances": 9
+  },
+  {
+    "id": "07057",
+    "name": "Pepperoni, Beef and pork, Sliced",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 94,
+    "appearances": 8
+  },
+  {
+    "id": "25017",
+    "name": "Power bar, Chocolate",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 90,
+    "appearances": 8
+  },
+  {
+    "id": "20063",
+    "name": "Rye flour, Dark",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 90,
+    "appearances": 8
+  },
+  {
+    "id": "16118",
+    "name": "Soy flour, Low-fat",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 90,
+    "appearances": 8
+  },
+  {
+    "id": "13355",
+    "name": "Beef, Pastrami",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 88,
+    "appearances": 7
+  },
+  {
+    "id": "13930",
+    "name": "Beef, Top sirloin, Steak, Separable lean and fat, broiled",
+    "group": "Beef Products",
+    "natSource": 1,
+    "score": 88,
+    "appearances": 7
+  },
+  {
+    "id": "15012",
+    "name": "Caviar, Black and red, Granular",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 80,
+    "appearances": 7
+  },
+  {
+    "id": "17157",
+    "name": "Game meat, Bison, Separable lean only, Roasted",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 80,
+    "appearances": 7
+  },
+  {
+    "id": "11268",
+    "name": "Mushrooms, Shiitake, Dried",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 80,
+    "appearances": 7
+  },
+  {
+    "id": "10220",
+    "name": "Pork, Ground, Cooked",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 80,
+    "appearances": 7
+  },
+  {
+    "id": "16115",
+    "name": "Soy flour, Full-fat, Raw",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 80,
+    "appearances": 7
+  },
+  {
+    "id": "25031",
+    "name": "Zone perfect classic crunch bar, Mixed flavors",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 80,
+    "appearances": 7
+  },
+  {
+    "id": "09041",
+    "name": "Bananas, Dehydrated",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "36629",
+    "name": "Chinese, Orange chicken",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "14224",
+    "name": "Coffee, Instant, Mocha, Sweetened",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "01144",
+    "name": "Egg substitute, Powder",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "21469",
+    "name": "Fried chicken, Breast",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "17344",
+    "name": "Game meat, Deer, Ground, Pan-broiled",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 78,
+    "appearances": 7
+  },
+  {
+    "id": "17169",
+    "name": "Game meat, Goat, Roasted",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "36403",
+    "name": "Latino, Empanadas, Beef, Prepared",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "36409",
+    "name": "Latino, Pupusas con queso (pupusas, Cheese)",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "20118",
+    "name": "Noodles, Flat, Crunchy, Chinese restaurant",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 78,
+    "appearances": 7
+  },
+  {
+    "id": "14067",
+    "name": "Protein powder soy based",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 78,
+    "appearances": 6
+  },
+  {
+    "id": "23197",
+    "name": "Beef, Rib eye steak, Boneless, Lip-on, Separable lean and fat, cooked, grilled",
+    "group": "Beef Products",
+    "natSource": 1,
+    "score": 76,
+    "appearances": 6
+  },
+  {
+    "id": "21472",
+    "name": "Fried chicken, Wing",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 76,
+    "appearances": 6
+  },
+  {
+    "id": "12061",
+    "name": "Nuts, Almonds",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 76,
+    "appearances": 6
+  },
+  {
+    "id": "20121",
+    "name": "Pasta, Cooked, Enriched",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 76,
+    "appearances": 6
+  },
+  {
+    "id": "14044",
+    "name": "Slimfast, Meal replacement, high protein shake, 3-2-1 plan",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 76,
+    "appearances": 6
+  },
+  {
+    "id": "07013",
+    "name": "Bratwurst, Pork, Cooked",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 70,
+    "appearances": 6
+  },
+  {
+    "id": "10998",
+    "name": "Canadian bacon, Pan-fried",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 70,
+    "appearances": 6
+  },
+  {
+    "id": "08028",
+    "name": "Cereal, Kellogg's all-bran complete wheat flakes",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 70,
+    "appearances": 6
+  },
+  {
+    "id": "09085",
+    "name": "Currants, Zante, Dried",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 70,
+    "appearances": 6
+  },
+  {
+    "id": "15230",
+    "name": "Octopus, Common, Cooked, Moist heat",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 70,
+    "appearances": 6
+  },
+  {
+    "id": "14309",
+    "name": "Ovaltine, Classic malt powder",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 70,
+    "appearances": 6
+  },
+  {
+    "id": "11667",
+    "name": "Seaweed, Spirulina, Dried",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 70,
+    "appearances": 6
+  },
+  {
+    "id": "12014",
+    "name": "Seeds, Pumpkin and squash seed kernels, Dried",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 70,
+    "appearances": 6
+  },
+  {
+    "id": "07956",
+    "name": "Beef sausage, Cooked",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "08058",
+    "name": "Cereal, Kellogg's product 19",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 68,
+    "appearances": 6
+  },
+  {
+    "id": "36618",
+    "name": "Chinese, General tso's chicken",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "36633",
+    "name": "Chinese, Sesame chicken",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "01125",
+    "name": "Egg, Yolk, Fresh",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "17159",
+    "name": "Game meat, Boar, Wild, Roasted",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 68,
+    "appearances": 6
+  },
+  {
+    "id": "05306",
+    "name": "Ground turkey, Cooked",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "20410",
+    "name": "Noodles, Egg, Unenriched, Cooked",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "12695",
+    "name": "Nuts, Almond butter",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "12563",
+    "name": "Nuts, Almonds, Dry roasted",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "16099",
+    "name": "Peanut flour, Defatted",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "10136",
+    "name": "Pork, Ham, Boneless, Regular (approximately 11% fat), Roasted",
+    "group": "Pork Products",
+    "natSource": 1,
+    "score": 68,
+    "appearances": 6
+  },
+  {
+    "id": "18933",
+    "name": "Waffle, Buttermilk",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 68,
+    "appearances": 5
+  },
+  {
+    "id": "15002",
+    "name": "Anchovy, European, Canned in oil",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 66,
+    "appearances": 6
+  },
+  {
+    "id": "19002",
+    "name": "Beef jerky, Chopped and formed",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 66,
+    "appearances": 5
+  },
+  {
+    "id": "36603",
+    "name": "Chinese, Beef and vegetables",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 66,
+    "appearances": 5
+  },
+  {
+    "id": "14192",
+    "name": "Cocoa mix, Powder",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 66,
+    "appearances": 6
+  },
+  {
+    "id": "21470",
+    "name": "Fried chicken, Drumstick",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 64,
+    "appearances": 5
+  },
+  {
+    "id": "12062",
+    "name": "Nuts, Almonds, Blanched",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 64,
+    "appearances": 5
+  },
+  {
+    "id": "05168",
+    "name": "Turkey, Whole, Meat only, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 62,
+    "appearances": 5
+  },
+  {
+    "id": "19078",
+    "name": "Baking chocolate, Unsweetened, Squares",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "17173",
+    "name": "Game meat, Moose, Roasted",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "36041",
+    "name": "Italian, Lasagna with meat",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "17060",
+    "name": "Lamb, Cubed for stew or kabob (leg and shoulder), Separable lean only, Braised",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "12652",
+    "name": "Nuts, Pistachio nuts, Dry roasted",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "05642",
+    "name": "Ostrich, Ground, Pan-broiled",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "09246",
+    "name": "Peaches, Dried, Uncooked",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "15072",
+    "name": "Roe",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "06971",
+    "name": "Sauce, Worcestershire",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 60,
+    "appearances": 5
+  },
+  {
+    "id": "11663",
+    "name": "Seaweed, Agar, Dried",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 60,
+    "appearances": 5
+  }
+]

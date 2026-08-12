@@ -1,0 +1,802 @@
+[
+  {
+    "id": "12166",
+    "name": "Seeds, Sesame butter, Tahini, From roasted and toasted kernels (most common type)",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "43137",
+    "name": "Vegetarian meatloaf or patties",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "18951",
+    "name": "Waffles, Chocolate chip",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 38,
+    "appearances": 3
+  },
+  {
+    "id": "16006",
+    "name": "Beans, Baked, Canned",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "04602",
+    "name": "Butter, Light, Stick",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 3
+  },
+  {
+    "id": "08318",
+    "name": "Cereal, Kellogg's smart start strong heart antioxidants cereal",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 3
+  },
+  {
+    "id": "01019",
+    "name": "Cheese, Feta",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "01038",
+    "name": "Cheese, Romano",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "05324",
+    "name": "Chicken patty, Frozen, Cooked",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "05064",
+    "name": "Chicken, Breast, Meat only, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "25051",
+    "name": "Clif bar, Mixed flavors",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 3
+  },
+  {
+    "id": "43392",
+    "name": "Hearts of palm, Raw",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 3
+  },
+  {
+    "id": "21078",
+    "name": "Nachos, With cheese",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "18304",
+    "name": "Pie, Banana cream",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "21302",
+    "name": "Pizza, Pepperoni topping, Regular crust",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 3
+  },
+  {
+    "id": "04539",
+    "name": "Salad dressing, Blue or roquefort cheese, Commercial, Regular",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "15237",
+    "name": "Salmon, Atlantic, Farmed, Cooked, Dry heat",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "06972",
+    "name": "Sauce, Tomato chili sauce, Bottled",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 3
+  },
+  {
+    "id": "21059",
+    "name": "Shrimp, Breaded and fried",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "11659",
+    "name": "Sweet potato, Candied, Home-prepared",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 2
+  },
+  {
+    "id": "17136",
+    "name": "Veal, Sirloin, Separable lean and fat, Roasted",
+    "group": "Lamb, Veal, and Game Products",
+    "natSource": 1,
+    "score": 36,
+    "appearances": 3
+  },
+  {
+    "id": "16010",
+    "name": "Beans, Baked, Canned, With pork and sweet sauce",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "08067",
+    "name": "Cereal, Kellogg's special k",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 34,
+    "appearances": 3
+  },
+  {
+    "id": "01023",
+    "name": "Cheese, Gruyere",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "05060",
+    "name": "Chicken, Breast, Meat and skin, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "14171",
+    "name": "Coconut milk, Sweetened, Fortified with calcium, Vitamins a, B12, D2",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "01129",
+    "name": "Egg, Hard-boiled",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "01131",
+    "name": "Egg, Poached",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "04575",
+    "name": "Fat, Turkey",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "25067",
+    "name": "South beach protein bar",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "05284",
+    "name": "Turkey, Canned, Meat only, With broth",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 34,
+    "appearances": 2
+  },
+  {
+    "id": "19087",
+    "name": "White chocolate",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 34,
+    "appearances": 3
+  },
+  {
+    "id": "09003",
+    "name": "Apples, Raw, With skin",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 32,
+    "appearances": 2
+  },
+  {
+    "id": "16017",
+    "name": "Beans, Black turtle, Mature seeds, Boiled",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 32,
+    "appearances": 2
+  },
+  {
+    "id": "18147",
+    "name": "Cheesecake commercially prepared",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 32,
+    "appearances": 2
+  },
+  {
+    "id": "01095",
+    "name": "Milk, Canned, Condensed, Sweetened",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 32,
+    "appearances": 2
+  },
+  {
+    "id": "12078",
+    "name": "Nuts, Brazilnuts, Dried, Unblanched",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 32,
+    "appearances": 3
+  },
+  {
+    "id": "15084",
+    "name": "Salmon, Pink, Canned, Total can contents",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 32,
+    "appearances": 2
+  },
+  {
+    "id": "21082",
+    "name": "Taco with beef, Cheese and lettuce, Hard shell",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 32,
+    "appearances": 2
+  },
+  {
+    "id": "21486",
+    "name": "Taco with beef, Cheese and lettuce, Soft",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 32,
+    "appearances": 2
+  },
+  {
+    "id": "11001",
+    "name": "Alfalfa seeds, Sprouted, Raw",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "09004",
+    "name": "Apples, Raw, Without skin",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "16015",
+    "name": "Beans, Black, Mature seeds, Boiled",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "08579",
+    "name": "Cereal, 25% less sugar cinnamon toast crunch",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "01132",
+    "name": "Egg, Scrambled",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "09139",
+    "name": "Guavas, Common, Raw",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "18274",
+    "name": "Muffins, Blueberry",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "19041",
+    "name": "Pork skins",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "43331",
+    "name": "Salad dressing, Bacon and tomato",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "06962",
+    "name": "Sauce, Chili, Peppers, Hot, Immature green, Canned",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "06175",
+    "name": "Sauce, Hoisin",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "12220",
+    "name": "Seeds, Flaxseed",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "12529",
+    "name": "Seeds, Sesame seed kernels, With salt added (decorticated)",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "12036",
+    "name": "Seeds, Sunflower seed kernels, Dried",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "19014",
+    "name": "Snacks, Fruit leather, Rolls",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "06050",
+    "name": "Soup, Pea, Split with ham, Canned, Chunky",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "31035",
+    "name": "Vegetable juice, Bolthouse farms, Daily greens",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "20089",
+    "name": "Wild rice, Cooked",
+    "group": "Cereal Grains and Pasta",
+    "natSource": 0,
+    "score": 30,
+    "appearances": 2
+  },
+  {
+    "id": "11008",
+    "name": "Artichokes, (globe or french), Boiled",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "07010",
+    "name": "Bologna, Pork",
+    "group": "Sausages and Luncheon Meats",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "18033",
+    "name": "Bread, Italian",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 1
+  },
+  {
+    "id": "28397",
+    "name": "Bread, Multi-grain (includes whole-grain)",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 1
+  },
+  {
+    "id": "18141",
+    "name": "Cake, Yellow, With vanilla frosting",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "16055",
+    "name": "Carob flour",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "08054",
+    "name": "Cereal, 100% natural granola, Oats, Wheat and honey",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 1
+  },
+  {
+    "id": "05009",
+    "name": "Chicken, Meat and skin, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 1
+  },
+  {
+    "id": "15160",
+    "name": "Clam, Canned",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "15141",
+    "name": "Crab, Blue, Canned",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "05142",
+    "name": "Duck, Meat only, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "11212",
+    "name": "Edamame, Frozen, Prepared",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "04574",
+    "name": "Fat, Duck",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "09094",
+    "name": "Figs, Dried, Uncooked",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "21129",
+    "name": "Hush puppies",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "19135",
+    "name": "Mars snackfood us, Milky way bar",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 1
+  },
+  {
+    "id": "12120",
+    "name": "Nuts, Hazelnuts or filberts",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "09193",
+    "name": "Olives, Ripe, Canned (small-extra large)",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "15167",
+    "name": "Oyster, Eastern, Wild",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "19437",
+    "name": "Potato chips, Fat free",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 1
+  },
+  {
+    "id": "43215",
+    "name": "Salad dressing, Buttermilk, Lite",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 1
+  },
+  {
+    "id": "43016",
+    "name": "Salad dressing, Coleslaw",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "06961",
+    "name": "Sauce, Peppers, Hot, Chili, Mature red, Canned",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "27049",
+    "name": "Sauce, Tartar",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "12538",
+    "name": "Seeds, Sunflower seed kernels, Oil roasted",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "14347",
+    "name": "Shake, Fast food, Vanilla",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "25025",
+    "name": "Soy chips or crisps",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "19001",
+    "name": "Toblerone, Milk chocolate with honey and almond nougat",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 28,
+    "appearances": 1
+  },
+  {
+    "id": "43114",
+    "name": "Vermicelli, Made from soy",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 28,
+    "appearances": 2
+  },
+  {
+    "id": "11959",
+    "name": "Arugula, Raw",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 26,
+    "appearances": 2
+  },
+  {
+    "id": "09040",
+    "name": "Bananas, Raw",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 26,
+    "appearances": 1
+  },
+  {
+    "id": "18079",
+    "name": "Bread crumbs, Dry, Grated",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 26,
+    "appearances": 1
+  },
+  {
+    "id": "19025",
+    "name": "Candy, Honey-combed, With peanut butter",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 26,
+    "appearances": 1
+  },
+  {
+    "id": "08643",
+    "name": "Cereal, Honey kix",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 26,
+    "appearances": 2
+  },
+  {
+    "id": "08393",
+    "name": "Cereal, Kashi golean",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 26,
+    "appearances": 2
+  },
+  {
+    "id": "08025",
+    "name": "Cereal, Ralston crisp rice",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 26,
+    "appearances": 1
+  },
+  {
+    "id": "01022",
+    "name": "Cheese, Gouda",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 26,
+    "appearances": 1
+  },
+  {
+    "id": "05013",
+    "name": "Chicken, Meat only, Roasted",
+    "group": "Poultry Products",
+    "natSource": 1,
+    "score": 26,
+    "appearances": 1
+  },
+  {
+    "id": "36624",
+    "name": "Chinese, Vegetable chow mein, Without meat or noodles",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 26,
+    "appearances": 2
+  },
+  {
+    "id": "14181",
+    "name": "Chocolate syrup",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 26,
+    "appearances": 2
+  },
+  {
+    "id": "19905",
+    "name": "Chocolate, Dark, Nfs (45-59% cacao solids 90%; 60-69% cacao solids 5%; 70-85% cacao solids 5%)",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 26,
+    "appearances": 2
+  },
+  {
+    "id": "15140",
+    "name": "Crab, Blue, Cooked, Moist heat",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 26,
+    "appearances": 2
+  }
+]

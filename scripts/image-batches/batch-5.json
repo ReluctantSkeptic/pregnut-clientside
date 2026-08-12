@@ -1,0 +1,802 @@
+[
+  {
+    "id": "19370",
+    "name": "Mars snackfood us, Skittles original bite size candies",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "11269",
+    "name": "Mushrooms, Shiitake, Cooked",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "15164",
+    "name": "Mussel, Blue",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "28347",
+    "name": "Pancakes, Gluten-free",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "11823",
+    "name": "Peppers, Sweet, Red, Boiled",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "18305",
+    "name": "Pie, Blueberry",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "19151",
+    "name": "Reese's pieces candy",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "04686",
+    "name": "Salad dressing, Honey mustard, Reduced calorie",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "43019",
+    "name": "Salad dressing, Sweet and sour",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "04017",
+    "name": "Salad dressing, Thousand island, Commercial, Regular",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "15119",
+    "name": "Tuna, Light, Canned in oil",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 18,
+    "appearances": 1
+  },
+  {
+    "id": "14216",
+    "name": "Aloe vera juice drink, Fortified with vitamin c",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "09057",
+    "name": "Boysenberries, Frozen, Unsweetened",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "19074",
+    "name": "Caramels",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "08586",
+    "name": "Cereal, 25% less sugar trix",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "08034",
+    "name": "Cereal, Fruity pebbles",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "43495",
+    "name": "Cereal, Health valley",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "08048",
+    "name": "Cereal, Kix",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "08059",
+    "name": "Cereal, Sweet crunch/quisp",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "08435",
+    "name": "Cereal, Uncle sam cereal",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "18969",
+    "name": "Cream puff, Eclair, Custard or cream filled, Iced",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "21024",
+    "name": "French toast sticks",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "09143",
+    "name": "Guava sauce, Cooked",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "19095",
+    "name": "Ice creams, Vanilla",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "11245",
+    "name": "Lambsquarters, Boiled",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "36411",
+    "name": "Latino, Tamale, Corn",
+    "group": "Restaurant Foods",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "15148",
+    "name": "Lobster, Northern, Cooked, Moist heat",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "19156",
+    "name": "Mars snackfood us, Starburst fruit chews, Original fruits",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "19143",
+    "name": "Mr. goodbar chocolate bar",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "18279",
+    "name": "Muffins, Corn",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "11264",
+    "name": "Mushrooms, Canned",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "09259",
+    "name": "Pears, Dried, Uncooked",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "11819",
+    "name": "Peppers, Hot chili, Red, Raw",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "21304",
+    "name": "Pizza, Meat and vegetable topping, Regular crust",
+    "group": "Fast Foods",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "43021",
+    "name": "Salad dressing, Caesar, Low calorie",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "04367",
+    "name": "Salad dressing, French, Fat-free",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "04704",
+    "name": "Salad dressing, Poppyseed, Creamy",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "15089",
+    "name": "Sardine, Pacific, Canned in tomato sauce, Drained solids with bone",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "06176",
+    "name": "Sauce, Oyster",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "11669",
+    "name": "Seaweed, Wakame, Raw",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "15151",
+    "name": "Shrimp, Cooked",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "06039",
+    "name": "Soup, Minestrone, Canned, Chunky",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "18356",
+    "name": "Sweet rolls, Cinnamon",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "28346",
+    "name": "Waffles, Gluten-free",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 16,
+    "appearances": 1
+  },
+  {
+    "id": "11012",
+    "name": "Asparagus, Boiled",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "14136",
+    "name": "Carbonated beverage, Ginger ale",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "43218",
+    "name": "Cereal, Alpen",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "08262",
+    "name": "Cereal, Basic 4",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "08073",
+    "name": "Cereal, Golden crisp",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "19163",
+    "name": "Chewing gum",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "15017",
+    "name": "Cod, Atlantic, Canned, Solids and liquid",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "18172",
+    "name": "Cookies, Gingersnaps",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "19435",
+    "name": "Granola bar, Fruit-filled, Nonfat",
+    "group": "Snacks",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "01300",
+    "name": "Ice cream bar, Covered with chocolate and nuts",
+    "group": "Dairy and Egg Products",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "19920",
+    "name": "Jams, Preserves, Marmalades, Sweetened with fruit juice",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "19109",
+    "name": "Kit kat wafer bar",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "09148",
+    "name": "Kiwifruit, Green, Raw",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "04002",
+    "name": "Lard",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "11261",
+    "name": "Mushrooms, White, Boiled",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "12119",
+    "name": "Nuts, Coconut water (liquid from coconuts)",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "11297",
+    "name": "Parsley, Fresh",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "16085",
+    "name": "Peas, Green, Split, Mature seeds, Raw",
+    "group": "Legumes and Legume Products",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "18324",
+    "name": "Pie, Pecan",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "43017",
+    "name": "Salad dressing, Green goddess, Regular",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "04114",
+    "name": "Salad dressing, Italian, Commercial, Regular",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "04025",
+    "name": "Salad dressing, Mayonnaise, Regular",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "06164",
+    "name": "Sauce, Salsa",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "27048",
+    "name": "Sauce, Steak, Tomato based",
+    "group": "Soups, Sauces, and Gravies",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "15094",
+    "name": "Shad, American",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "09322",
+    "name": "Tamarinds, Raw",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "28295",
+    "name": "Tortillas, Whole wheat",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 14,
+    "appearances": 1
+  },
+  {
+    "id": "04609",
+    "name": "Animal fat, Bacon grease",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "11015",
+    "name": "Asparagus, Canned",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "09163",
+    "name": "Blueberries, Dried, Sweetened",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "14144",
+    "name": "Carbonated beverage, Lemon-lime soda, No caffeine",
+    "group": "Beverages",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "08002",
+    "name": "Cereal, Alpha-bits",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "08083",
+    "name": "Cereal, Corn bursts",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "08037",
+    "name": "Cereal, Homemade",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "08603",
+    "name": "Cereal, Kellogg's special k blueberry",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "08050",
+    "name": "Cereal, Lucky charms",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "08018",
+    "name": "Cereal, Quaker crunchy bran",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "08074",
+    "name": "Cereal, Ralston tasteeos",
+    "group": "Breakfast Cereals",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "43060",
+    "name": "Chewing gum, Sugarless",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "19125",
+    "name": "Chocolate-flavored hazelnut spread",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "15014",
+    "name": "Cisco, Smoked",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "15146",
+    "name": "Crayfish, Wild, Cooked, Moist heat",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "04706",
+    "name": "Dressing, Honey mustard, Fat-free",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "18266",
+    "name": "English muffins, Whole-wheat",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "04520",
+    "name": "Fat, Mutton tallow",
+    "group": "Fats and Oils",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "15036",
+    "name": "Halibut, Atlantic and pacific",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "15040",
+    "name": "Herring, Atlantic, Cooked, Dry heat",
+    "group": "Finfish and Shellfish Products",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "18272",
+    "name": "Ice cream cones, Sugar, Rolled-type",
+    "group": "Baked Products",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "11232",
+    "name": "Jute, Potherb, Boiled",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "09164",
+    "name": "Litchis, Raw",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "09176",
+    "name": "Mangos, Raw",
+    "group": "Fruits and Fruit Juices",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "19155",
+    "name": "Mars snackfood us, Snickers bar",
+    "group": "Sweets",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "12585",
+    "name": "Nuts, Cashew nuts, Dry roasted",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "12147",
+    "name": "Nuts, Pine nuts, Dried",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "12155",
+    "name": "Nuts, Walnuts, English",
+    "group": "Nut and Seed Products",
+    "natSource": 0,
+    "score": 12,
+    "appearances": 1
+  },
+  {
+    "id": "11821",
+    "name": "Peppers, Sweet, Red, Raw",
+    "group": "Vegetables and Vegetable Products",
+    "natSource": 1,
+    "score": 12,
+    "appearances": 1
+  }
+]
