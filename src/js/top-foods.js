@@ -175,11 +175,24 @@
     return node;
   }
 
+  function slugify(value) {
+    return String(value || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  function foodUrl(food) {
+    return "/food/" + String(food && food.id ? food.id : "") + "-" + slugify(food && food.name) + "/";
+  }
+
   function appendChartGuide(root, nutrientId, targetLabel) {
     var guide = el("div", "chart-guide", null);
     var copy = el("div", "chart-guide-copy", null);
     copy.appendChild(el("p", "chart-guide-kicker", "100 g comparison"));
-    copy.appendChild(el("h3", "chart-guide-title", nutrientId));
+    copy.appendChild(el("h2", "chart-guide-title", nutrientId));
     copy.appendChild(el(
       "p",
       "chart-guide-text",
@@ -202,29 +215,34 @@
     root.appendChild(guide);
   }
 
-  function buildFoodNameNode(className, rawName) {
+  function buildFoodNameNode(className, food) {
     // Split on first comma only, then wrap the remainder in parentheses as a subdued detail.
     var node = document.createElement("p");
     if (className) node.className = className;
 
-    var s = String(rawName || "").trim();
+    var link = document.createElement("a");
+    link.className = className + "-link";
+    link.href = foodUrl(food);
+    node.appendChild(link);
+
+    var s = String(food && food.name ? food.name : "").trim();
     if (!s) return node;
 
     var idx = s.indexOf(",");
     if (idx === -1) {
-      node.textContent = s;
+      link.textContent = s;
       return node;
     }
 
     var main = s.slice(0, idx).trim();
     var rest = s.slice(idx + 1).trim();
-    node.textContent = main || s;
+    link.textContent = main || s;
 
     if (rest) {
       var detail = document.createElement("span");
       detail.className = className + "-detail";
       detail.textContent = "(" + rest + ")";
-      node.appendChild(detail);
+      link.appendChild(detail);
     }
     return node;
   }
@@ -302,13 +320,13 @@
   }
 
   function renderFoodGroupsByNutrient(fooddata, foods, nutrientId, root) {
-    if (!root) return;
+    if (!root) return { groupCount: 0, itemCount: 0 };
     clear(root);
     closeAllCautions();
 
     if (!foods || !foods.length || !nutrientId) {
       root.textContent = "No foods available.";
-      return;
+      return { groupCount: 0, itemCount: 0 };
     }
 
     var groupMap = {};
@@ -342,18 +360,33 @@
 
     if (!groups.length) {
       root.textContent = "No data available for this nutrient.";
-      return;
+      return { groupCount: 0, itemCount: 0 };
     }
 
     var nInfo = fooddata && fooddata.nutrients ? fooddata.nutrients[nutrientId] : null;
     var targetLabel = nInfo && nInfo.rda && nInfo.rda.label ? nInfo.rda.label : "";
     appendChartGuide(root, nutrientId, targetLabel);
 
+    var jumpNav = el("nav", "topfoods-category-nav", null);
+    jumpNav.setAttribute("aria-label", "Jump to a food category");
+    jumpNav.appendChild(el("p", "topfoods-category-label", "Jump to category"));
+    var jumpLinks = el("div", "topfoods-category-links", null);
+    for (var ni = 0; ni < groups.length; ni++) {
+      var jumpLink = el("a", "topfoods-category-link", groups[ni].name);
+      jumpLink.href = "#food-group-" + slugify(groups[ni].name);
+      jumpLinks.appendChild(jumpLink);
+    }
+    jumpNav.appendChild(jumpLinks);
+    root.appendChild(jumpNav);
+
     var grid = el("div", "food-group-grid", null);
+    var itemCount = 0;
     for (var gi = 0; gi < groups.length; gi++) {
       var group = groups[gi];
       var card = el("section", "food-group-card", null);
+      card.id = "food-group-" + slugify(group.name);
       card.setAttribute("aria-label", group.name + " top foods");
+      itemCount += group.items.length;
 
       var head = el("div", "food-group-head", null);
       head.appendChild(el("h3", "food-group-title", group.name));
@@ -371,7 +404,7 @@
         var main = el("div", "food-row-main", null);
         main.appendChild(el("span", "food-row-rank", String(fi + 1)));
         var mainCopy = el("div", "food-row-copy", null);
-        mainCopy.appendChild(buildFoodNameNode("food-row-name", foodItem.name));
+        mainCopy.appendChild(buildFoodNameNode("food-row-name", foodItem));
         var metaLine = el("div", "food-row-meta-line", null);
         var barCaution = null;
         var warn = String(foodItem.warning || "").trim();
@@ -400,24 +433,42 @@
     }
 
     root.appendChild(grid);
+    return { groupCount: groups.length, itemCount: itemCount };
   }
 
-  function readUrlNutrient() {
+  function readUrlState() {
     try {
       var params = new URLSearchParams(window.location.search);
       var n = params.get("nutrient");
-      return n ? String(n) : null;
+      var source = params.get("source");
+      return {
+        selectedNutrient: n ? String(n) : null,
+        naturalOnly: source === "natural" ? true : (source === "processed" ? false : null)
+      };
     } catch (e) {
-      return null;
+      return { selectedNutrient: null, naturalOnly: null };
     }
+  }
+
+  function writeUrlState(state, push) {
+    try {
+      var url = new URL(window.location.href);
+      url.searchParams.set("nutrient", state.selectedNutrient || "Calcium");
+      url.searchParams.set("source", state.naturalOnly ? "natural" : "processed");
+      window.history[push ? "pushState" : "replaceState"]({}, "", url.pathname + url.search + url.hash);
+    } catch (e) {}
   }
 
   function render(fooddata, state) {
     var select = $("NutrientSelect");
     var nat = $("ToggleNaturalOnly");
     var root = $("FoodsByNutrient");
+    var status = $("TopFoodsStatus");
 
-    if (nat) nat.checked = !!state.naturalOnly;
+    if (nat) {
+      nat.checked = !!state.naturalOnly;
+      nat.setAttribute("aria-label", state.naturalOnly ? "Use processed food sources" : "Use natural food sources");
+    }
 
     var keys = [];
     for (var key in (fooddata && fooddata.nutrients ? fooddata.nutrients : {})) {
@@ -452,6 +503,7 @@
 
     if (!state.selectedNutrient) {
       if (root) root.textContent = "No nutrients available.";
+      if (status) status.textContent = "No nutrients available.";
       return;
     }
 
@@ -460,7 +512,12 @@
       excludeAvoid: true
     });
 
-    renderFoodGroupsByNutrient(fooddata, foods, state.selectedNutrient, root);
+    var result = renderFoodGroupsByNutrient(fooddata, foods, state.selectedNutrient, root);
+    if (status) {
+      status.textContent = "Showing " + result.itemCount + " ranked " + state.selectedNutrient +
+        " foods across " + result.groupCount + " categories · " +
+        (state.naturalOnly ? "natural sources" : "processed sources") + " · per 100 grams";
+    }
   }
 
   function start(fooddata) {
@@ -472,23 +529,25 @@
       selectedNutrient: typeof prefs.selectedNutrient === "string" ? prefs.selectedNutrient : null
     };
 
-    var urlN = readUrlNutrient();
-    if (urlN) state.selectedNutrient = urlN;
+    var urlState = readUrlState();
+    if (urlState.selectedNutrient) state.selectedNutrient = urlState.selectedNutrient;
+    if (typeof urlState.naturalOnly === "boolean") state.naturalOnly = urlState.naturalOnly;
 
-    function persist() {
+    function persist(pushUrl) {
       saveJsonKey(STORAGE_KEY, {
         selectedNutrient: state.selectedNutrient || null
       });
       saveJsonKey(GLOBAL_PREFS_KEY, {
         naturalOnly: !!state.naturalOnly
       });
+      writeUrlState(state, !!pushUrl);
     }
 
     var select = $("NutrientSelect");
     if (select) {
       select.addEventListener("change", function () {
         state.selectedNutrient = select.value;
-        persist();
+        persist(true);
         render(fooddata, state);
       });
     }
@@ -497,14 +556,23 @@
     if (nat) {
       nat.addEventListener("change", function () {
         state.naturalOnly = !!nat.checked;
-        persist();
+        persist(true);
         render(fooddata, state);
       });
     }
 
+    window.addEventListener("popstate", function () {
+      var next = readUrlState();
+      if (next.selectedNutrient) state.selectedNutrient = next.selectedNutrient;
+      if (typeof next.naturalOnly === "boolean") state.naturalOnly = next.naturalOnly;
+      render(fooddata, state);
+      saveJsonKey(STORAGE_KEY, { selectedNutrient: state.selectedNutrient || null });
+      saveJsonKey(GLOBAL_PREFS_KEY, { naturalOnly: !!state.naturalOnly });
+    });
+
     initCautionEvents();
     render(fooddata, state);
-    persist();
+    persist(false);
 
     try { document.body.classList.add("topfoods-ready"); } catch (e) {}
   }

@@ -23,8 +23,8 @@ pageStyles:
   <header class="hero slim food-detail-hero{% if food.image and food.image.src %} has-image{% endif %}">
     <div>
       <p class="eyebrow">Pregnancy food guide</p>
-      <h1 class="hero-title">{{ food.pageName }} nutrition in pregnancy</h1>
-      <p class="hero-lede">Nutrient values for a 100 gram portion of {{ food.name }}. Use this as a comparison tool, not personalized medical advice.</p>
+      <h1 class="hero-title food-detail-title"><span class="food-detail-name">{{ food.pageName }}</span> <span class="food-detail-context">Nutrition in pregnancy</span></h1>
+      <p class="hero-lede">See how a 100 gram portion compares with pregnancy daily targets. Use this as a comparison tool, not personalized medical advice.</p>
       <p class="food-group-label">Food group: {{ food.group }}</p>
     </div>
     {% if food.image and food.image.src %}
@@ -34,9 +34,32 @@ pageStyles:
     {% endif %}
   </header>
 
+  {% if food.topNutrients.length %}
+    <section class="food-glance" aria-labelledby="food-glance-title">
+      <div class="food-glance-heading">
+        <p class="content-eyebrow">At a glance</p>
+        <h2 id="food-glance-title">Strongest nutrient contributions</h2>
+        <p>Highest shares of pregnancy daily targets in this 100 gram portion.</p>
+      </div>
+      <ol class="food-glance-list">
+        {% for row in food.topNutrients %}
+          <li>
+            <span class="food-glance-rank" aria-hidden="true">{{ loop.index }}</span>
+            <span class="food-glance-copy"><strong>{{ row.name }}</strong><span>{{ row.value | formatNumber }} {{ row.unit }}</span></span>
+            <span class="food-glance-value">{{ row.displayPercent }}%</span>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endif %}
+
   {% if food.warning %}
     <aside class="content-card food-safety-note{% if food.warning | lower == 'avoid' %} is-avoid{% endif %}" aria-label="Food safety note">
-      <h2 class="content-title">Food safety note: {{ food.warning }}</h2>
+      <div class="food-safety-heading">
+        <p class="content-eyebrow">Food safety</p>
+        <h2 class="content-title">Pregnancy guidance</h2>
+        <span class="food-safety-badge">{{ food.warning }}</span>
+      </div>
       <p class="content-summary">{{ food.warningText }}</p>
     </aside>
   {% endif %}
@@ -45,12 +68,12 @@ pageStyles:
     <div class="content-head">
       <p class="content-eyebrow">Per 100 grams</p>
       <h2 class="content-title" id="food-chart-title">Pregnancy daily-target coverage</h2>
-      <p class="content-summary">Each bar shows how much of the pregnancy daily target this food provides. Bars stop visually at 100%, while the label shows the full value.</p>
+      <p class="content-summary">Nutrients are ranked from highest to lowest contribution. Bars stop visually at 100%, while the label shows the full value.</p>
     </div>
     <div class="food-list" aria-label="Food nutrient bars">
       <div class="food-item">
         <div class="food-bars">
-          {% for row in food.nutrientRows %}
+          {% for row in food.chartRows %}
             <div class="bar-row" style="--nutrient-color: {{ row.color }}; --bar-percent: {{ row.barPercent }}%;">
               <div class="bar-label">{{ row.name }}</div>
               <div class="bar-track" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the pregnancy daily target{% endif %}">

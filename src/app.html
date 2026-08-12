@@ -14,14 +14,14 @@ pageScripts:
 <section class="hero slim">
   <div>
     <h1 class="hero-title">Top foods per nutrient</h1>
-    <p class="hero-lede">Pick a nutrient to see the best foods per 100 grams. Filter to whole-food sources when you want the cleanest signal.</p>
+    <p class="hero-lede">Choose a nutrient, compare each food group, then open any result for its complete nutrition details.</p>
   </div>
 </section>
 
 <section class="section topfoods-shell" aria-label="Top foods per nutrient">
   <section class="content-card">
     <div class="by-nutrient">
-      <div class="food-source-card topfoods-filter-card" aria-label="Top foods filters">
+      <div class="food-source-card topfoods-filter-card" id="topfoods-filters" aria-label="Top foods filters">
         <div class="topfoods-filter-grid">
           <div class="topfoods-filter-select">
             <label class="control-label" for="NutrientSelect">Nutrient</label>
@@ -31,7 +31,7 @@ pageScripts:
           <div class="topfoods-filter-toggle">
             <div class="control-label" aria-hidden="true">Food source</div>
             <label class="food-source-toggle">
-              <input type="checkbox" id="ToggleNaturalOnly" aria-label="Natural foods only">
+              <input type="checkbox" id="ToggleNaturalOnly" role="switch" aria-label="Use natural food sources">
               <span class="food-source-track" aria-hidden="true">
                 <span class="food-source-text is-left">Processed</span>
                 <span class="food-source-text is-right">Natural</span>
@@ -42,6 +42,7 @@ pageScripts:
         </div>
       </div>
 
+      <p class="topfoods-status" id="TopFoodsStatus" aria-live="polite">Loading food comparisons…</p>
       <div class="food-list" id="FoodsByNutrient" aria-label="Top foods list"></div>
     </div>
   </section>

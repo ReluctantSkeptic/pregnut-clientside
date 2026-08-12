@@ -99,6 +99,104 @@
   margin-top: 0;
 }
 
+.topfoods-status {
+  margin: 16px 4px 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.page-topfoods .by-nutrient,
+.page-topfoods .food-list,
+.page-topfoods .chart-guide,
+.page-topfoods .topfoods-category-nav,
+.page-topfoods .food-group-grid,
+.page-topfoods .food-group-card {
+  min-width: 0;
+}
+
+.page-topfoods .food-list {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.topfoods-category-nav {
+  position: sticky;
+  z-index: 8;
+  top: 82px;
+  margin: 14px 0 18px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: rgba(251, 250, 246, 0.94);
+  box-shadow: 0 8px 30px rgba(38, 48, 56, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.topfoods-category-label {
+  flex: 0 0 auto;
+  margin: 0;
+  color: var(--accent-2);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.topfoods-category-links {
+  min-width: 0;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+  scroll-snap-type: x proximity;
+}
+
+.topfoods-category-link {
+  flex: 0 0 auto;
+  padding: 7px 11px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--card);
+  font-size: 0.78rem;
+  font-weight: 650;
+  scroll-snap-align: start;
+}
+
+.topfoods-category-link:hover,
+.topfoods-category-link:focus-visible {
+  border-color: rgba(49, 95, 86, 0.36);
+  color: var(--accent-2);
+  background: var(--accent-soft);
+}
+
+.page-topfoods .food-group-card {
+  scroll-margin-top: 156px;
+}
+
+.page-topfoods .food-row-name-link {
+  display: inline;
+  text-decoration: underline;
+  text-decoration-color: rgba(49, 95, 86, 0.28);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.page-topfoods .food-row-name-link::after {
+  content: " ↗";
+  color: var(--accent);
+  font-size: 0.78em;
+}
+
+.page-topfoods .food-row-name-link:hover {
+  text-decoration-color: currentColor;
+}
+
 .topfoods-filter-select,
 .topfoods-filter-toggle {
   display: grid;
@@ -109,6 +207,23 @@
   .topfoods-filter-grid {
     grid-template-columns: 1fr;
   }
+
+  .topfoods-category-nav {
+    top: 75px;
+    margin-inline: -4px;
+    padding: 10px;
+    display: block;
+  }
+
+  .topfoods-category-label {
+    margin: 0 2px 8px;
+  }
+
+  .topfoods-category-link {
+    min-height: 38px;
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 640px) {
@@ -118,5 +233,34 @@
 
   .food-group-head {
     padding: 16px 16px 12px;
+  }
+
+  .page-topfoods .hero {
+    margin-bottom: 34px;
+  }
+
+  .page-topfoods .hero-title {
+    font-size: clamp(3.1rem, 15vw, 4.3rem);
+  }
+
+  .page-topfoods .content-card {
+    padding: 14px;
+  }
+
+  .page-topfoods .topfoods-filter-card {
+    padding: 16px;
+  }
+
+  .page-topfoods .chart-guide {
+    gap: 14px;
+  }
+
+  .page-topfoods .food-row {
+    gap: 10px;
+    padding: 14px 16px;
+  }
+
+  .page-topfoods .food-row-bars {
+    margin-left: 43px;
   }
 }

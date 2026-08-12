@@ -79,12 +79,18 @@ const items = (foodData.foods || [])
   .map((food) => {
     const slug = `${food.id}-${slugify(food.name)}`;
     const hasDuplicateName = foodNameCounts.get(food.name) > 1;
+    const rows = nutrientRows(food);
+    const chartRows = rows
+      .slice()
+      .sort((a, b) => (b.percent ?? -1) - (a.percent ?? -1) || a.name.localeCompare(b.name));
     return {
       ...food,
       pageName: hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name,
       slug,
       url: `/food/${slug}/`,
-      nutrientRows: nutrientRows(food),
+      nutrientRows: rows,
+      chartRows,
+      topNutrients: chartRows.filter((row) => row.percent > 0).slice(0, 3),
       calories: food.nutrients && food.nutrients.Calories
     };
   })
