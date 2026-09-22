@@ -1,6 +1,6 @@
 ---
-title: Blog
-description: Science-forward pregnancy nutrition notes covering evidence, food choices, and practical questions.
+title: Pregnancy Nutrition Guides
+description: Practical, source-linked guides to pregnancy nutrients, food choices, prenatal vitamins, and supplements.
 layout: base.njk
 permalink: /blog/index.html
 ---
@@ -8,7 +8,7 @@ permalink: /blog/index.html
 <section class="hero slim">
   <div>
     <h1 class="hero-title">{{ title }}</h1>
-    <p class="hero-lede">Short, science-forward notes on nutrition, evidence, and practical tips.</p>
+    <p class="hero-lede">Clear answers about nutrients, food choices, and prenatal supplements, with links to the evidence behind them.</p>
   </div>
 </section>
 
@@ -20,6 +20,7 @@ permalink: /blog/index.html
         <h2 class="card-title">
           <a href="{{ post.url | url }}">{{ post.data.title }}</a>
         </h2>
+        {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
       </article>
     {%- endfor -%}
   </div>

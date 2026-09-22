@@ -10,4 +10,10 @@ eleventyExcludeFromCollections: true
     <lastmod>{{ item.lastmod }}</lastmod>{% endif %}
   </url>
 {% endfor %}
+{% for post in collections.post %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ (post.data.dateModified or post.date) | isoDate }}</lastmod>
+  </url>
+{% endfor %}
 </urlset>

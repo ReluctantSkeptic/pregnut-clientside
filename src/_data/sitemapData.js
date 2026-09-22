@@ -8,12 +8,8 @@ const paths = [
   "/blog/",
   "/food/",
   "/weekly-diet/",
-  "/blog/melatonin-during-pregnancy/",
   ...weeklyProtocol.periods.map((period) => `/weekly-guide/${period.id}/`),
   ...foodpages.items.map((food) => `/food/${food.slug}/`)
 ];
 
-module.exports = [...new Set(paths)].sort().map((path) => ({
-  path,
-  lastmod: path === "/blog/melatonin-during-pregnancy/" ? "2026-07-14" : ""
-}));
+module.exports = [...new Set(paths)].sort().map((path) => ({ path }));
