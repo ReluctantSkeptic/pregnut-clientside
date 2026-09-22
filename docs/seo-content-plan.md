@@ -1,0 +1,77 @@
+# PregNut search content plan — September 2026
+
+The site already has a blog, one melatonin article, canonical URLs, a sitemap, and food/weekly tools. Publish useful answers that connect these tools to real pregnancy nutrition questions. Pregnancy is a health topic: use primary clinical/public-health sources, distinguish food data from safety advice, and have a qualified clinician review substantive medical claims before broad promotion.
+
+The phrases below are **candidate search queries**, not measured volumes or ranking promises. Confirm impressions and wording in Google Search Console, group near synonyms on one page, and revise this map after 6–8 weeks of data. Each numbered group maps to one article; do not create 50 nearly identical pages.
+
+## 1. Choline foods during pregnancy — `/blog/choline-foods-pregnancy/`
+
+1. choline foods for pregnancy without eggs
+2. how much choline do I need during pregnancy
+3. does my prenatal vitamin have choline
+4. choline in eggs during pregnancy
+5. vegetarian choline foods for pregnancy
+6. choline in soybeans for pregnancy
+7. choline rich breakfast pregnancy
+8. foods with choline besides eggs pregnancy
+9. should I take choline supplement during pregnancy
+10. how to read choline on prenatal label
+
+## 2. Iron foods during pregnancy — `/blog/iron-foods-pregnancy/`
+
+11. iron rich foods for pregnancy besides red meat
+12. vegetarian iron foods during pregnancy
+13. lentils and iron during pregnancy
+14. iron and vitamin C food pairings pregnancy
+15. does spinach provide enough iron pregnancy
+16. prenatal gummy without iron pregnancy
+17. do I need extra iron with prenatal vitamin
+18. foods to eat when iron is low during pregnancy
+19. plant iron absorption during pregnancy
+20. how to compare iron foods per serving pregnancy
+
+## 3. Folic acid and food folate — `/blog/folate-folic-acid-pregnancy/`
+
+21. folate foods in early pregnancy
+22. folic acid vs folate during pregnancy
+23. can food replace folic acid prenatal vitamin
+24. prenatal vitamin folic acid label pregnancy
+25. folate rich foods besides spinach pregnancy
+26. beans and folate in pregnancy
+27. fortified cereal folic acid pregnancy
+28. when to start folic acid before pregnancy
+29. folate and folic acid food sources pregnancy
+30. how much folic acid in prenatal vitamin
+
+## 4. Lower-mercury fish — `/blog/low-mercury-fish-pregnancy/`
+
+31. lower mercury fish to eat during pregnancy
+32. salmon during pregnancy how often
+33. canned light tuna pregnancy vs albacore
+34. shrimp during pregnancy cooked
+35. fish servings per week pregnancy FDA
+36. seafood with omega 3 and low mercury pregnancy
+37. fish to avoid during pregnancy mercury
+38. raw sushi versus cooked fish pregnancy
+39. how to choose fish during pregnancy
+40. does cooking fish remove mercury
+
+## 5. Prenatal labels, iodine, and supplements — `/blog/prenatal-vitamin-label-pregnancy/`
+
+41. how to compare prenatal vitamin labels
+42. iodine on prenatal vitamin label pregnancy
+43. prenatal vitamin without iodine pregnancy
+44. choline missing from prenatal vitamin
+45. does prenatal gummy have iron
+46. folic acid amount in prenatal vitamin
+47. should I take multiple supplements pregnancy
+48. food first versus prenatal vitamin pregnancy
+49. iodine food sources during pregnancy
+50. how to ask doctor about prenatal supplements
+
+## Next iteration
+
+- In Search Console, inspect queries and pages for impressions, clicks, and indexing. Split a group only when a distinct user need emerges.
+- Add first-hand food comparisons using the site's actual per-100 g data and realistic serving translations; verify individual values before publishing.
+- Ask a credentialed prenatal nutrition reviewer to check claims and display their review credit only after review occurs.
+- Revisit older melatonin content and any food safety language separately, with source and clinical review.
