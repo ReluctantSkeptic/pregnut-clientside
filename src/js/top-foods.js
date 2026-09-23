@@ -582,9 +582,11 @@
       .then(function (fooddata) {
         start(fooddata);
       })
-      .catch(function (err) {
+      .catch(function () {
         var root = $("FoodsByNutrient");
-        if (root) root.textContent = err && err.message ? err.message : String(err);
+        var status = $("TopFoodsStatus");
+        if (status) status.textContent = "Food comparisons could not load. Refresh the page to try again.";
+        if (root) root.textContent = "";
       });
   });
 })();
