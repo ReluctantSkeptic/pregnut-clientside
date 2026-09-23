@@ -43,10 +43,10 @@ pageScripts:
 <a class="home-mobile-cta" href="/weekly-diet/">See your weekly guide</a>
 <section class="section" aria-label="Pregnancy nutrition reading">
   <div class="section-header">
-    <h2>Questions about what to eat?</h2>
+    <h2>Questions about food or supplements?</h2>
     <p>Explore source-linked guides to pregnancy nutrients, food choices, and prenatal supplements.</p>
   </div>
-  <p><a href="/blog/">Read pregnancy nutrition guides →</a></p>
+  <p><a href="/blog/prenatal-vitamin-label-pregnancy/">Read a prenatal vitamin label</a> · <a href="/blog/">Browse all guides →</a></p>
 </section>
 
 <section class="home-proof" aria-label="What PregNut offers">
@@ -211,7 +211,7 @@ pageScripts:
           </div>
           <div class="need-card-col">
             <p class="need-card-col-title">Evidence and context</p>
-            <p class="need-card-text"><a href="{{ nutrient.source }}">{% if nutrient.id == "Protein" %}ACOG pregnancy nutrition{% else %}NIH nutrient guidance{% endif %}</a>{% if nutrient.guide %} · <a href="{{ nutrient.guide }}">Read the practical guide</a>{% endif %}</p>
+            <p class="need-card-text"><a href="{{ nutrient.source }}">{% if nutrient.id == "Protein" %}ACOG pregnancy nutrition{% else %}NIH nutrient guidance{% endif %}</a>{% if nutrient.guide %} · <a href="{{ nutrient.guide }}">Read the {{ nutrient.label }} guide</a>{% endif %}</p>
           </div>
         </div>
       </div>
