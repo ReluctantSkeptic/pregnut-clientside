@@ -1,5 +1,6 @@
 ---
 title: "Vitamin D Foods During Pregnancy: Fish and Fortified Drinks"
+seoTitle: "Vitamin D Foods During Pregnancy"
 description: A practical comparison of vitamin D food sources during pregnancy, plus what to check on fortified-food and prenatal labels.
 layout: post.njk
 permalink: /blog/vitamin-d-foods-pregnancy/index.html

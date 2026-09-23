@@ -1,5 +1,6 @@
 ---
 title: "Magnesium-Rich Foods During Pregnancy: Seeds, Beans, and Greens"
+seoTitle: "Magnesium Foods During Pregnancy"
 description: Compare magnesium in everyday portions of seeds, nuts, spinach, and beans during pregnancy, and understand when supplement amounts need a closer look.
 layout: post.njk
 permalink: /blog/magnesium-foods-pregnancy/index.html

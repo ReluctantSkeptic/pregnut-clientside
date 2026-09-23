@@ -1,5 +1,6 @@
 ---
 title: "Choline Foods During Pregnancy: Eggs, Beans, and Prenatal Labels"
+seoTitle: "Choline Foods in Pregnancy Beyond Eggs"
 description: Compare choline in eggs and egg-free foods by everyday portions, then check how much your prenatal label contributes during pregnancy.
 layout: post.njk
 permalink: /blog/choline-foods-pregnancy/index.html

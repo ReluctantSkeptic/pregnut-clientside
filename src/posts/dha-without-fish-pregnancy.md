@@ -1,5 +1,6 @@
 ---
 title: "DHA During Pregnancy Without Fish: Supplements and Labels"
+seoTitle: "DHA Without Fish During Pregnancy"
 description: Compare DHA with fish oil, EPA, and plant omega-3s on a prenatal label, and understand what to discuss if you eat little or no fish.
 layout: post.njk
 permalink: /blog/dha-without-fish-pregnancy/index.html

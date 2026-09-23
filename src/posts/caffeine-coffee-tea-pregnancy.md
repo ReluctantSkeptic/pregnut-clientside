@@ -1,5 +1,6 @@
 ---
 title: "Caffeine During Pregnancy: Coffee, Tea, and the 200 mg Guide"
+seoTitle: "Caffeine During Pregnancy: Coffee and Tea"
 description: "How to count caffeine from coffee, tea, decaf, energy drinks, and supplements during pregnancy, including why cup size and brand matter."
 layout: post.njk
 permalink: /blog/caffeine-coffee-tea-pregnancy/index.html

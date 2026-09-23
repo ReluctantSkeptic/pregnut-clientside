@@ -1,5 +1,6 @@
 ---
 title: "Calcium Without Dairy During Pregnancy: Foods and Labels"
+seoTitle: "Calcium Foods Without Dairy in Pregnancy"
 description: How to compare nondairy calcium foods during pregnancy, including fortified soy milk, sardines with bones, and calcium-set tofu.
 layout: post.njk
 permalink: /blog/calcium-without-dairy-pregnancy/index.html

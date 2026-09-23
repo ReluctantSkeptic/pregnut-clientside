@@ -1,5 +1,6 @@
 ---
 title: "Vegetarian Protein During Pregnancy: Compare Everyday Foods"
+seoTitle: "Vegetarian Protein Foods During Pregnancy"
 description: Compare protein in cooked lentils, tofu, and Greek yogurt during pregnancy, with practical portions and food-safety notes.
 layout: post.njk
 permalink: /blog/vegetarian-protein-pregnancy/index.html

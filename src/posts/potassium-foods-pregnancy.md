@@ -1,5 +1,6 @@
 ---
 title: "Potassium Foods During Pregnancy: Bananas, Potatoes, and Lentils"
+seoTitle: "Potassium Foods During Pregnancy"
 description: Compare potassium in bananas, baked potatoes, and lentils during pregnancy and understand the 2,900 mg adequate intake.
 layout: post.njk
 permalink: /blog/potassium-foods-pregnancy/index.html

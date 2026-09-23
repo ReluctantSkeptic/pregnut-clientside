@@ -1,6 +1,6 @@
 ---
 title: "Vitamin A Foods During Pregnancy Without Liver"
-description: Compare vitamin A from sweet potatoes, spinach, and carrots, and learn why the pregnancy upper limit for preformed vitamin A does not apply to these plant foods.
+description: Compare vitamin A foods without liver and learn why the pregnancy upper limit for preformed vitamin A does not apply to plant foods.
 layout: post.njk
 permalink: /blog/vitamin-a-foods-without-liver-pregnancy/index.html
 author: Yuriy Stasyuk

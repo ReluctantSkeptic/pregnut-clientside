@@ -1,5 +1,6 @@
 ---
 title: "How to Read a Prenatal Vitamin Label: Folic Acid, Iron, Iodine, and Choline"
+seoTitle: "How to Read a Prenatal Vitamin Label"
 description: Learn to read prenatal serving size, folate DFE versus folic acid, percent Daily Value, iron, iodine, and choline on a Supplement Facts label.
 layout: post.njk
 permalink: /blog/prenatal-vitamin-label-pregnancy/index.html
