@@ -25,6 +25,8 @@ Start with foods you already like, then make one small change at a time:
 
 These are food ideas, not a treatment plan or a promise that one food will relieve constipation. [NIDDK's pregnancy guidance](https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-pregnant-women) recommends high-fiber foods, water, and daily physical activity to help prevent constipation. [ACOG](https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-can-help-with-constipation-during-pregnancy) lists lentils, fruit, whole grains, nuts, and seeds among fiber sources.
 
+PregNut's food lookup does not currently calculate dietary fiber. Check packaged-food labels for fiber amounts, and use [NIDDK's food examples](https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition) when planning meals. Beans and whole grains can also contribute magnesium; our [magnesium food guide](/blog/magnesium-foods-pregnancy/) compares named portions using NIH data.
+
 ## How should I increase fiber?
 
 Add a little more fiber over several days instead of changing every meal at once. Drink water throughout the day; [NIDDK notes that fluids help fiber work better](https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition). Check packaged-food labels when choosing cereals or breads, because fiber amounts vary. If you have a condition that limits fluids or requires a special diet, ask your prenatal clinician what fits your care plan.

@@ -26,6 +26,8 @@ The [NIH magnesium food table](https://ods.od.nih.gov/factsheets/Magnesium-Healt
 
 A meal with beans and brown rice, or a small serving of seeds alongside another food, can help you build intake across the day. These examples are **different portion sizes**, and brands and preparation can change the numbers. If you choose fortified cereal, check its package label. For more ideas with beans and whole grains, see our [fiber-rich food guide](/blog/fiber-foods-constipation-pregnancy/).
 
+PregNut's food lookup does not currently calculate magnesium. Use the NIH food table above for magnesium amounts; the absence of magnesium on a PregNut food page does not mean the food contains none.
+
 ## Do I need a magnesium supplement?
 
 Check the **serving size and magnesium amount** on your prenatal before adding another product. [NIH reports](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) that there is no specific professional recommendation for routine magnesium supplementation during pregnancy, even though some people may not get enough from food.
