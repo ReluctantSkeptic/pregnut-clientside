@@ -27,6 +27,7 @@ const NUTRIENT_GUIDES = {
   Protein: { title: "Vegetarian protein during pregnancy", url: "/blog/vegetarian-protein-pregnancy/" },
   "Vitamin B-6": { title: "Vitamin B6 foods during pregnancy", url: "/blog/vitamin-b6-foods-pregnancy/" },
   "Vitamin B-12": { title: "Vitamin B12 during vegetarian or vegan pregnancy", url: "/blog/vegetarian-b12-pregnancy/" },
+  "Vitamin C": { title: "Vitamin C foods during pregnancy without citrus", url: "/blog/vitamin-c-without-citrus-pregnancy/" },
   "Vitamin D": { title: "Vitamin D foods during pregnancy", url: "/blog/vitamin-d-foods-pregnancy/" },
   Zinc: { title: "Zinc foods during pregnancy without meat", url: "/blog/zinc-foods-pregnancy/" }
 };

@@ -87,3 +87,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [DHA during pregnancy without fish](/blog/dha-without-fish-pregnancy/): a distinct supplement-label question covering DHA versus total fish oil, EPA, ALA, and algal oil without inventing a U.S. DHA RDA.
 - [Zinc foods during pregnancy without meat](/blog/zinc-foods-pregnancy/): compares meat-free foods by preparation and portion, notes lower absorption from some plant foods, and explains why a prenatal label matters before adding extra zinc.
 - [Vitamin B6 foods during pregnancy and morning sickness](/blog/vitamin-b6-foods-pregnancy/): separates dietary B6 amounts from supplement-based nausea treatment, with practical food portions and escalation signs.
+- [Vitamin C foods during pregnancy without citrus](/blog/vitamin-c-without-citrus-pregnancy/): compares noncitrus foods by prepared state and portion, with storage, food-safety, and plant-iron context.

@@ -35,7 +35,7 @@ NIH's table shows percentages based on the [**18 mg iron Daily Value**](https://
 
 ## How can I use vitamin C with plant iron?
 
-NIH notes that vitamin C helps the body absorb iron from plant foods. Try **½ cup cooked lentils with ½ cup raw sweet red pepper**: the [NIH vitamin C food table](https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/) lists about **95 mg vitamin C** for that pepper portion. Beans with peppers or a fortified cereal with strawberries are other options. A pairing does not tell you exactly how much iron you absorbed, and these are meal ideas, not a substitute for a prescribed iron plan. See [PregNut's weekly guide](/weekly-diet/) for other nutrient priorities alongside iron.
+NIH notes that vitamin C helps the body absorb iron from plant foods. Try **½ cup cooked lentils with ½ cup raw sweet red pepper**: the [NIH vitamin C food table](https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/) lists about **95 mg vitamin C** for that pepper portion. Beans with peppers or a fortified cereal with strawberries are other options. Our [vitamin C foods guide](/blog/vitamin-c-without-citrus-pregnancy/) compares more noncitrus choices. A pairing does not tell you exactly how much iron you absorbed, and these are meal ideas, not a substitute for a prescribed iron plan. See [PregNut's weekly guide](/weekly-diet/) for other nutrient priorities alongside iron.
 
 ## Common questions
 
