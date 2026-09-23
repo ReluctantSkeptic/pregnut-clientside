@@ -24,6 +24,16 @@ Not every prenatal contains choline, and products that include it may provide on
 
 Use [PregNut's food lookup](/food/) to compare foods by a consistent **100 g** amount. Then translate that comparison into the portion you actually eat. A 100 g chart is a comparison tool, not a meal plan or a food safety endorsement.
 
+### What does the food data show?
+
+These examples come from [PregNut's USDA-based food data](/about/) and use the same **100 g** reference amount. They are not equal-size everyday servings:
+
+- [Hard-boiled egg](/food/01129-egg-hard-boiled/): **293.8 mg choline** per 100 g. The cooked egg entry is the relevant comparison here, not a raw-egg suggestion.
+- [Cooked sockeye salmon](/food/15086-salmon-sockeye-cooked-dry-heat/): **112.6 mg choline** per 100 g. Check the [FDA/EPA fish guidance](https://www.fda.gov/food/consumers/advice-about-eating-fish) for species and weekly servings.
+- [Boiled soybeans](/food/16109-soybeans-mature-cooked-boiled/): **47.5 mg choline** per 100 g.
+
+An egg, a serving of salmon, and a bowl of soybeans will not usually weigh the same. Use the numbers to compare nutrient density, then account for your actual portion.
+
 ## Common questions
 
 ### Can I get choline without eggs?

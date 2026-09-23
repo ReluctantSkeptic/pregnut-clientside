@@ -20,6 +20,16 @@ Folate is the name for forms of this B vitamin in food. Folic acid is a form use
 
 Leafy greens, beans, peas, asparagus, and avocado can contribute folate. Some grain products and breakfast cereals are fortified with folic acid; check their Nutrition Facts labels. Use [PregNut's food lookup](/food/) to compare options by **100 g**, then consider the serving you actually eat. A ranking does not tell you whether a food replaces a prenatal.
 
+### Compare food folate in familiar foods
+
+PregNut's [USDA-based data](/about/) reports folate as micrograms of dietary folate equivalents (**mcg DFE**) per **100 g**:
+
+- [Raw spinach](/food/11457-spinach-raw/): **194 mcg DFE**.
+- [Boiled lentils](/food/16070-lentils-mature-seeds-boiled/): **181 mcg DFE**.
+- [Raw avocado](/food/09037-avocados-raw/): **81 mcg DFE**.
+
+DFE accounts for differences in absorption between natural food folate and added folic acid. These food figures should not be read as a substitute for the folic acid recommendation or as typical serving amounts.
+
 ## Common questions
 
 ### Can I use folate-rich foods instead of a prenatal vitamin?

@@ -16,6 +16,16 @@ tags: post
 
 Meat and poultry provide iron that the body generally absorbs more readily. Beans, lentils, tofu, spinach, and iron-fortified cereals also contribute. The [NIH iron fact sheet](https://ods.od.nih.gov/factsheets/iron-consumer/) describes both animal and plant sources. Compare options in [PregNut's food lookup](/food/), remembering that every food chart uses **100 g** rather than a typical serving.
 
+### Three food comparisons from PregNut
+
+The site's [USDA-based data](/about/) lists the following iron amounts per **100 g** of food:
+
+- [Boiled soybeans](/food/16109-soybeans-mature-cooked-boiled/): **5.14 mg**.
+- [Boiled spinach](/food/11458-spinach-boiled/): **3.57 mg**.
+- [Boiled lentils](/food/16070-lentils-mature-seeds-boiled/): **3.33 mg**.
+
+These figures describe iron in the food, not iron absorbed by your body. Portions differ, and plant iron is generally less readily absorbed than iron from meat. Pair plant sources with vitamin C and use your prenatal care plan for any diagnosed deficiency.
+
 ## How can I use vitamin C with plant iron?
 
 NIH notes that vitamin C helps the body absorb iron from plant foods. Try lentils with tomatoes, beans with peppers, or a fortified cereal with strawberries. These are meal ideas, not a substitute for a prescribed iron plan. See [PregNut's weekly guide](/weekly-diet/) for other nutrient priorities alongside iron.
