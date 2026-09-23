@@ -5,6 +5,7 @@ layout: post.njk
 permalink: /blog/folate-folic-acid-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
+dateModified: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
@@ -15,6 +16,8 @@ tags: post
 ## What is the difference between folate and folic acid?
 
 Folate is the name for forms of this B vitamin in food. Folic acid is a form used in many supplements and fortified foods. The terms are related, but a food's folate number and a supplement's folic acid number should not be treated as interchangeable without reading the units and label. [NIH explains folate and folic acid](https://ods.od.nih.gov/factsheets/Folate-Consumer/) and the different label conventions.
+
+On a Supplement Facts panel, look for **Folate** in mcg DFE and any **folic acid** amount in parentheses. [FDA explains this label format](https://www.fda.gov/food/nutrition-facts-label/folate-and-folic-acid-nutrition-and-supplement-facts-labels). Our [prenatal label guide](/blog/prenatal-vitamin-label-pregnancy/) shows how to read those numbers alongside the serving size.
 
 ## Which foods contribute folate?
 
@@ -48,4 +51,4 @@ They may contain different forms and amounts of the vitamin, and portions differ
 
 This calls for individualized care. [ACOG describes a different folic acid plan](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) for people with that history; do not choose a high dose on your own.
 
-**Sources:** [ACOG healthy eating during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) and [NIH folate fact sheet](https://ods.od.nih.gov/factsheets/Folate-Consumer/). This guide is educational and does not replace prenatal care.
+**Sources:** [ACOG healthy eating during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), [NIH folate fact sheet](https://ods.od.nih.gov/factsheets/Folate-Consumer/), and [FDA folate labeling](https://www.fda.gov/food/nutrition-facts-label/folate-and-folic-acid-nutrition-and-supplement-facts-labels). This guide is educational and does not replace prenatal care.
