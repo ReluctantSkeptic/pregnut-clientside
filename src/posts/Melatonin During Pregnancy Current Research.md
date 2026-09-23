@@ -31,7 +31,7 @@ The human-study review found that insomnia was not the primary outcome in the pr
 
 ### What can I discuss instead?
 
-Cognitive behavioral therapy for insomnia (CBT-I) is a structured, non-drug treatment. A [randomized trial in pregnant participants](https://pmc.ncbi.nlm.nih.gov/articles/PMC8210706/) found that digital CBT-I improved insomnia symptoms and sleep quality compared with sleep education. Ask your care team whether CBT-I is available and whether pain, reflux, restless legs, anxiety, or another treatable problem is affecting sleep. A clinician can help weigh other options if symptoms continue.
+Cognitive behavioral therapy for insomnia (CBT-I) is a structured, non-drug treatment. A [randomized trial in pregnant participants](https://pmc.ncbi.nlm.nih.gov/articles/PMC8210706/) found that digital CBT-I improved insomnia symptoms and sleep quality compared with sleep education. Ask your care team whether CBT-I is available and whether pain, reflux, restless legs, anxiety, or another treatable problem is affecting sleep. If you drink coffee or tea, our [caffeine guide](/blog/caffeine-coffee-tea-pregnancy/) explains how to count amounts across products. A clinician can help weigh other options if symptoms continue.
 
 ## Do supplement labels and other medicines matter?
 

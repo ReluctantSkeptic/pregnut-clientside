@@ -45,6 +45,6 @@ No. The [FDA says an 8-fluid-ounce decaf coffee typically contains 2–15 mg](ht
 2. Record the actual serving size and the product's caffeine amount when provided.
 3. Add the amounts together. If the amount is missing, ask the maker or a health professional rather than treating it as zero.
 
-If caffeine worsens nausea, sleep, or palpitations, raise that with your clinician. The [FDA recommends cutting back gradually](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much) if you regularly consume caffeine, because withdrawal can be unpleasant.
+If caffeine worsens nausea, sleep, or palpitations, raise that with your clinician. The [FDA recommends cutting back gradually](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much) if you regularly consume caffeine, because withdrawal can be unpleasant. If sleep remains a concern, our [melatonin research guide](/blog/melatonin-during-pregnancy/) explains what is and is not known about that supplement in pregnancy.
 
 **Sources:** [ACOG: coffee during pregnancy](https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-coffee-can-i-drink-while-pregnant), [NIH Office of Dietary Supplements: pregnancy](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), and [FDA: caffeine amounts and labels](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much). This guide is educational and does not replace prenatal care.
