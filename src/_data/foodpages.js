@@ -25,6 +25,7 @@ const NUTRIENT_GUIDES = {
   Iron: { title: "Iron foods during pregnancy", url: "/blog/iron-foods-pregnancy/" },
   Potassium: { title: "Potassium foods during pregnancy", url: "/blog/potassium-foods-pregnancy/" },
   Protein: { title: "Vegetarian protein during pregnancy", url: "/blog/vegetarian-protein-pregnancy/" },
+  Riboflavin: { title: "Riboflavin foods during pregnancy without dairy", url: "/blog/riboflavin-without-dairy-pregnancy/" },
   "Vitamin B-6": { title: "Vitamin B6 foods during pregnancy", url: "/blog/vitamin-b6-foods-pregnancy/" },
   "Vitamin B-12": { title: "Vitamin B12 during vegetarian or vegan pregnancy", url: "/blog/vegetarian-b12-pregnancy/" },
   "Vitamin C": { title: "Vitamin C foods during pregnancy without citrus", url: "/blog/vitamin-c-without-citrus-pregnancy/" },
