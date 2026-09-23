@@ -74,4 +74,9 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - In Search Console, inspect queries and pages for impressions, clicks, and indexing. Split a group only when a distinct user need emerges.
 - Add first-hand food comparisons using the site's actual per-100 g data and realistic serving translations; verify individual values before publishing.
 - Ask a credentialed prenatal nutrition reviewer to check claims and display their review credit only after review occurs.
-- Revisit older melatonin content and any food safety language separately, with source and clinical review.
+- Continue auditing older nutrient benefits and food safety language against current primary sources.
+
+## Additional published topics
+
+- [Calcium without dairy during pregnancy](/blog/calcium-without-dairy-pregnancy/): a distinct food-and-label question, including the role of fortification and edible fish bones.
+- [Vitamin D foods during pregnancy](/blog/vitamin-d-foods-pregnancy/): a distinct food-versus-prenatal question, including label variation and the limits of a food chart.

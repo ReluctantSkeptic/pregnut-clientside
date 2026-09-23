@@ -19,6 +19,7 @@ tags: post
 3. **Iron:** Check whether it is present, especially in gummies. ACOG lists 27 mg per day as the pregnancy requirement; whether you need extra iron depends on your diet and blood work. See [iron food pairings](/blog/iron-foods-pregnancy/).
 4. **Iodine:** [NIH lists 220 micrograms per day](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) as the pregnancy recommended dietary allowance. Dairy, eggs, seafood, and iodized salt may contribute. Check whether the prenatal includes iodine; not every salt is iodized.
 5. **Choline:** [NIH lists 450 mg per day](https://ods.od.nih.gov/factsheets/Choline-Consumer/) as the pregnancy adequate intake. Some prenatals omit choline or contain little. See [choline food ideas](/blog/choline-foods-pregnancy/).
+6. **Calcium and vitamin D:** Check both amounts; a prenatal may have less calcium than you expect. Compare [nondairy calcium foods](/blog/calcium-without-dairy-pregnancy/) and [vitamin D foods](/blog/vitamin-d-foods-pregnancy/) with what you usually eat.
 
 ## Common questions
 
