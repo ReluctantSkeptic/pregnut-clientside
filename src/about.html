@@ -304,6 +304,7 @@ pageStyles:
       <span>Choline</span>
       <span>DHA</span>
       <span>Folate (Folic Acid)</span>
+      <span>Iodine</span>
       <span>Iron</span>
       <span>Potassium</span>
       <span>Protein</span>
@@ -313,7 +314,6 @@ pageStyles:
       <span>Vitamin C</span>
       <span>Vitamin D</span>
       <span>Zinc</span>
-      <span>Hugs (well its almost a nutrient)</span>
     </div>
   </div>
 </section>
@@ -321,108 +321,32 @@ pageStyles:
 <section class="section tone">
   <div class="section-header">
     <p class="eyebrow">The recommendations</p>
-    <h2>Daily nutrient needs and benefits.</h2>
+    <h2>Nutrition reference amounts and roles.</h2>
   </div>
-  <p>For each nutrient, the daily recommended amounts come from the National Institutes of Health. The benefits to the mother and child are sourced from WebMD and a small number of studies.</p>
+  <p>Most reference intakes below come from the <a href="https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/">NIH pregnancy intake table</a> for adults ages 19–50. Choline and potassium are adequate intakes. PregNut's DHA and protein amounts are illustrative comparison benchmarks rather than individualized targets.</p>
   <div class="table-shell">
     <table class="data-table">
       <thead>
         <tr>
-          <th>Nutrient</th>
-          <th>Need</th>
-          <th>Baby Benefit</th>
-          <th>Mother Benefit</th>
+          <th scope="col">Nutrient</th>
+          <th scope="col">Reference amount</th>
+          <th scope="col">Role in pregnancy</th>
+          <th scope="col">Evidence</th>
         </tr>
       </thead>
       <tbody>
+        {% for nutrient in nutrientGuidance %}
         <tr>
-          <td>Calcium</td>
-          <td>1000mg</td>
-          <td>Builds bones and teeth. Your growing baby takes the calcium she needs from your body, so to keep your bones and teeth healthy, you need to get enough to replace that amount. (1)</td>
-          <td>Protects your bone density. It may also help prevent high blood pressure while you're pregnant. (1)</td>
+          <th scope="row">{{ nutrient.label }}</th>
+          <td>{{ nutrient.amount }}</td>
+          <td>{{ nutrient.role }}</td>
+          <td><a href="{{ nutrient.source }}">{% if nutrient.id == "Protein" %}ACOG{% else %}NIH{% endif %}</a>{% if nutrient.guide %} · <a href="{{ nutrient.guide }}">Practical guide</a>{% endif %}</td>
         </tr>
-        <tr>
-          <td>Choline</td>
-          <td>450mg</td>
-          <td>Helps prevent problems in the spinal cord and brain, called neural tube defects, and enhances brain development. (1)</td>
-          <td>Builds strong bones and may help prevent high blood pressure. (1)</td>
-        </tr>
-        <tr>
-          <td>DHA</td>
-          <td>0.3g</td>
-          <td>Helps boost brain development, including communication (3) and vision. (4)</td>
-          <td>May reduce your risk of heart disease in the future (1) and post-partum depression. (2)</td>
-        </tr>
-        <tr>
-          <td>Folate (Folic Acid)</td>
-          <td>600mcg</td>
-          <td>Helps protect against spinal cord birth defects during the first 30 days of pregnancy (1), in addition to other birth defects, miscarriage, and premature delivery. (5)</td>
-          <td>Prevents anemia. (1)</td>
-        </tr>
-        <tr>
-          <td>Iodine</td>
-          <td>220mcg</td>
-          <td>Needed for brain and nervous system development; important for preventing stunted growth, severe mental disability, and deafness; important in preventing miscarriage and stillbirth. (1)</td>
-          <td>Important for a healthy thyroid. (1)</td>
-        </tr>
-        <tr>
-          <td>Iron</td>
-          <td>27mg</td>
-          <td>Helps prevent premature delivery (1), low birth weight, and post-partum hemorrhages, and possibly cardiovascular risk for the baby in the future. (4)</td>
-          <td>Wards off anemia in pregnant women. (1)</td>
-        </tr>
-        <tr>
-          <td>Potassium</td>
-          <td>2900mg</td>
-          <td>No baby-specific outcome can be inferred from a food-composition comparison.</td>
-          <td>Supports normal cell function, fluid balance, and nerve and muscle function.</td>
-        </tr>
-        <tr>
-          <td>Protein</td>
-          <td>70g</td>
-          <td>Protein is crucial for your baby's growth throughout pregnancy. (1)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Vitamin B2 (Riboflavin)</td>
-          <td>1.4mg</td>
-          <td>Helps prevent birth defects including outflow tract defects of the heart. (7)</td>
-          <td>Needed to produce energy; helps your body use the protein from food. (1)</td>
-        </tr>
-        <tr>
-          <td>Vitamin B6</td>
-          <td>1.9mg</td>
-          <td>May help promote a healthy birthweight. (8)</td>
-          <td>Helps produce protein for new cells, boosts the immune system, and helps form red blood cells. (1)</td>
-        </tr>
-        <tr>
-          <td>Vitamin B12</td>
-          <td>2.6mcg</td>
-          <td>May help prevent preterm birth. (9)</td>
-          <td>Helps produce red blood cells and helps your body use fat and carbohydrates for energy. (1)</td>
-        </tr>
-        <tr>
-          <td>Vitamin C</td>
-          <td>85mg</td>
-          <td>Helps build a healthy brain and protects against poor memory. (10)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Vitamin D</td>
-          <td>600IU</td>
-          <td>Helps your baby's body use calcium to build bones and teeth. (1)</td>
-          <td>Helps your body absorb calcium from food and use it to build your bones and teeth. (1)</td>
-        </tr>
-        <tr>
-          <td>Zinc</td>
-          <td>11mg</td>
-          <td>Brain development. (1)</td>
-          <td>Necessary to grow and repair cells and produce energy. (1)</td>
-        </tr>
+        {% endfor %}
       </tbody>
     </table>
   </div>
-  <p class="note">These are reference intakes for pregnant adults ages 19–50; individual needs and teen values can differ. Potassium's 2,900mg figure is an adequate intake, not an RDA. See the <a href="https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/">NIH pregnancy intake table</a> and <a href="https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/">potassium fact sheet</a>. Benefit summaries elsewhere in this table retain references from the original About page and do not establish individual outcomes.</p>
+  <p class="note">These amounts are for comparison, not a meal plan. Pregnancy needs can differ by age, stage, health history, and clinician advice. A food's nutrient amount does not predict a specific health outcome.</p>
 </section>
 
 <section class="section">
