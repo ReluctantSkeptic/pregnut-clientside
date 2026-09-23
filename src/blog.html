@@ -12,14 +12,49 @@ permalink: /blog/index.html
   </div>
 </section>
 
-<section class="section">
+<section class="section" aria-labelledby="blog-start-title">
+  <h2 id="blog-start-title">Start with your question</h2>
+  <p>Choose a path below, or browse every guide further down the page.</p>
+  <div class="card-grid blog-topic-grid">
+    <div class="card">
+      <h3 class="card-title">Compare foods</h3>
+      <p>Understand food amounts alongside everyday portions.</p>
+      <ul class="blog-topic-list">
+        <li><a href="/blog/iron-foods-pregnancy/">Iron foods and vitamin C pairings</a></li>
+        <li><a href="/blog/folate-folic-acid-pregnancy/">Food folate and folic acid</a></li>
+        <li><a href="/blog/choline-foods-pregnancy/">Choline foods and prenatal labels</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 class="card-title">Plan around foods you avoid</h3>
+      <p>Find options when dairy, meat, or fish is not part of your diet.</p>
+      <ul class="blog-topic-list">
+        <li><a href="/blog/calcium-without-dairy-pregnancy/">Calcium without dairy</a></li>
+        <li><a href="/blog/vegetarian-b12-pregnancy/">Vitamin B12 on a vegetarian or vegan diet</a></li>
+        <li><a href="/blog/dha-without-fish-pregnancy/">DHA without fish</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 class="card-title">Check labels and safety</h3>
+      <p>Use current guidance before choosing a supplement or seafood.</p>
+      <ul class="blog-topic-list">
+        <li><a href="/blog/prenatal-vitamin-label-pregnancy/">Read a prenatal vitamin label</a></li>
+        <li><a href="/blog/low-mercury-fish-pregnancy/">Choose lower-mercury fish</a></li>
+        <li><a href="/blog/melatonin-during-pregnancy/">Review melatonin research</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="all-guides-title">
+  <h2 id="all-guides-title">All pregnancy nutrition guides</h2>
   <div class="card-grid">
     {%- for post in collections.post | reverse -%}
       <article class="card">
         <p class="card-meta">{{ post.date | readableDate }}</p>
-        <h2 class="card-title">
+        <h3 class="card-title">
           <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-        </h2>
+        </h3>
         {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
       </article>
     {%- endfor -%}

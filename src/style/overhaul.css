@@ -501,6 +501,27 @@
   transform: translateY(-2px);
 }
 
+.blog-topic-grid {
+  margin-top: 22px;
+}
+
+.blog-topic-grid .card-title {
+  font-size: 1.35rem;
+}
+
+.blog-topic-list {
+  margin: 14px 0 0;
+  padding-left: 20px;
+}
+
+.blog-topic-list li + li {
+  margin-top: 8px;
+}
+
+#all-guides-title {
+  margin-bottom: 22px;
+}
+
 .post a,
 .section a:not(.button):not(.home-action):not(.home-feature-cta) {
   text-decoration-color: rgba(49, 95, 86, 0.35);

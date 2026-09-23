@@ -75,6 +75,7 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - Add first-hand food comparisons using the site's actual per-100 g data and realistic serving translations; verify individual values before publishing.
 - Ask a credentialed prenatal nutrition reviewer to check claims and display their review credit only after review occurs.
 - Continue auditing older nutrient benefits and food safety language against current primary sources.
+- Keep the blog hub's three starting paths current as new reader questions emerge; every published guide remains in the full list below them.
 
 ## Additional published topics
 
