@@ -82,3 +82,5 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Vitamin D foods during pregnancy](/blog/vitamin-d-foods-pregnancy/): a distinct food-versus-prenatal question, including label variation and the limits of a food chart.
 - [Iodine without dairy or seafood](/blog/iodine-without-dairy-pregnancy/): a distinct source-and-label question; PregNut's food data does not calculate iodine.
 - [Vitamin B12 during vegetarian or vegan pregnancy](/blog/vegetarian-b12-pregnancy/): a distinct fortified-food and prenatal-label question, with 100 g examples and current-label caveats.
+- [Vegetarian protein during pregnancy](/blog/vegetarian-protein-pregnancy/): a meal-planning comparison of cooked lentils, soft tofu, and Greek yogurt, with the site's 70 g benchmark clearly labeled.
+- [Potassium foods during pregnancy](/blog/potassium-foods-pregnancy/): a food comparison with the adult pregnancy AI and a salt-substitute caution.

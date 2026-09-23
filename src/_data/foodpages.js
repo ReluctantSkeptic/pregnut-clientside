@@ -22,6 +22,8 @@ const NUTRIENT_GUIDES = {
   Choline: { title: "Choline foods during pregnancy", url: "/blog/choline-foods-pregnancy/" },
   "Folate (DFE)": { title: "Folate and folic acid during pregnancy", url: "/blog/folate-folic-acid-pregnancy/" },
   Iron: { title: "Iron foods during pregnancy", url: "/blog/iron-foods-pregnancy/" },
+  Potassium: { title: "Potassium foods during pregnancy", url: "/blog/potassium-foods-pregnancy/" },
+  Protein: { title: "Vegetarian protein during pregnancy", url: "/blog/vegetarian-protein-pregnancy/" },
   "Vitamin B-12": { title: "Vitamin B12 during vegetarian or vegan pregnancy", url: "/blog/vegetarian-b12-pregnancy/" },
   "Vitamin D": { title: "Vitamin D foods during pregnancy", url: "/blog/vitamin-d-foods-pregnancy/" }
 };
