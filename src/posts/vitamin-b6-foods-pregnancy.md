@@ -31,6 +31,8 @@ Food can help you meet your usual nutrient needs, but the evidence for treating 
 
 If nausea makes eating difficult, choose foods you can tolerate. ACOG suggests small, frequent meals and bland foods if they help. If you cannot keep liquids down, feel faint when standing, or have very little dark urine, [contact your pregnancy care team](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy/) rather than trying to solve dehydration with a food ranking.
 
+For a separate option, read what the evidence says about [ginger tea and supplements for pregnancy nausea](/blog/ginger-tea-capsules-pregnancy-nausea/).
+
 ## Should I add a B6 supplement?
 
 Check the vitamin B6 amount and serving size on your prenatal's **Supplement Facts** panel, then discuss any additional B6 or nausea treatment with your clinician. [NIH advises consulting a physician before taking B6 for pregnancy nausea](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) because treatment doses can approach intake limits. High supplemental intakes over time can harm nerves; ordinary food amounts have not been reported to cause that problem. Our [prenatal label guide](/blog/prenatal-vitamin-label-pregnancy/) can help you check what is already in your product.
