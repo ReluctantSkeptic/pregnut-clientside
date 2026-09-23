@@ -84,3 +84,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Vitamin B12 during vegetarian or vegan pregnancy](/blog/vegetarian-b12-pregnancy/): a distinct fortified-food and prenatal-label question, with 100 g examples and current-label caveats.
 - [Vegetarian protein during pregnancy](/blog/vegetarian-protein-pregnancy/): a meal-planning comparison of cooked lentils, soft tofu, and Greek yogurt, with the site's 70 g benchmark clearly labeled.
 - [Potassium foods during pregnancy](/blog/potassium-foods-pregnancy/): a food comparison with the adult pregnancy AI and a salt-substitute caution.
+- [DHA during pregnancy without fish](/blog/dha-without-fish-pregnancy/): a distinct supplement-label question covering DHA versus total fish oil, EPA, ALA, and algal oil without inventing a U.S. DHA RDA.

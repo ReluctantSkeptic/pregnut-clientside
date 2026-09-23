@@ -34,6 +34,8 @@ These entries are in the FDA/EPA **Best Choices** category. PregNut's [USDA-base
 
 FDA's adult serving is **4 ounces (about 113 g)**, so the table is a consistent comparison rather than a serving calculation. Product and preparation differences matter. PregNut's 300 mg DHA amount is an illustrative chart benchmark, **not a U.S. recommended dietary allowance for DHA**. None of these nutrient values measures mercury in the fish you buy.
 
+If you eat little or no fish, our [DHA food and supplement label guide](/blog/dha-without-fish-pregnancy/) explains how DHA differs from total fish oil and plant omega-3s.
+
 ## Common questions
 
 ### Is salmon safe during pregnancy?
