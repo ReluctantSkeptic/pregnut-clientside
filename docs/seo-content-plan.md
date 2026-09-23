@@ -90,3 +90,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Vitamin B6 foods during pregnancy and morning sickness](/blog/vitamin-b6-foods-pregnancy/): separates dietary B6 amounts from supplement-based nausea treatment, with practical food portions and escalation signs.
 - [Vitamin C foods during pregnancy without citrus](/blog/vitamin-c-without-citrus-pregnancy/): compares noncitrus foods by prepared state and portion, with storage, food-safety, and plant-iron context.
 - [Riboflavin foods during pregnancy without dairy](/blog/riboflavin-without-dairy-pregnancy/): compares nondairy vitamin B2 foods and explains serving sizes, fortification, and the difference between label %DV and the pregnancy reference.
+- [Caffeine from coffee and tea during pregnancy](/blog/caffeine-coffee-tea-pregnancy/): a distinct beverage and supplement-label question; the food lookup does not measure caffeine.
