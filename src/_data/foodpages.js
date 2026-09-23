@@ -26,7 +26,8 @@ const NUTRIENT_GUIDES = {
   Potassium: { title: "Potassium foods during pregnancy", url: "/blog/potassium-foods-pregnancy/" },
   Protein: { title: "Vegetarian protein during pregnancy", url: "/blog/vegetarian-protein-pregnancy/" },
   "Vitamin B-12": { title: "Vitamin B12 during vegetarian or vegan pregnancy", url: "/blog/vegetarian-b12-pregnancy/" },
-  "Vitamin D": { title: "Vitamin D foods during pregnancy", url: "/blog/vitamin-d-foods-pregnancy/" }
+  "Vitamin D": { title: "Vitamin D foods during pregnancy", url: "/blog/vitamin-d-foods-pregnancy/" },
+  Zinc: { title: "Zinc foods during pregnancy without meat", url: "/blog/zinc-foods-pregnancy/" }
 };
 
 function slugify(value) {

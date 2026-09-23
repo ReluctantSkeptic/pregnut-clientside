@@ -14,7 +14,7 @@ const entries = [
   { id: "Vitamin B-12", label: "Vitamin B12", role: "Supports nerve function, red blood cell formation, and DNA synthesis.", source: "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/", guide: "/blog/vegetarian-b12-pregnancy/" },
   { id: "Vitamin C", label: "Vitamin C", role: "Helps make collagen and improves absorption of iron from plant foods.", source: "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/" },
   { id: "Vitamin D", label: "Vitamin D", role: "Helps the body absorb calcium and supports bone development.", source: "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/", guide: "/blog/vitamin-d-foods-pregnancy/" },
-  { id: "Zinc", label: "Zinc", role: "Supports cell growth and metabolism, including fetal growth and development.", source: "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/" }
+  { id: "Zinc", label: "Zinc", role: "Supports cell growth and metabolism, including fetal growth and development.", source: "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/", guide: "/blog/zinc-foods-pregnancy/" }
 ];
 
 module.exports = entries.map((entry) => ({
