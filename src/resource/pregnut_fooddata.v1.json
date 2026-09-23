@@ -70,9 +70,9 @@
     "Potassium": {
       "unit": "mg",
       "rda": {
-        "value": 4700,
+        "value": 2900,
         "unit": "mg",
-        "label": "4700 mg"
+        "label": "2900 mg"
       },
       "benefits": {
         "baby": "",
