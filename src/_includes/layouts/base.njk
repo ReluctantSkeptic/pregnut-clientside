@@ -3,7 +3,7 @@
   <head>
     {% if food %}
       {% set pageTitle = food.pageName + " Nutrition in Pregnancy" %}
-      {% set pageDescription = food.pageName + " nutrition facts per 100 grams, including pregnancy daily-target coverage and food safety notes." %}
+      {% set pageDescription = food.pageName + " nutrition facts per 100 grams and pregnancy daily-target coverage. Check preparation and food safety separately." %}
     {% elif period %}
       {% set pageTitle = "Pregnancy Nutrition Weeks " + period.weeks.start + "–" + period.weeks.end %}
       {% set pageDescription = period.summary %}

@@ -7,7 +7,7 @@ pagination:
 permalink: "/food/{{ food.slug }}/index.html"
 eleventyComputed:
   title: "{{ food.pageName }} Nutrition in Pregnancy"
-  description: "{{ food.pageName }} nutrition facts per 100 grams, including pregnancy daily-target coverage and food safety notes."
+  description: "{{ food.pageName }} nutrition facts per 100 grams and pregnancy daily-target coverage. Check preparation and food safety separately."
   schemaType: WebPage
   bodyClass: page-food-detail
 pageStyles:
@@ -62,6 +62,14 @@ pageStyles:
         <span class="food-safety-badge">{{ food.warning }}</span>
       </div>
       <p class="content-summary">{{ food.warningText }}</p>
+    </aside>
+  {% else %}
+    <aside class="content-card food-safety-note" aria-label="Food safety note">
+      <div class="food-safety-heading">
+        <p class="content-eyebrow">Food safety</p>
+        <h2 class="content-title">Check preparation guidance</h2>
+      </div>
+      <p class="content-summary">This entry has no food-specific safety note. Nutrient data alone cannot establish whether a food or its preparation is safe during pregnancy. See <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's safer food choices for pregnancy</a> for general guidance.</p>
     </aside>
   {% endif %}
 
