@@ -7,7 +7,7 @@ bodyClass: page-weekly
 pageStyles:
   - /style/weekly-diet.css?v=chapter-art-v1
 pageScripts:
-  - /js/weekly-diet.js?v=chapter-art-v1
+  - /js/weekly-diet.js?v=20260922-ref
 ---
 
 <section class="hero slim weekly-hero">
@@ -69,7 +69,7 @@ pageScripts:
     <section class="content-card" aria-label="Top foods this period">
       <div class="content-head">
         <h2 class="content-title">Best overall picks for this period</h2>
-        <p class="content-summary">Ranked by how well 100g of each food covers the priority nutrients for this time period. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
+        <p class="content-summary">Ranked by how 100g of each food compares with the priority nutrient references for this time period. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
       </div>
       <div class="food-source-card" aria-label="Food source filter">
         <div class="food-source-kicker">Food source</div>
@@ -96,7 +96,8 @@ pageScripts:
           <label class="control-label" for="NutrientSelect">Nutrient</label>
           <select class="control-select" id="NutrientSelect"></select>
         </div>
-        <div class="food-list" id="FoodsByNutrient"></div>
+      <div class="food-list" id="FoodsByNutrient"></div>
+      <p class="content-summary">Percentages use <a href="/about/#nutrient-references">PregNut's reference amounts</a>. DHA and protein use illustrative benchmarks; needs can differ by person.</p>
       </div>
     </section>
   </div>

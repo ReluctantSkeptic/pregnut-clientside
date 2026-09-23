@@ -24,7 +24,7 @@ pageStyles:
     <div>
       <p class="eyebrow">Pregnancy food guide</p>
       <h1 class="hero-title food-detail-title"><span class="food-detail-name">{{ food.pageName }}</span> <span class="food-detail-context">Nutrition in pregnancy</span></h1>
-      <p class="hero-lede">See how a 100 gram portion compares with pregnancy daily targets. Use this as a comparison tool, not personalized medical advice.</p>
+      <p class="hero-lede">See how a 100 gram portion compares with pregnancy nutrient reference amounts. Use this as a comparison tool, not personalized medical advice.</p>
       <p class="food-group-label">Food group: {{ food.group }}</p>
     </div>
     {% if food.image and food.image.src %}
@@ -40,7 +40,7 @@ pageStyles:
       <div class="food-glance-heading">
         <p class="content-eyebrow">At a glance</p>
         <h2 id="food-glance-title">Strongest nutrient contributions</h2>
-        <p>Highest shares of pregnancy daily targets in this 100 gram portion.</p>
+        <p>Highest shares of nutrient reference amounts in this 100 gram portion.</p>
       </div>
       <ol class="food-glance-list">
         {% for row in food.topNutrients %}
@@ -76,8 +76,8 @@ pageStyles:
   <section class="content-card food-chart-card" aria-labelledby="food-chart-title">
     <div class="content-head">
       <p class="content-eyebrow">Per 100 grams</p>
-      <h2 class="content-title" id="food-chart-title">Pregnancy daily-target coverage</h2>
-      <p class="content-summary">Nutrients are ranked from highest to lowest contribution using adult pregnancy reference values. Bars stop visually at 100%, while the label shows the full value. Needs can differ by age and medical history.</p>
+      <h2 class="content-title" id="food-chart-title">Nutrient reference coverage</h2>
+      <p class="content-summary">Nutrients are ranked from highest to lowest contribution using adult pregnancy reference amounts. Bars stop visually at 100%, while the label shows the full value. DHA and protein use illustrative comparison benchmarks; <a href="/about/#nutrient-references">see how the references are used</a>.</p>
     </div>
     <div class="food-list" aria-label="Food nutrient bars">
       <div class="food-item">
@@ -85,7 +85,7 @@ pageStyles:
           {% for row in food.chartRows %}
             <div class="bar-row" style="--nutrient-color: {{ row.color }}; --bar-percent: {{ row.barPercent }}%;">
               <div class="bar-label">{{ row.name }}</div>
-              <div class="bar-track" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the pregnancy daily target{% endif %}">
+              <div class="bar-track" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the nutrient reference amount{% endif %}">
                 <span class="bar-fill" aria-hidden="true"></span>
                 <span class="bar-value {% if row.isOver100 %}is-inside{% else %}is-outside{% endif %}" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{{ row.displayPercent }}%{% endif %}</span>
               </div>
@@ -99,11 +99,11 @@ pageStyles:
   <section class="content-card" aria-labelledby="food-table-title">
     <div class="content-head">
       <h2 class="content-title" id="food-table-title">Nutrients per 100 grams</h2>
-      <p class="content-summary">Daily targets are shown for context and are not a recommendation to meet them from one food.</p>
+      <p class="content-summary">Reference amounts are shown for context and are not a recommendation to meet them from one food.</p>
     </div>
     <div class="table-shell">
       <table class="data-table">
-        <thead><tr><th scope="col">Nutrient</th><th scope="col">Amount</th><th scope="col">Pregnancy target</th></tr></thead>
+        <thead><tr><th scope="col">Nutrient</th><th scope="col">Amount</th><th scope="col">Reference amount</th></tr></thead>
         <tbody>
           {% for row in food.nutrientRows %}
             <tr><th scope="row">{{ row.name }}</th><td>{{ row.value | formatNumber }} {{ row.unit }}</td><td>{{ row.target }}</td></tr>

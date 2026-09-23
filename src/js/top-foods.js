@@ -135,7 +135,7 @@
 
     var track = el("div", "bar-track percent-track" + (p > 100 ? " has-overflow" : ""), null);
     track.setAttribute("role", "img");
-    track.setAttribute("aria-label", Math.round(p) + "% of daily target");
+    track.setAttribute("aria-label", Math.round(p) + "% of nutrient reference amount");
 
     var targetZone = el("span", "bar-zone is-target-zone", null);
     var targetFill = el("span", "bar-fill is-target-fill", null);
@@ -196,20 +196,20 @@
     copy.appendChild(el(
       "p",
       "chart-guide-text",
-      "The rail fills from 0–100% of the daily target" +
+      "The rail fills from 0–100% of the nutrient reference amount" +
         (targetLabel ? " (" + targetLabel + ")" : "") +
-        ". When a food exceeds the target, a short overage section appears beside the full rail; the number shows the exact total."
+        ". When a food exceeds the reference amount, a short overage section appears beside the full rail; the number shows the exact total."
     ));
     guide.appendChild(copy);
 
     var scale = el("div", "chart-scale", null);
-    scale.setAttribute("aria-label", "Chart scale from zero to one hundred percent of daily target");
+    scale.setAttribute("aria-label", "Chart scale from zero to one hundred percent of nutrient reference amount");
     var line = el("div", "chart-scale-line", null);
     line.appendChild(el("span", "chart-scale-zone is-target-zone", ""));
     scale.appendChild(line);
     var ticks = el("div", "chart-scale-ticks", null);
     ticks.appendChild(el("span", "", "0"));
-    ticks.appendChild(el("span", "is-target", "100% target"));
+    ticks.appendChild(el("span", "is-target", "100% reference"));
     scale.appendChild(ticks);
     guide.appendChild(scale);
     root.appendChild(guide);
