@@ -171,7 +171,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 17.1,
         "Calories": 105,
@@ -291,7 +291,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 28.89,
         "Calories": 210,
@@ -3819,7 +3819,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warningText": "FDA/EPA Good Choice for mercury: pregnancy guidance is one four-ounce serving a week and no other fish that week. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 17.83,
         "Calories": 127,
@@ -3963,7 +3963,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 18.44,
         "Calories": 144,
@@ -4107,7 +4107,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 24.6,
         "Calories": 264,
@@ -10035,7 +10035,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 16.36,
         "Calories": 177,
@@ -10059,7 +10059,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 14.67,
         "Calories": 86,
@@ -10083,7 +10083,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 24.25,
         "Calories": 142,
@@ -10250,8 +10250,8 @@
       "name": "Cod, Atlantic, Canned, Solids and liquid",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 22.76,
         "Calories": 105,
@@ -10274,8 +10274,8 @@
       "name": "Cod, Atlantic, Cooked, Dry heat",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 22.83,
         "Calories": 105,
@@ -10298,8 +10298,8 @@
       "name": "Cod, Pacific, Cooked",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 18.73,
         "Calories": 85,
@@ -11139,7 +11139,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 7.62,
         "Calories": 95,
@@ -11163,7 +11163,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 17.88,
         "Calories": 83,
@@ -11187,7 +11187,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 17.88,
         "Calories": 83,
@@ -11475,7 +11475,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 16.77,
         "Calories": 82,
@@ -11667,7 +11667,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 17.78,
         "Calories": 104,
@@ -12267,7 +12267,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 18.44,
         "Calories": 184,
@@ -13059,7 +13059,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 11.01,
         "Calories": 277,
@@ -13083,7 +13083,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 15.24,
         "Calories": 86,
@@ -13298,8 +13298,8 @@
       "name": "Frog legs",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 16.4,
         "Calories": 73,
@@ -14403,7 +14403,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 25.23,
         "Calories": 116,
@@ -14427,7 +14427,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warningText": "FDA/EPA Good Choice for mercury: pregnancy guidance is one four-ounce serving a week and no other fish that week. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 18.56,
         "Calories": 91,
@@ -14499,7 +14499,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 23.03,
         "Calories": 203,
@@ -16155,7 +16155,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 19,
         "Calories": 89,
@@ -16298,8 +16298,8 @@
       "name": "Mackerel, Atlantic",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Avoid",
-      "warningText": "This seafood has high mercury content which is dangerous.",
+      "warning": "Caution",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 18.6,
         "Calories": 205,
@@ -17643,7 +17643,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 19.35,
         "Calories": 117,
@@ -17859,7 +17859,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 11.9,
         "Calories": 86,
@@ -18794,8 +18794,8 @@
       "name": "Octopus, Common, Cooked, Moist heat",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 29.82,
         "Calories": 164,
@@ -19731,7 +19731,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 7.06,
         "Calories": 68,
@@ -19755,7 +19755,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 5.71,
         "Calories": 51,
@@ -21170,8 +21170,8 @@
       "name": "Perch",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 19.39,
         "Calories": 91,
@@ -21602,8 +21602,8 @@
       "name": "Pike, Northern",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Avoid",
-      "warningText": "This seafood has high mercury content which is dangerous.",
+      "warning": "Caution",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 19.26,
         "Calories": 88,
@@ -22059,7 +22059,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 23.48,
         "Calories": 111,
@@ -22131,7 +22131,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 18.48,
         "Calories": 164,
@@ -24003,7 +24003,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warningText": "FDA/EPA Good Choice for mercury: pregnancy guidance is one four-ounce serving a week and no other fish that week. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 22.23,
         "Calories": 109,
@@ -24027,7 +24027,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 22.32,
         "Calories": 143,
@@ -25083,7 +25083,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 22.1,
         "Calories": 206,
@@ -25107,7 +25107,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 23.45,
         "Calories": 139,
@@ -25131,7 +25131,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 19.68,
         "Calories": 129,
@@ -25155,7 +25155,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 26.48,
         "Calories": 156,
@@ -25203,7 +25203,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 24.62,
         "Calories": 208,
@@ -25227,7 +25227,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 20.86,
         "Calories": 185,
@@ -25947,7 +25947,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 20.54,
         "Calories": 111,
@@ -25970,8 +25970,8 @@
       "name": "Sea bass",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 18.43,
         "Calories": 97,
@@ -26451,7 +26451,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 16.93,
         "Calories": 197,
@@ -26643,7 +26643,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 20.42,
         "Calories": 100,
@@ -26667,7 +26667,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 22.78,
         "Calories": 119,
@@ -26787,7 +26787,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warningText": "FDA/EPA Good Choice for mercury: pregnancy guidance is one four-ounce serving a week and no other fish that week. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 20.51,
         "Calories": 100,
@@ -27891,7 +27891,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 15.58,
         "Calories": 92,
@@ -27986,8 +27986,8 @@
       "name": "Sturgeon, Cooked, Dry heat",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 20.7,
         "Calories": 135,
@@ -28275,7 +28275,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Avoid",
-      "warningText": "This seafood has high mercury content which is dangerous.",
+      "warningText": "FDA/EPA Choice to Avoid during pregnancy because of the highest mercury levels.",
       "nutrients": {
         "Protein": 19.66,
         "Calories": 144,
@@ -28683,7 +28683,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 26.15,
         "Calories": 128,
@@ -29234,8 +29234,8 @@
       "name": "Trout",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 20.77,
         "Calories": 148,
@@ -29258,8 +29258,8 @@
       "name": "Tuna, Fresh, Bluefin",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Avoid",
-      "warningText": "This seafood has high mercury content which is dangerous.",
+      "warning": "Caution",
+      "warningText": "The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 23.33,
         "Calories": 144,
@@ -29282,8 +29282,8 @@
       "name": "Tuna, Light, Canned in oil",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 29.13,
         "Calories": 198,
@@ -29306,8 +29306,8 @@
       "name": "Tuna, Light, Canned in water",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
-      "warning": "Reduce",
-      "warningText": "This seafood has moderate mercury content, eat one or less servings per week",
+      "warning": "Caution",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 19.44,
         "Calories": 86,
@@ -30387,7 +30387,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 23.4,
         "Calories": 108,
@@ -30411,7 +30411,7 @@
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "This seafood is safe (low mercury content) but make sure its thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.",
       "nutrients": {
         "Protein": 23.48,
         "Calories": 116,
