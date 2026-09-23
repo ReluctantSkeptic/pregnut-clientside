@@ -93,3 +93,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Riboflavin foods during pregnancy without dairy](/blog/riboflavin-without-dairy-pregnancy/): compares nondairy vitamin B2 foods and explains serving sizes, fortification, and the difference between label %DV and the pregnancy reference.
 - [Caffeine from coffee and tea during pregnancy](/blog/caffeine-coffee-tea-pregnancy/): a distinct beverage and supplement-label question; the food lookup does not measure caffeine.
 - [Ginger tea versus capsules for pregnancy nausea](/blog/ginger-tea-capsules-pregnancy-nausea/): distinguishes food and tea from the supplement forms studied for nausea, with medicine-interaction and dehydration cautions.
+- [Soft cheese during pregnancy](/blog/soft-cheese-pregnancy/): distinguishes pasteurized cheese choices from unheated queso fresco-type cheese, using current CDC and FDA safety guidance rather than nutrient data to answer the safety question.

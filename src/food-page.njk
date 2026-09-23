@@ -67,6 +67,9 @@ pageStyles:
       {% else %}
         <p class="content-summary">Source: <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's pregnancy food-safety guidance</a>.</p>
       {% endif %}
+      {% if food.isCheese %}
+        <p class="content-summary">Read our <a href="/blog/soft-cheese-pregnancy/">guide to cheese, pasteurization, and pregnancy</a> before using this nutrient chart to choose a cheese.</p>
+      {% endif %}
     </aside>
   {% else %}
     <aside class="content-card food-safety-note" aria-label="Food safety note">
