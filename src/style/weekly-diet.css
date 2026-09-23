@@ -542,6 +542,12 @@
   line-height: 1.55;
 }
 
+.nutrient-guide {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 .nutrient-details {
   margin-top: 12px;
   padding-top: 12px;

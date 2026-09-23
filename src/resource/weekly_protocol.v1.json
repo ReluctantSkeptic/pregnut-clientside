@@ -127,6 +127,11 @@
       "id": "nap-protein",
       "label": "National Academies Press: Dietary Reference Intakes (Protein and Amino Acids; pregnancy RDA summary)",
       "url": "https://nap.nationalacademies.org/read/10490/chapter/12"
+    },
+    {
+      "id": "acog-term",
+      "label": "ACOG: Definition of term pregnancy",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
     }
   ],
   "periods": [
@@ -376,7 +381,7 @@
       "title": "More fat, more brain, more readiness",
       "weeks": { "start": 25, "end": 28 },
       "citations": ["nhs-25-28"],
-      "summary": "Growth continues and the fetus becomes \"perfectly formed\" by this stage, while still needing major maturation.",
+      "summary": "Growth continues as the brain, lungs, and other systems mature; the third trimester begins around week 28.",
       "development": [
         "Responses to sound and touch are strong; hiccups can happen.",
         "Eyelids can open around this time and the baby keeps gaining weight.",
@@ -508,12 +513,12 @@
     },
     {
       "id": "wk37-40",
-      "title": "Full term: finishing touches",
+      "title": "Early term to full term: final weeks",
       "weeks": { "start": 37, "end": 40 },
-      "citations": ["nhs-37-40"],
-      "summary": "Full-term begins around 37 weeks. At this point, it's mostly about final maturation and steady nourishment.",
+      "citations": ["nhs-37-40", "acog-term"],
+      "summary": "Weeks 37–38 are early term; weeks 39–40 are full term. Growth and maturation continue through these weeks.",
       "development": [
-        "Baby is considered full-term around 37 weeks and ready to be born in the coming weeks.",
+        "ACOG classifies weeks 37–38 as early term and weeks 39–40 as full term.",
         "Lanugo is mostly gone by around 40 weeks for many babies.",
         "The baby continues to prepare for birth and life outside the womb."
       ],

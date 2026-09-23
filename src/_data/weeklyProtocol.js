@@ -1,5 +1,9 @@
 const protocol = require("../resource/weekly_protocol.v1.json");
+const nutrientGuidance = require("./nutrientGuidance.js");
 const sources = new Map(protocol.sources.map((source) => [source.id, source]));
+const guides = new Map(nutrientGuidance
+  .filter((nutrient) => nutrient.guide)
+  .map((nutrient) => [nutrient.id, { label: nutrient.label, url: nutrient.guide }]));
 
 function resolveCitations(ids) {
   return (ids || []).map((id) => sources.get(id)).filter(Boolean);
@@ -16,7 +20,8 @@ module.exports = {
     })),
     nutrients: (period.nutrients || []).map((nutrient) => ({
       ...nutrient,
-      citations: resolveCitations(nutrient.citations)
+      citations: resolveCitations(nutrient.citations),
+      guide: guides.get(nutrient.id) || null
     }))
   }))
 };

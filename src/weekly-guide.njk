@@ -11,7 +11,7 @@ eleventyComputed:
   schemaType: WebPage
   bodyClass: page-weekly-static
 pageStyles:
-  - /style/weekly-diet.css
+  - /style/weekly-diet.css?v=20260923-guides
 ---
 
 <article class="section weekly-static-page">
@@ -37,8 +37,8 @@ pageStyles:
 
   <section class="content-card focus-card">
     <div class="content-head">
-      <h2 class="content-title">Nutrients to prioritize</h2>
-      <p class="content-summary">These food ideas support general nutrition planning. They are not medical advice and do not replace prenatal vitamins or clinician guidance.</p>
+      <h2 class="content-title">Nutrient highlights</h2>
+      <p class="content-summary">These highlights organize food comparisons. Daily nutrient needs continue throughout pregnancy; priority labels are not trimester-specific intake targets or medical advice.</p>
     </div>
     <div class="nutrient-cards">
       {% for nutrient in period.nutrients %}
@@ -49,6 +49,7 @@ pageStyles:
           </div>
           <p class="nutrient-why">{{ nutrient.why }}</p>
           {% if nutrient.details %}<p class="nutrient-details">{{ nutrient.details }}</p>{% endif %}
+          {% if nutrient.guide %}<p class="nutrient-guide"><a href="{{ nutrient.guide.url }}">Read about {{ nutrient.guide.label }} in pregnancy</a></p>{% endif %}
         </article>
       {% endfor %}
     </div>
