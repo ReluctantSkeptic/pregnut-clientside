@@ -194,8 +194,8 @@
       "name": "Alfalfa seeds, Sprouted, Raw",
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
-      "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warning": "Avoid",
+      "warningText": "CDC lists raw or undercooked sprouts as a riskier choice during pregnancy; cook sprouts until steaming hot before eating.",
       "nutrients": {
         "Protein": 3.99,
         "Calories": 23,
@@ -339,7 +339,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.1,
         "Calories": 46,
@@ -363,7 +363,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.32,
         "Calories": 346,
@@ -387,7 +387,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.93,
         "Calories": 243,
@@ -411,7 +411,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.26,
         "Calories": 52,
@@ -435,7 +435,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.27,
         "Calories": 48,
@@ -555,7 +555,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 3.39,
         "Calories": 241,
@@ -579,7 +579,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.4,
         "Calories": 48,
@@ -627,7 +627,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.58,
         "Calories": 25,
@@ -699,7 +699,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.2,
         "Calories": 20,
@@ -723,7 +723,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 2,
         "Calories": 160,
@@ -771,7 +771,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 13.33,
         "Calories": 253,
@@ -987,7 +987,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.6,
         "Calories": 27,
@@ -1035,7 +1035,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 3.89,
         "Calories": 346,
@@ -1059,7 +1059,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.09,
         "Calories": 89,
@@ -1515,7 +1515,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.83,
         "Calories": 31,
@@ -1659,7 +1659,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 18.21,
         "Calories": 332,
@@ -1683,7 +1683,7 @@
       "group": "Beef Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 25.85,
         "Calories": 331,
@@ -1707,7 +1707,7 @@
       "group": "Beef Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 18.17,
         "Calories": 251,
@@ -1731,7 +1731,7 @@
       "group": "Beef Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 23.05,
         "Calories": 295,
@@ -1755,7 +1755,7 @@
       "group": "Beef Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 25.07,
         "Calories": 240,
@@ -1779,7 +1779,7 @@
       "group": "Beef Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 26.52,
         "Calories": 175,
@@ -1803,7 +1803,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 21.8,
         "Calories": 147,
@@ -1827,7 +1827,7 @@
       "group": "Beef Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 23.69,
         "Calories": 291,
@@ -1851,7 +1851,7 @@
       "group": "Beef Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 23.01,
         "Calories": 355,
@@ -1875,7 +1875,7 @@
       "group": "Beef Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 26.96,
         "Calories": 243,
@@ -1923,7 +1923,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.2,
         "Calories": 22,
@@ -2019,7 +2019,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.61,
         "Calories": 43,
@@ -2091,7 +2091,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.18,
         "Calories": 64,
@@ -2115,7 +2115,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.39,
         "Calories": 43,
@@ -2139,7 +2139,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.3,
         "Calories": 38,
@@ -2211,7 +2211,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 2.5,
         "Calories": 317,
@@ -2235,7 +2235,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.74,
         "Calories": 57,
@@ -2259,7 +2259,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 15.3,
         "Calories": 247,
@@ -2283,7 +2283,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.1,
         "Calories": 50,
@@ -2307,7 +2307,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 13.72,
         "Calories": 333,
@@ -2691,7 +2691,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.07,
         "Calories": 103,
@@ -2787,7 +2787,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 3.17,
         "Calories": 22,
@@ -2859,7 +2859,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.2,
         "Calories": 30,
@@ -2883,7 +2883,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.82,
         "Calories": 34,
@@ -2955,7 +2955,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 3.38,
         "Calories": 43,
@@ -3003,7 +3003,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.53,
         "Calories": 72,
@@ -3171,7 +3171,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.2,
         "Calories": 16,
@@ -3267,7 +3267,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.28,
         "Calories": 25,
@@ -3315,7 +3315,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.43,
         "Calories": 31,
@@ -3339,7 +3339,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2,
         "Calories": 27,
@@ -3555,7 +3555,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 28.31,
         "Calories": 146,
@@ -3579,7 +3579,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.34,
         "Calories": 322,
@@ -3627,7 +3627,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.04,
         "Calories": 31,
@@ -3915,7 +3915,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.93,
         "Calories": 41,
@@ -3939,7 +3939,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.36,
         "Calories": 160,
@@ -4059,7 +4059,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.95,
         "Calories": 31,
@@ -4083,7 +4083,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.92,
         "Calories": 25,
@@ -4131,7 +4131,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.5,
         "Calories": 42,
@@ -4179,7 +4179,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.69,
         "Calories": 16,
@@ -8211,7 +8211,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.8,
         "Calories": 19,
@@ -8259,7 +8259,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.82,
         "Calories": 19,
@@ -8307,7 +8307,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 16.7,
         "Calories": 239,
@@ -8331,7 +8331,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 21.4,
         "Calories": 353,
@@ -8355,7 +8355,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 23.24,
         "Calories": 371,
@@ -8379,7 +8379,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 20.75,
         "Calories": 334,
@@ -8403,7 +8403,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 19.8,
         "Calories": 300,
@@ -8427,7 +8427,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 22.87,
         "Calories": 404,
@@ -8451,7 +8451,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 24.25,
         "Calories": 410,
@@ -8475,7 +8475,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 23.76,
         "Calories": 394,
@@ -8499,7 +8499,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 11.12,
         "Calories": 98,
@@ -8523,7 +8523,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 6.15,
         "Calories": 350,
@@ -8547,7 +8547,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 24.99,
         "Calories": 357,
@@ -8571,7 +8571,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 14.21,
         "Calories": 264,
@@ -8595,7 +8595,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 25.6,
         "Calories": 389,
@@ -8619,7 +8619,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 30.52,
         "Calories": 452,
@@ -8643,7 +8643,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 21.58,
         "Calories": 364,
@@ -8667,7 +8667,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 18.52,
         "Calories": 264,
@@ -8691,7 +8691,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 24.94,
         "Calories": 356,
@@ -8715,7 +8715,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 29.81,
         "Calories": 413,
@@ -8739,7 +8739,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 20.05,
         "Calories": 327,
@@ -8763,7 +8763,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 23.54,
         "Calories": 358,
@@ -8787,7 +8787,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 24.48,
         "Calories": 373,
@@ -8811,7 +8811,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 24.26,
         "Calories": 254,
@@ -8835,7 +8835,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 22.17,
         "Calories": 300,
@@ -8859,7 +8859,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 23.41,
         "Calories": 368,
@@ -8883,7 +8883,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 35.75,
         "Calories": 392,
@@ -8907,7 +8907,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 22.13,
         "Calories": 375,
@@ -8931,7 +8931,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 24.73,
         "Calories": 334,
@@ -8955,7 +8955,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 23.78,
         "Calories": 352,
@@ -8979,7 +8979,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 25.58,
         "Calories": 351,
@@ -9003,7 +9003,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 11.26,
         "Calories": 174,
@@ -9027,7 +9027,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 31.8,
         "Calories": 387,
@@ -9051,7 +9051,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 26.96,
         "Calories": 393,
@@ -9171,7 +9171,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1,
         "Calories": 50,
@@ -9219,7 +9219,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.06,
         "Calories": 63,
@@ -9243,7 +9243,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.25,
         "Calories": 333,
@@ -9315,7 +9315,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 14.73,
         "Calories": 263,
@@ -9339,7 +9339,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 14.85,
         "Calories": 287,
@@ -9387,7 +9387,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 29.8,
         "Calories": 197,
@@ -9411,7 +9411,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 31.02,
         "Calories": 165,
@@ -9435,7 +9435,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 21.77,
         "Calories": 165,
@@ -9459,7 +9459,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 24.46,
         "Calories": 167,
@@ -9483,7 +9483,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 27.3,
         "Calories": 239,
@@ -9507,7 +9507,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 28.93,
         "Calories": 190,
@@ -9579,7 +9579,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 23.79,
         "Calories": 254,
@@ -9627,7 +9627,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.7,
         "Calories": 23,
@@ -9843,7 +9843,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 3.27,
         "Calories": 30,
@@ -9963,7 +9963,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 24.1,
         "Calories": 455,
@@ -10491,7 +10491,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 3.02,
         "Calories": 32,
@@ -10923,7 +10923,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.13,
         "Calories": 23,
@@ -11379,7 +11379,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.17,
         "Calories": 308,
@@ -11403,7 +11403,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.46,
         "Calories": 46,
@@ -11427,7 +11427,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.39,
         "Calories": 46,
@@ -11643,7 +11643,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.6,
         "Calories": 32,
@@ -11763,7 +11763,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.59,
         "Calories": 12,
@@ -11787,7 +11787,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.65,
         "Calories": 15,
@@ -11811,7 +11811,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.4,
         "Calories": 56,
@@ -11835,7 +11835,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 4.08,
         "Calories": 283,
@@ -11883,7 +11883,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.7,
         "Calories": 45,
@@ -11931,7 +11931,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 2.45,
         "Calories": 282,
@@ -12099,7 +12099,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 23.9,
         "Calories": 213,
@@ -12171,7 +12171,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 18.99,
         "Calories": 337,
@@ -12195,7 +12195,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 23.48,
         "Calories": 201,
@@ -12315,7 +12315,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 12.81,
         "Calories": 185,
@@ -12339,7 +12339,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 13.61,
         "Calories": 196,
@@ -12363,7 +12363,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 13.87,
         "Calories": 185,
@@ -12387,7 +12387,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 12.58,
         "Calories": 155,
@@ -12411,7 +12411,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 10.57,
         "Calories": 154,
@@ -12435,7 +12435,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 12.51,
         "Calories": 143,
@@ -12459,7 +12459,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 13.05,
         "Calories": 158,
@@ -12483,7 +12483,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 9.99,
         "Calories": 149,
@@ -12507,7 +12507,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 10.9,
         "Calories": 52,
@@ -12531,7 +12531,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature.",
       "nutrients": {
         "Protein": 15.86,
         "Calories": 322,
@@ -12627,7 +12627,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.98,
         "Calories": 25,
@@ -12651,7 +12651,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.25,
         "Calories": 17,
@@ -12915,7 +12915,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.24,
         "Calories": 31,
@@ -12963,7 +12963,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 3.3,
         "Calories": 249,
@@ -12987,7 +12987,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.75,
         "Calories": 74,
@@ -13371,7 +13371,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.63,
         "Calories": 56,
@@ -13395,7 +13395,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.44,
         "Calories": 52,
@@ -13419,7 +13419,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.6,
         "Calories": 53,
@@ -13443,7 +13443,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.48,
         "Calories": 50,
@@ -13467,7 +13467,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.63,
         "Calories": 50,
@@ -13491,7 +13491,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.5,
         "Calories": 48,
@@ -13539,7 +13539,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 28.44,
         "Calories": 143,
@@ -13563,7 +13563,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 28.3,
         "Calories": 160,
@@ -13587,7 +13587,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 26.45,
         "Calories": 187,
@@ -13611,7 +13611,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 36.28,
         "Calories": 191,
@@ -13635,7 +13635,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 27.1,
         "Calories": 143,
@@ -13659,7 +13659,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 29.27,
         "Calories": 134,
@@ -13683,7 +13683,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 30.38,
         "Calories": 206,
@@ -13707,7 +13707,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 33.02,
         "Calories": 173,
@@ -13755,7 +13755,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 6.36,
         "Calories": 149,
@@ -13875,7 +13875,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.82,
         "Calories": 80,
@@ -13923,7 +13923,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 25.16,
         "Calories": 305,
@@ -14043,7 +14043,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.37,
         "Calories": 60,
@@ -14067,7 +14067,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 5.6,
         "Calories": 93,
@@ -14091,7 +14091,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.5,
         "Calories": 39,
@@ -14115,7 +14115,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.63,
         "Calories": 32,
@@ -14139,7 +14139,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.63,
         "Calories": 67,
@@ -14187,7 +14187,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.72,
         "Calories": 69,
@@ -14283,7 +14283,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 27.37,
         "Calories": 203,
@@ -14355,7 +14355,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.32,
         "Calories": 36,
@@ -14379,7 +14379,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 2.55,
         "Calories": 68,
@@ -14475,7 +14475,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.7,
         "Calories": 115,
@@ -15003,7 +15003,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 25,
         "Calories": 390,
@@ -15171,7 +15171,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2,
         "Calories": 73,
@@ -15363,7 +15363,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.14,
         "Calories": 61,
@@ -15411,7 +15411,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.7,
         "Calories": 27,
@@ -15459,7 +15459,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.88,
         "Calories": 71,
@@ -15483,7 +15483,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 33.69,
         "Calories": 223,
@@ -15507,7 +15507,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 24.75,
         "Calories": 283,
@@ -15699,7 +15699,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.5,
         "Calories": 61,
@@ -15723,7 +15723,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.45,
         "Calories": 17,
@@ -15747,7 +15747,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.35,
         "Calories": 22,
@@ -15771,7 +15771,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.1,
         "Calories": 29,
@@ -15843,7 +15843,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.35,
         "Calories": 13,
@@ -15867,7 +15867,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.23,
         "Calories": 17,
@@ -15891,7 +15891,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.36,
         "Calories": 15,
@@ -15915,7 +15915,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.9,
         "Calories": 14,
@@ -16035,7 +16035,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.25,
         "Calories": 21,
@@ -16059,7 +16059,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.42,
         "Calories": 25,
@@ -16083,7 +16083,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.7,
         "Calories": 30,
@@ -16107,7 +16107,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 3.8,
         "Calories": 277,
@@ -16131,7 +16131,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.83,
         "Calories": 66,
@@ -16179,7 +16179,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.52,
         "Calories": 55,
@@ -16347,7 +16347,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 2.45,
         "Calories": 319,
@@ -16371,7 +16371,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.82,
         "Calories": 60,
@@ -16947,7 +16947,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.84,
         "Calories": 34,
@@ -16971,7 +16971,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.11,
         "Calories": 28,
@@ -16995,7 +16995,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.54,
         "Calories": 36,
@@ -17187,7 +17187,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 4.41,
         "Calories": 147,
@@ -17211,7 +17211,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 3.21,
         "Calories": 62,
@@ -17235,7 +17235,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 4.1,
         "Calories": 56,
@@ -17259,7 +17259,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 7.91,
         "Calories": 321,
@@ -17283,7 +17283,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 3.43,
         "Calories": 54,
@@ -17307,7 +17307,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 3.4,
         "Calories": 35,
@@ -17331,7 +17331,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 1.03,
         "Calories": 70,
@@ -17355,7 +17355,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 1.6,
         "Calories": 46,
@@ -17379,7 +17379,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
       "nutrients": {
         "Protein": 3.1,
         "Calories": 61,
@@ -17619,7 +17619,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.44,
         "Calories": 43,
@@ -17714,8 +17714,8 @@
       "name": "Mung beans, Mature seeds, Sprouted, Raw",
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
-      "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warning": "Avoid",
+      "warningText": "CDC lists raw or undercooked sprouts as a riskier choice during pregnancy; cook sprouts until steaming hot before eating.",
       "nutrients": {
         "Protein": 3.04,
         "Calories": 30,
@@ -17907,7 +17907,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.86,
         "Calories": 27,
@@ -17979,7 +17979,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.06,
         "Calories": 44,
@@ -18171,7 +18171,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.32,
         "Calories": 16,
@@ -19323,7 +19323,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.93,
         "Calories": 33,
@@ -19467,7 +19467,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.1,
         "Calories": 40,
@@ -19491,7 +19491,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.83,
         "Calories": 32,
@@ -19539,7 +19539,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.68,
         "Calories": 47,
@@ -19563,7 +19563,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.68,
         "Calories": 49,
@@ -19611,7 +19611,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.7,
         "Calories": 45,
@@ -19635,7 +19635,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.94,
         "Calories": 47,
@@ -19683,7 +19683,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 26.15,
         "Calories": 175,
@@ -19899,7 +19899,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.47,
         "Calories": 43,
@@ -19923,7 +19923,7 @@
       "group": "Dairy and Egg Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese.",
       "nutrients": {
         "Protein": 40,
         "Calories": 370,
@@ -19995,7 +19995,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.39,
         "Calories": 51,
@@ -20019,7 +20019,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.67,
         "Calories": 60,
@@ -20187,7 +20187,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 3.61,
         "Calories": 239,
@@ -20211,7 +20211,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.91,
         "Calories": 39,
@@ -20427,7 +20427,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.5,
         "Calories": 42,
@@ -20499,7 +20499,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.87,
         "Calories": 262,
@@ -20523,7 +20523,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.36,
         "Calories": 57,
@@ -20643,7 +20643,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.8,
         "Calories": 42,
@@ -20715,7 +20715,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 5.42,
         "Calories": 81,
@@ -20835,7 +20835,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.66,
         "Calories": 27,
@@ -20859,7 +20859,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 19.25,
         "Calories": 504,
@@ -20931,7 +20931,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2,
         "Calories": 40,
@@ -20979,7 +20979,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.87,
         "Calories": 40,
@@ -21027,7 +21027,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.91,
         "Calories": 29,
@@ -21051,7 +21051,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.74,
         "Calories": 32,
@@ -21099,7 +21099,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.86,
         "Calories": 20,
@@ -21147,7 +21147,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.99,
         "Calories": 31,
@@ -21195,7 +21195,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.58,
         "Calories": 70,
@@ -21219,7 +21219,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 32.4,
         "Calories": 239,
@@ -21579,7 +21579,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 7.2,
         "Calories": 136,
@@ -21651,7 +21651,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.36,
         "Calories": 53,
@@ -21723,7 +21723,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.54,
         "Calories": 50,
@@ -21867,7 +21867,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.79,
         "Calories": 116,
@@ -21891,7 +21891,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.3,
         "Calories": 122,
@@ -21963,7 +21963,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 2.18,
         "Calories": 240,
@@ -21987,7 +21987,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.7,
         "Calories": 46,
@@ -22083,7 +22083,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.15,
         "Calories": 54,
@@ -22107,7 +22107,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.67,
         "Calories": 83,
@@ -22299,7 +22299,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 33.92,
         "Calories": 468,
@@ -22323,7 +22323,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 25.69,
         "Calories": 297,
@@ -22347,7 +22347,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 18.26,
         "Calories": 162,
@@ -22371,7 +22371,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 22.62,
         "Calories": 178,
@@ -22395,7 +22395,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 27.32,
         "Calories": 242,
@@ -22419,7 +22419,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 28.57,
         "Calories": 210,
@@ -22443,7 +22443,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 7.06,
         "Calories": 626,
@@ -22467,7 +22467,7 @@
       "group": "Pork Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 29.06,
         "Calories": 397,
@@ -23091,7 +23091,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.61,
         "Calories": 71,
@@ -23331,7 +23331,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 25.1,
         "Calories": 227,
@@ -23403,7 +23403,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.43,
         "Calories": 23,
@@ -23475,7 +23475,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.6,
         "Calories": 18,
@@ -23499,7 +23499,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.68,
         "Calories": 16,
@@ -23523,7 +23523,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 3.39,
         "Calories": 302,
@@ -23547,7 +23547,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 3.07,
         "Calories": 299,
@@ -23595,7 +23595,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1.2,
         "Calories": 52,
@@ -23763,7 +23763,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.55,
         "Calories": 21,
@@ -23787,7 +23787,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.9,
         "Calories": 21,
@@ -24171,7 +24171,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.08,
         "Calories": 37,
@@ -25059,7 +25059,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 21.07,
         "Calories": 378,
@@ -25875,7 +25875,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 19.12,
         "Calories": 344,
@@ -25923,7 +25923,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 15.42,
         "Calories": 235,
@@ -26019,7 +26019,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.54,
         "Calories": 26,
@@ -26043,7 +26043,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.51,
         "Calories": 49,
@@ -26067,7 +26067,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.68,
         "Calories": 43,
@@ -26091,7 +26091,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 5.81,
         "Calories": 35,
@@ -26139,7 +26139,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 3.03,
         "Calories": 45,
@@ -27219,7 +27219,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 1,
         "Calories": 66,
@@ -27675,7 +27675,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.86,
         "Calories": 23,
@@ -27723,7 +27723,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.21,
         "Calories": 16,
@@ -27939,7 +27939,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.67,
         "Calories": 32,
@@ -28395,7 +28395,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 2.8,
         "Calories": 239,
@@ -28419,7 +28419,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.5,
         "Calories": 43,
@@ -28443,7 +28443,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
       "nutrients": {
         "Protein": 0.62,
         "Calories": 37,
@@ -28467,7 +28467,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.81,
         "Calories": 53,
@@ -28827,7 +28827,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.96,
         "Calories": 32,
@@ -28995,7 +28995,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.2,
         "Calories": 23,
@@ -29067,7 +29067,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.88,
         "Calories": 18,
@@ -29331,7 +29331,7 @@
       "group": "Sausages and Luncheon Meats",
       "natSource": 0,
       "warning": "Caution",
-      "warningText": "Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature.",
       "nutrients": {
         "Protein": 14.81,
         "Calories": 106,
@@ -29355,7 +29355,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 30.13,
         "Calories": 147,
@@ -29379,7 +29379,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 23.68,
         "Calories": 169,
@@ -29403,7 +29403,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 28.55,
         "Calories": 189,
@@ -29427,7 +29427,7 @@
       "group": "Poultry Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 29.06,
         "Calories": 159,
@@ -29595,7 +29595,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 24.38,
         "Calories": 172,
@@ -29619,7 +29619,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 24.8,
         "Calories": 217,
@@ -29643,7 +29643,7 @@
       "group": "Lamb, Veal, and Game Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses",
+      "warningText": "Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat.",
       "nutrients": {
         "Protein": 25.14,
         "Calories": 202,
@@ -30171,7 +30171,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 2.3,
         "Calories": 11,
@@ -30195,7 +30195,7 @@
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy.",
       "nutrients": {
         "Protein": 0.61,
         "Calories": 30,
@@ -30483,7 +30483,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 1.53,
         "Calories": 118,
@@ -30507,7 +30507,7 @@
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Caution",
-      "warningText": "Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.",
+      "warningText": "Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy.",
       "nutrients": {
         "Protein": 0.72,
         "Calories": 38,

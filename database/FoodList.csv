@@ -1,234 +1,234 @@
 ﻿"NDB_No","FoodGroup","FoodName","NatSource","Warning","WarningText"
-"11026",Vegetables and Vegetable Products,"Bamboo shoots, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09322",Fruits and Fruit Juices,"Tamarinds, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"05142",Poultry Products,"Duck, Meat only, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"11304",Vegetables and Vegetable Products,"Peas, Green, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11135",Vegetables and Vegetable Products,"Cauliflower, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11026",Vegetables and Vegetable Products,"Bamboo shoots, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09322",Fruits and Fruit Juices,"Tamarinds, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"05142",Poultry Products,"Duck, Meat only, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"11304",Vegetables and Vegetable Products,"Peas, Green, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11135",Vegetables and Vegetable Products,"Cauliflower, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "11008",Vegetables and Vegetable Products,"Artichokes, (globe or french), Boiled",1,,
 "12061",Nut and Seed Products,"Nuts, Almonds",0,,
 "12120",Nut and Seed Products,"Nuts, Hazelnuts or filberts",0,,
-"11246",Vegetables and Vegetable Products,"Leeks, (bulb and lower leaf-portion), Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11246",Vegetables and Vegetable Products,"Leeks, (bulb and lower leaf-portion), Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "12155",Nut and Seed Products,"Nuts, Walnuts, English",0,,
-"09184",Fruits and Fruit Juices,"Melons, Honeydew, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11241",Vegetables and Vegetable Products,"Kohlrabi, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11344",Vegetables and Vegetable Products,"Pigeonpeas, Immature seeds, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09111",Fruits and Fruit Juices,"Grapefruit, Raw, Pink and red and white, All areas",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09181",Fruits and Fruit Juices,"Melons, Cantaloupe, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09266",Fruits and Fruit Juices,"Pineapple, Raw, All varieties",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09184",Fruits and Fruit Juices,"Melons, Honeydew, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11241",Vegetables and Vegetable Products,"Kohlrabi, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11344",Vegetables and Vegetable Products,"Pigeonpeas, Immature seeds, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09111",Fruits and Fruit Juices,"Grapefruit, Raw, Pink and red and white, All areas",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09181",Fruits and Fruit Juices,"Melons, Cantaloupe, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09266",Fruits and Fruit Juices,"Pineapple, Raw, All varieties",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "12078",Nut and Seed Products,"Nuts, Brazilnuts, Dried, Unblanched",0,,
-"09326",Fruits and Fruit Juices,"Watermelon, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09326",Fruits and Fruit Juices,"Watermelon, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "12104",Nut and Seed Products,"Nuts, Coconut meat, Raw",1,,
-"09150",Fruits and Fruit Juices,"Lemons, Raw, Without peel",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11011",Vegetables and Vegetable Products,"Asparagus, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09150",Fruits and Fruit Juices,"Lemons, Raw, Without peel",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11011",Vegetables and Vegetable Products,"Asparagus, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "12142",Nut and Seed Products,"Nuts, Pecans",0,,
 "12652",Nut and Seed Products,"Nuts, Pistachio nuts, Dry roasted",0,,
-"05013",Poultry Products,"Chicken, Meat only, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"09165",Fruits and Fruit Juices,"Litchis, Dried",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"05013",Poultry Products,"Chicken, Meat only, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"09165",Fruits and Fruit Juices,"Litchis, Dried",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "12036",Nut and Seed Products,"Seeds, Sunflower seed kernels, Dried",0,,
 "11168",Vegetables and Vegetable Products,"Corn, Sweet, Yellow, Boiled",1,,
 "11901",Vegetables and Vegetable Products,"Corn, Sweet, White, Boiled",1,,
-"09286",Fruits and Fruit Juices,"Pomegranates, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11086",Vegetables and Vegetable Products,"Beet greens, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11161",Vegetables and Vegetable Products,"Collards, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09131",Fruits and Fruit Juices,"Grapes, American type (slip skin), Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"05103",Poultry Products,"Chicken, Wing, Meat and skin, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"09164",Fruits and Fruit Juices,"Litchis, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09183",Fruits and Fruit Juices,"Melons, Casaba, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11959",Vegetables and Vegetable Products,"Arugula, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11090",Vegetables and Vegetable Products,"Broccoli, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11965",Vegetables and Vegetable Products,"Cauliflower, Green, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"05168",Poultry Products,"Turkey, Whole, Meat only, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"09226",Fruits and Fruit Juices,"Papayas, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"10089",Pork Products,"Pork, Spareribs, Separable lean and fat, Braised",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
+"09286",Fruits and Fruit Juices,"Pomegranates, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11086",Vegetables and Vegetable Products,"Beet greens, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11161",Vegetables and Vegetable Products,"Collards, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09131",Fruits and Fruit Juices,"Grapes, American type (slip skin), Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"05103",Poultry Products,"Chicken, Wing, Meat and skin, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"09164",Fruits and Fruit Juices,"Litchis, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09183",Fruits and Fruit Juices,"Melons, Casaba, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11959",Vegetables and Vegetable Products,"Arugula, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11090",Vegetables and Vegetable Products,"Broccoli, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11965",Vegetables and Vegetable Products,"Cauliflower, Green, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"05168",Poultry Products,"Turkey, Whole, Meat only, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"09226",Fruits and Fruit Juices,"Papayas, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"10089",Pork Products,"Pork, Spareribs, Separable lean and fat, Braised",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
 "12167",Nut and Seed Products,"Nuts, Chestnuts, European, Roasted",0,,
-"09040",Fruits and Fruit Juices,"Bananas, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11253",Vegetables and Vegetable Products,"Lettuce, Green leaf, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"17106","Lamb, Veal, and Game Products","Veal, Loin, Separable lean and fat, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05140",Poultry Products,"Duck, Meat and skin, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"09277",Fruits and Fruit Juices,"Plantains, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"05009",Poultry Products,"Chicken, Meat and skin, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"09315",Fruits and Fruit Juices,"Soursop, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11080",Vegetables and Vegetable Products,"Beets, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"05166",Poultry Products,"Turkey, Whole, Meat and skin, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"11226",Vegetables and Vegetable Products,"Jerusalem-artichokes, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09176",Fruits and Fruit Juices,"Mangos, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11203",Vegetables and Vegetable Products,"Cress, Garden, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09040",Fruits and Fruit Juices,"Bananas, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11253",Vegetables and Vegetable Products,"Lettuce, Green leaf, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"17106","Lamb, Veal, and Game Products","Veal, Loin, Separable lean and fat, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05140",Poultry Products,"Duck, Meat and skin, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"09277",Fruits and Fruit Juices,"Plantains, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"05009",Poultry Products,"Chicken, Meat and skin, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"09315",Fruits and Fruit Juices,"Soursop, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11080",Vegetables and Vegetable Products,"Beets, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"05166",Poultry Products,"Turkey, Whole, Meat and skin, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"11226",Vegetables and Vegetable Products,"Jerusalem-artichokes, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09176",Fruits and Fruit Juices,"Mangos, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11203",Vegetables and Vegetable Products,"Cress, Garden, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "21472",Fast Foods,"Fried chicken, Wing",0,,
-"05064",Poultry Products,"Chicken, Breast, Meat only, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05147",Poultry Products,"Goose, Meat and skin, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"10026",Pork Products,"Pork, Loin, Whole, Separable lean only, Broiled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"11457",Vegetables and Vegetable Products,"Spinach, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11957",Vegetables and Vegetable Products,"Fennel, Bulb, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09200",Fruits and Fruit Juices,"Oranges, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11206",Vegetables and Vegetable Products,"Cucumber, Peeled, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11670",Vegetables and Vegetable Products,"Peppers, Hot chili, Green, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11819",Vegetables and Vegetable Products,"Peppers, Hot chili, Red, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09037",Fruits and Fruit Juices,"Avocados, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09218",Fruits and Fruit Juices,"Tangerines, (mandarin oranges), Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11250",Vegetables and Vegetable Products,"Lettuce, Butterhead (includes boston and bibb types), Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"05064",Poultry Products,"Chicken, Breast, Meat only, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05147",Poultry Products,"Goose, Meat and skin, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"10026",Pork Products,"Pork, Loin, Whole, Separable lean only, Broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"11457",Vegetables and Vegetable Products,"Spinach, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11957",Vegetables and Vegetable Products,"Fennel, Bulb, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09200",Fruits and Fruit Juices,"Oranges, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11206",Vegetables and Vegetable Products,"Cucumber, Peeled, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11670",Vegetables and Vegetable Products,"Peppers, Hot chili, Green, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11819",Vegetables and Vegetable Products,"Peppers, Hot chili, Red, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09037",Fruits and Fruit Juices,"Avocados, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09218",Fruits and Fruit Juices,"Tangerines, (mandarin oranges), Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11250",Vegetables and Vegetable Products,"Lettuce, Butterhead (includes boston and bibb types), Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "12014",Nut and Seed Products,"Seeds, Pumpkin and squash seed kernels, Dried",0,,
-"09307",Fruits and Fruit Juices,"Rhubarb, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11104",Vegetables and Vegetable Products,"Burdock root, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"17136","Lamb, Veal, and Game Products","Veal, Sirloin, Separable lean and fat, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"09148",Fruits and Fruit Juices,"Kiwifruit, Green, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09004",Fruits and Fruit Juices,"Apples, Raw, Without skin",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09307",Fruits and Fruit Juices,"Rhubarb, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11104",Vegetables and Vegetable Products,"Burdock root, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"17136","Lamb, Veal, and Game Products","Veal, Sirloin, Separable lean and fat, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"09148",Fruits and Fruit Juices,"Kiwifruit, Green, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09004",Fruits and Fruit Juices,"Apples, Raw, Without skin",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "11363",Vegetables and Vegetable Products,"Potatoes, Baked, Flesh",1,,
 "12147",Nut and Seed Products,"Nuts, Pine nuts, Dried",0,,
-"09059",Fruits and Fruit Juices,"Breadfruit, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09139",Fruits and Fruit Juices,"Guavas, Common, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09059",Fruits and Fruit Juices,"Breadfruit, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09139",Fruits and Fruit Juices,"Guavas, Common, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "11508",Vegetables and Vegetable Products,"Sweet potato, Baked in skin, Flesh",1,,
 "21470",Fast Foods,"Fried chicken, Drumstick",0,,
-"10022",Pork Products,"Pork, Loin, Whole, Separable lean and fat, Broiled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"11430",Vegetables and Vegetable Products,"Radishes, Oriental, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11109",Vegetables and Vegetable Products,"Cabbage, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11112",Vegetables and Vegetable Products,"Cabbage, Red, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11114",Vegetables and Vegetable Products,"Cabbage, Savoy, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"05060",Poultry Products,"Chicken, Breast, Meat and skin, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05220",Poultry Products,"Turkey, Breast, From whole bird, Non-enhanced, Meat only, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"11209",Vegetables and Vegetable Products,"Eggplant, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11152",Vegetables and Vegetable Products,"Chicory greens, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11333",Vegetables and Vegetable Products,"Peppers, Sweet, Green, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11821",Vegetables and Vegetable Products,"Peppers, Sweet, Red, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11976",Vegetables and Vegetable Products,"Pepper, Banana, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"10022",Pork Products,"Pork, Loin, Whole, Separable lean and fat, Broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"11430",Vegetables and Vegetable Products,"Radishes, Oriental, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11109",Vegetables and Vegetable Products,"Cabbage, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11112",Vegetables and Vegetable Products,"Cabbage, Red, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11114",Vegetables and Vegetable Products,"Cabbage, Savoy, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"05060",Poultry Products,"Chicken, Breast, Meat and skin, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05220",Poultry Products,"Turkey, Breast, From whole bird, Non-enhanced, Meat only, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"11209",Vegetables and Vegetable Products,"Eggplant, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11152",Vegetables and Vegetable Products,"Chicory greens, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11333",Vegetables and Vegetable Products,"Peppers, Sweet, Green, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11821",Vegetables and Vegetable Products,"Peppers, Sweet, Red, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11976",Vegetables and Vegetable Products,"Pepper, Banana, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "21469",Fast Foods,"Fried chicken, Breast",0,,
-"09159",Fruits and Fruit Juices,"Limes, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09263",Fruits and Fruit Juices,"Persimmons, Japanese, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11134",Vegetables and Vegetable Products,"Cassava, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"13840",Beef Products,"Beef, Rib, Large end (ribs 6-9), Separable lean and fat, roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"11165",Vegetables and Vegetable Products,"Coriander (cilantro) leaves, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11435",Vegetables and Vegetable Products,"Rutabagas, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11141",Vegetables and Vegetable Products,"Celeriac, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11213",Vegetables and Vegetable Products,"Endive, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11278",Vegetables and Vegetable Products,"Okra, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11601",Vegetables and Vegetable Products,"Yam, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09159",Fruits and Fruit Juices,"Limes, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09263",Fruits and Fruit Juices,"Persimmons, Japanese, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11134",Vegetables and Vegetable Products,"Cassava, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"13840",Beef Products,"Beef, Rib, Large end (ribs 6-9), Separable lean and fat, roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"11165",Vegetables and Vegetable Products,"Coriander (cilantro) leaves, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11435",Vegetables and Vegetable Products,"Rutabagas, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11141",Vegetables and Vegetable Products,"Celeriac, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11213",Vegetables and Vegetable Products,"Endive, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11278",Vegetables and Vegetable Products,"Okra, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11601",Vegetables and Vegetable Products,"Yam, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "21471",Fast Foods,"Fried chicken, Thigh",0,,
-"01139",Dairy and Egg Products,"Egg, Goose, Fresh",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"09291",Fruits and Fruit Juices,"Plums, Dried (prunes), Uncooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11215",Vegetables and Vegetable Products,"Garlic, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"01129",Dairy and Egg Products,"Egg, Hard-boiled",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"01138",Dairy and Egg Products,"Egg, Duck, Fresh",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"11052",Vegetables and Vegetable Products,"Beans, Snap, Green, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11994",Vegetables and Vegetable Products,"Broccoli, Chinese, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11124",Vegetables and Vegetable Products,"Carrots, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11143",Vegetables and Vegetable Products,"Celery, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09003",Fruits and Fruit Juices,"Apples, Raw, With skin",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09063",Fruits and Fruit Juices,"Cherries, Sour, Red, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09087",Fruits and Fruit Juices,"Dates, Deglet noor",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09252",Fruits and Fruit Juices,"Pears, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11098",Vegetables and Vegetable Products,"Brussels sprouts, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11282",Vegetables and Vegetable Products,"Onions, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11429",Vegetables and Vegetable Products,"Radishes, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09191",Fruits and Fruit Juices,"Nectarines, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09340",Fruits and Fruit Juices,"Pears, Asian, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11527",Vegetables and Vegetable Products,"Tomatoes, Green, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11529",Vegetables and Vegetable Products,"Tomatoes, Red, Ripe, Raw, Year round average",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"01139",Dairy and Egg Products,"Egg, Goose, Fresh",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"09291",Fruits and Fruit Juices,"Plums, Dried (prunes), Uncooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11215",Vegetables and Vegetable Products,"Garlic, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"01129",Dairy and Egg Products,"Egg, Hard-boiled",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"01138",Dairy and Egg Products,"Egg, Duck, Fresh",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"11052",Vegetables and Vegetable Products,"Beans, Snap, Green, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11994",Vegetables and Vegetable Products,"Broccoli, Chinese, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11124",Vegetables and Vegetable Products,"Carrots, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11143",Vegetables and Vegetable Products,"Celery, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09003",Fruits and Fruit Juices,"Apples, Raw, With skin",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09063",Fruits and Fruit Juices,"Cherries, Sour, Red, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09087",Fruits and Fruit Juices,"Dates, Deglet noor",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09252",Fruits and Fruit Juices,"Pears, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11098",Vegetables and Vegetable Products,"Brussels sprouts, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11282",Vegetables and Vegetable Products,"Onions, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11429",Vegetables and Vegetable Products,"Radishes, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09191",Fruits and Fruit Juices,"Nectarines, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09340",Fruits and Fruit Juices,"Pears, Asian, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11527",Vegetables and Vegetable Products,"Tomatoes, Green, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11529",Vegetables and Vegetable Products,"Tomatoes, Red, Ripe, Raw, Year round average",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "11831",Vegetables and Vegetable Products,"Potatoes, Boiled, Cooked in skin, Flesh",1,,
-"11952",Vegetables and Vegetable Products,"Radicchio, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"01140",Dairy and Egg Products,"Egg, Quail, Fresh",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"09070",Fruits and Fruit Juices,"Cherries, Sweet, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11147",Vegetables and Vegetable Products,"Chard, Swiss, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11591",Vegetables and Vegetable Products,"Watercress, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11603",Vegetables and Vegetable Products,"Yambean (jicama), Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11979",Vegetables and Vegetable Products,"Peppers, Jalapeno, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09021",Fruits and Fruit Juices,"Apricots, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09149",Fruits and Fruit Juices,"Kumquats, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11119",Vegetables and Vegetable Products,"Cabbage, Chinese (pe-tsai), Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11216",Vegetables and Vegetable Products,"Ginger root, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11270",Vegetables and Vegetable Products,"Mustard greens, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09279",Fruits and Fruit Juices,"Plums, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09316",Fruits and Fruit Juices,"Strawberries, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11251",Vegetables and Vegetable Products,"Lettuce, Cos or romaine, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11300",Vegetables and Vegetable Products,"Peas, Edible-podded, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"23197",Beef Products,"Beef, Rib eye steak, Boneless, Lip-on, Separable lean and fat, cooked, grilled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"09050",Fruits and Fruit Juices,"Blueberries, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11952",Vegetables and Vegetable Products,"Radicchio, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"01140",Dairy and Egg Products,"Egg, Quail, Fresh",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"09070",Fruits and Fruit Juices,"Cherries, Sweet, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11147",Vegetables and Vegetable Products,"Chard, Swiss, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11591",Vegetables and Vegetable Products,"Watercress, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11603",Vegetables and Vegetable Products,"Yambean (jicama), Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11979",Vegetables and Vegetable Products,"Peppers, Jalapeno, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09021",Fruits and Fruit Juices,"Apricots, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09149",Fruits and Fruit Juices,"Kumquats, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11119",Vegetables and Vegetable Products,"Cabbage, Chinese (pe-tsai), Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11216",Vegetables and Vegetable Products,"Ginger root, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11270",Vegetables and Vegetable Products,"Mustard greens, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09279",Fruits and Fruit Juices,"Plums, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09316",Fruits and Fruit Juices,"Strawberries, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11251",Vegetables and Vegetable Products,"Lettuce, Cos or romaine, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11300",Vegetables and Vegetable Products,"Peas, Edible-podded, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"23197",Beef Products,"Beef, Rib eye steak, Boneless, Lip-on, Separable lean and fat, cooked, grilled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"09050",Fruits and Fruit Juices,"Blueberries, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09281",Fruits and Fruit Juices,"Plums, Canned, Purple, in water",1,,
 "09284",Fruits and Fruit Juices,"Plums, Canned, Purple, in syrup",1,,
-"11252",Vegetables and Vegetable Products,"Lettuce, Iceberg (includes crisphead types), Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11252",Vegetables and Vegetable Products,"Lettuce, Iceberg (includes crisphead types), Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "11297",Vegetables and Vegetable Products,"Parsley, Fresh",1,,
-"11641",Vegetables and Vegetable Products,"Squash, Summer, All varieties, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11974",Vegetables and Vegetable Products,"Grape leaves, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09042",Fruits and Fruit Juices,"Blackberries, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09094",Fruits and Fruit Juices,"Figs, Dried, Uncooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09132",Fruits and Fruit Juices,"Grapes, Red or green (european type, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09236",Fruits and Fruit Juices,"Peaches, Yellow, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09302",Fruits and Fruit Juices,"Raspberries, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11291",Vegetables and Vegetable Products,"Onions, Spring or scallions (includes tops and bulb), Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11963",Vegetables and Vegetable Products,"Nopales, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"13930",Beef Products,"Beef, Top sirloin, Steak, Separable lean and fat, broiled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"09060",Fruits and Fruit Juices,"Carambola, (starfruit), Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11205",Vegetables and Vegetable Products,"Cucumber, With peel, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11977",Vegetables and Vegetable Products,"Peppers, Serrano, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09078",Fruits and Fruit Juices,"Cranberries, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09084",Fruits and Fruit Juices,"Currants, Red and white, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09089",Fruits and Fruit Juices,"Figs, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11149",Vegetables and Vegetable Products,"Chayote, Fruit, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"13347",Beef Products,"Beef, Corned beef, Brisket, Cooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"13804",Beef Products,"Beef, Brisket, Whole, Separable lean and fat, braised",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"01004",Dairy and Egg Products,"Cheese, Blue",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01005",Dairy and Egg Products,"Cheese, Brick",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01006",Dairy and Egg Products,"Cheese, Brie",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01007",Dairy and Egg Products,"Cheese, Camembert",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01009",Dairy and Egg Products,"Cheese, Cheddar",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01011",Dairy and Egg Products,"Cheese, Colby",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01012",Dairy and Egg Products,"Cheese, Cottage, Creamed, Large or small curd",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01017",Dairy and Egg Products,"Cheese, Cream",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01018",Dairy and Egg Products,"Cheese, Edam",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01019",Dairy and Egg Products,"Cheese, Feta",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01020",Dairy and Egg Products,"Cheese, Fontina",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01022",Dairy and Egg Products,"Cheese, Gouda",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01023",Dairy and Egg Products,"Cheese, Gruyere",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01024",Dairy and Egg Products,"Cheese, Limburger",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01025",Dairy and Egg Products,"Cheese, Monterey",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01026",Dairy and Egg Products,"Cheese, Mozzarella, Whole milk",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01028",Dairy and Egg Products,"Cheese, Mozzarella, Part skim milk",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01030",Dairy and Egg Products,"Cheese, Muenster",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01033",Dairy and Egg Products,"Cheese, Parmesan, Hard",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01034",Dairy and Egg Products,"Cheese, Port de salut",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01035",Dairy and Egg Products,"Cheese, Provolone",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01036",Dairy and Egg Products,"Cheese, Ricotta, Whole milk",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01038",Dairy and Egg Products,"Cheese, Romano",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01040",Dairy and Egg Products,"Cheese, Swiss",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01043",Dairy and Egg Products,"Cheese, Pasteurized process, Pimento",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01044",Dairy and Egg Products,"Cheese, Pasteurized process, Swiss",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"11641",Vegetables and Vegetable Products,"Squash, Summer, All varieties, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11974",Vegetables and Vegetable Products,"Grape leaves, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09042",Fruits and Fruit Juices,"Blackberries, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09094",Fruits and Fruit Juices,"Figs, Dried, Uncooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09132",Fruits and Fruit Juices,"Grapes, Red or green (european type, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09236",Fruits and Fruit Juices,"Peaches, Yellow, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09302",Fruits and Fruit Juices,"Raspberries, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11291",Vegetables and Vegetable Products,"Onions, Spring or scallions (includes tops and bulb), Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11963",Vegetables and Vegetable Products,"Nopales, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"13930",Beef Products,"Beef, Top sirloin, Steak, Separable lean and fat, broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"09060",Fruits and Fruit Juices,"Carambola, (starfruit), Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11205",Vegetables and Vegetable Products,"Cucumber, With peel, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11977",Vegetables and Vegetable Products,"Peppers, Serrano, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"09078",Fruits and Fruit Juices,"Cranberries, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09084",Fruits and Fruit Juices,"Currants, Red and white, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09089",Fruits and Fruit Juices,"Figs, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"11149",Vegetables and Vegetable Products,"Chayote, Fruit, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"13347",Beef Products,"Beef, Corned beef, Brisket, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"13804",Beef Products,"Beef, Brisket, Whole, Separable lean and fat, braised",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"01004",Dairy and Egg Products,"Cheese, Blue",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01005",Dairy and Egg Products,"Cheese, Brick",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01006",Dairy and Egg Products,"Cheese, Brie",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01007",Dairy and Egg Products,"Cheese, Camembert",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01009",Dairy and Egg Products,"Cheese, Cheddar",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01011",Dairy and Egg Products,"Cheese, Colby",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01012",Dairy and Egg Products,"Cheese, Cottage, Creamed, Large or small curd",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01017",Dairy and Egg Products,"Cheese, Cream",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01018",Dairy and Egg Products,"Cheese, Edam",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01019",Dairy and Egg Products,"Cheese, Feta",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01020",Dairy and Egg Products,"Cheese, Fontina",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01022",Dairy and Egg Products,"Cheese, Gouda",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01023",Dairy and Egg Products,"Cheese, Gruyere",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01024",Dairy and Egg Products,"Cheese, Limburger",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01025",Dairy and Egg Products,"Cheese, Monterey",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01026",Dairy and Egg Products,"Cheese, Mozzarella, Whole milk",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01028",Dairy and Egg Products,"Cheese, Mozzarella, Part skim milk",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01030",Dairy and Egg Products,"Cheese, Muenster",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01033",Dairy and Egg Products,"Cheese, Parmesan, Hard",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01034",Dairy and Egg Products,"Cheese, Port de salut",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01035",Dairy and Egg Products,"Cheese, Provolone",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01036",Dairy and Egg Products,"Cheese, Ricotta, Whole milk",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01038",Dairy and Egg Products,"Cheese, Romano",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01040",Dairy and Egg Products,"Cheese, Swiss",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01043",Dairy and Egg Products,"Cheese, Pasteurized process, Pimento",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01044",Dairy and Egg Products,"Cheese, Pasteurized process, Swiss",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
 "01054",Dairy and Egg Products,"Cream, Whipped, Cream topping, Pressurized",1,,
 "01055",Dairy and Egg Products,"Cream, Sour, Reduced fat, Cultured",1,,
 "01057",Dairy and Egg Products,Eggnog,1,,
-"01089",Dairy and Egg Products,"Milk, Low sodium, Fluid",1,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01095",Dairy and Egg Products,"Milk, Canned, Condensed, Sweetened",1,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01107",Dairy and Egg Products,"Milk, Human, Mature, Fluid",1,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"01089",Dairy and Egg Products,"Milk, Low sodium, Fluid",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
+"01095",Dairy and Egg Products,"Milk, Canned, Condensed, Sweetened",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
+"01107",Dairy and Egg Products,"Milk, Human, Mature, Fluid",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
 "01115",Dairy and Egg Products,"Whey, Sweet, Dried",1,,
 "01116",Dairy and Egg Products,"Yogurt, Plain, Whole milk, 8 grams protein per 8 ounce",1,,
 "01117",Dairy and Egg Products,"Yogurt, Plain, Low fat, 12 grams protein per 8 ounce",1,,
 "01118",Dairy and Egg Products,"Yogurt, Plain, Skim milk, 13 grams protein per 8 ounce",1,,
-"01124",Dairy and Egg Products,"Egg, White, Fresh",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"01125",Dairy and Egg Products,"Egg, Yolk, Fresh",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"01128",Dairy and Egg Products,"Egg, Fried",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"01130",Dairy and Egg Products,"Egg, Omelet",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"01131",Dairy and Egg Products,"Egg, Poached",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
-"01132",Dairy and Egg Products,"Egg, Scrambled",1,Caution,Only eat eggs that are thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses.
+"01124",Dairy and Egg Products,"Egg, White, Fresh",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"01125",Dairy and Egg Products,"Egg, Yolk, Fresh",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"01128",Dairy and Egg Products,"Egg, Fried",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"01130",Dairy and Egg Products,"Egg, Omelet",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"01131",Dairy and Egg Products,"Egg, Poached",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
+"01132",Dairy and Egg Products,"Egg, Scrambled",1,Caution,"Cook eggs until the yolks and whites are firm. Use pasteurized eggs in foods that will not be cooked to a safe temperature."
 "01144",Dairy and Egg Products,"Egg substitute, Powder",1,,
-"01156",Dairy and Egg Products,"Cheese, Goat, Hard type",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01157",Dairy and Egg Products,"Cheese, Goat, Semisoft type",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01159",Dairy and Egg Products,"Cheese, Goat, Soft type",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"01156",Dairy and Egg Products,"Cheese, Goat, Hard type",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01157",Dairy and Egg Products,"Cheese, Goat, Semisoft type",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"01159",Dairy and Egg Products,"Cheese, Goat, Soft type",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
 "01178",Dairy and Egg Products,"Sour cream, Reduced fat",1,,
 "01179",Dairy and Egg Products,"Sour cream, Light",1,,
 "01180",Dairy and Egg Products,"Sour cream, Fat free",1,,
-"01185",Dairy and Egg Products,"Parmesan cheese topping, Fat free",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"01185",Dairy and Egg Products,"Parmesan cheese topping, Fat free",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
 "01200",Dairy and Egg Products,Reddi wip fat free whipped topping,1,,
 "01223",Dairy and Egg Products,"Protein supplement, Milk based, Muscle milk, Powder",0,,
 "01225",Dairy and Egg Products,Dulce de leche,1,,
-"01230",Dairy and Egg Products,"Milk, Buttermilk, Fluid",1,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"01230",Dairy and Egg Products,"Milk, Buttermilk, Fluid",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
 "01236",Dairy and Egg Products,"Ice cream, Soft serve, Chocolate",1,,
 "01237",Dairy and Egg Products,"Ice cream, Bar or stick, Chocolate covered",1,,
 "01238",Dairy and Egg Products,Ice cream sandwich,1,,
 "01239",Dairy and Egg Products,Ice cream cookie sandwich,1,,
 "01240",Dairy and Egg Products,"Ice cream cone, Chocolate covered, With nuts, Flavors other than chocolate",1,,
 "01243",Dairy and Egg Products,"Fat free ice cream, No sugar added, Flavors other than chocolate",0,,
-"01244",Dairy and Egg Products,"Milk dessert bar, Frozen, Made from lowfat milk",1,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"01251",Dairy and Egg Products,"Cheese, Mexican blend",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"01244",Dairy and Egg Products,"Milk dessert bar, Frozen, Made from lowfat milk",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
+"01251",Dairy and Egg Products,"Cheese, Mexican blend",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
 "01256",Dairy and Egg Products,"Yogurt, Greek, Nonfat",1,,
 "01263",Dairy and Egg Products,"Ice cream, Light, Soft serve, Chocolate",1,,
-"01270",Dairy and Egg Products,"Cheese, Cheddar, Sharp, Sliced",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"01270",Dairy and Egg Products,"Cheese, Cheddar, Sharp, Sliced",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
 "01287",Dairy and Egg Products,"Yogurt, Greek, Lowfat",1,,
 "01289",Dairy and Egg Products,"Kefir, Lowfat, Lifeway",1,,
 "01290",Dairy and Egg Products,"Kefir, Lowfat, Strawberry, Lifeway",1,,
@@ -236,7 +236,7 @@
 "01300",Dairy and Egg Products,"Ice cream bar, Covered with chocolate and nuts",1,,
 "01301",Dairy and Egg Products,Ice cream sundae cone,1,,
 "01302",Dairy and Egg Products,"Light ice cream, Creamsicle",1,,
-"01305",Dairy and Egg Products,"Milk, Chocolate, Lowfat, Reduced sugar",1,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"01305",Dairy and Egg Products,"Milk, Chocolate, Lowfat, Reduced sugar",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
 "01306",Dairy and Egg Products,"Ice cream, Lowfat, No sugar added, Cone, Added peanuts and chocolate sauce",0,,
 "04001",Fats and Oils,"Fat, Beef tallow",0,,
 "04002",Fats and Oils,Lard,0,,
@@ -298,13 +298,13 @@
 "04706",Fats and Oils,"Dressing, Honey mustard, Fat-free",0,,
 "04708",Fats and Oils,"Mayonnaise, Reduced fat, With olive oil",0,,
 "04709",Fats and Oils,"Salad dressing, Mayonnaise-type, Light",0,,
-"05028",Poultry Products,"Chicken, Liver, Cooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05277",Poultry Products,"Chicken, Canned, Meat only, With broth",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05284",Poultry Products,"Turkey, Canned, Meat only, With broth",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05306",Poultry Products,"Ground turkey, Cooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05324",Poultry Products,"Chicken patty, Frozen, Cooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05327",Poultry Products,"Chicken breast tenders, Breaded, Uncooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"05642",Poultry Products,"Ostrich, Ground, Pan-broiled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
+"05028",Poultry Products,"Chicken, Liver, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05277",Poultry Products,"Chicken, Canned, Meat only, With broth",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05284",Poultry Products,"Turkey, Canned, Meat only, With broth",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05306",Poultry Products,"Ground turkey, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05324",Poultry Products,"Chicken patty, Frozen, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05327",Poultry Products,"Chicken breast tenders, Breaded, Uncooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05642",Poultry Products,"Ostrich, Ground, Pan-broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
 "06008","Soups, Sauces, and Gravies","Soup, Beef broth or bouillon canned",0,,
 "06015","Soups, Sauces, and Gravies","Soup, Chicken, Canned, Chunky",0,,
 "06018","Soups, Sauces, and Gravies","Soup, Chunky chicken noodle, Canned",0,,
@@ -339,16 +339,16 @@
 "06971","Soups, Sauces, and Gravies","Sauce, Worcestershire",0,,
 "06972","Soups, Sauces, and Gravies","Sauce, Tomato chili sauce, Bottled",0,,
 "06980","Soups, Sauces, and Gravies","Soup, Beef stroganoff, Canned, Chunky style",0,,
-"07010",Sausages and Luncheon Meats,"Bologna, Pork",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07013",Sausages and Luncheon Meats,"Bratwurst, Pork, Cooked",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07019",Sausages and Luncheon Meats,"Chorizo, Pork and beef",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07057",Sausages and Luncheon Meats,"Pepperoni, Beef and pork, Sliced",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07072",Sausages and Luncheon Meats,"Salami, Dry or hard, Pork, Beef",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07081",Sausages and Luncheon Meats,"Turkey breast, Sliced, Prepackaged",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07089",Sausages and Luncheon Meats,"Sausage, Italian, Pork, Cooked",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07919",Sausages and Luncheon Meats,"Sausage, Turkey, Breakfast links, Mild",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07956",Sausages and Luncheon Meats,"Beef sausage, Cooked",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
-"07974",Sausages and Luncheon Meats,"Bacon, Turkey, Low sodium",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
+"07010",Sausages and Luncheon Meats,"Bologna, Pork",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07013",Sausages and Luncheon Meats,"Bratwurst, Pork, Cooked",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07019",Sausages and Luncheon Meats,"Chorizo, Pork and beef",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07057",Sausages and Luncheon Meats,"Pepperoni, Beef and pork, Sliced",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07072",Sausages and Luncheon Meats,"Salami, Dry or hard, Pork, Beef",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07081",Sausages and Luncheon Meats,"Turkey breast, Sliced, Prepackaged",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07089",Sausages and Luncheon Meats,"Sausage, Italian, Pork, Cooked",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07919",Sausages and Luncheon Meats,"Sausage, Turkey, Breakfast links, Mild",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07956",Sausages and Luncheon Meats,"Beef sausage, Cooked",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
+"07974",Sausages and Luncheon Meats,"Bacon, Turkey, Low sodium",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
 "08001",Breakfast Cereals,"Cereal, Kellogg's all-bran original",0,,
 "08002",Breakfast Cereals,"Cereal, Alpha-bits",0,,
 "08003",Breakfast Cereals,"Cereal, Kellogg's apple jacks",0,,
@@ -503,95 +503,95 @@
 "08655",Breakfast Cereals,"Cereal, Honey bunches of oats, Pecan bunches",0,,
 "08656",Breakfast Cereals,"Cereal, Organic flax plus flakes",0,,
 "08657",Breakfast Cereals,"Cereal, Original",0,,
-"09009",Fruits and Fruit Juices,"Apples, Dehydrated (low moisture), Uncooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09011",Fruits and Fruit Juices,"Apples, Dried, Uncooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09016",Fruits and Fruit Juices,"Apple juice, Canned or bottled, Unsweetened",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"09009",Fruits and Fruit Juices,"Apples, Dehydrated (low moisture), Uncooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09011",Fruits and Fruit Juices,"Apples, Dried, Uncooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09016",Fruits and Fruit Juices,"Apple juice, Canned or bottled, Unsweetened",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
 "09019",Fruits and Fruit Juices,"Applesauce, Canned, Unsweetened",1,,
 "09022",Fruits and Fruit Juices,"Apricots, Canned, in water, With skin",1,,
 "09027",Fruits and Fruit Juices,"Apricots, Canned, in syrup, With skin",1,,
-"09032",Fruits and Fruit Juices,"Apricots, Dried, Uncooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09032",Fruits and Fruit Juices,"Apricots, Dried, Uncooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09036",Fruits and Fruit Juices,"Apricot nectar, Canned",1,,
-"09041",Fruits and Fruit Juices,"Bananas, Dehydrated",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09043",Fruits and Fruit Juices,"Blackberry juice, Canned",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09044",Fruits and Fruit Juices,"Cherries, Tart, Dried, Sweetened",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09041",Fruits and Fruit Juices,"Bananas, Dehydrated",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09043",Fruits and Fruit Juices,"Blackberry juice, Canned",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09044",Fruits and Fruit Juices,"Cherries, Tart, Dried, Sweetened",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09046",Fruits and Fruit Juices,"Blackberries, Canned, in syrup",1,,
-"09048",Fruits and Fruit Juices,"Blackberries, Frozen, Unsweetened",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09048",Fruits and Fruit Juices,"Blackberries, Frozen, Unsweetened",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09052",Fruits and Fruit Juices,"Blueberries, Canned, in syrup",1,,
-"09057",Fruits and Fruit Juices,"Boysenberries, Frozen, Unsweetened",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09057",Fruits and Fruit Juices,"Boysenberries, Frozen, Unsweetened",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09066",Fruits and Fruit Juices,"Cherries, Sour, Red, Canned, in syrup",1,,
 "09074",Fruits and Fruit Juices,"Cherries, Sweet, Canned, Pitted, in syrup",1,,
-"09079",Fruits and Fruit Juices,"Cranberries, Dried, Sweetened",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09079",Fruits and Fruit Juices,"Cranberries, Dried, Sweetened",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09081",Fruits and Fruit Juices,"Cranberry sauce, Canned, Sweetened",1,,
-"09085",Fruits and Fruit Juices,"Currants, Zante, Dried",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09085",Fruits and Fruit Juices,"Currants, Zante, Dried",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09092",Fruits and Fruit Juices,"Figs, Canned, in syrup",1,,
 "09105",Fruits and Fruit Juices,"Fruit salad, (peach and pear and apricot and pineapple and cherry), Canned, in syrup",1,,
-"09128",Fruits and Fruit Juices,"Grapefruit juice, White, Raw",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"09128",Fruits and Fruit Juices,"Grapefruit juice, White, Raw",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
 "09134",Fruits and Fruit Juices,"Grapes, Canned, Thompson seedless, in syrup",1,,
-"09135",Fruits and Fruit Juices,"Grape juice, Canned or bottled, Unsweetened",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09143",Fruits and Fruit Juices,"Guava sauce, Cooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09152",Fruits and Fruit Juices,"Lemon juice, Raw",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09153",Fruits and Fruit Juices,"Lemon juice from concentrate, Canned or bottled",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09160",Fruits and Fruit Juices,"Lime juice, Raw",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09161",Fruits and Fruit Juices,"Lime juice, Canned or bottled, Unsweetened",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09163",Fruits and Fruit Juices,"Blueberries, Dried, Sweetened",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09167",Fruits and Fruit Juices,"Loganberries, Frozen",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09178",Fruits and Fruit Juices,"Mango, Dried, Sweetened",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09190",Fruits and Fruit Juices,"Mulberries, Raw",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09135",Fruits and Fruit Juices,"Grape juice, Canned or bottled, Unsweetened",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09143",Fruits and Fruit Juices,"Guava sauce, Cooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09152",Fruits and Fruit Juices,"Lemon juice, Raw",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09153",Fruits and Fruit Juices,"Lemon juice from concentrate, Canned or bottled",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09160",Fruits and Fruit Juices,"Lime juice, Raw",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09161",Fruits and Fruit Juices,"Lime juice, Canned or bottled, Unsweetened",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09163",Fruits and Fruit Juices,"Blueberries, Dried, Sweetened",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09167",Fruits and Fruit Juices,"Loganberries, Frozen",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09178",Fruits and Fruit Juices,"Mango, Dried, Sweetened",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09190",Fruits and Fruit Juices,"Mulberries, Raw",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09193",Fruits and Fruit Juices,"Olives, Ripe, Canned (small-extra large)",1,,
 "09195",Fruits and Fruit Juices,"Olives, Pickled, Canned or bottled, Green",1,,
-"09206",Fruits and Fruit Juices,"Orange juice, Raw",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09207",Fruits and Fruit Juices,"Orange juice, Canned, Unsweetened",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09209",Fruits and Fruit Juices,"Orange juice, Chilled, Includes from concentrate",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09219",Fruits and Fruit Juices,"Tangerines, (mandarin oranges), Canned, in juice",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09221",Fruits and Fruit Juices,"Tangerine juice, Raw",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"09206",Fruits and Fruit Juices,"Orange juice, Raw",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09207",Fruits and Fruit Juices,"Orange juice, Canned, Unsweetened",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09209",Fruits and Fruit Juices,"Orange juice, Chilled, Includes from concentrate",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09219",Fruits and Fruit Juices,"Tangerines, (mandarin oranges), Canned, in juice",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09221",Fruits and Fruit Juices,"Tangerine juice, Raw",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
 "09229",Fruits and Fruit Juices,"Papaya nectar, Canned",1,,
-"09232",Fruits and Fruit Juices,"Passion-fruit juice, Purple, Raw",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09233",Fruits and Fruit Juices,"Passion-fruit juice, Yellow, Raw",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"09232",Fruits and Fruit Juices,"Passion-fruit juice, Purple, Raw",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09233",Fruits and Fruit Juices,"Passion-fruit juice, Yellow, Raw",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
 "09237",Fruits and Fruit Juices,"Peaches, Canned, in water",1,,
 "09241",Fruits and Fruit Juices,"Peaches, Canned, in syrup",1,,
-"09246",Fruits and Fruit Juices,"Peaches, Dried, Uncooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09246",Fruits and Fruit Juices,"Peaches, Dried, Uncooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09251",Fruits and Fruit Juices,"Peach nectar, Canned",1,,
 "09253",Fruits and Fruit Juices,"Pears, Canned, in water",1,,
 "09257",Fruits and Fruit Juices,"Pears, Canned, in syrup",1,,
-"09259",Fruits and Fruit Juices,"Pears, Dried, Uncooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09259",Fruits and Fruit Juices,"Pears, Dried, Uncooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09262",Fruits and Fruit Juices,"Pear nectar, Canned",1,,
 "09267",Fruits and Fruit Juices,"Pineapple, Canned, in water",1,,
 "09270",Fruits and Fruit Juices,"Pineapple, Canned, in syrup",1,,
-"09278",Fruits and Fruit Juices,"Plantains, Cooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09294",Fruits and Fruit Juices,"Prune juice, Canned",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09297",Fruits and Fruit Juices,"Raisins, Golden seedless",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"09298",Fruits and Fruit Juices,"Raisins, Seedless",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09278",Fruits and Fruit Juices,"Plantains, Cooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09294",Fruits and Fruit Juices,"Prune juice, Canned",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09297",Fruits and Fruit Juices,"Raisins, Golden seedless",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
+"09298",Fruits and Fruit Juices,"Raisins, Seedless",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09304",Fruits and Fruit Juices,"Raspberries, Canned, Red, in syrup",1,,
-"09309",Fruits and Fruit Juices,"Rhubarb, Frozen, Uncooked",1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09309",Fruits and Fruit Juices,"Rhubarb, Frozen, Uncooked",1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09317",Fruits and Fruit Juices,"Strawberries, Canned, in syrup",1,,
 "09328",Fruits and Fruit Juices,"Maraschino cherries, Canned",1,,
 "09352",Fruits and Fruit Juices,"Blueberries, Canned, in syrup",1,,
-"09409",Fruits and Fruit Juices,"Pineapple juice, Canned or bottled, Unsweetened, With added ascorbic acid",0,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09426",Fruits and Fruit Juices,Candied fruit,1,Caution,Wash fruits thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09409",Fruits and Fruit Juices,"Pineapple juice, Canned or bottled, Unsweetened, With added ascorbic acid",0,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09426",Fruits and Fruit Juices,Candied fruit,1,Caution,"Wash fresh fruit before eating and keep cut fruit refrigerated. Follow CDC guidance for safe handling during pregnancy."
 "09434",Fruits and Fruit Juices,"Guanabana nectar, Canned",1,,
 "09436",Fruits and Fruit Juices,"Mango nectar, Canned",1,,
-"09442",Fruits and Fruit Juices,"Pomegranate juice, Bottled",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09508",Fruits and Fruit Juices,"Fruit juice smoothie, Naked juice, Green machine",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09513",Fruits and Fruit Juices,"Fruit juice smoothie, Odwalla, Original superfood",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09515",Fruits and Fruit Juices,"Fruit juice smoothie, Bolthouse farms, Green goodness",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09516",Fruits and Fruit Juices,"Fruit juice smoothie, Bolthouse farms, Strawberry banana",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"09442",Fruits and Fruit Juices,"Pomegranate juice, Bottled",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09508",Fruits and Fruit Juices,"Fruit juice smoothie, Naked juice, Green machine",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09513",Fruits and Fruit Juices,"Fruit juice smoothie, Odwalla, Original superfood",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09515",Fruits and Fruit Juices,"Fruit juice smoothie, Bolthouse farms, Green goodness",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09516",Fruits and Fruit Juices,"Fruit juice smoothie, Bolthouse farms, Strawberry banana",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
 "09519",Fruits and Fruit Juices,"Guava nectar, With sucralose, Canned",1,,
-"09530",Fruits and Fruit Juices,"Fruit juice smoothie, Odwalla, Strawberry banana",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"09531",Fruits and Fruit Juices,"Fruit juice smoothie, Naked juice, Strawberry banana",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"10007",Pork Products,"Pork, Separable fat, Cooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"10136",Pork Products,"Pork, Ham, Boneless, Regular (approximately 11% fat), Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"10182",Pork Products,"Pork, Ham, Boneless, Extra lean and regular, Unheated",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"10220",Pork Products,"Pork, Ground, Cooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"10862",Pork Products,"Pork, Bacon, Pre-sliced, Pan-fried",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"10998",Pork Products,"Canadian bacon, Pan-fried",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"11001",Vegetables and Vegetable Products,"Alfalfa seeds, Sprouted, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"09530",Fruits and Fruit Juices,"Fruit juice smoothie, Odwalla, Strawberry banana",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"09531",Fruits and Fruit Juices,"Fruit juice smoothie, Naked juice, Strawberry banana",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
+"10007",Pork Products,"Pork, Separable fat, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"10136",Pork Products,"Pork, Ham, Boneless, Regular (approximately 11% fat), Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"10182",Pork Products,"Pork, Ham, Boneless, Extra lean and regular, Unheated",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"10220",Pork Products,"Pork, Ground, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"10862",Pork Products,"Pork, Bacon, Pre-sliced, Pan-fried",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"10998",Pork Products,"Canadian bacon, Pan-fried",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"11001",Vegetables and Vegetable Products,"Alfalfa seeds, Sprouted, Raw",1,Avoid,"CDC lists raw or undercooked sprouts as a riskier choice during pregnancy; cook sprouts until steaming hot before eating."
 "11012",Vegetables and Vegetable Products,"Asparagus, Boiled",1,,
 "11015",Vegetables and Vegetable Products,"Asparagus, Canned",1,,
 "11023",Vegetables and Vegetable Products,"Balsam-pear (bitter gourd), Leafy tips, Boiled",1,,
 "11025",Vegetables and Vegetable Products,"Balsam-pear (bitter gourd), Pods, Boiled",1,,
 "11028",Vegetables and Vegetable Products,"Bamboo shoots, Canned",1,,
 "11032",Vegetables and Vegetable Products,"Lima beans, Immature seeds, Boiled",1,,
-"11043",Vegetables and Vegetable Products,"Mung beans, Mature seeds, Sprouted, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11043",Vegetables and Vegetable Products,"Mung beans, Mature seeds, Sprouted, Raw",1,Avoid,"CDC lists raw or undercooked sprouts as a riskier choice during pregnancy; cook sprouts until steaming hot before eating."
 "11050",Vegetables and Vegetable Products,"Beans, Shellie, Canned",1,,
 "11053",Vegetables and Vegetable Products,"Beans, Snap, Green, Boiled",1,,
 "11056",Vegetables and Vegetable Products,"Beans, Snap, Green, Canned",1,,
@@ -599,7 +599,7 @@
 "11084",Vegetables and Vegetable Products,"Beets, Canned",1,,
 "11087",Vegetables and Vegetable Products,"Beet greens, Boiled",1,,
 "11091",Vegetables and Vegetable Products,"Broccoli, Boiled",1,,
-"11096",Vegetables and Vegetable Products,"Broccoli raab, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11096",Vegetables and Vegetable Products,"Broccoli raab, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "11097",Vegetables and Vegetable Products,"Broccoli raab, Cooked",1,,
 "11099",Vegetables and Vegetable Products,"Brussels sprouts, Boiled",1,,
 "11105",Vegetables and Vegetable Products,"Burdock root, Boiled",1,,
@@ -612,13 +612,13 @@
 "11136",Vegetables and Vegetable Products,"Cauliflower, Boiled",1,,
 "11144",Vegetables and Vegetable Products,"Celery, Boiled",1,,
 "11148",Vegetables and Vegetable Products,"Chard, Swiss, Boiled",1,,
-"11156",Vegetables and Vegetable Products,"Chives, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11156",Vegetables and Vegetable Products,"Chives, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "11158",Vegetables and Vegetable Products,"Chrysanthemum, Garland, Boiled",1,,
 "11162",Vegetables and Vegetable Products,"Collards, Boiled",1,,
 "11172",Vegetables and Vegetable Products,"Corn, Sweet, Yellow, Canned, Whole kernel",1,,
 "11192",Vegetables and Vegetable Products,"Cowpeas (blackeyes), Immature seeds, Boiled",1,,
 "11204",Vegetables and Vegetable Products,"Cress, Garden, Boiled",1,,
-"11207",Vegetables and Vegetable Products,"Dandelion greens, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11207",Vegetables and Vegetable Products,"Dandelion greens, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "11208",Vegetables and Vegetable Products,"Dandelion greens, Boiled",1,,
 "11210",Vegetables and Vegetable Products,"Eggplant, Boiled",1,,
 "11212",Vegetables and Vegetable Products,"Edamame, Frozen, Prepared",1,,
@@ -664,10 +664,10 @@
 "11436",Vegetables and Vegetable Products,"Rutabagas, Boiled",1,,
 "11438",Vegetables and Vegetable Products,"Salsify, Boiled",1,,
 "11439",Vegetables and Vegetable Products,"Sauerkraut, Canned",1,,
-"11442",Vegetables and Vegetable Products,"Seaweed, Agar, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11444",Vegetables and Vegetable Products,"Seaweed, Irishmoss, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11445",Vegetables and Vegetable Products,"Seaweed, Kelp, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
-"11446",Vegetables and Vegetable Products,"Seaweed, Laver, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11442",Vegetables and Vegetable Products,"Seaweed, Agar, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11444",Vegetables and Vegetable Products,"Seaweed, Irishmoss, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11445",Vegetables and Vegetable Products,"Seaweed, Kelp, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
+"11446",Vegetables and Vegetable Products,"Seaweed, Laver, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "11453",Vegetables and Vegetable Products,"Soybeans, Mature seeds, Sprouted, Steamed",1,,
 "11458",Vegetables and Vegetable Products,"Spinach, Boiled",1,,
 "11461",Vegetables and Vegetable Products,"Spinach, Canned",1,,
@@ -702,7 +702,7 @@
 "11659",Vegetables and Vegetable Products,"Sweet potato, Candied, Home-prepared",1,,
 "11663",Vegetables and Vegetable Products,"Seaweed, Agar, Dried",1,,
 "11667",Vegetables and Vegetable Products,"Seaweed, Spirulina, Dried",1,,
-"11669",Vegetables and Vegetable Products,"Seaweed, Wakame, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"11669",Vegetables and Vegetable Products,"Seaweed, Wakame, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "11674",Vegetables and Vegetable Products,"Potatoes, Baked, Flesh and skin",1,,
 "11715",Vegetables and Vegetable Products,"Lima beans, Immature seeds, Canned",1,,
 "11718",Vegetables and Vegetable Products,"Mung beans, Mature seeds, Sprouted, Boiled",1,,
@@ -749,9 +749,9 @@
 "12632",Nut and Seed Products,"Nuts, Macadamia nuts, Dry roasted",0,,
 "12635",Nut and Seed Products,"Nuts, Mixed nuts, Dry roasted, With peanuts",0,,
 "12695",Nut and Seed Products,"Nuts, Almond butter",0,,
-"13317",Beef Products,"Beef, Ground, Patties, Broiled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"13327",Beef Products,"Beef, Liver, Cooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"13355",Sausages and Luncheon Meats,"Beef, Pastrami",0,Caution,"Deli meats can be contaminated with listeria, for safety heat until its steaming. Pregnant women are more sensitive to foodbourne illnesses"
+"13317",Beef Products,"Beef, Ground, Patties, Broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"13327",Beef Products,"Beef, Liver, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"13355",Sausages and Luncheon Meats,"Beef, Pastrami",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
 "14016",Beverages,"Almond milk, Sweetened, Vanilla flavor",0,,
 "14038",Beverages,"Ocean spray, Cran-energy, Cranberry energy juice drink",0,,
 "14044",Beverages,"Slimfast, Meal replacement, high protein shake, 3-2-1 plan",0,,
@@ -901,17 +901,17 @@
 "16326",Legumes and Legume Products,"Beans, Great northern, Mature seeds, Canned, Low sodium",1,,
 "16347",Legumes and Legume Products,"Beans, Pinto, Mature seeds, Canned, Low sodium",1,,
 "16397",Legumes and Legume Products,"Peanut butter, Chunk style",1,,
-"17060","Lamb, Veal, and Game Products","Lamb, Cubed for stew or kabob (leg and shoulder), Separable lean only, Braised",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17143","Lamb, Veal, and Game Products","Veal, Ground, Broiled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17157","Lamb, Veal, and Game Products","Game meat, Bison, Separable lean only, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17159","Lamb, Veal, and Game Products","Game meat, Boar, Wild, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17169","Lamb, Veal, and Game Products","Game meat, Goat, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17173","Lamb, Veal, and Game Products","Game meat, Moose, Roasted",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17179","Lamb, Veal, and Game Products","Game meat, Rabbit, Composite of cuts, Stewed",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17181","Lamb, Veal, and Game Products","Game meat, Rabbit, Wild, Stewed",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17225","Lamb, Veal, and Game Products","Lamb, Ground, Broiled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17344","Lamb, Veal, and Game Products","Game meat, Deer, Ground, Pan-broiled",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"17346","Lamb, Veal, and Game Products","Game meat, Deer, Shoulder clod, Separable lean only, 3-5 lb roast, Braised",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
+"17060","Lamb, Veal, and Game Products","Lamb, Cubed for stew or kabob (leg and shoulder), Separable lean only, Braised",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17143","Lamb, Veal, and Game Products","Veal, Ground, Broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17157","Lamb, Veal, and Game Products","Game meat, Bison, Separable lean only, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17159","Lamb, Veal, and Game Products","Game meat, Boar, Wild, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17169","Lamb, Veal, and Game Products","Game meat, Goat, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17173","Lamb, Veal, and Game Products","Game meat, Moose, Roasted",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17179","Lamb, Veal, and Game Products","Game meat, Rabbit, Composite of cuts, Stewed",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17181","Lamb, Veal, and Game Products","Game meat, Rabbit, Wild, Stewed",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17225","Lamb, Veal, and Game Products","Lamb, Ground, Broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17344","Lamb, Veal, and Game Products","Game meat, Deer, Ground, Pan-broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"17346","Lamb, Veal, and Game Products","Game meat, Deer, Shoulder clod, Separable lean only, 3-5 lb roast, Braised",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
 "18005",Baked Products,"Bagels, Cinnamon-raisin",0,,
 "18010",Baked Products,"Biscuits, Plain or buttermilk, Dry mix",0,,
 "18029",Baked Products,"Bread, French or vienna (includes sourdough)",0,,
@@ -1118,7 +1118,7 @@
 "21487",Fast Foods,"Taco with chicken, Lettuce and cheese, Soft",0,,
 "21488",Fast Foods,"Quesadilla, With chicken",0,,
 "21520",Fast Foods,"Breadstick, Soft, Prepared with garlic and parmesan cheese",0,,
-"23220",Beef Products,"Beef, Ground, Unspecified fat content, Cooked",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
+"23220",Beef Products,"Beef, Ground, Unspecified fat content, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
 "25001",Snacks,"Popcorn, Microwave, Low fat",0,,
 "25012",Snacks,Sweet potato chips,0,,
 "25013",Snacks,"Fritolay, Sunchips, Multigrain snack",0,,
@@ -1195,7 +1195,7 @@
 "36633",Restaurant Foods,"Chinese, Sesame chicken",0,,
 "42063",Sweets,"Pectin, Liquid",0,,
 "42116",Fats and Oils,"Creamy dressing, Made with sour cream and/or buttermilk and oil, Reduced calorie",0,,
-"42117",Dairy and Egg Products,"Imitation cheese, American or cheddar, Low cholesterol",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"42117",Dairy and Egg Products,"Imitation cheese, American or cheddar, Low cholesterol",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
 "42135",Dairy and Egg Products,"Whipped topping, Frozen, Low fat",1,,
 "42137",Fats and Oils,"Salad dressing, Peppercorn, Commercial, Regular",0,,
 "42138",Fats and Oils,"Mayonnaise, Reduced-calorie or diet, Cholesterol-free",0,,
@@ -1204,7 +1204,7 @@
 "42157",Fats and Oils,"Creamy dressing, Made with sour cream and/or buttermilk and oil, Reduced calorie, Fat-free",0,,
 "42178",Fats and Oils,"Mayonnaise, Made with tofu",0,,
 "42186",Sweets,"Frozen yogurts, Chocolate",0,,
-"42189",Dairy and Egg Products,"Milk, Buttermilk, Fluid, Cultured, Reduced fat",1,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"42189",Dairy and Egg Products,"Milk, Buttermilk, Fluid, Cultured, Reduced fat",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
 "42192",Fats and Oils,"Salad dressing, Blue or roquefort cheese, Fat-free",0,,
 "42196",Sweets,"Mars snackfood us, Milky way midnight bar",0,,
 "42200",Legumes and Legume Products,Papad,1,,
@@ -1218,7 +1218,7 @@
 "42261",Breakfast Cereals,"Cereal, Great grains crunchy pecan cereal",0,,
 "42265",Breakfast Cereals,"Cereal, Great grains, Raisin, Date & pecan",0,,
 "42289",Fats and Oils,"Oil, Corn and canola",0,,
-"42290",Dairy and Egg Products,"Milk, Fluid, Nonfat, Calcium fortified (fat free or skim)",0,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"42290",Dairy and Egg Products,"Milk, Fluid, Nonfat, Calcium fortified (fat free or skim)",0,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
 "42297",Breakfast Cereals,"Cereal, Post great grains banana nut crunch",0,,
 "43015",Fats and Oils,"Salad dressing, Caesar, Regular",0,,
 "43016",Fats and Oils,"Salad dressing, Coleslaw",0,,
@@ -1245,29 +1245,29 @@
 "43218",Breakfast Cereals,"Cereal, Alpen",0,,
 "43241",Breakfast Cereals,"Cereal, Familia",0,,
 "43245",Breakfast Cereals,"Cereal, Presweetened with nuts and fruits",0,,
-"43278",Dairy and Egg Products,"Cheese, American cheddar, Imitation",1,Caution,Only eat pasterurized cheese. Many soft cheeses are not pasteurized and may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
-"43282",Poultry Products,"Quail, Cooked, Total edible",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"43283",Poultry Products,"Pheasant, Cooked, Total edible",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
-"43287",Poultry Products,"Dove, Cooked (includes squab)",1,Caution,Only eat meat that is thoroughly cooked. Pregnant women are more sensitive to foodbourne illnesses
+"43278",Dairy and Egg Products,"Cheese, American cheddar, Imitation",1,Caution,"Choose cheese made with pasteurized milk. CDC advises heating queso fresco-type and deli-sliced cheeses to 165°F or until steaming hot even if pasteurized; check guidance for the specific cheese."
+"43282",Poultry Products,"Quail, Cooked, Total edible",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"43283",Poultry Products,"Pheasant, Cooked, Total edible",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"43287",Poultry Products,"Dove, Cooked (includes squab)",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
 "43299",Legumes and Legume Products,"Soybean, Curd cheese",1,,
 "43312",Vegetables and Vegetable Products,"Vegetables, Mixed (corn, Lima beans, Peas, Green beans, Carrots) canned",1,,
 "43331",Fats and Oils,"Salad dressing, Bacon and tomato",0,,
 "43355",Fats and Oils,"Mayonnaise, Low sodium, Low calorie or diet",0,,
 "43365",Vegetables and Vegetable Products,"Tomato and vegetable juice, Low sodium",1,,
-"43382",Fruits and Fruit Juices,"Cranberry juice, Unsweetened",1,Caution,Only drink pasterurized juice. Nonpasteurized juice may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"43382",Fruits and Fruit Juices,"Cranberry juice, Unsweetened",1,Caution,"Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy."
 "43387",Vegetables and Vegetable Products,"Turnip greens, Canned",1,,
 "43393",Breakfast Cereals,"Cereal, Shredded wheat n' bran, Spoon-size",0,,
 "43410",Legumes and Legume Products,"Chicken, Meatless, Breaded, Fried",1,,
 "43476",Legumes and Legume Products,Tofu yogurt,1,,
 "43483",Breakfast Cereals,"Millet, Puffed",0,,
 "43495",Breakfast Cereals,"Cereal, Health valley",0,,
-"43543",Dairy and Egg Products,"Milk, Imitation, Non-soy",1,Caution,Only drink pasterurized milk. Nonpasteurized milk may contain dangerous bacteria. Pregnant women are more sensitive to foodbourne illnesses.
+"43543",Dairy and Egg Products,"Milk, Imitation, Non-soy",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
 "43570",Breakfast Cereals,"Cereal, Honey bunches of oats, Honey roasted",0,,
 "44005",Fats and Oils,"Oil, Corn, Peanut, And olive",0,,
 "80200",Finfish and Shellfish Products,Frog legs,1,Caution,The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.
 "90240",Finfish and Shellfish Products,"Scallop, (bay and sea), Steamed",1,Caution,FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.
-"90560",Finfish and Shellfish Products,Snail,1,"0",
-"93600",Finfish and Shellfish Products,"Turtle, Green",1,"0",
-"11954",Vegetables and Vegetable Products,"Tomatillos, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"90560",Finfish and Shellfish Products,Snail,1,,
+"93600",Finfish and Shellfish Products,"Turtle, Green",1,,
+"11954",Vegetables and Vegetable Products,"Tomatillos, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."
 "15237",Finfish and Shellfish Products,"Salmon, Atlantic, Farmed, Cooked, Dry heat",1,Caution,FDA/EPA Best Choice for mercury: pregnancy guidance is 2 to 3 four-ounce servings a week from this category. Follow pregnancy food-safety guidance.
-"43392",Vegetables and Vegetable Products,"Hearts of palm, Raw",1,Caution,Wash vegetables thoroughly. Pregnant women are more sensitive to foodbourne illnesses.
+"43392",Vegetables and Vegetable Products,"Hearts of palm, Raw",1,Caution,"Wash fresh vegetables before eating. CDC notes that washed and then cooked produce is safest during pregnancy."

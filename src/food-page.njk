@@ -64,6 +64,8 @@ pageStyles:
       <p class="content-summary">{{ food.warningText }}</p>
       {% if food.group == "Finfish and Shellfish Products" %}
         <p class="content-summary">Check the <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">current FDA/EPA fish chart</a> for mercury guidance and <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's pregnancy food-safety guidance</a> for preparation.</p>
+      {% else %}
+        <p class="content-summary">Source: <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's pregnancy food-safety guidance</a>.</p>
       {% endif %}
     </aside>
   {% else %}
