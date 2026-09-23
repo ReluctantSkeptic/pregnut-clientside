@@ -1,10 +1,11 @@
 ---
 title: "Choline Foods During Pregnancy: Eggs, Beans, and Prenatal Labels"
-description: How to find choline in everyday foods, read a prenatal label, and use PregNut's food comparisons without treating 100 grams as a serving.
+description: Compare choline in eggs and egg-free foods by everyday portions, then check how much your prenatal label contributes during pregnancy.
 layout: post.njk
 permalink: /blog/choline-foods-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
+dateModified: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
@@ -34,15 +35,24 @@ These examples come from [PregNut's USDA-based food data](/about/) and use the s
 
 An egg, a serving of salmon, and a bowl of soybeans will not usually weigh the same. Use the numbers to compare nutrient density, then account for your actual portion.
 
+### What do everyday portions add?
+
+The [NIH choline food table](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/) gives amounts for portions people may actually eat:
+
+- **One large hard-boiled egg:** about **147 mg** of choline. Two provide about **294 mg**, or roughly **65%** of the 450 mg pregnancy adequate intake. That leaves other meals and your prenatal label to consider.
+- **Egg-free examples:** ½ cup roasted soybeans provides about **107 mg**, 1 cup cooked quinoa about **43 mg**, and ½ cup boiled broccoli about **31 mg**. Together across a day, those portions contribute about **181 mg**, or **40%** of the pregnancy adequate intake.
+
+These are illustrative portions, not a full-day meal plan. **Roasted soybeans** in the NIH table are a different preparation from the **boiled soybeans** in PregNut's 100 g comparison above; do not swap their numbers. Food amounts vary, and the adequate intake is a planning reference rather than an exact personal target.
+
 ## Common questions
 
 ### Can I get choline without eggs?
 
-Yes. Eggs are convenient, but NIH also lists meat, fish, dairy, soybeans, beans, vegetables, nuts, and whole grains. If you avoid several of these groups, ask your clinician or a registered dietitian to review your overall intake.
+Yes. The egg-free portions above show how soybeans, quinoa, and broccoli contribute. NIH also lists meat, fish, dairy, beans, nuts, and whole grains. If you avoid several of these groups, ask your clinician or a registered dietitian to review your overall intake.
 
 ### Are two eggs enough choline for a day?
 
-Do not assume one food covers the full day. Choline content varies by food and portion, and your other meals matter. Compare the amounts in [the food lookup](/food/) and the label on your prenatal rather than relying on a single-food rule.
+Two large hard-boiled eggs provide about **294 mg**, compared with the **450 mg** pregnancy adequate intake. They contribute substantially but do not cover the entire reference amount. Your other foods and prenatal label matter, too.
 
 ### Should I buy a choline-only supplement?
 
@@ -52,4 +62,4 @@ That depends on your diet, prenatal formulation, and medical history. Bring the 
 
 The intake target helps with nutrition planning. It does not mean that taking more than the target produces a better outcome. Avoid exceeding supplement directions without individualized advice.
 
-**Sources:** [NIH choline fact sheet](https://ods.od.nih.gov/factsheets/Choline-Consumer/), [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), and [CDC safer food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html). This guide is educational and does not replace prenatal care.
+**Sources:** [NIH choline fact sheet](https://ods.od.nih.gov/factsheets/Choline-Consumer/), [NIH choline food table](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/), [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), and [CDC safer food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html). This guide is educational and does not replace prenatal care.
