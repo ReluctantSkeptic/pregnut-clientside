@@ -17,6 +17,14 @@ const NUTRIENT_COLORS = [
   "#9AAFD6"
 ];
 
+const NUTRIENT_GUIDES = {
+  Calcium: { title: "Calcium without dairy during pregnancy", url: "/blog/calcium-without-dairy-pregnancy/" },
+  Choline: { title: "Choline foods during pregnancy", url: "/blog/choline-foods-pregnancy/" },
+  "Folate (DFE)": { title: "Folate and folic acid during pregnancy", url: "/blog/folate-folic-acid-pregnancy/" },
+  Iron: { title: "Iron foods during pregnancy", url: "/blog/iron-foods-pregnancy/" },
+  "Vitamin D": { title: "Vitamin D foods during pregnancy", url: "/blog/vitamin-d-foods-pregnancy/" }
+};
+
 function slugify(value) {
   return String(value || "")
     .normalize("NFKD")
@@ -84,6 +92,7 @@ const items = (foodData.foods || [])
     const chartRows = rows
       .slice()
       .sort((a, b) => (b.percent ?? -1) - (a.percent ?? -1) || a.name.localeCompare(b.name));
+    const topNutrients = chartRows.filter((row) => row.percent > 0).slice(0, 3);
     return {
       ...food,
       pageName: hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name,
@@ -91,7 +100,8 @@ const items = (foodData.foods || [])
       url: `/food/${slug}/`,
       nutrientRows: rows,
       chartRows,
-      topNutrients: chartRows.filter((row) => row.percent > 0).slice(0, 3),
+      topNutrients,
+      guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
       calories: food.nutrients && food.nutrients.Calories,
       image: foodImages.has(String(food.id))
         ? {

@@ -113,6 +113,20 @@ pageStyles:
     </div>
   </section>
 
+  {% if food.guideLinks.length %}
+    <section class="content-card food-related" aria-labelledby="food-guides-title">
+      <div class="content-head">
+        <h2 class="content-title" id="food-guides-title">Understand these nutrients</h2>
+        <p class="content-summary">Read how to use food comparisons alongside everyday portions and prenatal labels.</p>
+      </div>
+      <ul class="guide-link-list related-food-list">
+        {% for guide in food.guideLinks %}
+          <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
   <section class="content-card food-related" aria-labelledby="related-foods-title">
     <div class="content-head">
       <h2 class="content-title" id="related-foods-title">More from {{ food.group }}</h2>
