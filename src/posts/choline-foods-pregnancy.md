@@ -45,6 +45,13 @@ The [NIH choline food table](https://ods.od.nih.gov/factsheets/Choline-HealthPro
 
 These are illustrative portions, not a full-day meal plan. **Roasted soybeans** in the NIH table are a different preparation from the **boiled soybeans** in PregNut's 100 g comparison above; do not swap their numbers. Food amounts vary, and the adequate intake is a planning reference rather than an exact personal target.
 
+### What could a choline-containing breakfast look like?
+
+- **With eggs:** One large hard-boiled egg and a cup of 1% milk provide about **190 mg choline** together, using the [NIH serving amounts](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/). Choose pasteurized milk and fully cooked eggs.
+- **Without eggs:** A savory bowl with 1 cup cooked quinoa and ½ cup roasted soybeans provides about **150 mg choline** from those two ingredients, using the same NIH table.
+
+These examples show how foods can contribute at breakfast; neither is a complete day's intake. Portions, other meals, and the amount on your prenatal label still matter.
+
 ## Common questions
 
 ### Can I get choline without eggs?
