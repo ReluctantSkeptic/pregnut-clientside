@@ -20,6 +20,7 @@ const NUTRIENT_COLORS = [
 const NUTRIENT_GUIDES = {
   Calcium: { title: "Calcium without dairy during pregnancy", url: "/blog/calcium-without-dairy-pregnancy/" },
   Choline: { title: "Choline foods during pregnancy", url: "/blog/choline-foods-pregnancy/" },
+  DHA: { title: "Lower-mercury fish during pregnancy", url: "/blog/low-mercury-fish-pregnancy/" },
   "Folate (DFE)": { title: "Folate and folic acid during pregnancy", url: "/blog/folate-folic-acid-pregnancy/" },
   Iron: { title: "Iron foods during pregnancy", url: "/blog/iron-foods-pregnancy/" },
   Potassium: { title: "Potassium foods during pregnancy", url: "/blog/potassium-foods-pregnancy/" },

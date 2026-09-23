@@ -1,10 +1,11 @@
 ---
 title: "Lower-Mercury Fish During Pregnancy: A Practical Guide"
-description: How to use FDA and EPA fish categories, compare canned light tuna and albacore, and keep food safety separate from nutrient rankings.
+description: Use FDA fish categories and compare DHA in salmon, sardines, shrimp, and canned light tuna during pregnancy.
 layout: post.njk
 permalink: /blog/low-mercury-fish-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
+dateModified: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
@@ -19,6 +20,19 @@ Start with the current [FDA/EPA fish chart](https://www.fda.gov/food/consumers/a
 ## What about nutrient rankings?
 
 PregNut's [food lookup](/food/) compares nutrients per **100 g**; it does not rank fish for mercury or food safety. A nutrient-dense fish may still be a poor choice for pregnancy if it has high mercury. Use the FDA/EPA chart first, then compare nutrients among suitable foods.
+
+### Compare DHA in four Best Choices
+
+These entries are in the FDA/EPA **Best Choices** category. PregNut's [USDA-based food data](/about/) reports the following DHA amounts **per 100 g of the food as named**:
+
+| Food | DHA per 100 g |
+| --- | ---: |
+| [Cooked sockeye salmon](/food/15086-salmon-sockeye-cooked-dry-heat/) | 0.56 g |
+| [Canned sardines in oil, drained](/food/15088-sardine-atlantic-canned-in-oil-drained-solids-with-bone/) | 0.50 g |
+| [Canned light tuna in water](/food/15121-tuna-light-canned-in-water/) | 0.19 g |
+| [Cooked shrimp](/food/15151-shrimp-cooked/) | 0.14 g |
+
+FDA's adult serving is **4 ounces (about 113 g)**, so the table is a consistent comparison rather than a serving calculation. Product and preparation differences matter. PregNut's 300 mg DHA amount is an illustrative chart benchmark, **not a U.S. recommended dietary allowance for DHA**. None of these nutrient values measures mercury in the fish you buy.
 
 ## Common questions
 
