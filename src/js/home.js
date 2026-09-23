@@ -18,6 +18,7 @@
       if (!input) return;
 
       var form = input.closest ? input.closest("form") : null;
+      var status = document.getElementById("HomeFoodSearchStatus");
 
       function openSelectedFood($input) {
         var selected = null;
@@ -33,8 +34,15 @@
             var v = String(input.value || "").trim();
             if (!v) {
               try { ev.preventDefault(); } catch (e) {}
+              if (status) {
+                status.textContent = "Enter a food name to search.";
+                status.hidden = false;
+              }
               try { input.focus(); } catch (e) {}
             }
+          });
+          input.addEventListener("input", function () {
+            if (status) status.hidden = true;
           });
         }
       } catch (e) {}

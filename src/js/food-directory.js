@@ -78,6 +78,20 @@
   function start() {
     initAutocomplete();
 
+    var form = document.querySelector(".food-directory-form");
+    var input = document.getElementById("FoodDirectoryInput");
+    var status = document.getElementById("FoodDirectoryStatus");
+    if (form && input && status) {
+      form.addEventListener("submit", function (event) {
+        if (input.value.trim()) return;
+        event.preventDefault();
+        status.textContent = "Enter a food name to search.";
+        status.hidden = false;
+        input.focus();
+      });
+      input.addEventListener("input", function () { status.hidden = true; });
+    }
+
     var params;
     try {
       params = new URLSearchParams(window.location.search);
@@ -89,8 +103,12 @@
     var query = legacyQuery || String(params.get("q") || "").trim();
     if (!query) return;
 
-    var input = document.getElementById("FoodDirectoryInput");
     if (input) input.value = query;
+
+    if (status) {
+      status.textContent = "Searching foods…";
+      status.hidden = false;
+    }
 
     fetch(SEARCH_DATA_URL, { cache: "force-cache" })
       .then(function (response) {
@@ -110,7 +128,6 @@
         renderResults(findMatches(foods, query), query);
       })
       .catch(function (error) {
-        var status = document.getElementById("FoodDirectoryStatus");
         if (!status) return;
         status.textContent = error && error.message ? error.message : "Food search is temporarily unavailable.";
         status.hidden = false;
