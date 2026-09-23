@@ -43,6 +43,11 @@
       <meta property="og:image:alt" content="PregNut pregnancy nutrition guidance">
       <meta name="twitter:image" content="{{ site.url }}{{ socialImage or site.socialImage }}">
       {% if pageSchemaType == "Article" %}
+        {% if author == site.author %}
+          {% set articleAuthor = {"@type": "Person", "name": author, "url": site.url + "/about/#editorial"} %}
+        {% else %}
+          {% set articleAuthor = {"@type": "Person", "name": author or site.author} %}
+        {% endif %}
         <script type="application/ld+json">{{ {
           "@context": "https://schema.org",
           "@type": "Article",
@@ -52,7 +57,7 @@
           "image": site.url + (socialImage or site.socialImage),
           "datePublished": page.date | isoDate,
           "dateModified": pageModifiedDate | isoDate,
-          "author": {"@type": "Person", "name": author or site.author},
+          "author": articleAuthor,
           "mainEntityOfPage": {"@type": "WebPage", "@id": pageUrl},
           "isPartOf": {"@type": "WebSite", "name": site.name, "url": site.url}
         } | jsonLd | safe }}</script>
