@@ -685,7 +685,7 @@ h3.home-lede {
   width: min(100%, 104px);
   aspect-ratio: 1;
   display: block;
-  background-image: url("/resource/vitamin-icons-woven.png");
+  background-image: url("/resource/vitamin-icons-woven.webp");
   background-repeat: no-repeat;
   background-size: 400% 400%;
   background-position:
