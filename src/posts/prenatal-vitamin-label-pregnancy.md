@@ -24,6 +24,8 @@ tags: post
 7. **Vitamin B12:** If you eat little or no animal food, compare the prenatal's B12 amount with your fortified-food labels and discuss your plan with your clinician. See [B12 during vegetarian or vegan pregnancy](/blog/vegetarian-b12-pregnancy/).
 8. **DHA:** If the product advertises omega-3s, find the DHA amount separately from fish oil or total omega-3s. See [DHA when you eat little or no fish](/blog/dha-without-fish-pregnancy/).
 9. **Vitamin B6:** Note its amount before considering a separate B6 product for nausea. The usual pregnancy nutrient reference and nausea treatment are different questions; see our [B6 food and morning sickness guide](/blog/vitamin-b6-foods-pregnancy/).
+10. **Vitamin A:** Check whether it comes from preformed vitamin A (retinol or a retinyl ester), beta-carotene, or both. The safety limit in pregnancy applies to preformed vitamin A. See our [vitamin A food and label guide](/blog/vitamin-a-foods-without-liver-pregnancy/) before adding another product.
+11. **Magnesium:** Note the amount in your prenatal before considering a separate supplement. The upper limit for supplemental magnesium does not include magnesium naturally present in food; see our [magnesium food guide](/blog/magnesium-foods-pregnancy/).
 
 ## What do mcg DFE and %DV mean on a prenatal label?
 
