@@ -7,6 +7,8 @@ const paths = [
   "/app/",
   "/blog/",
   "/food/",
+  "/privacy/",
+  "/terms/",
   "/weekly-diet/",
   ...weeklyProtocol.periods.map((period) => `/weekly-guide/${period.id}/`),
   ...foodpages.items.map((food) => `/food/${food.slug}/`)

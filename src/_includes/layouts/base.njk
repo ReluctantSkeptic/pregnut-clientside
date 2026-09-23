@@ -30,14 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ socialTitle | escape }}">
     <meta name="twitter:description" content="{{ pageDescription | escape }}">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-17NKX3R956"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-17NKX3R956');
-    </script>
+    <script src="/js/cookie-consent.js" defer></script>
     {% if site.url %}
       <link rel="canonical" href="{{ pageUrl }}">
       <meta property="og:url" content="{{ pageUrl }}">
@@ -113,6 +106,13 @@
       {{ content | safe }}
     </main>
     {% include "components/footer.njk" %}
+    <div class="cookie-banner" id="CookieBanner" role="region" aria-label="Analytics cookie choice" hidden>
+      <p>We use optional Google Analytics cookies to understand site visits. Choose whether to allow them. <a href="/privacy/">Privacy details</a></p>
+      <div class="cookie-actions">
+        <button type="button" id="CookieReject">Reject optional cookies</button>
+        <button type="button" id="CookieAccept">Accept analytics</button>
+      </div>
+    </div>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery.easy-autocomplete.min.js"></script>
     <script src="/js/searchbar.js"></script>
