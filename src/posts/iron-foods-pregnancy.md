@@ -59,4 +59,6 @@ Some gummy prenatals contain little or no iron. [ACOG advises checking the label
 
 Diet supports iron intake, but diagnosed anemia may need a separate treatment plan. Follow the clinician who interprets your blood work rather than treating a food ranking as a diagnosis.
 
+If your iron supplement is causing constipation, see our [fiber-rich food guide](/blog/fiber-foods-constipation-pregnancy/) and talk with your clinician before changing the supplement.
+
 **Sources:** [ACOG healthy eating during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), [NIH iron fact sheet](https://ods.od.nih.gov/factsheets/iron-consumer/), [NIH iron food table](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/), [NIH vitamin C food table](https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/), and [FDA Daily Values](https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels). This guide is educational and does not replace prenatal care.
