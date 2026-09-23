@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
    eleventyConfig.addPassthroughCopy("src/js");
    eleventyConfig.addPassthroughCopy("src/style");
    eleventyConfig.addPassthroughCopy("src/resource");
+   eleventyConfig.addPassthroughCopy("src/favicon.svg");
    eleventyConfig.addPassthroughCopy("src/_redirects");
 
    eleventyConfig.addFilter("isoDate", (dateObj) => {
