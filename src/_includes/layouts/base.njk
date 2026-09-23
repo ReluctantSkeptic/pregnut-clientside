@@ -11,7 +11,7 @@
       {% set pageTitle = title or site.name %}
       {% set pageDescription = description or site.description %}
     {% endif %}
-    {% set socialTitle = pageTitle if pageTitle == site.name else pageTitle + " | " + site.name %}
+    {% set socialTitle = food.seoTitle if food else (pageTitle if pageTitle == site.name else pageTitle + " | " + site.name) %}
     {% set pageUrl = site.url + page.url %}
     {% set pageSchemaType = schemaType or "WebPage" %}
     {% set pageModifiedDate = dateModified or page.date %}
@@ -91,7 +91,7 @@
     {% if pageSchemaType == "Article" and page.date %}<meta property="article:published_time" content="{{ page.date | isoDate }}">{% endif %}
     {% if pageSchemaType == "Article" and dateModified %}<meta property="article:modified_time" content="{{ dateModified | isoDate }}">{% endif %}
     {% set documentTitle = seoTitle or pageTitle %}
-    <title>{% if documentTitle == site.name %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
+    <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
     <link rel="stylesheet" href="/style/easy-autocomplete.css">
     <link rel="stylesheet" href="/style/style.css">
     {% if pageStyles %}

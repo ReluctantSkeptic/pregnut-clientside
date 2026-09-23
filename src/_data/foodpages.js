@@ -76,6 +76,15 @@ function metaDescription(name, topNutrients) {
   return shortName.replace(/[\s,;]+$/, "") + "…" + detail;
 }
 
+function seoTitle(name) {
+  const brand = " | PregNut";
+  for (const context of [" Nutrition in Pregnancy", " Nutrition", ""]) {
+    const title = name + context + brand;
+    if (title.length <= 65) return title;
+  }
+  return name;
+}
+
 function nutrientRows(food) {
   return Object.entries(foodData.nutrients || {})
     .filter(([name, info]) => name !== "Calories" && info && info.rda)
@@ -125,6 +134,7 @@ const items = (foodData.foods || [])
       chartRows,
       topNutrients,
       metaDescription: metaDescription(pageName, topNutrients),
+      seoTitle: seoTitle(pageName),
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
       calories: food.nutrients && food.nutrients.Calories,
       image: foodImages.has(String(food.id))
