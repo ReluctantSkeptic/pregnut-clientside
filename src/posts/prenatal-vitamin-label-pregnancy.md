@@ -17,9 +17,10 @@ tags: post
 1. **Serving size:** Does the listed amount require one tablet, two gummies, or several capsules?
 2. **Folic acid:** ACOG recommends at least 400 micrograms in a daily prenatal around conception and early pregnancy. See our [folate and folic acid guide](/blog/folate-folic-acid-pregnancy/).
 3. **Iron:** Check whether it is present, especially in gummies. ACOG lists 27 mg per day as the pregnancy requirement; whether you need extra iron depends on your diet and blood work. See [iron food pairings](/blog/iron-foods-pregnancy/).
-4. **Iodine:** [NIH lists 220 micrograms per day](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) as the pregnancy recommended dietary allowance. Dairy, eggs, seafood, and iodized salt may contribute. Check whether the prenatal includes iodine; not every salt is iodized.
+4. **Iodine:** [NIH lists 220 micrograms per day](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) as the pregnancy recommended dietary allowance. Dairy, eggs, seafood, and iodized salt may contribute. Check whether the prenatal includes iodine; not every salt is iodized. See [iodine without dairy or seafood](/blog/iodine-without-dairy-pregnancy/) if you avoid those foods.
 5. **Choline:** [NIH lists 450 mg per day](https://ods.od.nih.gov/factsheets/Choline-Consumer/) as the pregnancy adequate intake. Some prenatals omit choline or contain little. See [choline food ideas](/blog/choline-foods-pregnancy/).
 6. **Calcium and vitamin D:** Check both amounts; a prenatal may have less calcium than you expect. Compare [nondairy calcium foods](/blog/calcium-without-dairy-pregnancy/) and [vitamin D foods](/blog/vitamin-d-foods-pregnancy/) with what you usually eat.
+7. **Vitamin B12:** If you eat little or no animal food, compare the prenatal's B12 amount with your fortified-food labels and discuss your plan with your clinician. See [B12 during vegetarian or vegan pregnancy](/blog/vegetarian-b12-pregnancy/).
 
 ## Common questions
 

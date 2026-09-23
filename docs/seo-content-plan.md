@@ -80,3 +80,5 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 
 - [Calcium without dairy during pregnancy](/blog/calcium-without-dairy-pregnancy/): a distinct food-and-label question, including the role of fortification and edible fish bones.
 - [Vitamin D foods during pregnancy](/blog/vitamin-d-foods-pregnancy/): a distinct food-versus-prenatal question, including label variation and the limits of a food chart.
+- [Iodine without dairy or seafood](/blog/iodine-without-dairy-pregnancy/): a distinct source-and-label question; PregNut's food data does not calculate iodine.
+- [Vitamin B12 during vegetarian or vegan pregnancy](/blog/vegetarian-b12-pregnancy/): a distinct fortified-food and prenatal-label question, with 100 g examples and current-label caveats.
