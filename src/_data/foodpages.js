@@ -140,15 +140,17 @@ for (const food of items) {
   itemsByGroup.get(food.group).push(food);
 }
 
-for (const food of items) {
-  food.relatedFoods = itemsByGroup.get(food.group)
-    .filter((candidate) => candidate.id !== food.id)
-    .slice(0, 6)
-    .map((candidate) => ({
-      id: candidate.id,
-      name: candidate.pageName,
-      url: candidate.url
-    }));
+for (const groupFoods of itemsByGroup.values()) {
+  groupFoods.forEach((food, index) => {
+    food.relatedFoods = groupFoods
+      .slice(Math.max(0, index - 3), index + 4)
+      .filter((candidate) => candidate.id !== food.id)
+      .map((candidate) => ({
+        id: candidate.id,
+        name: candidate.pageName,
+        url: candidate.url
+      }));
+  });
 }
 
 const groups = [...itemsByGroup.entries()]
