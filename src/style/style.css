@@ -558,6 +558,15 @@ p {
   padding: clamp(28px, 6vw, 64px);
 }
 
+.post-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 28px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .post-title {
   font-size: clamp(2.8rem, 7vw, 5.8rem);
 }

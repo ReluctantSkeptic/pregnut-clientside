@@ -76,6 +76,16 @@
             {"@type": "ListItem", "position": 3, "name": food.pageName, "item": pageUrl}
           ]
         } | jsonLd | safe }}</script>
+      {% elif pageSchemaType == "Article" %}
+        <script type="application/ld+json">{{ {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": site.url + "/"},
+            {"@type": "ListItem", "position": 2, "name": "Pregnancy nutrition guides", "item": site.url + "/blog/"},
+            {"@type": "ListItem", "position": 3, "name": pageTitle, "item": pageUrl}
+          ]
+        } | jsonLd | safe }}</script>
       {% endif %}
     {% endif %}
     {% if pageSchemaType == "Article" and page.date %}<meta property="article:published_time" content="{{ page.date | isoDate }}">{% endif %}
