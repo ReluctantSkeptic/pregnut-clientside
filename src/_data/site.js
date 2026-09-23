@@ -5,5 +5,5 @@ module.exports = {
   description: "Clear, evidence-forward pregnancy nutrition guidance and food comparisons.",
   author: "Yuriy Stasyuk",
   url: rawUrl.replace(/\/+$/, ""),
-  socialImage: "/resource/pregnut_acorn_hero_illustrated.webp"
+  socialImage: "/resource/pregnut_social_1200x630.jpg"
 };
