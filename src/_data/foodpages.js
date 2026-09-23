@@ -54,6 +54,20 @@ function convertValue(value, fromUnit, toUnit) {
   return (number * fromMicrograms) / toMicrogramsValue;
 }
 
+function metaDescription(name, topNutrients) {
+  const top = topNutrients[0];
+  const amount = top ? Number(top.value).toFixed(2).replace(/\.0+$|0+$/, "") : "";
+  const detail = top
+    ? `: ${top.name} ${amount} ${top.unit} per 100 g. See nutrient references and food safety.`
+    : ": nutrient amounts per 100 g, reference comparisons, and food safety.";
+  const maxNameLength = 155 - detail.length;
+  if (name.length <= maxNameLength) return name + detail;
+  const prefix = name.slice(0, maxNameLength - 1);
+  const lastSpace = prefix.lastIndexOf(" ");
+  const shortName = lastSpace > maxNameLength - 15 ? prefix.slice(0, lastSpace) : prefix;
+  return shortName.replace(/[\s,;]+$/, "") + "…" + detail;
+}
+
 function nutrientRows(food) {
   return Object.entries(foodData.nutrients || {})
     .filter(([name, info]) => name !== "Calories" && info && info.rda)
@@ -88,6 +102,7 @@ const items = (foodData.foods || [])
   .map((food) => {
     const slug = `${food.id}-${slugify(food.name)}`;
     const hasDuplicateName = foodNameCounts.get(food.name) > 1;
+    const pageName = hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name;
     const rows = nutrientRows(food);
     const chartRows = rows
       .slice()
@@ -95,12 +110,13 @@ const items = (foodData.foods || [])
     const topNutrients = chartRows.filter((row) => row.percent > 0).slice(0, 3);
     return {
       ...food,
-      pageName: hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name,
+      pageName,
       slug,
       url: `/food/${slug}/`,
       nutrientRows: rows,
       chartRows,
       topNutrients,
+      metaDescription: metaDescription(pageName, topNutrients),
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
       calories: food.nutrients && food.nutrients.Calories,
       image: foodImages.has(String(food.id))
