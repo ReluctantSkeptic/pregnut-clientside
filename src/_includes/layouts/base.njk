@@ -41,7 +41,15 @@
       <meta property="og:image:alt" content="Illustration of a pregnant person holding an acorn">
       <meta name="twitter:image" content="{{ site.url }}{{ socialImage or site.socialImage }}">
       <meta name="twitter:image:alt" content="Illustration of a pregnant person holding an acorn">
-      {% if pageSchemaType == "Article" %}
+      {% if pageSchemaType == "WebSite" %}
+        <script type="application/ld+json">{{ {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": site.name,
+          "url": site.url + "/",
+          "description": site.description
+        } | jsonLd | safe }}</script>
+      {% elif pageSchemaType == "Article" %}
         {% if author == site.author %}
           {% set articleAuthor = {"@type": "Person", "name": author, "url": site.url + "/about/#editorial"} %}
         {% else %}
