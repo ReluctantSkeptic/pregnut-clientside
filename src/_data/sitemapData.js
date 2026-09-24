@@ -4,7 +4,7 @@ const foodpages = require("./foodpages.js");
 // Advance these dates only when the corresponding page content changes substantially.
 const homepageLastmod = "2026-09-23";
 const blogHubLastmod = "2026-09-24";
-const foodPagesLastmod = "2026-09-23";
+const foodPagesLastmod = "2026-09-24";
 
 const paths = [
   "/",
