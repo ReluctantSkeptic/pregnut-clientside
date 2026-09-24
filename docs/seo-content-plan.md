@@ -98,3 +98,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Eggs during pregnancy](/blog/eggs-during-pregnancy/): answers runny-yolk, pasteurized-egg, and raw-egg-sauce questions with CDC and FDA guidance; egg nutrient charts remain separate from preparation safety.
 - [Juice during pregnancy](/blog/juice-pasteurization-pregnancy/): answers packaged-juice, fresh-squeezed, cider, and smoothie processing questions using CDC and FDA guidance; nutrient data cannot verify treatment for harmful bacteria.
 - [Sprouts during pregnancy](/blog/sprouts-during-pregnancy/): answers raw versus cooked seed sprout questions and distinguishes them from Brussels sprouts using CDC and FDA food-safety guidance.
+- [Protein powder during pregnancy](/blog/protein-powder-pregnancy/): separates generic 100 g food data from current package servings, added nutrients, and ingredients; emphasizes label review with prenatal care rather than a blanket safety claim.

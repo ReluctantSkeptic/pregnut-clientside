@@ -94,6 +94,9 @@ pageStyles:
         <h2 class="content-title">Check preparation guidance</h2>
       </div>
       <p class="content-summary">This entry has no food-specific safety note. Nutrient data alone cannot establish whether a food or its preparation is safe during pregnancy. See <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's safer food choices for pregnancy</a> for general guidance.</p>
+      {% if food.isProteinPowder %}
+        <p class="content-summary">For the serving size, added ingredients, and prenatal overlap, read our <a href="/blog/protein-powder-pregnancy/">guide to protein powder labels during pregnancy</a>.</p>
+      {% endif %}
       {% if food.isSeedSprout %}
         <p class="content-summary">Read our <a href="/blog/sprouts-during-pregnancy/">guide to raw and cooked sprouts during pregnancy</a> before using this nutrient chart to choose sprouts.</p>
       {% endif %}

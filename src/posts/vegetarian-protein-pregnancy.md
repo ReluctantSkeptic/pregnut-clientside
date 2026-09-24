@@ -6,7 +6,7 @@ layout: post.njk
 permalink: /blog/vegetarian-protein-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-23
+dateModified: 2026-09-24
 ogType: article
 schemaType: Article
 tags: post
@@ -31,5 +31,7 @@ These are comparison amounts, **not serving recommendations**. For example, 150 
 PregNut uses **70 g per day as a comparison benchmark** in its food charts. It is not a personalized pregnancy prescription. Protein needs depend on factors including body size and pregnancy stage; ask your prenatal clinician or dietitian for an individual target if you need one. Use the [food lookup](/food/) to compare foods, then check the package label for your actual product and serving.
 
 Protein is only one part of a vegetarian pregnancy diet. Our [B12 guide](/blog/vegetarian-b12-pregnancy/), [iron guide](/blog/iron-foods-pregnancy/), [choline guide](/blog/choline-foods-pregnancy/), and [zinc guide](/blog/zinc-foods-pregnancy/) cover other nutrients that need attention. Follow [CDC pregnancy food-safety advice](https://www.cdc.gov/food-safety/foods/pregnant-women.html), including using pasteurized dairy and thoroughly cooked eggs.
+
+If you are comparing a powder with these foods, see our [protein powder label and serving guide](/blog/protein-powder-pregnancy/). A 100 g database amount is not necessarily the amount in one scoop.
 
 **Sources:** [ACOG healthy eating during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), [ACOG vegetarian protein sources](https://www.acog.org/womens-health/faqs/healthy-eating), and [CDC safer food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html). This guide is educational and does not replace prenatal care.
