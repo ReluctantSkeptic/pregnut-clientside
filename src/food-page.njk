@@ -35,6 +35,10 @@ pageStyles:
     {% endif %}
   </header>
 
+  {% if not food.topNutrients.length %}
+    <p class="content-summary">This reference entry lists no nonzero amounts for PregNut's tracked nutrients. Its chart cannot assess the food's overall nutritional value or pregnancy safety.</p>
+  {% endif %}
+
   {% if food.topNutrients.length %}
     <section class="food-glance" aria-labelledby="food-glance-title">
       <div class="food-glance-heading">
