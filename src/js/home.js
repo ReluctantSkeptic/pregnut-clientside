@@ -183,6 +183,7 @@
 
       function renderPreviewRows(rowsRoot, rows, opts) {
         if (!rowsRoot) return;
+        rowsRoot.classList.remove("is-unavailable");
         clear(rowsRoot);
         for (var i = 0; i < rows.length; i++) {
           var r = rows[i];
@@ -200,6 +201,14 @@
         }
       }
 
+      function showUnavailable(titleEl, rowsRoot) {
+        if (titleEl) titleEl.textContent = "Preview unavailable";
+        if (!rowsRoot) return;
+        clear(rowsRoot);
+        rowsRoot.classList.add("is-unavailable");
+        rowsRoot.textContent = "Open the full guide for current data.";
+      }
+
       function initTopFoodsPreview() {
         if (!topRoot) return Promise.resolve();
         var titleEl = topRoot.querySelector("[data-home-preview-title]");
@@ -210,11 +219,11 @@
 
         return getFooddata()
           .then(function (fooddata) {
-            if (!fooddata || !fooddata.nutrients || !fooddata.foods) return;
+            if (!fooddata || !fooddata.nutrients || !fooddata.foods) throw new Error("Food data unavailable");
             var nInfo = fooddata.nutrients[nutrientId];
-            if (!nInfo || !nInfo.rda || !nInfo.rda.value) return;
+            if (!nInfo || !nInfo.rda || !nInfo.rda.value) throw new Error("Nutrient reference unavailable");
             var rda = Number(nInfo.rda.value);
-            if (!isFinite(rda) || rda <= 0) return;
+            if (!isFinite(rda) || rda <= 0) throw new Error("Nutrient reference invalid");
 
             var foods = fooddata.foods.slice();
             foods = foods.filter(function (f) {
@@ -229,7 +238,7 @@
               return (b.nutrients[nutrientId] || 0) - (a.nutrients[nutrientId] || 0);
             });
             var top = foods.slice(0, 5);
-            if (!top.length) return;
+            if (!top.length) throw new Error("Top foods unavailable");
 
             var pcts = top.map(function (f) {
               return (Number(f.nutrients[nutrientId]) / rda) * 100;
@@ -253,7 +262,7 @@
             renderPreviewRows(rowsRoot, rows, { kind: "food" });
           })
           .catch(function () {
-            // Keep fallback sample markup.
+            showUnavailable(titleEl, rowsRoot);
           });
       }
 
@@ -303,8 +312,8 @@
           .then(function (all) {
             var protocol = all[0];
             var fooddata = all[1];
-            if (!protocol || !protocol.periods || !protocol.periods.length) return;
-            if (!fooddata || !fooddata.foods || !fooddata.nutrients) return;
+            if (!protocol || !protocol.periods || !protocol.periods.length) throw new Error("Weekly protocol unavailable");
+            if (!fooddata || !fooddata.foods || !fooddata.nutrients) throw new Error("Food data unavailable");
 
             var periods = protocol.periods;
             var period = null;
@@ -339,7 +348,7 @@
               return scoreFood(fooddata, b, period) - scoreFood(fooddata, a, period);
             });
             var top = foods.slice(0, 5);
-            if (!top.length) return;
+            if (!top.length) throw new Error("Weekly foods unavailable");
 
             var scores = top.map(function (f) { return scoreFood(fooddata, f, period); });
             var maxScore = Math.max.apply(Math, scores);
@@ -358,7 +367,9 @@
             renderPreviewRows(nutrientsRoot, rows, { kind: "food" });
           })
           .catch(function () {
-            // Keep fallback sample markup.
+            if (periodEl) periodEl.textContent = "";
+            if (timelineEl) clear(timelineEl);
+            showUnavailable(weekEl, nutrientsRoot);
           });
       }
 
