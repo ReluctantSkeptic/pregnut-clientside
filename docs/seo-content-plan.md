@@ -76,7 +76,7 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - Keep nutrient coverage explicit: the current PregNut food dataset does not contain magnesium or dietary fiber, so those guides use NIH or NIDDK food examples rather than invented PregNut values.
 - Ask a credentialed prenatal nutrition reviewer to check claims and display their review credit only after review occurs.
 - Continue auditing older nutrient benefits and food safety language against current primary sources.
-- Keep the blog hub's three starting paths current as new reader questions emerge; every published guide remains in the full list below them.
+- Keep the blog hub's four starting paths current as new reader questions emerge; every published guide remains in the full list below them.
 
 ## Additional published topics
 
