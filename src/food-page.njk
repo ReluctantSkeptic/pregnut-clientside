@@ -70,6 +70,9 @@ pageStyles:
       {% if food.isCheese %}
         <p class="content-summary">Read our <a href="/blog/soft-cheese-pregnancy/">guide to cheese, pasteurization, and pregnancy</a> before using this nutrient chart to choose a cheese.</p>
       {% endif %}
+      {% if food.group == "Sausages and Luncheon Meats" %}
+        <p class="content-summary">Read our <a href="/blog/deli-meat-pregnancy/">guide to deli meat, cold cuts, and reheating during pregnancy</a> before using this nutrient chart to choose a ready-to-eat meat.</p>
+      {% endif %}
     </aside>
   {% else %}
     <aside class="content-card food-safety-note" aria-label="Food safety note">
