@@ -99,3 +99,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Juice during pregnancy](/blog/juice-pasteurization-pregnancy/): answers packaged-juice, fresh-squeezed, cider, and smoothie processing questions using CDC and FDA guidance; nutrient data cannot verify treatment for harmful bacteria.
 - [Sprouts during pregnancy](/blog/sprouts-during-pregnancy/): answers raw versus cooked seed sprout questions and distinguishes them from Brussels sprouts using CDC and FDA food-safety guidance.
 - [Protein powder during pregnancy](/blog/protein-powder-pregnancy/): separates generic 100 g food data from current package servings, added nutrients, and ingredients; emphasizes label review with prenatal care rather than a blanket safety claim.
+- [Raw milk during pregnancy](/blog/raw-milk-pregnancy/): answers milk and yogurt pasteurization questions using CDC and FDA guidance, while separating product safety from nutrient database entries.

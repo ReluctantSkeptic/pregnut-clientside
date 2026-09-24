@@ -74,6 +74,9 @@ pageStyles:
       {% if food.isCheese %}
         <p class="content-summary">Read our <a href="/blog/soft-cheese-pregnancy/">guide to cheese, pasteurization, and pregnancy</a> before using this nutrient chart to choose a cheese.</p>
       {% endif %}
+      {% if food.isMilkOrYogurt %}
+        <p class="content-summary">Read our <a href="/blog/raw-milk-pregnancy/">guide to milk and yogurt pasteurization during pregnancy</a> before using this nutrient chart to choose a dairy product.</p>
+      {% endif %}
       {% if food.isEgg %}
         <p class="content-summary">Read our <a href="/blog/eggs-during-pregnancy/">guide to egg doneness and pasteurization during pregnancy</a> before using this nutrient chart to choose an egg dish.</p>
       {% endif %}
@@ -96,6 +99,9 @@ pageStyles:
       <p class="content-summary">This entry has no food-specific safety note. Nutrient data alone cannot establish whether a food or its preparation is safe during pregnancy. See <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's safer food choices for pregnancy</a> for general guidance.</p>
       {% if food.isProteinPowder %}
         <p class="content-summary">For the serving size, added ingredients, and prenatal overlap, read our <a href="/blog/protein-powder-pregnancy/">guide to protein powder labels during pregnancy</a>.</p>
+      {% endif %}
+      {% if food.isMilkOrYogurt %}
+        <p class="content-summary">Read our <a href="/blog/raw-milk-pregnancy/">guide to milk and yogurt pasteurization during pregnancy</a> before using this nutrient chart to choose a dairy product.</p>
       {% endif %}
       {% if food.isSeedSprout %}
         <p class="content-summary">Read our <a href="/blog/sprouts-during-pregnancy/">guide to raw and cooked sprouts during pregnancy</a> before using this nutrient chart to choose sprouts.</p>
