@@ -821,7 +821,6 @@ h3.home-lede {
 .need-card[data-nutrient="Vitamin D"] { --nutrient-color: #c8beda; }
 .need-card[data-nutrient="Zinc"] { --nutrient-color: #aebbd1; }
 
-.page-home .home-hero,
 .page-home .home-proof,
 .page-home .home-slab {
   animation: home-rise 0.75s ease both;
@@ -836,7 +835,6 @@ h3.home-lede {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .page-home .home-hero,
   .page-home .home-proof,
   .page-home .home-slab {
     animation: none;
