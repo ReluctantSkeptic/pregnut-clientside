@@ -557,6 +557,7 @@ p {
 }
 
 .cookie-banner[hidden] { display: none; }
+.has-analytics-choice .cookie-banner { display: none; }
 .cookie-banner p { margin: 0 0 12px; }
 .cookie-banner a { text-decoration: underline; }
 .cookie-actions { display: flex; flex-wrap: wrap; gap: 10px; }

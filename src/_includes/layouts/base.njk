@@ -30,6 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ socialTitle | escape }}">
     <meta name="twitter:description" content="{{ pageDescription | escape }}">
+    <script>try { if (/^(accepted|rejected)$/.test(localStorage.getItem("pregnut.analytics.choice") || "")) document.documentElement.classList.add("has-analytics-choice"); } catch (error) {}</script>
     <script src="/js/cookie-consent.js" defer></script>
     {% if site.url %}
       <link rel="canonical" href="{{ pageUrl }}">
@@ -129,7 +130,7 @@
       {{ content | safe }}
     </main>
     {% include "components/footer.njk" %}
-    <div class="cookie-banner" id="CookieBanner" role="region" aria-label="Analytics cookie choice" hidden>
+    <div class="cookie-banner" id="CookieBanner" role="region" aria-label="Analytics cookie choice">
       <p>We use optional Google Analytics cookies to understand site visits. Choose whether to allow them. <a href="/privacy/">Privacy details</a></p>
       <div class="cookie-actions">
         <button type="button" id="CookieReject">Reject optional cookies</button>

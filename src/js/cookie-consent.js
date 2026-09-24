@@ -43,10 +43,14 @@
     var settings = document.getElementById("CookieSettings");
     if (!banner || !settings) return;
     banner.hidden = choice === "accepted" || choice === "rejected";
-    settings.addEventListener("click", function () { banner.hidden = false; });
+    settings.addEventListener("click", function () {
+      document.documentElement.classList.remove("has-analytics-choice");
+      banner.hidden = false;
+    });
     document.getElementById("CookieAccept").addEventListener("click", function () {
       try { localStorage.setItem(key, "accepted"); } catch (error) {}
       choice = "accepted";
+      document.documentElement.classList.add("has-analytics-choice");
       banner.hidden = true;
       loadAnalytics();
     });
@@ -54,6 +58,7 @@
       try { localStorage.setItem(key, "rejected"); } catch (error) {}
       var hadAnalytics = choice === "accepted";
       choice = "rejected";
+      document.documentElement.classList.add("has-analytics-choice");
       banner.hidden = true;
       clearAnalyticsCookies();
       if (hadAnalytics) window.location.reload();
