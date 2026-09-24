@@ -107,6 +107,9 @@ pageStyles:
       {% if food.isSeedSprout %}
         <p class="content-summary">Read our <a href="/blog/sprouts-during-pregnancy/">guide to raw and cooked sprouts during pregnancy</a> before using this nutrient chart to choose sprouts.</p>
       {% endif %}
+      {% if food.isJuice %}
+        <p class="content-summary">Read our <a href="/blog/juice-pasteurization-pregnancy/">guide to juice, cider, and smoothies during pregnancy</a> for processing and label questions that nutrient data cannot answer.</p>
+      {% endif %}
       {% if food.group == "Finfish and Shellfish Products" %}
         <p class="content-summary">Also check the <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">current FDA/EPA fish chart</a> for mercury guidance.</p>
       {% endif %}
