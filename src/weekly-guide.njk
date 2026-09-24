@@ -72,4 +72,18 @@ pageStyles:
       {% endfor %}
     </ul>
   </section>
+
+  <nav class="content-card" aria-labelledby="more-weekly-guides">
+    <div class="content-head">
+      <h2 class="content-title" id="more-weekly-guides">Explore other pregnancy stages</h2>
+      <p class="content-summary"><a href="/weekly-diet/">See the interactive weekly guide</a></p>
+    </div>
+    <ul class="guide-link-list">
+      {% for chapter in weeklyProtocol.periods %}
+        {% if chapter.id != period.id %}
+          <li><a href="/weekly-guide/{{ chapter.id }}/">Pregnancy nutrition weeks {{ chapter.weeks.start }}–{{ chapter.weeks.end }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 </article>
