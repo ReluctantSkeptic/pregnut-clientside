@@ -71,10 +71,6 @@ function parseRdaValue(rdaLabel) {
   return { value: Number(m[1]), unit: m[2], label: s };
 }
 
-function isTruthy(s) {
-  return String(s || "").trim().length > 0;
-}
-
 function main() {
   // In some deployments, the canonical CSVs may not be present (for example if you
   // commit only the generated JSON). If inputs are missing, keep the build green
@@ -119,20 +115,15 @@ function main() {
     nutrientUnits[nutrient] = unit;
   }
 
-  // Parse daily requirements (until the "SourceId" section begins).
+  // Parse daily requirements (until the legacy source list begins).
   const rdaByNutrient = {};
-  const benefitByNutrient = {};
-  const sources = [];
 
   // rdaRows is raw 2D array. Find header row for nutrient table.
   const header = rdaRows[0] || [];
   const idxNutrient = header.indexOf("Nutrient");
   const idxRda = header.indexOf("RDA");
-  const idxBaby = header.indexOf("baby ben");
-  const idxMother = header.indexOf("mother ben");
 
-  let i = 1;
-  for (; i < rdaRows.length; i++) {
+  for (let i = 1; i < rdaRows.length; i++) {
     const row = rdaRows[i];
     const nutrient = (row[idxNutrient] || "").trim();
     if (nutrient === "SourceId") break;
@@ -140,35 +131,6 @@ function main() {
     const rdaLabel = (row[idxRda] || "").trim();
     const parsed = parseRdaValue(rdaLabel);
     if (parsed) rdaByNutrient[nutrient] = parsed;
-    benefitByNutrient[nutrient] = {
-      baby: (row[idxBaby] || "").trim(),
-      mother: (row[idxMother] || "").trim(),
-    };
-  }
-
-  // Parse sources section (best-effort).
-  // Format varies; we will collect any rows that look like: [id, url] or [id, label, url].
-  // Start from the "SourceId" header row.
-  for (; i < rdaRows.length; i++) {
-    const row = rdaRows[i];
-    if (!row || !row.length) continue;
-    const a = String(row[0] || "").trim();
-    const b = String(row[1] || "").trim();
-    if (!isTruthy(a) || !isTruthy(b)) continue;
-    if (a === "SourceId") continue;
-    // Some rows are numeric IDs; some are repeated duplicates.
-    if (/^\d+$/.test(a) && /^https?:\/\//i.test(b)) {
-      sources.push({ id: a, url: b });
-      continue;
-    }
-    if (/^https?:\/\//i.test(a)) {
-      sources.push({ id: String(sources.length + 1), url: a });
-      continue;
-    }
-    // Source,URL style
-    if (/^\d+$/.test(a) && isTruthy(row[1]) && /^https?:\/\//i.test(String(row[1]).trim())) {
-      sources.push({ id: a, url: String(row[1]).trim() });
-    }
   }
 
   const foods = Object.values(foodsById).map((f) => {
@@ -184,14 +146,15 @@ function main() {
     generatedAt: new Date().toISOString(),
     nutrients: {},
     foods,
-    sources,
+    // Keep the v1 fields without publishing unreviewed legacy benefit copy or links.
+    sources: [],
   };
 
   for (const nutrient of Object.keys(nutrientUnits).sort()) {
     out.nutrients[nutrient] = {
       unit: nutrientUnits[nutrient],
       rda: rdaByNutrient[nutrient] || null,
-      benefits: benefitByNutrient[nutrient] || null,
+      benefits: null,
     };
   }
 

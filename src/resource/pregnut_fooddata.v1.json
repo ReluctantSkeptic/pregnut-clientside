@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "generatedAt": "2026-07-13T05:34:51.828Z",
+  "generatedAt": "2026-09-24T23:11:20.477Z",
   "nutrients": {
     "Calcium": {
       "unit": "mg",
@@ -9,10 +9,7 @@
         "unit": "mg",
         "label": "1000 mg"
       },
-      "benefits": {
-        "baby": "Builds bones and teeth. (Your growing baby takes the calcium she needs from your body, so to keep your bones and teeth healthy, you need to get enough to replace that amount.) (1)",
-        "mother": "Protects your bone density. It may also help prevent high blood pressure while you're pregnant. (1)"
-      }
+      "benefits": null
     },
     "Calories": {
       "unit": "kcal",
@@ -26,10 +23,7 @@
         "unit": "mg",
         "label": "450 mg"
       },
-      "benefits": {
-        "baby": "Helps prevent problems in the spinal cord and brain, called neural tube defects, and enhances brain development. (1)",
-        "mother": "Builds strong bones and may help prevent high blood pressure (1)"
-      }
+      "benefits": null
     },
     "DHA": {
       "unit": "g",
@@ -38,10 +32,7 @@
         "unit": "g",
         "label": "0.3 g"
       },
-      "benefits": {
-        "baby": "Helps boost brain development and vision. (1)",
-        "mother": "May reduce your risk of heart disease in the future (1) and post-partum depression  (4)"
-      }
+      "benefits": null
     },
     "Folate (DFE)": {
       "unit": "mcg",
@@ -50,10 +41,7 @@
         "unit": "mcg",
         "label": "600 mcg"
       },
-      "benefits": {
-        "baby": "Helps protect against spinal cord birth defects during the first 30 days of pregnancy, helps prevent early miscarriage and premature delivery. (1)",
-        "mother": "Prevents anemia. (1)"
-      }
+      "benefits": null
     },
     "Iron": {
       "unit": "mg",
@@ -62,10 +50,7 @@
         "unit": "mg",
         "label": "27 mg"
       },
-      "benefits": {
-        "baby": "Helps prevent premature delivery (1) low birth weight,  and post-partum hemorrhages, and possibly cardiovascular risk for the baby in the future (4)",
-        "mother": "Wards off anemia in pregnant women. (1)"
-      }
+      "benefits": null
     },
     "Potassium": {
       "unit": "mg",
@@ -74,10 +59,7 @@
         "unit": "mg",
         "label": "2900 mg"
       },
-      "benefits": {
-        "baby": "",
-        "mother": "Helps keep�blood pressure�in check and maintain proper fluid balance; necessary for normal�heart�beat and energy. (1)"
-      }
+      "benefits": null
     },
     "Protein": {
       "unit": "g",
@@ -86,10 +68,7 @@
         "unit": "g",
         "label": "70 g"
       },
-      "benefits": {
-        "baby": "Protein is crucial for your baby's growth throughout pregnancy (1)",
-        "mother": ""
-      }
+      "benefits": null
     },
     "Riboflavin": {
       "unit": "mg",
@@ -98,10 +77,7 @@
         "unit": "mg",
         "label": "1.4 mg"
       },
-      "benefits": {
-        "baby": "",
-        "mother": "Needed to produce energy; helps your body use the protein from food. (1)"
-      }
+      "benefits": null
     },
     "Vitamin B-12": {
       "unit": "mcg",
@@ -110,10 +86,7 @@
         "unit": "mcg",
         "label": "2.6 mcg"
       },
-      "benefits": {
-        "baby": "",
-        "mother": "Helps produce red blood cells and helps your body use fat and carbohydrates for energy. (1)"
-      }
+      "benefits": null
     },
     "Vitamin B-6": {
       "unit": "mg",
@@ -122,10 +95,7 @@
         "unit": "mg",
         "label": "1.9 mg"
       },
-      "benefits": {
-        "baby": "",
-        "mother": "Helps produce protein for new cells, boosts the immune system, and helps form red blood cells. (1)"
-      }
+      "benefits": null
     },
     "Vitamin C": {
       "unit": "mg",
@@ -134,10 +104,7 @@
         "unit": "mg",
         "label": "85 mg"
       },
-      "benefits": {
-        "baby": "",
-        "mother": ""
-      }
+      "benefits": null
     },
     "Vitamin D": {
       "unit": "IU",
@@ -146,10 +113,7 @@
         "unit": "IU",
         "label": "600 IU"
       },
-      "benefits": {
-        "baby": "Helps your baby's body use calcium to build bones and teeth. (1)",
-        "mother": "Helps your body absorb calcium from food and use it to build your bones and teeth. (1)"
-      }
+      "benefits": null
     },
     "Zinc": {
       "unit": "mg",
@@ -158,10 +122,7 @@
         "unit": "mg",
         "label": "11 mg"
       },
-      "benefits": {
-        "baby": "Brain�development. (1)",
-        "mother": "�Necessary to grow and repair cells and produce energy. (1)"
-      }
+      "benefits": null
     }
   },
   "foods": [
@@ -28442,8 +28403,8 @@
       "name": "Tangerines, (mandarin oranges), Canned, in juice",
       "group": "Fruits and Fruit Juices",
       "natSource": 1,
-      "warning": "Caution",
-      "warningText": "Choose pasteurized juice or cider. CDC advises bringing unpasteurized juice or cider to a rolling boil for at least one minute before drinking during pregnancy.",
+      "warning": "",
+      "warningText": "",
       "nutrients": {
         "Protein": 0.62,
         "Calories": 37,
@@ -30694,78 +30655,5 @@
       }
     }
   ],
-  "sources": [
-    {
-      "id": "1",
-      "url": "https://www.webmd.com/baby/pregnancy-diet-nutrients-you-need#1"
-    },
-    {
-      "id": "2",
-      "url": "https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-nutrition/art-20045082?pg=1"
-    },
-    {
-      "id": "3",
-      "url": "http://americanpregnancy.org/pregnancy-health/nutrients-vitamins-pregnancy/"
-    },
-    {
-      "id": "4",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084016/"
-    },
-    {
-      "id": "5",
-      "url": "https://www.nrv.gov.au/nutrients"
-    },
-    {
-      "id": "1",
-      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/#h8"
-    },
-    {
-      "id": "2",
-      "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/#h8"
-    },
-    {
-      "id": "3",
-      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/#h8"
-    },
-    {
-      "id": "4",
-      "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/#h8"
-    },
-    {
-      "id": "5",
-      "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/#h8"
-    },
-    {
-      "id": "6",
-      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/#h8"
-    },
-    {
-      "id": "7",
-      "url": "http://lpi.oregonstate.edu/mic/minerals/potassium"
-    },
-    {
-      "id": "9",
-      "url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/#h8"
-    },
-    {
-      "id": "10",
-      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/#h8"
-    },
-    {
-      "id": "11",
-      "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/#h8"
-    },
-    {
-      "id": "12",
-      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/#h8"
-    },
-    {
-      "id": "13",
-      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/#h8"
-    },
-    {
-      "id": "14",
-      "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/#h8"
-    }
-  ]
+  "sources": []
 }
