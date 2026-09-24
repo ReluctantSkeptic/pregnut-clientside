@@ -1,6 +1,6 @@
 ---
 title: "Lower-Mercury Fish During Pregnancy: A Practical Guide"
-description: Use FDA fish categories and compare DHA in salmon, sardines, shrimp, and canned light tuna during pregnancy.
+description: Use FDA fish categories to plan lower-mercury servings each week and compare DHA in salmon, sardines, shrimp, and canned light tuna.
 layout: post.njk
 permalink: /blog/low-mercury-fish-pregnancy/index.html
 author: Yuriy Stasyuk
@@ -42,9 +42,19 @@ If you eat little or no fish, our [DHA food and supplement label guide](/blog/dh
 
 Salmon is a Best Choice on the FDA/EPA chart. Cook it thoroughly and count it toward the weekly fish guidance. Check local advisories for fish you or someone you know caught.
 
+### How often can I eat salmon or shrimp?
+
+The [FDA/EPA advice](https://www.fda.gov/food/consumers/advice-about-eating-fish) is **two to three 4-ounce adult servings per week** from a *variety* of Best Choices, rather than a separate weekly limit for salmon or shrimp. For example, one 4-ounce serving of cooked salmon and one 4-ounce serving of cooked shrimp make two servings, or 8 ounces total. A third 4-ounce Best Choice would bring the week to 12 ounces. These are examples for applying the chart, not a suggestion to eat only those two seafoods. If a fish was caught locally, check the relevant advisory; FDA gives different advice when no local advisory is available.
+
+Shrimp is a Best Choice for mercury, but food safety is a separate check. [CDC advises cooking shellfish](https://www.cdc.gov/food-safety/foods/pregnant-women.html) until the flesh is pearly or white and opaque.
+
 ### Is canned light tuna the same as albacore?
 
 No. Canned light tuna is a Best Choice; albacore is a Good Choice with a different weekly limit. Read the can label to identify the type.
+
+### Which fish are in the highest-mercury avoid group?
+
+The FDA/EPA chart lists **king mackerel, marlin, orange roughy, shark, swordfish, Gulf of Mexico tilefish, and bigeye tuna** as Choices to Avoid. The location matters for tilefish: **Atlantic Ocean tilefish** is a Good Choice with a different serving limit. Check the [current species chart](https://www.fda.gov/food/consumers/advice-about-eating-fish) rather than relying on a generic name such as “tuna,” “mackerel,” or “tilefish.”
 
 ### Can I eat raw sushi while pregnant?
 
