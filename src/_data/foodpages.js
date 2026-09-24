@@ -137,6 +137,7 @@ const items = (foodData.foods || [])
       seoTitle: seoTitle(pageName),
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
       isCheese: food.group === "Dairy and Egg Products" && food.name.startsWith("Cheese,"),
+      isEgg: food.name.startsWith("Egg,"),
       calories: food.nutrients && food.nutrients.Calories,
       image: foodImages.has(String(food.id))
         ? {

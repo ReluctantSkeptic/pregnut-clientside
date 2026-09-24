@@ -95,3 +95,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Ginger tea versus capsules for pregnancy nausea](/blog/ginger-tea-capsules-pregnancy-nausea/): distinguishes food and tea from the supplement forms studied for nausea, with medicine-interaction and dehydration cautions.
 - [Soft cheese during pregnancy](/blog/soft-cheese-pregnancy/): distinguishes pasteurized cheese choices from unheated queso fresco-type cheese, using current CDC and FDA safety guidance rather than nutrient data to answer the safety question.
 - [Deli meat during pregnancy](/blog/deli-meat-pregnancy/): answers cold-cut, packaged turkey, hot-dog, and dry-sausage reheating questions with CDC guidance; nutrient charts remain separate from safety advice.
+- [Eggs during pregnancy](/blog/eggs-during-pregnancy/): answers runny-yolk, pasteurized-egg, and raw-egg-sauce questions with CDC and FDA guidance; egg nutrient charts remain separate from preparation safety.
