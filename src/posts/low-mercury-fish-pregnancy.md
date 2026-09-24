@@ -5,7 +5,7 @@ layout: post.njk
 permalink: /blog/low-mercury-fish-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-23
+dateModified: 2026-09-24
 ogType: article
 schemaType: Article
 tags: post
@@ -37,6 +37,10 @@ FDA's adult serving is **4 ounces (about 113 g)**, so the table is a consistent 
 If you eat little or no fish, our [DHA food and supplement label guide](/blog/dha-without-fish-pregnancy/) explains how DHA differs from total fish oil and plant omega-3s.
 
 ## Common questions
+
+### Can I eat smoked salmon or lox?
+
+Mercury and preparation are separate checks. CDC lists **refrigerated smoked seafood** as riskier during pregnancy unless it is in a cooked dish. See our [guide to lox, shelf-stable smoked fish, and cooked options](/blog/smoked-salmon-pregnancy/) for the package and serving distinctions.
 
 ### Is salmon safe during pregnancy?
 

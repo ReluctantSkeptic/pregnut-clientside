@@ -138,6 +138,7 @@ const items = (foodData.foods || [])
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
       isCheese: food.group === "Dairy and Egg Products" && food.name.startsWith("Cheese,"),
       isMilkOrYogurt: food.group === "Dairy and Egg Products" && /^(Milk|Yogurt),/.test(food.name) && !/^Milk, (Human|Imitation)/.test(food.name),
+      isSmokedFish: food.group === "Finfish and Shellfish Products" && /\bSmoked\b/i.test(food.name),
       isEgg: food.name.startsWith("Egg,"),
       isJuice: /\bjuice\b/i.test(food.name) && !/\bin juice\b/i.test(food.name) && Boolean(food.warningText && food.warningText.startsWith("Choose pasteurized juice or cider.")),
       isSeedSprout: /\bSprouted\b/i.test(food.name),
