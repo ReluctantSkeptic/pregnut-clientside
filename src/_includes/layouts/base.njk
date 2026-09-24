@@ -11,7 +11,8 @@
       {% set pageTitle = title or site.name %}
       {% set pageDescription = description or site.description %}
     {% endif %}
-    {% set socialTitle = food.seoTitle if food else (pageTitle if pageTitle == site.name else pageTitle + " | " + site.name) %}
+    {% set shareTitle = seoTitle or pageTitle %}
+    {% set socialTitle = food.seoTitle if food else (shareTitle if shareTitle == site.name else shareTitle + " | " + site.name) %}
     {% set pageUrl = site.url + page.url %}
     {% set pageSchemaType = schemaType or "WebPage" %}
     {% set pageModifiedDate = dateModified or page.date %}
