@@ -5,6 +5,7 @@ layout: post.njk
 permalink: /blog/deli-meat-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
+dateModified: 2026-09-24
 ogType: article
 schemaType: Article
 tags: post
@@ -21,6 +22,8 @@ If you are ordering out, ask whether the meat can be heated thoroughly **just be
 ## What about hot dogs, salami, and pepperoni?
 
 The same [CDC pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) places **unheated hot dogs and fermented or dry sausages** in the riskier column. Heat them to **165°F or until steaming hot**. A topping that is only warm is not the same as one heated through. If you are cooking raw meat or poultry instead, use the food-specific safe internal temperature on the CDC chart; the reheating rule for ready-to-eat meats is a separate question.
+
+For cooked meals saved for later, use our [leftovers guide](/blog/leftovers-pregnancy/) for refrigeration times and reheating steps.
 
 ## Can PregNut's nutrient chart tell me whether the meat is safe?
 
