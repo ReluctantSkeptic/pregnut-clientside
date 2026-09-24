@@ -6,7 +6,7 @@ permalink: /app/index.html
 bodyClass: page-topfoods
 pageStyles:
   - /style/weekly-diet.css
-  - /style/top-foods.css?v=20260812
+  - /style/top-foods.css?v=20260924-guides
 pageScripts:
   - /js/top-foods.js?v=20260922-ref
 ---
@@ -47,4 +47,21 @@ pageScripts:
       <p class="content-summary">Percentages compare food amounts with the site's <a href="/about/#nutrient-references">pregnancy nutrient references</a>. DHA and protein use illustrative benchmarks rather than individualized daily targets.</p>
     </div>
   </section>
+</section>
+
+<section class="section" aria-labelledby="topfoods-guides-title">
+  <nav class="content-card topfoods-guides" aria-labelledby="topfoods-guides-title">
+    <div class="content-head">
+      <h2 class="content-title" id="topfoods-guides-title">Understand the nutrients behind the rankings</h2>
+      <p class="content-summary">The chart compares nutrients per 100 grams. These guides put food amounts, everyday portions, and prenatal labels in context. You can also <a href="/food/">search foods by name</a>.</p>
+    </div>
+    <ul class="topfoods-guide-list">
+      {% for nutrient in nutrientGuidance %}
+        {% if nutrient.id != "Iodine" %}
+          <li><a href="{{ nutrient.guide }}">{{ nutrient.label }} in pregnancy</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <p class="content-summary">Looking for iodine? The food chart does not include iodine amounts. Read the <a href="/blog/iodine-without-dairy-pregnancy/">iodine food and prenatal label guide</a>.</p>
+  </nav>
 </section>
