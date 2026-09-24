@@ -80,6 +80,7 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 
 ## Additional published topics
 
+- [Pregnancy food safety overview](/blog/food-safety-pregnancy/): a short decision path for pasteurization, cooking, storage, and fish mercury, linking the detailed food guides without treating nutrient rankings as safety advice.
 - [Calcium without dairy during pregnancy](/blog/calcium-without-dairy-pregnancy/): a distinct food-and-label question, including the role of fortification and edible fish bones.
 - [Vitamin D foods during pregnancy](/blog/vitamin-d-foods-pregnancy/): a distinct food-versus-prenatal question, including label variation and the limits of a food chart.
 - [Iodine without dairy or seafood](/blog/iodine-without-dairy-pregnancy/): a distinct source-and-label question; PregNut's food data does not calculate iodine.
