@@ -141,6 +141,7 @@ const items = (foodData.foods || [])
       isSmokedFish: food.group === "Finfish and Shellfish Products" && /\bSmoked\b/i.test(food.name),
       isEgg: food.name.startsWith("Egg,"),
       isJuice: /\bjuice\b/i.test(food.name) && !/\b(?:in|with) (?:\w+ )?juice\b/i.test(food.name),
+      isFreshProduce: /\bRaw\b/i.test(food.name) && Boolean(food.warningText && food.warningText.startsWith("Wash fresh")),
       isSeedSprout: /\bSprouted\b/i.test(food.name),
       isProteinPowder: food.name.startsWith("Protein powder") || food.name.startsWith("Protein supplement,"),
       calories: food.nutrients && food.nutrients.Calories,

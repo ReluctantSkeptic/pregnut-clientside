@@ -102,3 +102,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Raw milk during pregnancy](/blog/raw-milk-pregnancy/): answers milk and yogurt pasteurization questions using CDC and FDA guidance, while separating product safety from nutrient database entries.
 - [Smoked salmon during pregnancy](/blog/smoked-salmon-pregnancy/): distinguishes refrigerated lox from sealed shelf-stable smoked fish and cooked dishes, while keeping mercury guidance separate from preparation safety.
 - [Leftovers during pregnancy](/blog/leftovers-pregnancy/): answers storage-time and reheating questions with FDA pregnancy guidance and FoodSafety.gov storage times, distinct from the deli-meat product advice.
+- [Washing fruits and vegetables during pregnancy](/blog/wash-produce-pregnancy/): answers fresh produce, pre-washed greens, and cut melon handling questions with CDC and FDA guidance; nutrient charts cannot verify food safety.

@@ -87,6 +87,9 @@ pageStyles:
       {% if food.isSeedSprout %}
         <p class="content-summary">Read our <a href="/blog/sprouts-during-pregnancy/">guide to raw and cooked sprouts during pregnancy</a> before using this nutrient chart to choose sprouts.</p>
       {% endif %}
+      {% if food.isFreshProduce %}
+        <p class="content-summary">Read our <a href="/blog/wash-produce-pregnancy/">guide to washing and handling fresh produce during pregnancy</a>. Washing does not establish that every raw food is safe to eat without cooking.</p>
+      {% endif %}
       {% if food.group == "Sausages and Luncheon Meats" %}
         <p class="content-summary">Read our <a href="/blog/deli-meat-pregnancy/">guide to deli meat, cold cuts, and reheating during pregnancy</a> before using this nutrient chart to choose a ready-to-eat meat.</p>
       {% endif %}
