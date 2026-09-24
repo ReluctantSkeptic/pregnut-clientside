@@ -113,7 +113,7 @@
     position: fixed;
     z-index: 20;
     right: 16px;
-    bottom: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom));
     left: 16px;
     display: block;
     padding: 13px 18px;
@@ -125,6 +125,9 @@
     text-align: center;
   }
   .home-mobile-cta:hover { color: #fff; }
+  .page-home .footer-shell {
+    padding-bottom: calc(96px + env(safe-area-inset-bottom));
+  }
 }
 
 .home-trust {
