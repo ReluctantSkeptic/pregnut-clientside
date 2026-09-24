@@ -97,3 +97,4 @@ The phrases below are **candidate search queries**, not measured volumes or rank
 - [Deli meat during pregnancy](/blog/deli-meat-pregnancy/): answers cold-cut, packaged turkey, hot-dog, and dry-sausage reheating questions with CDC guidance; nutrient charts remain separate from safety advice.
 - [Eggs during pregnancy](/blog/eggs-during-pregnancy/): answers runny-yolk, pasteurized-egg, and raw-egg-sauce questions with CDC and FDA guidance; egg nutrient charts remain separate from preparation safety.
 - [Juice during pregnancy](/blog/juice-pasteurization-pregnancy/): answers packaged-juice, fresh-squeezed, cider, and smoothie processing questions using CDC and FDA guidance; nutrient data cannot verify treatment for harmful bacteria.
+- [Sprouts during pregnancy](/blog/sprouts-during-pregnancy/): answers raw versus cooked seed sprout questions and distinguishes them from Brussels sprouts using CDC and FDA food-safety guidance.

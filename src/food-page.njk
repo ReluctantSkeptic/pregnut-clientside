@@ -80,6 +80,9 @@ pageStyles:
       {% if food.isJuice %}
         <p class="content-summary">Read our <a href="/blog/juice-pasteurization-pregnancy/">guide to juice pasteurization and fresh-squeezed drinks during pregnancy</a> before using this nutrient chart to choose a drink.</p>
       {% endif %}
+      {% if food.isSeedSprout %}
+        <p class="content-summary">Read our <a href="/blog/sprouts-during-pregnancy/">guide to raw and cooked sprouts during pregnancy</a> before using this nutrient chart to choose sprouts.</p>
+      {% endif %}
       {% if food.group == "Sausages and Luncheon Meats" %}
         <p class="content-summary">Read our <a href="/blog/deli-meat-pregnancy/">guide to deli meat, cold cuts, and reheating during pregnancy</a> before using this nutrient chart to choose a ready-to-eat meat.</p>
       {% endif %}
@@ -91,6 +94,9 @@ pageStyles:
         <h2 class="content-title">Check preparation guidance</h2>
       </div>
       <p class="content-summary">This entry has no food-specific safety note. Nutrient data alone cannot establish whether a food or its preparation is safe during pregnancy. See <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's safer food choices for pregnancy</a> for general guidance.</p>
+      {% if food.isSeedSprout %}
+        <p class="content-summary">Read our <a href="/blog/sprouts-during-pregnancy/">guide to raw and cooked sprouts during pregnancy</a> before using this nutrient chart to choose sprouts.</p>
+      {% endif %}
       {% if food.group == "Finfish and Shellfish Products" %}
         <p class="content-summary">Also check the <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">current FDA/EPA fish chart</a> for mercury guidance.</p>
       {% endif %}

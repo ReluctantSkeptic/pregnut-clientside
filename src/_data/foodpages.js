@@ -139,6 +139,7 @@ const items = (foodData.foods || [])
       isCheese: food.group === "Dairy and Egg Products" && food.name.startsWith("Cheese,"),
       isEgg: food.name.startsWith("Egg,"),
       isJuice: /\bjuice\b/i.test(food.name) && !/\bin juice\b/i.test(food.name) && Boolean(food.warningText && food.warningText.startsWith("Choose pasteurized juice or cider.")),
+      isSeedSprout: /\bSprouted\b/i.test(food.name),
       calories: food.nutrients && food.nutrients.Calories,
       image: foodImages.has(String(food.id))
         ? {
