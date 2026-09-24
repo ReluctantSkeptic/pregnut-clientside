@@ -35,8 +35,8 @@ pageStyles:
     {% endif %}
   </header>
 
-  {% if not food.topNutrients.length %}
-    <p class="content-summary">This reference entry lists no nonzero amounts for PregNut's tracked nutrients. Its chart cannot assess the food's overall nutritional value or pregnancy safety.</p>
+  {% if food.topNutrients.length < 3 %}
+    <p class="content-summary">This reference entry lists only {{ food.topNutrients.length }} nonzero {% if food.topNutrients.length == 1 %}amount{% else %}amounts{% endif %} among PregNut's tracked nutrients. Its chart cannot assess the food's overall nutritional value or pregnancy safety. <a href="/food/">Browse other foods</a> for broader comparisons.</p>
   {% endif %}
 
   {% if food.topNutrients.length %}

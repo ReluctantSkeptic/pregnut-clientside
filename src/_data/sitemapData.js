@@ -16,7 +16,7 @@ const paths = [
   "/terms/",
   "/weekly-diet/",
   ...weeklyProtocol.periods.map((period) => `/weekly-guide/${period.id}/`),
-  ...foodpages.items.filter((food) => food.topNutrients.length > 0).map((food) => `/food/${food.slug}/`)
+  ...foodpages.items.filter((food) => food.topNutrients.length >= 3).map((food) => `/food/${food.slug}/`)
 ];
 
 module.exports = [...new Set(paths)].sort().map((path) => {
