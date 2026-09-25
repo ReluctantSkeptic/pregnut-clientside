@@ -156,7 +156,7 @@ const items = (foodData.foods || [])
       image: foodImages.has(String(food.id))
         ? {
             src: foodImages.get(String(food.id)),
-            alt: `100 grams of ${hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name}`,
+            alt: `Illustration of ${hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name}`,
             width: 400,
             height: 400
           }

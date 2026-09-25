@@ -19,6 +19,25 @@
     {% set pageUrl = site.url + page.url %}
     {% set pageSchemaType = schemaType or "WebPage" %}
     {% set pageModifiedDate = dateModified or page.date %}
+    {% if socialImage %}
+      {% set previewImage = socialImage %}
+      {% set previewImageType = socialImageType or "image/jpeg" %}
+      {% set previewImageWidth = socialImageWidth or 1200 %}
+      {% set previewImageHeight = socialImageHeight or 630 %}
+      {% set previewImageAlt = socialImageAlt or "PregNut illustration" %}
+    {% elif food and food.image and not food.isHumanMilk %}
+      {% set previewImage = food.image.src %}
+      {% set previewImageType = "image/webp" %}
+      {% set previewImageWidth = food.image.width %}
+      {% set previewImageHeight = food.image.height %}
+      {% set previewImageAlt = food.image.alt %}
+    {% else %}
+      {% set previewImage = site.socialImage %}
+      {% set previewImageType = "image/jpeg" %}
+      {% set previewImageWidth = 1200 %}
+      {% set previewImageHeight = 630 %}
+      {% set previewImageAlt = "Illustration of a pregnant person holding an acorn" %}
+    {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ pageDescription | escape }}">
@@ -31,7 +50,7 @@
     <meta property="og:title" content="{{ socialTitle | escape }}">
     <meta property="og:description" content="{{ pageDescription | escape }}">
     <meta property="og:locale" content="en_US">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="{% if previewImageWidth == previewImageHeight %}summary{% else %}summary_large_image{% endif %}">
     <meta name="twitter:title" content="{{ socialTitle | escape }}">
     <meta name="twitter:description" content="{{ pageDescription | escape }}">
     <script>try { if (/^(accepted|rejected)$/.test(localStorage.getItem("pregnut.analytics.choice") || "")) document.documentElement.classList.add("has-analytics-choice"); } catch (error) {}</script>
@@ -39,13 +58,13 @@
     {% if site.url %}
       <link rel="canonical" href="{{ pageUrl }}">
       <meta property="og:url" content="{{ pageUrl }}">
-      <meta property="og:image" content="{{ site.url }}{{ socialImage or site.socialImage }}">
-      <meta property="og:image:type" content="{{ socialImageType or 'image/jpeg' }}">
-      <meta property="og:image:width" content="{{ socialImageWidth or 1200 }}">
-      <meta property="og:image:height" content="{{ socialImageHeight or 630 }}">
-      <meta property="og:image:alt" content="{{ socialImageAlt or 'Illustration of a pregnant person holding an acorn' }}">
-      <meta name="twitter:image" content="{{ site.url }}{{ socialImage or site.socialImage }}">
-      <meta name="twitter:image:alt" content="{{ socialImageAlt or 'Illustration of a pregnant person holding an acorn' }}">
+      <meta property="og:image" content="{{ site.url }}{{ previewImage }}">
+      <meta property="og:image:type" content="{{ previewImageType }}">
+      <meta property="og:image:width" content="{{ previewImageWidth }}">
+      <meta property="og:image:height" content="{{ previewImageHeight }}">
+      <meta property="og:image:alt" content="{{ previewImageAlt }}">
+      <meta name="twitter:image" content="{{ site.url }}{{ previewImage }}">
+      <meta name="twitter:image:alt" content="{{ previewImageAlt }}">
       {% if pageSchemaType == "WebSite" %}
         <script type="application/ld+json">{{ {
           "@context": "https://schema.org",
@@ -66,7 +85,7 @@
           "headline": pageTitle,
           "description": pageDescription,
           "url": pageUrl,
-          "image": site.url + (socialImage or site.socialImage),
+          "image": site.url + previewImage,
           "datePublished": page.date | isoDate,
           "dateModified": pageModifiedDate | isoDate,
           "author": articleAuthor,
