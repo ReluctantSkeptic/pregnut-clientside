@@ -52,6 +52,11 @@ module.exports = {
     { url: "/blog/water-intake-pregnancy/", title: "Plan water intake during pregnancy" }
   ],
   "/blog/caffeine-coffee-tea-pregnancy/": [
-    { url: "/blog/water-intake-pregnancy/", title: "Plan plain-water intake during pregnancy" }
+    { url: "/blog/water-intake-pregnancy/", title: "Plan plain-water intake during pregnancy" },
+    { url: "/blog/heartburn-foods-pregnancy/", title: "Adjust meals for pregnancy heartburn" }
+  ],
+  "/blog/heartburn-foods-pregnancy/": [
+    { url: "/blog/caffeine-coffee-tea-pregnancy/", title: "Count caffeine from coffee and tea" },
+    { url: "/blog/prenatal-vitamin-label-pregnancy/", title: "Check nutrients on a prenatal label" }
   ]
 };
