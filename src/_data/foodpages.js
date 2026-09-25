@@ -33,6 +33,28 @@ const NUTRIENT_GUIDES = {
   Zinc: { title: "Zinc foods during pregnancy without meat", url: "/blog/zinc-foods-pregnancy/" }
 };
 
+// The source names below are useful in the page body but too verbose as search titles.
+const FOOD_TITLE_OVERRIDES = {
+  "23197": "Grilled Boneless Ribeye Steak | PregNut",
+  "28337": "Gluten-Free White Rice Flour Bread | PregNut",
+  "08104": "Enriched Quick Farina, Dry | PregNut",
+  "08123": "Instant Fortified Oatmeal with Water | PregNut",
+  "08121": "Cooked Plain Oatmeal with Water | PregNut",
+  "21399": "Double Cheeseburger with Vegetables and Mayo | PregNut",
+  "21397": "Single Cheeseburger with Vegetables and Mayo | PregNut",
+  "19905": "Dark Chocolate, Mixed Cacao Strengths | PregNut",
+  "42116": "Reduced-Calorie Creamy Dressing | PregNut",
+  "42157": "Fat-Free Creamy Dressing | PregNut",
+  "09105": "Canned Mixed Fruit Salad in Syrup | PregNut",
+  "14093": "Glaceau Vitaminwater Revive Fruit Punch | PregNut",
+  "17060": "Braised Lamb Stew or Kabob Meat | PregNut",
+  "04659": "Industrial Coconut Confection Fat | PregNut",
+  "04511": "High-Oleic Safflower Oil | PregNut",
+  "11403": "Home-Prepared Oven-Heated French Fries | PregNut",
+  "12166": "Tahini from Roasted Sesame Seeds | PregNut",
+  "18938": "Frosted Fruit Toaster Pastries | PregNut"
+};
+
 function slugify(value) {
   return String(value || "")
     .normalize("NFKD")
@@ -139,7 +161,7 @@ const items = (foodData.foods || [])
       metaDescription: isRawPulse || isRawFlour
         ? `${pageName}: nutrients per 100 g before cooking. Uncooked ingredient data, not a ready-to-eat serving. See preparation guidance.`
         : metaDescription(pageName, topNutrients),
-      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : seoTitle(pageName),
+      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName)),
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
       isHumanMilk,
       isRawPulse,
