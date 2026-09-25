@@ -648,6 +648,22 @@ p {
   margin-top: 38px;
 }
 
+.post-related {
+  margin-top: 44px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.post-related h2 {
+  margin: 0 0 14px;
+}
+
+.post-related ul {
+  margin: 0;
+  padding-left: 22px;
+  line-height: 1.8;
+}
+
 .table-shell {
   margin-top: 24px;
   overflow-x: auto;

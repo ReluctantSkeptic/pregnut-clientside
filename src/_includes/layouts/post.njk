@@ -14,4 +14,14 @@ layout: base.njk
   <div class="prose">
     {{ content | safe }}
   </div>
+  {% if relatedGuides[page.url] %}
+    <nav class="post-related" aria-label="Related pregnancy guides">
+      <h2>Related questions</h2>
+      <ul>
+        {% for guide in relatedGuides[page.url] %}
+          <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
 </article>
