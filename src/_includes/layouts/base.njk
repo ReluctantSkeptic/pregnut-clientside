@@ -56,7 +56,7 @@
         } | jsonLd | safe }}</script>
       {% elif pageSchemaType == "Article" %}
         {% if author == site.author %}
-          {% set articleAuthor = {"@type": "Person", "name": author, "url": site.url + "/about/#editorial"} %}
+          {% set articleAuthor = {"@type": "Person", "name": author, "url": site.url + "/about/#editorial", "sameAs": "https://yuriystasyuk.com/about/"} %}
         {% else %}
           {% set articleAuthor = {"@type": "Person", "name": author or site.author} %}
         {% endif %}
