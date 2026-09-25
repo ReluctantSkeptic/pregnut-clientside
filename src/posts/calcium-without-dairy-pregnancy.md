@@ -19,7 +19,7 @@ tags: post
 
 **The short answer:** You can get calcium without dairy. Fortified drinks, calcium-set tofu, canned fish with edible bones, and some vegetables can all contribute. The [NIH pregnancy reference](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) is **1,000 mg per day for ages 19–50** and **1,300 mg for ages 14–18**. Your usual portions and the rest of your diet matter more than one high-ranking food.
 
-<figure class="post-image"><img src="/resource/portions/top-foods/16139-soymilk-original-and-vanilla-with-added-calcium-vitamins-a-and-d.webp" alt="Illustration of a glass of soy milk" width="400" height="400" loading="eager" fetchpriority="high"><figcaption>Illustrative soy milk; check the carton for its actual calcium content.</figcaption></figure>
+<figure class="post-image post-image-compact"><img src="/resource/portions/top-foods/16139-soymilk-original-and-vanilla-with-added-calcium-vitamins-a-and-d.webp" alt="Illustration of a glass of soy milk" width="400" height="400" loading="eager" fetchpriority="high"><figcaption>Illustrative soy milk; check the carton for its actual calcium content.</figcaption></figure>
 
 ## Three nondairy comparisons
 

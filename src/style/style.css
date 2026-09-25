@@ -667,6 +667,14 @@ p {
   border-radius: var(--radius-sm);
 }
 
+.post-image-compact {
+  max-width: 400px;
+}
+
+.post-image-compact img {
+  max-height: none;
+}
+
 .post-image figcaption {
   margin-top: 8px;
   color: var(--muted);
