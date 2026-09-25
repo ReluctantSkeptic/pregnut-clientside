@@ -88,8 +88,8 @@ function metaDescription(name, topNutrients) {
   const top = topNutrients[0];
   const amount = top ? Number(top.value).toFixed(2).replace(/\.0+$|0+$/, "") : "";
   const detail = top
-    ? `: ${top.name} ${amount} ${top.unit} per 100 g. See nutrient references and food safety.`
-    : ": nutrient amounts per 100 g, reference comparisons, and food safety.";
+    ? `: ${top.name} ${amount} ${top.unit} per 100 g in historical USDA-based data. See safety notes.`
+    : ": historical USDA-based nutrient data per 100 g. See source limits and safety notes.";
   const maxNameLength = 155 - detail.length;
   if (name.length <= maxNameLength) return name + detail;
   const prefix = name.slice(0, maxNameLength - 1);
@@ -159,7 +159,7 @@ const items = (foodData.foods || [])
       chartRows,
       topNutrients,
       metaDescription: isRawPulse || isRawFlour
-        ? `${pageName}: nutrients per 100 g before cooking. Uncooked ingredient data, not a ready-to-eat serving. See preparation guidance.`
+        ? `${pageName}: historical USDA-based nutrients per 100 g before cooking. Uncooked ingredient data; see preparation guidance.`
         : metaDescription(pageName, topNutrients),
       seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName)),
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
