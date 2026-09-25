@@ -578,6 +578,8 @@
   }
 
   window.addEventListener("load", function () {
+    var loadingStatus = $("TopFoodsStatus");
+    if (loadingStatus) loadingStatus.hidden = false;
     fetchJson(FOODDATA_URL)
       .then(function (fooddata) {
         start(fooddata);

@@ -42,11 +42,32 @@ pageScripts:
         </div>
       </div>
 
-      <p class="topfoods-status" id="TopFoodsStatus" aria-live="polite">Loading food comparisons…</p>
+      <p class="topfoods-status" id="TopFoodsStatus" aria-live="polite" hidden>Loading food comparisons…</p>
+      <noscript><p class="content-summary">The interactive rankings need JavaScript. You can still use the food comparisons below or <a href="/food/">browse every food</a>.</p></noscript>
       <div class="food-list" id="FoodsByNutrient" aria-label="Top foods list"></div>
       <p class="content-summary">Percentages compare food amounts with the site's <a href="/about/#nutrient-references">pregnancy nutrient references</a>. DHA and protein use illustrative benchmarks rather than individualized daily targets. Food values come from a <a href="/about/#food-data-sources">fixed historical USDA snapshot</a>.</p>
     </div>
   </section>
+</section>
+
+<section class="section" aria-labelledby="example-comparisons-title">
+  <div class="content-card">
+    <div class="content-head">
+      <h2 class="content-title" id="example-comparisons-title">Start with familiar foods</h2>
+      <p class="content-summary">These examples show the amount of one nutrient in 100 g of each prepared food. They are starting points for comparison, not serving recommendations or a ranking of the best foods to eat.</p>
+    </div>
+    <div class="table-shell">
+      <table class="data-table">
+        <thead><tr><th scope="col">Food</th><th scope="col">Nutrient</th><th scope="col">Amount per 100 g</th></tr></thead>
+        <tbody>
+          {% for item in featuredComparisons %}
+            <tr><th scope="row"><a href="{{ item.url }}">{{ item.label }}</a></th><td>{{ item.nutrient }}</td><td>{{ item.value | formatNumber }} {{ item.unit }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p class="content-summary">Figures come from PregNut's <a href="/about/#food-data-sources">historical USDA-based dataset</a>. Open a food page for its full nutrient chart and preparation or safety notes; check current labels for packaged products.</p>
+  </div>
 </section>
 
 <section class="section" aria-labelledby="topfoods-guides-title">
