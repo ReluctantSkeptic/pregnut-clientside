@@ -17,7 +17,7 @@ tags: post
 
 **The short answer:** Fresh fruits and vegetables can be part of your pregnancy meals. [CDC lists unwashed produce as a riskier choice](https://www.cdc.gov/food-safety/foods/pregnant-women.html) and washed produce as a safer one; washing and then cooking is safest. A nutrient chart cannot tell you whether a particular item was washed, stored, or prepared safely.
 
-<figure class="post-image"><img src="/resource/portions/portion-apple-100g.webp" srcset="/resource/portions/portion-apple-100g-600.webp 600w, /resource/portions/portion-apple-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 32px), 792px" alt="Illustration of sliced apple" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
+<figure class="post-image"><img src="/resource/portions/portion-apple-100g.webp" srcset="/resource/portions/portion-apple-100g-600.webp 600w, /resource/portions/portion-apple-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of sliced apple" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
 ## How should I wash fresh produce?
 

@@ -18,7 +18,7 @@ tags: post
 
 **The short answer:** The pregnancy recommended dietary allowance for vitamin D is **15 mcg (600 IU) daily**. Few foods naturally contain much vitamin D. Fatty fish can help; fortified milk, plant drinks, and some cereals may also contribute. Check the current package label because fortification varies. These points come from the [NIH vitamin D fact sheet](https://ods.od.nih.gov/factsheets/VitaminD-Consumer/) and [ACOG's pregnancy guide](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy).
 
-<figure class="post-image"><img src="/resource/portions/portion-salmon-100g.webp" srcset="/resource/portions/portion-salmon-100g-600.webp 600w, /resource/portions/portion-salmon-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 32px), 792px" alt="Illustration of cooked salmon on a plate" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative cooked salmon; species and portions affect the amount of vitamin D.</figcaption></figure>
+<figure class="post-image"><img src="/resource/portions/portion-salmon-100g.webp" srcset="/resource/portions/portion-salmon-100g-600.webp 600w, /resource/portions/portion-salmon-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of cooked salmon on a plate" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative cooked salmon; species and portions affect the amount of vitamin D.</figcaption></figure>
 
 ## Compare the food, then check your portion
 

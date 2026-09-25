@@ -19,7 +19,7 @@ tags: post
 
 **The short answer:** Eggs, fish, meat, dairy, soybeans, and some vegetables can all contribute choline during pregnancy. The [NIH Office of Dietary Supplements](https://ods.od.nih.gov/factsheets/Choline-Consumer/) lists 450 mg per day as the adequate intake for pregnant people. That is an *adequate intake*, rather than a guarantee that every individual needs exactly that amount.
 
-<figure class="post-image"><img src="/resource/portions/portion-eggs-100g.webp" srcset="/resource/portions/portion-eggs-100g-600.webp 600w, /resource/portions/portion-eggs-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 32px), 792px" alt="Illustration of cooked eggs on a plate" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
+<figure class="post-image"><img src="/resource/portions/portion-eggs-100g.webp" srcset="/resource/portions/portion-eggs-100g-600.webp 600w, /resource/portions/portion-eggs-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of cooked eggs on a plate" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
 ## Why look beyond a prenatal vitamin?
 

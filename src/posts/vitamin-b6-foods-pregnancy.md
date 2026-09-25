@@ -17,7 +17,7 @@ tags: post
 
 **The short answer:** Fish, potatoes, bananas, and other foods can contribute vitamin B6 to your diet. [NIH lists 1.9 mg per day](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) as the recommended amount during pregnancy. That nutrition target is a different question from using a B6 supplement to treat nausea. Eating a B6-containing food has not been shown to replace nausea treatment.
 
-<figure class="post-image"><img src="/resource/portions/portion-avocado-100g.webp" srcset="/resource/portions/portion-avocado-100g-600.webp 600w, /resource/portions/portion-avocado-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 32px), 792px" alt="Illustration of sliced avocado" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
+<figure class="post-image"><img src="/resource/portions/portion-avocado-100g.webp" srcset="/resource/portions/portion-avocado-100g-600.webp 600w, /resource/portions/portion-avocado-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of sliced avocado" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
 ## How much B6 is in familiar foods?
 

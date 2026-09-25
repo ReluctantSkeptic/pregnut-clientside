@@ -18,7 +18,7 @@ tags: post
 
 **The short answer:** Seeds, nuts, beans, cooked spinach, and whole grains all contribute magnesium. The [NIH pregnancy review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists a daily recommended amount of **350 mg at ages 19–30**, **360 mg at ages 31–50**, and **400 mg for pregnant teens**. These are whole-day references, not amounts to get from one food or supplement.
 
-<figure class="post-image"><img src="/resource/portions/portion-almonds-100g.webp" srcset="/resource/portions/portion-almonds-100g-600.webp 600w, /resource/portions/portion-almonds-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 32px), 792px" alt="Illustration of almonds in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
+<figure class="post-image"><img src="/resource/portions/portion-almonds-100g.webp" srcset="/resource/portions/portion-almonds-100g-600.webp 600w, /resource/portions/portion-almonds-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of almonds in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
 ## How much magnesium is in a serving?
 
