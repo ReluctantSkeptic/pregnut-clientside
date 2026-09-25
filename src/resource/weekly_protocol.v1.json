@@ -141,6 +141,7 @@
       "weeks": { "start": 1, "end": 8 },
       "citations": ["nhs-1-8", "cdc-ntd"],
       "summary": "This is the build-the-blueprint stage. A lot happens fast, even before you may feel very pregnant.",
+      "seoDescription": "Pregnancy nutrition for weeks 1–8: food folate, choline examples, and how to check folic acid on a prenatal label, with source-linked guidance.",
       "development": [
         "Early brain and spinal cord structures form very early (neural tube).",
         "The heart forms and begins working early on.",
@@ -337,6 +338,7 @@
       "weeks": { "start": 21, "end": 24 },
       "citations": ["nhs-21-24"],
       "summary": "Movement may be more noticeable, sleep-wake patterns begin to form, and the lungs practice breathing movements while they keep developing.",
+      "seoDescription": "Pregnancy nutrition for weeks 21–24: iron, protein, and vitamin C highlights, with sourced lentil and salmon meal examples and food-safety links.",
       "development": [
         "The placenta continues growing (though the baby weighs more than the placenta from around this stage).",
         "Breathing movements are practiced, though lungs are not yet ready to work fully.",

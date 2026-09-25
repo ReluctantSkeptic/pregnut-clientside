@@ -7,7 +7,7 @@ pagination:
 permalink: "/weekly-guide/{{ period.id }}/index.html"
 eleventyComputed:
   title: "Pregnancy Nutrition Weeks {{ period.weeks.start }}–{{ period.weeks.end }}"
-  description: "{{ period.summary }}"
+  description: "{{ period.seoDescription or period.summary }}"
   schemaType: WebPage
   bodyClass: page-weekly-static
 pageStyles:
@@ -21,7 +21,7 @@ pageStyles:
   <header class="hero slim weekly-hero">
     <div>
       <p class="eyebrow">Pregnancy nutrition guide</p>
-      <p class="post-meta">By <a href="/about/#editorial">{{ site.author }}</a>{% if period.id == "wk21-24" %} · <time datetime="2026-09-25">Updated September 25, 2026</time>{% endif %}</p>
+      <p class="post-meta">By <a href="/about/#editorial">{{ site.author }}</a>{% if period.id == "wk1-8" or period.id == "wk21-24" %} · <time datetime="2026-09-25">Updated September 25, 2026</time>{% endif %}</p>
       <h1 class="hero-title">Pregnancy nutrition for weeks {{ period.weeks.start }}–{{ period.weeks.end }}</h1>
       <p class="hero-lede">{{ period.summary }}</p>
     </div>
@@ -59,7 +59,20 @@ pageStyles:
     </div>
   </section>
 
-  {% if period.id == "wk21-24" %}
+  {% if period.id == "wk1-8" %}
+    <section class="content-card" aria-labelledby="early-food-example-title">
+      <div class="content-head">
+        <p class="content-eyebrow">Food and prenatal examples</p>
+        <h2 class="content-title" id="early-food-example-title">What can I eat in the first eight weeks?</h2>
+        <p class="content-summary">Weeks 1–2 are counted before conception. Food choices can support nutrition before and after pregnancy begins, while folic acid has a separate, time-sensitive role.</p>
+      </div>
+      <ul class="dev-list">
+        <li><strong>A fully cooked egg for choline.</strong> The <a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/">NIH choline food table</a> lists about 147 mg in one large hard-boiled egg. Compare PregNut's <a href="/food/01129-egg-hard-boiled/">hard-boiled egg record</a> by 100 g; that chart is not the amount in one egg. <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC advises eggs cooked until yolks and whites are firm</a> during pregnancy.</li>
+        <li><strong>Boiled lentils with cooked spinach for food folate.</strong> PregNut's historical USDA-based records list <a href="/food/16070-lentils-mature-seeds-boiled/">181 mcg DFE per 100 g of boiled lentils</a> and <a href="/food/11458-spinach-boiled/">146 mcg DFE per 100 g of boiled spinach</a>. These are food-folate comparisons, not the folic acid amount on a supplement label or a typical serving. The <a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH folate fact sheet</a> explains the difference.</li>
+      </ul>
+      <p class="content-summary"><a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy">ACOG recommends a daily prenatal with at least 400 mcg folic acid</a> starting before pregnancy when possible and during the first 12 weeks. Food folate does not replace that recommendation. Check the actual folic acid amount and serving size with our <a href="/blog/prenatal-vitamin-label-pregnancy/">prenatal label guide</a>; ask your clinician if a prenatal is difficult to take or your care plan differs.</p>
+    </section>
+  {% elif period.id == "wk21-24" %}
     <section class="content-card" aria-labelledby="week-food-example-title">
       <div class="content-head">
         <p class="content-eyebrow">Food examples</p>
@@ -89,7 +102,12 @@ pageStyles:
       {% for source in period.citations %}
         <li><a href="{{ source.url }}" rel="noopener noreferrer">{{ source.label }}</a></li>
       {% endfor %}
-      {% if period.id == "wk21-24" %}
+      {% if period.id == "wk1-8" %}
+        <li><a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy">ACOG: Healthy eating during pregnancy</a></li>
+        <li><a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/">NIH: Choline food table</a></li>
+        <li><a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH: Folate and folic acid</a></li>
+        <li><a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC: Safer food choices for pregnant women</a></li>
+      {% elif period.id == "wk21-24" %}
         <li><a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/">NIH: Iron food table and absorption</a></li>
         <li><a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/">NIH: Vitamin C food table</a></li>
         <li><a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA: Advice about eating fish</a></li>

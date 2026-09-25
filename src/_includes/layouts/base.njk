@@ -9,7 +9,7 @@
       {% set pageDescription = food.metaDescription %}
     {% elif period %}
       {% set pageTitle = "Pregnancy Nutrition Weeks " + period.weeks.start + "–" + period.weeks.end %}
-      {% set pageDescription = period.summary %}
+      {% set pageDescription = period.seoDescription or period.summary %}
     {% else %}
       {% set pageTitle = title or site.name %}
       {% set pageDescription = description or site.description %}
