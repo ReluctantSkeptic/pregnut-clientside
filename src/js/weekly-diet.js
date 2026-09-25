@@ -512,8 +512,12 @@
 
     var image = $("ChapterArtImage");
     if (image) {
-      image.src = entry.image || "";
       image.alt = entry.alt || "Illustration of fetal development.";
+      image.sizes = "(max-width: 640px) 80vw, 270px";
+      image.srcset = entry.image640 && entry.image960
+        ? entry.image640 + " 640w, " + entry.image960 + " 960w, " + entry.image + " 1254w"
+        : "";
+      image.src = entry.image || "";
     }
   }
 
