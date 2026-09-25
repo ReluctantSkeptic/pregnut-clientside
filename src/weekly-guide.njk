@@ -100,6 +100,20 @@ pageStyles:
       </ul>
       <p class="content-summary">These are food-composition comparisons, not a treatment for low iron or a substitute for prenatal care. If you avoid fish, the <a href="/blog/vegetarian-protein-pregnancy/">vegetarian protein guide</a> has other options; the <a href="/blog/iron-foods-pregnancy/">iron guide</a> explains food pairings and prenatal labels.</p>
     </section>
+  {% elif period.id == "wk25-28" %}
+    <section class="content-card" aria-labelledby="week-27-fish-title">
+      <div class="content-head">
+        <p class="content-eyebrow">Food comparison</p>
+        <h2 class="content-title" id="week-27-fish-title">What do sardines and salmon contribute around week 27?</h2>
+        <p class="content-summary">This chapter highlights DHA and calcium. The foods below are examples for comparison, not a week-specific meal plan or a change in daily nutrient needs.</p>
+      </div>
+      <ul class="dev-list">
+        <li><strong>Canned Atlantic sardines in oil, drained, with bones:</strong> PregNut's <a href="/food/15088-sardine-atlantic-canned-in-oil-drained-solids-with-bone/">historical USDA-based record</a> lists 0.50 g DHA and 382 mg calcium per 100 g. The edible bones are part of this entry; a boneless product is a different comparison.</li>
+        <li><strong>Cooked sockeye salmon:</strong> Its <a href="/food/15086-salmon-sockeye-cooked-dry-heat/">record</a> lists 0.56 g DHA and 11 mg calcium per 100 g. Both amounts describe this cooked preparation, not every salmon product.</li>
+      </ul>
+      <p class="content-summary">The <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA fish chart</a> lists both as lower-mercury Best Choices and advises two to three 4-ounce adult servings per week from a variety of those choices during pregnancy. A 100 g chart is not a 4-ounce serving or a mercury test. Read the <a href="/blog/low-mercury-fish-pregnancy/#do-canned-sardines-provide-calcium-as-well-as-dha">fish and edible-bone comparison</a> and the <a href="/blog/calcium-without-dairy-pregnancy/">nondairy calcium guide</a> for more context.</p>
+      <p class="content-summary">If you do not eat fish, the <a href="/blog/dha-without-fish-pregnancy/">DHA without fish guide</a> explains food and supplement-label questions to discuss with your prenatal care team.</p>
+    </section>
   {% endif %}
 
   {% if period.notes %}
@@ -126,6 +140,8 @@ pageStyles:
       {% elif period.id == "wk21-24" %}
         <li><a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA: Advice about eating fish</a></li>
         <li><a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC: Safer food choices for pregnant women</a></li>
+      {% elif period.id == "wk25-28" %}
+        <li><a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA: Advice about eating fish</a></li>
       {% endif %}
     </ul>
   </section>

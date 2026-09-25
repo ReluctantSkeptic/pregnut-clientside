@@ -5,7 +5,7 @@ layout: post.njk
 permalink: /blog/low-mercury-fish-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-24
+dateModified: 2026-09-25
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-salmon-100g.webp
@@ -40,6 +40,10 @@ These entries are in the FDA/EPA **Best Choices** category. PregNut's [USDA-base
 | [Cooked shrimp](/food/15151-shrimp-cooked/) | 0.14 g |
 
 FDA's adult serving is **4 ounces (about 113 g)**, so the table is a consistent comparison rather than a serving calculation. Product and preparation differences matter. PregNut's 300 mg DHA amount is an illustrative chart benchmark, **not a U.S. recommended dietary allowance for DHA**. None of these nutrient values measures mercury in the fish you buy.
+
+### Do canned sardines provide calcium as well as DHA?
+
+They can when the edible bones are included. PregNut's **bone-in canned Atlantic sardine** entry lists **382 mg calcium per 100 g**; its **cooked sockeye salmon** entry lists **11 mg per 100 g**. The [NIH calcium food table](https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/) gives **325 mg in 3 ounces** of canned sardines in oil with bones. That NIH serving is a different amount from PregNut's 100 g comparison. Boneless fish and different products may have different calcium amounts. See our [nondairy calcium guide](/blog/calcium-without-dairy-pregnancy/) for more options.
 
 If you eat little or no fish, our [DHA food and supplement label guide](/blog/dha-without-fish-pregnancy/) explains how DHA differs from total fish oil and plant omega-3s.
 
@@ -79,4 +83,4 @@ No. FDA explains that mercury is distributed through fish tissue, so cooking doe
 
 FDA says a single serving is not a reason to panic; choose lower-mercury fish going forward. If you have a specific exposure concern, contact your prenatal clinician.
 
-**Sources:** [FDA/EPA advice about eating fish](https://www.fda.gov/food/consumers/advice-about-eating-fish), [FDA fish questions and answers](https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or), and [FDA pregnancy seafood safety](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be). This guide is educational and does not replace prenatal care.
+**Sources:** [NIH calcium food table](https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/), [FDA/EPA advice about eating fish](https://www.fda.gov/food/consumers/advice-about-eating-fish), [FDA fish questions and answers](https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or), and [FDA pregnancy seafood safety](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be). This guide is educational and does not replace prenatal care.
