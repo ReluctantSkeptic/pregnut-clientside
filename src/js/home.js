@@ -227,7 +227,7 @@
 
             var foods = fooddata.foods.slice();
             foods = foods.filter(function (f) {
-              if (!f || !f.nutrients) return false;
+              if (!f || f.id === "01107" || !f.nutrients) return false;
               if (String(f.warning || "").toLowerCase() === "avoid") return false;
               if (naturalOnly && Number(f.natSource) !== 1) return false;
               var v = f.nutrients[nutrientId];
@@ -340,7 +340,7 @@
             // Snapshot: top picks for this period (overall score).
             var foods = fooddata.foods.slice();
             foods = foods.filter(function (f) {
-              if (!f || !f.nutrients) return false;
+              if (!f || f.id === "01107" || !f.nutrients) return false;
               if (String(f.warning || "").toLowerCase() === "avoid") return false;
               return true;
             });

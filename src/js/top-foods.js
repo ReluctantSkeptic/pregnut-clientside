@@ -159,7 +159,7 @@
     if (opts && typeof opts.naturalOnly === "boolean") wantsNatural = opts.naturalOnly;
     for (var i = 0; i < foods.length; i++) {
       var f = foods[i];
-      if (!f) continue;
+      if (!f || f.id === "01107") continue;
       if (opts && opts.excludeAvoid && String(f.warning || "").toLowerCase() === "avoid") continue;
       if (wantsNatural === true && Number(f.natSource) !== 1) continue;
       if (wantsNatural === false && Number(f.natSource) !== 0) continue;

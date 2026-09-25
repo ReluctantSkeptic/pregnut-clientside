@@ -160,7 +160,8 @@ const items = (foodData.foods || [])
   .sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id));
 
 const itemsByGroup = new Map();
-for (const food of items) {
+const listedItems = items.filter((food) => !food.isHumanMilk);
+for (const food of listedItems) {
   if (!itemsByGroup.has(food.group)) itemsByGroup.set(food.group, []);
   itemsByGroup.get(food.group).push(food);
 }
@@ -189,14 +190,14 @@ const groups = [...itemsByGroup.entries()]
     }))
   }));
 
-const searchItems = items.map((food) => ({
+const searchItems = listedItems.map((food) => ({
   FoodId: food.id,
   FoodName: food.pageName,
   FoodUrl: food.url
 }));
 
 module.exports = {
-  count: items.length,
+  count: listedItems.length,
   groups,
   items,
   searchItems
