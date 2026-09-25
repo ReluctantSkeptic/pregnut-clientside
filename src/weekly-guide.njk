@@ -21,7 +21,7 @@ pageStyles:
   <header class="hero slim weekly-hero">
     <div>
       <p class="eyebrow">Pregnancy nutrition guide</p>
-      <p class="post-meta">By <a href="/about/#editorial">{{ site.author }}</a>{% if period.id == "wk1-8" or period.id == "wk21-24" %} · <time datetime="2026-09-25">Updated September 25, 2026</time>{% endif %}</p>
+      <p class="post-meta">By <a href="/about/#editorial">{{ site.author }}</a>{% if period.id == "wk1-8" or period.id == "wk13-16" or period.id == "wk21-24" %} · <time datetime="2026-09-25">Updated September 25, 2026</time>{% endif %}</p>
       <h1 class="hero-title">Pregnancy nutrition for weeks {{ period.weeks.start }}–{{ period.weeks.end }}</h1>
       <p class="hero-lede">{{ period.summary }}</p>
     </div>
@@ -73,6 +73,20 @@ pageStyles:
       <p class="content-summary"><a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy">ACOG recommends a daily prenatal with at least 400 mcg folic acid</a> starting before pregnancy when possible and during the first 12 weeks. Food folate does not replace that recommendation. Check the actual folic acid amount and serving size with our <a href="/blog/prenatal-vitamin-label-pregnancy/">prenatal label guide</a>; ask your clinician if a prenatal is difficult to take or your care plan differs.</p>
       <p class="content-summary">If nausea makes full meals difficult, start with our <a href="/blog/foods-for-morning-sickness-pregnancy/">small-meal and hydration ideas for morning sickness</a>. The food comparisons above are examples, not a reason to delay care when you cannot keep fluids down.</p>
     </section>
+  {% elif period.id == "wk13-16" %}
+    <section class="content-card" aria-labelledby="mid-pregnancy-food-example-title">
+      <div class="content-head">
+        <p class="content-eyebrow">Food examples</p>
+        <h2 class="content-title" id="mid-pregnancy-food-example-title">What could I eat around week 15?</h2>
+        <p class="content-summary">This chapter highlights choline, DHA, calcium, and vitamin D. The examples below are choices to adapt, not a week-specific meal plan or a change in daily nutrient needs.</p>
+      </div>
+      <ul class="dev-list">
+        <li><strong>A fully cooked egg with plain pasteurized yogurt.</strong> The <a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/">NIH choline table</a> lists 147 mg in one large hard-boiled egg; its <a href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/">calcium table</a> lists 415 mg in 8 ounces of plain low-fat yogurt. These serving amounts differ from the PregNut charts for <a href="/food/01129-egg-hard-boiled/">egg</a> and <a href="/food/01117-yogurt-plain-low-fat-12-grams-protein-per-8-ounce/">yogurt</a>, which each show 100 g. <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC recommends firm yolks and whites and pasteurized dairy</a> during pregnancy.</li>
+        <li><strong>Cooked salmon with a side you enjoy.</strong> <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA lists salmon as a lower-mercury Best Choice</a> and advises 2–3 four-ounce servings per week from that list during pregnancy. This is weekly fish guidance, not a special target for week 15. Compare the <a href="/food/15086-salmon-sockeye-cooked-dry-heat/">cooked salmon record</a> per 100 g. <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC advises cooking fish to 145°F</a> or until opaque and separating easily with a fork.</li>
+        <li><strong>A calcium option without dairy.</strong> The <a href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/">NIH calcium table</a> lists 299 mg in a cup of calcium-fortified soymilk. Fortification varies, so check your carton for calcium and vitamin D rather than assuming every plant drink matches that example. Our <a href="/blog/calcium-without-dairy-pregnancy/">dairy-free calcium guide</a> explains other choices.</li>
+      </ul>
+      <p class="content-summary">These foods can contribute to a balanced diet but do not replace a prescribed prenatal supplement or individual care plan. For more detail, read the <a href="/blog/choline-foods-pregnancy/">choline foods</a>, <a href="/blog/low-mercury-fish-pregnancy/">lower-mercury fish</a>, and <a href="/blog/vitamin-d-foods-pregnancy/">vitamin D food and label</a> guides.</p>
+    </section>
   {% elif period.id == "wk21-24" %}
     <section class="content-card" aria-labelledby="week-food-example-title">
       <div class="content-head">
@@ -107,6 +121,11 @@ pageStyles:
         <li><a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy">ACOG: Healthy eating during pregnancy</a></li>
         <li><a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/">NIH: Choline food table</a></li>
         <li><a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH: Folate and folic acid</a></li>
+        <li><a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC: Safer food choices for pregnant women</a></li>
+      {% elif period.id == "wk13-16" %}
+        <li><a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/">NIH: Choline food table</a></li>
+        <li><a href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/">NIH: Calcium food table</a></li>
+        <li><a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA: Advice about eating fish</a></li>
         <li><a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC: Safer food choices for pregnant women</a></li>
       {% elif period.id == "wk21-24" %}
         <li><a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/">NIH: Iron food table and absorption</a></li>

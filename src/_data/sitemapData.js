@@ -7,7 +7,7 @@ const aboutLastmod = "2026-09-25";
 const topFoodsLastmod = "2026-09-25";
 const blogHubLastmod = "2026-09-25";
 const foodPagesLastmod = "2026-09-24";
-const weeklyGuideLastmod = { "wk1-8": "2026-09-25", "wk21-24": "2026-09-25" };
+const weeklyGuideLastmod = { "wk1-8": "2026-09-25", "wk13-16": "2026-09-25", "wk21-24": "2026-09-25" };
 
 const paths = [
   "/",
