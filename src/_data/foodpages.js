@@ -52,7 +52,17 @@ const FOOD_TITLE_OVERRIDES = {
   "04511": "High-Oleic Safflower Oil | PregNut",
   "11403": "Home-Prepared Oven-Heated French Fries | PregNut",
   "12166": "Tahini from Roasted Sesame Seeds | PregNut",
-  "18938": "Frosted Fruit Toaster Pastries | PregNut"
+  "18938": "Frosted Fruit Toaster Pastries | PregNut",
+  "16225": "Light Soymilk with Calcium and Vitamins A and D | PregNut",
+  "19896": "Reese's Fast Break Candy Bar Nutrition | PregNut",
+  "01306": "Low-Fat Ice Cream Cone with Peanuts and Sauce | PregNut",
+  "01240": "Chocolate-Covered Ice Cream Cone with Nuts | PregNut",
+  "17346": "Braised Deer Shoulder Roast Nutrition | PregNut",
+  "16127": "Soft Tofu Set with Calcium Sulfate and Nigari | PregNut",
+  "04666": "Industrial Soy and Corn Frying Shortening | PregNut",
+  "09409": "Unsweetened Pineapple Juice with Added Vitamin C | PregNut",
+  "08218": "Quaker Oat, Wheat, Honey and Raisin Granola | PregNut",
+  "43312": "Canned Mixed Vegetables with Corn and Beans | PregNut"
 };
 
 function slugify(value) {
