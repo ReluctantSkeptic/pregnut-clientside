@@ -34,6 +34,7 @@
             var v = String(input.value || "").trim();
             if (!v) {
               try { ev.preventDefault(); } catch (e) {}
+              input.setAttribute("aria-invalid", "true");
               if (status) {
                 status.textContent = "Enter a food name to search.";
                 status.hidden = false;
@@ -42,6 +43,7 @@
             }
           });
           input.addEventListener("input", function () {
+            input.removeAttribute("aria-invalid");
             if (status) status.hidden = true;
           });
         }

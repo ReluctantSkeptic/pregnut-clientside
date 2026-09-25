@@ -377,6 +377,12 @@ h3.home-lede {
   outline: 0;
 }
 
+.home-search-input[aria-invalid="true"],
+.home-search-form .easy-autocomplete input.home-search-input[aria-invalid="true"] {
+  outline: 2px solid #a34036;
+  outline-offset: -2px;
+}
+
 .home-search-submit {
   min-width: 96px;
   height: 52px;

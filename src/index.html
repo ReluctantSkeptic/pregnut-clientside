@@ -5,9 +5,9 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20260924-footer
+  - /style/home.css?v=20260925-search-error
 pageScripts:
-  - /js/home.js?v=20260925-1
+  - /js/home.js?v=20260925-2
 ---
 
 <section class="home-hero" aria-label="Hero">
@@ -73,6 +73,7 @@ pageScripts:
               id="HomeFoodSearchInput"
               name="q"
               class="home-search-input"
+              aria-describedby="HomeFoodSearchStatus"
               type="text"
               inputmode="search"
               placeholder="Start typing: salmon, lentils, spinach..."

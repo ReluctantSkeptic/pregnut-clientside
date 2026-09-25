@@ -34,11 +34,14 @@
       return;
     }
 
-    status.textContent = foods.length + (foods.length === 1 ? " result" : " results") + " for \"" + query + "\".";
+    var shown = Math.min(foods.length, 50);
+    status.textContent = shown === foods.length
+      ? foods.length + (foods.length === 1 ? " result" : " results") + " for \"" + query + "\"."
+      : "Showing first " + shown + " of " + foods.length + " results for \"" + query + "\". Try a more specific food name.";
     status.hidden = false;
     results.hidden = false;
 
-    foods.slice(0, 50).forEach(function (food) {
+    foods.slice(0, shown).forEach(function (food) {
       results.appendChild(createResult(food));
     });
   }
@@ -90,11 +93,15 @@
       form.addEventListener("submit", function (event) {
         if (input.value.trim()) return;
         event.preventDefault();
+        input.setAttribute("aria-invalid", "true");
         status.textContent = "Enter a food name to search.";
         status.hidden = false;
         input.focus();
       });
-      input.addEventListener("input", function () { status.hidden = true; });
+      input.addEventListener("input", function () {
+        input.removeAttribute("aria-invalid");
+        status.hidden = true;
+      });
     }
 
     var params;
