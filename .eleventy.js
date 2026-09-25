@@ -6,6 +6,26 @@ module.exports = function(eleventyConfig) {
    eleventyConfig.addGlobalData("site", site);
    eleventyConfig.addGlobalData("sitemapData", { items: sitemapData });
 
+
+   eleventyConfig.amendLibrary("md", (markdown) => {
+     markdown.core.ruler.push("heading-ids", (state) => {
+       const counts = new Map();
+       state.tokens.forEach((token, index) => {
+         if (token.type !== "heading_open" || !/^h[23]$/.test(token.tag)) return;
+         const inline = state.tokens[index + 1];
+         const label = (inline.children || [])
+           .filter((child) => child.type === "text" || child.type === "code_inline")
+           .map((child) => child.content)
+           .join("");
+         const base = label.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+           .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "section";
+         const count = (counts.get(base) || 0) + 1;
+         counts.set(base, count);
+         token.attrSet("id", count === 1 ? base : `${base}-${count}`);
+       });
+     });
+   });
+
    // Passthroughs
    eleventyConfig.addPassthroughCopy("src/js");
    eleventyConfig.addPassthroughCopy("src/style");

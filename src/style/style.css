@@ -692,6 +692,11 @@ p {
   margin-top: 38px;
 }
 
+.prose h2[id],
+.prose h3[id] {
+  scroll-margin-top: 112px;
+}
+
 .post-related {
   margin-top: 44px;
   padding-top: 24px;
