@@ -24,7 +24,7 @@ pageScripts:
 
   <header class="hero slim food-detail-hero{% if food.image and food.image.src %} has-image{% endif %}">
     <div>
-      <p class="eyebrow">{% if food.isHumanMilk %}Food data record{% else %}Pregnancy food guide{% endif %}</p>
+      <p class="eyebrow">{% if food.isHumanMilk %}Food data record{% else %}Pregnancy nutrient comparison{% endif %}</p>
       <h1 class="hero-title food-detail-title"><span class="food-detail-name">{{ food.pageName }}</span> <span class="food-detail-context">{% if food.isHumanMilk %}Historical nutrient data{% else %}Nutrition in pregnancy{% endif %}</span></h1>
       <p class="hero-lede">{% if food.isHumanMilk %}This historical food-composition record describes human milk. It is not a pregnancy food recommendation. {% elif food.isRawPulse or food.isRawFlour %}This record describes an uncooked ingredient, not a ready-to-eat portion. Compare its nutrients per 100 grams before preparation. {% else %}See how a 100 gram portion compares with pregnancy nutrient reference amounts. {% endif %}The values come from a historical USDA-based dataset; <a href="/about/#food-data-sources">see its sources and limits</a>. Use this as a comparison tool, not personalized medical advice.</p>
       <p class="food-group-label">Food group: {{ food.group }}</p>
@@ -32,7 +32,7 @@ pageScripts:
     {% if food.image and food.image.src %}
       <figure class="food-detail-image">
         <img src="{{ food.image.src }}" alt="{{ food.image.alt or ('100 grams of ' ~ food.pageName) }}"{% if food.image.width %} width="{{ food.image.width }}"{% endif %}{% if food.image.height %} height="{{ food.image.height }}"{% endif %} loading="eager" fetchpriority="high">
-        <figcaption>Illustrative 100 gram portion</figcaption>
+        <figcaption>Illustrative food image; not a weighed 100 g portion</figcaption>
       </figure>
     {% endif %}
   </header>
