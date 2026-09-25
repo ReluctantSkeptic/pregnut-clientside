@@ -6,7 +6,7 @@ layout: post.njk
 permalink: /blog/prenatal-vitamin-label-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-23
+dateModified: 2026-09-25
 ogType: article
 schemaType: Article
 tags: post
@@ -34,6 +34,17 @@ The [FDA explains](https://www.fda.gov/food/nutrition-facts-label/folate-and-fol
 
 The **% Daily Value (%DV)** shows how much one labeled serving contributes to a reference Daily Value. Check which population the label names; a prenatal may show values for pregnant or lactating people. The percentage is not an individualized prescription, and it may not match the pregnancy intake figures above. Compare the **amount per serving** with your food intake and your clinician's advice rather than choosing a prenatal by the highest percentages alone. [FDA's Daily Value guide](https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels) explains how %DV is calculated.
 
+## What should I ask at a prenatal visit?
+
+Bring the prenatal's Supplement Facts label and a list of **all** other vitamins, supplements, and medicines you take, including their doses. [FDA recommends bringing this list](https://www.fda.gov/consumers/consumer-updates/mixing-medications-and-dietary-supplements-can-endanger-your-health) to healthcare visits; [ACOG advises discussing prenatal supplement choices](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) with your obstetric clinician. Useful questions include:
+
+- Does this serving contain the folic acid amount and form you recommend for me?
+- Do my diet, health history, or lab results change what I need from a prenatal or an additional supplement?
+- Could this prenatal overlap with another product I take, or interact with a medicine?
+- If I have trouble taking this product, what alternative would you recommend?
+
+These questions turn a label comparison into a discussion about your own care. Do not double the prenatal serving or add a separate nutrient simply because one number looks low.
+
 ## Common questions
 
 ### Is a prenatal with more of every nutrient better?
@@ -52,4 +63,4 @@ Use the label as a conversation starter. Food choices and any added supplement s
 
 No. A tracker helps compare foods; it does not assess your medical needs or confirm that a supplement is unnecessary. Use [PregNut's food lookup](/food/) and [weekly guide](/weekly-diet/) alongside prenatal care.
 
-**Sources:** [ACOG healthy eating during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), [NIH iodine](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/), [NIH choline](https://ods.od.nih.gov/factsheets/Choline-Consumer/), [FDA folate labeling](https://www.fda.gov/food/nutrition-facts-label/folate-and-folic-acid-nutrition-and-supplement-facts-labels), and [FDA Daily Values](https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels). This guide is educational and does not replace prenatal care.
+**Sources:** [ACOG healthy eating during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), [NIH iodine](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/), [NIH choline](https://ods.od.nih.gov/factsheets/Choline-Consumer/), [FDA folate labeling](https://www.fda.gov/food/nutrition-facts-label/folate-and-folic-acid-nutrition-and-supplement-facts-labels), [FDA Daily Values](https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels), and [FDA advice on discussing supplements and medicines](https://www.fda.gov/consumers/consumer-updates/mixing-medications-and-dietary-supplements-can-endanger-your-health). This guide is educational and does not replace prenatal care.
