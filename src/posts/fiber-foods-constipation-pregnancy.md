@@ -1,10 +1,11 @@
 ---
 title: "Fiber-Rich Foods for Constipation During Pregnancy"
-description: Practical fiber-rich food choices for constipation during pregnancy, plus advice on adding fiber gradually and checking iron supplements with your clinician.
+description: Compare fiber in everyday portions of lentils, raspberries, and apples, then learn how to add fiber gradually during pregnancy.
 layout: post.njk
 permalink: /blog/fiber-foods-constipation-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
+dateModified: 2026-09-25
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-oatmeal-100g.webp
@@ -32,6 +33,16 @@ Start with foods you already like, then make one small change at a time:
 
 These are food ideas, not a treatment plan or a promise that one food will relieve constipation. [NIDDK's pregnancy guidance](https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-pregnant-women) recommends high-fiber foods, water, and daily physical activity to help prevent constipation. [ACOG](https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-can-help-with-constipation-during-pregnancy) lists lentils, fruit, whole grains, nuts, and seeds among fiber sources.
 
+### How much fiber is in a familiar portion?
+
+The [NIH NIDDK food-source table](https://www.niddk.nih.gov/health-information/digestive-diseases/diverticulosis-diverticulitis/eating-diet-nutrition) lists these examples from federal food-composition data. The amount changes with the food and portion you actually serve:
+
+- **½ cup cooked lentils:** 7.8 g dietary fiber.
+- **1 cup raspberries:** 8.0 g dietary fiber.
+- **1 medium apple with skin:** 4.8 g dietary fiber.
+
+These are food-composition examples, not a promise that a particular portion will treat constipation. Start with a smaller portion if a full cup of berries is a big change. Wash fruit before eating it, and check current package labels for prepared foods.
+
 PregNut's food lookup does not currently calculate dietary fiber. Check packaged-food labels for fiber amounts, and use [NIDDK's food examples](https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition) when planning meals. Beans and whole grains can also contribute magnesium; our [magnesium food guide](/blog/magnesium-foods-pregnancy/) compares named portions using NIH data. For the bananas and lentils above, the [potassium food guide](/blog/potassium-foods-pregnancy/) compares amounts using PregNut's food data.
 
 ## How should I increase fiber?
@@ -46,4 +57,4 @@ Iron supplements can contribute to constipation. **Do not stop or change a presc
 
 If constipation continues despite food, water, and activity changes, ask your prenatal clinician about next steps rather than choosing a laxative without advice. [ACOG's digestive-health guidance](https://www.acog.org/womens-health/faqs/problems-of-the-digestive-system) discusses constipation during pregnancy and treatment options.
 
-**Sources:** [ACOG constipation advice](https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-can-help-with-constipation-during-pregnancy), [ACOG digestive-health FAQ](https://www.acog.org/womens-health/faqs/problems-of-the-digestive-system), [NIDDK pregnancy nutrition tips](https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-pregnant-women), [NIDDK constipation diet guidance](https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition), [CDC safer food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html), and [NHS pregnancy health problems](https://www.nhs.uk/pregnancy/common-symptoms/common-health-problems/). This guide is educational and does not replace prenatal care.
+**Sources:** [ACOG constipation advice](https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-can-help-with-constipation-during-pregnancy), [ACOG digestive-health FAQ](https://www.acog.org/womens-health/faqs/problems-of-the-digestive-system), [NIDDK pregnancy nutrition tips](https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-pregnant-women), [NIDDK constipation diet guidance](https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition), [NIDDK food-source fiber table](https://www.niddk.nih.gov/health-information/digestive-diseases/diverticulosis-diverticulitis/eating-diet-nutrition), and [CDC safer food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html). This guide is educational and does not replace prenatal care.
