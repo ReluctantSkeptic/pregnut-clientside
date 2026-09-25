@@ -2,10 +2,22 @@
 
 $(function () {
   var $input = $("#FoodFinderInput");
+  var $status = $("#FoodFinderStatus");
+
+  function clearSearchError() {
+    $input.removeAttr("aria-invalid");
+    $status.prop("hidden", true).text("");
+  }
 
   function submitFoodSearch() {
     var value = String($input.val() || "").trim();
-    if (!value) return;
+    if (!value) {
+      $input.attr("aria-invalid", "true").trigger("focus");
+      $status.text("Enter a food name to search.").prop("hidden", false);
+      return;
+    }
+
+    clearSearchError();
 
     var selected = null;
     try { selected = $input.getSelectedItemData(); } catch (e) {}
@@ -104,4 +116,6 @@ $(function () {
       submitFoodSearch();
     }
   });
+
+  $input.on("input", clearSearchError);
 });

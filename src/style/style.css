@@ -308,7 +308,15 @@ p {
 .nav-search {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
+}
+
+.nav-search-status {
+  flex-basis: 100%;
+  color: #a34036;
+  font-size: 0.78rem;
+  font-weight: 700;
 }
 
 .nav-input,

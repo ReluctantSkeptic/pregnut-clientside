@@ -29,8 +29,9 @@
                 </div>
                 <div class="nav-search">
                     <label class="sr-only" for="FoodFinderInput">Search Food</label>
-                    <input id="FoodFinderInput" class="nav-input" type="text" placeholder="Search a food">
+                    <input id="FoodFinderInput" class="nav-input" type="text" placeholder="Search a food" aria-describedby="FoodFinderStatus">
                     <button id="FoodFinderSearchButton" class="nav-button" type="button">Search</button>
+                    <span id="FoodFinderStatus" class="nav-search-status" role="status" hidden></span>
                 </div>
             </div>
         </details>
