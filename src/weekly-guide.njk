@@ -21,6 +21,7 @@ pageStyles:
   <header class="hero slim weekly-hero">
     <div>
       <p class="eyebrow">Pregnancy nutrition guide</p>
+      <p class="post-meta">By <a href="/about/#editorial">{{ site.author }}</a>{% if period.id == "wk21-24" %} · <time datetime="2026-09-25">Updated September 25, 2026</time>{% endif %}</p>
       <h1 class="hero-title">Pregnancy nutrition for weeks {{ period.weeks.start }}–{{ period.weeks.end }}</h1>
       <p class="hero-lede">{{ period.summary }}</p>
     </div>
@@ -58,6 +59,21 @@ pageStyles:
     </div>
   </section>
 
+  {% if period.id == "wk21-24" %}
+    <section class="content-card" aria-labelledby="week-food-example-title">
+      <div class="content-head">
+        <p class="content-eyebrow">Food examples</p>
+        <h2 class="content-title" id="week-food-example-title">What could I eat around week 23?</h2>
+        <p class="content-summary">These combinations put this chapter's iron, protein, and vitamin C highlights into familiar meals. They are examples to adapt, not a week-specific meal plan or a change to your daily nutrient targets.</p>
+      </div>
+      <ul class="dev-list">
+        <li><strong>Boiled lentils with washed raw red pepper.</strong> The <a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/">NIH iron table</a> lists about 3 mg iron in ½ cup boiled lentils; its <a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/">vitamin C table</a> lists about 95 mg in ½ cup raw sweet red pepper. Vitamin C can help your body absorb iron from plant foods. Compare PregNut's <a href="/food/16070-lentils-mature-seeds-boiled/">boiled lentils</a> and <a href="/food/11821-peppers-sweet-red-raw/">raw red pepper</a> records per 100 g, then use the portion tool for the amount you serve.</li>
+        <li><strong>Cooked salmon with cooked broccoli.</strong> <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA lists salmon as a lower-mercury “Best Choice”</a>; <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC advises cooking fish to 145°F</a> or until opaque and separating easily with a fork. The <a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/">NIH vitamin C table</a> lists about 51 mg in ½ cup cooked broccoli. Compare the <a href="/food/15086-salmon-sockeye-cooked-dry-heat/">cooked sockeye salmon</a> and <a href="/food/11091-broccoli-boiled/">boiled broccoli</a> nutrient records, and use FDA's fish chart to plan weekly seafood servings.</li>
+      </ul>
+      <p class="content-summary">These are food-composition comparisons, not a treatment for low iron or a substitute for prenatal care. If you avoid fish, the <a href="/blog/vegetarian-protein-pregnancy/">vegetarian protein guide</a> has other options; the <a href="/blog/iron-foods-pregnancy/">iron guide</a> explains food pairings and prenatal labels.</p>
+    </section>
+  {% endif %}
+
   {% if period.notes %}
     <section class="content-card">
       <div class="content-head"><h2 class="content-title">Practical notes</h2></div>
@@ -73,6 +89,12 @@ pageStyles:
       {% for source in period.citations %}
         <li><a href="{{ source.url }}" rel="noopener noreferrer">{{ source.label }}</a></li>
       {% endfor %}
+      {% if period.id == "wk21-24" %}
+        <li><a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/">NIH: Iron food table and absorption</a></li>
+        <li><a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/">NIH: Vitamin C food table</a></li>
+        <li><a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA: Advice about eating fish</a></li>
+        <li><a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC: Safer food choices for pregnant women</a></li>
+      {% endif %}
     </ul>
   </section>
 

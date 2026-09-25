@@ -6,6 +6,7 @@ const homepageLastmod = "2026-09-23";
 const topFoodsLastmod = "2026-09-25";
 const blogHubLastmod = "2026-09-25";
 const foodPagesLastmod = "2026-09-24";
+const weeklyGuideLastmod = { "wk21-24": "2026-09-25" };
 
 const paths = [
   "/",
@@ -25,6 +26,7 @@ module.exports = [...new Set(paths)].sort().map((path) => {
   if (path === "/") lastmod = homepageLastmod;
   else if (path === "/app/") lastmod = topFoodsLastmod;
   else if (path === "/blog/") lastmod = blogHubLastmod;
+  else if (path.startsWith("/weekly-guide/")) lastmod = weeklyGuideLastmod[path.split("/")[2]];
   else if (path.startsWith("/food/")) lastmod = foodPagesLastmod;
   return lastmod ? { path, lastmod } : { path };
 });
