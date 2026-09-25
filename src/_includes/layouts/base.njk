@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% if food %}
+    {% if food and food.isHumanMilk %}
+      {% set pageTitle = "Human Milk Nutrient Data" %}
+      {% set pageDescription = "Historical nutrient data for human milk. This record is not a pregnancy food recommendation." %}
+    {% elif food %}
       {% set pageTitle = food.pageName + " Nutrition in Pregnancy" %}
       {% set pageDescription = food.metaDescription %}
     {% elif period %}
@@ -22,7 +25,7 @@
     <meta name="author" content="{{ (author or site.author) | escape }}">
     <meta name="theme-color" content="#f3f0e8">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    {% if noindex or (food and food.topNutrients.length < 3) %}<meta name="robots" content="noindex">{% endif %}
+    {% if noindex or (food and (food.topNutrients.length < 3 or food.isHumanMilk)) %}<meta name="robots" content="noindex">{% endif %}
     <meta property="og:type" content="{{ ogType or 'website' }}">
     <meta property="og:site_name" content="{{ site.name }}">
     <meta property="og:title" content="{{ socialTitle | escape }}">

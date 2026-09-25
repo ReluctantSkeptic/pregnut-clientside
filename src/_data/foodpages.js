@@ -120,6 +120,7 @@ const items = (foodData.foods || [])
     const slug = `${food.id}-${slugify(food.name)}`;
     const hasDuplicateName = foodNameCounts.get(food.name) > 1;
     const pageName = hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name;
+    const isHumanMilk = food.id === "01107";
     const rows = nutrientRows(food);
     const chartRows = rows
       .slice()
@@ -134,8 +135,9 @@ const items = (foodData.foods || [])
       chartRows,
       topNutrients,
       metaDescription: metaDescription(pageName, topNutrients),
-      seoTitle: seoTitle(pageName),
+      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : seoTitle(pageName),
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
+      isHumanMilk,
       isCheese: food.group === "Dairy and Egg Products" && food.name.startsWith("Cheese,"),
       isMilkOrYogurt: food.group === "Dairy and Egg Products" && /^(Milk|Yogurt),/.test(food.name) && !/^Milk, (Human|Imitation)/.test(food.name),
       isSmokedFish: food.group === "Finfish and Shellfish Products" && /\bSmoked\b/i.test(food.name),

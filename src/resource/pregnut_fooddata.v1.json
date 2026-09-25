@@ -17291,8 +17291,8 @@
       "name": "Milk, Human, Mature, Fluid",
       "group": "Dairy and Egg Products",
       "natSource": 1,
-      "warning": "Caution",
-      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
+      "warning": "",
+      "warningText": "",
       "nutrients": {
         "Protein": 1.03,
         "Calories": 70,
@@ -17315,8 +17315,8 @@
       "name": "Milk, Imitation, Non-soy",
       "group": "Dairy and Egg Products",
       "natSource": 1,
-      "warning": "Caution",
-      "warningText": "Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy.",
+      "warning": "",
+      "warningText": "",
       "nutrients": {
         "Protein": 1.6,
         "Calories": 46,

@@ -195,7 +195,7 @@
 "01057",Dairy and Egg Products,Eggnog,1,,
 "01089",Dairy and Egg Products,"Milk, Low sodium, Fluid",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
 "01095",Dairy and Egg Products,"Milk, Canned, Condensed, Sweetened",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
-"01107",Dairy and Egg Products,"Milk, Human, Mature, Fluid",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
+"01107",Dairy and Egg Products,"Milk, Human, Mature, Fluid",1,,
 "01115",Dairy and Egg Products,"Whey, Sweet, Dried",1,,
 "01116",Dairy and Egg Products,"Yogurt, Plain, Whole milk, 8 grams protein per 8 ounce",1,,
 "01117",Dairy and Egg Products,"Yogurt, Plain, Low fat, 12 grams protein per 8 ounce",1,,
@@ -1261,7 +1261,7 @@
 "43476",Legumes and Legume Products,Tofu yogurt,1,,
 "43483",Breakfast Cereals,"Millet, Puffed",0,,
 "43495",Breakfast Cereals,"Cereal, Health valley",0,,
-"43543",Dairy and Egg Products,"Milk, Imitation, Non-soy",1,Caution,"Choose pasteurized milk and dairy products made from pasteurized milk. Avoid raw milk during pregnancy."
+"43543",Dairy and Egg Products,"Milk, Imitation, Non-soy",1,,
 "43570",Breakfast Cereals,"Cereal, Honey bunches of oats, Honey roasted",0,,
 "44005",Fats and Oils,"Oil, Corn, Peanut, And olive",0,,
 "80200",Finfish and Shellfish Products,Frog legs,1,Caution,The FDA/EPA fish chart does not classify this exact food entry. Check current fish advice and pregnancy food-safety guidance.
