@@ -44,7 +44,12 @@ module.exports = {
   ],
   "/blog/water-intake-pregnancy/": [
     { url: "/blog/caffeine-coffee-tea-pregnancy/", title: "Count caffeine from coffee and tea" },
+    { url: "/blog/foods-for-morning-sickness-pregnancy/", title: "Find foods and drinks for morning sickness" },
     { url: "/blog/ginger-tea-capsules-pregnancy-nausea/", title: "Compare ginger tea and capsules for nausea" }
+  ],
+  "/blog/foods-for-morning-sickness-pregnancy/": [
+    { url: "/blog/vitamin-b6-foods-pregnancy/", title: "Separate food B6 from nausea treatment" },
+    { url: "/blog/water-intake-pregnancy/", title: "Plan water intake during pregnancy" }
   ],
   "/blog/caffeine-coffee-tea-pregnancy/": [
     { url: "/blog/water-intake-pregnancy/", title: "Plan plain-water intake during pregnancy" }
