@@ -13,6 +13,8 @@ eleventyComputed:
 pageStyles:
   - /style/weekly-diet.css
   - /style/food.css?v=20260812
+pageScripts:
+  - /js/food-portion.js
 ---
 
 <article class="section food-static-page">
@@ -55,6 +57,30 @@ pageStyles:
           </li>
         {% endfor %}
       </ol>
+    </section>
+  {% endif %}
+
+  {% if not food.isHumanMilk and food.topNutrients.length >= 3 %}
+    <section class="content-card food-portion-card" aria-labelledby="food-portion-title">
+      <div class="content-head">
+        <h2 class="content-title" id="food-portion-title">Estimate your portion</h2>
+        <p class="content-summary">Scale this page's three strongest nutrients from 100 g to your portion (100 g amount × grams ÷ 100). Check labels for packaged foods.</p>
+      </div>
+      <div class="food-portion-tool" data-food-portion hidden>
+        <label for="food-portion-grams">Portion weight in grams</label>
+        <input id="food-portion-grams" type="number" inputmode="decimal" min="0.1" max="5000" step="any" value="100" aria-describedby="food-portion-error">
+        <p class="food-portion-error" id="food-portion-error" role="alert" hidden></p>
+        <p class="food-portion-status" data-food-portion-status aria-live="polite">Estimated amounts for 100 g</p>
+        <ul class="food-portion-results">
+          {% for row in food.topNutrients %}
+            <li data-food-portion-row data-base-value="{{ row.value }}" data-base-percent="{{ row.percent }}">
+              <span>{{ row.name }}</span>
+              <strong><span data-food-portion-value>{{ row.value | formatNumber }}</span> {{ row.unit }} · <span data-food-portion-percent>{{ row.displayPercent }}</span>% of reference</strong>
+            </li>
+          {% endfor %}
+        </ul>
+        <p class="content-summary">These estimates use historical food data; they do not measure your serving or establish food safety.</p>
+      </div>
     </section>
   {% endif %}
 

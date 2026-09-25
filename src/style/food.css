@@ -133,6 +133,43 @@
   background: rgba(255, 254, 251, 0.78);
 }
 
+.food-portion-tool > label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.food-portion-tool > input {
+  width: min(100%, 220px);
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font: inherit;
+}
+
+.food-portion-error {
+  color: #a22c2c;
+}
+
+.food-portion-status {
+  margin: 18px 0 8px;
+  font-weight: 700;
+}
+
+.food-portion-results {
+  padding: 0;
+  list-style: none;
+}
+
+.food-portion-results li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
 .food-glance-rank {
   display: inline-grid;
   width: 30px;
