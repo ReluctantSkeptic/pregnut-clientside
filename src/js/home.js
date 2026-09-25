@@ -47,8 +47,10 @@
         }
       } catch (e) {}
 
-      try {
-        if (window.jQuery && window.jQuery.fn && window.jQuery.fn.easyAutocomplete) {
+      input.addEventListener("focus", function () {
+        if (input.dataset.autocompleteReady) return;
+        window.loadFoodAutocomplete().then(function () {
+          if (input.dataset.autocompleteReady) return;
           var $ = window.jQuery;
           var $input = $("#HomeFoodSearchInput");
 
@@ -67,8 +69,10 @@
             var $wrap = $input.closest("div.easy-autocomplete");
             if ($wrap && $wrap.length) $wrap.removeAttr("style");
           } catch (e) {}
-        }
-      } catch (e) {}
+          input.dataset.autocompleteReady = "true";
+          if (input.value.trim()) $input.trigger("keyup");
+        }).catch(function () { /* The form still submits without suggestions. */ });
+      });
     })();
 
     // Feature previews: mini "live" snapshots (no images) for Top Foods + Weekly Diet.

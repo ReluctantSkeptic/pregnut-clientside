@@ -1,121 +1,125 @@
-// src/js/searchbar.js
+// Load food suggestions only when a visitor uses a search field.
+(function () {
+  var autocompletePromise;
 
-$(function () {
-  var $input = $("#FoodFinderInput");
-  var $status = $("#FoodFinderStatus");
-
-  function clearSearchError() {
-    $input.removeAttr("aria-invalid");
-    $status.prop("hidden", true).text("");
+  function loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      var script = document.createElement("script");
+      script.src = src;
+      script.onload = resolve;
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
   }
 
-  function submitFoodSearch() {
-    var value = String($input.val() || "").trim();
-    if (!value) {
-      $input.attr("aria-invalid", "true").trigger("focus");
-      $status.text("Enter a food name to search.").prop("hidden", false);
-      return;
+  window.loadFoodAutocomplete = function () {
+    if (!autocompletePromise) {
+      var stylesheet = document.createElement("link");
+      stylesheet.rel = "stylesheet";
+      stylesheet.href = "/style/easy-autocomplete.css";
+      document.head.appendChild(stylesheet);
+      autocompletePromise = loadScript("/js/jquery.min.js")
+        .then(function () { return loadScript("/js/jquery.easy-autocomplete.min.js"); });
+    }
+    return autocompletePromise;
+  };
+
+  function start() {
+    var input = document.getElementById("FoodFinderInput");
+    var status = document.getElementById("FoodFinderStatus");
+
+    function clearSearchError() {
+      input.removeAttribute("aria-invalid");
+      status.hidden = true;
+      status.textContent = "";
     }
 
-    clearSearchError();
-
-    var selected = null;
-    try { selected = $input.getSelectedItemData(); } catch (e) {}
-    if (selected && selected.FoodUrl && String(selected.FoodName || "").trim() === value) {
-      window.location.href = selected.FoodUrl;
-      return;
-    }
-
-    window.location.href = "/food/?q=" + encodeURIComponent(value);
-  }
-
-  if ($input.length && $.fn.easyAutocomplete) {
-    var foodFinderInit = {
-      url: "/foodfindersearch.json",
-      getValue: "FoodName",
-      list: {
-        match: { enabled: true },
-        maxNumberOfElements: 20,
-        onChooseEvent: submitFoodSearch
+    function submitFoodSearch() {
+      var value = input.value.trim();
+      if (!value) {
+        input.setAttribute("aria-invalid", "true");
+        status.textContent = "Enter a food name to search.";
+        status.hidden = false;
+        input.focus();
+        return;
       }
-    };
-    $input.easyAutocomplete(foodFinderInit);
-    $("div.easy-autocomplete").removeAttr("style");
-  }
 
-  // Mobile navbar: pill row expands a menu (details/summary).
-  var $navDetails = $("#NavCollapse");
-  if ($navDetails.length) {
-    var details = $navDetails.get(0);
-    var $summary = $navDetails.find("summary.nav-pill").first();
-    var mq = null;
-    try { mq = window.matchMedia ? window.matchMedia("(max-width: 900px)") : null; } catch (e) { mq = null; }
+      clearSearchError();
+      var selected = null;
+      if (window.jQuery && window.jQuery.fn.easyAutocomplete) {
+        try { selected = window.jQuery(input).getSelectedItemData(); } catch (error) {}
+      }
+      if (selected && selected.FoodUrl && String(selected.FoodName || "").trim() === value) {
+        window.location.href = selected.FoodUrl;
+        return;
+      }
+      window.location.href = "/food/?q=" + encodeURIComponent(value);
+    }
 
-    function isMobileNav() {
-      try { return mq ? !!mq.matches : false; } catch (e) { return false; }
+    if (input) {
+      input.addEventListener("focus", function () {
+        if (input.dataset.autocompleteReady) return;
+        window.loadFoodAutocomplete().then(function () {
+          if (input.dataset.autocompleteReady) return;
+          var $input = window.jQuery(input);
+          $input.easyAutocomplete({
+            url: "/foodfindersearch.json",
+            getValue: "FoodName",
+            list: {
+              match: { enabled: true },
+              maxNumberOfElements: 20,
+              onChooseEvent: submitFoodSearch
+            }
+          });
+          $input.closest("div.easy-autocomplete").removeAttr("style");
+          input.dataset.autocompleteReady = "true";
+          if (input.value.trim()) $input.trigger("keyup");
+        }).catch(function () { /* Search still works without suggestions. */ });
+      });
+      input.addEventListener("input", clearSearchError);
+      input.addEventListener("keydown", function (event) {
+        if (event.key !== "Enter") return;
+        event.preventDefault();
+        submitFoodSearch();
+      });
+    }
+
+    var button = document.getElementById("FoodFinderSearchButton");
+    if (button) button.addEventListener("click", submitFoodSearch);
+
+    var details = document.getElementById("NavCollapse");
+    if (!details) return;
+    var summary = details.querySelector("summary.nav-pill");
+    var mq = window.matchMedia("(max-width: 900px)");
+
+    function syncNavAria() {
+      if (summary) summary.setAttribute("aria-expanded", String(details.open));
     }
 
     function applyNavMode() {
-      if (!details) return;
-      // Desktop: keep nav always visible; Mobile: collapse into the pill trigger.
-      details.open = !isMobileNav();
+      details.open = !mq.matches;
       syncNavAria();
-    }
-
-    function syncNavAria() {
-      if (!$summary.length || !details) return;
-      var open = !!details.open;
-      $summary.attr("aria-expanded", open ? "true" : "false");
     }
 
     details.addEventListener("toggle", syncNavAria);
-    if (mq) {
-      try {
-        if (mq.addEventListener) mq.addEventListener("change", applyNavMode);
-        else if (mq.addListener) mq.addListener(applyNavMode);
-      } catch (e) {}
-    }
+    if (mq.addEventListener) mq.addEventListener("change", applyNavMode);
+    else mq.addListener(applyNavMode);
     applyNavMode();
 
-    // Close after selecting a link (mobile only).
-    $navDetails.find("a.nav-link").on("click", function () {
-      try {
-        if (isMobileNav()) {
-          details.open = false;
-          syncNavAria();
-        }
-      } catch (e) {}
+    details.querySelectorAll("a.nav-link").forEach(function (link) {
+      link.addEventListener("click", function () {
+        if (mq.matches) details.open = false;
+      });
     });
 
-    // Close on Escape and on outside click for a crisp mobile experience.
-    document.addEventListener("keydown", function (ev) {
-      if (!details.open) return;
-      if (!isMobileNav()) return;
-      if (ev && ev.key === "Escape") {
-        details.open = false;
-        syncNavAria();
-      }
+    document.addEventListener("keydown", function (event) {
+      if (details.open && mq.matches && event.key === "Escape") details.open = false;
     });
-
-    document.addEventListener("click", function (ev) {
-      if (!details.open) return;
-      if (!isMobileNav()) return;
-      if (details.contains(ev.target)) return;
-      details.open = false;
-      syncNavAria();
+    document.addEventListener("click", function (event) {
+      if (details.open && mq.matches && !details.contains(event.target)) details.open = false;
     });
   }
 
-  $("#FoodFinderSearchButton").on("click", function () {
-    submitFoodSearch();
-  });
-
-  $input.on("keydown", function (ev) {
-    if (ev && ev.key === "Enter") {
-      ev.preventDefault();
-      submitFoodSearch();
-    }
-  });
-
-  $input.on("input", clearSearchError);
-});
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+  else start();
+})();

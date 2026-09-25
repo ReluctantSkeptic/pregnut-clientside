@@ -53,26 +53,31 @@
   }
 
   function initAutocomplete() {
-    if (!window.jQuery || !window.jQuery.fn || !window.jQuery.fn.easyAutocomplete) return;
-
-    var $input = window.jQuery("#FoodDirectoryInput");
-    if (!$input.length) return;
-
-    $input.easyAutocomplete({
-      url: SEARCH_DATA_URL,
-      getValue: "FoodName",
-      list: {
-        match: { enabled: true },
-        maxNumberOfElements: 20,
-        onChooseEvent: function () {
-          var selected = null;
-          try { selected = $input.getSelectedItemData(); } catch (error) {}
-          if (selected && selected.FoodUrl) window.location.href = selected.FoodUrl;
-        }
-      }
+    var input = document.getElementById("FoodDirectoryInput");
+    if (!input) return;
+    input.addEventListener("focus", function () {
+      if (input.dataset.autocompleteReady) return;
+      window.loadFoodAutocomplete().then(function () {
+        if (input.dataset.autocompleteReady) return;
+        var $input = window.jQuery(input);
+        $input.easyAutocomplete({
+          url: SEARCH_DATA_URL,
+          getValue: "FoodName",
+          list: {
+            match: { enabled: true },
+            maxNumberOfElements: 20,
+            onChooseEvent: function () {
+              var selected = null;
+              try { selected = $input.getSelectedItemData(); } catch (error) {}
+              if (selected && selected.FoodUrl) window.location.href = selected.FoodUrl;
+            }
+          }
+        });
+        $input.closest("div.easy-autocomplete").removeAttr("style");
+        input.dataset.autocompleteReady = "true";
+        if (input.value.trim()) $input.trigger("keyup");
+      }).catch(function () { /* The form still submits without suggestions. */ });
     });
-
-    try { $input.closest("div.easy-autocomplete").removeAttr("style"); } catch (error) {}
   }
 
   function start() {

@@ -140,7 +140,6 @@
     <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
     <link rel="preload" href="/style/fonts/instrument-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
     {% if page.url == "/" %}<link rel="preload" href="/style/fonts/instrument-serif-italic-latin.woff2" as="font" type="font/woff2" crossorigin>{% endif %}
-    <link rel="stylesheet" href="/style/easy-autocomplete.css">
     <link rel="stylesheet" href="/style/style.css">
     {% if pageStyles %}
       {% for href in pageStyles %}
@@ -162,8 +161,6 @@
         <button type="button" id="CookieAccept">Accept analytics</button>
       </div>
     </div>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.easy-autocomplete.min.js"></script>
     <script src="/js/searchbar.js"></script>
     <script src="/js/caution.js"></script>
     {% if pageScripts %}
