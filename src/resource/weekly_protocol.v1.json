@@ -196,6 +196,7 @@
       "weeks": { "start": 9, "end": 12 },
       "citations": ["nhs-9-12"],
       "summary": "By the end of this period, the baby is fully formed with organs and limbs in place, then shifts toward growth and maturation.",
+      "seoDescription": "Weeks 9–12: follow folate, zinc, protein, and vitamin B6 highlights, with linked food guides and development sources as the first trimester closes.",
       "development": [
         "Major internal organs continue developing and refining.",
         "By about 12 weeks, organs, muscles, limbs, and bones are in place and development shifts toward growth and maturation.",
@@ -241,6 +242,7 @@
       "weeks": { "start": 13, "end": 16 },
       "citations": ["nhs-13-16"],
       "summary": "You're in the second trimester: growth accelerates and coordination and movement increase.",
+      "seoDescription": "Weeks 13–16: choline, DHA, calcium, and vitamin D highlights, plus sourced egg, yogurt, salmon, and fortified soymilk examples.",
       "development": [
         "Swallowing begins and kidneys start to work.",
         "Hearing and light sensitivity begin to emerge.",
@@ -293,6 +295,7 @@
       "weeks": { "start": 17, "end": 20 },
       "citations": ["nhs-17-20"],
       "summary": "This period is often when movement becomes obvious, and the fetus keeps building capacity for life outside the womb.",
+      "seoDescription": "Weeks 17–20: find iron and protein priorities, vitamin C and DHA guides, and development notes on movement and senses.",
       "development": [
         "Fingerprints and nails form; grip strengthens.",
         "Movement increases and responses to sound can begin.",
@@ -384,6 +387,7 @@
       "weeks": { "start": 25, "end": 28 },
       "citations": ["nhs-25-28"],
       "summary": "Growth continues as the brain, lungs, and other systems mature; the third trimester begins around week 28.",
+      "seoDescription": "Weeks 25–28: read DHA and iron highlights, protein and calcium food guides, and sourced notes on brain and lung development.",
       "development": [
         "Responses to sound and touch are strong; hiccups can happen.",
         "Eyelids can open around this time and the baby keeps gaining weight.",
@@ -429,6 +433,7 @@
       "weeks": { "start": 29, "end": 32 },
       "citations": ["nhs-29-32"],
       "summary": "A high-growth stretch: lungs develop rapidly and many babies start moving into a head-down position.",
+      "seoDescription": "Weeks 29–32: use protein and iron guides while exploring calcium, vitamin D, lung maturation, and position changes.",
       "development": [
         "Sucking reflex develops and practice continues.",
         "Lungs develop rapidly, though full readiness is later.",
@@ -474,6 +479,7 @@
       "weeks": { "start": 33, "end": 36 },
       "citations": ["nhs-33-36"],
       "summary": "The baby's systems are largely in place; the focus is on maturing and preparing for delivery.",
+      "seoDescription": "Weeks 33–36: learn why protein and iron are highlighted alongside calcium and vitamin D, with sourced notes on growth and lung readiness.",
       "development": [
         "Brain and nervous system development continues.",
         "Your baby's body keeps gaining weight and smoothing out.",
@@ -519,6 +525,7 @@
       "weeks": { "start": 37, "end": 40 },
       "citations": ["nhs-37-40", "acog-term"],
       "summary": "Weeks 37–38 are early term; weeks 39–40 are full term. Growth and maturation continue through these weeks.",
+      "seoDescription": "Weeks 37–40: review protein, iron, calcium, and vitamin D highlights and source-linked distinctions between early and full term.",
       "development": [
         "ACOG classifies weeks 37–38 as early term and weeks 39–40 as full term.",
         "Lanugo is mostly gone by around 40 weeks for many babies.",

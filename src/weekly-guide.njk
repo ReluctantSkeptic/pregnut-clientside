@@ -139,7 +139,7 @@ pageStyles:
   <nav class="content-card" aria-labelledby="more-weekly-guides">
     <div class="content-head">
       <h2 class="content-title" id="more-weekly-guides">Explore other pregnancy stages</h2>
-      <p class="content-summary"><a href="/weekly-diet/">See the interactive weekly guide</a></p>
+      <p class="content-summary"><a href="/weekly-diet/?week={{ period.weeks.start }}">Explore week {{ period.weeks.start }} in the interactive guide</a></p>
     </div>
     <ul class="guide-link-list">
       {% for chapter in weeklyProtocol.periods %}
