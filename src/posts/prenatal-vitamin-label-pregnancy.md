@@ -9,10 +9,17 @@ date: 2026-09-22
 dateModified: 2026-09-25
 ogType: article
 schemaType: Article
+socialImage: /resource/prenatal-label-guide.webp
+socialImageType: image/webp
+socialImageWidth: 1672
+socialImageHeight: 941
+socialImageAlt: Illustration of a blank prenatal supplement label and checklist beside foods
 tags: post
 ---
 
 **The short answer:** Start with the **serving size** on the Supplement Facts panel, then check folic acid, iron, iodine, and choline. A prenatal is a supplement to food, and formulations differ. [ACOG's healthy eating guide](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) and [NIH's pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) are useful references to discuss with your clinician.
+
+<figure class="post-image"><img src="/resource/prenatal-label-guide.webp" alt="Illustration of an unbranded prenatal supplement bottle, blank label checklist, egg, greens, and orange" width="1672" height="941" loading="eager" fetchpriority="high"><figcaption>Illustration only; read the Supplement Facts panel on your own product.</figcaption></figure>
 
 ## A quick label check
 
