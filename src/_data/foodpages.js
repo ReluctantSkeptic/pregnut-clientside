@@ -121,6 +121,8 @@ const items = (foodData.foods || [])
     const hasDuplicateName = foodNameCounts.get(food.name) > 1;
     const pageName = hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name;
     const isHumanMilk = food.id === "01107";
+    const isRawPulse = food.id === "16069" || food.id === "16085";
+    const isRawFlour = food.id === "16115";
     const rows = nutrientRows(food);
     const chartRows = rows
       .slice()
@@ -134,10 +136,14 @@ const items = (foodData.foods || [])
       nutrientRows: rows,
       chartRows,
       topNutrients,
-      metaDescription: metaDescription(pageName, topNutrients),
+      metaDescription: isRawPulse || isRawFlour
+        ? `${pageName}: nutrients per 100 g before cooking. Uncooked ingredient data, not a ready-to-eat serving. See preparation guidance.`
+        : metaDescription(pageName, topNutrients),
       seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : seoTitle(pageName),
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
       isHumanMilk,
+      isRawPulse,
+      isRawFlour,
       isCheese: food.group === "Dairy and Egg Products" && food.name.startsWith("Cheese,"),
       isMilkOrYogurt: food.group === "Dairy and Egg Products" && /^(Milk|Yogurt),/.test(food.name) && !/^Milk, (Human|Imitation)/.test(food.name),
       isSmokedFish: food.group === "Finfish and Shellfish Products" && /\bSmoked\b/i.test(food.name),

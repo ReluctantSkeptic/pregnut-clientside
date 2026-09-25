@@ -26,7 +26,7 @@ pageScripts:
     <div>
       <p class="eyebrow">{% if food.isHumanMilk %}Food data record{% else %}Pregnancy food guide{% endif %}</p>
       <h1 class="hero-title food-detail-title"><span class="food-detail-name">{{ food.pageName }}</span> <span class="food-detail-context">{% if food.isHumanMilk %}Historical nutrient data{% else %}Nutrition in pregnancy{% endif %}</span></h1>
-      <p class="hero-lede">{% if food.isHumanMilk %}This historical food-composition record describes human milk. It is not a pregnancy food recommendation. {% else %}See how a 100 gram portion compares with pregnancy nutrient reference amounts. {% endif %}The values come from a historical USDA-based dataset; <a href="/about/#food-data-sources">see its sources and limits</a>. Use this as a comparison tool, not personalized medical advice.</p>
+      <p class="hero-lede">{% if food.isHumanMilk %}This historical food-composition record describes human milk. It is not a pregnancy food recommendation. {% elif food.isRawPulse or food.isRawFlour %}This record describes an uncooked ingredient, not a ready-to-eat portion. Compare its nutrients per 100 grams before preparation. {% else %}See how a 100 gram portion compares with pregnancy nutrient reference amounts. {% endif %}The values come from a historical USDA-based dataset; <a href="/about/#food-data-sources">see its sources and limits</a>. Use this as a comparison tool, not personalized medical advice.</p>
       <p class="food-group-label">Food group: {{ food.group }}</p>
     </div>
     {% if food.image and food.image.src %}
@@ -60,7 +60,7 @@ pageScripts:
     </section>
   {% endif %}
 
-  {% if not food.isHumanMilk and food.topNutrients.length >= 3 %}
+  {% if not food.isHumanMilk and not food.isRawPulse and not food.isRawFlour and food.topNutrients.length >= 3 %}
     <section class="content-card food-portion-card" aria-labelledby="food-portion-title">
       <div class="content-head">
         <h2 class="content-title" id="food-portion-title">Estimate your portion</h2>
@@ -91,6 +91,22 @@ pageScripts:
         <h2 class="content-title">Historical reference only</h2>
       </div>
       <p class="content-summary">This record is kept for completeness in the historical nutrient dataset. The pregnancy reference amounts below provide a numerical comparison only; they are not feeding or consumption guidance.</p>
+    </aside>
+  {% elif food.isRawPulse or food.isRawFlour %}
+    <aside class="content-card food-safety-note" aria-label="Preparation note">
+      <div class="food-safety-heading">
+        <p class="content-eyebrow">Preparation</p>
+        <h2 class="content-title">Uncooked ingredient data</h2>
+      </div>
+      <p class="content-summary">This entry measures 100 g before preparation. Cooking changes the food's weight and can change its nutrients per 100 g, so do not treat this chart as a ready-to-eat serving.</p>
+      {% if food.isRawPulse %}
+        <p class="content-summary">Follow package preparation instructions. <a href="https://www.efsa.europa.eu/en/news/lectins-food-undercooked-beans-pose-health-risk-says-efsa">EFSA explains why properly preparing pulses matters</a>.</p>
+      {% else %}
+        <p class="content-summary"><a href="https://www.cdc.gov/food-safety/foods/no-raw-dough.html">CDC advises cooking foods made with raw flour as directed</a>; do not taste uncooked dough or batter.</p>
+      {% endif %}
+      {% if food.id == "16069" %}
+        <p class="content-summary">For a prepared comparison, see <a href="/food/16070-lentils-mature-seeds-boiled/">boiled lentils</a>.</p>
+      {% endif %}
     </aside>
   {% elif food.warning %}
     <aside class="content-card food-safety-note{% if food.warning | lower == 'avoid' %} is-avoid{% endif %}" aria-label="Food safety note">
