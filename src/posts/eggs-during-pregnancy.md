@@ -9,10 +9,17 @@ date: 2026-09-23
 dateModified: 2026-09-23
 ogType: article
 schemaType: Article
+socialImage: /resource/portions/portion-eggs-100g.webp
+socialImageType: image/webp
+socialImageWidth: 900
+socialImageHeight: 900
+socialImageAlt: Illustration of fully cooked eggs
 tags: post
 ---
 
 **The short answer:** Eggs can contribute nutrients during pregnancy, but preparation matters. The [CDC's safer-food guide](https://www.cdc.gov/food-safety/foods/pregnant-women.html) recommends eggs cooked until both the yolks and whites are firm. For a food that will contain raw or lightly cooked egg, use pasteurized eggs or egg products. A nutrient chart cannot tell whether a particular egg dish was cooked safely.
+
+<figure class="post-image"><img src="/resource/portions/portion-eggs-100g.webp" alt="Illustration of fully cooked eggs" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative cooked eggs; an image cannot verify a dish's temperature or pasteurization.</figcaption></figure>
 
 ## How thoroughly should eggs be cooked?
 

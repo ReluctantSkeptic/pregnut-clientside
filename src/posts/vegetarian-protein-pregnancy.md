@@ -9,10 +9,17 @@ date: 2026-09-22
 dateModified: 2026-09-24
 ogType: article
 schemaType: Article
+socialImage: /resource/portions/portion-lentils-100g.webp
+socialImageType: image/webp
+socialImageWidth: 900
+socialImageHeight: 900
+socialImageAlt: Illustration of cooked lentils in a bowl
 tags: post
 ---
 
 **The short answer:** You can get protein from beans, soy foods, nuts, seeds, eggs, and dairy if you eat them. [ACOG recommends a variety of protein foods](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) during pregnancy. A single food does not have to provide the whole day's protein.
+
+<figure class="post-image"><img src="/resource/portions/portion-lentils-100g.webp" alt="Illustration of cooked lentils in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative cooked lentils; actual portions and protein amounts vary.</figcaption></figure>
 
 ## What do common vegetarian foods provide?
 
