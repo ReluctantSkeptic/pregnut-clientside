@@ -41,5 +41,12 @@ module.exports = {
   "/blog/prenatal-vitamin-label-pregnancy/": [
     { url: "/blog/protein-powder-pregnancy/", title: "Check protein powder labels for added nutrients" },
     { url: "/blog/zinc-foods-pregnancy/", title: "Compare zinc foods and prenatal labels" }
+  ],
+  "/blog/water-intake-pregnancy/": [
+    { url: "/blog/caffeine-coffee-tea-pregnancy/", title: "Count caffeine from coffee and tea" },
+    { url: "/blog/ginger-tea-capsules-pregnancy-nausea/", title: "Compare ginger tea and capsules for nausea" }
+  ],
+  "/blog/caffeine-coffee-tea-pregnancy/": [
+    { url: "/blog/water-intake-pregnancy/", title: "Plan plain-water intake during pregnancy" }
   ]
 };
