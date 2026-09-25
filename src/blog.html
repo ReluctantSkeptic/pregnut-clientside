@@ -9,6 +9,10 @@ permalink: /blog/index.html
   <div>
     <h1 class="hero-title">{{ title }}</h1>
     <p class="hero-lede">Clear answers about nutrients, food choices, and prenatal supplements, with links to the evidence behind them.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#blog-start-title">Browse by question</a>
+      <a class="button ghost" href="/food/">Compare foods</a>
+    </div>
   </div>
 </section>
 
@@ -90,7 +94,7 @@ permalink: /blog/index.html
   <div class="card-grid">
     {%- for post in collections.post | reverse -%}
       <article class="card">
-        <p class="card-meta">{{ post.date | readableDate }}</p>
+        <p class="card-meta">{% if post.data.dateModified and (post.data.dateModified | isoDate) != (post.date | isoDate) %}Updated {{ post.data.dateModified | readableDate }}{% else %}Published {{ post.date | readableDate }}{% endif %}</p>
         <h3 class="card-title">
           <a href="{{ post.url | url }}">{{ post.data.title }}</a>
         </h3>

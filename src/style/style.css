@@ -418,6 +418,10 @@ p {
   margin-top: 24px;
 }
 
+#blog-start-title {
+  scroll-margin-top: 116px;
+}
+
 .hero-visual {
   position: relative;
 }
