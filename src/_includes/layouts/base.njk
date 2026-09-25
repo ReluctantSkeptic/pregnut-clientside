@@ -40,12 +40,12 @@
       <link rel="canonical" href="{{ pageUrl }}">
       <meta property="og:url" content="{{ pageUrl }}">
       <meta property="og:image" content="{{ site.url }}{{ socialImage or site.socialImage }}">
-      <meta property="og:image:type" content="image/jpeg">
-      <meta property="og:image:width" content="1200">
-      <meta property="og:image:height" content="630">
-      <meta property="og:image:alt" content="Illustration of a pregnant person holding an acorn">
+      <meta property="og:image:type" content="{{ socialImageType or 'image/jpeg' }}">
+      <meta property="og:image:width" content="{{ socialImageWidth or 1200 }}">
+      <meta property="og:image:height" content="{{ socialImageHeight or 630 }}">
+      <meta property="og:image:alt" content="{{ socialImageAlt or 'Illustration of a pregnant person holding an acorn' }}">
       <meta name="twitter:image" content="{{ site.url }}{{ socialImage or site.socialImage }}">
-      <meta name="twitter:image:alt" content="Illustration of a pregnant person holding an acorn">
+      <meta name="twitter:image:alt" content="{{ socialImageAlt or 'Illustration of a pregnant person holding an acorn' }}">
       {% if pageSchemaType == "WebSite" %}
         <script type="application/ld+json">{{ {
           "@context": "https://schema.org",

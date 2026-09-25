@@ -618,6 +618,25 @@ p {
   text-transform: uppercase;
 }
 
+.post-image {
+  margin: 28px 0 32px;
+}
+
+.post-image img {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
+.post-image figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
 .prose p,
 .prose li {
   color: var(--muted);

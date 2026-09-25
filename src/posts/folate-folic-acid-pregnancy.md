@@ -8,10 +8,17 @@ date: 2026-09-22
 dateModified: 2026-09-23
 ogType: article
 schemaType: Article
+socialImage: /resource/portions/portion-spinach-100g.webp
+socialImageType: image/webp
+socialImageWidth: 900
+socialImageHeight: 900
+socialImageAlt: Illustration of fresh spinach leaves
 tags: post
 ---
 
 **The short answer:** Eat a variety of folate-containing foods *and* follow your clinician's advice about a prenatal vitamin with folic acid. [ACOG](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) recommends a daily prenatal with at least 400 micrograms of folic acid starting before pregnancy when possible and during the first 12 weeks. Folic acid has the clearest evidence for preventing neural tube defects; food is still an important part of overall nutrition.
+
+<figure class="post-image"><img src="/resource/portions/portion-spinach-100g.webp" alt="Illustration of fresh spinach leaves" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
 ## What is the difference between folate and folic acid?
 
