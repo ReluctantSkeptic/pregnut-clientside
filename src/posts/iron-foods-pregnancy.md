@@ -18,7 +18,7 @@ tags: post
 
 **The short answer:** Iron needs rise during pregnancy. [ACOG](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) lists 27 mg per day. Foods can contribute, and a prenatal vitamin often supplies iron, but a clinician should guide treatment if blood tests show anemia.
 
-<figure class="post-image"><img src="/resource/portions/portion-lentils-100g.webp" alt="Illustration of cooked lentils in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
+<figure class="post-image"><img src="/resource/portions/portion-lentils-100g.webp" srcset="/resource/portions/portion-lentils-100g-600.webp 600w, /resource/portions/portion-lentils-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 32px), 792px" alt="Illustration of cooked lentils in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
 ## What foods contain iron?
 

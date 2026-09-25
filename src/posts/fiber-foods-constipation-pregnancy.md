@@ -17,7 +17,7 @@ tags: post
 
 **The short answer:** Fruits, vegetables, beans, lentils, and whole grains can help you eat more fiber when constipation is a problem during pregnancy. [ACOG suggests about 25 g of fiber a day](https://www.acog.org/womens-health/experts-and-stories/ask-acog/what-can-help-with-constipation-during-pregnancy). Increase fiber gradually and drink water as you do; a sudden jump may be uncomfortable.
 
-<figure class="post-image"><img src="/resource/portions/portion-oatmeal-100g.webp" alt="Illustration of cooked oatmeal in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
+<figure class="post-image"><img src="/resource/portions/portion-oatmeal-100g.webp" srcset="/resource/portions/portion-oatmeal-100g-600.webp 600w, /resource/portions/portion-oatmeal-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 32px), 792px" alt="Illustration of cooked oatmeal in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
 ## Which foods are easy to add?
 

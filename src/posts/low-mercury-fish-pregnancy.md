@@ -18,7 +18,7 @@ tags: post
 
 **The short answer:** Fish can be part of a pregnancy diet. [FDA and EPA](https://www.fda.gov/food/consumers/advice-about-eating-fish) recommend two to three adult servings per week from their lower-mercury **Best Choices** category, with an adult serving defined as 4 ounces. Select a variety and cook seafood thoroughly.
 
-<figure class="post-image"><img src="/resource/portions/portion-salmon-100g.webp" alt="Illustration of cooked salmon on a plate" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
+<figure class="post-image"><img src="/resource/portions/portion-salmon-100g.webp" srcset="/resource/portions/portion-salmon-100g-600.webp 600w, /resource/portions/portion-salmon-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 32px), 792px" alt="Illustration of cooked salmon on a plate" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
 ## How do I choose fish?
 
