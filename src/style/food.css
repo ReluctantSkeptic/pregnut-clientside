@@ -431,6 +431,11 @@
     grid-template-columns: 1fr;
   }
 
+  .food-detail-image {
+    width: min(100%, 260px);
+    justify-self: center;
+  }
+
   .food-glance {
     grid-template-columns: 1fr;
     gap: 20px;
