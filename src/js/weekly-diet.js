@@ -159,7 +159,7 @@
     "wk9-12": "Organ formation",
     "wk13-16": "Brain skeleton",
     "wk17-20": "Movement senses",
-    "wk21-24": "Lungs practice",
+    "wk21-24": "Lungs & sleep",
     "wk25-28": "Readiness",
     "wk29-32": "Birth position",
     "wk33-36": "Weight gain",

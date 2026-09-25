@@ -333,14 +333,14 @@
     },
     {
       "id": "wk21-24",
-      "title": "Lungs practice + viability threshold",
+      "title": "Movement, sleep, and developing lungs",
       "weeks": { "start": 21, "end": 24 },
       "citations": ["nhs-21-24"],
-      "summary": "The fetus practices breathing movements, and around 24 weeks the chance of survival begins if born early (with intensive care).",
+      "summary": "Movement may be more noticeable, sleep-wake patterns begin to form, and the lungs practice breathing movements while they keep developing.",
       "development": [
         "The placenta continues growing (though the baby weighs more than the placenta from around this stage).",
         "Breathing movements are practiced, though lungs are not yet ready to work fully.",
-        "By about 24 weeks, survival becomes possible if born very early, but risks remain."
+        "Sleep and waking patterns begin to form, though they may not match yours."
       ],
       "notes": [
         { "text": "Second trimester often means about 340 extra calories/day, depending on your starting weight and situation.", "citations": ["cdc-weight-gain", "odphp-calories"] }
