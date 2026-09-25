@@ -21,7 +21,7 @@ pageStyles:
   <header class="hero slim weekly-hero">
     <div>
       <p class="eyebrow">Pregnancy nutrition guide</p>
-      <p class="post-meta">By <a href="/about/#editorial">{{ site.author }}</a>{% if period.id == "wk1-8" or period.id == "wk13-16" or period.id == "wk21-24" %} · <time datetime="2026-09-25">Updated September 25, 2026</time>{% endif %}</p>
+      <p class="post-meta">By <a href="/about/#editorial">{{ site.author }}</a> · <time datetime="2026-09-25">Updated September 25, 2026</time></p>
       <h1 class="hero-title">Pregnancy nutrition for weeks {{ period.weeks.start }}–{{ period.weeks.end }}</h1>
       <p class="hero-lede">{{ period.summary }}</p>
     </div>
@@ -114,22 +114,16 @@ pageStyles:
   <section class="content-card">
     <div class="content-head"><h2 class="content-title">Sources</h2></div>
     <ul class="cite-list is-visible">
-      {% for source in period.citations %}
+      {% for source in period.allCitations %}
         <li><a href="{{ source.url }}" rel="noopener noreferrer">{{ source.label }}</a></li>
       {% endfor %}
       {% if period.id == "wk1-8" %}
         <li><a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy">ACOG: Healthy eating during pregnancy</a></li>
-        <li><a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/">NIH: Choline food table</a></li>
-        <li><a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH: Folate and folic acid</a></li>
         <li><a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC: Safer food choices for pregnant women</a></li>
       {% elif period.id == "wk13-16" %}
-        <li><a href="https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/">NIH: Choline food table</a></li>
-        <li><a href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/">NIH: Calcium food table</a></li>
         <li><a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA: Advice about eating fish</a></li>
         <li><a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC: Safer food choices for pregnant women</a></li>
       {% elif period.id == "wk21-24" %}
-        <li><a href="https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/">NIH: Iron food table and absorption</a></li>
-        <li><a href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/">NIH: Vitamin C food table</a></li>
         <li><a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA: Advice about eating fish</a></li>
         <li><a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC: Safer food choices for pregnant women</a></li>
       {% endif %}

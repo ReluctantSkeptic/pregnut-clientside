@@ -7,7 +7,17 @@ const aboutLastmod = "2026-09-25";
 const topFoodsLastmod = "2026-09-25";
 const blogHubLastmod = "2026-09-25";
 const foodPagesLastmod = "2026-09-24";
-const weeklyGuideLastmod = { "wk1-8": "2026-09-25", "wk13-16": "2026-09-25", "wk21-24": "2026-09-25" };
+const weeklyGuideLastmod = {
+  "wk1-8": "2026-09-25",
+  "wk9-12": "2026-09-25",
+  "wk13-16": "2026-09-25",
+  "wk17-20": "2026-09-25",
+  "wk21-24": "2026-09-25",
+  "wk25-28": "2026-09-25",
+  "wk29-32": "2026-09-25",
+  "wk33-36": "2026-09-25",
+  "wk37-40": "2026-09-25"
+};
 
 const paths = [
   "/",

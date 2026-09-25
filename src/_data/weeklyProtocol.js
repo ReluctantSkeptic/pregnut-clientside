@@ -9,11 +9,21 @@ function resolveCitations(ids) {
   return (ids || []).map((id) => sources.get(id)).filter(Boolean);
 }
 
+function allCitations(period) {
+  const ids = [
+    ...(period.citations || []),
+    ...(period.notes || []).flatMap((note) => note.citations || []),
+    ...(period.nutrients || []).flatMap((nutrient) => nutrient.citations || [])
+  ];
+  return resolveCitations([...new Set(ids)]);
+}
+
 module.exports = {
   ...protocol,
   periods: protocol.periods.map((period) => ({
     ...period,
     citations: resolveCitations(period.citations),
+    allCitations: allCitations(period),
     notes: (period.notes || []).map((note) => ({
       ...note,
       citations: resolveCitations(note.citations)
