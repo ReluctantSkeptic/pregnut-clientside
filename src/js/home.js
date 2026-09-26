@@ -82,6 +82,7 @@
       var topRoot = document.querySelector('[data-home-preview="topfoods"]');
       var weeklyRoot = document.querySelector('[data-home-preview="weekly"]');
       if (!topRoot && !weeklyRoot) return;
+      var previewFoods = { "01129": "Boiled egg", "15086": "Cooked salmon", "05064": "Roast chicken", "16057": "Boiled chickpeas", "16070": "Boiled lentils" };
 
       function fetchJson(url) {
         return fetch(url, { cache: "force-cache" }).then(function (res) {
@@ -112,14 +113,6 @@
           });
         }
         return fooddataPromise;
-      }
-
-      function shortFoodName(name) {
-        var s = String(name || "").trim();
-        if (!s) return "";
-        var parts = s.split(",").map(function (p) { return String(p || "").trim(); }).filter(Boolean);
-        if (parts.length <= 1) return s;
-        return parts.slice(0, 2).join(", ");
       }
 
       function formatWeeks(start, end) {
@@ -221,7 +214,6 @@
         var rowsRoot = topRoot.querySelector("[data-home-preview-rows]");
 
         var nutrientId = "Choline";
-        var naturalOnly = true;
 
         return getFooddata()
           .then(function (fooddata) {
@@ -234,8 +226,7 @@
             var foods = fooddata.foods.slice();
             foods = foods.filter(function (f) {
               if (!f || f.id === "01107" || !f.nutrients) return false;
-              if (String(f.warning || "").toLowerCase() === "avoid") return false;
-              if (naturalOnly && Number(f.natSource) !== 1) return false;
+              if (!previewFoods[f.id] || String(f.warning || "").toLowerCase() === "avoid") return false;
               var v = f.nutrients[nutrientId];
               return typeof v === "number" && isFinite(v) && v > 0;
             });
@@ -260,7 +251,7 @@
               var pct = pcts[i];
               var fill = Math.max(0, Math.min(1, pct / maxPct));
               rows.push({
-                label: shortFoodName(f.name),
+                label: previewFoods[f.id],
                 value: Math.round(pct) + "%",
                 p: fill
               });
@@ -343,11 +334,11 @@
               }
             }
 
-            // Snapshot: top picks for this period (overall score).
+            // Snapshot: rank prepared example foods for this period.
             var foods = fooddata.foods.slice();
             foods = foods.filter(function (f) {
               if (!f || f.id === "01107" || !f.nutrients) return false;
-              if (String(f.warning || "").toLowerCase() === "avoid") return false;
+              if (!previewFoods[f.id] || String(f.warning || "").toLowerCase() === "avoid") return false;
               return true;
             });
             foods.sort(function (a, b) {
@@ -365,7 +356,7 @@
               var f = top[r];
               var sc = scores[r];
               rows.push({
-                label: shortFoodName(f.name),
+                label: previewFoods[f.id],
                 value: String(Math.round(sc)),
                 p: Math.max(0, Math.min(1, sc / maxScore))
               });

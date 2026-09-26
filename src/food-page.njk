@@ -116,7 +116,9 @@ pageScripts:
         <span class="food-safety-badge">{{ food.warning }}</span>
       </div>
       <p class="content-summary">{{ food.warningText }}</p>
-      {% if food.group == "Finfish and Shellfish Products" %}
+      {% if food.id == "05028" or food.id == "13327" %}
+        <p class="content-summary">Source: <a href="https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/">NHS pregnancy foods to avoid</a>. See our <a href="/blog/vitamin-a-foods-without-liver-pregnancy/">guide to vitamin A foods without liver</a>.</p>
+      {% elif food.group == "Finfish and Shellfish Products" %}
         <p class="content-summary">Check the <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">current FDA/EPA fish chart</a> for mercury guidance and <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's pregnancy food-safety guidance</a> for preparation.</p>
         {% if food.isSmokedFish %}<p class="content-summary">Read our <a href="/blog/smoked-salmon-pregnancy/">guide to refrigerated, shelf-stable, and cooked smoked seafood during pregnancy</a> before choosing a product.</p>{% endif %}
       {% else %}

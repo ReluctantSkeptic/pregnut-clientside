@@ -298,7 +298,7 @@
 "04706",Fats and Oils,"Dressing, Honey mustard, Fat-free",0,,
 "04708",Fats and Oils,"Mayonnaise, Reduced fat, With olive oil",0,,
 "04709",Fats and Oils,"Salad dressing, Mayonnaise-type, Light",0,,
-"05028",Poultry Products,"Chicken, Liver, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"05028",Poultry Products,"Chicken, Liver, Cooked",1,Avoid,"Avoid liver and liver products during pregnancy because they contain high levels of vitamin A (NHS)."
 "05277",Poultry Products,"Chicken, Canned, Meat only, With broth",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
 "05284",Poultry Products,"Turkey, Canned, Meat only, With broth",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
 "05306",Poultry Products,"Ground turkey, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
@@ -750,7 +750,7 @@
 "12635",Nut and Seed Products,"Nuts, Mixed nuts, Dry roasted, With peanuts",0,,
 "12695",Nut and Seed Products,"Nuts, Almond butter",0,,
 "13317",Beef Products,"Beef, Ground, Patties, Broiled",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
-"13327",Beef Products,"Beef, Liver, Cooked",1,Caution,"Cook meat to a safe internal temperature and use a food thermometer. CDC lists different temperatures for whole cuts and ground meat."
+"13327",Beef Products,"Beef, Liver, Cooked",1,Avoid,"Avoid liver and liver products during pregnancy because they contain high levels of vitamin A (NHS)."
 "13355",Sausages and Luncheon Meats,"Beef, Pastrami",0,Caution,"CDC advises heating deli meat, cold cuts, hot dogs, and fermented or dry sausages to 165°F or until steaming hot. Cook other meat products to a safe internal temperature."
 "14016",Beverages,"Almond milk, Sweetened, Vanilla flavor",0,,
 "14038",Beverages,"Ocean spray, Cran-energy, Cranberry energy juice drink",0,,
