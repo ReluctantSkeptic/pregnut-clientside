@@ -5,9 +5,9 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20260925-search-error
+  - /style/home.css?v=20260926-static-preview
 pageScripts:
-  - /js/home.js?v=20260925-2
+  - /js/home.js?v=20260926-static-preview
 ---
 
 <section class="home-hero" aria-label="Hero">
@@ -96,29 +96,21 @@ pageScripts:
           <p class="home-feature-text">Compare foods by nutrient per 100g, with natural and fortified source filters. Check portions and food safety before choosing one.</p>
           <a class="home-feature-cta" href="/app/">Open Top Foods</a>
           <div class="home-feature-media" aria-hidden="true">
-            <div class="home-preview-phone" data-home-preview="topfoods">
+            <div class="home-preview-phone">
               <div class="home-preview-topbar">
                 <span class="home-preview-app">Top Foods</span>
-                <span class="home-preview-pill" data-home-preview-title>Loading…</span>
+                <span class="home-preview-pill">Choline</span>
               </div>
               <div class="home-preview-body">
                 <p class="home-preview-caption">Food examples · per 100g</p>
-                <div class="home-preview-rows" data-home-preview-rows>
-                  <div class="home-preview-row is-placeholder">
-                    <span class="home-preview-label"></span>
-                    <span class="home-preview-bar" aria-hidden="true"></span>
-                    <span class="home-preview-value"></span>
+                <div class="home-preview-rows">
+                  {% for row in homePreview.topRows %}
+                  <div class="home-preview-row" style="--p: {{ row.fill }}">
+                    <span class="home-preview-label">{{ row.label }}</span>
+                    <span class="home-preview-bar"></span>
+                    <span class="home-preview-value">{{ row.value }}</span>
                   </div>
-                  <div class="home-preview-row is-placeholder">
-                    <span class="home-preview-label"></span>
-                    <span class="home-preview-bar" aria-hidden="true"></span>
-                    <span class="home-preview-value"></span>
-                  </div>
-                  <div class="home-preview-row is-placeholder">
-                    <span class="home-preview-label"></span>
-                    <span class="home-preview-bar" aria-hidden="true"></span>
-                    <span class="home-preview-value"></span>
-                  </div>
+                  {% endfor %}
                 </div>
               </div>
             </div>
@@ -132,25 +124,26 @@ pageScripts:
           <p class="home-feature-text">Set your week (or due date) to see highlighted nutrients and compare food amounts per 100g. Check portions and preparation before choosing a food.</p>
           <a class="home-feature-cta" href="/weekly-diet/">Open Weekly Guide</a>
           <div class="home-feature-media" aria-hidden="true">
-            <div class="home-preview-phone" data-home-preview="weekly">
+            <div class="home-preview-phone">
               <div class="home-preview-topbar">
                 <span class="home-preview-app">Weekly Guide</span>
-                <span class="home-preview-pill" data-home-preview-week>Loading…</span>
+                <span class="home-preview-pill">{{ homePreview.weekLabel }}</span>
               </div>
               <div class="home-preview-body">
-                <p class="home-preview-caption" data-home-preview-period>Loading…</p>
-                <div class="home-preview-timeline" data-home-preview-timeline aria-hidden="true"></div>
-                <div class="home-preview-rows is-compact" data-home-preview-nutrients>
-                  <div class="home-preview-row is-placeholder">
-                    <span class="home-preview-label"></span>
-                    <span class="home-preview-bar" aria-hidden="true"></span>
-                    <span class="home-preview-value"></span>
+                <p class="home-preview-caption">{{ homePreview.periodLabel }}</p>
+                <div class="home-preview-timeline" aria-hidden="true">
+                  {% for segment in homePreview.periods %}
+                  <div class="home-preview-seg{% if segment.active %} is-active{% endif %}" style="--w: {{ segment.width }}"></div>
+                  {% endfor %}
+                </div>
+                <div class="home-preview-rows is-compact">
+                  {% for row in homePreview.weeklyRows %}
+                  <div class="home-preview-row" style="--p: {{ row.fill }}">
+                    <span class="home-preview-label">{{ row.label }}</span>
+                    <span class="home-preview-bar"></span>
+                    <span class="home-preview-value">{{ row.value }}</span>
                   </div>
-                  <div class="home-preview-row is-placeholder">
-                    <span class="home-preview-label"></span>
-                    <span class="home-preview-bar" aria-hidden="true"></span>
-                    <span class="home-preview-value"></span>
-                  </div>
+                  {% endfor %}
                 </div>
               </div>
             </div>
