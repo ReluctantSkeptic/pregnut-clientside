@@ -14,6 +14,7 @@ socialImageWidth: 900
 socialImageHeight: 900
 socialImageAlt: Illustration of a peeled banana
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** Potassium comes from many foods, not just bananas. The [NIH Office of Dietary Supplements](https://ods.od.nih.gov/factsheets/Potassium-Consumer/) lists an **adequate intake (AI) of 2,900 mg a day for pregnant adults** and 2,600 mg for pregnant teens. An AI is a population reference value, not a diagnosis or a target for every individual meal.

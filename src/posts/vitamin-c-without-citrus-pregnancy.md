@@ -13,6 +13,7 @@ socialImageWidth: 900
 socialImageHeight: 900
 socialImageAlt: Illustration of broccoli florets
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** Citrus is not required to get vitamin C. Red sweet pepper, kiwi, strawberries, and broccoli can contribute substantial amounts. [ACOG lists 85 mg per day](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) as the pregnancy recommendation for adults ages 19–50 and **80 mg** for pregnant teens ages 14–18. Your usual diet and prenatal may both contribute.

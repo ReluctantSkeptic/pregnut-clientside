@@ -1,16 +1,30 @@
 ---
 layout: base.njk
+pageStyles:
+  - /style/article.css
 ---
 
-<article class="post">
+<article class="post magazine-post">
   <nav class="post-breadcrumbs" aria-label="Breadcrumb">
     <a href="/">Home</a><span aria-hidden="true">/</span><a href="/blog/">Pregnancy nutrition guides</a><span aria-hidden="true">/</span><span aria-current="page">{{ title }}</span>
   </nav>
   <header class="post-header">
-    <p class="post-meta"><time datetime="{{ page.date | isoDate }}">Published {{ page.date | readableDate }}</time>{% if dateModified %} · <time datetime="{{ dateModified | isoDate }}">Updated {{ dateModified | readableDate }}</time>{% endif %}{% if author %} · By {% if author == site.author %}<a href="/about/#editorial">{{ author }}</a>{% else %}{{ author }}{% endif %}{% endif %}</p>
+    <p class="post-series">PregNut field guide</p>
     <h1 class="post-title">{{ title }}</h1>
     {% if description %}<p class="post-dek">{{ description }}</p>{% endif %}
+    <p class="post-meta"><time datetime="{{ page.date | isoDate }}">Published {{ page.date | readableDate }}</time>{% if dateModified %} <span aria-hidden="true">/</span> <time datetime="{{ dateModified | isoDate }}">Updated {{ dateModified | readableDate }}</time>{% endif %}{% if author %} <span aria-hidden="true">/</span> By {% if author == site.author %}<a href="/about/#editorial">{{ author }}</a>{% else %}{{ author }}{% endif %}{% endif %}</p>
   </header>
+  {% set evidence = editorialQuotes[page.url] %}
+  {% if evidence %}
+    <figure class="post-evidence">
+      <blockquote><p>{{ evidence.quote }}</p></blockquote>
+      <figcaption>
+        <span class="post-evidence-rule" aria-hidden="true"></span>
+        <span><strong>{{ evidence.credit }}</strong><br><cite>{{ evidence.source }}</cite></span>
+        <a href="{{ evidence.url }}" rel="noopener noreferrer">Read the original source <span aria-hidden="true">&nearr;</span></a>
+      </figcaption>
+    </figure>
+  {% endif %}
   <div class="prose">
     {{ content | safe }}
   </div>
