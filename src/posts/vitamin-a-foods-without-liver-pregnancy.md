@@ -8,6 +8,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** You can get vitamin A from orange and green vegetables without eating liver. Sweet potatoes, carrots, and spinach contain **provitamin A carotenoids**, which the body converts to vitamin A. The [NIH pregnancy review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists **770 mcg retinol activity equivalents (RAE) per day** for pregnant adults and **750 mcg RAE** for pregnant teens.

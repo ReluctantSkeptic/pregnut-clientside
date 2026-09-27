@@ -6,7 +6,7 @@ layout: post.njk
 permalink: /blog/calcium-without-dairy-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-23
+dateModified: 2026-09-26
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/top-foods/16139-soymilk-original-and-vanilla-with-added-calcium-vitamins-a-and-d.webp

@@ -9,6 +9,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** If you eat little or no fish, check whether your prenatal lists **DHA in milligrams per serving** and discuss your overall omega-3 intake with your prenatal clinician. “Fish oil,” “total omega-3,” EPA, and DHA are different label lines. [NIH explains](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/) that no U.S. recommended dietary allowance has been established specifically for DHA.

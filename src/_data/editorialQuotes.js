@@ -58,5 +58,53 @@ module.exports = {
     "credit": "NHS",
     "source": "Indigestion and heartburn in pregnancy",
     "url": "https://www.nhs.uk/pregnancy/common-symptoms/indigestion-and-heartburn/"
+  },
+  "/blog/calcium-without-dairy-pregnancy/": {
+    "quote": "Certain vegetables such as kale, broccoli, and Chinese cabbage (bok choi) also contain calcium.",
+    "credit": "NIH Office of Dietary Supplements",
+    "source": "Calcium: Fact Sheet for Consumers",
+    "url": "https://ods.od.nih.gov/factsheets/Calcium-Consumer/"
+  },
+  "/blog/riboflavin-without-dairy-pregnancy/": {
+    "quote": "Riboflavin is found naturally in some foods and is added to many fortified foods.",
+    "credit": "NIH Office of Dietary Supplements",
+    "source": "Riboflavin: Fact Sheet for Consumers",
+    "url": "https://ods.od.nih.gov/factsheets/Riboflavin-Consumer/"
+  },
+  "/blog/iodine-without-dairy-pregnancy/": {
+    "quote": "The body also needs thyroid hormones for proper bone and brain development during pregnancy and infancy.",
+    "credit": "NIH Office of Dietary Supplements",
+    "source": "Iodine: Fact Sheet for Consumers",
+    "url": "https://ods.od.nih.gov/factsheets/Iodine-Consumer/"
+  },
+  "/blog/vegetarian-b12-pregnancy/": {
+    "quote": "Plant foods have no vitamin B12 unless they are fortified.",
+    "credit": "NIH Office of Dietary Supplements",
+    "source": "Vitamin B12: Fact Sheet for Consumers",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/"
+  },
+  "/blog/vegetarian-protein-pregnancy/": {
+    "quote": "A vegetarian eating plan during pregnancy can be healthy.",
+    "credit": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "source": "Health Tips for Pregnant Women",
+    "url": "https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-pregnant-women"
+  },
+  "/blog/zinc-foods-pregnancy/": {
+    "quote": "Beans, nuts, whole grains, eggs, and dairy products provide some zinc.",
+    "credit": "NIH Office of Dietary Supplements",
+    "source": "Zinc: Fact Sheet for Consumers",
+    "url": "https://ods.od.nih.gov/factsheets/Zinc-Consumer/"
+  },
+  "/blog/dha-without-fish-pregnancy/": {
+    "quote": "Your body can convert some ALA into EPA and then to DHA, but only in very small amounts.",
+    "credit": "NIH Office of Dietary Supplements",
+    "source": "Omega-3 Fatty Acids: Fact Sheet for Consumers",
+    "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/"
+  },
+  "/blog/vitamin-a-foods-without-liver-pregnancy/": {
+    "quote": "Your body is able to convert some carotenoids into vitamin A.",
+    "credit": "NIH Office of Dietary Supplements",
+    "source": "Vitamin A and Carotenoids: Fact Sheet for Consumers",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminA-Consumer/"
   }
 };

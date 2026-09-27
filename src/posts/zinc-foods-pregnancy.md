@@ -13,6 +13,7 @@ socialImageWidth: 400
 socialImageHeight: 400
 socialImageAlt: Illustration of roasted pumpkin seeds in a bowl
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** You can get zinc from beans, nuts, seeds, whole grains, dairy, eggs, meat, and seafood. If you avoid meat, include a variety of zinc-containing foods and check your prenatal label. The [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists **11 mg per day** as the zinc recommended dietary allowance during pregnancy for adults ages 19–50 and **12 mg** for pregnant teens ages 14–18. A food ranking cannot tell how much zinc your body absorbs.

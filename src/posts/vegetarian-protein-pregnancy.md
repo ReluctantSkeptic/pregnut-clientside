@@ -6,7 +6,7 @@ layout: post.njk
 permalink: /blog/vegetarian-protein-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-24
+dateModified: 2026-09-26
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-lentils-100g.webp
