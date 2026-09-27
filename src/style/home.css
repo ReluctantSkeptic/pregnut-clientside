@@ -1067,37 +1067,87 @@ h3.home-lede {
   .page-home *, .page-home *::before, .page-home *::after { animation: none !important; transition: none !important; }
 }
 
-/* Physical card stack: native scrolling controls the hand-off between cards. */
-.needs-deck { perspective: none; isolation: isolate; padding-bottom: 32px; }
-.needs-deck .need-card {
-  position: sticky;
-  top: var(--pin-top, 104px);
-  z-index: calc(var(--i, 0) + 1);
-  background: #fffefb;
-  opacity: 1;
-  transform: scale(var(--stack-scale, 1)) rotate(var(--stack-tilt, 0deg));
-  transform-origin: 50% 0;
-  backface-visibility: visible;
-  will-change: auto;
-  border: 1px solid rgba(38,48,56,.18);
-  box-shadow: 0 1px 0 #fff inset, 0 3px 0 #e4e0d5, 0 4px 0 rgba(38,48,56,.16), 0 18px 38px rgba(38,48,56,.13);
-  transition: border-color 200ms ease;
-  scroll-margin-top: 120px;
+/* Reference: realfood.gov resource cards. Motion geometry lives in home.js. */
+.nutrient-library { overflow: clip; }
+.nutrient-stack-section { height: 300vh; position: relative; }
+.nutrient-stack-sticky { height: 100vh; min-height: 900px; position: sticky; top: 0; padding: 100px 24px 50px; }
+.nutrient-stack-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 1080px; margin: auto; height: 100%; }
+.nutrient-stack-context { display: flex; flex-direction: column; align-items: flex-start; padding-top: 16px; }
+.nutrient-stack-context > h3 { font-size: clamp(2.5rem,4vw,4rem); line-height: 1.05; margin: 0 0 24px; }
+.nutrient-stack-context > p { max-width: 32ch; margin: 0; color: var(--muted); }
+.nutrient-stack-links { display: grid; gap: 20px; width: 100%; max-width: 340px; margin-top: auto; margin-bottom: 70px; }
+.nutrient-stack-links a { display: flex; align-items: center; justify-content: space-between; gap: 24px; text-decoration: underline; text-underline-offset: 3px; font-size: .9rem; }
+.nutrient-stack-links span { display: grid; place-items: center; border-radius: 50%; background: var(--bg-2); width: 30px; height: 30px; flex-shrink: 0; }
+.nutrient-stack { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-end; width: 100%; position: relative; }
+.nutrient-stack-docs { aspect-ratio: 8 / 10; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; position: relative; }
+.nutrient-stack .need-card {
+  aspect-ratio: 8 / 10; width: 75%; min-height: 0; padding: 0; margin: 0;
+  position: absolute; top: auto; border: 0; border-radius: 24px;
+  background: transparent; opacity: 1; transform-origin: bottom center;
+  transform-style: flat; will-change: auto; transition: none;
+  z-index: var(--i); overflow: hidden; box-shadow: 0 12px 24px #0000001a;
 }
-.needs-deck .need-card + .need-card { margin-top: clamp(32px, 7vh, 72px); }
-.needs-deck .need-card:focus-within { transform: none; }
-@media (max-width: 760px) {
-  .needs-deck .need-card { padding: 24px 20px; border-radius: 20px; }
-  .needs-deck .need-card-head { grid-template-columns: 82px minmax(0,1fr); gap: 16px; padding-bottom: 20px; }
-  .needs-deck .need-card-cover { width: 82px; min-height: 122px; padding: 6px; border-radius: 14px; }
-  .needs-deck .need-card-icon { width: 68px; }
-  .needs-deck .need-card-cover-amount { font-size: 1.25rem; }
-  .needs-deck .need-card-nutrient { font-size: clamp(2rem, 8vw, 3rem); overflow-wrap: anywhere; }
-  .needs-deck .need-card-body { padding-top: 20px; }
-  .needs-deck .need-card-cols { grid-template-columns: 1fr; gap: 16px; }
-  .needs-deck .need-card-col + .need-card-col { padding: 16px 0 0; border-left: 0; border-top: 1px solid var(--border); }
+.nutrient-stack .need-paper {
+  width: 100%; min-height: 100%; padding: 24px; border-radius: 12px;
+  background: #f5f2dc; color: #263b30;
+  box-shadow: 0 7.66px 7.66px #0000000d, -5px -7px 7.66px -4px #00000040;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.nutrient-stack .need-card:nth-child(4n + 2) .need-paper { background: #263b30; color: #fbfaf6; }
+.nutrient-stack .need-card:nth-child(4n + 3) .need-paper { background: #dce7cf; }
+.nutrient-stack .need-card-nutrient { font-size: clamp(1.8rem, 2.8vw, 2.6rem); line-height: 1; margin: 0; color: inherit; }
+.nutrient-stack .need-card-cover { display: grid; grid-template-columns: 78px 1fr; grid-template-rows: auto auto; gap: 3px 12px; min-height: 86px; width: 100%; padding: 0; margin: 0; background: none; border: 0; box-shadow: none; transform: none; justify-items: start; align-content: center; }
+.nutrient-stack .need-card-icon { grid-row: 1 / 3; width: 78px; transform: none; filter: none; }
+.nutrient-stack .need-card-cover-label { color: inherit; font-size: .65rem; align-self: end; }
+.nutrient-stack .need-card-cover-amount { color: inherit; font-size: 1.9rem; font-weight: 400; align-self: start; }
+.nutrient-stack .need-card-text { color: inherit; font-size: .85rem; line-height: 1.5; }
+.need-card-evidence { margin-top: auto; display: grid; gap: 8px; font-size: .75rem; }
+.need-card-evidence a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.nutrient-stack .need-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.nutrient-stack .need-card:focus-within { z-index: 10; }
+@media (min-width: 801px) and (max-height: 900px), (max-width: 800px) and (orientation: landscape) {
+  .nutrient-stack .need-card { width: 55%; }
+  .nutrient-stack .need-paper { padding: 18px; gap: 10px; }
+  .nutrient-stack .need-card-nutrient { font-size: 1.8rem; }
+  .nutrient-stack .need-card-text { font-size: .8rem; }
+  .nutrient-stack .need-card-cover { grid-template-columns: 56px 1fr; min-height: 60px; }
+  .nutrient-stack .need-card-icon { width: 56px; }
+  .nutrient-stack .need-card-cover-amount { font-size: 1.5rem; }
+}
+@media (max-width: 800px) and (orientation: portrait) {
+  .nutrient-stack-section { height: auto; padding-bottom: 100px; }
+  .nutrient-stack-sticky { position: relative; height: auto; min-height: 0; padding: 32px 8px; }
+  .nutrient-stack-layout { display: flex; flex-direction: column; gap: 24px; }
+  .nutrient-stack-context { display: contents; }
+  .nutrient-stack-context > h3 { margin: 0; }
+  .nutrient-stack-context > p { max-width: none; }
+  .nutrient-stack-links { order: 3; margin: 280px 0 0; max-width: none; }
+  .nutrient-stack { align-items: center; margin: 40px 0; }
+  .nutrient-stack-docs { gap: 40px; transform: translateZ(0); }
+  .nutrient-stack .need-card { position: sticky; width: 100%; top: calc(80px + var(--i) * 48px); margin-top: 28px; margin-bottom: calc(-52px - var(--i) * 40px); flex-shrink: 0; }
+  .nutrient-stack .need-card-nutrient { font-size: 2.2rem; }
+  .nutrient-stack .need-paper { padding: 22px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .needs-deck .need-card { position: relative; top: auto; transform: none; }
+  .nutrient-stack-section { height: auto; }
+  .nutrient-stack-sticky { position: relative; height: auto; min-height: 0; }
+  .nutrient-stack-docs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; aspect-ratio: auto; }
+  .nutrient-stack .need-card { position: relative; top: auto; width: 100%; margin: 0; transform: none !important; }
+  .nutrient-stack-links { margin: 24px 0; }
+}/* Live text needs more room than the reference's raster document covers. */
+@media (min-width: 801px) and (max-width: 1100px), (max-width: 800px) and (orientation: landscape) {
+  .nutrient-stack-layout { gap: 24px; }
+  .nutrient-stack .need-card { width: max(75%, 280px); }
 }
-.needs-deck.is-measuring .need-card { position: relative; top: auto; transform: none; }
+@media (max-width: 360px) and (orientation: portrait) {
+  .nutrient-stack .need-paper { padding: 18px; gap: 10px; }
+  .nutrient-stack .need-card-nutrient { font-size: 1.85rem; }
+  .nutrient-stack .need-card-text { font-size: .78rem; }
+  .nutrient-stack .need-card-cover { grid-template-columns: 60px 1fr; min-height: 64px; }
+  .nutrient-stack .need-card-icon { width: 60px; }
+  .nutrient-stack .need-card-cover-amount { font-size: 1.6rem; }
+}
+@media (prefers-reduced-motion: reduce) and (max-width: 1100px) {
+  .nutrient-stack-docs { grid-template-columns: 1fr; }
+  .nutrient-stack .need-card { width: 100%; aspect-ratio: auto; }
+}

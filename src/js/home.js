@@ -99,7 +99,7 @@
 
     for (var i = 0; i < cards.length; i++) {
       try {
-        cards[i].style.setProperty("--i", String(i));
+
 
         var nutrientId = cards[i].getAttribute("data-nutrient") || "";
         var iconIndex = Object.prototype.hasOwnProperty.call(nutrientIconIndex, nutrientId)
@@ -117,76 +117,66 @@
       } catch (e) {}
     }
 
-    var deck = document.getElementById("NeedsDeck");
-    var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-    var positions = [];
-    var ticking = false;
-
-    function measureDeck() {
-      deck.classList.add("is-measuring");
-      var deckTop = deck.getBoundingClientRect().top + window.scrollY;
-      positions = Array.from(cards, function (card, index) {
-        // A tall card may travel above the header so its bottom is readable.
-        var pin = Math.min(104 + Math.min(index, 4) * 8, window.innerHeight - card.offsetHeight - 96);
-        card.style.setProperty("--pin-top", pin + "px");
-        return { start: deckTop + card.offsetTop, pin: pin, height: card.offsetHeight };
+    // RealFood reference: sequential 20% scroll segments, bottom-origin rotation,
+    // and a mass-1 spring with stiffness 400 / damping 25 for the 1.03 hover scale.
+    var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+    var portrait = window.matchMedia("(max-width: 800px) and (orientation: portrait)");
+    var finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
+    var poses = [[25, -140, -8], [-30, -60, 5], [15, 20, -3], [-25, 100, 6]];
+    var stacks = Array.from(document.querySelectorAll(".nutrient-stack-section"), function (section) {
+      var items = Array.from(section.querySelectorAll(".need-card"));
+      var state = { section: section, items: items, scales: items.map(function () { return 1; }), velocities: items.map(function () { return 0; }), hover: -1 };
+      items.forEach(function (card, i) {
+        card.addEventListener("pointerenter", function () { if (finePointer.matches) { state.hover = i; requestTick(); } });
+        card.addEventListener("pointerleave", function () { state.hover = -1; requestTick(); });
+        card.addEventListener("focusin", function () { state.hover = i; requestTick(); });
+        card.addEventListener("focusout", function () { state.hover = -1; requestTick(); });
       });
-      deck.classList.remove("is-measuring");
-      updateDeck();
-    }
-
-    function updateDeck() {
-      ticking = false;
-      var scroll = window.scrollY;
-      cards.forEach(function (card, index) {
-        var position = positions[index];
-        if (!position) return;
-        var next = positions[index + 1];
-        var progress = next ? Math.max(0, Math.min(1,
-          (scroll + position.pin + position.height - next.start) / position.height)) : 0;
-        var eased = progress * progress * (3 - 2 * progress);
-        var depth = reducedMotion.matches ? 0 : eased;
-        card.style.setProperty("--stack-scale", (1 - depth * .035).toFixed(4));
-        card.style.setProperty("--stack-tilt", (depth * (index % 2 ? .45 : -.45)).toFixed(3) + "deg");
-        card.classList.toggle("is-stacked", progress > .85);
-        card.classList.toggle("is-active", scroll >= position.start - position.pin && progress < .85);
+      section.querySelectorAll("[data-stack-link]").forEach(function (link, i) {
+        link.addEventListener("pointerenter", function () { if (finePointer.matches) { state.hover = i; requestTick(); } });
+        link.addEventListener("pointerleave", function () { state.hover = -1; requestTick(); });
       });
-    }
-
-    function onScroll() {
-      if (ticking) return;
-      ticking = true;
-      window.requestAnimationFrame(updateDeck);
-    }
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", measureDeck);
-    reducedMotion.addEventListener("change", measureDeck);
-    if ("ResizeObserver" in window) {
-      var deckResize = new ResizeObserver(measureDeck);
-      cards.forEach(function (card) { deckResize.observe(card); });
-    }
-    if (document.fonts) document.fonts.ready.then(measureDeck);
-    measureDeck();
-    // No observer support: just show everything.
-    if (!("IntersectionObserver" in window)) {
-      for (var j = 0; j < cards.length; j++) {
-        try { cards[j].classList.add("is-open"); } catch (e) {}
-      }
-    } else {
-      var io = new IntersectionObserver(function (entries) {
-        for (var k = 0; k < entries.length; k++) {
-          var ent = entries[k];
-          if (!ent || !ent.target) continue;
-          if (ent.isIntersecting || (ent.intersectionRatio && ent.intersectionRatio >= 0.35)) {
-            try { ent.target.classList.add("is-open"); } catch (e) {}
-            try { io.unobserve(ent.target); } catch (e) {}
+      return state;
+    });
+    var frame = 0;
+    var lastTime = 0;
+    function clamp(value) { return Math.max(0, Math.min(1, value)); }
+    function render(time) {
+      frame = 0;
+      var dt = Math.min((time - lastTime) / 1000 || 1 / 60, 1 / 30);
+      lastTime = time;
+      var moving = false;
+      stacks.forEach(function (state) {
+        var rect = state.section.getBoundingClientRect();
+        var progress = clamp((window.innerHeight - rect.top) / rect.height);
+        state.items.forEach(function (card, i) {
+          var target = state.hover === i && !portrait.matches && !reduced.matches ? 1.03 : 1;
+          var scale = state.scales[i];
+          var velocity = state.velocities[i];
+          velocity += (400 * (target - scale) - 25 * velocity) * dt;
+          scale += velocity * dt;
+          if (Math.abs(target - scale) < .00001 && Math.abs(velocity) < .0001) { scale = target; velocity = 0; }
+          else moving = true;
+          state.scales[i] = scale;
+          state.velocities[i] = velocity;
+          if (reduced.matches) { card.style.transform = "none"; return; }
+          if (portrait.matches) {
+            card.style.transform = "scale(" + (1 - progress * (.12 - i * .03)).toFixed(5) + ")";
+          } else {
+            var phase = clamp((progress - i * .2) / .2);
+            var pose = poses[i];
+            var y = (600 + i * 100) * (1 - phase) + pose[1] * phase;
+            card.style.transform = "translate(" + (pose[0] * phase).toFixed(3) + "px," + y.toFixed(3) + "px) rotate(" + (pose[2] * phase).toFixed(3) + "deg) scale(" + scale.toFixed(5) + ")";
           }
-        }
-      }, { threshold: [0, 0.2, 0.35, 0.5] });
-
-      for (var c = 0; c < cards.length; c++) {
-        io.observe(cards[c]);
-      }
+        });
+      });
+      if (moving) requestTick();
     }
+    function requestTick() { if (!frame) frame = requestAnimationFrame(render); }
+    window.addEventListener("scroll", requestTick, { passive: true });
+    window.addEventListener("resize", requestTick);
+    reduced.addEventListener("change", requestTick);
+    portrait.addEventListener("change", requestTick);
+    requestTick();
   });
 })();

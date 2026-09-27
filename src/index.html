@@ -5,9 +5,9 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20260927-combined
+  - /style/home.css?v=20260927-reference-stack
 pageScripts:
-  - /js/home.js?v=20260927-combined
+  - /js/home.js?v=20260927-reference-stack
 ---
 
 <section class="home-hero" aria-label="Hero">
@@ -146,41 +146,42 @@ pageScripts:
 </section>
 
 
-<section class="section home-slab is-tone" aria-label="Recommendations">
-  <div class="home-slab-shell">
-    <div class="home-slab-head">
-      <p class="home-label">The essentials</p>
-      <h2 class="home-lede">What your body needs, made clear.</h2>
-      <p class="home-slab-desc">NIH pregnancy reference intakes anchor most comparisons. DHA and protein use illustrative comparison amounts; follow the linked sources and your care team for individual needs.</p>
-    </div>
+<section class="section nutrient-library" aria-labelledby="nutrient-library-title">
+  <div class="home-slab-head">
+    <h2 class="home-lede" id="nutrient-library-title">What your body needs, made clear.</h2>
+    <p class="home-slab-desc">NIH pregnancy reference intakes anchor most comparisons. DHA and protein use illustrative comparison amounts; follow the linked sources and your care team for individual needs.</p>
   </div>
-  <div class="needs-deck" id="NeedsDeck" aria-label="Nutrient reference amounts and roles">
-    {% for nutrient in nutrientGuidance %}
-    <article class="need-card" data-need-card data-nutrient="{{ nutrient.id }}">
-      <header class="need-card-head">
-        <div class="need-card-cover">
-          <div class="need-card-cover-inner">
-            <span class="need-card-cover-label">Reference</span>
-            <span class="need-card-cover-amount">{{ nutrient.amount }}</span>
+  <div id="NeedsDeck" aria-label="Nutrient reference amounts and roles">
+    {% for group in nutrientGuidance | batch(4) %}
+    <section class="nutrient-stack-section" aria-label="Nutrient cards {{ loop.index }}">
+      <div class="nutrient-stack-sticky">
+        <div class="nutrient-stack-layout">
+          <div class="nutrient-stack-context">
+            <h3>{{ group[0].label }}{% if group.length > 1 %} &amp; more{% endif %}</h3>
+            <p>Explore the role of each nutrient, its reference amount, and the evidence behind it.</p>
+            <nav class="nutrient-stack-links" aria-label="Guides for this stack">
+              {% for nutrient in group %}
+              <a href="{{ nutrient.guide or nutrient.source }}" data-stack-link="{{ loop.index0 }}">{{ nutrient.label }} guide <span aria-hidden="true">↗</span></a>
+              {% endfor %}
+            </nav>
           </div>
-        </div>
-        <div class="need-card-head-main">
-          <h3 class="need-card-nutrient">{{ nutrient.label }}</h3>
-        </div>
-      </header>
-      <div class="need-card-body">
-        <div class="need-card-cols">
-          <div class="need-card-col">
-            <p class="need-card-col-title">Role in pregnancy</p>
-            <p class="need-card-text">{{ nutrient.role }}</p>
-          </div>
-          <div class="need-card-col">
-            <p class="need-card-col-title">Evidence and context</p>
-            <p class="need-card-text"><a href="{{ nutrient.source }}">{% if nutrient.id == "Protein" %}ACOG pregnancy nutrition{% else %}NIH nutrient guidance{% endif %}</a>{% if nutrient.guide %} · <a href="{{ nutrient.guide }}">Read the {{ nutrient.label }} guide</a>{% endif %}</p>
+          <div class="nutrient-stack">
+            <div class="nutrient-stack-docs">
+              {% for nutrient in group %}
+              <article class="need-card" data-need-card data-nutrient="{{ nutrient.id }}" style="--i: {{ loop.index0 }}" tabindex="0" aria-label="{{ nutrient.label }} nutrient card">
+                <div class="need-paper">
+                  <h3 class="need-card-nutrient">{{ nutrient.label }}</h3>
+                  <div class="need-card-cover"><span class="need-card-cover-label">Reference amount</span><strong class="need-card-cover-amount">{{ nutrient.amount }}</strong></div>
+                  <p class="need-card-text">{{ nutrient.role }}</p>
+                  <div class="need-card-evidence"><a href="{{ nutrient.source }}">{% if nutrient.id == "Protein" %}ACOG pregnancy nutrition{% else %}NIH nutrient guidance{% endif %}</a>{% if nutrient.guide %}<a href="{{ nutrient.guide }}">Read the guide <span aria-hidden="true">↗</span></a>{% endif %}</div>
+                </div>
+              </article>
+              {% endfor %}
+            </div>
           </div>
         </div>
       </div>
-    </article>
+    </section>
     {% endfor %}
   </div>
 </section>
