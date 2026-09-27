@@ -106,5 +106,47 @@ module.exports = {
     "credit": "NIH Office of Dietary Supplements",
     "source": "Vitamin A and Carotenoids: Fact Sheet for Consumers",
     "url": "https://ods.od.nih.gov/factsheets/VitaminA-Consumer/"
+  },
+  "/blog/prenatal-vitamin-label-pregnancy/": {
+    "quote": "Product formulations vary considerably, so it is important to consider both the ingredients and the doses in these products.",
+    "credit": "NIH Office of Dietary Supplements",
+    "source": "Dietary Supplements and Life Stages: Pregnancy",
+    "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+  },
+  "/blog/protein-powder-pregnancy/": {
+    "quote": "Also, keep in mind that supplements should not take the place of the variety of foods that are important for a healthy diet.",
+    "credit": "U.S. Food and Drug Administration",
+    "source": "FDA 101: Dietary Supplements",
+    "url": "https://www.fda.gov/consumers/consumer-updates/fda-101-dietary-supplements"
+  },
+  "/blog/caffeine-coffee-tea-pregnancy/": {
+    "quote": "The amount of caffeine in specific products, and container sizes, can vary.",
+    "credit": "U.S. Food and Drug Administration",
+    "source": "Spilling the Beans: How Much Caffeine is Too Much?",
+    "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much"
+  },
+  "/blog/water-intake-pregnancy/": {
+    "quote": "Drink plain water instead of sugary drinks like soda, fruit drinks, sweetened waters, and energy or sports drinks.",
+    "credit": "HHS Office of Disease Prevention and Health Promotion",
+    "source": "Eat Healthy During Pregnancy: Quick Tips",
+    "url": "https://odphp.health.gov/myhealthfinder/pregnancy/nutrition-and-physical-activity/eat-healthy-during-pregnancy-quick-tips"
+  },
+  "/blog/ginger-tea-capsules-pregnancy-nausea/": {
+    "quote": "Research shows that ginger may be helpful for nausea and vomiting associated with pregnancy.",
+    "credit": "NIH National Center for Complementary and Integrative Health",
+    "source": "Ginger: Usefulness and Safety",
+    "url": "https://www.nccih.nih.gov/health/ginger"
+  },
+  "/blog/foods-for-morning-sickness-pregnancy/": {
+    "quote": "But there are some changes you can make to your diet and daily life to try to ease the symptoms.",
+    "credit": "NHS",
+    "source": "Vomiting and morning sickness",
+    "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/"
+  },
+  "/blog/melatonin-during-pregnancy/": {
+    "quote": "Taking melatonin supplements during pregnancy has not been well studied.",
+    "credit": "MotherToBaby",
+    "source": "Melatonin",
+    "url": "https://mothertobaby.org/fact-sheets/melatonin/"
   }
 };

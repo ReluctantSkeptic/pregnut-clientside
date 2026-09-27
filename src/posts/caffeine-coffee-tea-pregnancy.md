@@ -9,6 +9,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** [ACOG advises keeping caffeine below 200 mg per day during pregnancy](https://www.acog.org/womens-health/experts-and-stories/ask-acog/how-much-coffee-can-i-drink-while-pregnant). Count caffeine from all sources, not just coffee. A cup's size and the way it is prepared can change the amount substantially.

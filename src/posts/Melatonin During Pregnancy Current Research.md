@@ -5,7 +5,7 @@ permalink: /blog/melatonin-during-pregnancy/index.html
 description: What current human evidence says about melatonin supplements in pregnancy, sleep treatment alternatives, and breastfeeding.
 author: Yuriy Stasyuk
 date: 2025-05-17
-dateModified: 2026-09-22
+dateModified: 2026-09-26
 ogType: article
 schemaType: Article
 tags: post

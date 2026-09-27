@@ -8,6 +8,7 @@ date: 2026-09-25
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** [ACOG advises 8–12 cups (64–96 US fluid ounces) of water each day during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy). Drink across the day instead of trying to catch up all at once. This is general guidance; your prenatal care team can help you adapt it to your health and activity.
