@@ -9,3 +9,5 @@ Composition: centered heading, explanatory copy and primary/secondary actions, t
 Motion: calm 12px entrance, 600–800ms ease-out; native smooth anchor scrolling. Reduced motion disables animations and smooth scrolling.
 
 Gallery integration: feather empty top/bottom and outer 2% edges with intersecting CSS masks. Keep food pixels opaque and natural shadows intact. Caption spacing closes the photographic backdrop gap.
+
+Nutrient deck: native sticky cards on desktop and mobile; stable layout measurements, 3.5% recession and alternating 0.45-degree tilt as the next opaque card overlaps. Paper edges and soft shadows create depth. Tall cards pin low enough for their bottom to remain readable. Reduced motion uses a static list.
