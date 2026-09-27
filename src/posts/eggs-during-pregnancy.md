@@ -6,7 +6,7 @@ layout: post.njk
 permalink: /blog/eggs-during-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
-dateModified: 2026-09-23
+dateModified: 2026-09-26
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-eggs-100g.webp

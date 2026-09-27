@@ -8,6 +8,7 @@ date: 2026-09-22
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** The [NIH recommended dietary allowance](https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/) for vitamin B12 during pregnancy is **2.6 micrograms (mcg) a day**. Eggs and dairy can contribute if you eat them. Plants do not naturally provide B12, so a vegan diet needs a reliable fortified food or supplement source; discuss the full plan with your prenatal clinician.

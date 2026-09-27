@@ -13,6 +13,7 @@ socialImageWidth: 900
 socialImageHeight: 900
 socialImageAlt: Illustration of almonds in a bowl
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** Riboflavin is vitamin B2. You can get it without dairy from foods such as almonds, eggs if you eat them, mushrooms, and fortified grains. [NIH lists 1.4 mg per day](https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/) as the recommended amount throughout pregnancy for both teens and adults. If you avoid dairy and meat, check your usual foods and prenatal label together.

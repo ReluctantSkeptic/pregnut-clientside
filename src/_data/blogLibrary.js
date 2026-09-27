@@ -1,0 +1,51 @@
+const category = (id, title, intro, image, imageAlt, entries) => ({
+  id, title, intro, image, imageAlt,
+  guides: entries.map(([slug, label]) => ({ url: `/blog/${slug}/`, label })),
+});
+
+module.exports = [
+  category("nutrients", "Nutrients & food", "Everyday foods, useful portions, and the nutrients that matter.", "/resource/blog/nutrients.webp", "Painted still life of greens, lentils, citrus, and eggs", [
+    ["iron-foods-pregnancy", "Iron foods & pairings"],
+    ["folate-folic-acid-pregnancy", "Folate & folic acid"],
+    ["choline-foods-pregnancy", "Choline from food & prenatals"],
+    ["vitamin-b6-foods-pregnancy", "Vitamin B6 & nausea"],
+    ["vitamin-c-without-citrus-pregnancy", "Vitamin C without citrus"],
+    ["vitamin-d-foods-pregnancy", "Vitamin D from food"],
+    ["potassium-foods-pregnancy", "Potassium-rich foods"],
+    ["magnesium-foods-pregnancy", "Magnesium-rich foods"],
+    ["fiber-foods-constipation-pregnancy", "Fiber for constipation"],
+    ["heartburn-foods-pregnancy", "Eating with heartburn"],
+  ]),
+  category("different-diets", "Different diets", "Find options when dairy, meat, or fish is not on your plate.", "/resource/blog/different-diets.webp", "Painted still life of plant milk, chickpeas, almonds, and greens", [
+    ["calcium-without-dairy-pregnancy", "Calcium without dairy"],
+    ["riboflavin-without-dairy-pregnancy", "Riboflavin without dairy"],
+    ["iodine-without-dairy-pregnancy", "Iodine without dairy or seafood"],
+    ["vegetarian-b12-pregnancy", "B12 on a vegetarian diet"],
+    ["vegetarian-protein-pregnancy", "Vegetarian protein"],
+    ["zinc-foods-pregnancy", "Zinc without meat"],
+    ["dha-without-fish-pregnancy", "DHA without fish"],
+    ["vitamin-a-foods-without-liver-pregnancy", "Vitamin A without liver"],
+  ]),
+  category("everyday-choices", "Labels & daily choices", "A practical look at supplements, drinks, and unsettled stomachs.", "/resource/blog/everyday-choices.webp", "Painted still life of a blank supplement bottle, tea, ginger, and mint", [
+    ["prenatal-vitamin-label-pregnancy", "Read a prenatal label"],
+    ["protein-powder-pregnancy", "Protein powder labels"],
+    ["caffeine-coffee-tea-pregnancy", "Caffeine in coffee & tea"],
+    ["water-intake-pregnancy", "Water intake"],
+    ["ginger-tea-capsules-pregnancy-nausea", "Ginger tea or capsules?"],
+    ["foods-for-morning-sickness-pregnancy", "Food for morning sickness"],
+    ["melatonin-during-pregnancy", "Melatonin: current research"],
+  ]),
+  category("food-safety", "Food safety", "Clear checks for preparation, pasteurization, storage, and seafood.", "/resource/blog/food-safety.webp", "Painted still life of cooked salmon, hard-boiled eggs, greens, and lemon", [
+    ["food-safety-pregnancy", "The food safety checklist"],
+    ["low-mercury-fish-pregnancy", "Lower-mercury fish"],
+    ["smoked-salmon-pregnancy", "Smoked salmon & lox"],
+    ["soft-cheese-pregnancy", "Soft cheese"],
+    ["raw-milk-pregnancy", "Milk & yogurt labels"],
+    ["eggs-during-pregnancy", "Eggs & pasteurization"],
+    ["juice-pasteurization-pregnancy", "Juice & cider"],
+    ["wash-produce-pregnancy", "Wash fresh produce"],
+    ["sprouts-during-pregnancy", "Raw & cooked sprouts"],
+    ["deli-meat-pregnancy", "Deli meat & cold cuts"],
+    ["leftovers-pregnancy", "Leftovers & takeout"],
+  ]),
+];

@@ -8,6 +8,7 @@ date: 2026-09-22
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** Iodine helps the body make thyroid hormones needed for fetal brain development. The [NIH pregnancy recommended dietary allowance](https://ods.od.nih.gov/factsheets/Iodine-Consumer/) is **220 micrograms (mcg) a day**. If you eat little or no dairy, seafood, or eggs, check your prenatal's iodine amount with your care team rather than assuming those foods have been replaced.

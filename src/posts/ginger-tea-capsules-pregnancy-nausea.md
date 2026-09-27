@@ -8,6 +8,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** Ginger may help with pregnancy nausea, but a cup of ginger tea and a ginger capsule are not interchangeable doses. [NIH says most studies tested supplements rather than foods or drinks](https://www.nccih.nih.gov/health/ginger). [ACOG includes ginger tea, candies, and capsules among options](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) to try for nausea. Ask your prenatal clinician before starting a ginger supplement, especially if you take medicine.

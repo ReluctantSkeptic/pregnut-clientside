@@ -593,29 +593,6 @@ h3.home-lede {
   background: var(--c, var(--accent));
 }
 
-.home-preview-row.is-placeholder .home-preview-label,
-.home-preview-row.is-placeholder .home-preview-value {
-  display: block;
-  height: 8px;
-  border-radius: 999px;
-  background: #e4e5de;
-}
-
-.home-preview-row.is-placeholder .home-preview-value {
-  width: 26px;
-  justify-self: end;
-}
-
-.home-preview-row.is-placeholder .home-preview-bar::after {
-  display: none;
-}
-
-.home-preview-rows.is-unavailable {
-  color: var(--muted);
-  font-size: 0.75rem;
-  line-height: 1.5;
-}
-
 /* Nutrient card stack */
 .needs-deck {
   --deck-top: 96px;

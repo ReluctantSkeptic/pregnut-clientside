@@ -9,6 +9,7 @@ date: 2026-09-25
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** Try small amounts of food you can tolerate, often enough that your stomach is not empty. Dry toast or crackers, rice, pasta, fruit, and simple snacks are reasonable starting points. Sip fluids throughout the day. These ideas come from [ACOG's morning-sickness guidance](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) and the [NHS pregnancy guidance](https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/); no single food works for everyone.

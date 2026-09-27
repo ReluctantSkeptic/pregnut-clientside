@@ -5,7 +5,7 @@ layout: post.njk
 permalink: /blog/low-mercury-fish-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-25
+dateModified: 2026-09-26
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-salmon-100g.webp

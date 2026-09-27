@@ -9,6 +9,7 @@ date: 2026-09-25
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** If meals bring on heartburn, try eating **smaller amounts more often** and notice which foods or drinks make *your* symptoms worse. Stay upright after eating and leave time between your evening meal and bed. These steps appear in [ACOG's reflux guidance](https://www.acog.org/womens-health/faqs/problems-of-the-digestive-system) and the [NHS pregnancy heartburn guide](https://www.nhs.uk/pregnancy/common-symptoms/indigestion-and-heartburn/). There is no universal list of reflux triggers that everyone must avoid.

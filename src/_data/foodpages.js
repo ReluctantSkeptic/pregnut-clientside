@@ -157,9 +157,12 @@ function metaDescription(name, topNutrients) {
   return shortName.replace(/[\s,;]+$/, "") + "…" + detail;
 }
 
-function seoTitle(name) {
+function seoTitle(name, isAvoid = false) {
   const brand = " | PregNut";
-  for (const context of [" Nutrition in Pregnancy", " Nutrition", ""]) {
+  const contexts = isAvoid
+    ? [" Safety in Pregnancy", " Pregnancy Safety", " Safety", ""]
+    : [" Nutrition in Pregnancy", " Nutrition", ""];
+  for (const context of contexts) {
     const title = name + context + brand;
     if (title.length <= 65) return title;
   }
@@ -204,11 +207,15 @@ const items = (foodData.foods || [])
     const isHumanMilk = food.id === "01107";
     const isRawPulse = food.id === "16069" || food.id === "16085";
     const isRawFlour = food.id === "16115";
+    const isAvoid = String(food.warning || "").toLowerCase() === "avoid";
     const rows = nutrientRows(food);
     const chartRows = rows
       .slice()
       .sort((a, b) => (b.percent ?? -1) - (a.percent ?? -1) || a.name.localeCompare(b.name));
     const topNutrients = chartRows.filter((row) => row.percent > 0).slice(0, 3);
+    let pageDescription = metaDescription(pageName, topNutrients);
+    if (isRawPulse || isRawFlour) pageDescription = `${pageName}: historical USDA-based nutrients per 100 g before cooking. Uncooked ingredient data; see preparation guidance.`;
+    if (isAvoid) pageDescription = `Avoid ${pageName} during pregnancy. See the safety reason, source guidance, and historical nutrients per 100 g.`;
     return {
       ...food,
       pageName,
@@ -217,10 +224,8 @@ const items = (foodData.foods || [])
       nutrientRows: rows,
       chartRows,
       topNutrients,
-      metaDescription: isRawPulse || isRawFlour
-        ? `${pageName}: historical USDA-based nutrients per 100 g before cooking. Uncooked ingredient data; see preparation guidance.`
-        : metaDescription(pageName, topNutrients),
-      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName)),
+      metaDescription: pageDescription,
+      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
       guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
       isHumanMilk,
       isRawPulse,
@@ -257,7 +262,7 @@ for (const groupFoods of itemsByGroup.values()) {
   groupFoods.forEach((food, index) => {
     food.relatedFoods = groupFoods
       .slice(Math.max(0, index - 3), index + 4)
-      .filter((candidate) => candidate.id !== food.id)
+      .filter((candidate) => candidate.id !== food.id && String(candidate.warning || "").toLowerCase() !== "avoid")
       .map((candidate) => ({
         id: candidate.id,
         name: candidate.pageName,
