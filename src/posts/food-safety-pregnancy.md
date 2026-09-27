@@ -8,6 +8,7 @@ date: 2026-09-24
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** Check how a food was **processed, cooked, and stored** before using its nutrient numbers to decide what to eat. [CDC's safer food choices for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html) cover foods more likely to carry harmful germs. Seafood needs a separate [FDA/EPA mercury check](https://www.fda.gov/food/consumers/advice-about-eating-fish). A PregNut food chart cannot verify either one for the product in your kitchen.

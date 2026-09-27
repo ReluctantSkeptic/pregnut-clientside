@@ -8,6 +8,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
+dateModified: 2026-09-26
 ---
 
 **The short answer:** Check both the **kind of cheese** and whether its milk was **pasteurized**. [CDC's pregnancy food-safety chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists pasteurized cheddar, cottage cheese, cream cheese, feta, and mozzarella among safer choices. It lists cheese made with raw milk and **unheated queso fresco-type cheese** among riskier choices. Queso fresco, queso blanco, and requesón need extra care **even when made with pasteurized milk**.

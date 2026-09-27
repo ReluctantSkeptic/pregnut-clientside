@@ -5,7 +5,7 @@ layout: post.njk
 permalink: /blog/raw-milk-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-24
-dateModified: 2026-09-24
+dateModified: 2026-09-26
 ogType: article
 schemaType: Article
 tags: post

@@ -108,10 +108,10 @@ module.exports = {
     "url": "https://ods.od.nih.gov/factsheets/VitaminA-Consumer/"
   },
   "/blog/prenatal-vitamin-label-pregnancy/": {
-    "quote": "Product formulations vary considerably, so it is important to consider both the ingredients and the doses in these products.",
-    "credit": "NIH Office of Dietary Supplements",
-    "source": "Dietary Supplements and Life Stages: Pregnancy",
-    "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    "quote": "I'd say in terms of the prenatal vitamin, many don't contain iodine, so super important to check the label for that one.",
+    "credit": "Cara Dolin, MD, maternal-fetal medicine specialist",
+    "source": "Cleveland Clinic: What To Eat During Pregnancy",
+    "url": "https://my.clevelandclinic.org/podcasts/nutrition-essentials/what-to-eat-during-pregnancy"
   },
   "/blog/protein-powder-pregnancy/": {
     "quote": "Also, keep in mind that supplements should not take the place of the variety of foods that are important for a healthy diet.",
@@ -144,9 +144,75 @@ module.exports = {
     "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/"
   },
   "/blog/melatonin-during-pregnancy/": {
-    "quote": "Taking melatonin supplements during pregnancy has not been well studied.",
-    "credit": "MotherToBaby",
-    "source": "Melatonin",
-    "url": "https://mothertobaby.org/fact-sheets/melatonin/"
+    "quote": "Notably, insomnia was not the primary outcome in any of these studies.",
+    "credit": "Vine, Brown, and Frey",
+    "source": "Melatonin use during pregnancy and lactation: A scoping review of human studies",
+    "url": "https://www.scielo.br/j/rbp/a/brDxS595nF43Y8DMY9wtwdt/?format=pdf"
+  },
+  "/blog/food-safety-pregnancy/": {
+    "quote": "Eat thoroughly cooked, cleaned and pasteurized foods to avoid the risk of food poisoning.",
+    "credit": "Carly Jennings, MD, obstetrician",
+    "source": "Nebraska Medicine: What foods should you avoid while pregnant?",
+    "url": "https://www.nebraskamed.com/health/healthy-lifestyle/womens-health/what-foods-should-you-avoid-while-pregnant"
+  },
+  "/blog/low-mercury-fish-pregnancy/": {
+    "quote": "While it is important to limit mercury in the diets of those who are pregnant or breastfeeding and children, many types of fish are both nutritious and lower in mercury.",
+    "credit": "U.S. Food and Drug Administration and Environmental Protection Agency",
+    "source": "Advice about Eating Fish",
+    "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+  },
+  "/blog/smoked-salmon-pregnancy/": {
+    "quote": "Smoked fish cooked in a casserole or other cooked dishes",
+    "credit": "Centers for Disease Control and Prevention",
+    "source": "Safer Food Choices for Pregnant Women",
+    "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+  },
+  "/blog/soft-cheese-pregnancy/": {
+    "quote": "Although pasteurization is incredibly effective at eliminating Listeria, cheeses made with pasteurized milk can become recontaminated with Listeria if the manufacturing environment is unsanitary.",
+    "credit": "U.S. Food and Drug Administration",
+    "source": "Queso Fresco-type Cheeses Consumer Guidance",
+    "url": "https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance"
+  },
+  "/blog/raw-milk-pregnancy/": {
+    "quote": "Pasteurized milk offers the same nutritional benefits without the risks of raw milk consumption.",
+    "credit": "Centers for Disease Control and Prevention",
+    "source": "Raw Milk",
+    "url": "https://www.cdc.gov/food-safety/foods/raw-milk.html"
+  },
+  "/blog/eggs-during-pregnancy/": {
+    "quote": "Cook eggs thoroughly until the yolks and whites are firm.",
+    "credit": "U.S. Food and Drug Administration",
+    "source": "Dairy and Eggs: Food Safety for Moms-to-Be",
+    "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+  },
+  "/blog/juice-pasteurization-pregnancy/": {
+    "quote": "Unless the produce or the juice has been pasteurized or otherwise treated to destroy any harmful bacteria, the juice could be contaminated.",
+    "credit": "U.S. Food and Drug Administration",
+    "source": "What You Need to Know About Juice Safety",
+    "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety"
+  },
+  "/blog/wash-produce-pregnancy/": {
+    "quote": "Washing can reduce bacteria that may be present but will not eliminate it.",
+    "credit": "U.S. Food and Drug Administration",
+    "source": "Selecting and Serving Produce Safely",
+    "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+  },
+  "/blog/sprouts-during-pregnancy/": {
+    "quote": "Cook sprouts thoroughly. This significantly reduces the risk of illness.",
+    "credit": "U.S. Food and Drug Administration",
+    "source": "Fruits, Veggies and Juices: Food Safety for Moms-to-Be",
+    "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+  },
+  "/blog/deli-meat-pregnancy/": {
+    "quote": "Refrigeration does not kill Listeria, but reheating before eating will kill any germs that may be on these meats.",
+    "credit": "Centers for Disease Control and Prevention",
+    "source": "How Listeria Spread: Deli Foods and Prepared Meats",
+    "url": "https://www.cdc.gov/listeria/causes/deli-ready-to-eat-foods.html"
+  },
+  "/blog/leftovers-pregnancy/": {
+    "quote": "For even heating, turn the dish several times during cooking, and stir soups and stews periodically during reheating.",
+    "credit": "U.S. Food and Drug Administration",
+    "source": "Cooking: Food Safety for Moms-to-Be",
+    "url": "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be"
   }
 };

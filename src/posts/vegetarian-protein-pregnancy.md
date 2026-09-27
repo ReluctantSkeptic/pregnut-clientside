@@ -41,4 +41,6 @@ Protein is only one part of a vegetarian pregnancy diet. Our [B12 guide](/blog/v
 
 If you are comparing a powder with these foods, see our [protein powder label and serving guide](/blog/protein-powder-pregnancy/). A 100 g database amount is not necessarily the amount in one scoop.
 
+**Further reading:** The National Academies 2020 workshop proceedings discuss research on protein needs during pregnancy ([read the full book](https://www.nationalacademies.org/read/25841/chapter); [Google Books record](https://books.google.com/books/about/Nutrition_During_Pregnancy_and_Lactation.html?id=iVoAEAAAQBAJ)). The proceedings summarize workshop discussions rather than set new individual protein targets.
+
 **Sources:** [ACOG healthy eating during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), [ACOG vegetarian protein sources](https://www.acog.org/womens-health/faqs/healthy-eating), and [CDC safer food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html). This guide is educational and does not replace prenatal care.
