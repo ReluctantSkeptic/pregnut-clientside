@@ -120,12 +120,12 @@
     // RealFood reference: sequential 20% scroll segments, bottom-origin rotation,
     // and a mass-1 spring with stiffness 400 / damping 25 for the 1.03 hover scale.
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
-    var portrait = window.matchMedia("(max-width: 800px) and (orientation: portrait)");
+    var portrait = window.matchMedia("(max-width: 800px)");
     var finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
-    var poses = [[25, -140, -8], [-30, -60, 5], [15, 20, -3], [-25, 100, 6]];
+    var poses = [[12, -20, -5], [-10, -28, 4], [8, -36, -3], [-6, -44, 2]];
     var stacks = Array.from(document.querySelectorAll(".nutrient-stack-section"), function (section) {
       var items = Array.from(section.querySelectorAll(".need-card"));
-      var state = { section: section, items: items, scales: items.map(function () { return 1; }), velocities: items.map(function () { return 0; }), hover: -1 };
+      var state = { section: section, items: items, scales: items.map(function () { return 1; }), velocities: items.map(function () { return 0; }), hover: -1, progress: null, titles: section.querySelectorAll("[data-stack-link]") };
       items.forEach(function (card, i) {
         card.addEventListener("pointerenter", function () { if (finePointer.matches) { state.hover = i; requestTick(); } });
         card.addEventListener("pointerleave", function () { state.hover = -1; requestTick(); });
@@ -148,7 +148,19 @@
       var moving = false;
       stacks.forEach(function (state) {
         var rect = state.section.getBoundingClientRect();
-        var progress = clamp((window.innerHeight - rect.top) / rect.height);
+        var targetProgress = clamp((window.innerHeight - rect.top) / rect.height);
+        if (state.progress === null || reduced.matches || portrait.matches) state.progress = targetProgress;
+        state.progress += (targetProgress - state.progress) * (1 - Math.exp(-dt / .075));
+        if (Math.abs(targetProgress - state.progress) > .0001) moving = true;
+        else state.progress = targetProgress;
+        var progress = state.progress;
+        var segment = .8 / state.items.length;
+        var active = Math.min(state.items.length - 1, Math.max(0, Math.floor(progress / segment)));
+        state.titles.forEach(function (title, i) {
+          title.classList.toggle("is-current", i === active);
+          if (i === active) title.setAttribute("aria-current", "step");
+          else title.removeAttribute("aria-current");
+        });
         state.items.forEach(function (card, i) {
           var target = state.hover === i && !portrait.matches && !reduced.matches ? 1.03 : 1;
           var scale = state.scales[i];
@@ -163,9 +175,10 @@
           if (portrait.matches) {
             card.style.transform = "scale(" + (1 - progress * (.12 - i * .03)).toFixed(5) + ")";
           } else {
-            var phase = clamp((progress - i * .2) / .2);
+            var phase = clamp((progress - i * segment) / segment);
+            phase = phase * phase * (3 - 2 * phase);
             var pose = poses[i];
-            var y = (600 + i * 100) * (1 - phase) + pose[1] * phase;
+            var y = 600 * (1 - phase) + pose[1] * phase;
             card.style.transform = "translate(" + (pose[0] * phase).toFixed(3) + "px," + y.toFixed(3) + "px) rotate(" + (pose[2] * phase).toFixed(3) + "deg) scale(" + scale.toFixed(5) + ")";
           }
         });

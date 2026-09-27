@@ -1151,3 +1151,22 @@ h3.home-lede {
   .nutrient-stack-docs { grid-template-columns: 1fr; }
   .nutrient-stack .need-card { width: 100%; aspect-ratio: auto; }
 }
+
+/* Each new card lands above the previous card in the same pile. */
+.nutrient-stack-context { justify-content: center; }
+.nutrient-stack-titles { list-style: none; padding: 0; margin: 0; display: grid; gap: 24px; }
+.nutrient-stack-titles li { color: var(--muted); font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(2rem, 3.5vw, 3.5rem); line-height: 1.08; transform: translateX(0); transition: color 250ms ease, transform 350ms cubic-bezier(.2,.7,.2,1); }
+.nutrient-stack-titles li.is-current { color: var(--accent-2); transform: translateX(12px); }
+@media (max-width: 800px) {
+  .nutrient-stack-section { height: auto; padding-bottom: 72px; }
+  .nutrient-stack-sticky { position: relative; height: auto; min-height: 0; padding: 24px 8px; }
+  .nutrient-stack-layout { display: block; }
+  .nutrient-stack-context { display: none; }
+  .nutrient-stack { margin: 24px 0; align-items: center; }
+  .nutrient-stack-docs { aspect-ratio: auto; gap: 48px; transform: none; padding-bottom: max(160px, calc(100svh - 480px)); }
+  .nutrient-stack .need-card { position: sticky; top: 104px; width: min(100%, 390px); margin: 0; flex-shrink: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nutrient-stack .need-card { position: relative; top: auto; }
+  .nutrient-stack-titles li { transform: none; transition: none; }
+}
