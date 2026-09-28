@@ -1,22 +1,6 @@
 const foodData = require("../resource/pregnut_fooddata.v1.json");
 const foodImages = require("./foodimages");
 
-const NUTRIENT_COLORS = [
-  "#9EC3E6",
-  "#8ADDD7",
-  "#BFE9F2",
-  "#B7E3A1",
-  "#D8E08A",
-  "#F3D68A",
-  "#F5B47A",
-  "#EB8A86",
-  "#F7B0CF",
-  "#F49BB7",
-  "#E7C6F5",
-  "#CDB7F3",
-  "#9AAFD6"
-];
-
 const NUTRIENT_GUIDES = {
   Calcium: { title: "Calcium without dairy during pregnancy", url: "/blog/calcium-without-dairy-pregnancy/" },
   Choline: { title: "Choline foods during pregnancy", url: "/blog/choline-foods-pregnancy/" },
@@ -172,7 +156,7 @@ function seoTitle(name, isAvoid = false) {
 function nutrientRows(food) {
   return Object.entries(foodData.nutrients || {})
     .filter(([name, info]) => name !== "Calories" && info && info.rda)
-    .map(([name, info], index) => {
+    .map(([name, info]) => {
       const value = food.nutrients && food.nutrients[name];
       const convertedValue = convertValue(value, info.unit, info.rda.unit);
       const targetValue = Number(info.rda.value);
@@ -188,8 +172,7 @@ function nutrientRows(food) {
         percent,
         displayPercent: percent === null ? null : Math.round(percent),
         barPercent: percent === null ? 0 : Math.min(Math.max(percent, 0), 100),
-        isOver100: percent !== null && percent > 100,
-        color: NUTRIENT_COLORS[index] || "#9EC3E6"
+        isOver100: percent !== null && percent > 100
       };
     });
 }

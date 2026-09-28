@@ -15,3 +15,12 @@ Nutrient deck: native sticky cards on desktop and mobile; stable layout measurem
 Reference stack replaces the earlier wide-card design: realfood.gov dga-module__LrmiHG__stack inspected 2026-09-27. Four groups preserve all 14 nutrient cards. Desktop uses 300vh sections, bottom-origin 8:10 cards, poses (25,-140,-8deg), (-30,-60,5deg), (15,20,-3deg), (-25,100,6deg), sequential 20% scroll segments, and 1.03 hover spring (stiffness400, damping25). Exact reference outer shadow 0 12px 24px #0000001a and 24px radius. Portrait mobile uses 80/128/176/224px sticky offsets and .88/.91/.94/.97 end scales. Live-text accommodation: minimum 280px cards on compact landscape and narrower typography at 320px. Preserve PregNut typography, nutrient content, and source links.
 
 Stack refinement: new cards land slightly higher on the same pile; desktop side titles track scroll progress. Mobile hides side content and pins cards to one common top edge. Cards show only Read the guide. Scroll progress uses a 75ms frame-rate-independent smoothing filter and equal smoothstep segments, including two-card groups.
+
+# Data visualisation (Top Foods, food pages, weekly guide)
+
+Airbnb-style overhaul, 2026-09-28. Shared components in src/style/viz.css and src/js/viz.js (window.PregnutViz); page scripts keep all data math (percentOfRda, scoring, filters, limits) unchanged.
+
+One hue, no rainbow: forest fill (--accent) on #e9e5da track, 8px rounded bars that end at 100% of the reference; at or above 100% the fill deepens to --accent-2 and the value reads "✓ 240%". Values are ink text in their own right-aligned tabular column, never the series colour.
+Rows: 48px rounded food photo (placeholder tile with serif initial when missing), name + muted detail, value, bar; whole row is one link; hover/focus tooltip gives the absolute amount and reference. Cards: --card, hairline border, 16–18px radius, no gradients or resting shadow.
+Controls: nutrient pill chips (native radios, horizontal scroll) and a two-segment Processed/Natural control; sticky toolbar docks under the 72px header (87px mobile).
+Disclosure: one visible summary line per chart plus an ⓘ popover (caution.js, .caution.is-info); long caveats move to <details>. Safety warnings are a small peach "!" button with the unchanged warning text. Every caveat sentence and source link stays on the page.

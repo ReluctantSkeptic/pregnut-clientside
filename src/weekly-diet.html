@@ -4,10 +4,12 @@ description: Pregnancy nutrition by week with nutrient highlights, food comparis
 layout: base.njk
 permalink: /weekly-diet/index.html
 bodyClass: page-weekly
+vizStyles: true
 pageStyles:
-  - /style/weekly-diet.css?v=chapter-art-v1
+  - /style/weekly-diet.css?v=20260928-viz
 pageScripts:
-  - /js/weekly-diet.js?v=20260925-images
+  - /js/viz.js?v=20260928-1
+  - /js/weekly-diet.js?v=20260928-viz
 ---
 
 <section class="hero slim weekly-hero">
@@ -67,38 +69,32 @@ pageScripts:
     </section>
 
     <section class="content-card" aria-label="Top foods this period">
-      <div class="content-head">
-        <h2 class="content-title">Highest nutrient scores for this period</h2>
-        <p class="content-summary">Scores compare 100 g of each food with this stage's highlighted nutrient references. They do not establish a practical serving or pregnancy safety. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
+      <div class="content-head weekly-rank-head">
+        <div>
+          <h2 class="content-title">Highest nutrient scores for this period</h2>
+          <p class="viz-note">Scores compare 100 g of each food with this stage's highlighted nutrient references. They do not establish a practical serving or pregnancy safety. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
+        </div>
+        <div class="weekly-source">
+          <div class="viz-segmented" id="SourceToggle" role="radiogroup" aria-label="Food source">
+            <label class="viz-segment"><input type="radio" name="weekly-source" value="processed"><span>Processed</span></label>
+            <label class="viz-segment"><input type="radio" name="weekly-source" value="natural"><span>Natural</span></label>
+          </div>
+          <span class="caution is-info"><button type="button" class="caution-trigger" aria-label="About food sources" aria-expanded="false">i</button><span class="caution-popover" role="tooltip">Processed includes fortified foods; Natural is whole-food sources.</span></span>
+        </div>
       </div>
-      <div class="food-source-card" aria-label="Food source filter">
-        <div class="food-source-kicker">Food source</div>
-        <label class="food-source-toggle">
-          <input type="checkbox" id="ToggleNaturalOnly" aria-label="Natural foods only">
-          <span class="food-source-track" aria-hidden="true">
-            <span class="food-source-text is-left">Processed</span>
-            <span class="food-source-text is-right">Natural</span>
-            <span class="food-source-thumb"></span>
-          </span>
-        </label>
-        <div class="food-source-hint">Processed includes fortified foods; Natural is whole-food sources.</div>
-      </div>
-      <div class="food-list" id="TopFoods"></div>
+      <p class="viz-summary weekly-summary" id="TopFoodsSummary"></p>
+      <div class="weekly-top" id="TopFoods"></div>
     </section>
 
     <section class="content-card" aria-label="Top foods by nutrient">
       <div class="content-head">
         <h2 class="content-title">Top foods per nutrient</h2>
-        <p class="content-summary">Use this view when you're trying to push a specific nutrient higher.</p>
+        <p class="viz-note">Use this view when you're trying to push a specific nutrient higher.</p>
       </div>
-      <div class="by-nutrient">
-        <div class="by-nutrient-controls">
-          <label class="control-label" for="NutrientSelect">Nutrient</label>
-          <select class="control-select" id="NutrientSelect"></select>
-        </div>
-      <div class="food-list" id="FoodsByNutrient"></div>
-      <p class="content-summary">Percentages use <a href="/about/#nutrient-references">PregNut's reference amounts</a>. DHA and protein use illustrative benchmarks; needs can differ by person. Food values come from a <a href="/about/#food-data-sources">fixed historical USDA snapshot</a>.</p>
-      </div>
+      <div class="viz-chips weekly-chips" id="NutrientChips" role="radiogroup" aria-label="Nutrient"></div>
+      <p class="viz-summary weekly-summary" id="ByNutrientSummary"></p>
+      <div class="weekly-by-nutrient" id="FoodsByNutrient"></div>
+      <p class="viz-note weekly-footnote">Percentages use <a href="/about/#nutrient-references">PregNut's reference amounts</a>. DHA and protein use illustrative benchmarks; needs can differ by person. Food values come from a <a href="/about/#food-data-sources">fixed historical USDA snapshot</a>.</p>
     </section>
   </div>
 </section>

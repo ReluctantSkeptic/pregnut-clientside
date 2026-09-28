@@ -91,60 +91,90 @@
   text-transform: uppercase;
 }
 
+.food-data-note {
+  margin-top: 14px;
+}
+
 .food-glance {
-  padding: clamp(22px, 3.5vw, 34px);
   display: grid;
-  grid-template-columns: minmax(230px, 0.8fr) minmax(0, 1.4fr);
+  grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.5fr);
   align-items: center;
-  gap: clamp(24px, 4vw, 54px);
-  border: 1px solid rgba(49, 95, 86, 0.22);
-  border-radius: var(--radius);
-  background: var(--accent-soft);
+  gap: clamp(20px, 4vw, 48px);
+  padding: clamp(8px, 2vw, 16px) 0 clamp(16px, 3vw, 28px);
 }
 
-.food-glance-heading h2 {
-  margin-bottom: 8px;
-  font-size: clamp(1.8rem, 3vw, 2.8rem);
-}
-
-.food-glance-heading p:last-child {
-  margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.5;
+.food-glance-heading .viz-note {
+  margin-top: 10px;
 }
 
 .food-glance-list {
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 8px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
   list-style: none;
 }
 
 .food-glance-list li {
   min-width: 0;
-  padding: 12px 14px;
+  padding: 18px 18px 16px;
   display: grid;
-  grid-template-columns: 30px minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 12px;
-  border: 1px solid rgba(49, 95, 86, 0.16);
-  border-radius: 14px;
-  background: rgba(255, 254, 251, 0.78);
+  gap: 4px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--card);
 }
 
+.food-glance-value {
+  color: var(--accent-2);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  font-weight: 400;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.food-glance-list strong {
+  margin-top: 6px;
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 0.94rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.food-glance-list li > span:last-child {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+/* Portion estimate */
 .food-portion-tool > label {
   display: block;
   margin-bottom: 8px;
-  font-weight: 700;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 600;
 }
 
 .food-portion-tool > input {
-  width: min(100%, 220px);
-  padding: 10px 12px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  font: inherit;
+  width: min(100%, 200px);
+  padding: 12px 16px;
+  border: 1px solid var(--border-strong);
+  border-radius: 14px;
+  color: var(--ink);
+  background: var(--card);
+  font: 600 1.25rem/1.2 "Geist", "Segoe UI", sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.food-portion-tool > input:focus {
+  border-color: var(--accent-2);
+  outline: 2px solid rgba(36, 73, 64, 0.18);
+  outline-offset: 1px;
 }
 
 .food-portion-error {
@@ -152,11 +182,14 @@
 }
 
 .food-portion-status {
-  margin: 18px 0 8px;
-  font-weight: 700;
+  margin: 20px 0 4px;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 600;
 }
 
 .food-portion-results {
+  margin: 0 0 16px;
   padding: 0;
   list-style: none;
 }
@@ -166,55 +199,27 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 4px 16px;
-  padding: 8px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--border);
-}
-
-.food-glance-rank {
-  display: inline-grid;
-  width: 30px;
-  height: 30px;
-  place-items: center;
-  border-radius: 10px;
-  color: #f8f5ed;
-  background: var(--accent-2);
-  font-size: 0.78rem;
-  font-weight: 800;
-}
-
-.food-glance-copy {
-  min-width: 0;
-  display: grid;
-  gap: 2px;
-}
-
-.food-glance-copy strong {
-  overflow: hidden;
-  color: var(--ink);
   font-size: 0.94rem;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
-.food-glance-copy span {
-  color: var(--muted);
-  font-size: 0.76rem;
+.food-portion-results li:last-child {
+  border-bottom: 0;
 }
 
-.food-glance-value {
-  color: var(--accent-2);
-  font-size: 1.2rem;
-  font-weight: 800;
+.food-portion-results strong {
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
 
 .food-safety-note {
   scroll-margin-top: 6rem;
-  border-left: 5px solid #d6a354;
 }
 
 .food-safety-note.is-avoid {
-  border-left-color: #b64a45;
+  border-color: rgba(182, 74, 69, 0.28);
+  background: #fdf8f6;
 }
 
 .food-safety-heading {
@@ -251,40 +256,59 @@
 
 .food-safety-note .content-summary {
   max-width: 80ch;
-  margin: 14px 0 0;
+  margin: 12px 0 0;
+  font-size: 0.92rem;
 }
 
-.food-chart-card .food-item {
-  box-shadow: 0 18px 60px rgba(23, 19, 16, 0.1);
+.food-safety-note .content-summary + .content-summary {
+  margin-top: 8px;
 }
 
-.food-chart-card .food-list {
-  margin-top: 18px;
+/* Nutrient coverage chart */
+.food-chart-head .viz-summary {
+  margin-top: 4px;
 }
 
-.food-chart-card .food-bars {
-  margin-top: 0;
-  gap: 10px;
+.food-chart {
+  margin: 22px 0 0;
+  padding: 0;
+  display: grid;
+  list-style: none;
 }
 
-.food-chart-card .bar-row {
-  grid-template-columns: minmax(0, 120px) minmax(0, 1fr);
-  gap: 6px;
+.food-chart-row {
+  padding: 9px 0;
+  display: grid;
+  grid-template-columns: minmax(110px, 180px) 88px minmax(0, 1fr) 64px;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid rgba(38, 48, 56, 0.07);
 }
 
-.food-chart-card .bar-label {
-  justify-content: flex-end;
-  gap: 0;
+.food-chart-row:last-child {
+  border-bottom: 0;
+}
+
+.food-chart-name {
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.food-chart-amount {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-variant-numeric: tabular-nums;
   text-align: right;
+  white-space: nowrap;
 }
 
-.food-chart-card .bar-label::before {
-  content: none;
+.food-chart-note {
+  margin-top: 16px;
 }
 
-.food-chart-card .bar-fill {
-  width: var(--bar-percent);
-  background: linear-gradient(90deg, #7fa99d, var(--accent));
+.food-table-details .table-shell {
+  margin-top: 12px;
 }
 
 .page-food-detail .data-table {
@@ -295,23 +319,6 @@
 .page-food-detail .data-table th:first-child,
 .page-food-detail .data-table td:first-child {
   width: 42%;
-}
-
-.food-chart-card .bar-value {
-  right: auto;
-  white-space: nowrap;
-  pointer-events: none;
-}
-
-.food-chart-card .bar-value.is-outside {
-  left: calc(var(--bar-percent) + var(--bar-value-gap));
-  transform: translate(0, -50%);
-}
-
-.food-chart-card .bar-value.is-inside {
-  right: var(--bar-value-gap);
-  left: auto;
-  transform: translate(0, -50%);
 }
 
 .related-food-list,
@@ -432,6 +439,13 @@
   padding: 4px 17px 18px;
 }
 
+@media (max-width: 860px) {
+  .food-glance {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
 @media (max-width: 720px) {
   .food-detail-hero.has-image {
     grid-template-columns: 1fr;
@@ -442,10 +456,6 @@
     justify-self: center;
   }
 
-  .food-glance {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
 
   .related-food-list,
   .food-directory-results,
@@ -483,56 +493,48 @@
     font-size: 0.9rem;
   }
 
-  .food-glance {
-    padding: 20px 16px;
-    border-radius: 18px;
-  }
-
-  .food-glance-list li {
-    padding: 11px 12px;
-    gap: 10px;
-  }
-
-  .food-glance-value {
-    font-size: 1.05rem;
-  }
-
-  .food-chart-card .food-item {
-    padding: 12px 12px 10px;
-  }
-
-  .food-chart-card .food-bars {
-    gap: 22px;
-  }
-
-  .food-chart-card .bar-row {
-    grid-template-columns: 1fr;
-    gap: 2px;
-  }
-
-  .food-chart-card .bar-track {
-    height: 28px;
-    border-radius: 10px;
-  }
-
-  .food-chart-card .bar-fill {
-    border-radius: 10px;
-  }
-
-  .food-chart-card .bar-label {
-    justify-content: flex-start;
-    text-align: left;
-    font-size: 0.84rem;
-  }
-
-  .food-chart-card .bar-value {
-    font-size: 0.84rem;
-  }
 
   .food-directory-form {
     align-items: stretch;
     flex-direction: column;
   }
+
+  .food-glance-list {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .food-glance-list li {
+    padding: 14px 16px;
+    grid-template-columns: 96px minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 16px;
+    row-gap: 2px;
+    align-items: center;
+  }
+
+  .food-glance-value {
+    grid-row: 1 / span 2;
+    font-size: 2.2rem;
+  }
+
+  .food-glance-list strong {
+    margin-top: 0;
+  }
+
+  .food-chart-row {
+    grid-template-columns: minmax(0, 1fr) auto 52px;
+    grid-template-areas:
+      "name amount value"
+      "bar bar bar";
+    gap: 6px 12px;
+    padding: 10px 0;
+  }
+
+  .food-chart-name { grid-area: name; }
+  .food-chart-amount { grid-area: amount; }
+  .food-chart-row .viz-bar { grid-area: bar; }
+  .food-chart-row .viz-value { grid-area: value; }
 
   .page-food-detail .table-shell {
     overflow-x: visible;

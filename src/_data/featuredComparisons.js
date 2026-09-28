@@ -13,5 +13,5 @@ module.exports = examples.map(({ id, label, nutrient }) => {
   if (!row || !Number.isFinite(Number(row.value))) {
     throw new Error(`Missing ${nutrient} data for food ${id}`);
   }
-  return { label, nutrient, value: row.value, unit: row.unit, url: food.url };
+  return { label, nutrient, value: row.value, unit: row.unit, url: food.url, image: food.image };
 });

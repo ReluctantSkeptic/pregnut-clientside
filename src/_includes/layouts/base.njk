@@ -147,8 +147,9 @@
       {% endfor %}
     {% endif %}
     <link rel="stylesheet" href="/style/overhaul.css">
+    {% if vizStyles %}<link rel="stylesheet" href="/style/viz.css?v=20260928-1">{% endif %}
   </head>
-  <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+  <body{% if bodyClass or vizStyles %} class="{{ bodyClass }}{% if vizStyles %} viz-page{% endif %}"{% endif %}>
     {% include "components/navbar.njk" %}
     <main class="page">
       {{ content | safe }}

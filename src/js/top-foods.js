@@ -8,50 +8,7 @@
 
   var PER_GROUP_LIMIT = 5;
 
-  // Pastel rainbow palette: nutrients are bound to colors in alphabetical order.
-  var NUTRIENT_ALPHA = [
-    "Calcium",
-    "Choline",
-    "DHA",
-    "Folate (DFE)",
-    "Iron",
-    "Potassium",
-    "Protein",
-    "Riboflavin",
-    "Vitamin B-12",
-    "Vitamin B-6",
-    "Vitamin C",
-    "Vitamin D",
-    "Zinc"
-  ];
-
-  var PASTEL_RAINBOW = [
-    "#9EC3E6",
-    "#8ADDD7",
-    "#BFE9F2",
-    "#B7E3A1",
-    "#D8E08A",
-    "#F3D68A",
-    "#F5B47A",
-    "#EB8A86",
-    "#F7B0CF",
-    "#F49BB7",
-    "#E7C6F5",
-    "#CDB7F3",
-    "#9AAFD6"
-  ];
-
-  var NUTRIENT_COLOR = (function () {
-    var map = {};
-    for (var i = 0; i < NUTRIENT_ALPHA.length; i++) {
-      map[NUTRIENT_ALPHA[i]] = PASTEL_RAINBOW[i] || "#9EC3E6";
-    }
-    return map;
-  })();
-
-  function nutrientColor(nutrientId) {
-    return NUTRIENT_COLOR[nutrientId] || "rgba(31, 122, 122, 0.70)";
-  }
+  var V = window.PregnutViz;
 
   function $(id) {
     return document.getElementById(id);
@@ -128,29 +85,6 @@
     return (v / rdaVal) * 100;
   }
 
-  function buildPercentTrack(percent) {
-    var p = safeNumber(percent);
-    if (p === null) p = 0;
-    p = Math.max(0, p);
-
-    var track = el("div", "bar-track percent-track" + (p > 100 ? " has-overflow" : ""), null);
-    track.setAttribute("role", "img");
-    track.setAttribute("aria-label", Math.round(p) + "% of nutrient reference amount");
-
-    var targetZone = el("span", "bar-zone is-target-zone", null);
-    var targetFill = el("span", "bar-fill is-target-fill", null);
-    targetFill.style.width = String(Math.min(p, 100)) + "%";
-    targetZone.appendChild(targetFill);
-
-    track.appendChild(targetZone);
-    if (p > 100) {
-      var overage = el("span", "bar-overage-section", null);
-      overage.setAttribute("aria-hidden", "true");
-      track.appendChild(overage);
-    }
-    return track;
-  }
-
   function filterFoods(fooddata, opts) {
     var foods = (fooddata && fooddata.foods) ? fooddata.foods : [];
     var out = [];
@@ -168,155 +102,49 @@
     return out;
   }
 
-  function el(tag, className, text) {
-    var node = document.createElement(tag);
-    if (className) node.className = className;
-    if (text !== undefined && text !== null) node.textContent = String(text);
-    return node;
-  }
-
-  function slugify(value) {
-    return String(value || "")
-      .normalize("NFKD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-+|-+$/g, "");
-  }
-
-  function foodUrl(food) {
-    return "/food/" + String(food && food.id ? food.id : "") + "-" + slugify(food && food.name) + "/";
-  }
-
-  function appendChartGuide(root, nutrientId, targetLabel) {
-    var guide = el("div", "chart-guide", null);
-    var copy = el("div", "chart-guide-copy", null);
-    copy.appendChild(el("p", "chart-guide-kicker", "100 g comparison"));
-    copy.appendChild(el("h2", "chart-guide-title", nutrientId));
-    copy.appendChild(el(
-      "p",
-      "chart-guide-text",
-      "The rail fills from 0–100% of the nutrient reference amount" +
-        (targetLabel ? " (" + targetLabel + ")" : "") +
-        ". When a food exceeds the reference amount, a short overage section appears beside the full rail; the number shows the exact total."
-    ));
-    guide.appendChild(copy);
-
-    var scale = el("div", "chart-scale", null);
-    scale.setAttribute("aria-label", "Chart scale from zero to one hundred percent of nutrient reference amount");
-    var line = el("div", "chart-scale-line", null);
-    line.appendChild(el("span", "chart-scale-zone is-target-zone", ""));
-    scale.appendChild(line);
-    var ticks = el("div", "chart-scale-ticks", null);
-    ticks.appendChild(el("span", "", "0"));
-    ticks.appendChild(el("span", "is-target", "100% reference"));
-    scale.appendChild(ticks);
-    guide.appendChild(scale);
-    root.appendChild(guide);
-  }
-
-  function buildFoodNameNode(className, food) {
-    // Split on first comma only, then wrap the remainder in parentheses as a subdued detail.
-    var node = document.createElement("p");
-    if (className) node.className = className;
-
-    var link = document.createElement("a");
-    link.className = className + "-link";
-    link.href = foodUrl(food);
-    node.appendChild(link);
-
-    var s = String(food && food.name ? food.name : "").trim();
-    if (!s) return node;
-
-    var idx = s.indexOf(",");
-    if (idx === -1) {
-      link.textContent = s;
-      return node;
-    }
-
-    var main = s.slice(0, idx).trim();
-    var rest = s.slice(idx + 1).trim();
-    link.textContent = main || s;
-
-    if (rest) {
-      var detail = document.createElement("span");
-      detail.className = className + "-detail";
-      detail.textContent = "(" + rest + ")";
-      link.appendChild(detail);
-    }
-    return node;
-  }
+  var el = V.el;
 
   function clear(node) {
     while (node && node.firstChild) node.removeChild(node.firstChild);
   }
 
   function closeAllCautions() {
-    if (window.PregnutCautions) {
-      window.PregnutCautions.closeAll();
-      return;
-    }
-    var open = document.querySelectorAll(".caution[data-open=\"1\"]");
-    for (var i = 0; i < open.length; i++) {
-      open[i].removeAttribute("data-open");
-      try {
-        var btn = open[i].querySelector(".caution-trigger");
-        if (btn) btn.setAttribute("aria-expanded", "false");
-      } catch (e) {}
-    }
+    if (window.PregnutCautions) window.PregnutCautions.closeAll();
   }
 
-  function initCautionEvents() {
-    if (window.PregnutCautions) {
-      window.PregnutCautions.init();
-      return;
-    }
-    if (window.__pregnutWeeklyCautionInit) return;
-    window.__pregnutWeeklyCautionInit = true;
-
-    document.addEventListener("click", function (ev) {
-      var t = ev && ev.target ? ev.target : null;
-      if (!t || !t.closest) return;
-
-      var trigger = t.closest(".caution-trigger");
-      if (trigger) {
-        ev.preventDefault();
-        ev.stopPropagation();
-        var wrap = trigger.closest(".caution");
-        if (!wrap) return;
-        var isOpen = wrap.getAttribute("data-open") === "1";
-        closeAllCautions();
-        if (!isOpen) {
-          wrap.setAttribute("data-open", "1");
-          trigger.setAttribute("aria-expanded", "true");
-        }
-        return;
-      }
-
-      // Tap/click anywhere outside closes (mobile-friendly).
-      var inside = t.closest(".caution");
-      if (!inside) closeAllCautions();
-    });
-
-    document.addEventListener("keydown", function (ev) {
-      if (ev && ev.key === "Escape") closeAllCautions();
-    });
+  function readingText(fooddata, food, nutrientId, pct) {
+    var nInfo = fooddata.nutrients[nutrientId];
+    var amount = V.formatAmount(food.nutrients[nutrientId]) + " " + nInfo.unit;
+    return amount + " in 100 g · " + Math.round(pct) + "% of " + nInfo.rda.label + " reference";
   }
 
-  function buildCautionNode(message) {
-    var wrap = el("div", "caution", null);
-    var btn = el("button", "caution-trigger", "!");
-    btn.type = "button";
-    btn.setAttribute("aria-label", "Caution");
-    btn.setAttribute("aria-expanded", "false");
-    btn.setAttribute("data-caution-message", message);
+  function renderSummary(nutrientId, targetLabel) {
+    var summary = $("TopFoodsSummary");
+    if (!summary) return;
+    clear(summary);
+    summary.appendChild(el("strong", "", nutrientId));
+    summary.appendChild(document.createTextNode(
+      " · % of the " + (targetLabel ? targetLabel + " " : "") + "pregnancy reference in 100 g"
+    ));
+    summary.appendChild(V.info(
+      "Each bar fills from 0–100% of the nutrient reference amount" +
+        (targetLabel ? " (" + targetLabel + ")" : "") +
+        ". Foods at or above the reference show a full bar and a ✓; the number shows the exact total. " +
+        "Foods are ranked within each group by the amount in 100 g. Open a food to check its preparation and safety notes.",
+      "How to read this chart"
+    ));
+  }
 
-    var pop = el("div", "caution-popover", message);
-    pop.setAttribute("role", "tooltip");
-
-    wrap.appendChild(btn);
-    wrap.appendChild(pop);
-    return wrap;
+  function renderJumpNav(groups) {
+    var nav = $("TopFoodsJump");
+    if (!nav) return;
+    clear(nav);
+    for (var i = 0; i < groups.length; i++) {
+      var link = el("a", "", groups[i].name);
+      link.href = "#food-group-" + V.slugify(groups[i].name);
+      nav.appendChild(link);
+    }
+    nav.hidden = !groups.length;
   }
 
   function renderFoodGroupsByNutrient(fooddata, foods, nutrientId, root) {
@@ -365,70 +193,33 @@
 
     var nInfo = fooddata && fooddata.nutrients ? fooddata.nutrients[nutrientId] : null;
     var targetLabel = nInfo && nInfo.rda && nInfo.rda.label ? nInfo.rda.label : "";
-    appendChartGuide(root, nutrientId, targetLabel);
+    renderSummary(nutrientId, targetLabel);
+    renderJumpNav(groups);
 
-    var jumpNav = el("nav", "topfoods-category-nav", null);
-    jumpNav.setAttribute("aria-label", "Jump to a food category");
-    jumpNav.appendChild(el("p", "topfoods-category-label", "Jump to category"));
-    var jumpLinks = el("div", "topfoods-category-links", null);
-    for (var ni = 0; ni < groups.length; ni++) {
-      var jumpLink = el("a", "topfoods-category-link", groups[ni].name);
-      jumpLink.href = "#food-group-" + slugify(groups[ni].name);
-      jumpLinks.appendChild(jumpLink);
-    }
-    jumpNav.appendChild(jumpLinks);
-    root.appendChild(jumpNav);
-
-    var grid = el("div", "food-group-grid", null);
+    var grid = document.createDocumentFragment();
     var itemCount = 0;
     for (var gi = 0; gi < groups.length; gi++) {
       var group = groups[gi];
-      var card = el("section", "food-group-card", null);
-      card.id = "food-group-" + slugify(group.name);
+      var card = el("section", "viz-card viz-fade", null);
+      card.id = "food-group-" + V.slugify(group.name);
       card.setAttribute("aria-label", group.name + " top foods");
       itemCount += group.items.length;
 
-      var head = el("div", "food-group-head", null);
-      head.appendChild(el("h3", "food-group-title", group.name));
-      head.appendChild(el("p", "food-group-meta", "Top " + String(group.items.length) + " foods"));
-      card.appendChild(head);
+      card.appendChild(el("h3", "viz-card-title", group.name));
 
-      var box = el("div", "food-box", null);
+      var list = el("ol", "viz-list", null);
       for (var fi = 0; fi < group.items.length; fi++) {
         var item = group.items[fi];
-        var foodItem = item.food;
-        var pctItem = item.pct;
-
-        var row = el("div", "food-row is-ranked", null);
-
-        var main = el("div", "food-row-main", null);
-        main.appendChild(el("span", "food-row-rank", String(fi + 1)));
-        var mainCopy = el("div", "food-row-copy", null);
-        mainCopy.appendChild(buildFoodNameNode("food-row-name", foodItem));
-        var metaLine = el("div", "food-row-meta-line", null);
-        var barCaution = null;
-        var warn = String(foodItem.warning || "").trim();
-        if (warn && warn.toLowerCase() !== "0") {
-          var wt = String(foodItem.warningText || "").trim();
-          var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
-          barCaution = buildCautionNode(msg);
-        }
-        if (barCaution) metaLine.appendChild(barCaution);
-        if (barCaution) mainCopy.appendChild(metaLine);
-        main.appendChild(mainCopy);
-
-        var bars = el("div", "food-row-bars", null);
-        bars.style.setProperty("--nutrient-color", nutrientColor(nutrientId));
-
-        bars.appendChild(buildPercentTrack(pctItem));
-        bars.appendChild(el("div", "bar-reading", Math.round(pctItem) + "%"));
-
-        row.appendChild(main);
-        row.appendChild(bars);
-        box.appendChild(row);
+        var tip = readingText(fooddata, item.food, nutrientId, item.pct);
+        list.appendChild(V.foodRow({
+          food: item.food,
+          percent: item.pct,
+          imageMap: imageMap,
+          tip: tip
+        }));
       }
 
-      card.appendChild(box);
+      card.appendChild(list);
       grid.appendChild(card);
     }
 
@@ -460,15 +251,11 @@
   }
 
   function render(fooddata, state) {
-    var select = $("NutrientSelect");
-    var nat = $("ToggleNaturalOnly");
+    var chipRoot = $("NutrientChips");
     var root = $("FoodsByNutrient");
     var status = $("TopFoodsStatus");
 
-    if (nat) {
-      nat.checked = !!state.naturalOnly;
-      nat.setAttribute("aria-label", state.naturalOnly ? "Use processed food sources" : "Use natural food sources");
-    }
+    V.setChecked($("SourceToggle"), state.naturalOnly ? "natural" : "processed");
 
     var keys = [];
     for (var key in (fooddata && fooddata.nutrients ? fooddata.nutrients : {})) {
@@ -479,26 +266,19 @@
     }
     keys.sort(function (a, b) { return a.localeCompare(b); });
 
-    if (select) {
-      if (!select.options || !select.options.length) {
-        clear(select);
-        for (var i = 0; i < keys.length; i++) {
-          var opt = document.createElement("option");
-          opt.value = keys[i];
-          opt.textContent = keys[i];
-          select.appendChild(opt);
-        }
-      }
+    if (!state.selectedNutrient || keys.indexOf(state.selectedNutrient) === -1) {
+      state.selectedNutrient = keys[0] || null;
+    }
 
-      if (state.selectedNutrient && keys.indexOf(state.selectedNutrient) !== -1) {
-        select.value = state.selectedNutrient;
+    if (chipRoot) {
+      if (!chipRoot.firstChild) {
+        V.chips(chipRoot, "topfoods-nutrient", keys.map(function (k) {
+          return { value: k, label: k };
+        }), state.selectedNutrient, onPickNutrient);
       } else {
-        var first = keys[0] || null;
-        if (first) {
-          state.selectedNutrient = first;
-          select.value = first;
-        }
+        V.setChecked(chipRoot, state.selectedNutrient);
       }
+      V.revealSelected(chipRoot);
     }
 
     if (!state.selectedNutrient) {
@@ -519,6 +299,8 @@
         (state.naturalOnly ? "natural sources" : "processed sources") + " · per 100 grams";
     }
   }
+
+  var onPickNutrient = function () {};
 
   function start(fooddata) {
     var prefs = loadJsonKey(STORAGE_KEY);
@@ -543,19 +325,18 @@
       writeUrlState(state, !!pushUrl);
     }
 
-    var select = $("NutrientSelect");
-    if (select) {
-      select.addEventListener("change", function () {
-        state.selectedNutrient = select.value;
-        persist(true);
-        render(fooddata, state);
-      });
-    }
+    onPickNutrient = function (nutrientId) {
+      state.selectedNutrient = nutrientId;
+      persist(true);
+      render(fooddata, state);
+    };
 
-    var nat = $("ToggleNaturalOnly");
-    if (nat) {
-      nat.addEventListener("change", function () {
-        state.naturalOnly = !!nat.checked;
+    var source = $("SourceToggle");
+    if (source) {
+      source.addEventListener("change", function (ev) {
+        var t = ev && ev.target ? ev.target : null;
+        if (!t || t.name !== "topfoods-source") return;
+        state.naturalOnly = t.value === "natural";
         persist(true);
         render(fooddata, state);
       });
@@ -570,24 +351,27 @@
       saveJsonKey(GLOBAL_PREFS_KEY, { naturalOnly: !!state.naturalOnly });
     });
 
-    initCautionEvents();
     render(fooddata, state);
     persist(false);
 
     try { document.body.classList.add("topfoods-ready"); } catch (e) {}
   }
 
+  var imageMap = {};
+
   window.addEventListener("load", function () {
-    var loadingStatus = $("TopFoodsStatus");
-    if (loadingStatus) loadingStatus.hidden = false;
-    fetchJson(FOODDATA_URL)
-      .then(function (fooddata) {
-        start(fooddata);
+    Promise.all([fetchJson(FOODDATA_URL), V.loadImageMap()])
+      .then(function (all) {
+        imageMap = all[1] || {};
+        start(all[0]);
       })
       .catch(function () {
         var root = $("FoodsByNutrient");
         var status = $("TopFoodsStatus");
-        if (status) status.textContent = "Food comparisons could not load. Refresh the page to try again.";
+        var summary = $("TopFoodsSummary");
+        var message = "Food comparisons could not load. Refresh the page to try again.";
+        if (status) status.textContent = message;
+        if (summary) summary.textContent = message;
         if (root) root.textContent = "";
       });
   });
