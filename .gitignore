@@ -37,3 +37,7 @@ _site/
 
 # Node dependencies
 node_modules/
+
+# Local tooling
+.playwright-cli/
+.worktrees/

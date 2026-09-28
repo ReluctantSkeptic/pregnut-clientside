@@ -26,50 +26,8 @@
   var TOP_FOODS_LIMIT = 10;
   var BY_NUTRIENT_LIMIT = 20;
 
-  // Pastel rainbow palette: nutrients are bound to colors in alphabetical order.
-  var NUTRIENT_ALPHA = [
-    "Calcium",
-    "Choline",
-    "DHA",
-    "Folate (DFE)",
-    "Iron",
-    "Potassium",
-    "Protein",
-    "Riboflavin",
-    "Vitamin B-12",
-    "Vitamin B-6",
-    "Vitamin C",
-    "Vitamin D",
-    "Zinc"
-  ];
-
-  var PASTEL_RAINBOW = [
-    "#9EC3E6",
-    "#8ADDD7",
-    "#BFE9F2",
-    "#B7E3A1",
-    "#D8E08A",
-    "#F3D68A",
-    "#F5B47A",
-    "#EB8A86",
-    "#F7B0CF",
-    "#F49BB7",
-    "#E7C6F5",
-    "#CDB7F3",
-    "#9AAFD6"
-  ];
-
-  var NUTRIENT_COLOR = (function () {
-    var map = {};
-    for (var i = 0; i < NUTRIENT_ALPHA.length; i++) {
-      map[NUTRIENT_ALPHA[i]] = PASTEL_RAINBOW[i] || "#9EC3E6";
-    }
-    return map;
-  })();
-
-  function nutrientColor(nutrientId) {
-    return NUTRIENT_COLOR[nutrientId] || "rgba(31, 122, 122, 0.70)";
-  }
+  var V = window.PregnutViz;
+  var BY_NUTRIENT_VISIBLE = 8;
 
   function $(id) {
     return document.getElementById(id);
@@ -254,29 +212,6 @@
     return (v / rdaVal) * 100;
   }
 
-  function buildPercentTrack(percent) {
-    var p = safeNumber(percent);
-    if (p === null) p = 0;
-    p = Math.max(0, p);
-
-    var track = el("div", "bar-track percent-track" + (p > 100 ? " has-overflow" : ""), null);
-    track.setAttribute("role", "img");
-    track.setAttribute("aria-label", Math.round(p) + "% of nutrient reference amount");
-
-    var targetZone = el("span", "bar-zone is-target-zone", null);
-    var targetFill = el("span", "bar-fill is-target-fill", null);
-    targetFill.style.width = String(Math.min(p, 100)) + "%";
-    targetZone.appendChild(targetFill);
-
-    track.appendChild(targetZone);
-    if (p > 100) {
-      var overage = el("span", "bar-overage-section", null);
-      overage.setAttribute("aria-hidden", "true");
-      track.appendChild(overage);
-    }
-    return track;
-  }
-
   function filterFoods(fooddata, opts) {
     var foods = (fooddata && fooddata.foods) ? fooddata.foods : [];
     var out = [];
@@ -312,108 +247,27 @@
     return node;
   }
 
-  function appendChartGuide(root, title, text) {
-    var guide = el("div", "chart-guide is-compact", null);
-    var copy = el("div", "chart-guide-copy", null);
-    copy.appendChild(el("p", "chart-guide-kicker", "How to read this chart"));
-    copy.appendChild(el("h3", "chart-guide-title", title));
-    copy.appendChild(el("p", "chart-guide-text", text));
-    guide.appendChild(copy);
-
-    var scale = el("div", "chart-scale", null);
-    scale.setAttribute("aria-label", "Chart scale from zero to one hundred percent of nutrient reference amount");
-    var line = el("div", "chart-scale-line", null);
-    line.appendChild(el("span", "chart-scale-zone is-target-zone", ""));
-    scale.appendChild(line);
-    var ticks = el("div", "chart-scale-ticks", null);
-    ticks.appendChild(el("span", "", "0"));
-    ticks.appendChild(el("span", "is-target", "100% reference"));
-    scale.appendChild(ticks);
-    guide.appendChild(scale);
-    root.appendChild(guide);
-  }
-
-  function buildFoodNameNode(className, rawName) {
-    // Split on first comma only, then wrap the remainder in parentheses as a subdued detail.
-    var node = document.createElement("p");
-    if (className) node.className = className;
-
-    var s = String(rawName || "").trim();
-    if (!s) return node;
-
-    var idx = s.indexOf(",");
-    if (idx === -1) {
-      node.textContent = s;
-      return node;
-    }
-
-    var main = s.slice(0, idx).trim();
-    var rest = s.slice(idx + 1).trim();
-    node.textContent = main || s;
-
-    if (rest) {
-      var detail = document.createElement("span");
-      detail.className = className + "-detail";
-      detail.textContent = "(" + rest + ")";
-      node.appendChild(detail);
-    }
-    return node;
-  }
-
   function clear(node) {
     while (node && node.firstChild) node.removeChild(node.firstChild);
   }
 
   function closeAllCautions() {
-    if (window.PregnutCautions) {
-      window.PregnutCautions.closeAll();
-      return;
-    }
-    var open = document.querySelectorAll(".caution[data-open=\"1\"]");
-    for (var i = 0; i < open.length; i++) {
-      open[i].removeAttribute("data-open");
-      try {
-        var btn = open[i].querySelector(".caution-trigger");
-        if (btn) btn.setAttribute("aria-expanded", "false");
-      } catch (e) {}
-    }
+    if (window.PregnutCautions) window.PregnutCautions.closeAll();
   }
 
-  function initCautionEvents() {
-    if (window.PregnutCautions) {
-      window.PregnutCautions.init();
-      return;
-    }
-    if (window.__pregnutWeeklyCautionInit) return;
-    window.__pregnutWeeklyCautionInit = true;
+  function readingText(fooddata, food, nutrientId, pct) {
+    var nInfo = fooddata.nutrients[nutrientId];
+    var amount = V.formatAmount(food.nutrients[nutrientId]) + " " + nInfo.unit;
+    return amount + " in 100 g · " + Math.round(pct) + "% of " + nInfo.rda.label + " reference";
+  }
 
-    document.addEventListener("click", function (ev) {
-      var t = ev && ev.target ? ev.target : null;
-      if (!t || !t.closest) return;
-
-      var trigger = t.closest(".caution-trigger");
-      if (trigger) {
-        ev.preventDefault();
-        ev.stopPropagation();
-        var wrap = trigger.closest(".caution");
-        if (!wrap) return;
-        var isOpen = wrap.getAttribute("data-open") === "1";
-        closeAllCautions();
-        if (!isOpen) {
-          wrap.setAttribute("data-open", "1");
-          trigger.setAttribute("aria-expanded", "true");
-        }
-        return;
-      }
-
-      // Tap/click anywhere outside closes (mobile-friendly).
-      var inside = t.closest(".caution");
-      if (!inside) closeAllCautions();
-    });
-
-    document.addEventListener("keydown", function (ev) {
-      if (ev && ev.key === "Escape") closeAllCautions();
-    });
+  function setSummary(id, lead, text, infoText) {
+    var node = $(id);
+    if (!node) return;
+    clear(node);
+    node.appendChild(el("strong", "", lead));
+    node.appendChild(document.createTextNode(text));
+    if (infoText) node.appendChild(V.info(infoText, "How to read this chart"));
   }
 
   var TIMELINE_ICONS = {
@@ -666,7 +520,6 @@
         var rdaLabel = nInfo.rda && nInfo.rda.label ? nInfo.rda.label : "";
 
         var card = el("article", "nutrient-card", null);
-        card.style.setProperty("--nutrient-color", nutrientColor(nId));
         var pri = normalizePriority(n.priority);
         card.className += " priority-" + pri;
         if (state.details) card.className += " is-detailed";
@@ -736,10 +589,9 @@
 
     renderFoodList(fooddata, topFoods, weighted, $("TopFoods"));
 
-    // By nutrient select options
-    var select = $("NutrientSelect");
-    if (select) {
-      clear(select);
+    // By nutrient chips
+    var chipRoot = $("NutrientChips");
+    if (chipRoot) {
       var keys = [];
       for (var key in fooddata.nutrients) {
         if (!fooddata.nutrients.hasOwnProperty(key)) continue;
@@ -749,13 +601,6 @@
       }
       keys.sort(function (a, b) { return a.localeCompare(b); });
 
-      for (var o = 0; o < keys.length; o++) {
-        var opt = document.createElement("option");
-        opt.value = keys[o];
-        opt.textContent = keys[o];
-        select.appendChild(opt);
-      }
-
       // Default: first high priority, else first in list.
       var defaultN = null;
       for (var d = 0; d < weighted.length; d++) {
@@ -763,37 +608,21 @@
       }
       if (!defaultN) defaultN = keys[0] || null;
 
-      if (state.selectedNutrient && keys.indexOf(state.selectedNutrient) !== -1) {
-        select.value = state.selectedNutrient;
-      } else if (defaultN) {
-        select.value = defaultN;
+      if (!(state.selectedNutrient && keys.indexOf(state.selectedNutrient) !== -1) && defaultN) {
         state.selectedNutrient = defaultN;
       }
 
-      select.onchange = function () {
-        state.selectedNutrient = select.value;
+      V.chips(chipRoot, "weekly-nutrient", keys.map(function (k) {
+        return { value: k, label: k };
+      }), state.selectedNutrient, function (nutrientId) {
+        state.selectedNutrient = nutrientId;
         renderByNutrient(fooddata, state);
         persist(state);
-      };
+      });
+      V.revealSelected(chipRoot);
     }
 
     renderByNutrient(fooddata, state);
-  }
-
-  function buildCautionNode(message) {
-    var wrap = el("div", "caution", null);
-    var btn = el("button", "caution-trigger", "!");
-    btn.type = "button";
-    btn.setAttribute("aria-label", "Caution");
-    btn.setAttribute("aria-expanded", "false");
-    btn.setAttribute("data-caution-message", message);
-
-    var pop = el("div", "caution-popover", message);
-    pop.setAttribute("role", "tooltip");
-
-    wrap.appendChild(btn);
-    wrap.appendChild(pop);
-    return wrap;
   }
 
   function renderFoodList(fooddata, foods, weightedNutrients, root) {
@@ -809,10 +638,11 @@
     }
     if (!bars.length) bars = weightedNutrients.slice(0, 4);
 
-    appendChartGuide(
-      root,
+    setSummary(
+      "TopFoodsSummary",
       "Priority coverage",
-      "The rail fills from 0–100% of the nutrient reference amount from a 100 g serving. A short overage section appears only when a food exceeds the reference amount."
+      " · match score and share of each highlighted nutrient reference in 100 g",
+      "Each bar fills from 0–100% of the nutrient reference amount from a 100 g serving. Foods at or above the reference show a full bar and a ✓; the number shows the exact total. The match score weights this stage's highlighted nutrients, each capped at 100%."
     );
 
     var maxScore = 0;
@@ -820,55 +650,51 @@
       maxScore += (weightedNutrients[wi].weight || 0) * SCORE_CAP_PERCENT;
     }
 
+    var list = el("ol", "viz-list weekly-top-list", null);
     for (var f = 0; f < foods.length; f++) {
       var food = foods[f];
-      var item = el("article", "food-item", null);
+      var item = el("li", "weekly-food viz-fade", null);
 
-      var head = el("div", "food-head", null);
-      var headLeft = el("div", "food-head-left", null);
-      headLeft.appendChild(el("span", "food-rank", String(f + 1)));
-      var headCopy = el("div", "food-head-copy", null);
-      headCopy.appendChild(buildFoodNameNode("food-name", food.name));
-      headLeft.appendChild(headCopy);
-      head.appendChild(headLeft);
+      var head = el("div", "weekly-food-head", null);
+      head.appendChild(V.thumb(food, imageMap));
 
-      var headRight = el("div", "food-head-right", null);
-      headRight.appendChild(el("p", "food-meta", food.group));
+      var copy = el("div", "viz-copy", null);
+      var name = el("p", "viz-name", null);
+      var link = el("a", "", null);
+      link.href = V.foodUrl(food);
+      var parts = V.splitName(food.name);
+      link.appendChild(document.createTextNode(parts.main));
+      link.appendChild(el("span", "viz-detail", parts.detail ? parts.detail + " · " + food.group : food.group));
+      name.appendChild(link);
+      copy.appendChild(name);
+      var caution = V.safetyNote(food);
+      if (caution) copy.appendChild(caution);
+      head.appendChild(copy);
+
       var match = maxScore > 0 ? Math.round((scoreFood(fooddata, food, weightedNutrients) / maxScore) * 100) : 0;
-      headRight.appendChild(el("p", "food-match", match + "% match"));
+      var matchNode = el("p", "weekly-food-match", null);
+      matchNode.appendChild(el("strong", "", match + "%"));
+      matchNode.appendChild(el("span", "", "match"));
+      head.appendChild(matchNode);
       item.appendChild(head);
 
-      var warn = String(food.warning || "").trim();
-      if (warn && warn.toLowerCase() !== "0") {
-        var wt = String(food.warningText || "").trim();
-        var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
-        headRight.appendChild(buildCautionNode(msg));
-      }
-      head.appendChild(headRight);
-
-      var barRoot = el("div", "food-bars", null);
+      var barRoot = el("div", "weekly-food-bars", null);
       for (var b = 0; b < bars.length; b++) {
         var nid = bars[b].id;
         var pct = percentOfRda(fooddata, food, nid);
         if (pct === null) continue;
 
-        var row = el("div", "bar-row", null);
-        row.style.setProperty("--nutrient-color", nutrientColor(nid));
-        var barLabel = el("div", "bar-label", null);
-        barLabel.appendChild(el("span", "bar-label-name", nid));
-        barLabel.appendChild(el("span", "bar-priority", bars[b].priority === "high" ? "High" : "Medium"));
-        row.appendChild(barLabel);
-
-        var track = buildPercentTrack(pct);
-        var val = el("div", "bar-value", Math.round(pct) + "%");
-        row.appendChild(track);
-        row.appendChild(val);
-
+        var row = el("div", "weekly-mini", null);
+        row.title = readingText(fooddata, food, nid, pct);
+        row.appendChild(el("span", "weekly-mini-label", nid));
+        row.appendChild(V.value(pct));
+        row.appendChild(V.bar(pct, nid + ": " + readingText(fooddata, food, nid, pct)));
         barRoot.appendChild(row);
       }
       item.appendChild(barRoot);
-      root.appendChild(item);
+      list.appendChild(item);
     }
+    root.appendChild(list);
   }
 
   function renderFoodBoxByNutrient(fooddata, foods, nutrientId, root) {
@@ -877,53 +703,44 @@
 
     var nInfo = fooddata && fooddata.nutrients ? fooddata.nutrients[nutrientId] : null;
     var targetLabel = nInfo && nInfo.rda && nInfo.rda.label ? nInfo.rda.label : "";
-    appendChartGuide(
-      root,
+    setSummary(
+      "ByNutrientSummary",
       nutrientId,
-      "Ranked by the amount in 100 g. The rail ends at the full reference amount" +
+      " · % of the " + (targetLabel ? targetLabel + " " : "") + "pregnancy reference in 100 g",
+      "Ranked by the amount in 100 g. The bar ends at the full reference amount" +
         (targetLabel ? " (" + targetLabel + ")" : "") +
-        "; an overage section appears only when the reference amount is exceeded."
+        "; foods at or above it show a full bar and a ✓, and the number shows the exact total."
     );
 
-    var box = el("div", "food-box", null);
+    var list = el("ol", "viz-list", null);
+    var count = 0;
     for (var i = 0; i < foods.length; i++) {
       var food = foods[i];
       var pct = percentOfRda(fooddata, food, nutrientId);
       if (pct === null) continue;
-
-      var row = el("div", "food-row", null);
-
-      var main = el("div", "food-row-main", null);
-      main.appendChild(el("span", "food-row-rank", String(i + 1)));
-      var mainCopy = el("div", "food-row-copy", null);
-      mainCopy.appendChild(buildFoodNameNode("food-row-name", food.name));
-
-      var metaLine = el("div", "food-row-meta-line", null);
-      metaLine.appendChild(el("p", "food-row-meta", food.group));
-
-      var barCaution = null;
-      var warn = String(food.warning || "").trim();
-      if (warn && warn.toLowerCase() !== "0") {
-        var wt = String(food.warningText || "").trim();
-        var msg = (warn ? (warn + ": ") : "") + (wt || "Use caution.");
-        barCaution = buildCautionNode(msg);
-      }
-      if (barCaution) metaLine.appendChild(barCaution);
-      mainCopy.appendChild(metaLine);
-      main.appendChild(mainCopy);
-
-      var bars = el("div", "food-row-bars", null);
-      bars.style.setProperty("--nutrient-color", nutrientColor(nutrientId));
-
-      bars.appendChild(buildPercentTrack(pct));
-      bars.appendChild(el("div", "bar-reading", Math.round(pct) + "%"));
-
-      row.appendChild(main);
-      row.appendChild(bars);
-      box.appendChild(row);
+      var row = V.foodRow({
+        food: food,
+        percent: pct,
+        imageMap: imageMap,
+        meta: food.group,
+        tip: readingText(fooddata, food, nutrientId, pct)
+      });
+      if (count >= BY_NUTRIENT_VISIBLE) row.hidden = true;
+      list.appendChild(row);
+      count++;
     }
+    root.appendChild(list);
 
-    root.appendChild(box);
+    if (count > BY_NUTRIENT_VISIBLE) {
+      var more = el("button", "weekly-show-more", "Show all " + count);
+      more.type = "button";
+      more.addEventListener("click", function () {
+        var hidden = list.querySelectorAll("li[hidden]");
+        for (var h = 0; h < hidden.length; h++) hidden[h].hidden = false;
+        more.remove();
+      });
+      root.appendChild(more);
+    }
   }
 
   function renderByNutrient(fooddata, state) {
@@ -1012,11 +829,13 @@
     }
 
     // One global toggle remains: natural vs processed sources.
-    var nat = $("ToggleNaturalOnly");
-    if (nat) {
-      nat.checked = !!state.naturalOnly;
-      nat.addEventListener("change", function () {
-        state.naturalOnly = !!nat.checked;
+    var source = $("SourceToggle");
+    if (source) {
+      V.setChecked(source, state.naturalOnly ? "natural" : "processed");
+      source.addEventListener("change", function (ev) {
+        var t = ev && ev.target ? ev.target : null;
+        if (!t || t.name !== "weekly-source") return;
+        state.naturalOnly = t.value === "natural";
         persist(state);
         renderPeriod(protocol, fooddata, state, artdata);
       });
@@ -1045,21 +864,23 @@
     writeUrlWeek(state.week);
     persist(state);
 
-    initCautionEvents();
-
     try { document.body.classList.add("weekly-ready"); } catch (e) {}
   }
+
+  var imageMap = {};
 
   window.addEventListener("load", function () {
     Promise.all([
       fetchJson(PROTOCOL_URL),
       fetchJson(FOODDATA_URL),
-      fetchJson(CHAPTER_ART_URL).catch(function () { return { chapters: [] }; })
+      fetchJson(CHAPTER_ART_URL).catch(function () { return { chapters: [] }; }),
+      V.loadImageMap()
     ])
       .then(function (all) {
         var protocol = all[0];
         var fooddata = all[1];
         var artdata = all[2];
+        imageMap = all[3] || {};
         if (!protocol || !protocol.periods || !protocol.periods.length) {
           throw new Error("Protocol JSON is missing periods.");
         }

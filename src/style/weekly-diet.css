@@ -364,6 +364,7 @@
 
 .weekly-content {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 18px;
 }
 
@@ -592,420 +593,137 @@
   gap: 12px;
 }
 
-.food-source-card {
-  margin-top: 18px;
-  border-radius: 18px;
-  border: 1px solid rgba(225, 214, 203, 0.9);
-  background:
-    radial-gradient(700px 180px at 12% 20%, rgba(255, 180, 200, 0.20), transparent 58%),
-    radial-gradient(700px 200px at 88% 20%, rgba(160, 220, 255, 0.18), transparent 62%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(253, 249, 244, 0.86));
-  padding: 16px;
-  display: grid;
-  gap: 10px;
-  box-shadow: 0 18px 60px rgba(23, 19, 16, 0.10);
-}
-
-.food-source-kicker {
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 12px;
-  font-weight: 800;
-  color: rgba(20, 90, 90, 0.78);
-}
-
-.food-source-toggle {
-  position: relative;
-  display: block;
-  width: 100%;
-}
-
-.food-source-toggle input {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.food-source-track {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  height: 54px;
-  border-radius: 999px;
-  border: 1px solid rgba(225, 214, 203, 0.95);
-  background: rgba(255, 255, 255, 0.72);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.75),
-    inset 0 -10px 24px rgba(31, 26, 23, 0.04);
-  overflow: hidden;
-  padding: 4px;
-}
-
-.food-source-thumb {
-  position: absolute;
-  top: 4px;
-  bottom: 4px;
-  left: 4px;
-  width: calc(50% - 4px);
-  border-radius: 999px;
-  background:
-    radial-gradient(140px 60px at 30% 40%, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.70)),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(253, 249, 244, 0.82));
-  box-shadow:
-    0 14px 36px rgba(23, 19, 16, 0.14),
-    0 2px 0 rgba(255, 255, 255, 0.7) inset;
-  transform: translateX(0%);
-  transition: transform 0.24s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.food-source-text {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  font-weight: 900;
-  font-size: 0.95rem;
-  color: rgba(109, 95, 87, 0.82);
-  user-select: none;
-  transition: color 0.22s ease;
-}
-
-.food-source-toggle input:focus-visible + .food-source-track {
-  outline: none;
-  box-shadow:
-    0 0 0 4px rgba(31, 122, 122, 0.16),
-    inset 0 1px 0 rgba(255, 255, 255, 0.75),
-    inset 0 -10px 24px rgba(31, 26, 23, 0.04);
-}
-
-.food-source-toggle input:checked + .food-source-track .food-source-thumb {
-  transform: translateX(100%);
-}
-
-.food-source-toggle input:not(:checked) + .food-source-track .food-source-text.is-left,
-.food-source-toggle input:checked + .food-source-track .food-source-text.is-right {
-  color: rgba(31, 26, 23, 0.96);
-}
-
-.food-source-hint {
-  color: var(--weekly-muted);
-  font-size: 0.95rem;
-  line-height: 1.45;
-}
-
-.food-item {
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(225, 214, 203, 0.9);
-  background: #fff;
-  padding: 14px 14px 12px;
-  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
-}
-
-.food-item:hover {
-  transform: translateY(-1px);
-  border-color: rgba(31, 122, 122, 0.35);
-  box-shadow: 0 18px 50px rgba(23, 19, 16, 0.12);
-}
-
-.food-head {
+/* Weekly food rankings (shared parts in viz.css) */
+.weekly-rank-head {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+  align-items: flex-end;
   justify-content: space-between;
-  gap: 10px;
+  gap: 16px 32px;
+  flex-wrap: wrap;
 }
 
-.food-head-left {
-  min-width: 0;
+.weekly-rank-head > div:first-child {
+  flex: 1 1 420px;
 }
 
-.food-head-right {
+.weekly-rank-head .viz-note,
+.page-weekly .content-head .viz-note {
+  margin-top: 4px;
+}
+
+.weekly-source {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.food-name {
-  margin: 0;
-  font-weight: 900;
-  color: var(--weekly-ink);
+.page-weekly .weekly-summary {
+  margin: 24px 0 12px;
 }
 
-.food-name-detail,
-.food-row-name-detail {
-  display: block;
-  margin: 4px 0 0;
-  font-weight: 600;
-  font-size: calc(1em - 4px);
-  color: rgba(109, 95, 87, 0.88);
+.page-weekly .weekly-chips {
+  margin-top: 20px;
+  mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
 }
 
-.food-meta {
-  margin: 0;
-  color: var(--weekly-muted);
-  font-weight: 600;
-  font-size: 0.95rem;
+.weekly-top-list {
+  display: grid;
+  gap: 10px;
 }
 
-.caution {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-}
-
-.caution-trigger {
-  width: 22px;
-  height: 22px;
-  border-radius: 999px;
-  border: 1px solid rgba(197, 92, 36, 0.35);
-  background: rgba(255, 255, 255, 0.9);
-  color: rgba(124, 58, 27, 0.92);
-  font-weight: 950;
-  font-size: 14px;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  box-shadow: 0 10px 30px rgba(23, 19, 16, 0.10);
-  transition: transform 0.18s ease, opacity 0.18s ease, background 0.18s ease, border-color 0.18s ease;
-}
-
-.caution-trigger:hover {
-  transform: translateY(-1px);
-  background: rgba(197, 92, 36, 0.10);
-  border-color: rgba(197, 92, 36, 0.52);
-}
-
-.caution-popover {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 10px);
-  display: block;
-  width: min(320px, 84vw);
-  padding: 12px 12px;
+.weekly-food {
+  padding: 16px 18px 18px;
+  border: 1px solid var(--border);
   border-radius: 16px;
-  border: 1px solid rgba(197, 92, 36, 0.20);
-  background:
-    radial-gradient(380px 140px at 10% 0%, rgba(255, 206, 170, 0.32), transparent 62%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(253, 249, 244, 0.94));
-  box-shadow: 0 26px 70px rgba(23, 19, 16, 0.20);
-  color: rgba(31, 26, 23, 0.95);
-  font-size: 0.95rem;
-  line-height: 1.45;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-4px);
-  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
-  z-index: 5;
+  background: var(--card);
 }
 
-.caution-popover::before {
-  content: "";
-  position: absolute;
-  right: 10px;
-  top: -6px;
-  width: 12px;
-  height: 12px;
-  transform: rotate(45deg);
-  background: rgba(255, 255, 255, 0.98);
-  border-left: 1px solid rgba(197, 92, 36, 0.16);
-  border-top: 1px solid rgba(197, 92, 36, 0.16);
-}
-
-.caution[data-open="1"] .caution-popover {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .caution:hover .caution-popover,
-  .caution:focus-within .caution-popover {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-}
-
-.food-bars {
-  margin-top: 12px;
-  display: grid;
-  gap: 8px;
-}
-
-.bar-row {
-  display: grid;
-  grid-template-columns: minmax(0, 180px) 1fr;
-  gap: 12px;
-  align-items: center;
-}
-
-.bar-label {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 800;
-  color: var(--weekly-ink);
-  font-size: 0.9rem;
-}
-
-.bar-label::before {
-  content: "";
-  width: 12px;
-  height: 12px;
-  border-radius: 4px;
-  background: var(--nutrient-color, rgba(31, 122, 122, 0.55));
-  box-shadow: 0 10px 28px rgba(23, 19, 16, 0.10);
-  flex: 0 0 auto;
-}
-
-.bar-track {
+.weekly-food-head {
   position: relative;
-  height: 32px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.72);
-  border: 1px solid rgba(225, 214, 203, 0.95);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
-  overflow: visible;
-}
-
-.bar-fill {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  width: 0%;
-  max-width: 100%;
-  border-radius: 12px;
-  background: var(--nutrient-color, rgba(31, 122, 122, 0.70));
-  box-shadow: inset 0 -10px 20px rgba(31, 26, 23, 0.06);
-}
-
-.bar-value {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0%, -50%);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: none;
-  border-radius: 0;
-  background: transparent;
-  backdrop-filter: none;
-  box-shadow: none;
-  font-variant-numeric: tabular-nums;
-  color: rgba(20, 90, 90, 0.92);
-  font-weight: 950;
-  font-size: 0.86rem;
-  letter-spacing: 0.01em;
-  pointer-events: none;
-  text-shadow: none;
-}
-
-.bar-value.is-inside {
-  color: rgba(255, 255, 255, 0.96);
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.16);
-}
-
-.bar-value.is-outside {
-  color: rgba(20, 90, 90, 0.92);
-}
-
-.bar-overlay {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: auto;
-  transform: translate(0%, -50%);
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  z-index: 2;
-  pointer-events: none;
-}
-
-.bar-overlay .caution {
-  pointer-events: auto;
-}
-
-.bar-overlay-value {
-  font-variant-numeric: tabular-nums;
-  color: rgba(20, 90, 90, 0.92);
-  font-weight: 950;
-  font-size: 0.86rem;
-  letter-spacing: 0.01em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
-}
-
-.bar-overlay.is-inside .bar-overlay-value {
-  color: rgba(255, 255, 255, 0.96);
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.16);
-}
-
-.by-nutrient-controls {
   display: grid;
-  gap: 10px;
-  max-width: 420px;
-}
-
-.food-box {
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(225, 214, 203, 0.9);
-  background: #fff;
-  overflow: visible;
-  box-shadow: 0 18px 60px rgba(23, 19, 16, 0.10);
-}
-
-.food-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
-  gap: 16px;
+  grid-template-columns: 48px minmax(0, 1fr) auto;
   align-items: center;
-  padding: 14px 14px;
-  border-bottom: 1px solid rgba(225, 214, 203, 0.65);
+  gap: 14px;
 }
 
-.food-row:last-child {
-  border-bottom: none;
+.weekly-food-head .viz-name a::after {
+  border-radius: 16px;
 }
 
-.food-row-main {
-  min-width: 0;
-}
-
-.food-row-name {
+.weekly-food-match {
   margin: 0;
-  font-weight: 950;
-  color: var(--weekly-ink);
-  line-height: 1.15;
-  white-space: normal;
+  display: grid;
+  justify-items: end;
+  line-height: 1;
 }
 
-.food-row-meta {
-  margin: 2px 0 0;
-  color: var(--weekly-muted);
-  font-weight: 650;
-  font-size: 0.92rem;
+.weekly-food-match strong {
+  color: var(--accent-2);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
 }
 
-.food-row-meta-line {
-  display: flex;
+.weekly-food-match span {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.weekly-food-bars {
+  margin: 14px 0 0 62px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px 28px;
+}
+
+.weekly-mini {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  gap: 10px;
+  gap: 6px 10px;
 }
 
-.food-row-meta-line .caution {
-  margin-left: auto;
+.weekly-mini .viz-bar {
+  grid-column: 1 / -1;
+  height: 6px;
 }
 
-.food-row-bars {
-  position: relative;
-  display: block;
+.weekly-mini-label {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekly-mini .viz-value {
+  font-size: 0.82rem;
+}
+
+.weekly-by-nutrient .viz-list {
+  margin: 0 -12px;
+}
+
+.weekly-show-more {
+  margin-top: 12px;
+  min-height: 40px;
+  padding: 0 18px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  color: var(--ink);
+  background: transparent;
+  font: 600 0.88rem/1 "Geist", "Segoe UI", sans-serif;
+  cursor: pointer;
+}
+
+.weekly-show-more:hover {
+  background: var(--viz-hover, #f7f5ef);
+}
+
+.weekly-footnote {
+  margin-top: 20px;
 }
 
 @media (max-width: 640px) {
@@ -1026,22 +744,23 @@
     padding: 16px;
   }
 
-  .bar-row {
-    grid-template-columns: 1fr;
-    gap: 6px;
+  .weekly-food {
+    padding: 14px;
   }
 
-  .food-row {
-    grid-template-columns: 1fr;
-    gap: 10px;
+  .weekly-food-head {
+    grid-template-columns: 44px minmax(0, 1fr) auto;
+    gap: 12px;
   }
 
-  .food-row-bars {
-    display: block;
+  .weekly-food-bars {
+    margin-left: 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 18px;
   }
 
-  .food-source-track {
-    height: 52px;
+  .weekly-by-nutrient .viz-list {
+    margin: 0 -8px;
   }
 }
 
@@ -1077,5 +796,11 @@
     transform: none;
     animation: none !important;
     transition: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-weekly .nutrient-card {
+    min-height: 0;
   }
 }

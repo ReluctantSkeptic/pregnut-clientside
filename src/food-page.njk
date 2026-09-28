@@ -10,9 +10,10 @@ eleventyComputed:
   description: "{{ food.metaDescription }}"
   schemaType: WebPage
   bodyClass: page-food-detail
+vizStyles: true
 pageStyles:
   - /style/weekly-diet.css
-  - /style/food.css?v=20260926-safety
+  - /style/food.css?v=20260928-viz
 pageScripts:
   - /js/food-portion.js
 ---
@@ -26,8 +27,9 @@ pageScripts:
     <div>
       <p class="eyebrow">{% if food.isHumanMilk %}Food data record{% elif food.warning | lower == "avoid" %}Pregnancy food safety{% else %}Pregnancy nutrient comparison{% endif %}</p>
       <h1 class="hero-title food-detail-title"><span class="food-detail-name">{{ food.pageName }}</span> <span class="food-detail-context">{% if food.isHumanMilk %}Historical nutrient data{% elif food.warning | lower == "avoid" %}Safety and nutrient data{% else %}Nutrition in pregnancy{% endif %}</span></h1>
-      <p class="hero-lede">{% if food.isHumanMilk %}This historical food-composition record describes human milk. It is not a pregnancy food recommendation. {% elif food.warning | lower == "avoid" %}{{ food.warningText }} This historical nutrient record is for comparison only. <a href="#food-safety">Read the source-linked safety note</a>. {% elif food.isRawPulse or food.isRawFlour %}This record describes an uncooked ingredient, not a ready-to-eat portion. Compare its nutrients per 100 grams before preparation. {% else %}See how a 100 gram portion compares with pregnancy nutrient reference amounts. {% endif %}The values come from a historical USDA-based dataset; <a href="/about/#food-data-sources">see its sources and limits</a>. Use this as a comparison tool, not personalized medical advice.</p>
+      <p class="hero-lede">{% if food.isHumanMilk %}This historical food-composition record describes human milk. It is not a pregnancy food recommendation. {% elif food.warning | lower == "avoid" %}{{ food.warningText }} This historical nutrient record is for comparison only. <a href="#food-safety">Read the source-linked safety note</a>. {% elif food.isRawPulse or food.isRawFlour %}This record describes an uncooked ingredient, not a ready-to-eat portion. Compare its nutrients per 100 grams before preparation. {% else %}See how a 100 gram portion compares with pregnancy nutrient reference amounts.{% endif %}</p>
       <p class="food-group-label">Food group: {{ food.group }}</p>
+      <p class="viz-note food-data-note">The values come from a historical USDA-based dataset; <a href="/about/#food-data-sources">see its sources and limits</a>. Use this as a comparison tool, not personalized medical advice.</p>
     </div>
     {% if food.image and food.image.src %}
       <figure class="food-detail-image">
@@ -44,16 +46,15 @@ pageScripts:
   {% if food.topNutrients.length %}
     <section class="food-glance" aria-labelledby="food-glance-title">
       <div class="food-glance-heading">
-        <p class="content-eyebrow">At a glance</p>
-        <h2 id="food-glance-title">{% if food.warning | lower == "avoid" %}Recorded nutrient amounts{% else %}Strongest nutrient contributions{% endif %}</h2>
-        <p>Highest shares of nutrient reference amounts in this 100 gram portion.</p>
+        <h2 class="viz-section-title" id="food-glance-title">{% if food.warning | lower == "avoid" %}Recorded nutrient amounts{% else %}Strongest nutrient contributions{% endif %}</h2>
+        <p class="viz-note">Highest shares of nutrient reference amounts in this 100 gram portion.</p>
       </div>
       <ol class="food-glance-list">
         {% for row in food.topNutrients %}
           <li>
-            <span class="food-glance-rank" aria-hidden="true">{{ loop.index }}</span>
-            <span class="food-glance-copy"><strong>{{ row.name }}</strong><span>{{ row.value | formatNumber }} {{ row.unit }}</span></span>
             <span class="food-glance-value">{{ row.displayPercent }}%</span>
+            <strong>{{ row.name }}</strong>
+            <span>{{ row.value | formatNumber }} {{ row.unit }} in 100 g</span>
           </li>
         {% endfor %}
       </ol>
@@ -174,43 +175,37 @@ pageScripts:
   {% endif %}
 
   <section class="content-card food-chart-card" aria-labelledby="food-chart-title">
-    <div class="content-head">
+    <div class="food-chart-head">
       <p class="content-eyebrow">Per 100 grams</p>
       <h2 class="content-title" id="food-chart-title">Nutrient reference coverage</h2>
-      <p class="content-summary">Nutrients are ranked from highest to lowest contribution using adult pregnancy reference amounts. Bars stop visually at 100%, while the label shows the full value. DHA and protein use illustrative comparison benchmarks; <a href="/about/#nutrient-references">see how the references are used</a>.</p>
+      <p class="viz-summary">Share of each adult pregnancy reference amount, highest first.<span class="caution is-info"><button type="button" class="caution-trigger" aria-label="How to read this chart" aria-expanded="false">i</button><span class="caution-popover" role="tooltip">Nutrients are ranked from highest to lowest contribution using adult pregnancy reference amounts. Bars stop visually at 100%, while the label shows the full value; a ✓ marks amounts at or above the reference.</span></span></p>
     </div>
-    <div class="food-list" aria-label="Food nutrient bars">
-      <div class="food-item">
-        <div class="food-bars">
-          {% for row in food.chartRows %}
-            <div class="bar-row" style="--nutrient-color: {{ row.color }}; --bar-percent: {{ row.barPercent }}%;">
-              <div class="bar-label">{{ row.name }}</div>
-              <div class="bar-track" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the nutrient reference amount{% endif %}">
-                <span class="bar-fill" aria-hidden="true"></span>
-                <span class="bar-value {% if row.isOver100 %}is-inside{% else %}is-outside{% endif %}" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{{ row.displayPercent }}%{% endif %}</span>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
+    <ol class="food-chart" aria-label="Food nutrient bars">
+      {% for row in food.chartRows %}
+        <li class="food-chart-row">
+          <span class="food-chart-name">{{ row.name }}</span>
+          {% set amount = row.value | formatNumber %}<span class="food-chart-amount">{{ amount }}{% if amount != "—" %} {{ row.unit }}{% endif %}</span>
+          <span class="viz-bar{% if row.percent >= 100 %} is-full{% endif %}" style="--pct: {{ row.barPercent }}%;" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the nutrient reference amount{% endif %}"><span class="viz-bar-fill" aria-hidden="true"></span></span>
+          <span class="viz-value" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{% if row.percent >= 100 %}<span class="viz-check">✓</span>{% endif %}{{ row.displayPercent }}%{% endif %}</span>
+        </li>
+      {% endfor %}
+    </ol>
+    <p class="viz-note food-chart-note">DHA and protein use illustrative comparison benchmarks; <a href="/about/#nutrient-references">see how the references are used</a>.</p>
+    <details class="viz-more food-table-details">
+      <summary id="food-table-title">Show full nutrient table</summary>
+      <p class="viz-note">Reference amounts are shown for context and are not a recommendation to meet them from one food. Food values come from a fixed historical USDA snapshot; <a href="/about/#food-data-sources">see the data source and limits</a>, and check current labels for packaged products.</p>
+      <div class="table-shell">
+        <table class="data-table">
+          <caption class="sr-only">Nutrients per 100 grams</caption>
+          <thead><tr><th scope="col">Nutrient</th><th scope="col" class="is-num">Amount</th><th scope="col" class="is-num">Reference amount</th></tr></thead>
+          <tbody>
+            {% for row in food.nutrientRows %}
+              <tr><th scope="row">{{ row.name }}</th><td class="is-num">{{ row.value | formatNumber }} {{ row.unit }}</td><td class="is-num">{{ row.target }}</td></tr>
+            {% endfor %}
+          </tbody>
+        </table>
       </div>
-    </div>
-  </section>
-
-  <section class="content-card" aria-labelledby="food-table-title">
-    <div class="content-head">
-      <h2 class="content-title" id="food-table-title">Nutrients per 100 grams</h2>
-      <p class="content-summary">Reference amounts are shown for context and are not a recommendation to meet them from one food. Food values come from a fixed historical USDA snapshot; <a href="/about/#food-data-sources">see the data source and limits</a>, and check current labels for packaged products.</p>
-    </div>
-    <div class="table-shell">
-      <table class="data-table">
-        <thead><tr><th scope="col">Nutrient</th><th scope="col">Amount</th><th scope="col">Reference amount</th></tr></thead>
-        <tbody>
-          {% for row in food.nutrientRows %}
-            <tr><th scope="row">{{ row.name }}</th><td>{{ row.value | formatNumber }} {{ row.unit }}</td><td>{{ row.target }}</td></tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+    </details>
   </section>
 
   {% if food.guideLinks.length and not food.isHumanMilk %}
@@ -219,7 +214,7 @@ pageScripts:
         <h2 class="content-title" id="food-guides-title">Understand these nutrients</h2>
         <p class="content-summary">Read how to use food comparisons alongside everyday portions and prenatal labels.</p>
       </div>
-      <ul class="guide-link-list related-food-list">
+      <ul class="viz-pill-links">
         {% for guide in food.guideLinks %}
           <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
         {% endfor %}
@@ -234,7 +229,7 @@ pageScripts:
       <p class="content-summary"><a href="/food/">Search or browse all foods</a>, or compare nutrient-dense choices in <a href="/app/">Top Foods</a>. Check the safety note on each linked page.</p>
     </div>
     {% if food.relatedFoods.length %}
-      <ul class="guide-link-list related-food-list">
+      <ul class="viz-link-list">
         {% for related in food.relatedFoods %}
           <li><a href="{{ related.url }}">{{ related.name }} nutrition in pregnancy</a></li>
         {% endfor %}
