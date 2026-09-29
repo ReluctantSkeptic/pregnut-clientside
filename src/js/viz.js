@@ -82,8 +82,8 @@
       var img = el("img", "viz-thumb", null);
       img.src = src;
       img.alt = "";
-      img.width = 48;
-      img.height = 48;
+      img.width = 68;
+      img.height = 68;
       img.loading = "lazy";
       img.decoding = "async";
       return img;

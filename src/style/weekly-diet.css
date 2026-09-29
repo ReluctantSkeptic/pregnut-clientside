@@ -641,9 +641,9 @@
 .weekly-food-head {
   position: relative;
   display: grid;
-  grid-template-columns: 48px minmax(0, 1fr) auto;
+  grid-template-columns: 68px minmax(0, 1fr) auto;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
 }
 
 .weekly-food-head .viz-name a::after {
@@ -749,7 +749,7 @@
   }
 
   .weekly-food-head {
-    grid-template-columns: 44px minmax(0, 1fr) auto;
+    grid-template-columns: 56px minmax(0, 1fr) auto;
     gap: 12px;
   }
 
