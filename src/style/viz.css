@@ -324,9 +324,9 @@
   grid-template-areas:
     "thumb copy value"
     "thumb bar bar";
-  grid-template-columns: 48px minmax(0, 1fr) auto;
+  grid-template-columns: 68px minmax(0, 1fr) auto;
   align-items: center;
-  column-gap: 14px;
+  column-gap: 16px;
   row-gap: 8px;
   border-radius: 12px;
   transition: background 150ms ease;
@@ -348,12 +348,12 @@
 .viz-row .viz-bar { grid-area: bar; }
 
 .viz-thumb {
-  width: 48px;
-  height: 48px;
+  width: 68px;
+  height: 68px;
   display: grid;
   place-items: center;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 12px;
   color: var(--accent-2);
   background: var(--viz-track);
   font-family: "Instrument Serif", Georgia, serif;
@@ -680,13 +680,13 @@
 @media (max-width: 480px) {
   .viz-row {
     padding: 10px 8px;
-    grid-template-columns: 44px minmax(0, 1fr) auto;
+    grid-template-columns: 56px minmax(0, 1fr) auto;
     column-gap: 12px;
   }
 
   .viz-thumb {
-    width: 44px;
-    height: 44px;
+    width: 56px;
+    height: 56px;
   }
 
   .viz-card {
