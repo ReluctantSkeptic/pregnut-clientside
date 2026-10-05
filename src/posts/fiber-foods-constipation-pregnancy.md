@@ -1,11 +1,12 @@
 ---
-title: "Fiber-Rich Foods for Constipation During Pregnancy"
+title: "High-Fiber Foods for Constipation During Pregnancy"
+seoTitle: "High-Fiber Foods for Pregnant Women: Constipation List"
 description: Compare fiber in everyday portions of lentils, raspberries, and apples, then learn how to add fiber gradually during pregnancy.
 layout: post.njk
 permalink: /blog/fiber-foods-constipation-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
-dateModified: 2026-09-26
+dateModified: 2026-10-05
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-oatmeal-100g.webp
@@ -20,7 +21,9 @@ tags: post
 
 <figure class="post-image"><img src="/resource/portions/portion-oatmeal-100g.webp" srcset="/resource/portions/portion-oatmeal-100g-600.webp 600w, /resource/portions/portion-oatmeal-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of cooked oatmeal in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
-## Which foods are easy to add?
+## Which high-fiber foods help with constipation while pregnant?
+
+This is a high-fiber foods list for constipation in pregnancy (high-fibre, in British spelling), and a practical high fiber food list for pregnant women.
 
 Start with foods you already like, then make one small change at a time:
 

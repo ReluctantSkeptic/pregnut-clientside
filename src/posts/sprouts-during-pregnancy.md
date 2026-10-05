@@ -6,7 +6,7 @@ layout: post.njk
 permalink: /blog/sprouts-during-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
-dateModified: 2026-09-26
+dateModified: 2026-10-05
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/top-foods/11001-alfalfa-seeds-sprouted-raw.webp
@@ -27,9 +27,9 @@ The [FDA explains](https://www.fda.gov/food/people-risk-foodborne-illness/fruits
 
 Wash produce as usual, but do not treat a rinse, a “locally grown” label, or home growing as a substitute for cooking sprouts.
 
-## Can I eat sprouts in a stir-fry or sandwich?
+## Can I eat cooked sprouts during pregnancy?
 
-Cook sprouts until they are **steaming hot** before eating. If ordering a sandwich or salad, ask for raw sprouts to be left off; the [FDA specifically advises checking these dishes](https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be). A quick addition at the end of cooking does not establish that the sprouts reached the CDC's steaming-hot guidance.
+Yes, if they are cooked. Cook sprouts until they are **steaming hot** before eating. If ordering a sandwich or salad, ask for raw sprouts to be left off; the [FDA specifically advises checking these dishes](https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be). A quick addition at the end of a stir-fry does not establish that the sprouts reached the CDC's steaming-hot guidance.
 
 The [raw alfalfa sprouts](/food/11001-alfalfa-seeds-sprouted-raw/) and [raw mung bean sprouts](/food/11043-mung-beans-mature-seeds-sprouted-raw/) in PregNut's food database are nutrient entries, not serving recommendations. The [boiled mung bean sprouts](/food/11718-mung-beans-mature-seeds-sprouted-boiled/) entry describes a different preparation. A nutrient comparison cannot verify how your own dish was cooked.
 
@@ -37,8 +37,8 @@ The [raw alfalfa sprouts](/food/11001-alfalfa-seeds-sprouted-raw/) and [raw mung
 
 If you are concerned about what you ate, tell your prenatal care team which sprouts you had and when. The [CDC says to see a doctor if you are pregnant and develop a fever with other flu-like symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html). It also advises seeking care for severe food-poisoning symptoms, including bloody diarrhea, repeated vomiting that prevents you from keeping liquids down, or signs of dehydration. Symptoms and timing depend on the germ, so a food's appearance cannot tell you whether it was contaminated.
 
-## Are Brussels sprouts covered by the same advice?
+## Can you eat Brussels sprouts while pregnant?
 
-The raw-sprout warning above concerns **germinated seeds and beans** such as alfalfa and mung beans. [Brussels sprouts](/food/11099-brussels-sprouts-boiled/) are a different vegetable. Follow the CDC's general produce advice: wash fresh vegetables, and remember that washed and then cooked produce is the safer choice during pregnancy.
+Yes. The raw-sprout warning above concerns **germinated seeds and beans** such as alfalfa and mung beans. [Brussels sprouts](/food/11099-brussels-sprouts-boiled/) (often misspelled “brussel sprouts”) are a different vegetable, so the sprout warning does not apply to them. Follow the CDC's general produce advice: wash fresh vegetables, and remember that washed and then cooked produce is the safer choice during pregnancy. Eating Brussels sprouts while pregnant does not call for the steaming-hot sprout rule, but cooking them is still the safer choice.
 
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [CDC food-poisoning symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html), [FDA fruits, vegetables, and juices during pregnancy](https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be), and [FDA produce safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely). This guide is educational and does not replace prenatal care.

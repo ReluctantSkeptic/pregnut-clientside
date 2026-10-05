@@ -8,7 +8,7 @@ date: 2026-09-25
 ogType: article
 schemaType: Article
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-05
 ---
 
 **The short answer:** [ACOG advises 8–12 cups (64–96 US fluid ounces) of water each day during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy). Drink across the day instead of trying to catch up all at once. This is general guidance; your prenatal care team can help you adapt it to your health and activity.
@@ -26,7 +26,7 @@ These are volume conversions, not a prescription to finish a certain number of b
 
 ## Why do some sources say 3 liters?
 
-The [National Academies' reference for pregnancy is **3.0 liters of total water per day**](https://nap.nationalacademies.org/skim.php?chap=156-166&record_id=11537). *Total water* includes water from plain drinking water, other beverages, and moisture in food. ACOG's 8–12 cups is phrased as **water to drink**. The two figures count different things, so do not add them together or treat 3 liters as an extra amount to drink on top of ACOG's range.
+The [National Academies' reference for pregnancy is **3.0 liters of total water per day**](https://nap.nationalacademies.org/skim.php?chap=156-166&record_id=11537). *Total water* includes water from plain drinking water, other beverages, and moisture in food. ACOG's 8–12 cups is phrased as **water to drink**. The two figures count different things, so do not add them together or treat 3 liters as an extra amount to drink on top of ACOG's range. In the National Academies' table for pregnancy, about 0.7 liters of the 3.0-liter total comes from food and about 2.3 liters comes from beverages, which include plain water.
 
 For a simple routine, keep water available with meals and between them. [ACOG suggests drinking throughout the day](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), rather than waiting until you feel thirsty. The [U.S. Office of Disease Prevention and Health Promotion](https://odphp.health.gov/myhealthfinder/pregnancy/nutrition-and-physical-activity/eat-healthy-during-pregnancy-quick-tips) recommends plain water in place of sugary drinks. If you also drink coffee or tea, our [caffeine guide](/blog/caffeine-coffee-tea-pregnancy/) explains why its amount needs a separate check.
 
