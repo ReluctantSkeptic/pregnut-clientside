@@ -6,13 +6,17 @@ layout: post.njk
 permalink: /blog/juice-pasteurization-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
-dateModified: 2026-09-26
+dateModified: 2026-10-05
 ogType: article
 schemaType: Article
 tags: post
 ---
 
 **The short answer:** Choose juice or cider that has been **pasteurized or otherwise treated to kill harmful bacteria**. The [CDC lists unpasteurized juice and cider](https://www.cdc.gov/food-safety/foods/pregnant-women.html) as riskier choices during pregnancy. “Fresh-squeezed” describes how a drink was made, not whether it was treated for safety.
+
+## Can I drink pasteurized juice while pregnant?
+
+Yes. Pasteurized juice is the option CDC and FDA point to. Juice that has been gently pasteurized or otherwise treated is safe to drink if the label says it was treated to kill harmful bacteria. A label that says “gently pasteurized” still has to say pasteurized or otherwise treated; “gentle” is not a separate safety category.
 
 ## How can I check a bottled juice or cider?
 

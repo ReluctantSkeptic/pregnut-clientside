@@ -23,7 +23,7 @@
 
 .food-detail-hero.has-image {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
+  grid-template-columns: minmax(0, 1fr) minmax(160px, 240px);
   gap: 32px;
   align-items: center;
 }
@@ -47,170 +47,77 @@
   text-align: center;
 }
 
-.food-group-label {
-  margin: 18px 0 0;
-  color: var(--food-muted);
-  font-weight: 750;
-}
-
-.food-static-page > .content-card,
-.food-static-page > .food-glance {
+.food-static-page > .content-card {
   margin-bottom: 18px;
 }
 
 .food-detail-hero {
-  margin-bottom: 34px;
-}
-
-.food-detail-title {
-  max-width: 1040px;
-  margin-bottom: 18px;
-  font-size: 1rem;
-  line-height: 1;
-}
-
-.food-detail-name,
-.food-detail-context {
-  display: block;
+  margin-bottom: 24px;
 }
 
 .food-detail-name {
-  font-size: clamp(3.2rem, 6.2vw, 6rem);
-  line-height: 0.94;
-  letter-spacing: -0.04em;
-}
-
-.food-detail-context {
-  margin-top: 12px;
-  color: var(--accent-2);
-  font-family: "Geist", "Segoe UI", sans-serif;
-  font-size: clamp(0.92rem, 1.5vw, 1.18rem);
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
-}
-
-.food-data-note {
-  margin-top: 14px;
-}
-
-.food-glance {
-  display: grid;
-  grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.5fr);
-  align-items: center;
-  gap: clamp(20px, 4vw, 48px);
-  padding: clamp(8px, 2vw, 16px) 0 clamp(16px, 3vw, 28px);
-}
-
-.food-glance-heading .viz-note {
-  margin-top: 10px;
-}
-
-.food-glance-list {
   margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  list-style: none;
-}
-
-.food-glance-list li {
-  min-width: 0;
-  padding: 18px 18px 16px;
-  display: grid;
-  gap: 4px;
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  background: var(--card);
-}
-
-.food-glance-value {
-  color: var(--accent-2);
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: clamp(2.4rem, 4vw, 3.2rem);
-  font-weight: 400;
+  max-width: 22ch;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
   line-height: 1;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 
-.food-glance-list strong {
-  margin-top: 6px;
-  overflow: hidden;
-  color: var(--ink);
-  font-size: 0.94rem;
-  font-weight: 600;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.food-detail-name.is-long {
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
+  line-height: 1.08;
 }
 
-.food-glance-list li > span:last-child {
-  color: var(--muted);
+.food-hero-alert {
+  margin: 16px 0 0;
+  max-width: 60ch;
+  color: var(--food-muted);
+  font-size: 0.95rem;
+}
+
+.food-hero-alert .food-safety-badge {
+  margin-right: 6px;
+  color: #7e2723;
+  background: #f2d3d0;
+}
+
+.food-explainer,
+.food-next {
+  margin: 28px 0;
+  max-width: 72ch;
+}
+
+.food-next {
+  max-width: none;
+}
+
+.food-explainer p {
+  margin: 0;
+  color: var(--food-muted);
+  line-height: 1.6;
+}
+
+.food-explainer-title {
+  margin: 0 0 10px;
+  font-family: "Geist", "Segoe UI", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+
+.food-safety-heading .food-explainer-title {
+  margin: 0;
+}
+
+.food-source-note {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
   font-size: 0.8rem;
 }
 
-/* Portion estimate */
-.food-portion-tool > label {
-  display: block;
-  margin-bottom: 8px;
-  color: var(--muted);
-  font-size: 0.84rem;
-  font-weight: 600;
-}
-
-.food-portion-tool > input {
-  width: min(100%, 200px);
-  padding: 12px 16px;
-  border: 1px solid var(--border-strong);
-  border-radius: 14px;
-  color: var(--ink);
-  background: var(--card);
-  font: 600 1.25rem/1.2 "Geist", "Segoe UI", sans-serif;
-  font-variant-numeric: tabular-nums;
-}
-
-.food-portion-tool > input:focus {
-  border-color: var(--accent-2);
-  outline: 2px solid rgba(36, 73, 64, 0.18);
-  outline-offset: 1px;
-}
-
-.food-portion-error {
-  color: #a22c2c;
-}
-
-.food-portion-status {
-  margin: 20px 0 4px;
-  color: var(--muted);
-  font-size: 0.84rem;
-  font-weight: 600;
-}
-
-.food-portion-results {
-  margin: 0 0 16px;
-  padding: 0;
-  list-style: none;
-}
-
-.food-portion-results li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 4px 16px;
-  padding: 12px 0;
-  border-bottom: 1px solid var(--border);
-  font-size: 0.94rem;
-}
-
-.food-portion-results li:last-child {
-  border-bottom: 0;
-}
-
-.food-portion-results strong {
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
+.food-source-note p {
+  margin: 0 0 6px;
 }
 
 .food-safety-note {
@@ -227,15 +134,6 @@
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
-}
-
-.food-safety-heading .content-eyebrow {
-  width: 100%;
-  margin-bottom: -4px;
-}
-
-.food-safety-heading .content-title {
-  margin: 0;
 }
 
 .food-safety-badge {
@@ -439,23 +337,15 @@
   padding: 4px 17px 18px;
 }
 
-@media (max-width: 860px) {
-  .food-glance {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-}
-
 @media (max-width: 720px) {
   .food-detail-hero.has-image {
     grid-template-columns: 1fr;
   }
 
   .food-detail-image {
-    width: min(100%, 260px);
+    width: min(100%, 200px);
     justify-self: center;
   }
-
 
   .related-food-list,
   .food-directory-results,
@@ -470,56 +360,9 @@
     font-size: 0.82rem;
   }
 
-  .food-detail-hero {
-    margin-bottom: 28px;
-  }
-
-  .food-detail-name {
-    font-size: clamp(2.75rem, 13.5vw, 4rem);
-    line-height: 0.96;
-  }
-
-  .food-detail-context {
-    margin-top: 10px;
-    font-size: 0.78rem;
-  }
-
-  .food-detail-hero .hero-lede {
-    font-size: 1rem;
-  }
-
-  .food-group-label {
-    margin-top: 14px;
-    font-size: 0.9rem;
-  }
-
-
   .food-directory-form {
     align-items: stretch;
     flex-direction: column;
-  }
-
-  .food-glance-list {
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
-
-  .food-glance-list li {
-    padding: 14px 16px;
-    grid-template-columns: 96px minmax(0, 1fr);
-    grid-template-rows: auto auto;
-    column-gap: 16px;
-    row-gap: 2px;
-    align-items: center;
-  }
-
-  .food-glance-value {
-    grid-row: 1 / span 2;
-    font-size: 2.2rem;
-  }
-
-  .food-glance-list strong {
-    margin-top: 0;
   }
 
   .food-chart-row {

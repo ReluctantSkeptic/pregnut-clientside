@@ -13,191 +13,54 @@ eleventyComputed:
 vizStyles: true
 pageStyles:
   - /style/weekly-diet.css
-  - /style/food.css?v=20260928-viz
-pageScripts:
-  - /js/food-portion.js
+  - /style/food.css?v=20261005-minimal
 ---
 
 <article class="section food-static-page">
   <nav class="food-breadcrumbs" aria-label="Breadcrumb">
-    <a href="/">Home</a><span aria-hidden="true">/</span><a href="/food/">Foods</a><span aria-hidden="true">/</span><span aria-current="page">{{ food.pageName }}</span>
+    <a href="/">Home</a><span aria-hidden="true">/</span><a href="/food/">Foods</a><span aria-hidden="true">/</span><span aria-current="page">{{ food.displayName }}</span>
   </nav>
 
-  <header class="hero slim food-detail-hero{% if food.image and food.image.src %} has-image{% endif %}">
+  <header class="food-detail-hero{% if food.image and food.image.src %} has-image{% endif %}">
     <div>
-      <p class="eyebrow">{% if food.isHumanMilk %}Food data record{% elif food.warning | lower == "avoid" %}Pregnancy food safety{% else %}Pregnancy nutrient comparison{% endif %}</p>
-      <h1 class="hero-title food-detail-title"><span class="food-detail-name">{{ food.pageName }}</span> <span class="food-detail-context">{% if food.isHumanMilk %}Historical nutrient data{% elif food.warning | lower == "avoid" %}Safety and nutrient data{% else %}Nutrition in pregnancy{% endif %}</span></h1>
-      <p class="hero-lede">{% if food.isHumanMilk %}This historical food-composition record describes human milk. It is not a pregnancy food recommendation. {% elif food.warning | lower == "avoid" %}{{ food.warningText }} This historical nutrient record is for comparison only. <a href="#food-safety">Read the source-linked safety note</a>. {% elif food.isRawPulse or food.isRawFlour %}This record describes an uncooked ingredient, not a ready-to-eat portion. Compare its nutrients per 100 grams before preparation. {% else %}See how a 100 gram portion compares with pregnancy nutrient reference amounts.{% endif %}</p>
-      <p class="food-group-label">Food group: {{ food.group }}</p>
-      <p class="viz-note food-data-note">The values come from a historical USDA-based dataset; <a href="/about/#food-data-sources">see its sources and limits</a>. Use this as a comparison tool, not personalized medical advice.</p>
+      <h1 class="food-detail-name{% if food.displayName | length > 40 %} is-long{% endif %}">{{ food.displayName }}</h1>
+      {% if food.isAvoid %}
+        <p class="food-hero-alert"><span class="food-safety-badge">Avoid in pregnancy</span> <a href="#food-safety">See why</a></p>
+      {% elif food.isHumanMilk %}
+        <p class="food-hero-alert">Historical data record only — not a pregnancy food recommendation.</p>
+      {% elif food.isRawPulse or food.isRawFlour %}
+        <p class="food-hero-alert">Uncooked ingredient — values are before cooking.</p>
+      {% endif %}
     </div>
     {% if food.image and food.image.src %}
       <figure class="food-detail-image">
-        <img src="{{ food.image.src }}" alt="{{ food.image.alt or ('100 grams of ' ~ food.pageName) }}"{% if food.image.width %} width="{{ food.image.width }}"{% endif %}{% if food.image.height %} height="{{ food.image.height }}"{% endif %} loading="eager" fetchpriority="high">
-        <figcaption>Illustrative food image; not a weighed 100 g portion</figcaption>
+        <img src="{{ food.image.src }}" alt="{{ food.image.alt or food.displayName }}"{% if food.image.width %} width="{{ food.image.width }}"{% endif %}{% if food.image.height %} height="{{ food.image.height }}"{% endif %} loading="eager" fetchpriority="high">
       </figure>
     {% endif %}
   </header>
 
-  {% if food.topNutrients.length < 3 %}
-    <p class="content-summary">This reference entry lists only {{ food.topNutrients.length }} nonzero {% if food.topNutrients.length == 1 %}amount{% else %}amounts{% endif %} among PregNut's tracked nutrients. Its chart cannot assess the food's overall nutritional value or pregnancy safety. <a href="/food/">Browse other foods</a> for broader comparisons.</p>
-  {% endif %}
-
-  {% if food.topNutrients.length %}
-    <section class="food-glance" aria-labelledby="food-glance-title">
-      <div class="food-glance-heading">
-        <h2 class="viz-section-title" id="food-glance-title">{% if food.warning | lower == "avoid" %}Recorded nutrient amounts{% else %}Strongest nutrient contributions{% endif %}</h2>
-        <p class="viz-note">Highest shares of nutrient reference amounts in this 100 gram portion.</p>
-      </div>
-      <ol class="food-glance-list">
-        {% for row in food.topNutrients %}
-          <li>
-            <span class="food-glance-value">{{ row.displayPercent }}%</span>
-            <strong>{{ row.name }}</strong>
-            <span>{{ row.value | formatNumber }} {{ row.unit }} in 100 g</span>
-          </li>
-        {% endfor %}
-      </ol>
-    </section>
-  {% endif %}
-
-  {% if not food.isHumanMilk and not food.isRawPulse and not food.isRawFlour and food.topNutrients.length >= 3 %}
-    <section class="content-card food-portion-card" aria-labelledby="food-portion-title">
-      <div class="content-head">
-        <h2 class="content-title" id="food-portion-title">Estimate your portion</h2>
-        <p class="content-summary">Scale this page's three strongest nutrients from 100 g to your portion (100 g amount × grams ÷ 100). Check labels for packaged foods.</p>
-      </div>
-      <div class="food-portion-tool" data-food-portion hidden>
-        <label for="food-portion-grams">Portion weight in grams</label>
-        <input id="food-portion-grams" type="number" inputmode="decimal" min="0.1" max="5000" step="any" value="100" aria-describedby="food-portion-error">
-        <p class="food-portion-error" id="food-portion-error" role="alert" hidden></p>
-        <p class="food-portion-status" data-food-portion-status aria-live="polite">Estimated amounts for 100 g</p>
-        <ul class="food-portion-results">
-          {% for row in food.topNutrients %}
-            <li data-food-portion-row data-base-value="{{ row.value }}" data-base-percent="{{ row.percent }}">
-              <span>{{ row.name }}</span>
-              <strong><span data-food-portion-value>{{ row.value | formatNumber }}</span> {{ row.unit }} · <span data-food-portion-percent>{{ row.displayPercent }}</span>% of reference</strong>
-            </li>
-          {% endfor %}
-        </ul>
-        <p class="content-summary">These estimates use historical food data; they do not measure your serving or establish food safety.</p>
-      </div>
-    </section>
-  {% endif %}
-
-  {% if food.isHumanMilk %}
-    <aside class="content-card food-safety-note" aria-label="Data scope">
-      <div class="food-safety-heading">
-        <p class="content-eyebrow">Data scope</p>
-        <h2 class="content-title">Historical reference only</h2>
-      </div>
-      <p class="content-summary">This record is kept for completeness in the historical nutrient dataset. The pregnancy reference amounts below provide a numerical comparison only; they are not feeding or consumption guidance.</p>
-    </aside>
-  {% elif food.isRawPulse or food.isRawFlour %}
-    <aside class="content-card food-safety-note" aria-label="Preparation note">
-      <div class="food-safety-heading">
-        <p class="content-eyebrow">Preparation</p>
-        <h2 class="content-title">Uncooked ingredient data</h2>
-      </div>
-      <p class="content-summary">This entry measures 100 g before preparation. Cooking changes the food's weight and can change its nutrients per 100 g, so do not treat this chart as a ready-to-eat serving.</p>
-      {% if food.isRawPulse %}
-        <p class="content-summary">Follow package preparation instructions. <a href="https://www.efsa.europa.eu/en/news/lectins-food-undercooked-beans-pose-health-risk-says-efsa">EFSA explains why properly preparing pulses matters</a>.</p>
-      {% else %}
-        <p class="content-summary"><a href="https://www.cdc.gov/food-safety/foods/no-raw-dough.html">CDC advises cooking foods made with raw flour as directed</a>; do not taste uncooked dough or batter.</p>
-      {% endif %}
-      {% if food.id == "16069" %}
-        <p class="content-summary">For a prepared comparison, see <a href="/food/16070-lentils-mature-seeds-boiled/">boiled lentils</a>.</p>
-      {% endif %}
-    </aside>
-  {% elif food.warning %}
-    <aside class="content-card food-safety-note{% if food.warning | lower == 'avoid' %} is-avoid{% endif %}" id="food-safety" aria-label="Food safety note">
-      <div class="food-safety-heading">
-        <p class="content-eyebrow">Food safety</p>
-        <h2 class="content-title">Pregnancy guidance</h2>
-        <span class="food-safety-badge">{{ food.warning }}</span>
-      </div>
-      <p class="content-summary">{{ food.warningText }}</p>
-      {% if food.id == "05028" or food.id == "13327" %}
-        <p class="content-summary">Source: <a href="https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/">NHS pregnancy foods to avoid</a>. See our <a href="/blog/vitamin-a-foods-without-liver-pregnancy/">guide to vitamin A foods without liver</a>.</p>
-      {% elif food.group == "Finfish and Shellfish Products" %}
-        <p class="content-summary">Check the <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">current FDA/EPA fish chart</a> for mercury guidance and <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's pregnancy food-safety guidance</a> for preparation.</p>
-        {% if food.isSmokedFish %}<p class="content-summary">Read our <a href="/blog/smoked-salmon-pregnancy/">guide to refrigerated, shelf-stable, and cooked smoked seafood during pregnancy</a> before choosing a product.</p>{% endif %}
-      {% else %}
-        <p class="content-summary">Source: <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's pregnancy food-safety guidance</a>.</p>
-      {% endif %}
-      {% if food.isCheese %}
-        <p class="content-summary">Read our <a href="/blog/soft-cheese-pregnancy/">guide to cheese, pasteurization, and pregnancy</a> before using this nutrient chart to choose a cheese.</p>
-      {% endif %}
-      {% if food.isMilkOrYogurt %}
-        <p class="content-summary">Read our <a href="/blog/raw-milk-pregnancy/">guide to milk and yogurt pasteurization during pregnancy</a> before using this nutrient chart to choose a dairy product.</p>
-      {% endif %}
-      {% if food.isEgg %}
-        <p class="content-summary">Read our <a href="/blog/eggs-during-pregnancy/">guide to egg doneness and pasteurization during pregnancy</a> before using this nutrient chart to choose an egg dish.</p>
-      {% endif %}
-      {% if food.isJuice %}
-        <p class="content-summary">Read our <a href="/blog/juice-pasteurization-pregnancy/">guide to juice pasteurization and fresh-squeezed drinks during pregnancy</a> before using this nutrient chart to choose a drink.</p>
-      {% endif %}
-      {% if food.isSeedSprout %}
-        <p class="content-summary">Read our <a href="/blog/sprouts-during-pregnancy/">guide to raw and cooked sprouts during pregnancy</a> before using this nutrient chart to choose sprouts.</p>
-      {% endif %}
-      {% if food.isFreshProduce %}
-        <p class="content-summary">Read our <a href="/blog/wash-produce-pregnancy/">guide to washing and handling fresh produce during pregnancy</a>. Washing does not establish that every raw food is safe to eat without cooking.</p>
-      {% endif %}
-      {% if food.group == "Sausages and Luncheon Meats" %}
-        <p class="content-summary">Read our <a href="/blog/deli-meat-pregnancy/">guide to deli meat, cold cuts, and reheating during pregnancy</a> before using this nutrient chart to choose a ready-to-eat meat.</p>
-      {% endif %}
-      <p class="content-summary">For other food choices, use our <a href="/blog/food-safety-pregnancy/">pregnancy food-safety checklist</a> to check preparation, storage, and fish guidance.</p>
-    </aside>
-  {% else %}
-    <aside class="content-card food-safety-note" aria-label="Food safety note">
-      <div class="food-safety-heading">
-        <p class="content-eyebrow">Food safety</p>
-        <h2 class="content-title">Check preparation guidance</h2>
-      </div>
-      <p class="content-summary">This entry has no food-specific safety note. Nutrient data alone cannot establish whether a food or its preparation is safe during pregnancy. See <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC's safer food choices for pregnancy</a> for general guidance.</p>
-      {% if food.isProteinPowder %}
-        <p class="content-summary">For the serving size, added ingredients, and prenatal overlap, read our <a href="/blog/protein-powder-pregnancy/">guide to protein powder labels during pregnancy</a>.</p>
-      {% endif %}
-      {% if food.isMilkOrYogurt %}
-        <p class="content-summary">Read our <a href="/blog/raw-milk-pregnancy/">guide to milk and yogurt pasteurization during pregnancy</a> before using this nutrient chart to choose a dairy product.</p>
-      {% endif %}
-      {% if food.isSeedSprout %}
-        <p class="content-summary">Read our <a href="/blog/sprouts-during-pregnancy/">guide to raw and cooked sprouts during pregnancy</a> before using this nutrient chart to choose sprouts.</p>
-      {% endif %}
-      {% if food.isJuice %}
-        <p class="content-summary">Read our <a href="/blog/juice-pasteurization-pregnancy/">guide to juice, cider, and smoothies during pregnancy</a> for processing and label questions that nutrient data cannot answer.</p>
-      {% endif %}
-      {% if food.group == "Finfish and Shellfish Products" %}
-        <p class="content-summary">Also check the <a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">current FDA/EPA fish chart</a> for mercury guidance.</p>
-      {% endif %}
-      <p class="content-summary">Our <a href="/blog/food-safety-pregnancy/">pregnancy food-safety checklist</a> helps you find the right preparation, storage, and fish guidance.</p>
-    </aside>
-  {% endif %}
-
   <section class="content-card food-chart-card" aria-labelledby="food-chart-title">
     <div class="food-chart-head">
-      <p class="content-eyebrow">Per 100 grams</p>
-      <h2 class="content-title" id="food-chart-title">Nutrient reference coverage</h2>
-      <p class="viz-summary">Share of each adult pregnancy reference amount, highest first.<span class="caution is-info"><button type="button" class="caution-trigger" aria-label="How to read this chart" aria-expanded="false">i</button><span class="caution-popover" role="tooltip">Nutrients are ranked from highest to lowest contribution using adult pregnancy reference amounts. Bars stop visually at 100%, while the label shows the full value; a ✓ marks amounts at or above the reference.</span></span></p>
+      <p class="content-eyebrow">Per 100 g · about 3.5 oz</p>
+      <h2 class="content-title" id="food-chart-title">Pregnancy nutrients in 100 g</h2>
+      <p class="viz-summary">{{ food.summary }}</p>
     </div>
-    <ol class="food-chart" aria-label="Food nutrient bars">
+    <ol class="food-chart" aria-label="Share of daily pregnancy reference amount per nutrient">
       {% for row in food.chartRows %}
         <li class="food-chart-row">
           <span class="food-chart-name">{{ row.name }}</span>
           {% set amount = row.value | formatNumber %}<span class="food-chart-amount">{{ amount }}{% if amount != "—" %} {{ row.unit }}{% endif %}</span>
-          <span class="viz-bar{% if row.percent >= 100 %} is-full{% endif %}" style="--pct: {{ row.barPercent }}%;" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the nutrient reference amount{% endif %}"><span class="viz-bar-fill" aria-hidden="true"></span></span>
+          <span class="viz-bar{% if row.percent >= 100 %} is-full{% endif %}" style="--pct: {{ row.barPercent }}%;" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the daily pregnancy reference{% endif %}"><span class="viz-bar-fill" aria-hidden="true"></span></span>
           <span class="viz-value" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{% if row.percent >= 100 %}<span class="viz-check">✓</span>{% endif %}{{ row.displayPercent }}%{% endif %}</span>
         </li>
       {% endfor %}
     </ol>
-    <p class="viz-note food-chart-note">DHA and protein use illustrative comparison benchmarks; <a href="/about/#nutrient-references">see how the references are used</a>.</p>
     <details class="viz-more food-table-details">
       <summary id="food-table-title">Show full nutrient table</summary>
-      <p class="viz-note">Reference amounts are shown for context and are not a recommendation to meet them from one food. Food values come from a fixed historical USDA snapshot; <a href="/about/#food-data-sources">see the data source and limits</a>, and check current labels for packaged products.</p>
       <div class="table-shell">
         <table class="data-table">
           <caption class="sr-only">Nutrients per 100 grams</caption>
-          <thead><tr><th scope="col">Nutrient</th><th scope="col" class="is-num">Amount</th><th scope="col" class="is-num">Reference amount</th></tr></thead>
+          <thead><tr><th scope="col">Nutrient</th><th scope="col" class="is-num">In 100 g</th><th scope="col" class="is-num">Daily reference</th></tr></thead>
           <tbody>
             {% for row in food.nutrientRows %}
               <tr><th scope="row">{{ row.name }}</th><td class="is-num">{{ row.value | formatNumber }} {{ row.unit }}</td><td class="is-num">{{ row.target }}</td></tr>
@@ -208,33 +71,58 @@ pageScripts:
     </details>
   </section>
 
-  {% if food.guideLinks.length and not food.isHumanMilk %}
-    <section class="content-card food-related" aria-labelledby="food-guides-title">
-      <div class="content-head">
-        <h2 class="content-title" id="food-guides-title">Understand these nutrients</h2>
-        <p class="content-summary">Read how to use food comparisons alongside everyday portions and prenatal labels.</p>
+  {% if food.warning or food.isRawPulse or food.isRawFlour %}
+    <aside class="content-card food-safety-note{% if food.isAvoid %} is-avoid{% endif %}" id="food-safety" aria-labelledby="food-safety-title">
+      <div class="food-safety-heading">
+        <h2 class="food-explainer-title" id="food-safety-title">Food safety</h2>
+        {% if food.warning %}<span class="food-safety-badge">{{ food.warning }}</span>{% endif %}
       </div>
+      {% if food.isRawPulse %}
+        <p class="content-summary">Cook dried pulses fully before eating; cooking also changes weight and nutrients per 100 g. <a href="https://www.efsa.europa.eu/en/news/lectins-food-undercooked-beans-pose-health-risk-says-efsa">EFSA on undercooked beans</a>{% if food.id == "16069" %} · <a href="/food/16070-lentils-mature-seeds-boiled/">Boiled lentils</a>{% endif %}</p>
+      {% elif food.isRawFlour %}
+        <p class="content-summary">Don't eat raw dough or batter; cook flour foods as directed. <a href="https://www.cdc.gov/food-safety/foods/no-raw-dough.html">CDC on raw flour</a></p>
+      {% else %}
+        <p class="content-summary">{{ food.warningText }}
+          {% if food.id == "05028" or food.id == "13327" %}<a href="https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/">NHS source</a>
+          {% elif food.group == "Finfish and Shellfish Products" %}<a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA fish chart</a>
+          {% else %}<a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC source</a>{% endif %}
+        </p>
+      {% endif %}
+    </aside>
+  {% endif %}
+
+  <section class="food-explainer" aria-labelledby="food-explainer-title">
+    <h2 class="food-explainer-title" id="food-explainer-title">How to read this</h2>
+    <p>During pregnancy you need more of certain nutrients each day, like folate, iron and choline. Each bar shows how much of that daily amount 100 g of {{ food.displayName }} provides. 100% means 100 g alone covers the whole day; smaller numbers show its share. A ✓ marks 100% or more.</p>
+  </section>
+
+  {% if not food.isHumanMilk %}
+    <section class="food-next" aria-labelledby="food-next-title">
+      <h2 class="food-explainer-title" id="food-next-title">Keep exploring</h2>
       <ul class="viz-pill-links">
-        {% for guide in food.guideLinks %}
-          <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+        {% for link in food.toolLinks %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        {% for link in food.readingLinks %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
     </section>
+
+    {% if food.relatedFoods.length %}
+      <section class="food-next" aria-labelledby="related-foods-title">
+        <h2 class="food-explainer-title" id="related-foods-title">Similar foods</h2>
+        <ul class="viz-link-list">
+          {% for related in food.relatedFoods %}
+            <li><a href="{{ related.url }}">{{ related.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
   {% endif %}
 
-  {% if not food.isHumanMilk %}
-  <section class="content-card food-related" aria-labelledby="related-foods-title">
-    <div class="content-head">
-      <h2 class="content-title" id="related-foods-title">More from {{ food.group }}</h2>
-      <p class="content-summary"><a href="/food/">Search or browse all foods</a>, or compare nutrient-dense choices in <a href="/app/">Top Foods</a>. Check the safety note on each linked page.</p>
-    </div>
-    {% if food.relatedFoods.length %}
-      <ul class="viz-link-list">
-        {% for related in food.relatedFoods %}
-          <li><a href="{{ related.url }}">{{ related.name }} nutrition in pregnancy</a></li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </section>
-  {% endif %}
+  <footer class="food-source-note viz-note">
+    {% if food.displayName != food.pageName %}<p>USDA record: {{ food.pageName }} · {{ food.group }}</p>{% else %}<p>Food group: {{ food.group }}</p>{% endif %}
+    <p>Values come from a historical USDA-based dataset; DHA and protein use illustrative benchmarks. Nutrient data can't show whether a food is safe — see <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC pregnancy food safety</a>. <a href="/about/#food-data-sources">Sources and limits</a>. Not medical advice. Image is illustrative.</p>
+  </footer>
 </article>

@@ -1,0 +1,15 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }}
+
+> {{ site.description }} Every guide cites primary public-health sources (ACOG, CDC, FDA, NIH) and states plainly when a food chart cannot answer a safety question. Educational only; not a substitute for prenatal care.
+
+## Pregnancy nutrition guides
+{% for post in collections.post | reverse %}- [{{ post.data.title | safe }}]({{ site.url }}{{ post.url }}): {{ post.data.description | safe }}
+{% endfor %}
+## Tools
+- [Food lookup]({{ site.url }}/food/): Nutrients per 100 g for reference foods, USDA-based.
+- [Weekly guide]({{ site.url }}/weekly-diet/): Nutrition by pregnancy week.
+- [About and editorial standards]({{ site.url }}/about/#editorial)

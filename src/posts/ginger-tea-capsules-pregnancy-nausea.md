@@ -8,7 +8,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-05
 ---
 
 **The short answer:** Ginger may help with pregnancy nausea, but a cup of ginger tea and a ginger capsule are not interchangeable doses. [NIH says most studies tested supplements rather than foods or drinks](https://www.nccih.nih.gov/health/ginger). [ACOG includes ginger tea, candies, and capsules among options](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) to try for nausea. Ask your prenatal clinician before starting a ginger supplement, especially if you take medicine.
@@ -21,6 +21,7 @@ NIH's [National Center for Complementary and Integrative Health](https://www.ncc
 | --- | --- |
 | Fresh-ginger tea | ACOG lists tea made from fresh-grated ginger as an option. The ginger amount depends on preparation. |
 | Ginger candy or ginger ale | ACOG suggests ginger candy and ginger ale **made with real ginger**. Check the ingredients; the name alone does not establish the ginger amount. |
+| Ginger lozenges and chews | ACOG lists ginger candy; ginger lozenges and chews are candy forms. Check that they are made with real ginger. |
 | Ginger capsule | This resembles the supplement form used in much of the research. Check the ingredient list and discuss the product with your clinician before use. |
 
 These are ways to think about the forms, not a treatment dose or a ranking of which works best. ACOG also suggests small, frequent meals and bland foods that you can keep down. See our [vitamin B6 food and morning sickness guide](/blog/vitamin-b6-foods-pregnancy/) for the separate question of nutrition versus B6 treatment.
