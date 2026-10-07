@@ -1,5 +1,6 @@
 ---
 title: "Raw Milk During Pregnancy: How to Check Dairy Labels"
+seoTitle: "Raw Milk During Pregnancy: Check the Label"
 description: "Why raw milk is a risk during pregnancy, how to identify pasteurized milk and yogurt, and what PregNut's food data cannot tell you."
 layout: post.njk
 permalink: /blog/raw-milk-pregnancy/index.html

@@ -1,5 +1,6 @@
 ---
 title: "Iron-Rich Foods During Pregnancy: Practical Pairings"
+seoTitle: "Iron-Rich Foods for Pregnancy: Practical Pairings"
 description: Compare iron in half-cup servings of lentils, spinach, tofu, and beans, plus vitamin C pairings and prenatal label guidance.
 layout: post.njk
 permalink: /blog/iron-foods-pregnancy/index.html
@@ -36,7 +37,7 @@ These figures describe iron in the food, not iron absorbed by your body. Portion
 
 ### How much iron is in a half-cup serving?
 
-The [NIH iron food table](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) lists **about 3 mg** each for ½ cup boiled lentils, ½ cup boiled spinach, and ½ cup firm tofu. It lists **about 2 mg** for ½ cup canned kidney beans. These rounded serving amounts are easier to use at a meal than PregNut's per-100 g figures above, and preparation still matters.
+The [NIH iron food table](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) lists **about 3 mg** each for ½ cup boiled lentils, ½ cup boiled spinach, and ½ cup firm tofu. It lists **about 2 mg** for ½ cup canned kidney beans. These rounded serving amounts are easier to use at a meal than PregNut's per-100 g figures above, and preparation still matters. Lentils and spinach also contribute folate; see our [folate and folic acid guide](/blog/folate-folic-acid-pregnancy/) for how food folate differs from the folic acid in a prenatal.
 
 NIH's table shows percentages based on the [**18 mg iron Daily Value**](https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels) used for general food labels. That percentage is **not** the share of the **27 mg pregnancy intake recommendation**. Use the milligrams when comparing portions and your prenatal label; the iron you absorb can also differ by food and meal.
 

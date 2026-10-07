@@ -8,7 +8,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-07
 ---
 
 **The short answer:** You can get vitamin A from orange and green vegetables without eating liver. Sweet potatoes, carrots, and spinach contain **provitamin A carotenoids**, which the body converts to vitamin A. The [NIH pregnancy review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists **770 mcg retinol activity equivalents (RAE) per day** for pregnant adults and **750 mcg RAE** for pregnant teens.
@@ -24,6 +24,10 @@ The [NIH vitamin A food table](https://ods.od.nih.gov/factsheets/VitaminA-Health
 | Raw carrots | ½ cup | 459 mcg RAE |
 
 The sweet potato amount is higher than the daily pregnancy recommendation. **That does not mean a baked sweet potato exceeds the safety limit.** The [NIH pregnancy review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) explains that the upper limit applies to **preformed vitamin A**, not the provitamin A carotenoids in these vegetables. The RAE unit allows different forms of vitamin A to be compared for intake; it does not make their safety limits interchangeable.
+
+## Is vitamin A bad for pregnancy?
+
+No. Vitamin A is a nutrient you need, which is why NIH lists a daily amount for pregnancy. The concern is **too much preformed vitamin A**: [NIH says](https://ods.od.nih.gov/factsheets/VitaminA-Consumer/) that taking too much preformed vitamin A while pregnant can cause birth defects, and that pregnant people should not take high-dose preformed vitamin A supplements. NIH adds that high intakes of beta-carotene do not cause the same problems.
 
 ## Why is liver treated differently?
 

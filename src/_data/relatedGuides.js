@@ -9,6 +9,7 @@ module.exports = {
   ],
   "/blog/eggs-during-pregnancy/": [
     { url: "/blog/vegetarian-b12-pregnancy/", title: "Compare vegetarian vitamin B12 foods" },
+    { url: "/blog/riboflavin-without-dairy-pregnancy/", title: "Eggs and other riboflavin foods without dairy" },
     { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" }
   ],
   "/blog/soft-cheese-pregnancy/": [
@@ -21,7 +22,8 @@ module.exports = {
   ],
   "/blog/sprouts-during-pregnancy/": [
     { url: "/blog/wash-produce-pregnancy/", title: "Wash and handle fresh produce" },
-    { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" }
+    { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" },
+    { url: "/blog/deli-meat-pregnancy/", title: "Ordering a deli sandwich? Check the meat too" }
   ],
   "/blog/deli-meat-pregnancy/": [
     { url: "/blog/eggs-during-pregnancy/", title: "Check egg doneness and pasteurization" },
@@ -54,6 +56,12 @@ module.exports = {
   "/blog/caffeine-coffee-tea-pregnancy/": [
     { url: "/blog/water-intake-pregnancy/", title: "Plan plain-water intake during pregnancy" },
     { url: "/blog/heartburn-foods-pregnancy/", title: "Adjust meals for pregnancy heartburn" }
+  ],
+  "/blog/ginger-tea-capsules-pregnancy-nausea/": [
+    { url: "/blog/foods-for-morning-sickness-pregnancy/", title: "What to eat with morning sickness" },
+    { url: "/blog/vitamin-b6-foods-pregnancy/", title: "Vitamin B6 foods and nausea treatment" },
+    { url: "/blog/water-intake-pregnancy/", title: "How much water to drink during pregnancy" },
+    { url: "/blog/caffeine-coffee-tea-pregnancy/", title: "Count caffeine in tea and coffee" }
   ],
   "/blog/heartburn-foods-pregnancy/": [
     { url: "/blog/caffeine-coffee-tea-pregnancy/", title: "Count caffeine from coffee and tea" },

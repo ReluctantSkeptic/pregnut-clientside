@@ -1,12 +1,12 @@
 ---
 title: "Eggs During Pregnancy: Runny Yolks, Pasteurized Eggs, and Sauces"
-seoTitle: "Eggs During Pregnancy: Cooking and Pasteurization"
-description: FDA and CDC guidance on fully cooked eggs, runny yolks, pasteurized eggs, Caesar dressing, and other foods made with raw eggs during pregnancy.
+seoTitle: "Eggs While Pregnant: Runny, Poached & Pasteurized"
+description: CDC says cook eggs until yolks and whites are firm. What that means for poached, fried, scrambled, and soft-boiled eggs, and when pasteurized eggs help.
 layout: post.njk
 permalink: /blog/eggs-during-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
-dateModified: 2026-10-05
+dateModified: 2026-10-07
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-eggs-100g.webp
@@ -45,8 +45,16 @@ Commercial mayonnaise, dressings, and sauces commonly use pasteurized eggs, acco
 
 Only if the yolk is cooked firm. Poached eggs are usually served with a runny yolk, which CDC lists as a riskier choice. Poach them longer until the yolk is firm, or use pasteurized eggs. The same goes for fried eggs: a sunny-side-up egg is safe only once the yolk has set.
 
+## Are scrambled, fried, or soft-boiled eggs safe while pregnant?
+
+Scrambled and fried eggs can be, once they are cooked through. The [FDA advises](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) cooking scrambled eggs until firm throughout and frying eggs for 2 to 3 minutes on each side, or 4 minutes in a covered pan. A hard-boiled egg with a firm yolk and white matches the [CDC's safer choice](https://www.cdc.gov/food-safety/foods/pregnant-women.html). A soft-boiled egg with a runny or jammy yolk is the undercooked egg CDC lists as riskier, unless the egg was pasteurized.
+
+## What if I ate a runny egg while pregnant?
+
+Eating one does not mean you will get sick. The [CDC lists eggs among the foods linked to *Salmonella*](https://www.cdc.gov/food-safety/signs-symptoms/index.html), with symptoms such as diarrhea, fever, stomach cramps, and vomiting that can start 6 hours to 6 days after eating. CDC advises seeing your doctor if you are pregnant and have a fever and other flu-like symptoms. If you feel well but are worried, ask your prenatal care team.
+
 ## What can PregNut's egg pages tell me?
 
 The [hard-boiled egg](/food/01129-egg-hard-boiled/), [poached egg](/food/01131-egg-poached/), and [scrambled egg](/food/01132-egg-scrambled/) pages compare nutrients per 100 grams. Those values describe reference foods; they do not verify the doneness, pasteurization, storage, or safety of the eggs on your plate. For egg and egg-free choline ideas, see our [choline foods guide](/blog/choline-foods-pregnancy/).
 
-**Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA dairy and eggs food safety for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be), and [FDA egg safety](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety). This guide is educational and does not replace prenatal care.
+**Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [CDC food-poisoning symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html), [FDA dairy and eggs food safety for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be), and [FDA egg safety](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety). This guide is educational and does not replace prenatal care.

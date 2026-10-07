@@ -1,5 +1,6 @@
 ---
 title: "Pregnancy Food Safety: What to Check Before You Eat"
+seoTitle: "Pregnancy Food Safety: What to Check Before Eating"
 description: A quick guide to pasteurization, cooking, storage, and fish choices during pregnancy, with links to detailed food guides and current CDC and FDA advice.
 layout: post.njk
 permalink: /blog/food-safety-pregnancy/index.html

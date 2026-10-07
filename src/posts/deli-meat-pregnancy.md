@@ -15,13 +15,13 @@ tags: post
 
 ## Does a packaged turkey sandwich count?
 
-Yes. CDC's guidance covers deli meat and cold cuts, including ready-to-eat varieties. A cold sandwich made with [prepackaged sliced turkey](/food/07081-turkey-breast-sliced-prepackaged/) is still an unheated cold-cut sandwich. To follow CDC's safer-choice advice, heat the turkey to **165°F or until steaming hot** before putting it in the sandwich. The bread and vegetables do not make unheated meat safer.
+Yes. CDC's guidance covers deli meat and cold cuts, including ready-to-eat varieties. A cold sandwich made with [prepackaged sliced turkey](/food/07081-turkey-breast-sliced-prepackaged/) is still an unheated cold-cut sandwich. To follow CDC's safer-choice advice, heat the turkey to **165°F or until steaming hot** before putting it in the sandwich. The bread and vegetables do not make unheated meat safer. If the sandwich comes with raw sprouts, ask for them to be left off; CDC lists raw sprouts as a riskier choice too (see our [sprouts guide](/blog/sprouts-during-pregnancy/)).
 
 If you are ordering out, ask whether the meat can be heated thoroughly **just before serving**. If that is not possible, choose another filling. [CDC's explanation of deli foods and Listeria](https://www.cdc.gov/listeria/causes/deli-ready-to-eat-foods.html) describes why slicing and handling matter.
 
 ## What about hot dogs, salami, and pepperoni?
 
-The same [CDC pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) places **unheated hot dogs and fermented or dry sausages** in the riskier column. Heat them to **165°F or until steaming hot**. A topping that is only warm is not the same as one heated through. If you are cooking raw meat or poultry instead, use the food-specific safe internal temperature on the CDC chart; the reheating rule for ready-to-eat meats is a separate question.
+The same [CDC pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) places **unheated hot dogs and fermented or dry sausages** in the riskier column. Heat them to **165°F or until steaming hot**. A topping that is only warm is not the same as one heated through. CDC also lists **refrigerated pâté and meat spreads** as riskier; pâté in sealed containers that do not need refrigeration before opening is its safer choice. Liver pâté raises a separate vitamin A question, covered in our [vitamin A without liver guide](/blog/vitamin-a-foods-without-liver-pregnancy/). If you are cooking raw meat or poultry instead, use the food-specific safe internal temperature on the CDC chart; the reheating rule for ready-to-eat meats is a separate question.
 
 For cooked meals saved for later, use our [leftovers guide](/blog/leftovers-pregnancy/) for refrigeration times and reheating steps.
 

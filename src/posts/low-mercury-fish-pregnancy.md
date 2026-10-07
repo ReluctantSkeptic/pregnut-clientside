@@ -1,5 +1,6 @@
 ---
 title: "Lower-Mercury Fish During Pregnancy: A Practical Guide"
+seoTitle: "Low-Mercury Fish in Pregnancy: FDA Best Choices"
 description: Use FDA fish categories to plan lower-mercury servings each week and compare DHA in salmon, sardines, shrimp, and canned light tuna.
 layout: post.njk
 permalink: /blog/low-mercury-fish-pregnancy/index.html

@@ -1,5 +1,6 @@
 ---
 title: "Vitamin B6 Foods During Pregnancy and Morning Sickness"
+seoTitle: "Vitamin B6 Foods in Pregnancy and Morning Sickness"
 description: Compare vitamin B6 in salmon, potatoes, bananas, and avocado, and learn why food B6 and nausea treatment are different questions.
 layout: post.njk
 permalink: /blog/vitamin-b6-foods-pregnancy/index.html
@@ -13,7 +14,7 @@ socialImageWidth: 900
 socialImageHeight: 900
 socialImageAlt: Illustration of sliced avocado
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-07
 ---
 
 **The short answer:** Fish, potatoes, bananas, and other foods can contribute vitamin B6 to your diet. [NIH lists 1.9 mg per day](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) as the recommended amount during pregnancy. That nutrition target is a different question from using a B6 supplement to treat nausea. Eating a B6-containing food has not been shown to replace nausea treatment.
@@ -40,6 +41,10 @@ Food can help you meet your usual nutrient needs, but the evidence for treating 
 If nausea makes eating difficult, choose foods you can tolerate. ACOG suggests small, frequent meals and bland foods if they help. If you cannot keep liquids down, feel faint when standing, or have very little dark urine, [contact your pregnancy care team](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy/) rather than trying to solve dehydration with a food ranking.
 
 For a separate option, read what the evidence says about [ginger tea and supplements for pregnancy nausea](/blog/ginger-tea-capsules-pregnancy-nausea/).
+
+## Does vitamin B6 help morning sickness?
+
+As a treatment, it can. [ACOG describes vitamin B6 as a safe, over-the-counter treatment that may be tried first](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) when diet and lifestyle changes do not help. ACOG adds that doxylamine can be added if B6 alone does not relieve symptoms, and that a prescription combining the two is available. ACOG's patient FAQ does not give a dose, so before taking B6 while pregnant, ask your clinician how much to take and check what your prenatal already supplies. For food ideas while you feel sick, see [what to eat with morning sickness](/blog/foods-for-morning-sickness-pregnancy/).
 
 ## Should I add a B6 supplement?
 

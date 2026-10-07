@@ -1,12 +1,12 @@
 ---
 title: "Sprouts During Pregnancy: Raw Alfalfa, Mung Beans, and Cooked Options"
-seoTitle: "Sprouts During Pregnancy: Raw vs Cooked"
-description: Why raw sprouts are riskier during pregnancy, how to cook them, and when to contact your clinician if you already ate them.
+seoTitle: "Can You Eat Sprouts While Pregnant? Raw vs Cooked"
+description: Raw alfalfa, bean, and mung bean sprouts are a riskier choice in pregnancy. CDC says cook sprouts until steaming hot. Brussels sprouts are different.
 layout: post.njk
 permalink: /blog/sprouts-during-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
-dateModified: 2026-10-05
+dateModified: 2026-10-07
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/top-foods/11001-alfalfa-seeds-sprouted-raw.webp
@@ -32,6 +32,10 @@ Wash produce as usual, but do not treat a rinse, a “locally grown” label, or
 Yes, if they are cooked. Cook sprouts until they are **steaming hot** before eating. If ordering a sandwich or salad, ask for raw sprouts to be left off; the [FDA specifically advises checking these dishes](https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be). A quick addition at the end of a stir-fry does not establish that the sprouts reached the CDC's steaming-hot guidance.
 
 The [raw alfalfa sprouts](/food/11001-alfalfa-seeds-sprouted-raw/) and [raw mung bean sprouts](/food/11043-mung-beans-mature-seeds-sprouted-raw/) in PregNut's food database are nutrient entries, not serving recommendations. The [boiled mung bean sprouts](/food/11718-mung-beans-mature-seeds-sprouted-boiled/) entry describes a different preparation. A nutrient comparison cannot verify how your own dish was cooked.
+
+## Can you eat bean sprouts while pregnant?
+
+Only when they are cooked. The [CDC lists raw or undercooked bean sprouts](https://www.cdc.gov/food-safety/foods/pregnant-women.html) with alfalfa sprouts as riskier choices and names sprouts cooked **until steaming hot** as the safer choice. Mung bean (moong) sprouts follow the same rule. Bean sprouts added raw to pho, pad thai, or a salad at the table have not been cooked, so ask for them on the side or leave them off.
 
 ## What if I already ate raw sprouts?
 
