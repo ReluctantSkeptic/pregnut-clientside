@@ -138,6 +138,7 @@
     {% if pageSchemaType == "Article" and dateModified %}<meta property="article:modified_time" content="{{ dateModified | isoDate }}">{% endif %}
     {% set documentTitle = seoTitle or pageTitle %}
     <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
+    <link rel="preload" href="/style/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/style/fonts/instrument-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
     {% if page.url == "/" %}<link rel="preload" href="/style/fonts/instrument-serif-italic-latin.woff2" as="font" type="font/woff2" crossorigin>{% endif %}
     <link rel="stylesheet" href="/style/style.css">
@@ -162,11 +163,11 @@
         <button type="button" id="CookieAccept">Accept analytics</button>
       </div>
     </div>
-    <script src="/js/searchbar.js?v=20260925-1"></script>
-    <script src="/js/caution.js"></script>
+    <script src="/js/searchbar.js?v=20260925-1" defer></script>
+    <script src="/js/caution.js" defer></script>
     {% if pageScripts %}
       {% for src in pageScripts %}
-        <script src="{{ src }}"></script>
+        <script src="{{ src }}" defer></script>
       {% endfor %}
     {% endif %}
   </body>

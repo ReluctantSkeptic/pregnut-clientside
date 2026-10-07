@@ -1,0 +1,19 @@
+{% for group in topFoods.groups %}
+  <section class="viz-card" id="{{ group.id }}" aria-label="{{ group.name | escape }} top foods">
+    <h3 class="viz-card-title">{{ group.name }}</h3>
+    <ol class="viz-list">
+      {% for food in group.items %}
+        <li class="viz-row">
+          {% if food.image %}<img class="viz-thumb" src="{{ food.image.src }}" alt="" width="68" height="68" loading="lazy" decoding="async">{% else %}<span class="viz-thumb" aria-hidden="true">{{ food.initial }}</span>{% endif %}
+          <div class="viz-copy">
+            <p class="viz-name"><a href="{{ food.url }}">{{ food.main }}{% if food.detail %}<span class="viz-detail">{{ food.detail }}</span>{% endif %}</a></p>
+            {% if food.warning and food.warning != "0" %}<span class="caution is-safety"><button class="caution-trigger" type="button" aria-label="Safety note: {{ food.warning | escape }}: {{ (food.warningText or 'Use caution.') | escape }}" aria-expanded="false">!</button><span class="caution-popover" role="tooltip">{{ food.warning }}: {{ food.warningText or 'Use caution.' }}</span></span>{% endif %}
+          </div>
+          <span class="viz-value" aria-hidden="true">{% if food.row.percent >= 100 %}<span class="viz-check">✓</span>{% endif %}{{ food.row.displayPercent }}%</span>
+          <div class="viz-bar{% if food.row.percent >= 100 %} is-full{% endif %}" role="img" aria-label="{{ food.tip | escape }}" style="--pct: {{ food.row.barPercent }}%"><span class="viz-bar-fill" aria-hidden="true"></span></div>
+          <span class="viz-tip" aria-hidden="true">{{ food.tip }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endfor %}

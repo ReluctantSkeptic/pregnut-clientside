@@ -79,8 +79,13 @@ pageStyles:
           <span class="food-guidance-badge is-{{ food.guidance.verdict | lower | replace(' ', '-') }}">{{ food.guidance.verdict }}</span>
         {% endif %}
       </div>
-      <p class="food-guidance-text">{{ food.guidance.explanation }}</p>
-      {% if food.guidance.sources and food.guidance.sources.length %}
+      {% if food.guidance.claims %}
+        {% for claim in food.guidance.claims %}<p class="food-guidance-text">{{ claim.text }} <a href="{{ claim.source.url | escape }}">{{ claim.source.name }}</a></p>{% endfor %}
+      {% else %}
+        <p class="food-guidance-text">{{ food.guidance.explanation }}</p>
+      {% endif %}
+      {% if food.guidance.dateModified %}<p class="viz-note">Guidance updated {{ food.guidance.dateModified | readableDate }}.</p>{% endif %}
+      {% if not food.guidance.claims and food.guidance.sources and food.guidance.sources.length %}
         <p class="food-guidance-sources">
           <span class="food-guidance-sources-label">Sources:</span>
           {% for src in food.guidance.sources %}

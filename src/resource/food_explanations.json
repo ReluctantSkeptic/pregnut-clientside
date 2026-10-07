@@ -1148,16 +1148,44 @@
     ]
   },
   "11234": {
-    "verdict": "Recommended",
-    "explanation": "Boiled kale is strongly recommended throughout pregnancy. It supplies rich amounts of bioavailable calcium, folate, vitamin C, and lutein to support fetal skeletal and optical development. Boiling kale softens its tough cellulose fibers, reducing digestive discomfort while eliminating any surface microbes. Toss boiled kale with olive oil, lemon juice, and a pinch of salt for a comforting, nutrient-dense side dish.",
-    "sources": [
+    "verdict": "Preparation matters",
+    "explanation": "This record contains 72 mg calcium, 41 mg vitamin C and 13 mcg dietary folate equivalents per 100 g of boiled kale in PregNut’s historical USDA-based dataset. These figures describe a food sample, not a suggested serving or a guarantee about your own preparation. NIH identifies dark green leafy vegetables as sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest. This does not mean that boiling guarantees the elimination of all microbes.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 72 mg calcium, 41 mg vitamin C and 13 mcg dietary folate equivalents per 100 g of boiled kale in PregNut’s historical USDA-based dataset. These figures describe a food sample, not a suggested serving or a guarantee about your own preparation.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "NIH identifies dark green leafy vegetables as sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources and pregnancy",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest. This does not mean that boiling guarantees the elimination of all microbes.",
+        "source": {
+          "name": "CDC: safer produce choices",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources and pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer produce choices",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },

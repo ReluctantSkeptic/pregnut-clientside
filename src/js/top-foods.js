@@ -271,13 +271,7 @@
     }
 
     if (chipRoot) {
-      if (!chipRoot.firstChild) {
-        V.chips(chipRoot, "topfoods-nutrient", keys.map(function (k) {
-          return { value: k, label: k };
-        }), state.selectedNutrient, onPickNutrient);
-      } else {
-        V.setChecked(chipRoot, state.selectedNutrient);
-      }
+      V.setChecked(chipRoot, state.selectedNutrient);
       V.revealSelected(chipRoot);
     }
 
@@ -331,6 +325,10 @@
       render(fooddata, state);
     };
 
+    $("NutrientChips").addEventListener("change", function (ev) {
+      if (ev.target.name === "topfoods-nutrient") onPickNutrient(ev.target.value);
+    });
+
     var source = $("SourceToggle");
     if (source) {
       source.addEventListener("change", function (ev) {
@@ -353,26 +351,27 @@
 
     render(fooddata, state);
     persist(false);
+    $("topfoods-filters").querySelectorAll("input").forEach(function (input) { input.disabled = false; });
 
     try { document.body.classList.add("topfoods-ready"); } catch (e) {}
   }
 
   var imageMap = {};
 
-  window.addEventListener("load", function () {
+  // Scripts run after the chart markup; do not wait for unrelated images.
+  (function () {
     Promise.all([fetchJson(FOODDATA_URL), V.loadImageMap()])
       .then(function (all) {
         imageMap = all[1] || {};
         start(all[0]);
       })
       .catch(function () {
-        var root = $("FoodsByNutrient");
         var status = $("TopFoodsStatus");
         var summary = $("TopFoodsSummary");
         var message = "Food comparisons could not load. Refresh the page to try again.";
         if (status) status.textContent = message;
-        if (summary) summary.textContent = message;
-        if (root) root.textContent = "";
+        // Keep the usable server-rendered default when the data request fails.
+        if (summary) summary.textContent = message + " Showing calcium in processed foods.";
       });
-  });
+  })();
 })();

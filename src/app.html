@@ -10,7 +10,7 @@ pageStyles:
   - /style/top-foods.css?v=20260928-viz
 pageScripts:
   - /js/viz.js?v=20260928-1
-  - /js/top-foods.js?v=20260928-viz
+  - /js/top-foods.js?v=20261007-stable
 ---
 
 <section class="hero slim">
@@ -22,21 +22,23 @@ pageScripts:
 
 <section class="section topfoods-shell" aria-label="Top foods per nutrient">
   <div class="viz-toolbar" id="topfoods-filters" role="group" aria-label="Top foods filters">
-    <div class="viz-chips" id="NutrientChips" role="radiogroup" aria-label="Nutrient"></div>
+    <div class="viz-chips" id="NutrientChips" role="radiogroup" aria-label="Nutrient">
+      {% for key in topFoods.keys %}<label class="viz-chip"><input type="radio" name="topfoods-nutrient" disabled value="{{ key | escape }}"{% if key == topFoods.nutrient %} checked{% endif %}><span>{{ key }}</span></label>{% endfor %}
+    </div>
     <div class="viz-segmented" id="SourceToggle" role="radiogroup" aria-label="Food source">
-      <label class="viz-segment"><input type="radio" name="topfoods-source" value="processed"><span>Processed</span></label>
-      <label class="viz-segment"><input type="radio" name="topfoods-source" value="natural"><span>Natural</span></label>
+      <label class="viz-segment"><input type="radio" name="topfoods-source" disabled value="processed" checked><span>Processed</span></label>
+      <label class="viz-segment"><input type="radio" name="topfoods-source" disabled value="natural"><span>Natural</span></label>
     </div>
   </div>
 
   <div class="topfoods-head">
-    <p class="viz-summary" id="TopFoodsSummary">Loading food comparisons…</p>
+    <p class="viz-summary" id="TopFoodsSummary"><strong>{{ topFoods.nutrient }}</strong> · % of the {{ topFoods.target }} pregnancy reference in 100 g<span class="caution is-info"><button class="caution-trigger" type="button" aria-label="How to read this chart" aria-expanded="false">i</button><span class="caution-popover" role="tooltip">{{ topFoods.chartHelp }}</span></span></p>
     <p class="sr-only" id="TopFoodsStatus" aria-live="polite"></p>
-    <nav class="topfoods-jump" id="TopFoodsJump" aria-label="Jump to a food category" hidden></nav>
+    <nav class="topfoods-jump" id="TopFoodsJump" aria-label="Jump to a food category">{% for group in topFoods.groups %}<a href="#{{ group.id }}">{{ group.name }}</a>{% endfor %}</nav>
   </div>
 
-  <noscript><p class="viz-note">The interactive rankings need JavaScript. You can still use the food comparisons below or <a href="/food/">browse every food</a>.</p></noscript>
-  <div class="topfoods-grid" id="FoodsByNutrient" aria-label="Top foods list"></div>
+  <noscript><p class="viz-note">Showing calcium in processed foods. Enable JavaScript to change filters, or <a href="/food/">browse every food</a>.</p></noscript>
+  <div class="topfoods-grid" id="FoodsByNutrient" aria-label="Top foods list">{% include "components/top-foods-initial.njk" %}</div>
   <p class="viz-note topfoods-footnote">Percentages compare food amounts with the site's <a href="/about/#nutrient-references">pregnancy nutrient references</a>. DHA and protein use illustrative benchmarks rather than individualized daily targets. Food values come from a <a href="/about/#food-data-sources">fixed historical USDA snapshot</a>.</p>
 </section>
 
