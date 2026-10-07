@@ -15,6 +15,8 @@ module.exports = [
     ["magnesium-foods-pregnancy", "Magnesium-rich foods"],
     ["fiber-foods-constipation-pregnancy", "Fiber for constipation"],
     ["heartburn-foods-pregnancy", "Eating with heartburn"],
+    ["brussels-sprouts-pregnancy", "Brussels sprouts & folate"],
+    ["cashews-pregnancy", "Cashews: how many & why"],
   ]),
   category("different-diets", "Different diets", "Find options when dairy, meat, or fish is not on your plate.", "/resource/blog/different-diets.webp", "Painted still life of plant milk, chickpeas, almonds, and greens", [
     ["calcium-without-dairy-pregnancy", "Calcium without dairy"],
@@ -47,5 +49,9 @@ module.exports = [
     ["sprouts-during-pregnancy", "Raw & cooked sprouts"],
     ["deli-meat-pregnancy", "Deli meat & cold cuts"],
     ["leftovers-pregnancy", "Leftovers & takeout"],
+    ["sushi-pregnancy", "Sushi: which rolls are safer"],
+    ["shrimp-pregnancy", "Shrimp, prawns & crab"],
+    ["hot-dogs-pregnancy", "Hot dogs & corn dogs"],
+    ["queso-fresco-pregnancy", "Queso fresco & cooked dishes"],
   ]),
 ];

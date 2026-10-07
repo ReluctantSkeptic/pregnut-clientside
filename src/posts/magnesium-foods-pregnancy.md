@@ -29,11 +29,12 @@ The [NIH magnesium food table](https://ods.od.nih.gov/factsheets/Magnesium-Healt
 | --- | --- | ---: |
 | Roasted pumpkin seeds | 1 ounce | 156 mg |
 | Dry-roasted almonds | 1 ounce | 80 mg |
+| Dry-roasted cashews | 1 ounce | 74 mg |
 | Boiled spinach | ½ cup | 78 mg |
 | Cooked black beans | ½ cup | 60 mg |
 | Cooked brown rice | ½ cup | 42 mg |
 
-A meal with beans and brown rice, or a small serving of seeds alongside another food, can help you build intake across the day. These examples are **different portion sizes**, and brands and preparation can change the numbers. If you choose fortified cereal, check its package label. For more ideas with beans and whole grains, see our [fiber-rich food guide](/blog/fiber-foods-constipation-pregnancy/).
+A meal with beans and brown rice, or a small serving of seeds alongside another food, can help you build intake across the day. These examples are **different portion sizes**, and brands and preparation can change the numbers. If you choose fortified cereal, check its package label. For a nut snack, see our [cashews guide](/blog/cashews-pregnancy/). For more ideas with beans and whole grains, see our [fiber-rich food guide](/blog/fiber-foods-constipation-pregnancy/).
 
 PregNut's food lookup does not currently calculate magnesium. Use the NIH food table above for magnesium amounts; the absence of magnesium on a PregNut food page does not mean the food contains none.
 

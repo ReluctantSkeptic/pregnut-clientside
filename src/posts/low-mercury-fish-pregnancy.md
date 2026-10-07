@@ -62,7 +62,7 @@ Salmon is a Best Choice on the FDA/EPA chart. Cook it thoroughly and count it to
 
 The [FDA/EPA advice](https://www.fda.gov/food/consumers/advice-about-eating-fish) is **two to three 4-ounce adult servings per week** from a *variety* of Best Choices, rather than a separate weekly limit for salmon or shrimp. For example, one 4-ounce serving of cooked salmon and one 4-ounce serving of cooked shrimp make two servings, or 8 ounces total. A third 4-ounce Best Choice would bring the week to 12 ounces. These are examples for applying the chart, not a suggestion to eat only those two seafoods. If a fish was caught locally, check the relevant advisory; FDA gives different advice when no local advisory is available.
 
-Shrimp is a Best Choice for mercury, but food safety is a separate check. [CDC advises cooking shellfish](https://www.cdc.gov/food-safety/foods/pregnant-women.html) until the flesh is pearly or white and opaque.
+Shrimp is a Best Choice for mercury, but food safety is a separate check. [CDC advises cooking shellfish](https://www.cdc.gov/food-safety/foods/pregnant-women.html) until the flesh is pearly or white and opaque. See our [shrimp guide](/blog/shrimp-pregnancy/) for shrimp cocktail, prawns, and crab.
 
 ### Is canned light tuna the same as albacore?
 
@@ -74,7 +74,7 @@ The FDA/EPA chart lists **king mackerel, marlin, orange roughy, shark, swordfish
 
 ### Can I eat raw sushi while pregnant?
 
-The [FDA food safety guidance](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be) warns that raw fish can carry parasites or bacteria. Choose thoroughly cooked seafood.
+The [FDA food safety guidance](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be) warns that raw fish can carry parasites or bacteria. Choose thoroughly cooked seafood. Our [sushi guide](/blog/sushi-pregnancy/) covers which rolls are the safer choice.
 
 ### Does cooking remove mercury?
 

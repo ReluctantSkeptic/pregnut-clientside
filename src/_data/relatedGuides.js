@@ -1,4 +1,28 @@
 module.exports = {
+  "/blog/brussels-sprouts-pregnancy/": [
+    { url: "/blog/folate-folic-acid-pregnancy/", title: "Food folate vs. folic acid" },
+    { url: "/blog/vitamin-c-without-citrus-pregnancy/", title: "More vitamin C foods without citrus" }
+  ],
+  "/blog/sushi-pregnancy/": [
+    { url: "/blog/low-mercury-fish-pregnancy/", title: "Lower-mercury fish choices" },
+    { url: "/blog/smoked-salmon-pregnancy/", title: "Smoked salmon and lox" }
+  ],
+  "/blog/shrimp-pregnancy/": [
+    { url: "/blog/low-mercury-fish-pregnancy/", title: "Lower-mercury fish choices" },
+    { url: "/blog/sushi-pregnancy/", title: "Which sushi rolls are safer" }
+  ],
+  "/blog/cashews-pregnancy/": [
+    { url: "/blog/magnesium-foods-pregnancy/", title: "More magnesium-rich foods" },
+    { url: "/blog/zinc-foods-pregnancy/", title: "Zinc foods without meat" }
+  ],
+  "/blog/hot-dogs-pregnancy/": [
+    { url: "/blog/deli-meat-pregnancy/", title: "Deli meat and cold cuts" },
+    { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" }
+  ],
+  "/blog/queso-fresco-pregnancy/": [
+    { url: "/blog/soft-cheese-pregnancy/", title: "How other soft cheeses compare" },
+    { url: "/blog/raw-milk-pregnancy/", title: "Check milk and yogurt pasteurization" }
+  ],
   "/blog/low-mercury-fish-pregnancy/": [
     { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" },
     { url: "/blog/choline-foods-pregnancy/", title: "Compare choline in fish and other foods" }

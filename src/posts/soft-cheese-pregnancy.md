@@ -22,7 +22,7 @@ dateModified: 2026-09-26
 
 ## Why is queso fresco different?
 
-[FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) people at higher risk of Listeria infection to avoid queso fresco-type cheeses, including queso blanco and requesón, whether the milk was pasteurized or not. These fresh cheeses can support Listeria growth, and contamination can occur after pasteurization. If someone chooses to eat one, FDA recommends cooking it as part of a dish to **165°F** when possible. A label saying “pasteurized” is not, by itself, the answer for this category.
+[FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) people at higher risk of Listeria infection to avoid queso fresco-type cheeses, including queso blanco and requesón, whether the milk was pasteurized or not. These fresh cheeses can support Listeria growth, and contamination can occur after pasteurization. If someone chooses to eat one, FDA recommends cooking it as part of a dish to **165°F** when possible. A label saying “pasteurized” is not, by itself, the answer for this category. Our [queso fresco guide](/blog/queso-fresco-pregnancy/) covers cooked dishes, pupusas, and restaurant orders.
 
 ## Is pasteurized brie okay?
 
