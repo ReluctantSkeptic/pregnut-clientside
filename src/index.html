@@ -5,7 +5,7 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20260927-stack-refined
+  - /style/home.css?v=20261007
 pageScripts:
   - /js/home.js?v=20260927-stack-refined
 ---
@@ -14,16 +14,11 @@ pageScripts:
   <div class="home-hero-copy">
 
         <h1 class="home-title">Pregnancy nutrition, <em>week by week.</em></h1>
-    <p class="home-hero-lede">PregNut turns nutrient research into clear food guidance for each stage of pregnancy—so you can spend less time decoding studies and more time eating well.</p>
+    <p class="home-hero-lede">Clear, source-linked food guidance for every stage of pregnancy.</p>
     <div class="home-actions">
       <a class="home-action is-primary" href="/weekly-diet/">See your weekly guide</a>
       <a class="home-action is-secondary" href="/app/">Explore top foods</a>
     </div>
-    <ul class="home-trust" aria-label="PregNut benefits">
-      <li>Source-linked nutrient references</li>
-      <li>Practical 100g comparisons</li>
-      <li>No account required</li>
-    </ul>
   </div>
   <figure class="home-food-gallery" aria-label="Everyday foods to explore">
   <div class="home-gallery-stage">
@@ -39,30 +34,13 @@ pageScripts:
   </div>
     <figcaption aria-hidden="true"><span>Leafy greens</span><span>Berries</span><span>Avocado</span><span>Lentils</span><span>Salmon</span><span>Sweet potato</span><span>Eggs</span><span>Broccoli</span><span>Greek yogurt</span></figcaption>
   </figure>
-  <a class="home-explore-link" href="#home-explore">Find your way to eating well <span aria-hidden="true">↓</span></a>
 </section>
 <a class="home-mobile-cta" href="/weekly-diet/">See your weekly guide</a>
-<section class="section" aria-label="Pregnancy nutrition reading">
-  <div class="section-header">
-    <h2>Questions about food or supplements?</h2>
-    <p>Explore source-linked guides to pregnancy nutrients, food choices, and prenatal supplements.</p>
-  </div>
-  <p><a href="/blog/prenatal-vitamin-label-pregnancy/">Read a prenatal vitamin label</a> · <a href="/blog/">Browse all guides →</a></p>
-</section>
-
-<section class="home-proof" aria-label="What PregNut offers">
-  <article><strong>40</strong><span>weeks of stage-specific guidance</span></article>
-  <article><strong>100g</strong><span>consistent portions for clean comparisons</span></article>
-  <article><strong>1 view</strong><span>to see what matters right now</span></article>
-</section>
-
 
 <section class="section home-slab is-tone" id="home-explore" aria-label="How to use PregNut">
   <div class="home-slab-shell">
     <div class="home-slab-head is-intro">
-      <p class="home-label">Two ways to explore</p>
       <h2 class="home-lede">Start with your week—or what’s on your plate.</h2>
-      <p class="home-slab-desc">Search a food for its nutrient coverage, or use our guided views to find the strongest options for you right now.</p>
     </div>
     <div class="home-use" aria-label="Explore features">
       <section class="home-search-stage" aria-label="Search foods">
@@ -84,7 +62,7 @@ pageScripts:
           <p class="home-search-status" id="HomeFoodSearchStatus" role="status" hidden></p>
 
           <p class="home-search-hint">
-            Always 100g portions. Need a visual? <a href="/about/#hundred-grams">See how much is 100 grams</a>.
+            Every value is per 100 g. <a href="/about/#hundred-grams">See what 100 g looks like</a>.
           </p>
         </div>
       </section>
@@ -94,7 +72,7 @@ pageScripts:
           <div class="home-feature-head">
             <h3 class="home-lede">Top Foods</h3>
           </div>
-          <p class="home-feature-text">Compare foods by nutrient per 100g, with natural and fortified source filters. Check portions and food safety before choosing one.</p>
+          <p class="home-feature-text">Rank foods by any nutrient, from whole foods or fortified ones.</p>
           <a class="home-feature-cta" href="/app/">Open Top Foods</a>
           <div class="home-feature-media" aria-hidden="true">
             <div class="home-preview-phone">
@@ -122,7 +100,7 @@ pageScripts:
           <div class="home-feature-head">
             <h3 class="home-lede">Weekly Guide</h3>
           </div>
-          <p class="home-feature-text">Set your week (or due date) to see highlighted nutrients and compare food amounts per 100g. Check portions and preparation before choosing a food.</p>
+          <p class="home-feature-text">See which nutrients matter at your stage, and the foods richest in them.</p>
           <a class="home-feature-cta" href="/weekly-diet/">Open Weekly Guide</a>
           <div class="home-feature-media" aria-hidden="true">
             <div class="home-preview-phone">
@@ -159,7 +137,7 @@ pageScripts:
 <section class="section nutrient-library" aria-labelledby="nutrient-library-title">
   <div class="home-slab-head">
     <h2 class="home-lede" id="nutrient-library-title">What your body needs, made clear.</h2>
-    <p class="home-slab-desc">NIH pregnancy reference intakes anchor most comparisons. DHA and protein use illustrative comparison amounts; follow the linked sources and your care team for individual needs.</p>
+    <p class="home-slab-desc">Daily reference amounts for pregnancy, mostly from the NIH. Your care team can tailor them to you. <a href="/blog/">Browse all guides</a></p>
   </div>
   <div id="NeedsDeck" aria-label="Nutrient reference amounts and roles">
     {% for group in nutrientGuidance | batch(4) %}

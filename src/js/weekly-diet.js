@@ -107,6 +107,20 @@
     return "Weeks " + start + "\u2013" + end;
   }
 
+  // "Movement + senses (a very active stretch)" -> "Movement & senses"
+  function displayTitle(t) {
+    var s = String(t || "");
+    var idx = s.indexOf("(");
+    if (idx > 0) s = s.slice(0, idx);
+    return s.replace(/\s*;\s*/g, ", ").replace(/\s\+\s/g, " & ").trim();
+  }
+
+  function trimesterLabel(week) {
+    if (week <= 13) return "First trimester";
+    if (week <= 27) return "Second trimester";
+    return "Third trimester";
+  }
+
   function formatWeeksNav(start, end) {
     if (start === end) return "Week " + start;
     return "Weeks " + start + "-" + end;
@@ -115,9 +129,9 @@
   var TIMELINE_SHORT_TITLES = {
     "wk1-8": "Foundations",
     "wk9-12": "Organ formation",
-    "wk13-16": "Brain skeleton",
-    "wk17-20": "Movement senses",
-    "wk21-24": "Lungs & sleep",
+    "wk13-16": "Brain and skeleton",
+    "wk17-20": "Movement and senses",
+    "wk21-24": "Lungs and sleep",
     "wk25-28": "Readiness",
     "wk29-32": "Birth position",
     "wk33-36": "Weight gain",
@@ -289,66 +303,58 @@
     return icon;
   }
 
-  function renderTimeline(protocol, week, onPickWeek) {
+  function renderTimeline(protocol, week) {
     var root = $("Timeline");
     if (!root) return;
-    var needsBuild = false;
-    try {
-      needsBuild = root.getAttribute("data-built") !== "1" || !root.children || root.children.length !== protocol.periods.length;
-    } catch (e) {
-      needsBuild = true;
-    }
 
-    if (needsBuild) {
+    if (root.getAttribute("data-built") !== "1") {
       clear(root);
       for (var i = 0; i < protocol.periods.length; i++) {
         var p = protocol.periods[i];
-        var item = el("button", "weekly-timeline-step", null);
-        item.type = "button";
-        item.setAttribute("data-period-id", p.id);
-        item.title = p.title || "";
-        try { item.style.setProperty("--step-color", String(PASTEL_RAINBOW[i % PASTEL_RAINBOW.length] || "#9EC3E6")); } catch (e) {}
-
-        var copy = el("span", "weekly-timeline-copy", null);
-        var weeks = el("span", "weekly-timeline-label", formatWeeksNav(p.weeks.start, p.weeks.end));
-        var title = el("span", "weekly-timeline-title", timelineShortTitle(p));
-        copy.appendChild(weeks);
-        copy.appendChild(title);
-        item.appendChild(buildTimelineIcon(p.id));
-        item.appendChild(copy);
-        item.addEventListener("click", (function (start) {
-          return function () { onPickWeek(start); };
-        })(p.weeks.start));
-
-        root.appendChild(item);
+        var span = p.weeks.end - p.weeks.start + 1;
+        var seg = el("div", "wk-seg", null);
+        seg.style.flexGrow = String(span);
+        seg.setAttribute("data-period-id", p.id);
+        var ticks = el("div", "wk-ticks", null);
+        for (var w = p.weeks.start; w <= p.weeks.end; w++) {
+          var tick = el("span", "wk-tick", null);
+          tick.setAttribute("data-week", String(w));
+          ticks.appendChild(tick);
+        }
+        seg.appendChild(ticks);
+        seg.appendChild(el("span", "wk-seg-weeks", p.weeks.start + "–" + p.weeks.end));
+        seg.appendChild(el("span", "wk-seg-title", timelineShortTitle(p)));
+        root.appendChild(seg);
       }
-      try { root.setAttribute("data-built", "1"); } catch (e) {}
+      root.setAttribute("data-built", "1");
     }
 
-    // Update active state without rebuilding (keeps animations smooth).
+    var segs = root.children;
     for (var j = 0; j < protocol.periods.length; j++) {
       var pj = protocol.periods[j];
-      var node = root.children && root.children[j] ? root.children[j] : null;
-      if (!node) continue;
-      var isActive = week >= pj.weeks.start && week <= pj.weeks.end;
-      try {
-        node.classList.toggle("is-active", isActive);
-        node.classList.toggle("is-past", week > pj.weeks.end);
-        node.setAttribute("aria-pressed", isActive ? "true" : "false");
-        if (isActive) node.setAttribute("aria-current", "step");
-        else node.removeAttribute("aria-current");
-      } catch (e) {}
+      if (!segs[j]) continue;
+      segs[j].classList.toggle("is-active", week >= pj.weeks.start && week <= pj.weeks.end);
+      segs[j].classList.toggle("is-past", week > pj.weeks.end);
+    }
+    var ticksAll = root.querySelectorAll(".wk-tick");
+    for (var t = 0; t < ticksAll.length; t++) {
+      var tw = parseInt(ticksAll[t].getAttribute("data-week"), 10);
+      ticksAll[t].classList.toggle("is-current", tw === week);
+      ticksAll[t].classList.toggle("is-past", tw < week);
     }
 
-    try {
-      // Only auto-scroll when the timeline is actually on screen.
-      if (!root.getClientRects || !root.getClientRects().length) return;
-      var rect = root.getBoundingClientRect();
-      var inView = rect.bottom > 0 && rect.top < (window.innerHeight || 0);
-      if (!inView) return;
-      var active = root.querySelector(".weekly-timeline-step.is-active");
-      if (active && active.scrollIntoView) active.scrollIntoView({ block: "nearest", inline: "center" });
-    } catch (e) {}
+    var range = $("WeekRange");
+    if (range && String(range.value) !== String(week)) range.value = String(week);
+    if (range) range.setAttribute("aria-valuetext", "Week " + week);
+    var num = $("WeekNumber");
+    if (num) num.textContent = String(week);
+    var period = getPeriodForWeek(protocol, week);
+    var tCurrent = $("TimelineCurrent");
+    if (tCurrent && period) {
+      clear(tCurrent);
+      tCurrent.appendChild(el("strong", "", timelineShortTitle(period)));
+      tCurrent.appendChild(el("span", "", trimesterLabel(week)));
+    }
   }
 
   function renderChapterArt(artdata, period) {
@@ -366,10 +372,10 @@
 
     var image = $("ChapterArtImage");
     if (image) {
-      image.alt = entry.alt || "Illustration of fetal development.";
-      image.sizes = "(max-width: 640px) 80vw, 270px";
+      image.alt = entry.alt || "";
+      image.sizes = "(max-width: 760px) 92vw, 440px";
       image.srcset = entry.image640 && entry.image960
-        ? entry.image640 + " 640w, " + entry.image960 + " 960w, " + entry.image + " 1254w"
+        ? entry.image640 + " 640w, " + entry.image960 + " 960w, " + entry.image + " 1024w"
         : "";
       image.src = entry.image || "";
     }
@@ -381,48 +387,44 @@
 
     closeAllCautions();
 
+    var chapter = document.querySelector(".wk-chapter");
+    if (chapter && chapter.getAttribute("data-period") !== period.id) {
+      chapter.setAttribute("data-period", period.id);
+      chapter.classList.remove("is-entering");
+      void chapter.offsetWidth;
+      chapter.classList.add("is-entering");
+    }
+
     // Header
     var label = $("PeriodLabel");
     var title = $("PeriodTitle");
     var summary = $("PeriodSummary");
     if (label) label.textContent = formatWeeks(period.weeks.start, period.weeks.end);
-    if (title) title.textContent = period.title;
+    if (title) title.textContent = displayTitle(period.title);
     if (summary) summary.textContent = period.summary || "";
 
-    var tCurrent = $("TimelineCurrent");
-    if (tCurrent) tCurrent.textContent = formatWeeksNav(period.weeks.start, period.weeks.end) + " \u00b7 " + timelineShortTitle(period);
+
 
     renderChapterArt(artdata, period);
 
-    // Period-level citations (shown in details mode)
-    var pCites = $("PeriodCites");
-    if (pCites) {
-      clear(pCites);
-      pCites.className = "cite-list period-cites" + (state.details ? " is-visible" : "");
-      if (state.details && period.citations && period.citations.length) {
-        var cidxP = buildCitationIndex(protocol);
-        for (var pc = 0; pc < period.citations.length; pc++) {
-          var pid = period.citations[pc];
-          var psrc = null;
-          for (var psi = 0; psi < protocol.sources.length; psi++) {
-            if (protocol.sources[psi].id === pid) { psrc = protocol.sources[psi]; break; }
-          }
-          if (!psrc || !psrc.url) continue;
-          var pnum = cidxP[pid] || "?";
-          var pa = el("a", "cite", "[" + pnum + "]");
-          pa.href = psrc.url;
-          pa.target = "_blank";
-          pa.rel = "noopener noreferrer";
-          pa.title = psrc.label || psrc.id;
-          pCites.appendChild(pa);
+    var cidx = buildCitationIndex(protocol);
+    function sourceLinks(ids) {
+      var wrap = el("span", "wk-cites", null);
+      for (var c = 0; c < (ids || []).length; c++) {
+        var src = null;
+        for (var si = 0; si < protocol.sources.length; si++) {
+          if (protocol.sources[si].id === ids[c]) { src = protocol.sources[si]; break; }
         }
+        if (!src || !src.url) continue;
+        var a = el("a", "wk-cite", String(cidx[ids[c]] || "?"));
+        a.href = src.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.title = src.label || src.id;
+        a.setAttribute("aria-label", "Source: " + (src.label || src.id));
+        wrap.appendChild(a);
       }
-    }
-
-    // Hint
-    var hint = $("WeekPeriodHint");
-    if (hint) {
-      hint.textContent = "You are viewing " + formatWeeks(period.weeks.start, period.weeks.end) + ".";
+      return wrap.firstChild ? wrap : null;
     }
 
     // Development list
@@ -441,123 +443,70 @@
       clear(notes);
       var ns = period.notes || [];
       for (var j = 0; j < ns.length; j++) {
-        var note = ns[j];
-        if (typeof note === "string") {
-          notes.appendChild(el("div", "note-chip", note));
-          continue;
-        }
-        var chip = el("div", "note-chip", note.text || "");
-        if (state.details && note.citations && note.citations.length) {
-          var cidxN = buildCitationIndex(protocol);
-          var cl = el("div", "cite-list", null);
-          for (var nc = 0; nc < note.citations.length; nc++) {
-            var nid = note.citations[nc];
-            var nsrc = null;
-            for (var nsi = 0; nsi < protocol.sources.length; nsi++) {
-              if (protocol.sources[nsi].id === nid) { nsrc = protocol.sources[nsi]; break; }
-            }
-            if (!nsrc || !nsrc.url) continue;
-            var nnum = cidxN[nid] || "?";
-            var na = el("a", "cite", "[" + nnum + "]");
-            na.href = nsrc.url;
-            na.target = "_blank";
-            na.rel = "noopener noreferrer";
-            na.title = nsrc.label || nsrc.id;
-            cl.appendChild(na);
-          }
-          chip.appendChild(cl);
-        }
-        notes.appendChild(chip);
+        var note = typeof ns[j] === "string" ? { text: ns[j] } : ns[j];
+        var li = el("li", "", note.text || "");
+        var nc = sourceLinks(note.citations);
+        if (nc) li.appendChild(nc);
+        notes.appendChild(li);
       }
+      var pc = sourceLinks(period.citations);
+      if (pc) {
+        var srcLine = el("li", "wk-notes-sources", "Sources for this stage ");
+        srcLine.appendChild(pc);
+        notes.appendChild(srcLine);
+      }
+      notes.hidden = !notes.firstChild;
     }
 
-    // Nutrients cards
+    // Prioritized nutrients; everything else is listed in one line.
     var cards = $("NutrientCards");
     if (cards) {
       clear(cards);
-      var cidx = buildCitationIndex(protocol);
-      var priMap = {};
-      var priRaw = period.nutrients || [];
-      for (var pi = 0; pi < priRaw.length; pi++) {
-        if (!priRaw[pi] || !priRaw[pi].id) continue;
-        priMap[priRaw[pi].id] = priRaw[pi];
-      }
-
-      var allIds = [];
-      for (var nid in (fooddata && fooddata.nutrients ? fooddata.nutrients : {})) {
-        if (!fooddata.nutrients.hasOwnProperty(nid)) continue;
-        if (nid === "Calories") continue;
-        if (!fooddata.nutrients[nid] || !fooddata.nutrients[nid].rda) continue;
-        allIds.push(nid);
-      }
-      allIds.sort(function (a, b) { return a.localeCompare(b); });
-
-      var nutrients = [];
-      for (var ai = 0; ai < allIds.length; ai++) {
-        var id = allIds[ai];
-        var base = priMap[id] || null;
-        nutrients.push({
-          id: id,
-          priority: base ? base.priority : "supporting",
-          why: base ? base.why : "Supporting nutrient this period.",
-          details: base ? base.details : "",
-          citations: base ? base.citations : null
-        });
-      }
-      nutrients.sort(function (a, b) {
-        var pa = normalizePriority(a.priority);
-        var pb = normalizePriority(b.priority);
-        var oa = pa === "high" ? 0 : pa === "medium" ? 1 : 2;
-        var ob = pb === "high" ? 0 : pb === "medium" ? 1 : 2;
-        if (oa !== ob) return oa - ob;
-        return String(a.id || "").localeCompare(String(b.id || ""));
+      var order = { high: 0, medium: 1, supporting: 2 };
+      var picked = (period.nutrients || []).filter(function (n) {
+        return n && n.id && fooddata.nutrients[n.id];
+      }).slice().sort(function (a, b) {
+        return order[normalizePriority(a.priority)] - order[normalizePriority(b.priority)];
       });
-
-      for (var k = 0; k < nutrients.length; k++) {
-        var n = nutrients[k];
-        var nId = n.id;
-        var nInfo = fooddata.nutrients[nId] || {};
-        var rdaLabel = nInfo.rda && nInfo.rda.label ? nInfo.rda.label : "";
-
-        var card = el("article", "nutrient-card", null);
+      var pickedIds = {};
+      for (var k = 0; k < picked.length; k++) {
+        var n = picked[k];
+        pickedIds[n.id] = true;
         var pri = normalizePriority(n.priority);
-        card.className += " priority-" + pri;
-        if (state.details) card.className += " is-detailed";
-
-        var top = el("div", "nutrient-top", null);
-        top.appendChild(el("p", "nutrient-name", nId));
-        top.appendChild(el("p", "nutrient-rda", rdaLabel));
-        card.appendChild(top);
-
-        var priPill = el("div", "priority-pill is-" + pri, PRIORITY_LABEL[pri] || pri);
-        card.appendChild(priPill);
-
-        card.appendChild(el("p", "nutrient-why", n.why || ""));
-
-        var details = el("div", "nutrient-details", null);
-        if (n.details) details.appendChild(el("p", "nutrient-why", n.details));
-
-        if (n.citations && n.citations.length) {
-          var cl = el("div", "cite-list", null);
-          for (var c = 0; c < n.citations.length; c++) {
-            var sid = n.citations[c];
-            var src = null;
-            for (var si = 0; si < protocol.sources.length; si++) {
-              if (protocol.sources[si].id === sid) { src = protocol.sources[si]; break; }
-            }
-            if (!src || !src.url) continue;
-            var num = cidx[sid] || "?";
-            var a = el("a", "cite", "[" + num + "]");
-            a.href = src.url;
-            a.target = "_blank";
-            a.rel = "noopener noreferrer";
-            a.title = src.label || src.id;
-            cl.appendChild(a);
-          }
-          details.appendChild(cl);
+        var nInfo = fooddata.nutrients[n.id] || {};
+        var row = el("li", "wk-nutrient is-" + pri, null);
+        var head = el("div", "wk-nutrient-head", null);
+        head.appendChild(el("h3", "wk-nutrient-name", n.id));
+        head.appendChild(el("span", "wk-nutrient-tag", PRIORITY_LABEL[pri] || pri));
+        row.appendChild(head);
+        var body = el("p", "wk-nutrient-why", n.why || "");
+        var cites = sourceLinks(n.citations);
+        if (cites) body.appendChild(cites);
+        row.appendChild(body);
+        var meta = el("p", "wk-nutrient-meta", null);
+        if (nInfo.rda && nInfo.rda.label) {
+          meta.appendChild(el("span", "", "Reference " + nInfo.rda.label + " a day"));
         }
-        card.appendChild(details);
-        cards.appendChild(card);
+        if (NUTRIENT_GUIDES[n.id]) {
+          var g = el("a", "", "Read the guide");
+          g.href = NUTRIENT_GUIDES[n.id];
+          meta.appendChild(g);
+        }
+        if (meta.firstChild) row.appendChild(meta);
+        cards.appendChild(row);
+      }
+
+      var also = $("AlsoNutrients");
+      if (also) {
+        var rest = [];
+        for (var nid in fooddata.nutrients) {
+          if (!fooddata.nutrients.hasOwnProperty(nid) || nid === "Calories") continue;
+          if (!fooddata.nutrients[nid] || !fooddata.nutrients[nid].rda || pickedIds[nid]) continue;
+          rest.push(nid);
+        }
+        rest.sort(function (a, b) { return a.localeCompare(b); });
+        also.textContent = rest.length ? "Still part of a balanced day: " + rest.join(", ") + "." : "";
+        also.hidden = !rest.length;
       }
     }
 
@@ -807,7 +756,7 @@
     var initialWeek = readUrlWeek();
     var state = {
       week: clamp(safeNumber(initialWeek !== null ? initialWeek : prefs.week) || 4, MIN_WEEK, MAX_WEEK),
-      naturalOnly: typeof globalPrefs.naturalOnly === "boolean" ? globalPrefs.naturalOnly : !!prefs.naturalOnly,
+      naturalOnly: typeof globalPrefs.naturalOnly === "boolean" ? globalPrefs.naturalOnly : (typeof prefs.naturalOnly === "boolean" ? prefs.naturalOnly : true),
       details: false,
       selectedNutrient: typeof prefs.selectedNutrient === "string" ? prefs.selectedNutrient : null
     };
@@ -824,8 +773,40 @@
       state.week = clamp(parseInt(newWeek, 10) || state.week, MIN_WEEK, MAX_WEEK);
       writeUrlWeek(state.week);
       persist(state);
-      renderTimeline(protocol, state.week, setWeek);
-      renderPeriod(protocol, fooddata, state, artdata);
+      renderTimeline(protocol, state.week);
+      var nextPeriod = getPeriodForWeek(protocol, state.week);
+      if (nextPeriod !== currentPeriod) {
+        currentPeriod = nextPeriod;
+        renderPeriod(protocol, fooddata, state, artdata);
+      }
+    }
+    var currentPeriod = getPeriodForWeek(protocol, state.week);
+
+    var range = $("WeekRange");
+    if (range) {
+      range.addEventListener("input", function () { setWeek(range.value); });
+    }
+
+    // Pointer scrubbing on the ruler: each week owns an equal slice of the track.
+    var track = $("Timeline");
+    if (track) {
+      var scrubbing = false;
+      var weekAt = function (ev) {
+        var r = track.getBoundingClientRect();
+        var x = clamp((ev.clientX - r.left) / r.width, 0, 0.9999);
+        return Math.floor(x * MAX_WEEK) + MIN_WEEK;
+      };
+      track.addEventListener("pointerdown", function (ev) {
+        scrubbing = true;
+        try { track.setPointerCapture(ev.pointerId); } catch (e) {}
+        setWeek(weekAt(ev));
+      });
+      track.addEventListener("pointermove", function (ev) {
+        if (scrubbing) setWeek(weekAt(ev));
+      });
+      var stop = function () { scrubbing = false; };
+      track.addEventListener("pointerup", stop);
+      track.addEventListener("pointercancel", stop);
     }
 
     // One global toggle remains: natural vs processed sources.
@@ -859,7 +840,7 @@
       setWeek(protocol.periods[nextIdx].weeks.start);
     });
 
-    renderTimeline(protocol, state.week, setWeek);
+    renderTimeline(protocol, state.week);
     renderPeriod(protocol, fooddata, state, artdata);
     writeUrlWeek(state.week);
     persist(state);
@@ -868,6 +849,8 @@
   }
 
   var imageMap = {};
+  var NUTRIENT_GUIDES = {};
+  try { NUTRIENT_GUIDES = JSON.parse(($("NutrientGuides") || {}).textContent || "{}"); } catch (e) {}
 
   window.addEventListener("load", function () {
     Promise.all([

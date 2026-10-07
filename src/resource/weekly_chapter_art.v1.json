@@ -1,66 +1,66 @@
 {
-  "version": "v1",
+  "version": "v2",
   "chapters": [
     {
       "periodId": "wk1-8",
       "image": "/resource/weekly-guides/chapter-wk1-8.webp",
-      "alt": "Friendly flat-cartoon illustration of an early embryo-like form inside a heart-shaped translucent womb with teal outlines and pastel accents.",
+      "alt": "A bowl of cooked lentils, a halved hard-boiled egg, half an avocado, and wilted spinach on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk1-8-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk1-8-960.webp"
     },
     {
       "periodId": "wk9-12",
       "image": "/resource/weekly-guides/chapter-wk9-12.webp",
-      "alt": "Friendly flat-cartoon illustration of a small curled developing baby inside a heart-shaped translucent womb with teal outlines and pastel accents.",
+      "alt": "A bowl of cooked chickpeas, asparagus spears, orange segments, and pumpkin seeds on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk9-12-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk9-12-960.webp"
     },
     {
       "periodId": "wk13-16",
       "image": "/resource/weekly-guides/chapter-wk13-16.webp",
-      "alt": "Friendly flat-cartoon illustration of a growing curled baby with a stylized spine and brain-development star inside a heart-shaped translucent womb.",
+      "alt": "Cooked salmon, a bowl of Greek yogurt, a halved hard-boiled egg, and almonds on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk13-16-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk13-16-960.webp"
     },
     {
       "periodId": "wk17-20",
       "image": "/resource/weekly-guides/chapter-wk17-20.webp",
-      "alt": "Friendly flat-cartoon illustration of a growing baby with soft sound waves and motion marks inside a heart-shaped translucent womb.",
+      "alt": "Slices of well-done beef, fresh spinach leaves, and red bell pepper strips on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk17-20-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk17-20-960.webp"
     },
     {
       "periodId": "wk21-24",
       "image": "/resource/weekly-guides/chapter-wk21-24.webp",
-      "alt": "Friendly flat-cartoon illustration of a growing baby with gentle breathing bubbles inside a heart-shaped translucent womb.",
+      "alt": "A bowl of cooked white beans, cubes of tofu, a halved kiwi, and broccoli florets on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk21-24-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk21-24-960.webp"
     },
     {
       "periodId": "wk25-28",
       "image": "/resource/weekly-guides/chapter-wk25-28.webp",
-      "alt": "Friendly flat-cartoon illustration of a larger curled baby with an open eye inside a heart-shaped translucent womb.",
+      "alt": "A cooked trout fillet, walnut halves, a sprig of kale, and pumpkin seeds on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk25-28-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk25-28-960.webp"
     },
     {
       "periodId": "wk29-32",
       "image": "/resource/weekly-guides/chapter-wk29-32.webp",
-      "alt": "Friendly flat-cartoon illustration of a curled baby in a head-down position inside a heart-shaped translucent womb.",
+      "alt": "Cubes of tofu, bowls of edamame and Greek yogurt, and dried apricots on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk29-32-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk29-32-960.webp"
     },
     {
       "periodId": "wk33-36",
       "image": "/resource/weekly-guides/chapter-wk33-36.webp",
-      "alt": "Friendly flat-cartoon illustration of a rounder curled baby inside a heart-shaped translucent womb with pastel growth motifs.",
+      "alt": "Slices of cooked chicken breast, a bowl of black beans, a glass of milk, and kale on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk33-36-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk33-36-960.webp"
     },
     {
       "periodId": "wk37-40",
       "image": "/resource/weekly-guides/chapter-wk37-40.webp",
-      "alt": "Friendly flat-cartoon illustration of a full-term baby sleeping snugly inside a heart-shaped translucent womb with pastel stars and hearts.",
+      "alt": "A bowl of oatmeal, a bowl of Greek yogurt, dates, and almonds on a cream backdrop.",
       "image640": "/resource/weekly-guides/chapter-wk37-40-640.webp",
       "image960": "/resource/weekly-guides/chapter-wk37-40-960.webp"
     }
