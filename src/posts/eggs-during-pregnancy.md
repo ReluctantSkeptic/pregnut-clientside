@@ -39,7 +39,7 @@ The yolk follows the same rule as the whole egg (“pasteurised” is the Britis
 
 CDC lists raw or undercooked runny eggs as a riskier choice during pregnancy. It recommends **pasteurized eggs** in foods that will not be cooked to a safe temperature, such as mousse and salad dressing. The FDA likewise recommends pasteurized shell eggs or egg products for recipes served with raw or undercooked egg, including homemade Caesar dressing and ice cream. Look for the word **pasteurized** on the egg or product label; an ordinary carton of shell eggs should not be assumed to be pasteurized.
 
-Commercial mayonnaise, dressings, and sauces commonly use pasteurized eggs, according to the [FDA's pregnancy food-safety guide](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be). For a homemade version or a restaurant sauce, ask how it was prepared if the ingredients are unclear. The same question applies to homemade eggnog, mousse, tiramisu, and raw batter.
+Commercial mayonnaise, dressings, and sauces commonly use pasteurized eggs, according to the [FDA's pregnancy food-safety guide](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be). For a homemade version or a restaurant sauce, ask how it was prepared if the ingredients are unclear. Our [mayonnaise guide](/blog/mayonnaise-pregnancy/) covers aioli, restaurant sauces, and deli salads. The same question applies to homemade eggnog, mousse, tiramisu, and raw batter.
 
 ## Can you eat poached eggs when pregnant?
 

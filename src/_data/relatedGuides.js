@@ -1,4 +1,32 @@
 module.exports = {
+  "/blog/medium-rare-steak-pregnancy/": [
+    { url: "/blog/iron-foods-pregnancy/", title: "Iron-rich foods and pairings" },
+    { url: "/blog/leftovers-pregnancy/", title: "Store and reheat cooked leftovers" }
+  ],
+  "/blog/mayonnaise-pregnancy/": [
+    { url: "/blog/eggs-during-pregnancy/", title: "Check egg doneness and pasteurization" },
+    { url: "/blog/deli-meat-pregnancy/", title: "Deli meat and cold cuts" }
+  ],
+  "/blog/sour-cream-pregnancy/": [
+    { url: "/blog/raw-milk-pregnancy/", title: "Check milk and yogurt pasteurization" },
+    { url: "/blog/calcium-without-dairy-pregnancy/", title: "Compare calcium foods" }
+  ],
+  "/blog/ice-cream-pregnancy/": [
+    { url: "/blog/raw-milk-pregnancy/", title: "Check milk and yogurt pasteurization" },
+    { url: "/blog/eggs-during-pregnancy/", title: "Raw eggs and pasteurized eggs" }
+  ],
+  "/blog/pepperoni-pregnancy/": [
+    { url: "/blog/deli-meat-pregnancy/", title: "Deli meat and cold cuts" },
+    { url: "/blog/hot-dogs-pregnancy/", title: "How to heat hot dogs" }
+  ],
+  "/blog/oysters-pregnancy/": [
+    { url: "/blog/shrimp-pregnancy/", title: "Shrimp, prawns, and crab" },
+    { url: "/blog/zinc-foods-pregnancy/", title: "More zinc foods" }
+  ],
+  "/blog/cereal-pregnancy/": [
+    { url: "/blog/folate-folic-acid-pregnancy/", title: "Food folate vs. folic acid" },
+    { url: "/blog/iron-foods-pregnancy/", title: "Iron-rich foods and pairings" }
+  ],
   "/blog/brussels-sprouts-pregnancy/": [
     { url: "/blog/folate-folic-acid-pregnancy/", title: "Food folate vs. folic acid" },
     { url: "/blog/vitamin-c-without-citrus-pregnancy/", title: "More vitamin C foods without citrus" }
