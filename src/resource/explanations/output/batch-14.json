@@ -1,0 +1,898 @@
+{
+  "13355": {
+    "verdict": "Safe with precautions",
+    "explanation": "Beef pastrami is safe with precautions during pregnancy only when reheated until steaming hot. Deli meats like pastrami pose a serious risk of Listeria monocytogenes infection if consumed cold from the deli counter. The CDC and FDA instruct pregnant women to heat deli meats to 165°F just before eating. Enjoy your pastrami in a hot grilled Reuben sandwich with pasteurized Swiss cheese.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "19002": {
+    "verdict": "Caution",
+    "explanation": "Formed beef jerky requires caution and should be limited during pregnancy due to high sodium and drying processes. While commercial jerky is shelf-stable and delivers protein and zinc, it can carry high bacterial survival risks if under-processed, and homemade jerky must be avoided entirely. Furthermore, extreme sodium density can elevate blood pressure and fluid retention. Satisfy meat cravings with freshly cooked steak or roasted beef cooked to safe internal temperatures.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19003": {
+    "verdict": "Limit",
+    "explanation": "Extruded corn chips should be limited during pregnancy because of high sodium and saturated fat content. They offer carbohydrates and small amounts of calcium from corn nixtamalization, but frying increases caloric density significantly. High salt consumption can exacerbate pregnancy-related swelling and strain cardiovascular health. Substitute baked corn tortillas or air-popped popcorn for a lighter crunch.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19008": {
+    "verdict": "Limit",
+    "explanation": "Cheese-flavored extruded corn puffs should be limited during pregnancy due to heavy processing. They contain fortified riboflavin and folate but deliver high sodium, refined fats, and artificial flavorings with little satiety. Overreliance on salty snack foods can aggravate hypertension and fluid retention in pregnancy. Choose roasted chickpeas or raw nuts when you crave a crunchy midday snack.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19009": {
+    "verdict": "Safe with precautions",
+    "explanation": "Corn Nuts roasted corn snacks are safe with precautions during pregnancy when enjoyed in moderation. They contribute whole-grain corn carbohydrates, dietary fiber, and zinc. Watch your portion sizes because commercial packages are loaded with sodium, and chew carefully to avoid dental damage on very hard kernels. Drink plenty of water throughout the day to balance sodium intake.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19015": {
+    "verdict": "Safe with precautions",
+    "explanation": "Hard granola bars are safe with precautions during pregnancy when consumed in moderation. They contribute whole-grain rolled oats, fiber, and trace minerals like zinc and iron to assist digestion. Check the label for sticky honey or cane sugar content that contributes unneeded empty calories. Crumble half a package over unsweetened plain Greek yogurt for sustained satiety.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19026": {
+    "verdict": "Limit",
+    "explanation": "Chocolate-coated peanut butter granola bars should be limited during pregnancy due to high sugar and fat content. They offer small amounts of protein and zinc from peanut butter, but the confectionery chocolate coating adds excess saturated fat and simple sugars. Reserve these sweet bars for occasional treats rather than daily prenatal fuel. Choose plain peanut butter spread on whole-grain toast for superior nourishment.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19033": {
+    "verdict": "Safe with precautions",
+    "explanation": "Chex mix snack mix is safe with precautions during pregnancy when eaten in measured portions. It supplies fortified B vitamins, iron, and dietary carbohydrates from wheat, corn, and rye grains. Keep portions within single-serving guidelines because seasoning blends contain significant sodium. Balance the snack with plenty of water and a piece of fresh fruit.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19049": {
+    "verdict": "Limit",
+    "explanation": "Combos cheddar cheese pretzel snacks should be limited during pregnancy due to their ultra-processed nutritional profile. They offer minor amounts of calcium and riboflavin from cheese filling, but are extremely dense in sodium, saturated fat, and refined flour. Frequent consumption of salty, processed snacks can exacerbate maternal edema and hypertension. Reach for whole-grain pretzels with real sliced cheddar cheese instead.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19400": {
+    "verdict": "Limit",
+    "explanation": "Banana chips should be limited during pregnancy because they are commonly fried in oil and sweetened. They supply small amounts of potassium and fiber, but frying and added sweeteners make them much higher in saturated fat and calories than fresh bananas. Keep portions modest to avoid excess maternal weight gain. Choose fresh bananas instead for natural potassium and vitamin B6 without added fats.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19404": {
+    "verdict": "Limit",
+    "explanation": "Soft chocolate chip granola bars should be limited during pregnancy because they function more like cookies than wholesome grains. While whole oats provide a little dietary fiber, the chocolate chips and binding syrups drive up sugar content. Frequent consumption can complicate gestational blood glucose management. Satisfy sweet cravings with fresh berries or homemade oatmeal with a few dark chocolate chips.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19434": {
+    "verdict": "Limit",
+    "explanation": "Low-fat baked corn cheese puffs should be limited during pregnancy due to their ultra-processed composition. They contribute fortified B vitamins but offer minimal fiber, protein, or real micronutrients while delivering substantial sodium. Frequent intake of processed snack foods can crowd out nutrient-dense meals needed for gestational health. Enjoy a small handful occasionally and opt for real pasteurized cheese for true calcium support.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19435": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fruit-filled nonfat granola bars are safe with precautions during pregnancy as an occasional snack. They deliver fortified folate, vitamin B6, and iron without animal fats to support daily micronutrient needs. Review the ingredient list for added sugars and syrups that can spike maternal blood sugar. Eat one bar alongside a handful of raw almonds to slow glucose absorption.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19438": {
+    "verdict": "Limit",
+    "explanation": "Rice Krispies treats squares should be limited during pregnancy due to their concentrated refined sugars. They supply fortified B vitamins from toasted rice cereal, but marshmallow syrup and butter provide high calories with little protein or fiber. Excessive intake of simple sweets may increase the risk of gestational diabetes and unnecessary weight gain. Treat them as an infrequent dessert rather than a daily snack.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19441": {
+    "verdict": "Safe with precautions",
+    "explanation": "Nutri-Grain fruit cereal bars are safe with precautions during pregnancy when chosen as an occasional fast breakfast. They deliver fortified calcium, vitamin B6, and riboflavin to support fetal skeletal and metabolic development. Note that the fruit filling relies heavily on high-fructose corn syrup and fruit concentrates. Pair a bar with a boiled egg or glass of milk to incorporate protein and stabilize blood sugar.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "25013": {
+    "verdict": "Safe with precautions",
+    "explanation": "SunChips multigrain snacks are safe with precautions during pregnancy when eaten in moderation. They provide whole-grain fiber from corn, oats, and whole wheat to help support bowel regularity. Be mindful of portion size because flavored varieties carry notable sodium and vegetable oils. Pair a single serving with baby carrots and hummus for a more balanced snack.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "25021": {
+    "verdict": "Safe with precautions",
+    "explanation": "Luna bars are safe with precautions during pregnancy as an occasional nutrient-fortified snack bar. They provide plant protein, calcium, vitamin B12, and high levels of supplemental folic acid. Review your daily prenatal vitamin supplement to make sure total synthetic folic acid does not exceed 1000 micrograms daily. Eat half a bar when you need a portable bridge between scheduled meals.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "25046": {
+    "verdict": "Safe with precautions",
+    "explanation": "Bagel chips are safe with precautions during pregnancy when consumed in sensible portion sizes. They provide quick carbohydrates and fortified B vitamins, but commercial varieties are often high in sodium and refined flour. Check nutrition labels for sodium levels to avoid excessive fluid retention. Pair a small serving with calcium-rich hummus or pasteurized cottage cheese.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "25048": {
+    "verdict": "Safe with precautions",
+    "explanation": "Nutri-Grain fruit and nut bars are safe with precautions during pregnancy when eaten in moderation. They offer dietary fiber, healthy fats, and fortified B vitamins from whole grains and nuts. Be attentive to added sugars in the fruit binding syrups to avoid unwanted blood sugar spikes. Enjoy a bar alongside a glass of water on busy mornings on the go.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "25051": {
+    "verdict": "Safe with precautions",
+    "explanation": "Clif bars are safe with precautions during pregnancy as an occasional on-the-go snack. They supply plant protein, dietary fiber, and fortified vitamins to help meet elevated caloric needs during busy days. Because these energy bars contain substantial added sugars and fortified micronutrients, check labels to prevent excessive vitamin intake alongside your prenatal vitamin. Enjoy half a bar alongside fresh fruit when you need quick energy.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "25059": {
+    "verdict": "Safe with precautions",
+    "explanation": "Brown rice chips are safe with precautions during pregnancy when eaten in moderate snack portions. They provide whole-grain complex carbohydrates, fiber, and trace minerals like magnesium and zinc. Inspect package labels to choose low-sodium brands that avoid artificial seasonings. Dip a handful into fresh guacamole or bean dip for healthy fats and plant protein.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "36041": {
+    "verdict": "Safe with precautions",
+    "explanation": "Restaurant meat lasagna is safe with precautions during pregnancy when baked until bubbling hot. It delivers calcium, protein, and iron from dairy and beef layers to aid fetal bone and muscle development. Ensure the cheeses used are pasteurized and the entire casserole is heated to 165°F to eliminate bacterial risks. Enjoy a modest slice paired with a crisp garden salad.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "36403": {
+    "verdict": "Safe with precautions",
+    "explanation": "Prepared beef empanadas are safe with precautions during pregnancy when served steaming hot. They provide bioavailable iron, zinc, and protein inside a baked or fried pastry crust. Make certain the ground beef filling has reached at least 160°F during cooking to eliminate microbial risks. Eat them fresh from the oven and avoid empanadas that sat in unheated display cases.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "36409": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pupusas con queso are safe with precautions during pregnancy when freshly griddled and made with pasteurized cheese. They contribute calcium, phosphorus, and energy from masa and melted cheese. Confirm that the cheese filling uses pasteurized milk and the pupusa is cooked on a hot griddle until steaming hot inside. Enjoy with freshly prepared curtido cabbage slaw made under clean conditions.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "36410": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pork pupusas are safe with precautions during pregnancy when cooked thoroughly on the griddle. They offer animal protein, B vitamins, and dietary energy to support growing maternal metabolic needs. Make certain the pork filling is thoroughly cooked and the pupusa arrives steaming hot throughout. Pair them with a side of black beans and sliced avocado.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "36411": {
+    "verdict": "Safe with precautions",
+    "explanation": "Corn tamales are safe with precautions during pregnancy when steamed thoroughly and served hot. They supply complex carbohydrates, fiber, and small amounts of B vitamins from ground corn masa. Ensure tamales are served steaming hot to guard against temperature abuse during street or restaurant holding. Top with fresh tomato salsa for extra vitamin C.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "36412": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pork tamales are safe with precautions during pregnancy when heated to safe internal temperatures. They provide animal protein, iron, and zinc along with energy from corn masa dough. Ensure the tamale is steamed until the internal meat reaches 165°F to destroy any bacterial organisms. Eat freshly unwrapped tamales while hot and refrigerate leftovers immediately.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "36417": {
+    "verdict": "Safe with precautions",
+    "explanation": "Restaurant Spanish rice is safe with precautions during pregnancy if served fresh and piping hot. It delivers dietary carbohydrates and enriched folate, but cooked rice can harbor Bacillus cereus if allowed to cool slowly. Avoid rice dishes held on warmers at ambiguous temperatures and request freshly made servings. Pair with black beans and grilled chicken for balanced macronutrients.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "36418": {
+    "verdict": "Safe with precautions",
+    "explanation": "Restaurant refried beans are safe with precautions during pregnancy when served piping hot. They supply plant protein, soluble fiber, folate, and potassium to aid maternal digestion and fetal spinal development. Verify that beans are kept steaming hot rather than lingering in lukewarm buffet warmers. Choose varieties prepared with vegetable oil rather than animal lard when possible.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "36602": {
+    "verdict": "Safe with precautions",
+    "explanation": "Meatless Chinese fried rice is safe with precautions during pregnancy if served fresh and piping hot. Rice provides quick carbohydrate energy, but cooked rice held at room temperature can harbor heat-stable toxins from Bacillus cereus bacteria. Make certain the fried rice is cooked fresh to order and served steaming throughout. Refrigerate leftovers promptly within two hours and reheat thoroughly before eating.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "36603": {
+    "verdict": "Safe with precautions",
+    "explanation": "Restaurant Chinese beef and vegetables is safe with precautions during pregnancy when served steaming hot. It delivers bioavailable iron, zinc, and dietary fiber, but takeout dishes often carry elevated sodium levels. Ensure the dish is freshly prepared and piping hot to avoid foodborne illness from lukewarm holding trays. Ask for sauce on the side to manage total sodium intake.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "36618": {
+    "verdict": "Safe with precautions",
+    "explanation": "Restaurant General Tso's chicken is safe with precautions during pregnancy when served piping hot. It provides poultry protein and niacin, though battered frying and sweet glaze make it high in sugar and sodium. Check that the chicken meat is thoroughly cooked to 165°F and skip dishes that sat under heat lamps. Pair a moderate portion with plenty of steamed broccoli and brown rice.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "36619": {
+    "verdict": "Safe with precautions",
+    "explanation": "Restaurant Kung Pao chicken is safe with precautions during pregnancy when cooked fresh and served hot. It offers lean chicken protein, peanuts, and vegetables, but chili peppers and sodium can be quite intense. Confirm that the chicken pieces are thoroughly cooked and piping hot to prevent food safety concerns. Moderate your portion if spicy food triggers pregnancy acid reflux or heartburn.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "36624": {
+    "verdict": "Safe with precautions",
+    "explanation": "Vegetable chow mein without meat or noodles is safe with precautions during pregnancy when cooked thoroughly. It provides dietary fiber, potassium, and vitamin C from crisp stir-fried vegetables like cabbage and celery. Make sure the vegetables are cooked thoroughly and served piping hot rather than raw or lukewarm. Request reduced sauce to control dietary sodium intake.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "36629": {
+    "verdict": "Safe with precautions",
+    "explanation": "Restaurant orange chicken is safe with precautions during pregnancy when freshly cooked and served hot. The chicken provides animal protein, but the deep-fried coating and citrus syrup add high amounts of sugar and saturated fat. Ensure the poultry is cooked to an internal temperature of 165°F before eating. Enjoy in moderation and balance the meal with plain steamed vegetables.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "36633": {
+    "verdict": "Safe with precautions",
+    "explanation": "Restaurant sesame chicken is safe with precautions during pregnancy provided it is served fresh and steaming hot. It provides dietary protein and small amounts of minerals from sesame seeds, though sweet sauces increase total carbohydrate intake. Verify that the chicken is fully cooked inside with no translucent meat remaining. Order a side of steamed greens to enhance fiber and micronutrient variety.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "43282": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked quail is safe with precautions during pregnancy when roasted or braised thoroughly. It is a dense source of heme iron, zinc, and complete protein in a compact portion. Ensure the whole bird reaches an internal temperature of 165°F before eating to prevent Salmonella exposure. Pair with roasted root vegetables and a whole-grain pilaf.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43283": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked pheasant is safe with precautions during pregnancy when prepared to safe internal temperatures. It delivers lean protein, phosphorus, and iron to assist maternal energy production and blood formation. Cook pheasant meat until a food thermometer registers 165°F to eliminate bacterial risks. If consuming wild hunted game, confirm that non-lead ammunition was utilized.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "43287": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked dove and squab are safe with precautions during pregnancy when heated to safe internal endpoints. These game birds deliver heme iron, zinc, and bioavailable protein to help meet heightened prenatal hematologic needs. Cook all wild or farm-raised game birds to a verified internal temperature of 165°F to destroy parasites and bacteria. Avoid wild game hunted with lead ammunition due to lead toxicity risks.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "05064": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted skinless chicken breast is safe with precautions during pregnancy when cooked to safe temperatures. It provides high-quality animal protein, vitamin B6, and choline to assist fetal growth and placental function. The USDA advises using a food thermometer to confirm an internal temperature of at least 165°F. Serve it sliced over mixed greens or folded into whole-grain wraps.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "05277": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned chicken breast in broth is safe with precautions during pregnancy when heated thoroughly before serving. It delivers convenient lean protein, iron, and niacin, though canning liquid often contains significant sodium. Reheat the meat in a small pot or microwave until steaming hot to minimize any foodborne illness risk. Rinse the meat under cold water before heating if you wish to lower sodium levels.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "05028": {
+    "verdict": "Avoid",
+    "explanation": "Cooked chicken liver should be avoided during pregnancy due to hazardous amounts of preformed vitamin A. Liver contains exceptionally high concentrations of retinol, which can cause severe fetal malformations and developmental birth defects. Both ACOG and the NHS instruct pregnant women to avoid eating liver or taking high-dose retinol supplements. Substitute other poultry cuts like chicken thighs or breasts for safe dietary iron and protein.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "05009": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted chicken meat and skin is safe with precautions during pregnancy when cooked thoroughly. It contributes complete protein, heme iron, and B vitamins necessary for expanding maternal red blood cell counts. Cook all parts of the bird to an internal temperature of 165°F checked with a meat thermometer. Moderate portion sizes of the skin to keep saturated fat intake within recommended guidelines.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "05013": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted skinless chicken meat is safe with precautions during pregnancy when cooked to the correct internal heat. It delivers lean protein, phosphorus, and zinc without excess saturated lipids to nourish maternal muscle mass. Check that the thickest part of the meat reaches 165°F to eliminate Salmonella and Campylobacter bacteria. Pair it with steamed broccoli and quinoa for a well-rounded meal.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "05103": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted chicken wings are safe with precautions during pregnancy when fully cooked through to the bone. They supply animal protein and zinc, though the skin and preparation methods add notable fat and calories. Verify with a food probe that the meat registers at least 165°F with no pink juices remaining. Balance wing portions with fresh cut vegetables such as carrot and celery sticks.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "05140": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted duck with meat and skin is safe with precautions during pregnancy when fully cooked. It offers iron, zinc, and B vitamins, though duck skin contains significant saturated fat. Ensure the internal temperature reaches at least 165°F to eliminate bacterial threats before dining. Remove portions of the rich skin to moderate total calorie and fat intake.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "05142": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted duck meat without skin is safe with precautions during pregnancy when cooked thoroughly. It provides bioavailable heme iron, protein, and selenium while trimming away the heaviness of the skin. Check that the meat achieves an internal temperature of 165°F as recommended by the USDA. Serve alongside wild rice and roasted carrots for a satisfying dinner.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "05147": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted goose with meat and skin is safe with precautions during pregnancy once cooked to safe limits. It contributes iron, protein, and B vitamins, but goose is naturally higher in fat than chicken or turkey. Use a meat thermometer to ensure the innermost flesh reaches 165°F to safeguard against foodborne pathogens. Enjoy a moderate portion accompanied by tart fruit compote and steamed greens.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "05306": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked ground turkey is safe with precautions during pregnancy when brought to recommended internal temperatures. It serves as a versatile lean protein, supplying zinc, niacin, and choline for gestational development. The USDA specifies that all ground poultry must be cooked to an internal temperature of at least 165°F. Incorporate it into fully simmered chili, turkey meatballs, or skillet taco fillings.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "05642": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pan-broiled ground ostrich is safe with precautions during pregnancy when cooked thoroughly. This ratite meat provides lean animal protein, heme iron, and vitamin B12 comparable to lean beef with less saturated fat. Cook ground ostrich to an internal temperature of 165°F to ensure destruction of all potential foodborne bacteria. Serve it on a whole-wheat bun with avocado and sliced tomatoes.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "05220": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted non-enhanced turkey breast is safe with precautions during pregnancy when cooked to safe temperatures. It offers exceptionally lean protein, vitamin B6, and choline with minimal sodium when unenhanced. Confirm that the thickest section of the breast reaches an internal temperature of 165°F using a calibrated thermometer. Carve slices for a wholesome meal with roasted squash and green beans.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "05284": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned turkey meat in broth is safe with precautions during pregnancy when heated through. It provides convenient protein and iron for quick meal assembly, though the broth can be salty. Heat the shredded meat until steaming hot before eating to ensure complete food safety. Drain the canning broth and combine the meat with fresh vegetables to regulate sodium.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "05166": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted whole turkey with meat and skin is safe with precautions during pregnancy when properly cooked. It supplies iron, zinc, and complete animal protein to meet elevated gestational protein recommendations. Verify with a meat thermometer that the breast, thigh, and wing joints all register 165°F. Reheat any leftover turkey to 165°F before eating later in the week.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "05168": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted whole turkey meat without skin is safe with precautions during pregnancy when cooked to safe endpoints. It provides concentrated lean protein, niacin, and phosphorus without the saturated fat of poultry skin. The USDA recommends roasting until an internal temperature of 165°F is confirmed throughout the bird. Serve carved portions with baked sweet potato and steamed asparagus.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "07974": {
+    "verdict": "Safe with precautions",
+    "explanation": "Low-sodium turkey bacon is safe with precautions during pregnancy when cooked until crisp and steaming hot. It supplies animal protein and B vitamins with less sodium than traditional pork bacon, though curing nitrates may remain. The USDA and CDC recommend heating cured and processed poultry meats until steaming hot to 165°F before eating. Enjoy a strip alongside scrambled pasteurized eggs and whole-wheat toast.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "07956": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked beef sausage is safe with precautions during pregnancy when reheated until steaming hot. It provides complete protein, bioavailable heme iron, and zinc, though saturated fat and sodium levels are elevated. Heat the sausage to an internal temperature of at least 165°F to eliminate the risk of Listeria monocytogenes from handling. Eat in moderation alongside fiber-rich vegetables like sautéed peppers and onions.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "07010": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pork bologna is safe with precautions during pregnancy only when thoroughly reheated until steaming hot. Cold luncheon meats carry an increased risk of Listeria monocytogenes, a bacterium dangerous to pregnancy even in refrigerated conditions. The CDC advises heating bologna to 165°F or until steaming hot before eating. Fry slices in a hot skillet before adding them to a warm sandwich.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "07013": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked pork bratwurst is safe with precautions during pregnancy when reheated until steaming hot throughout. It provides protein, zinc, and B vitamins, but also contains substantial amounts of saturated fat and sodium. Reheat bratwurst links to an internal temperature of 165°F to destroy potential bacterial contaminants. Serve on a whole-grain roll with sauerkraut and mustard in moderation.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "07019": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pork and beef chorizo is safe with precautions during pregnancy when cooked or reheated until steaming hot. It offers protein and heme iron, but features high sodium, saturated fat, and spicy seasonings that may aggravate reflux. The USDA requires cooking fresh sausage to 160°F and reheating cured sausage to 165°F to ensure safety against Listeria. Crumble a small spoonful into thoroughly cooked scrambled eggs.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "07057": {
+    "verdict": "Safe with precautions",
+    "explanation": "Sliced pepperoni is safe with precautions during pregnancy when baked until bubbling hot. Cold cured meats can harbor Listeria and Toxoplasma parasites that survive standard curing methods. The CDC recommends eating pepperoni only when cooked to 165°F, such as on a freshly baked pizza. Blot excess surface grease with a paper towel before eating.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "07072": {
+    "verdict": "Safe with precautions",
+    "explanation": "Dry hard salami is safe with precautions during pregnancy only after being heated until steaming hot. Cold unheated salami carries risks of Listeria monocytogenes and Toxoplasma gondii contamination. The CDC and NHS urge pregnant individuals to avoid cold dry sausages unless heated to 165°F before consumption. Bake salami slices on flatbreads or pan-crisp them thoroughly before serving.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "07089": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked Italian pork sausage is safe with precautions during pregnancy when reheated until steaming hot. It provides complete protein, zinc, and iron, though it also contains notable saturated fat and sodium. Reheat the sausage to an internal temperature of at least 165°F to guarantee protection against foodborne pathogens. Slice into a hot vegetable marinara sauce over whole-wheat pasta.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "07919": {
+    "verdict": "Safe with precautions",
+    "explanation": "Mild turkey sausage breakfast links are safe with precautions during pregnancy when cooked or reheated completely. They supply animal protein and zinc with lower fat than pork sausage, though sodium remains high. The USDA advises cooking poultry sausages until they reach an internal temperature of 165°F throughout. Enjoy a link with poached pasteurized eggs and sliced melon.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "07081": {
+    "verdict": "Safe with precautions",
+    "explanation": "Prepackaged sliced turkey breast is safe with precautions during pregnancy only when reheated until steaming hot. Cold packaged lunch meats are vulnerable to Listeria monocytogenes growth during refrigeration. Both the CDC and FDA recommend heating all deli poultry to 165°F just prior to eating. Place turkey slices in a hot panini or microwave until steam rises before building your sandwich.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  }
+}

@@ -71,7 +71,25 @@ pageStyles:
     </details>
   </section>
 
-  {% if food.warning or food.isRawPulse or food.isRawFlour %}
+  {% if food.guidance %}
+    <section class="content-card food-guidance-card{% if food.guidance.verdict | lower == 'avoid' %} is-avoid{% endif %}" id="food-guidance" aria-labelledby="food-guidance-title">
+      <div class="food-guidance-head">
+        <h2 class="food-explainer-title" id="food-guidance-title">Pregnancy guidance</h2>
+        {% if food.guidance.verdict %}
+          <span class="food-guidance-badge is-{{ food.guidance.verdict | lower | replace(' ', '-') }}">{{ food.guidance.verdict }}</span>
+        {% endif %}
+      </div>
+      <p class="food-guidance-text">{{ food.guidance.explanation }}</p>
+      {% if food.guidance.sources and food.guidance.sources.length %}
+        <p class="food-guidance-sources">
+          <span class="food-guidance-sources-label">Sources:</span>
+          {% for src in food.guidance.sources %}
+            <a href="{{ src.url }}" target="_blank" rel="noopener noreferrer">{{ src.name }}</a>{% if not loop.last %} · {% endif %}
+          {% endfor %}
+        </p>
+      {% endif %}
+    </section>
+  {% elif food.warning or food.isRawPulse or food.isRawFlour %}
     <aside class="content-card food-safety-note{% if food.isAvoid %} is-avoid{% endif %}" id="food-safety" aria-labelledby="food-safety-title">
       <div class="food-safety-heading">
         <h2 class="food-explainer-title" id="food-safety-title">Food safety</h2>

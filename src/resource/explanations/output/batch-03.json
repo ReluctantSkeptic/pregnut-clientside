@@ -1,0 +1,898 @@
+{
+  "14093": {
+    "verdict": "Caution",
+    "explanation": "Vitaminwater Revive should be consumed with caution during pregnancy. It provides added B vitamins, potassium, and electrolytes, but heavily fortified beverages can lead to excessive micronutrient intake when combined with daily prenatal vitamins. The ACOG recommends obtaining nutrients primarily from a balanced whole-food diet and an obstetrically approved prenatal supplement. Drink plain water or water infused with fresh citrus slices for everyday hydration.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "14065": {
+    "verdict": "Limit",
+    "explanation": "Hi-C fruit punch is safe to drink on occasion, but intake should be strictly limited while you are pregnant. It is formulated with high fructose corn syrup and contains less than one percent real fruit juice, delivering substantial sugar calories without dietary fiber. The USDA Dietary Guidelines advise replacing sugar-sweetened beverages with water or nutrient-rich fluids to help manage maternal glucose levels. Treat it as a rare beverage and choose 100 percent pasteurized fruit juices diluted with sparkling water.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "14189": {
+    "verdict": "Limit",
+    "explanation": "Minute Maid lemonade is safe during pregnancy, but routine consumption should be limited. Although citrus flavors can provide temporary relief from morning nausea, commercial lemonade packs heavy amounts of added sugar per serving. The USDA Dietary Guidelines advise pregnant women to minimize added sugar intake to protect dental health and avoid excessive gestational weight gain. Squeeze fresh lemon juice into cold still or sparkling water for a tart, sugar-free alternative.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "14038": {
+    "verdict": "Caution",
+    "explanation": "Ocean Spray Cran-Energy should be used with caution during pregnancy. While cranberry juice supports urinary tract health, this formula contains added caffeine from green tea extract alongside high doses of supplemental B vitamins. The ACOG recommends keeping total daily caffeine below 200 milligrams from all sources combined. Choose pure unsweetened pasteurized cranberry juice diluted with cold water to avoid unneeded stimulants.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      }
+    ]
+  },
+  "14064": {
+    "verdict": "Safe with precautions",
+    "explanation": "Light orange juice is safe to drink during pregnancy when pasteurized. It provides dietary vitamin C to aid iron absorption, while using water dilution and non-nutritive sweeteners to reduce calories and sugar. The FDA emphasizes that expectant mothers should always verify juice labels for pasteurization to avoid foodborne illnesses like Salmonella. Enjoy a small four-ounce glass with breakfast alongside iron-fortified oatmeal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "14309": {
+    "verdict": "Safe with precautions",
+    "explanation": "Classic malt Ovaltine powder is safe to enjoy in moderation as an occasional warm beverage. The malt powder is fortified with iron, zinc, and B vitamins, but it contributes notable amounts of simple sugars. The USDA Dietary Guidelines recommend monitoring added sugars in drink mixes to maintain steady blood glucose control. Stir a moderate serving into warm pasteurized milk to add beneficial calcium and complete protein.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "14167": {
+    "verdict": "Safe with precautions",
+    "explanation": "Powerade Zero is safe to drink during pregnancy as an occasional zero-sugar electrolyte beverage. It supplies sodium and potassium to support maternal hydration during hot weather without contributing excess sugar calories. The FDA recognizes approved artificial sweeteners like sucralose as safe for use in pregnancy. Rely on plain water for routine daily fluids, using sports drinks primarily after bouts of nausea or sweating.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-additives-petitions/additional-information-about-high-intensity-sweeteners-permitted-use-food-united-states"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "14067": {
+    "verdict": "Safe with precautions",
+    "explanation": "Soy-based protein powder is safe to consume during pregnancy to help meet increased protein demands. Soy delivers all nine essential amino acids alongside plant iron to support fetal growth and maternal tissue expansion. The FDA does not review dietary supplements for purity before sale, so choose products verified by independent third-party testing programs. Blend a measured scoop into fruit and vegetable smoothies rather than relying on powders as your primary protein source.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/dietary-supplements"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "14066": {
+    "verdict": "Safe with precautions",
+    "explanation": "Whey-based protein powder is safe for pregnant women to use when whole food protein intake is insufficient. Whey supplies high-quality dairy protein, riboflavin, and calcium that assist with maternal plasma expansion and fetal cellular development. The FDA recommends selecting supplements that carry third-party safety certification to ensure absence of heavy metals or banned contaminants. Mix one scoop into morning oatmeal or blend with pasteurized milk and berries.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/dietary-supplements"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "14639": {
+    "verdict": "Safe with precautions",
+    "explanation": "Unsweetened rice milk is safe during pregnancy as a hypoallergenic dairy alternative. It provides light hydration and fortified calcium, but it contains very little natural protein and carries higher carbohydrate concentrations than soy or cow milk. The FDA advises pregnant women to consume a diverse variety of grains to minimize dietary inorganic arsenic exposure from rice products. Pair rice milk with protein-dense foods like eggs or nut butters to balance your meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "14347": {
+    "verdict": "Limit",
+    "explanation": "Fast-food vanilla milkshakes are safe on occasion if made from pasteurized dairy, but they should be limited. They supply dietary calcium and riboflavin, but a typical serving packs heavy saturated fats and over sixty grams of sugar. The FDA notes that commercial soft-serve dispensing machines must adhere to strict sanitation standards to prevent bacterial contamination. Treat yourself to a small cup rarely and favor homemade smoothies made with pasteurized milk and bananas.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "14044": {
+    "verdict": "Caution",
+    "explanation": "SlimFast meal replacement shakes should be used with caution during pregnancy. While the formula supplies protein, vitamin C, and B vitamins, intentional weight loss shakes are not designed to support the caloric and nutritional requirements of gestation. The ACOG stresses that pregnant women need balanced whole foods and appropriate caloric intake rather than commercial weight management meal replacements. Check labels for unneeded herbal additives and prioritize whole meals containing lean protein and vegetables.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "14355": {
+    "verdict": "Safe with precautions",
+    "explanation": "Brewed black tea is safe to drink during pregnancy when consumed in moderation. An eight-ounce cup provides beneficial polyphenols alongside roughly forty-seven milligrams of caffeine. The ACOG advises pregnant women to keep total daily caffeine below 200 milligrams from all food and beverage sources. Enjoy one to two cups per day, and avoid drinking tea simultaneously with iron supplements because tannins can reduce iron absorption.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "14278": {
+    "verdict": "Safe with precautions",
+    "explanation": "Brewed green tea is safe for pregnant women in limited quantities. It contains protective tea catechins and approximately twenty-eight milligrams of caffeine per cup. The NHS recommends limiting green tea because high intakes of green tea extracts can reduce the absorption of essential dietary folic acid. Keep consumption to one or two cups daily, ensuring you continue taking your daily prenatal folic acid supplement.",
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "14545": {
+    "verdict": "Caution",
+    "explanation": "Chamomile herbal tea should be consumed with caution during pregnancy. Although an occasional mild cup is generally considered low risk, concentrated or medicinal amounts of chamomile can stimulate uterine muscle tone. The NHS advises pregnant women to exercise caution with herbal infusions and avoid drinking large quantities of medicinal teas. Limit chamomile to an occasional weak cup, or swap it for well-established options like ginger or lemon water.",
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "14649": {
+    "verdict": "Avoid",
+    "explanation": "Brewed hibiscus tea should be avoided throughout pregnancy. Hibiscus contains bioflavonoids that can stimulate menstrual blood flow and promote uterine contractions, raising the risk of pregnancy complications. Health agencies including the NHS instruct pregnant women to avoid drinking hibiscus tea and herbal blends containing hibiscus flowers. Quench your thirst with pasteurized tart cherry juice or water infused with fresh berries instead.",
+    "sources": [
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      }
+    ]
+  },
+  "14185": {
+    "verdict": "Safe with precautions",
+    "explanation": "Brewed oolong tea is safe to drink in moderate quantities during pregnancy. It supplies natural antioxidants and contains approximately thirty-seven milligrams of caffeine in an eight-ounce mug. The ACOG recommends keeping cumulative daily caffeine intake below 200 milligrams to safeguard fetal growth. Sip one or two freshly brewed cups between meals and prioritize plain water for routine hydration.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "14555": {
+    "verdict": "Recommended",
+    "explanation": "Bottled drinking water is recommended as a pure, essential hydration source during pregnancy. Adequate water intake supports expanding maternal blood volume, regulates body temperature, and maintains amniotic fluid levels. The ACOG recommends that pregnant women drink eight to twelve cups of water each day to prevent dehydration and constipation. Keep a sealed bottle nearby to drink fluids consistently from morning until bedtime.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "14411": {
+    "verdict": "Recommended",
+    "explanation": "Municipal tap water is recommended as a safe, accessible hydration choice for pregnancy. Reliable municipal supplies provide safe water along with beneficial fluoride that supports dental enamel health. The CDC and ACOG emphasize adequate hydration to maintain placental circulation and help prevent urinary tract infections. Use an approved faucet or pitcher filter if your home has older plumbing or noticeable chlorine taste.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/pregnancy/nutrition/index.html"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08054": {
+    "verdict": "Recommended",
+    "explanation": "Natural granola made with oats, wheat, and honey is recommended during pregnancy when eaten in measured portions. Rolled oats supply dietary fiber and plant zinc to promote healthy digestion and support immune defense. The USDA Dietary Guidelines advise checking granola labels because honey and oil clusters can carry high calorie and sugar density. Serve a half-cup portion over plain unsweetened Greek yogurt with fresh berries for a balanced breakfast.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08579": {
+    "verdict": "Safe with precautions",
+    "explanation": "Reduced-sugar Cinnamon Toast Crunch is safe to eat during pregnancy as an occasional breakfast cereal. It provides fortified vitamin B12, zinc, and iron, offering less added sugar than the original formula while maintaining cinnamon flavor. The USDA Dietary Guidelines recommend keeping processed cereals moderate to prevent blood glucose spikes. Pour a single measured serving into a bowl with pasteurized milk to add dietary calcium and protein.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08586": {
+    "verdict": "Safe with precautions",
+    "explanation": "Reduced-sugar Trix cereal is safe for pregnant women to enjoy in moderation. Fortification delivers significant amounts of vitamin B12, riboflavin, and zinc to help support maternal metabolism. The USDA Dietary Guidelines advise choosing mostly whole grain foods with minimal artificial food colorings and added sugars. Measure a single cup portion and pair it with a hard-boiled pasteurized egg for lasting satiety.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43218": {
+    "verdict": "Recommended",
+    "explanation": "Alpen muesli cereal is recommended as a wholesome, nutrient-dense breakfast choice during pregnancy. It contains rolled oats, whole wheat flakes, nuts, and raisins that supply rich dietary fiber, zinc, and plant protein. The USDA Dietary Guidelines emphasize whole grain muesli to prevent gestational constipation and maintain even energy levels. Soak a serving in cold pasteurized milk or stir it into plain yogurt with sliced fruit.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08002": {
+    "verdict": "Safe with precautions",
+    "explanation": "Alpha-Bits cereal is safe to eat while pregnant and provides dense micronutrient fortification. A single serving delivers fortified iron, vitamin B12, and folic acid to support maternal red blood cells and embryonic development. The USDA Dietary Guidelines suggest balancing sweetened oat cereals with unsweetened protein foods to avoid sharp blood glucose peaks. Serve with cold pasteurized milk and add a side of scrambled eggs.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08263": {
+    "verdict": "Safe with precautions",
+    "explanation": "Apple Cinnamon Cheerios are safe to consume during pregnancy as an enjoyable morning grain. Whole grain oats provide dietary soluble fiber, while enrichment contributes folic acid, iron, and zinc. The USDA Dietary Guidelines note that flavored oat cereals contain more added sugar than plain whole grain varieties. Measure your portion to keep sugar moderate and top with sliced fresh apples for extra crunch.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08262": {
+    "verdict": "Recommended",
+    "explanation": "Basic 4 cereal is recommended during pregnancy as a balanced whole grain and fruit blend. It delivers whole wheat, rolled oats, almonds, and dried fruit that supply dietary fiber, zinc, and vitamin B12. The USDA Dietary Guidelines recommend whole grain cereal blends to support digestive regularity throughout gestation. Enjoy one cup served with pasteurized cow milk or fortified soy milk for breakfast.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08274": {
+    "verdict": "Safe with precautions",
+    "explanation": "Berry Berry Kix cereal is safe to eat during pregnancy in moderate portions. Made from whole grain corn, it supplies fortified folic acid, iron, and vitamin B12 to assist fetal cellular division and maternal health. The USDA Dietary Guidelines advise choosing cereals with less than ten grams of added sugar per serving. Serve with pasteurized milk and a handful of fresh blueberries to boost dietary antioxidants.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08239": {
+    "verdict": "Safe with precautions",
+    "explanation": "Berry Burst Cheerios are safe to consume while pregnant and offer fortified morning nutrition. Whole grain oats supply heart-healthy soluble fiber, while the added vitamin blend delivers iron, zinc, and folic acid. The USDA Dietary Guidelines suggest watching serving sizes because berry cluster coatings add extra cane sugar. Pour one cup into a bowl and add pasteurized milk to provide essential calcium.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08031": {
+    "verdict": "Safe with precautions",
+    "explanation": "Big Bite cereal is safe during pregnancy as a fortified breakfast option. It provides rich quantities of supplemental iron, vitamin B12, and folic acid to help prevent pregnancy anemia and birth defects. The USDA Dietary Guidelines recommend pairing fortified breakfast cereals with high-fiber whole foods to maintain stable glycemic responses. Enjoy with cold pasteurized milk and a fresh banana.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08273": {
+    "verdict": "Limit",
+    "explanation": "Boo Berry cereal is safe on occasion but should be limited during pregnancy. It provides fortified vitamin B12 and zinc, but it is heavily processed with refined corn flour, blue food dyes, and added marshmallow sugars. The USDA Dietary Guidelines emphasize prioritizing unrefined whole grains over sugar-coated novelty cereals. Limit portion sizes and consider mixing a small handful into a bowl of plain Cheerios for flavor.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08010": {
+    "verdict": "Limit",
+    "explanation": "Cap'n Crunch cereal is safe to eat occasionally while pregnant, but intake should be limited. It is fortified with folic acid, zinc, and B vitamins, but it contains over twelve grams of added sugar per serving with negligible dietary fiber. The USDA Dietary Guidelines recommend restricting high-sugar cereals to reduce the risk of gestational diabetes complications. Treat it as an occasional snack and measure out a single portion.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08011": {
+    "verdict": "Limit",
+    "explanation": "Cap'n Crunch with Crunchberries is safe in small amounts during pregnancy, though intake should be limited. Fortification contributes folic acid, riboflavin, and zinc, but the sweetened berry shapes add empty sugar calories and artificial food dyes. The USDA Dietary Guidelines advise expectant mothers to choose cereals rich in natural fiber rather than refined sugars. Enjoy a small bowl on rare occasions and choose oatmeal for your regular breakfast.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08012": {
+    "verdict": "Limit",
+    "explanation": "Cap'n Crunch Peanut Butter Crunch is safe to consume occasionally during pregnancy, but it should be limited. It delivers fortified folic acid, zinc, and B vitamins, balanced against significant amounts of hydrogenated oils and added sugar. The USDA Dietary Guidelines encourage obtaining peanut nutrients from whole peanut butter rather than sweetened corn cereals. Keep portions small and combine with a glass of pasteurized milk.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08013": {
+    "verdict": "Recommended",
+    "explanation": "Classic Cheerios are recommended as one of the best everyday breakfast cereals for pregnancy. Made from 100 percent whole grain oats, they supply soluble fiber to ease constipation along with full daily values of folic acid, iron, and zinc. The ACOG highlights folic acid and iron as critical prenatal nutrients to prevent birth defects and maternal anemia. Pour one cup of Cheerios into a bowl with pasteurized milk and top with fresh sliced strawberries.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "08592": {
+    "verdict": "Safe with precautions",
+    "explanation": "Banana Nut Cheerios are safe to eat during pregnancy as a flavorful oat cereal. Whole grain oats deliver dietary fiber, while fortification supplies essential folic acid, zinc, and vitamin B12. The USDA Dietary Guidelines recommend monitoring portion sizes because flavored Cheerios contain more added sugar than the plain original version. Measure out a single serving and eat with cold pasteurized milk.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08593": {
+    "verdict": "Safe with precautions",
+    "explanation": "Chocolate Cheerios are safe to consume during pregnancy to satisfy sweet morning cravings. They provide whole oat fiber, fortified iron, and vitamin B12 to assist with maternal red blood cell production. The USDA Dietary Guidelines advise balancing sweetened cereals with unsweetened protein to avoid sudden glucose peaks. Enjoy a moderate bowl with pasteurized milk and pair with a hard-boiled egg.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08553": {
+    "verdict": "Safe with precautions",
+    "explanation": "Strawberry Yogurt Burst Cheerios are safe to eat during pregnancy as a fortified morning cereal. Whole grain oats contribute dietary fiber, while vitamin fortification delivers folic acid, zinc, and vitamin B12. The USDA Dietary Guidelines note that yogurt coatings are made with palm oil and sugar rather than real fresh yogurt. Stick to a standard serving size and add fresh sliced strawberries to boost natural vitamin C.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08594": {
+    "verdict": "Safe with precautions",
+    "explanation": "Chocolate Chex cereal is safe for pregnant individuals to eat and serves as an accessible gluten-free choice. Made from whole grain rice, it supplies fortified folic acid, iron, and vitamin B12 to support fetal development. The USDA Dietary Guidelines suggest watching added sugar portions in chocolate-flavored cereals. Enjoy one cup with cold pasteurized milk or use it as a crunchy dry snack on the go.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08513": {
+    "verdict": "Limit",
+    "explanation": "Chocolate Lucky Charms cereal is safe on occasion, but routine intake should be limited during pregnancy. Fortification provides iron, zinc, and vitamin B12, but the marshmallow pieces and chocolate coating introduce high levels of sugar and artificial dyes. The USDA Dietary Guidelines urge pregnant women to select whole grains with minimal added sugars to maintain metabolic health. Limit your portion and consider mixing half a cup with plain whole oat cereal.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08204": {
+    "verdict": "Limit",
+    "explanation": "Chocolate-flavored frosted puffed corn cereal is safe occasionally, though intake should be limited while pregnant. It supplies fortified vitamin B12, riboflavin, and folic acid, but the puffed corn base is heavily glazed with refined sugar. The USDA Dietary Guidelines recommend choosing high-fiber, low-sugar breakfast options to prevent sharp glucose fluctuations. Keep your serving size small and pair it with protein-rich pasteurized milk.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08550": {
+    "verdict": "Limit",
+    "explanation": "Christmas Crunch cereal is safe to eat as a holiday novelty, but it should be strictly limited during pregnancy. While it supplies fortified folic acid and zinc, the brightly dyed red and green corn puffs are high in sugar and artificial food colorings. The USDA Dietary Guidelines suggest reserving high-sugar seasonal cereals for rare holiday treats. Measure a small bowl and eat it alongside a protein-rich breakfast.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08595": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cinnamon Chex cereal is safe to consume during pregnancy and provides a gluten-free morning grain. Whole grain rice supplies easy-to-digest carbohydrates, while enrichment contributes folic acid, zinc, and vitamin B12. The USDA Dietary Guidelines advise monitoring added sugar content in cinnamon-flavored cereals. Pour a single cup serving into a bowl with pasteurized milk and sliced fruit.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08272": {
+    "verdict": "Limit",
+    "explanation": "Cinnamon Toast Crunch is safe to eat in moderation during pregnancy, but routine consumption should be limited. It provides fortified vitamin B12, zinc, and iron, but the crunchy squares are coated in heavy amounts of sugar and oil. The USDA Dietary Guidelines emphasize choosing breakfast cereals with lower added sugars to support healthy gestational weight gain. Measure out a single three-quarter cup serving and pair it with pasteurized milk.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08494": {
+    "verdict": "Limit",
+    "explanation": "Cinnamon Toasters cereal is safe on occasion, though intake should be limited while pregnant. The fortified rice squares offer vitamin B12, folic acid, and iron, balanced by significant quantities of refined sugar and vegetable oils. The USDA Dietary Guidelines recommend keeping processed sweet cereals to occasional meals to prevent blood sugar spikes. Enjoy a small bowl with cold pasteurized milk after eating a source of protein.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08206": {
+    "verdict": "Limit",
+    "explanation": "Coco-Roos cereal is safe to eat in moderation during pregnancy, but intake should be limited. It delivers supplemental folic acid, vitamin B12, and zinc, but the puffed cereal is coated in chocolate-flavored sugar glaze. The USDA Dietary Guidelines advise pregnant women to select whole grains with higher dietary fiber and lower sugar. Limit your portion and balance your meal with a hard-boiled pasteurized egg.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08495": {
+    "verdict": "Limit",
+    "explanation": "Cocoa Dyno-Bites cereal is safe to consume occasionally during pregnancy, though it should be limited. It supplies fortified vitamin B12, riboflavin, and iron from enriched rice, alongside large quantities of added sugar. The USDA Dietary Guidelines recommend moderating sweetened breakfast cereals to support stable maternal glucose levels. Enjoy an occasional single serving with cold pasteurized milk.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08015": {
+    "verdict": "Limit",
+    "explanation": "Cocoa Pebbles cereal is safe for pregnant women on occasion, but routine intake should be limited. It is fortified with iron, vitamin B12, and folic acid, but the crisp rice flakes dissolve rapidly and contain twelve grams of added sugar per cup. The USDA Dietary Guidelines encourage expectant mothers to select higher-fiber grains to promote sustained satiety. Treat Cocoa Pebbles as an occasional treat rather than an everyday breakfast staple.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08271": {
+    "verdict": "Limit",
+    "explanation": "Cocoa Puffs cereal is safe to eat in moderation while pregnant, though intake should be limited. It offers fortified zinc, vitamin B12, and riboflavin, but the chocolate corn puffs deliver substantial simple sugars with minimal fiber. The USDA Dietary Guidelines suggest limiting sweetened cereals to avoid excessive gestational weight gain and insulin resistance. Eat a measured single cup portion and pair it with a glass of pasteurized milk.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08635": {
+    "verdict": "Safe with precautions",
+    "explanation": "Reduced-sugar Cocoa Puffs cereal is safe during pregnancy as a lower-sugar chocolate cereal option. It provides fortified vitamin B12, riboflavin, and zinc to support maternal energy metabolism, while trimming roughly twenty-five percent of the original sugar content. The USDA Dietary Guidelines advise that even reduced-sugar cereals still contain refined grains that benefit from portion control. Measure one serving into a bowl with pasteurized milk and sliced strawberries.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08346": {
+    "verdict": "Limit",
+    "explanation": "Colossal Crunch cereal is safe occasionally during pregnancy, but it should be strictly limited. It delivers supplemental folic acid, vitamin B12, and zinc, balanced against heavy amounts of sugar and hydrogenated vegetable oils. The USDA Dietary Guidelines encourage pregnant women to prioritize nutrient-dense grains with natural fiber over sweet corn snacks. Keep portions small and choose whole grain oat cereal for regular morning nourishment.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08017": {
+    "verdict": "Limit",
+    "explanation": "Cookie Crisp cereal is safe to eat in small amounts while pregnant, though intake should be limited. It is fortified with vitamin B12, zinc, and iron, but the mini chocolate-chip cookie puffs are packed with refined flour and added sugar. The USDA Dietary Guidelines recommend limiting dessert-style breakfast cereals to maintain healthy blood glucose levels throughout gestation. Satisfy a cookie craving with a measured single portion alongside pasteurized milk.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08083": {
+    "verdict": "Safe with precautions",
+    "explanation": "Corn Bursts cereal is safe for pregnant women to consume in moderate portions. The sweetened puffed corn is heavily fortified with riboflavin, vitamin B12, and vitamin B6 to aid energy metabolism. The USDA Dietary Guidelines recommend moderating sweetened corn cereals because they offer little dietary fiber to combat pregnancy constipation. Enjoy one cup with cold pasteurized milk and a side of fresh raspberries to add natural fiber.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08019": {
+    "verdict": "Safe with precautions",
+    "explanation": "Corn Chex cereal is safe to eat during pregnancy and represents a light, gluten-free cereal choice. It provides fortified folic acid, iron, and vitamin B12, containing less sugar per serving than many other processed cereals. The USDA Dietary Guidelines recommend balancing refined corn grains with whole grains and dietary fiber. Pour a serving into a bowl with pasteurized milk and top with sliced bananas or blueberries.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08270": {
+    "verdict": "Limit",
+    "explanation": "Count Chocula cereal is safe on occasion, but intake should be strictly limited during pregnancy. Fortification supplies vitamin B12, zinc, and riboflavin, but the chocolate corn puffs and marshmallow bits contain substantial sugar and artificial dyes. The USDA Dietary Guidelines urge pregnant women to avoid high-sugar processed cereals to reduce the risk of excessive weight gain. Treat it as a rare novelty treat and choose unsweetened whole grain cereals for daily breakfast.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08582": {
+    "verdict": "Safe with precautions",
+    "explanation": "Dora the Explorer cereal is safe to eat during pregnancy in moderate portions. It supplies fortified folic acid, zinc, and vitamin B12 to assist maternal red blood cell synthesis and fetal tissue growth. The USDA Dietary Guidelines suggest checking labels to ensure added sugars remain below ten grams per serving. Pour one serving into a bowl with cold pasteurized milk and pair with a hard-boiled egg.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43241": {
+    "verdict": "Recommended",
+    "explanation": "Familia muesli cereal is recommended as a nutritious, whole-grain breakfast option during pregnancy. Made with rolled whole grains, seeds, and dried fruit, it supplies rich dietary fiber, zinc, and calcium that support bowel regularity and fetal bone health. The USDA Dietary Guidelines encourage expectant mothers to make traditional whole grain muesli a routine morning staple. Soak a serving in pasteurized milk or plain yogurt overnight for a quick, wholesome breakfast.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08290": {
+    "verdict": "Recommended",
+    "explanation": "Fiber 7 Flakes cereal is recommended during pregnancy as an effective dietary aid for digestive comfort. The multi-grain whole wheat and bran flakes supply concentrated dietary fiber to prevent and relieve constipation, along with fortified vitamin B12 and iron. The ACOG highlights high-fiber cereals as essential tools to manage gastrointestinal sluggishness throughout gestation. Start with a half-cup serving and drink plenty of water to help fiber work effectively.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "08244": {
+    "verdict": "Recommended",
+    "explanation": "Fiber One bran cereal is strongly recommended during pregnancy to combat pregnancy constipation. A single half-cup serving provides over fourteen grams of dietary fiber alongside fortified zinc, riboflavin, and vitamin B12. The ACOG recommends gradually increasing dietary fiber to ensure comfortable bowel motility without excessive gas or bloating. Mix a quarter-cup of Fiber One into your favorite yogurt or regular cereal, and drink adequate fluids throughout the day.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "08596": {
+    "verdict": "Recommended",
+    "explanation": "Fiber One Caramel Delight cereal is recommended as a tasty, high-fiber cereal choice during pregnancy. It combines concentrated bran fiber with caramel flavor, delivering over two hundred percent of the daily value for folic acid and over one hundred percent for iron. The ACOG emphasizes folic acid and iron as critical prenatal nutrients to prevent neural tube defects and maternal anemia. Measure a single cup serving and enjoy with cold pasteurized milk.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "08598": {
+    "verdict": "Recommended",
+    "explanation": "Fiber One Honey Clusters cereal is recommended for pregnant women seeking digestive support with great flavor. It supplies robust dietary fiber, fortified folic acid, and iron to help prevent constipation and support increased blood volume. The USDA Dietary Guidelines highlight whole grain bran cereals for maintaining steady glycemic balance. Pour one serving into a bowl with pasteurized milk and add fresh sliced strawberries.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08599": {
+    "verdict": "Recommended",
+    "explanation": "Fiber One Raisin Bran Clusters cereal is recommended as a fiber-dense breakfast option during pregnancy. The combination of wheat bran, oat clusters, and raisins supplies rich dietary fiber, potassium, and vitamin B12 to support digestive and cardiovascular health. The ACOG advises pregnant women to increase dietary fiber to alleviate common bowel sluggishness. Enjoy one cup served with cold pasteurized milk or sprinkled over cottage cheese.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "08268": {
+    "verdict": "Limit",
+    "explanation": "Frankenberry cereal is safe in small amounts on occasion, but intake should be strictly limited while pregnant. It provides fortified vitamin B12 and zinc, but the strawberry-flavored puffed corn is packed with marshmallow candies, refined sugars, and artificial red dyes. The USDA Dietary Guidelines emphasize prioritizing whole food grains over sugar-sweetened novelty cereals. Treat it as a rare sweet treat and choose fresh strawberries with plain cereal for routine breakfast.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+      }
+    ]
+  },
+  "08267": {
+    "verdict": "Safe with precautions",
+    "explanation": "Frosted Cheerios are safe to eat during pregnancy as a sweetened whole grain oat cereal. Made from whole oats, they deliver dietary soluble fiber along with full fortification of folic acid, vitamin B12, and zinc. The USDA Dietary Guidelines recommend keeping an eye on portion sizes because the frosted coating adds nine grams of sugar per serving. Measure one cup into a bowl and eat with pasteurized milk to add dietary protein and calcium.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "08409": {
+    "verdict": "Safe with precautions",
+    "explanation": "Frosted Flakes cereal is safe to consume in moderation during pregnancy. The enriched milled corn provides fortified vitamin B12, folic acid, and riboflavin to support fetal development and maternal vitality. The USDA Dietary Guidelines recommend watching portion sizes because frosted corn flakes contain twelve grams of added sugar per cup with very little dietary fiber. Pair a measured serving with pasteurized milk and a hard-boiled egg to blunt blood sugar spikes.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  }
+}

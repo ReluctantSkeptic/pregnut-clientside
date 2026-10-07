@@ -1,0 +1,898 @@
+{
+  "20037": {
+    "verdict": "Recommended",
+    "explanation": "Cooked long-grain brown rice is recommended during pregnancy as a nutritious whole grain staple. It provides complex carbohydrates, dietary fiber to alleviate common bowel irregularities, zinc, and magnesium. Simmer in boiling water or broth until tender, and store cooked portions in the refrigerator within two hours of cooking. Pair with steamed broccoli and grilled salmon for a well-rounded prenatal dinner.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG Nutrition During Pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "20055": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked unenriched glutinous white rice is safe with precautions during pregnancy when handled with standard food hygiene. It delivers quick-digesting energy and zinc, though it lacks the fiber and micronutrients found in whole grains. Cool cooked rice quickly and keep leftovers refrigerated at or below 40°F to prevent foodborne illness. Serve with steamed dark leafy greens and lean protein to balance the meal's glycemic effect.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "20061": {
+    "verdict": "Safe with precautions",
+    "explanation": "Unenriched white rice flour is safe with precautions during pregnancy and must always be cooked or baked completely before eating. It supplies gluten-free carbohydrates and vitamin B6, but raw flour can harbor foodborne pathogens like Salmonella or E. coli. Never taste raw batters or doughs made with raw rice flour during food preparation. Use it in thoroughly baked gluten-free breads, pancakes, or as a hot soup thickener.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be"
+      }
+    ]
+  },
+  "20063": {
+    "verdict": "Safe with precautions",
+    "explanation": "Dark rye flour is safe with precautions during pregnancy and must be thoroughly baked before eating. It supplies abundant dietary fiber to support digestion, along with zinc, potassium, and vitamin B6. Avoid consuming raw bread dough, as unbaked flour can carry harmful bacterial contaminants. Use this robust flour to bake dense, fiber-rich rye breads or hearty crackers.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "20068": {
+    "verdict": "Safe with precautions",
+    "explanation": "Dry pearl tapioca is safe with precautions during pregnancy when cooked completely into puddings or beverages. It delivers bland, easily digestible carbohydrates and trace minerals, making it gentle on an unsettled stomach. Simmer pearls in boiling liquid until they become completely translucent and soft throughout. Pair tapioca pudding with pasteurized milk and fresh sliced fruit to boost protein and calcium.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be"
+      }
+    ]
+  },
+  "20080": {
+    "verdict": "Safe with precautions",
+    "explanation": "Whole-grain wheat flour is safe with precautions during pregnancy and must be thoroughly cooked or baked. It supplies natural dietary fiber to prevent constipation, along with plant protein, vitamin B6, and zinc. Like all raw flours, it must never be eaten uncooked due to potential bacterial contamination on raw grains. Use it to bake nutritious whole-wheat breads, muffins, or homemade pancakes.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "20081": {
+    "verdict": "Safe with precautions",
+    "explanation": "Enriched all-purpose white wheat flour is safe with precautions during pregnancy and must always be fully baked or cooked. It provides fortified folic acid to help prevent neural tube defects, along with iron and riboflavin. The CDC warns never to eat raw batter or unbaked dough because untreated flour can harbor E. coli. Bake goods until internal temperatures reach safe cooking thresholds before serving.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be"
+      }
+    ]
+  },
+  "20089": {
+    "verdict": "Recommended",
+    "explanation": "Cooked wild rice is recommended during pregnancy as a nutrient-dense whole grain alternative. It supplies dietary fiber, plant protein, zinc, and B vitamins that support maternal cellular growth and metabolism. Simmer the grains in water or broth until the kernels puff open and become tender. Refrigerate cooked leftovers within two hours to prevent spore-forming bacterial contamination.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG Nutrition During Pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "20126": {
+    "verdict": "Safe with precautions",
+    "explanation": "Dry spinach spaghetti is safe with precautions during pregnancy and must be boiled completely before consumption. It provides plant protein, dietary zinc, and energizing carbohydrates derived from wheat semolina and dehydrated spinach powder. Boil the dry pasta in salted water until tender to ensure safe texture and digestibility. Toss with extra virgin olive oil, garlic, and cooked lean protein for a satisfying dinner.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be"
+      }
+    ]
+  },
+  "20134": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked rice noodles are safe with precautions during pregnancy when prepared and stored properly. They provide easily digestible carbohydrates that are gentle on sensitive stomachs, though they offer minimal protein and fiber. Boil until tender and refrigerate any leftovers promptly within two hours to prevent Bacillus cereus bacterial growth. Combine with sautéed vegetables, scrambled eggs, and lean chicken to create a balanced meal.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "20137": {
+    "verdict": "Recommended",
+    "explanation": "Cooked quinoa is recommended during pregnancy as an outstanding complete plant protein. It delivers all nine essential amino acids, non-heme iron to support maternal blood volume, zinc, and dietary folate. Rinse the raw seeds before cooking to wash away naturally bitter saponins on the outer coating. Serve warm as a grain bowl base or chill it for a hearty vegetable salad.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG Nutrition During Pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43278": {
+    "verdict": "Limit",
+    "explanation": "Imitation American cheddar cheese should be limited during pregnancy due to its highly processed composition. While fortified with calcium and riboflavin, it is primarily manufactured from vegetable oils, starches, and excess sodium. Commercial packaging ensures sterility, but imitation cheese provides lower biological protein quality than real dairy. Choose natural pasteurized cheddar cheese when possible to gain superior maternal nutrition.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01004": {
+    "verdict": "Avoid",
+    "explanation": "Blue cheese should be avoided during pregnancy unless it is cooked thoroughly until steaming hot. Mold-ripened and blue-veined cheeses carry a heightened risk of Listeria monocytogenes, a bacterium that can cause severe prenatal complications. The FDA and NHS advise heating blue cheese to 165°F in baked dishes or sauces to kill any potential bacteria. If you crave blue cheese flavor, consume it only in bubbling hot casseroles or cooked dips.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01005": {
+    "verdict": "Safe with precautions",
+    "explanation": "Brick cheese is safe with precautions during pregnancy provided it is made with pasteurized milk. It delivers substantial dietary calcium, vitamin B12, and protein to support fetal bone and tissue growth. Always check the ingredient packaging to confirm the milk was pasteurized before consuming it cold. When pasteurization status is uncertain, melt the cheese thoroughly until steaming hot before eating.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01006": {
+    "verdict": "Avoid",
+    "explanation": "Brie cheese should be avoided during pregnancy unless it is cooked until steaming hot and bubbling throughout. Soft surface-ripened cheeses have higher moisture and lower acidity, allowing Listeria monocytogenes bacteria to thrive even if made from pasteurized milk. The CDC and FDA emphasize that unheated soft cheeses pose serious risks of miscarriage and preterm labor. You can safely enjoy Brie when it is baked completely to an internal temperature of 165°F.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01007": {
+    "verdict": "Avoid",
+    "explanation": "Camembert cheese should be avoided during pregnancy unless thoroughly cooked until bubbling hot throughout. Like other mold-ripened soft cheeses, Camembert provides an ideal environment for Listeria monocytogenes contamination. Both the FDA and NHS advise pregnant women to steer clear of raw or cold Camembert cheese entirely. If served in a hot baked appetizer cooked to 165°F, it is safe to eat.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01009": {
+    "verdict": "Recommended",
+    "explanation": "Cheddar cheese is recommended during pregnancy as an exceptional source of dietary calcium and protein. Hard cheeses have very low moisture content, making it virtually impossible for Listeria bacteria to survive or multiply. The FDA and NHS confirm that hard cheeses like cheddar are safe to eat cold during pregnancy. Slice cheddar onto whole-wheat crackers or melt it over steamed vegetables for a nutrient-dense snack.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01270": {
+    "verdict": "Recommended",
+    "explanation": "Sharp cheddar sliced cheese is recommended during pregnancy as a safe and convenient calcium source. It provides high concentrations of calcium, protein, and zinc to support maternal bone density and fetal skeletal development. Because cheddar is a hard cheese, the low water content prevents pathogenic bacterial survival. Enjoy slices in a whole-grain sandwich or pair with fresh apple slices for balanced nutrition.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01011": {
+    "verdict": "Recommended",
+    "explanation": "Colby cheese is recommended during pregnancy when manufactured from pasteurized milk. It delivers substantial amounts of calcium, high-quality protein, and vitamin B12 for fetal development. Standard commercially produced Colby in the United States uses pasteurized milk, which eliminates harmful foodborne bacteria. Enjoy shredded Colby over black bean burritos or slice it with fresh pears for an afternoon snack.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01012": {
+    "verdict": "Recommended",
+    "explanation": "Pasteurized creamed cottage cheese is recommended during pregnancy as a lean, protein-packed dairy option. It supplies dietary calcium, riboflavin, and vitamin B12 to support fetal growth while remaining relatively low in calories. Always confirm that the label states made from pasteurized milk and keep the container stored in the refrigerator at 40°F or lower. Pair a cup of cottage cheese with fresh berries or sliced peaches for a satisfying breakfast.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG Nutrition During Pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "01017": {
+    "verdict": "Safe with precautions",
+    "explanation": "Commercial cream cheese is safe with precautions during pregnancy when made from pasteurized milk. It delivers riboflavin and vitamin A, though it is higher in saturated fats and lower in protein than firmer cheeses. Commercial cream cheese sold in standard supermarket tubs and foil blocks is pasteurized and safe from Listeria. Spread moderately on whole-grain toast or whole-wheat bagels alongside sliced tomatoes.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01018": {
+    "verdict": "Recommended",
+    "explanation": "Edam cheese is recommended during pregnancy as a safe semi-hard cheese rich in nutrients. It provides concentrated dietary calcium, vitamin B12, and complete dairy protein for maternal and fetal tissue maintenance. Because Edam is a lower-moisture cheese made from pasteurized milk, it presents minimal risk of foodborne bacterial contamination. Serve with whole-wheat crackers or melt into warm vegetable dishes.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01019": {
+    "verdict": "Safe with precautions",
+    "explanation": "Feta cheese is safe with precautions during pregnancy only if the packaging explicitly states made with pasteurized milk. Feta provides calcium, vitamin B12, and riboflavin, but unpasteurized feta can harbor dangerous Listeria bacteria. The FDA and CDC warn against eating imported or artisanal feta unless verified pasteurized on the label. Crumble pasteurized feta into Greek salads or bake it until bubbling hot in casseroles.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01020": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fontina cheese is safe with precautions during pregnancy when made with pasteurized milk. It delivers substantial amounts of calcium, vitamin B12, and protein to support skeletal development. Because some traditional European Fontina varieties use raw milk, always read the package label carefully. If pasteurization cannot be confirmed, heat the cheese until thoroughly melted and steaming hot.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01156": {
+    "verdict": "Recommended",
+    "explanation": "Hard goat cheese is recommended during pregnancy as a nutrient-rich dairy choice. It supplies concentrated calcium, riboflavin, and protein while having very low moisture content that inhibits bacterial pathogens. The FDA and NHS indicate that hard cheeses are safe during pregnancy regardless of milk pasteurization status. Grate hard goat cheese over whole-grain pasta or roasted vegetables for rich flavor.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01157": {
+    "verdict": "Safe with precautions",
+    "explanation": "Semisoft goat cheese is safe with precautions during pregnancy if clearly labeled as made with pasteurized goat milk. It provides valuable riboflavin, calcium, and protein, but semisoft textures can support Listeria growth if made with raw milk. Check the package ingredient list carefully before purchasing at the grocery store. When dining out, confirm the cheese was pasteurized or cooked into a hot dish.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01159": {
+    "verdict": "Safe with precautions",
+    "explanation": "Soft goat cheese (chèvre) is safe with precautions during pregnancy only when made from pasteurized milk. It delivers riboflavin and dairy protein, but unpasteurized soft goat cheese carries a significant risk of foodborne Listeria. The FDA and CDC caution against eating soft goat cheeses unless pasteurization is verified on the packaging. To ensure complete safety, bake soft goat cheese until bubbling hot before eating.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01022": {
+    "verdict": "Recommended",
+    "explanation": "Gouda cheese is recommended during pregnancy as a nutritious and safe dairy option. It supplies high amounts of calcium, vitamin B12, and protein to support maternal health and fetal skeletal growth. Firm, aged Gouda has low water activity that prevents the proliferation of Listeria bacteria. Cut cubes of pasteurized Gouda for a protein-rich snack alongside fresh grapes or raw almonds.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01023": {
+    "verdict": "Recommended",
+    "explanation": "Gruyere cheese is recommended during pregnancy as an exceptional source of dietary calcium. Because Gruyere is a hard, cooked-curd cheese with very low moisture, harmful bacteria cannot survive even in traditional unpasteurized varieties. It provides dense protein and vitamin B12 that assist in fetal cellular formation. Melt Gruyere into a vegetable frittata or grate it over cooked whole grains.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01024": {
+    "verdict": "Safe with precautions",
+    "explanation": "Limburger cheese is safe with precautions during pregnancy provided it is made with pasteurized milk. It contributes calcium, vitamin B12, and riboflavin, but washed-rind soft cheeses carry contamination risks if crafted from raw milk. Check the cheese wrapper to confirm pasteurization before consumption. Alternatively, cook the cheese thoroughly into hot dishes until it reaches 165°F.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01251": {
+    "verdict": "Safe with precautions",
+    "explanation": "Shredded Mexican blend cheese is safe with precautions during pregnancy when produced with pasteurized milk. It provides abundant calcium, complete protein, and vitamin B12 to support maternal bone strength and fetal development. Most commercially packaged shredded cheeses in supermarkets use pasteurized milk, which effectively destroys bacterial pathogens. Melt the cheese over cooked bean tacos or warm corn tortillas for a nourishing meal.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01025": {
+    "verdict": "Recommended",
+    "explanation": "Monterey Jack cheese is recommended during pregnancy as a safe, calcium-rich dairy food. It delivers vital dietary calcium, protein, and vitamin B12 to support fetal bone formation and maternal red blood cell maintenance. Standard commercial Monterey Jack is made with pasteurized milk, eliminating bacterial threats. Slice it for wholesome turkey sandwiches or melt it into warm vegetable casseroles.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01028": {
+    "verdict": "Recommended",
+    "explanation": "Part-skim mozzarella cheese is recommended during pregnancy as a lean and safe calcium source. It provides high concentrations of calcium and protein with lower saturated fat than full-fat cheeses. Commercially packaged mozzarella in the United States is routinely made from pasteurized milk. Top homemade whole-wheat pizzas or pair part-skim mozzarella string cheese with an apple for an easy snack.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG Nutrition During Pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "01026": {
+    "verdict": "Recommended",
+    "explanation": "Whole-milk mozzarella cheese is recommended during pregnancy when produced from pasteurized milk. It offers high levels of dietary calcium, vitamin B12, and quality dairy protein for fetal growth. Verify that fresh mozzarella balls in brine specify pasteurized milk on their packaging before eating them cold. Melt whole-milk mozzarella over baked eggplant or cooked pasta dishes for optimal safety.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01030": {
+    "verdict": "Safe with precautions",
+    "explanation": "Muenster cheese is safe with precautions during pregnancy when prepared from pasteurized milk. It provides robust amounts of calcium, vitamin B12, and protein to support healthy fetal bone architecture. Because Muenster is a semi-soft cheese, always inspect the label to ensure it was made from pasteurized milk. Melt it over whole-grain bread or hot cooked vegetables for a comforting lunch.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01033": {
+    "verdict": "Recommended",
+    "explanation": "Hard Parmesan cheese is recommended during pregnancy as an exceptional source of calcium and dairy protein. Because hard Parmesan undergoes extensive aging and has extremely low water content, Listeria bacteria cannot survive in it. The FDA and NHS confirm that hard cheeses like Parmesan are completely safe during pregnancy whether pasteurized or unpasteurized. Grate generously over warm soups, roasted vegetables, or whole-wheat pasta.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01043": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pasteurized process pimento cheese is safe with precautions during pregnancy when consumed in moderation. The heat treatment applied during processing eliminates harmful bacteria like Listeria and Salmonella. It delivers calcium and protein, but processed cheeses often contain elevated sodium and saturated fat levels. Spread a modest portion onto whole-grain crackers or celery sticks.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01044": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pasteurized process Swiss cheese is safe with precautions during pregnancy as a pathogen-free dairy option. It supplies dietary calcium, vitamin B12, and protein, with the pasteurization process providing reliable food safety. Keep portion sizes sensible since processed cheese products typically carry added emulsifiers and higher sodium than natural cheeses. Melt a slice into a warm lean turkey sandwich or fold into scrambled eggs.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01034": {
+    "verdict": "Safe with precautions",
+    "explanation": "Port de Salut cheese is safe with precautions during pregnancy provided it is made with pasteurized milk. It offers dairy calcium, vitamin B12, and complete protein to support fetal tissue development. Because it is a semi-soft cheese, unpasteurized versions carry a risk of Listeria monocytogenes. Confirm pasteurization on the product label or heat until melted and steaming hot before eating.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01035": {
+    "verdict": "Recommended",
+    "explanation": "Provolone cheese is recommended during pregnancy as a nutritious and safe dairy food. It delivers high amounts of calcium, vitamin B12, and protein to support expanding maternal blood volume and fetal bone growth. Standard commercial Provolone has low moisture and is produced from pasteurized milk, protecting against foodborne illness. Layer slices onto warm sandwiches or bake into Italian pasta dishes.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01036": {
+    "verdict": "Safe with precautions",
+    "explanation": "Whole-milk ricotta cheese is safe with precautions during pregnancy when made from pasteurized milk. It provides gentle dietary calcium, protein, and riboflavin for maternal and fetal nourishment. Because ricotta is a moist fresh cheese, confirm pasteurization on the container and consume within several days of opening. Bake ricotta into piping hot lasagna or dollop onto warm roasted vegetables.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01038": {
+    "verdict": "Recommended",
+    "explanation": "Romano cheese is recommended during pregnancy as an outstanding hard cheese choice. It supplies concentrated calcium, complete protein, and vitamin B12 to foster fetal bone mineralization. Due to its long aging and very low moisture content, Romano does not support the growth of Listeria bacteria. Grate a small serving over cooked whole-grain pasta, soups, or roasted vegetables.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01040": {
+    "verdict": "Recommended",
+    "explanation": "Swiss cheese is recommended during pregnancy as a nutritious and safe hard cheese. It supplies exceptionally high levels of vitamin B12, calcium, and zinc, which are vital for maternal red blood cells and fetal development. The FDA and NHS classify hard Swiss cheese as safe to eat whether made from pasteurized or unpasteurized milk. Layer a slice into a hot lean poultry sandwich or eat alongside fresh fruit.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "NHS Foods to Avoid in Pregnancy",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "01055": {
+    "verdict": "Safe with precautions",
+    "explanation": "Reduced-fat cultured sour cream is safe with precautions during pregnancy when made with pasteurized milk and cream. It provides calcium, riboflavin, and vitamin B12 while moderating saturated fat intake compared to regular sour cream. Commercially packaged sour creams in supermarkets are pasteurized and safe from bacterial pathogens. Dollop a tablespoon onto baked sweet potatoes or warm black bean chili.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01054": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pressurized whipped cream topping is safe with precautions during pregnancy when consumed in moderation. Commercial aerosol whipped creams are pasteurized and sealed, making them completely safe from foodborne contaminants. While safe microbiologically, whipped cream contains added sugars and saturated fats with modest micronutrient density. Use a light swirl as an occasional accent over fresh strawberries or fruit salads.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01225": {
+    "verdict": "Limit",
+    "explanation": "Dulce de leche should be limited during pregnancy due to its high concentration of added sugar. The prolonged boiling process makes it microbiologically sterile and safe, providing calcium and riboflavin from condensed milk. However, the high sugar density can lead to sharp spikes in maternal blood glucose levels. Use a single teaspoon as an occasional topping on plain yogurt or sliced fruit.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG Nutrition During Pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "01144": {
+    "verdict": "Safe with precautions",
+    "explanation": "Powdered egg substitute is safe with precautions during pregnancy and must be cooked thoroughly after rehydration. It supplies high concentrations of protein, riboflavin, and vitamin B12 while eliminating dietary cholesterol. Commercial egg powders undergo pasteurization during manufacturing, but reconstituted liquids should still be heated completely to 160°F. Use it in fully baked muffins or thoroughly cooked morning scrambles.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01138": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fresh duck eggs are safe with precautions during pregnancy only when cooked until both yolk and white are completely firm. They provide dense amounts of choline for fetal brain development, along with vitamin B12 and protein. Consuming raw or runny duck eggs carries a significant risk of Salmonella infection. Cook duck eggs thoroughly by hard boiling or frying until yolks are completely solid.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01128": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fried eggs are safe with precautions during pregnancy only if fried until both the white and yolk are completely firm. Eggs deliver essential choline to support fetal brain architecture, along with vitamin B12 and high-quality protein. The CDC and FDA warn against eating eggs with runny or liquid yolks due to the danger of Salmonella food poisoning. Cook on both sides over medium heat until the yolk is fully set.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01139": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fresh goose eggs are safe with precautions during pregnancy provided they are cooked until the yolk is entirely firm. They deliver substantial choline, vitamin B12, and iron to support fetal growth and maternal energy. Raw or soft goose eggs can harbor Salmonella bacteria that cause severe foodborne gastrointestinal illness. Boil or scramble goose eggs until no runny liquid remains anywhere in the dish.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01129": {
+    "verdict": "Recommended",
+    "explanation": "Hard-boiled eggs are recommended during pregnancy as an ideal and safe source of essential nutrients. They provide rich dietary choline for fetal neural tube and brain development, alongside complete protein and vitamin B12. Boiling eggs until both the white and yolk are completely firm destroys all Salmonella bacteria. Keep peeled hard-boiled eggs refrigerated and eat within one week of cooking.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01130": {
+    "verdict": "Recommended",
+    "explanation": "Cooked omelets are recommended during pregnancy when cooked until the egg mixture is completely set and firm. They deliver choline, protein, riboflavin, and vitamin B12 to foster fetal cellular development. The FDA specifies that eggs must be heated until no wet or runny liquid remains to eliminate Salmonella risk. Fill your omelet with pasteurized cheese, cooked spinach, and sautéed bell peppers for added micronutrients.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01131": {
+    "verdict": "Safe with precautions",
+    "explanation": "Poached eggs are safe with precautions during pregnancy only when poached long enough for the yolk to become completely firm. Eggs provide valuable choline and protein, but traditional poached eggs are typically served with runny yolks that can harbor Salmonella. The CDC advises cooking eggs until both the yolk and white are solid, or using certified pasteurized shell eggs. Pair a fully set poached egg with whole-wheat avocado toast.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01140": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fresh quail eggs are safe with precautions during pregnancy when cooked until the yolks and whites are entirely solid. They deliver concentrated choline, riboflavin, and vitamin B12 to support maternal nervous system and red blood cell health. Eating raw or undercooked quail eggs poses a risk of Salmonella infection during pregnancy. Boil quail eggs thoroughly for several minutes before peeling and serving in salads.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01132": {
+    "verdict": "Recommended",
+    "explanation": "Scrambled eggs are recommended during pregnancy when cooked until completely firm and dry. They provide abundant choline to support fetal brain development, along with complete protein, riboflavin, and vitamin B12. The FDA instructs cooks to avoid soft, runny scrambles to prevent foodborne illness from Salmonella. Cook over medium heat until all moisture evaporates, and serve with whole-grain toast and sliced tomatoes.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01124": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fresh egg whites are safe with precautions during pregnancy and must be cooked until completely opaque and firm. They provide pure dietary protein and riboflavin with zero fat or cholesterol. Consuming raw egg whites carries a risk of Salmonella infection and inhibits biotin absorption due to raw avidin protein. Cook egg whites completely in scrambles, omelets, or thoroughly baked recipes.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01125": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fresh egg yolks are safe with precautions during pregnancy and must be cooked until completely firm or pasteurized. They deliver exceptionally dense choline to support fetal brain and spinal cord growth, along with vitamin B12 and lutein. Raw or runny egg yolks present a serious hazard of Salmonella contamination for pregnant women. Use only pasteurized eggs when making sauces like hollandaise, or cook yolks until hard.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01057": {
+    "verdict": "Caution",
+    "explanation": "Eggnog requires caution during pregnancy because traditional recipes contain raw eggs and alcohol. Homemade or unpasteurized eggnog poses grave risks of Salmonella infection and fetal alcohol exposure. Commercial carton eggnog in grocery stores is pasteurized and non-alcoholic, making it safe from bacterial contamination. If enjoying commercially pasteurized eggnog, sip small servings to manage its high sugar and calorie density.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "01243": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fat-free no-sugar-added ice cream is safe with precautions during pregnancy as an occasional dessert. It supplies calcium, riboflavin, and vitamin B12 from pasteurized skim milk without added sucrose. Be aware that non-nutritive sweeteners and sugar alcohols can cause abdominal bloating or loose stools in sensitive digestive systems. Enjoy a measured single-scoop serving accompanied by fresh berries.",
+    "sources": [
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "01300": {
+    "verdict": "Limit",
+    "explanation": "Chocolate-and-nut covered ice cream bars should be limited during pregnancy due to their high caloric and saturated fat density. Manufactured commercially with pasteurized dairy, they are free from bacterial pathogens and supply minor amounts of calcium and riboflavin. However, the chocolate coating and sweeteners provide concentrated empty calories that can complicate gestational weight management. Save these frozen treats for occasional indulgences rather than daily snacks.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01240": {
+    "verdict": "Limit",
+    "explanation": "Chocolate-covered ice cream cones with nuts should be limited during pregnancy because of high added sugars and fats. The commercial dairy components are pasteurized and safe from bacterial pathogens, contributing modest riboflavin and calcium. Nonetheless, a single cone delivers substantial saturated fat and refined carbohydrates. Enjoy occasionally as a special dessert and choose fresh fruit or yogurt for routine snacks.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01239": {
+    "verdict": "Limit",
+    "explanation": "Ice cream cookie sandwiches should be limited during pregnancy due to elevated sugar and refined flour levels. Commercial ice cream sandwiches use pasteurized dairy ingredients, ensuring they are safe from foodborne bacteria. However, the cookies and sweet filling provide high calories with relatively low micronutrient density. Savor an occasional sandwich while prioritizing nutrient-dense whole dairy foods for daily calcium needs.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01238": {
+    "verdict": "Limit",
+    "explanation": "Standard ice cream sandwiches should be limited during pregnancy as an occasional sweet treat. They are manufactured using pasteurized milk and cream, making them microbiologically safe from Listeria. Even so, the chocolate wafers and sweetened dairy provide concentrated carbohydrates and modest nutritional value. Keep portions to a single bar and pair your daily routine with calcium-rich pasteurized milk or yogurt.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  },
+  "01301": {
+    "verdict": "Limit",
+    "explanation": "Ice cream sundae cones should be limited during pregnancy due to excessive sugar, saturated fat, and calories. Made with commercial pasteurized dairy, they pose no threat of foodborne bacterial illness. However, the fudge core, chocolate lining, and sweet ice cream can drive rapid blood glucose spikes. Treat this as an infrequent indulgence and maintain a balanced prenatal diet filled with whole foods.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines for Americans",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA Food Safety for Moms-to-Be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      }
+    ]
+  }
+}

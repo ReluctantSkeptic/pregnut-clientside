@@ -120,6 +120,92 @@
   margin: 0 0 6px;
 }
 
+/* Food pregnancy guidance card */
+.food-guidance-card {
+  padding: 24px;
+}
+
+.food-guidance-card.is-avoid {
+  border-color: rgba(182, 74, 69, 0.28);
+  background: #fdf8f6;
+}
+
+.food-guidance-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.food-guidance-head .food-explainer-title {
+  margin: 0;
+}
+
+.food-guidance-badge {
+  display: inline-block;
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.food-guidance-badge.is-recommended {
+  color: #1e5631;
+  background: #e8f5e9;
+}
+
+.food-guidance-badge.is-safe-with-precautions,
+.food-guidance-badge.is-safe-with-preparation,
+.food-guidance-badge.is-safe-when-cooked {
+  color: #1e40af;
+  background: #eff6ff;
+}
+
+.food-guidance-badge.is-caution {
+  color: #6d470d;
+  background: #f4e1bd;
+}
+
+.food-guidance-badge.is-limit {
+  color: #9a3412;
+  background: #ffedd5;
+}
+
+.food-guidance-badge.is-avoid {
+  color: #7e2723;
+  background: #f2d3d0;
+}
+
+.food-guidance-text {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink);
+  max-width: 78ch;
+}
+
+.food-guidance-sources {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--food-muted);
+}
+
+.food-guidance-sources-label {
+  font-weight: 600;
+  color: var(--food-muted);
+  margin-right: 4px;
+}
+
+.food-guidance-sources a {
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .food-safety-note {
   scroll-margin-top: 6rem;
 }

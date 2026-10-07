@@ -1,0 +1,898 @@
+{
+  "09221": {
+    "verdict": "Caution",
+    "explanation": "Raw unpasteurized tangerine juice poses foodborne safety concerns during pregnancy. The FDA and CDC warn that untreated fresh juices can harbor bacterial pathogens like Salmonella. Choose commercially pasteurized citrus juices or heat freshly squeezed juice to a rolling boil before drinking. Once pasteurized, tangerine juice supplies vitamin C and potassium for prenatal hydration.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "09219": {
+    "verdict": "Recommended",
+    "explanation": "Canned mandarin oranges packed in juice are recommended during pregnancy as a convenient, safe fruit. They supply vitamin C and potassium without the added refined sugar found in heavy syrups. Commercial high-heat canning ensures complete sterility against foodborne microbes. Stir drained mandarin segments into cottage cheese or fresh spinach salads.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09218": {
+    "verdict": "Recommended",
+    "explanation": "Raw fresh tangerines are recommended during pregnancy as an easily peeled, hydrating fruit. They deliver vitamin C, folate, and potassium, which support maternal collagen production and fetal cell division. The FDA instructs consumers to wash citrus fruit under running water before peeling so utensils and fingers remain clean. Keep several fresh tangerines in your fruit bowl for an energizing snack.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09326": {
+    "verdict": "Recommended",
+    "explanation": "Raw fresh watermelon is strongly recommended during pregnancy as a hydrating fruit. It delivers lycopene, potassium, and vitamin C with over ninety percent water content that helps alleviate morning nausea and swelling. The FDA and CDC recommend washing and scrubbing the thick outer rind with a clean produce brush before cutting. Enjoy freshly sliced watermelon chilled as a thirst-quenching prenatal snack.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "17157": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted lean bison is safe and highly nutritious during pregnancy when cooked thoroughly. It provides bioavailable heme iron, vitamin B12, and zinc, which are critical for maternal red blood cell expansion and fetal growth. The USDA advises cooking whole cuts of game meat to a minimum internal temperature of 145\u00b0F followed by a three-minute rest period. Pair roasted bison with vitamin C-rich vegetables like roasted broccoli to maximize iron absorption.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "17159": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted wild boar is safe during pregnancy only when cooked to a thoroughly high internal temperature. While it provides zinc and protein, wild swine can carry Trichinella spiralis parasites and Toxoplasma gondii. The USDA requires cooking wild game meats to an internal temperature of at least 160\u00b0F to destroy all foodborne pathogens. In addition, the CDC advises pregnant women to avoid wild game harvested with lead ammunition due to lead toxicity risks.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/parasites/toxoplasmosis/prevent.html"
+      }
+    ]
+  },
+  "17344": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pan-broiled ground venison is safe during pregnancy when cooked until completely well-done. It provides high concentrations of heme iron, zinc, and vitamin B12 with very little saturated fat. The USDA mandates cooking all ground game meat to a minimum internal temperature of 160\u00b0F using a food thermometer. Avoid consuming meat from deer harvested with lead ammunition to prevent lead exposure.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/parasites/toxoplasmosis/prevent.html"
+      }
+    ]
+  },
+  "17346": {
+    "verdict": "Safe with precautions",
+    "explanation": "Braised deer shoulder roast is safe during pregnancy provided it is thoroughly cooked. It offers substantial iron, zinc, and complete animal protein that support healthy placental development. Braise whole roasts to an internal temperature of at least 160\u00b0F to eliminate any risk of Toxoplasma parasites. Confirm that the deer was not taken using lead ammunition before consuming.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/parasites/toxoplasmosis/prevent.html"
+      }
+    ]
+  },
+  "17169": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted goat meat is safe and recommended during pregnancy when cooked to safe temperatures. It is a lean red meat delivering generous amounts of zinc, iron, and riboflavin with less saturated fat than beef. The USDA recommends roasting whole cuts of meat to 145\u00b0F with a three-minute resting period to eliminate bacterial pathogens. Serve sliced roast goat alongside roasted sweet potatoes and a crisp green salad.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "17173": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted moose meat is safe during pregnancy when cooked thoroughly to an internal temperature of 160\u00b0F. It delivers extraordinary concentrations of vitamin B12, zinc, and heme iron that support maternal blood cell production. Wild game meats carry risks of parasites such as Toxoplasma gondii, making thorough cooking essential. Ensure the meat was harvested without lead ammunition to safeguard against toxic heavy metal contamination.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/parasites/toxoplasmosis/prevent.html"
+      }
+    ]
+  },
+  "17179": {
+    "verdict": "Safe with precautions",
+    "explanation": "Stewed domestic rabbit meat is safe during pregnancy when thoroughly cooked. It provides easily digested lean protein, choline, and vitamin B12 with very low dietary fat. The USDA instructs cooking rabbit meat to a safe internal temperature of 160\u00b0F to eliminate foodborne microorganisms. Simmer rabbit cuts in a vegetable stew with carrots and potatoes for a nourishing dinner.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "17181": {
+    "verdict": "Safe with precautions",
+    "explanation": "Stewed wild rabbit is safe during pregnancy only when cooked to a thoroughly high internal temperature. It supplies lean protein, iron, and B vitamins, but wild cottontails can harbor Francisella tularensis and parasitic cysts. The USDA and CDC require cooking wild game meat to at least 160\u00b0F to ensure complete food safety. Never consume wild game shot with lead ammunition to protect against heavy metal toxicity.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/parasites/toxoplasmosis/prevent.html"
+      }
+    ]
+  },
+  "17060": {
+    "verdict": "Safe with precautions",
+    "explanation": "Braised lamb stew meat is safe and beneficial during pregnancy when cooked thoroughly. It provides bioavailable heme iron, zinc, and vitamin B12 that help prevent prenatal iron-deficiency anemia. The USDA advises braising lamb cuts until internal temperatures reach at least 145\u00b0F with a three-minute rest, or 160\u00b0F for fork-tender stew meat, destroying Toxoplasma gondii. Combine braised lamb with vitamin C-rich tomatoes and bell peppers to boost iron absorption.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "17225": {
+    "verdict": "Safe with precautions",
+    "explanation": "Broiled ground lamb is safe during pregnancy when cooked to well-done. Ground meats present higher risks of bacterial cross-contamination, so the USDA mandates cooking ground lamb to an internal temperature of 160\u00b0F verified with a digital meat thermometer. It delivers complete protein, zinc, and vitamin B12 to support fetal tissue formation. Serve well-cooked ground lamb in warm whole-grain pita bread with sliced cucumbers.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "17143": {
+    "verdict": "Safe with precautions",
+    "explanation": "Broiled ground veal is safe during pregnancy when cooked thoroughly. It supplies complete protein, zinc, and bioavailable iron with lower fat levels than regular ground beef. The USDA requires cooking ground veal to a minimum internal temperature of 160\u00b0F to destroy harmful pathogens like Salmonella. Avoid any rare or medium-cooked patties during pregnancy to ensure safety.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "17106": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted veal loin is safe during pregnancy when cooked to recommended temperatures. It supplies lean protein, vitamin B12, and zinc that aid fetal cell synthesis. The USDA advises roasting whole cuts of veal to an internal temperature of 145\u00b0F followed by a three-minute resting period to eliminate bacterial risks. Slice thinly and serve with steamed green vegetables and roasted potatoes.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "17136": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted veal sirloin is safe and nutritious during pregnancy when prepared properly. It delivers heme iron, zinc, and vitamin B12 to support expanding maternal blood volume. Cook the roast to a minimum internal temperature of 145\u00b0F with a three-minute rest as directed by the USDA. Pair with a side of sauteed bell peppers to enhance plant iron absorption from your meal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16104": {
+    "verdict": "Safe with precautions",
+    "explanation": "Meatless vegetarian bacon is safe during pregnancy when cooked thoroughly. It offers plant protein and fortified B vitamins, but commercial plant-based bacon products often carry substantial sodium. Cook strips until crispy according to package instructions to ensure food safety. Enjoy one or two strips alongside scrambled pasteurized eggs for an occasional breakfast treat.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16006": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned baked beans are safe during pregnancy as a convenient source of plant protein and dietary fiber. They provide zinc, potassium, and choline that assist fetal development and digestion. Because commercial canned recipes often include added brown sugar and sodium, choose reduced-sodium options when available. Heat thoroughly until steaming hot and serve with whole-grain toast.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16010": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned baked beans with pork and sweet sauce are safe during pregnancy when heated thoroughly. They deliver dietary fiber, potassium, and plant protein, though the pork and sauce add extra sodium and sugar. Commercial canning subjects the beans and pork to high heat sterilization, eliminating bacterial pathogens. Enjoy in moderate portions alongside fresh steamed vegetables.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16017": {
+    "verdict": "Recommended",
+    "explanation": "Boiled black turtle beans are highly recommended during pregnancy as an exceptional source of nutrients. They deliver substantial folate, dietary fiber, plant protein, and potassium that support neural tube closure and bowel regularity. Soak dry beans and boil them thoroughly until soft to break down natural lectins and oligosaccharides. Toss into brown rice bowls with fresh salsa and avocado.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16015": {
+    "verdict": "Recommended",
+    "explanation": "Boiled mature black beans are strongly recommended during pregnancy as a premier vegetarian staple. They supply high amounts of folate, non-heme iron, and soluble fiber, which help build maternal blood cells and prevent constipation. Boil soaked dry beans vigorously to ensure easy digestibility and complete lectin destruction. Pair with bell peppers or lime juice to increase non-heme iron absorption.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16316": {
+    "verdict": "Recommended",
+    "explanation": "Low-sodium canned black beans are recommended during pregnancy as a fast and healthy meal foundation. They offer folate, plant protein, and dietary fiber without the excessive sodium found in standard canned goods. Because canning pre-cooks the beans at high heat, they are completely safe and ready to eat. Rinse under cold water before adding to salads, burritos, or soups.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "43112": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked barbecue ranch-style chili beans are safe during pregnancy as a savory legume dish. They provide dietary fiber, zinc, and potassium, but commercial seasoned sauces can be high in sodium and spicy seasonings that trigger heartburn. Heat thoroughly until steaming hot before serving. Balance spicy beans with cooling sides like plain yogurt or sliced avocado.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16326": {
+    "verdict": "Recommended",
+    "explanation": "Low-sodium canned Great Northern beans are recommended during pregnancy as a mild white bean option. They deliver folate, plant protein, and dietary calcium that assist fetal skeletal development. The low-sodium formulation helps maintain healthy maternal blood pressure. Stir rinsed beans into warm minestrone soup or mash onto whole-grain toast.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16028": {
+    "verdict": "Recommended",
+    "explanation": "Boiled kidney beans are recommended during pregnancy as an iron- and folate-rich legume. They supply plant-based protein and dietary fiber that support healthy blood sugar regulation and digestion. Dry kidney beans contain phytohaemagglutinin lectins that must be destroyed by boiling vigorously for at least ten minutes after soaking. Stir tender boiled kidney beans into chili or grain salads.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/bad-bug-book-second-edition/bad-bug-book-handbook-foodborne-pathogenic-microorganisms-and-natural-toxins"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16033": {
+    "verdict": "Recommended",
+    "explanation": "Boiled red kidney beans are strongly recommended during pregnancy for maternal nutrition. They are rich in folate, iron, and dietary fiber, which help meet elevated prenatal micronutrient requirements. The FDA notes that dry red kidney beans have the highest concentration of phytohaemagglutinin lectin, requiring complete boiling rather than slow-cooking at low heat. Mix thoroughly cooked red kidney beans with brown rice for a complete protein meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/bad-bug-book-second-edition/bad-bug-book-handbook-foodborne-pathogenic-microorganisms-and-natural-toxins"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "16034": {
+    "verdict": "Recommended",
+    "explanation": "Canned red kidney beans are recommended during pregnancy as a convenient and safe legume choice. Commercial canning cooks the beans under high pressure, completely neutralizing natural lectin toxins and ensuring food safety. They provide substantial non-heme iron, potassium, and plant protein. Rinse the beans in a colander under cool water to reduce surface sodium before serving.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16039": {
+    "verdict": "Recommended",
+    "explanation": "Canned navy beans are recommended during pregnancy as a mild, versatile legume. They offer plant protein, folate, and dietary fiber that help prevent constipation and support fetal growth. Commercial canning guarantees that the beans are thoroughly cooked and free of microbial hazards. Mash rinsed navy beans with garlic and olive oil for a nutritious white-bean dip.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16041": {
+    "verdict": "Recommended",
+    "explanation": "Boiled pink beans are recommended during pregnancy as a nutrient-dense legume. They deliver impressive amounts of folate, potassium, and dietary fiber that support maternal heart health and fetal neural development. Soak and boil dry pink beans thoroughly until completely tender before serving. Combine with quinoa and roasted vegetables for a balanced prenatal grain bowl.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16043": {
+    "verdict": "Recommended",
+    "explanation": "Boiled pinto beans are strongly recommended during pregnancy as an outstanding source of folate. One cup provides more than a quarter of the daily prenatal folate requirement, alongside plant iron, potassium, and fiber. Boil soaked pinto beans thoroughly until tender to ensure digestibility and eliminate natural bean lectins. Season with cumin and lime juice for traditional bean dishes.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16347": {
+    "verdict": "Recommended",
+    "explanation": "Low-sodium canned pinto beans are recommended during pregnancy as an effortless, nutritious staple. They supply folate, dietary fiber, and plant protein while keeping sodium within healthy prenatal guidelines. Commercial pressure-cooking ensures total sterility and softness. Warm gently and fold into whole-wheat burritos with diced tomatoes.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16050": {
+    "verdict": "Recommended",
+    "explanation": "Boiled mature white beans are recommended during pregnancy as a mineral-rich food. They deliver substantial non-heme iron, potassium, and plant protein that help maintain red blood cell production. Boil soaked dry white beans thoroughly until tender to soften tough starch. Puree with roasted garlic and a splash of olive oil for a creamy prenatal dip.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16048": {
+    "verdict": "Recommended",
+    "explanation": "Boiled yellow beans are recommended during pregnancy as a nutritious legume. They provide folate, plant protein, and dietary fiber that support healthy digestion and fetal growth. Soak dry yellow beans and simmer them thoroughly until soft to neutralize natural plant compounds. Toss into cold vegetable salads or warm bean stews.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "16053": {
+    "verdict": "Safe with precautions",
+    "explanation": "Boiled broadbeans or fava beans are safe and nutritious for most pregnant women when cooked thoroughly. They provide rich amounts of folate, dietary fiber, and plant protein that support fetal neural development and maternal digestion. Boil fava beans vigorously until completely tender, and note that women with the genetic condition G6PD deficiency must avoid them due to the risk of hemolytic anemia. Toss tender boiled fava beans with olive oil and lemon juice for a fresh side dish.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16055": {
+    "verdict": "Recommended",
+    "explanation": "Carob flour is recommended during pregnancy as a naturally caffeine-free cocoa substitute. It is rich in dietary calcium, potassium, and soluble fiber, which support fetal bone formation without caffeine stimulation. The USDA highlights carob as a wholesome baking ingredient for desserts and breakfast drinks. Use carob powder in place of cocoa powder when baking prenatal muffins or blending smoothies.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "43128": {
+    "verdict": "Safe with precautions",
+    "explanation": "Meatless vegetarian chicken is safe during pregnancy when cooked thoroughly. It provides plant protein and is often fortified with vitamin B12 and iron to support vegetarian prenatal diets. Heat meatless poultry products until steaming hot to an internal temperature of 165\u00b0F to ensure microbial safety. Check the packaging label to select brands with moderate sodium levels.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "43410": {
+    "verdict": "Safe with precautions",
+    "explanation": "Breaded and fried meatless chicken is safe during pregnancy but best eaten in moderation. It delivers fortified vitamin B12 and protein, though frying and seasoned breading add extra fat and sodium. Bake or air-fry until the internal temperature reaches 165\u00b0F and the exterior is hot and crisp. Pair with a fresh raw vegetable salad to add dietary fiber to your meal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16057": {
+    "verdict": "Recommended",
+    "explanation": "Boiled chickpeas are highly recommended during pregnancy as a versatile, nutrient-dense legume. They provide folate, zinc, plant protein, and dietary fiber that support fetal tissue growth and steady maternal digestion. Boiling soaked dry chickpeas thoroughly ensures they are soft and easily digested. Toss boiled chickpeas into grain bowls, roast them with olive oil, or blend into homemade dips.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16059": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned chili with beans is safe during pregnancy when heated thoroughly before serving. It delivers plant protein, zinc, and iron, though commercial canned recipes can be high in sodium and spicy seasonings. The canning process ensures total sterility from foodborne bacteria. Heat until steaming hot and serve with brown rice, keeping portions moderate if prone to pregnancy heartburn.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16063": {
+    "verdict": "Recommended",
+    "explanation": "Boiled black-eyed peas are strongly recommended during pregnancy as an exceptional source of folate. A single cup supplies over thirty percent of daily folate needs, alongside zinc, iron, and dietary fiber that support fetal neural development. Simmer dry black-eyed peas until completely tender to maximize digestibility. Serve with braised collard greens and brown rice for a nutrient-packed prenatal meal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "43130": {
+    "verdict": "Safe with precautions",
+    "explanation": "Meatless frankfurters are safe during pregnancy only when heated until steaming hot. While made from plant proteins and fortified with vitamin B12, refrigerated pre-packaged links can harbor Listeria monocytogenes from handling. The FDA and CDC advise heating all hot dogs and meat alternatives to an internal temperature of 165\u00b0F before consumption. Grill or boil links thoroughly and check nutrition labels for sodium content.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/listeria/prevention.html"
+      }
+    ]
+  },
+  "16137": {
+    "verdict": "Safe with precautions",
+    "explanation": "Home-prepared hummus is safe and nutritious during pregnancy when made with strict food hygiene. It provides plant protein, folate, and healthy fats from chickpeas and sesame tahini, supporting maternal tissue development. The FDA and CDC recommend refrigerating freshly made hummus below 40\u00b0F in an airtight container and eating it within two days. Dip fresh washed vegetable sticks like carrots and bell peppers into chilled hummus for a fiber-rich snack.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "16070": {
+    "verdict": "Recommended",
+    "explanation": "Boiled lentils are strongly recommended during pregnancy as an outstanding source of folate and plant iron. They supply plant protein, potassium, and dietary fiber that help build maternal red blood cells and prevent constipation. Simmer dry lentils in water or broth until completely soft to ensure easy digestion. Enjoy tender boiled lentils in warm vegetable soups or mixed with brown rice.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16069": {
+    "verdict": "Avoid",
+    "explanation": "Raw dry lentils must be avoided in their uncooked state during pregnancy. Uncooked lentils contain high concentrations of lectins and phytic acid that cause severe nausea, vomiting, and abdominal cramps. The USDA and FDA instruct that all dried lentils must be cooked thoroughly in simmering liquid until completely soft before consumption. Boil lentils properly to access their rich folate and plant iron safely.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/bad-bug-book-second-edition/bad-bug-book-handbook-foodborne-pathogenic-microorganisms-and-natural-toxins"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "16072": {
+    "verdict": "Recommended",
+    "explanation": "Boiled mature lima beans are recommended during pregnancy as a potassium- and folate-rich legume. They provide dietary fiber and plant protein that support blood pressure regulation and healthy digestion. The FDA warns that raw lima beans contain cyanogenic glycosides, meaning they must always be boiled uncovered until completely tender to eliminate natural compounds. Enjoy cooked lima beans tossed with olive oil and sweet corn.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/bad-bug-book-second-edition/bad-bug-book-handbook-foodborne-pathogenic-microorganisms-and-natural-toxins"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "43131": {
+    "verdict": "Safe with precautions",
+    "explanation": "Meatless luncheon slices are safe during pregnancy only when heated until steaming hot before consumption. While made from plant proteins and fortified with vitamin B12, chilled ready-to-eat deli-style slices can harbor Listeria monocytogenes from post-processing handling. The CDC and FDA instruct pregnant women to reheat all deli slices to an internal temperature of 165\u00b0F to eliminate bacterial risks. Pan-sear vegetarian slices in a hot skillet before adding them to toasted sandwiches.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/listeria/prevention.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      }
+    ]
+  },
+  "43132": {
+    "verdict": "Safe with precautions",
+    "explanation": "Meatless vegetarian meatballs are safe during pregnancy when cooked thoroughly. They supply plant protein, iron, and fortified vitamin B12, supporting vegetarian maternal nutritional needs. Heat meatless meatballs to an internal temperature of 165\u00b0F to eliminate any foodborne bacterial hazards. Simmer in vitamin C-rich tomato marinara sauce over whole-wheat pasta for an iron-boosting meal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16112": {
+    "verdict": "Safe with precautions",
+    "explanation": "Miso is safe during pregnancy when consumed in moderation. This fermented soybean paste supplies beneficial probiotics, zinc, and protein that support gut health. Dissolve pasteurized miso paste into warm soups without boiling it vigorously to preserve probiotic cultures. Because miso is naturally high in sodium, measure single-tablespoon portions to keep salt intake balanced.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16081": {
+    "verdict": "Recommended",
+    "explanation": "Boiled mature mung beans are recommended during pregnancy as a nutritious, folate-dense legume. They provide plant protein, dietary fiber, and potassium that support fetal neural development and maternal digestion. Cook soaked dry mung beans thoroughly until soft, and note that fully cooked mature beans are safe unlike raw mung bean sprouts. Stir tender boiled mung beans into seasoned grain dishes or mild curries.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      }
+    ]
+  },
+  "16084": {
+    "verdict": "Recommended",
+    "explanation": "Boiled mungo or black gram beans are recommended during pregnancy as a wholesome legume. They supply plant protein, folate, and dietary fiber that assist maternal energy metabolism and regular bowel movements. Soak dry mungo beans and simmer them thoroughly until soft to break down oligosaccharides. Combine with cooked brown rice and mild spices for a complete vegetarian meal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16113": {
+    "verdict": "Recommended",
+    "explanation": "Natto is recommended during pregnancy as a nutrient-rich fermented soybean food. It delivers plant protein, iron, and high levels of vitamin K2, which supports maternal bone metabolism and circulatory health. Commercial natto undergoes controlled fermentation with Bacillus subtilis, ensuring food safety when stored refrigerated. Stir natto thoroughly with a small dash of soy sauce and serve over warm steamed rice.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16082": {
+    "verdict": "Safe with precautions",
+    "explanation": "Dry mung bean cellophane noodles are safe during pregnancy once they are fully cooked. Made from refined mung bean starch, they provide easily digestible carbohydrates for energy but contain little dietary fiber or protein. Cook noodles thoroughly in boiling water or hot broth until tender and translucent before serving. Toss cooked glass noodles with tofu, sesame oil, and cooked vegetables for a balanced dish.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      }
+    ]
+  },
+  "42200": {
+    "verdict": "Safe with precautions",
+    "explanation": "Papad flatbread is safe during pregnancy when cooked thoroughly until crisp. Made primarily from spiced legume flours, it supplies small amounts of plant protein and folate. Roast or microwave papad rather than deep frying to minimize excess cooking fats, and check labels for high sodium levels. Serve a single crisp papad alongside lentil dal and steamed rice.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16397": {
+    "verdict": "Recommended",
+    "explanation": "Chunk-style peanut butter is strongly recommended during pregnancy as a satisfying, nutrient-dense spread. It supplies plant protein, healthy monounsaturated fats, and folate to support fetal cell development. ACOG and the American Academy of Pediatrics confirm that eating peanuts during pregnancy does not increase childhood peanut allergies and is safe unless you have a personal allergy. Spread crunchy peanut butter on whole-grain toast or apple slices.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "16098": {
+    "verdict": "Recommended",
+    "explanation": "Smooth peanut butter is recommended during pregnancy as an excellent source of protein and healthy fats. It delivers vitamin B6, zinc, and folate, which support fetal growth and maternal energy maintenance. ACOG states that pregnant women without peanut allergies can freely enjoy peanut products throughout gestation. Pair smooth peanut butter with banana slices or oatmeal for a sustaining breakfast.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "16150": {
+    "verdict": "Safe with precautions",
+    "explanation": "Reduced-fat smooth peanut butter is safe during pregnancy when consumed in moderation. While it lowers total fat grams, commercial manufacturers often replace the natural fat with added corn syrups and hydrogenated oils. The USDA suggests choosing natural peanut butters containing solely peanuts and salt for optimal prenatal nutrition. Check the ingredient label to avoid unnecessary added sugars.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "16099": {
+    "verdict": "Recommended",
+    "explanation": "Defatted peanut flour is recommended during pregnancy as a concentrated source of plant protein. It delivers substantial zinc, potassium, and folate while removing most of the dietary fat. Blend a tablespoon of peanut flour into prenatal fruit smoothies or stir into morning oatmeal for a protein boost. Store in an airtight container in a cool, dry pantry to maintain freshness.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16090": {
+    "verdict": "Recommended",
+    "explanation": "Dry-roasted peanuts are recommended during pregnancy as a convenient, nutrient-dense snack. They provide plant protein, magnesium, folate, and healthy fats that support maternal cardiovascular function. Choose unsalted dry-roasted varieties to keep daily sodium intake within recommended guidelines. Keep a small portion in your bag for steady energy between prenatal meals.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16089": {
+    "verdict": "Recommended",
+    "explanation": "Oil-roasted peanuts are recommended during pregnancy as an energy-dense snack for women without peanut allergies. They supply plant protein, zinc, and vitamin E that help meet heightened prenatal caloric and micronutrient needs. ACOG affirms that consuming peanuts during pregnancy is safe and beneficial for infant outcomes unless maternal allergy exists. Measure a small one-ounce handful to manage calorie and sodium levels.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "16087": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw peanuts are safe during pregnancy provided they are sourced from reputable suppliers and stored dry. They supply plant protein, zinc, and folate, but raw peanuts carry potential risks of Salmonella and Aspergillus mold producing aflatoxins. The FDA monitors commercial crops, but roasting or boiling raw peanuts before eating is strongly advised to eliminate microbial contamination. Enjoy boiled or roasted peanuts for optimal safety.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "16085": {
+    "verdict": "Avoid",
+    "explanation": "Raw dry split green peas must be avoided in their uncooked state during pregnancy. Consuming hard, uncooked split peas causes acute gastrointestinal distress, gas, and stomach cramping due to indigestible starches and plant lectins. The USDA instructs that dried split peas must always be simmered thoroughly in water or broth until completely tender before eating. Cook them into a nourishing split pea soup to absorb their rich folate and plant protein safely.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      }
+    ]
+  },
+  "16086": {
+    "verdict": "Recommended",
+    "explanation": "Boiled split green peas are strongly recommended during pregnancy as an exceptional source of folate and fiber. They deliver plant-based protein, potassium, and non-heme iron that help sustain maternal red blood cell levels and prevent constipation. Simmering split peas requires no pre-soaking and breaks down tough starches for easy digestion. Enjoy warm split pea soup alongside whole-grain bread for a comforting prenatal lunch.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "16103": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned refried beans are safe during pregnancy as a convenient source of plant protein and dietary fiber. They provide potassium and iron to support fetal growth, though traditional recipes may include added lard or high sodium. Choose vegetarian, non-fat, or low-sodium canned refried beans to minimize saturated fats and sodium. Warm thoroughly and spread inside whole-wheat tortillas with diced avocado.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  }
+}
