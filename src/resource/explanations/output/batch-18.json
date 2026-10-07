@@ -756,16 +756,44 @@
     ]
   },
   "11718": {
-    "verdict": "Recommended",
-    "explanation": "Boiled sprouted mung beans are safe and highly recommended during pregnancy. Cooking eliminates the foodborne pathogen risks associated with raw sprouts while preserving plant protein, folate, and iron. CDC confirms that cooking sprouts until steaming hot makes them completely safe for pregnant individuals to eat. Stir boiled sprouted mung beans into hot noodle soups, curries, or stir-fries for great texture.",
-    "sources": [
+    "verdict": "Safe when cooked",
+    "explanation": "CDC lists raw or undercooked sprouts, including bean sprouts, as a riskier choice during pregnancy and names sprouts cooked until steaming hot as the safer choice. FDA advises pregnant people to avoid raw sprouts of any kind, including mung bean sprouts. This record contains 29 mcg dietary folate equivalents and 2.03 g protein per 100 g of boiled sprouted mung beans in PregNut’s historical USDA-based dataset. It cannot show whether your own dish reached steaming hot.",
+    "claims": [
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/foodsafety/communication/sprouts.html"
+        "text": "CDC lists raw or undercooked sprouts, including bean sprouts, as a riskier choice during pregnancy and names sprouts cooked until steaming hot as the safer choice.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "FDA advises pregnant people to avoid raw sprouts of any kind, including mung bean sprouts.",
+        "source": {
+          "name": "FDA: produce for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 29 mcg dietary folate equivalents and 2.03 g protein per 100 g of boiled sprouted mung beans in PregNut’s historical USDA-based dataset. It cannot show whether your own dish reached steaming hot.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: produce for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
