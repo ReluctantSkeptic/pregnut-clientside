@@ -1,5 +1,9 @@
 const foodData = require("../resource/pregnut_fooddata.v1.json");
 const foodImages = require("./foodimages");
+let foodExplanations = {};
+try {
+  foodExplanations = require("../resource/food_explanations.json");
+} catch (e) {}
 
 const NUTRIENT_GUIDES = {
   Calcium: { title: "Calcium without dairy during pregnancy", url: "/blog/calcium-without-dairy-pregnancy/" },
@@ -289,6 +293,7 @@ const items = (foodData.foods || [])
       chartRows,
       topNutrients,
       summary: summaryText(topNutrients),
+      guidance: foodExplanations[food.id] || null,
       metaDescription: pageDescription,
       seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
       readingLinks: readingLinks(food, flags, topNutrients),

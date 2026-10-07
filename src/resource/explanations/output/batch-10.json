@@ -1,0 +1,898 @@
+{
+  "15119": {
+    "verdict": "Recommended",
+    "explanation": "Canned light tuna in oil is recommended during pregnancy as an FDA Best Choice fish. It provides complete protein, vitamin B12, and vitamin D while maintaining low methylmercury levels compared to albacore or bigeye tuna. The FDA and EPA recommend eating two to three four-ounce servings of canned light tuna each week. Drain the packing oil and mix with diced vegetables for a quick lunch.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15121": {
+    "verdict": "Recommended",
+    "explanation": "Canned light tuna packed in water is recommended during pregnancy as an FDA Best Choice fish. It offers lean protein, omega-3 DHA, and selenium with low mercury accumulation. The FDA and EPA encourage consuming two to three four-ounce servings of light tuna weekly to support fetal brain development. Season with lemon juice, chopped celery, and black pepper for a light meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "93600": {
+    "verdict": "Avoid",
+    "explanation": "Green sea turtle meat must be avoided completely during pregnancy. It presents serious risks of foodborne Salmonella poisoning and bioaccumulates heavy metals like cadmium and environmental toxins. Green turtles are also an internationally protected endangered species prohibited from commercial harvest and trade. Choose safe low-mercury seafood like wild salmon, cod, or tilapia instead.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      }
+    ]
+  },
+  "15131": {
+    "verdict": "Safe with precautions",
+    "explanation": "Smoked whitefish is safe during pregnancy only when heated until steaming hot before consumption. While whitefish is an FDA Best Choice seafood that delivers omega-3 fatty acids and vitamin D, refrigerated smoked seafood can harbor Listeria monocytogenes. The FDA and CDC advise pregnant women to avoid eating cold-smoked fish unless it is cooked in a dish to an internal temperature of 165\u00b0F. Add smoked whitefish to a baked breakfast frittata or hot chowder to eliminate bacterial risks.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/listeria/prevention.html"
+      }
+    ]
+  },
+  "15133": {
+    "verdict": "Recommended",
+    "explanation": "Cooked whiting is recommended during pregnancy as an FDA Best Choice fish. It provides lean protein, vitamin B12, and omega-3 fatty acids with exceptionally low mercury levels. The FDA and EPA advise pregnant women to enjoy two to three four-ounce servings of Best Choice fish each week, cooked to 145\u00b0F. Bake whiting fillets with garlic and herbs for a gentle, nutritious dinner.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09016": {
+    "verdict": "Safe with precautions",
+    "explanation": "Commercial unsweetened apple juice is safe during pregnancy when pasteurized. It delivers hydration and modest potassium, but it lacks the dietary fiber found in whole apples and concentrates fruit sugars. The FDA requires juice manufacturers to pasteurize products or use warning labels on untreated juices. Enjoy a small glass alongside a fiber-rich snack or dilute it with sparkling water.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09009": {
+    "verdict": "Recommended",
+    "explanation": "Dehydrated uncooked apples are safe and recommended during pregnancy. They provide concentrated dietary fiber and potassium, helping alleviate common prenatal sluggishness and constipation. Because moisture has been removed, drink plenty of water alongside dried fruit snacks. Choose varieties without added refined sugars for daily snacking.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09011": {
+    "verdict": "Recommended",
+    "explanation": "Dried uncooked apples are recommended during pregnancy as a wholesome snack. They deliver dietary fiber, potassium, and riboflavin that support energy metabolism and digestive health. Check packaging labels for sulfites if you have known sensitivities to food preservatives. Pair dried apple rings with a small handful of pasteurized almonds for sustained energy.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09003": {
+    "verdict": "Recommended",
+    "explanation": "Raw apples with the skin on are recommended during pregnancy. The peel supplies valuable dietary fiber and antioxidants, which support digestion and help manage blood sugar. The FDA and CDC recommend washing apples thoroughly under clean running water while scrubbing the surface to remove dirt and bacteria before eating. Slice and dip into natural peanut butter for an excellent prenatal snack.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "09004": {
+    "verdict": "Recommended",
+    "explanation": "Raw peeled apples are recommended during pregnancy as a gentle fruit option. They supply vitamin C, potassium, and pectin fiber while being easy on sensitive stomachs during bouts of nausea. The FDA reminds consumers to wash whole apples under running water before peeling so knives do not transfer bacteria from peel to flesh. Enjoy chilled peeled slices when experiencing morning sickness.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09019": {
+    "verdict": "Recommended",
+    "explanation": "Unsweetened canned applesauce is recommended during pregnancy as an easily digestible snack. It provides soothing hydration and pectin fiber, making it helpful for managing first-trimester nausea and indigestion. Commercial applesauce is heat-pasteurized during packaging, guaranteeing food safety against microbial pathogens. Spoon into oatmeal or enjoy on its own as a quick breakfast side.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09036": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned apricot nectar is safe to drink during pregnancy when pasteurized. It offers small amounts of vitamin C and potassium, but it contains concentrated liquid sugars and minimal dietary fiber. The FDA ensures commercially canned juices are sterile, eliminating bacterial hazards like Salmonella. Limit portion sizes to a single small glass and prioritize whole fruit when possible.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09027": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned apricots in syrup are safe during pregnancy but should be eaten in moderation. They retain vitamin C and potassium from the fruit, though the heavy syrup adds substantial empty calories and refined sugars. Drain the syrup thoroughly or rinse the fruit under water to decrease unnecessary sugar intake. Stir chopped drained apricots into plain unsweetened yogurt for a balanced snack.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09022": {
+    "verdict": "Recommended",
+    "explanation": "Canned apricots packed in water are recommended during pregnancy as a nutritious fruit choice. They provide beta-carotene, vitamin C, and potassium without the added sugars found in heavy syrup. Because commercial canning involves sterile heating, this fruit is completely free of bacterial contaminants. Eat them directly from the bowl or blend into morning fruit smoothies.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09032": {
+    "verdict": "Recommended",
+    "explanation": "Dried uncooked apricots are recommended during pregnancy as an iron-rich snack. They deliver substantial amounts of potassium, non-heme iron, and dietary fiber that help prevent pregnancy anemia and constipation. The USDA suggests combining dried fruits with water to keep digestion regular. Eat a small handful daily alongside vitamin C foods to improve plant iron absorption.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09021": {
+    "verdict": "Recommended",
+    "explanation": "Raw apricots are recommended during pregnancy as a fresh, nutrient-dense fruit. They deliver beta-carotene, vitamin C, and dietary fiber that support fetal eye development and maternal immunity. The FDA advises washing fresh apricots thoroughly under running water before slicing or biting into them. Enjoy fresh ripe apricots as a mid-morning snack during their peak summer season.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09037": {
+    "verdict": "Recommended",
+    "explanation": "Fresh avocado is highly recommended during pregnancy as an exceptional source of healthy fats and micronutrients. It supplies folate, potassium, and monounsaturated fatty acids that support fetal brain growth and placental development. The FDA emphasizes washing the outer skin under clean running water before slicing so the knife blade does not transfer surface bacteria into the edible flesh. Spread mashed avocado on whole-grain toast or fold into scrambled eggs.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09041": {
+    "verdict": "Recommended",
+    "explanation": "Dehydrated bananas are recommended during pregnancy as a potassium-rich snack. They supply concentrated amounts of vitamin B6 and potassium, which help regulate fluid balance and nerve transmission. Keep portion sizes moderate because dehydrating bananas condenses their natural sugar and calorie density. Pair a few slices with pumpkin seeds for a crunchy prenatal trail mix.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09040": {
+    "verdict": "Recommended",
+    "explanation": "Raw bananas are strongly recommended during pregnancy as a convenient, gentle staple food. They deliver vitamin B6, which ACOG highlights as a supportive nutrient for easing morning sickness, alongside potassium and soluble fiber. Peel bananas right before eating and store at room temperature away from excessive moisture. Slice over warm oatmeal or eat plain to settle an uneasy stomach.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09046": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned blackberries in syrup are safe during pregnancy when consumed in moderation. They provide dietary fiber, vitamin C, and folate, but the packing syrup adds considerable sugar. Drain and rinse the fruit under water before eating to remove excess syrup. Top cottage cheese or plain Greek yogurt with drained blackberries for a nutritious snack.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "09048": {
+    "verdict": "Recommended",
+    "explanation": "Unsweetened frozen blackberries are recommended during pregnancy as a nutrient-packed option. They are flash-frozen at peak ripeness, preserving high levels of vitamin C, folate, and dietary fiber without added sugars. The FDA recommends using frozen berries directly in cooked baked dishes or blending them thoroughly into smoothies. Blend frozen blackberries with pasteurized milk or kefir for a refreshing prenatal drink.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09042": {
+    "verdict": "Recommended",
+    "explanation": "Raw blackberries are recommended during pregnancy as a rich source of dietary fiber and vitamin C. They provide antioxidants and folate, helping support maternal tissue growth and healthy digestive transit. The FDA and CDC advise washing fresh blackberries gently in a colander under clean running water right before eating to eliminate surface contaminants. Toss fresh blackberries into spinach salads or morning cereal bowls.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "09043": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned blackberry juice is safe during pregnancy provided it is commercially pasteurized. It provides vitamin C and hydration, but the juicing process removes the beneficial fiber found in whole berries. Check product packaging to ensure it is one hundred percent juice without added corn syrup. Mix with plain seltzer water for a refreshing low-sugar beverage.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09052": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned blueberries in syrup are safe during pregnancy when eaten in controlled portions. They supply antioxidants, riboflavin, and small amounts of vitamin C, though heavy packing syrup contributes unnecessary calories. The USDA recommends choosing fruit canned in water or natural fruit juice rather than syrup whenever possible. Drain the berries thoroughly before using in pancakes or yogurt parfaits.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09352": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned blueberries packed in syrup are safe to consume while pregnant. They offer modest amounts of riboflavin and potassium, but their syrup contains high levels of refined sugar. Commercial canning guarantees that the fruit is sterile and free from foodborne pathogens. Drain the liquid thoroughly and fold the blueberries into warm steel-cut oats.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "09163": {
+    "verdict": "Safe with precautions",
+    "explanation": "Sweetened dried blueberries are safe during pregnancy but should be eaten in moderation. They deliver dietary fiber and concentrated antioxidants, though commercial processors frequently add significant refined sugar. The USDA advises checking the ingredient list to monitor added sweeteners. Sprinkle a single tablespoon over whole-grain porridge to add natural flavor without excess sugar.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09050": {
+    "verdict": "Recommended",
+    "explanation": "Raw blueberries are highly recommended during pregnancy as a nutritious fresh fruit. They provide vitamin C, dietary fiber, and protective anthocyanin antioxidants that support maternal vascular health. The FDA and CDC recommend placing blueberries in a colander and washing them thoroughly under cold running water immediately before consumption. Enjoy fresh blueberries by the handful or sprinkled over pasteurized cottage cheese.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "09057": {
+    "verdict": "Recommended",
+    "explanation": "Unsweetened frozen boysenberries are recommended during pregnancy as a wholesome berry choice. They supply valuable folate, vitamin C, and dietary fiber that support fetal neural development and digestion. Because freezing preserves nutrients without added preservatives, frozen berries remain fresh and convenient. Thaw slightly and fold into plain yogurt or warm oatmeal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09059": {
+    "verdict": "Safe with precautions",
+    "explanation": "Breadfruit is safe to consume during pregnancy once it is thoroughly cooked. It provides complex carbohydrates, potassium, and vitamin C, but eating it raw can cause significant digestive distress. Boil, bake, or steam breadfruit until completely tender before serving. Wash the tough outer skin under running water before slicing into chunks.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09426": {
+    "verdict": "Limit",
+    "explanation": "Candied fruit should be limited during pregnancy due to its high refined sugar content. The candying process replaces natural fruit moisture with concentrated sugar syrups, stripping away most vitamins while adding empty calories. The USDA encourages pregnant women to replace candied confections with fresh or unsweetened dried fruits. Reserve candied peel or fruit for occasional festive treats rather than regular snacking.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09060": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw carambola or starfruit is safe during pregnancy for women with healthy kidneys. It provides vitamin C, dietary fiber, and potassium with few calories. However, starfruit contains caramboxin and oxalates, which can be dangerous for individuals with preexisting kidney dysfunction. Wash the fruit thoroughly under clean running water before slicing into stars.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09066": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned red sour cherries in syrup are safe during pregnancy when consumed in moderation. They contain antioxidants, iron, and potassium, but heavy packing syrup contributes substantial added sugar. Commercial canning provides complete heat sterilization, eliminating foodborne microbial risks. Drain the syrup thoroughly before folding the cherries into baked whole grains.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "09063": {
+    "verdict": "Recommended",
+    "explanation": "Raw red sour cherries are recommended during pregnancy as a nutrient-dense fruit. They supply vitamin C, potassium, and beneficial polyphenols that support maternal immune health. The FDA and CDC emphasize washing fresh cherries under cold running water before eating to remove residues and surface microbes. Enjoy fresh sour cherries pitted in fruit salads or blended into smoothies.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "09074": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned sweet cherries in syrup are safe during pregnancy but should be portion-controlled. They provide vitamin C and potassium from the cherries, though packing syrup adds extra calories and refined sugars. Choose fruit canned in light juice or drain heavy syrup to keep sugar intake balanced. Pair drained sweet cherries with plain Greek yogurt for a satisfying dessert.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09070": {
+    "verdict": "Recommended",
+    "explanation": "Raw sweet cherries are recommended during pregnancy as a fresh and wholesome fruit. They offer dietary fiber, potassium, and vitamin C, which help regulate blood pressure and promote bowel regularity. The FDA advises washing cherries thoroughly under running water and removing pits before snacking. Keep a chilled bowl of washed cherries in the refrigerator for a refreshing snack.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09044": {
+    "verdict": "Safe with precautions",
+    "explanation": "Sweetened dried tart cherries are safe during pregnancy when consumed in moderation. They deliver concentrated potassium and vitamin C, but most commercial brands add substantial sugar during processing. The USDA advises checking nutrition facts labels to keep added sugars within recommended prenatal limits. Stir a small spoonful into homemade trail mix alongside raw pumpkin seeds.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09079": {
+    "verdict": "Safe with precautions",
+    "explanation": "Sweetened dried cranberries are safe to eat while pregnant in controlled portions. They supply dietary fiber and proanthocyanidins, though sugar is typically added to balance natural tartness. Look for low-sugar varieties to keep total carbohydrate intake moderate. Toss a modest sprinkle over roasted vegetables or grain bowls for tart sweetness.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "09078": {
+    "verdict": "Recommended",
+    "explanation": "Raw cranberries are recommended during pregnancy as a nutritious tart fruit. They are rich in vitamin C and unique bioactive plant compounds that help maintain urinary tract health. The FDA and CDC recommend washing fresh cranberries under running water before cooking or blending them. Simmer with orange peel and a touch of honey to make a homemade prenatal relish.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "43382": {
+    "verdict": "Recommended",
+    "explanation": "Unsweetened pure cranberry juice is recommended during pregnancy to help support urinary tract comfort. It supplies vitamin C and protective phytochemicals without the heavy added sugars found in commercial cranberry cocktail blends. Ensure that the juice you buy is commercially pasteurized to avoid bacterial hazards. Dilute two ounces of tart juice with sparkling water and a squeeze of lime for a crisp drink.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09081": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned sweetened cranberry sauce is safe during pregnancy when eaten in moderation. It delivers small amounts of vitamin C, but it is high in refined sugars from cooking syrups. Commercial canning provides sterile packaging, making it completely safe from foodborne illness. Serve a modest spoonful alongside roasted turkey or chicken to keep added sugars in check.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09084": {
+    "verdict": "Recommended",
+    "explanation": "Raw red and white currants are recommended during pregnancy as an exceptional source of vitamin C. They supply dietary fiber, potassium, and antioxidants that enhance non-heme iron absorption and tissue growth. The FDA recommends washing fresh berries gently in a sieve under cold running water before eating. Scatter raw currants over morning yogurt or blend into smoothies for a tart kick.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09085": {
+    "verdict": "Recommended",
+    "explanation": "Dried Zante currants are recommended during pregnancy as a nutrient-dense dried fruit. They provide concentrated plant iron, potassium, and dietary fiber, which help support maternal red blood cells and bowel motility. Because they are calorie-dense, measure modest portions rather than eating straight from the box. Fold currants into whole-wheat muffins or hot oatmeal bowls.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09087": {
+    "verdict": "Recommended",
+    "explanation": "Deglet Noor dates are recommended during pregnancy as an excellent source of natural energy and dietary fiber. They provide generous amounts of potassium and magnesium, which help alleviate muscle cramps and support digestive regularity. Dates are naturally sweet, so enjoy two to three per serving to manage blood sugar levels. Stuff pitted dates with almond butter for a nourishing prenatal treat.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09092": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned figs in syrup are safe during pregnancy but should be eaten in moderation. They contain calcium, potassium, and dietary fiber, but heavy canning syrup adds high amounts of refined sugar. Drain and rinse the fruit to discard excess liquid sweetener before serving. Pair drained figs with a slice of pasteurized cheddar cheese for balanced protein and fat.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "09094": {
+    "verdict": "Recommended",
+    "explanation": "Dried uncooked figs are recommended during pregnancy as a standout source of calcium and fiber. They deliver plant calcium to support fetal bone development, alongside non-heme iron and potassium. Drink adequate fluids when consuming high-fiber dried fruits to assist smooth digestion. Enjoy two or three dried figs with a handful of walnuts as an afternoon snack.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09089": {
+    "verdict": "Recommended",
+    "explanation": "Raw fresh figs are recommended during pregnancy as a nutritious seasonal fruit. They provide dietary fiber, potassium, and small amounts of calcium that support healthy blood pressure and bowel function. The FDA advises washing ripe fresh figs gently under cold running water just prior to eating because they have delicate skins. Eat fresh figs whole or slice them over a bed of baby arugula.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09515": {
+    "verdict": "Safe with precautions",
+    "explanation": "Bolthouse Farms Green Goodness smoothie is safe to drink during pregnancy when pasteurized. It delivers supplemental vitamin B12 and vitamin C, but it contains a high concentration of fruit sugars and little whole fiber. Commercially bottled and sealed drinks are heat-treated to ensure safety against foodborne pathogens. Limit consumption to a small portion alongside a protein-rich meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09516": {
+    "verdict": "Safe with precautions",
+    "explanation": "Bolthouse Farms Strawberry Banana smoothie is safe during pregnancy as a pasteurized bottled beverage. It supplies vitamin C, potassium, and folate, but it contains considerable carbohydrates per serving. The FDA guarantees that commercially distributed smoothies are flash-pasteurized to destroy dangerous bacteria. Sip a small glass rather than a full bottle to prevent rapid blood sugar spikes.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09508": {
+    "verdict": "Safe with precautions",
+    "explanation": "Naked Juice Green Machine smoothie is safe to drink while pregnant provided it is pasteurized. It provides fortified vitamin B12 and vitamin C, though liquid calories and concentrated fructose can add up quickly. Commercial pasteurization eliminates foodborne risks from bacterial contamination. Keep portion sizes modest and pair with protein like boiled eggs to stabilize energy levels.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09531": {
+    "verdict": "Safe with precautions",
+    "explanation": "Naked Juice Strawberry Banana smoothie is safe during pregnancy as a commercially pasteurized drink. It offers potassium and vitamin C from pureed fruits, but it contains over fifty grams of carbohydrates per bottle. The FDA recommends pasteurized juices to protect pregnant women from foodborne illness. Measure a four-ounce serving into a glass rather than drinking the entire bottle.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09513": {
+    "verdict": "Safe with precautions",
+    "explanation": "This commercial Odwalla bottled green smoothie is safe during pregnancy when purchased pasteurized. It provides vitamin C, potassium, and riboflavin, though it carries a high concentration of fruit sugars. Check the label to verify that the bottle has been refrigerated and kept sealed until opening. Enjoy half a cup as an occasional treat rather than a substitute for whole vegetables.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09530": {
+    "verdict": "Safe with precautions",
+    "explanation": "Odwalla Strawberry Banana smoothie is safe during pregnancy when pasteurized and stored cold. It supplies vitamin C and potassium from real fruit purees, but lacks the beneficial insoluble fiber of whole fruit. Commercial pasteurization protects against harmful foodborne bacteria such as Listeria. Drink in small portions alongside a fiber-rich meal to avoid blood sugar spikes.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09105": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned mixed fruit salad in syrup is safe during pregnancy but best consumed in moderation. It provides small amounts of vitamin C and potassium, though the sweet syrup adds excess calories and simple sugars. Commercial canning provides thorough heat preservation, making it completely safe from foodborne bacteria. Drain the heavy syrup and rinse the fruit pieces with cool water before eating.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "09135": {
+    "verdict": "Safe with precautions",
+    "explanation": "Commercially bottled unsweetened grape juice is safe during pregnancy when pasteurized. It offers potassium and natural antioxidants, though it is high in fast-absorbing natural sugars. The FDA requires that commercial juices sold at retail undergo pasteurization to protect against harmful microbes. Limit intake to four ounces per day and enjoy alongside a meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09128": {
+    "verdict": "Caution",
+    "explanation": "Raw unpasteurized white grapefruit juice poses safety concerns during pregnancy. The FDA and CDC warn that unpasteurized juices can harbor foodborne pathogens like Salmonella. Consume only commercially pasteurized grapefruit juice or bring fresh unpasteurized juice to a rolling boil before drinking. In addition, verify that grapefruit does not interact with any prescription medications you take.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "09111": {
+    "verdict": "Recommended",
+    "explanation": "Raw fresh grapefruit is recommended during pregnancy as a hydrating, nutrient-dense fruit. It delivers vitamin C, potassium, and dietary fiber that support immunity and healthy blood pressure. The FDA advises washing the outer citrus rind thoroughly under running water before slicing with a knife. Check with your obstetric care provider if you take blood pressure or allergy medications, as grapefruit can alter drug metabolism.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09131": {
+    "verdict": "Recommended",
+    "explanation": "Raw American slip-skin grapes are recommended during pregnancy as a hydrating fresh snack. They supply potassium, vitamin C, and antioxidants with high water content that aids maternal hydration. The FDA and CDC recommend washing grape clusters thoroughly under cool running water in a colander before eating. Keep washed grapes in a container in the refrigerator for quick snacking.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "09134": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned Thompson seedless grapes in syrup are safe during pregnancy when eaten in moderation. They supply small amounts of iron and potassium, but heavy canning syrup contributes excessive refined sugar. Commercial canning provides heat processing that eliminates foodborne bacterial pathogens. Drain the sugary syrup thoroughly and combine the grapes with diced melon in a fresh fruit salad.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "09132": {
+    "verdict": "Recommended",
+    "explanation": "Raw European table grapes are recommended during pregnancy as a convenient and hydrating fruit. They provide dietary fiber, potassium, and vitamin C that help maintain fluid balance and digestion. The FDA and CDC instruct consumers to wash grapes thoroughly under cool running water before eating to remove dirt and bacteria. Pack washed grapes alongside whole-grain crackers and cheese for an afternoon snack.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "09434": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned guanabana nectar is safe during pregnancy when consumed in moderation. It delivers small amounts of vitamin C and folate, but commercial nectars often carry considerable added sugar. The canning process pasteurizes the beverage, eliminating microbial hazards like Listeria. Limit serving sizes to a single cup to keep total dietary sugars within healthy limits.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09519": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned guava nectar with sucralose is safe during pregnancy. It supplies vitamin C without the extra calories of sugar-sweetened nectar, and the FDA considers sucralose safe for pregnant women. Commercially canned beverages undergo sterile heating to protect against harmful foodborne bacteria. Enjoy an occasional glass chilled over ice as a flavorful alternative to soda.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-additives-petitions/additional-information-about-high-intensity-sweeteners-permitted-use-food-united-states"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "09143": {
+    "verdict": "Recommended",
+    "explanation": "Cooked guava sauce is recommended during pregnancy as an exceptional source of vitamin C. It delivers dietary fiber and potassium, while the cooking process guarantees microbial safety. Vitamin C also aids in the absorption of plant-based non-heme iron from other foods. Spoon warm guava sauce over whole-grain pancakes or plain yogurt.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09139": {
+    "verdict": "Recommended",
+    "explanation": "Raw common guava is highly recommended during pregnancy as an outstanding source of vitamin C. It provides folate, potassium, and abundant dietary fiber that support fetal neural growth and relieve constipation. The FDA advises washing the outer rind thoroughly under running water before slicing into the fruit. Eat fresh guava slices plain or with a light sprinkle of lime juice.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "09148": {
+    "verdict": "Recommended",
+    "explanation": "Raw green kiwifruit is recommended during pregnancy as a nutrient-dense fresh fruit. It supplies more vitamin C per serving than oranges, alongside folate, potassium, and actinidin enzymes that aid digestion. The FDA reminds consumers to wash whole kiwifruit under clean running water before cutting to avoid transferring surface microbes. Slice in half and scoop out the vibrant green flesh with a spoon.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  }
+}

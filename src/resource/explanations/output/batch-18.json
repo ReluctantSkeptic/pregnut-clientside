@@ -1,0 +1,898 @@
+{
+  "11032": {
+    "verdict": "Recommended",
+    "explanation": "Boiled immature lima beans are strongly recommended during pregnancy. They provide generous plant protein, soluble fiber, iron, and folate to help build maternal red blood cells and promote fetal growth. Boiling the beans thoroughly is essential to destroy natural phaseolunatin compounds and eliminate foodborne microbes. Serve warm boiled lima beans tossed with olive oil and fresh herbs alongside whole grains.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11043": {
+    "verdict": "Avoid",
+    "explanation": "Raw sprouted mung beans should be strictly avoided during pregnancy. Sprouts require warm, humid conditions to grow, which fosters rapid bacterial multiplication of Salmonella, Listeria, and E. coli. CDC and FDA urge pregnant women to avoid all raw sprouts because bacteria can enter seeds internally and cannot be washed away. Cook mung bean sprouts thoroughly until steaming hot before adding them to any meal.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/sprouts.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11135": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw white cauliflower is safe and wholesome during pregnancy if prepared with care. It provides dietary fiber, choline, folate, and vitamin C that support fetal brain development and maternal wellness. CDC recommends cutting the head into florets and washing each piece under clean running water to eliminate soil-borne microbes. Enjoy clean raw florets in fresh salads, or steam them lightly if raw cruciferous vegetables cause digestive bloating.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11136": {
+    "verdict": "Recommended",
+    "explanation": "Boiled cauliflower is strongly recommended during pregnancy. It supplies natural folate, vitamin C, potassium, and dietary fiber that support healthy digestion and fetal cell growth. Boiling or steaming softens the dense fibers, making it easy on sensitive digestive systems and eliminating any surface microorganisms. Mash boiled cauliflower with a splash of milk and olive oil as a comforting low-carbohydrate alternative to potatoes.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11141": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw celeriac is safe during pregnancy provided it is thoroughly scrubbed and peeled. It supplies dietary fiber, potassium, phosphorus, and vitamin C to support fluid balance and bone health. Because celeriac is a knobby root vegetable grown underground, CDC advises scrubbing away all caked dirt under running water and cutting away the fibrous outer peel to avoid Toxoplasma. Grate peeled celeriac into a light remoulade with pasteurized yogurt and Dijon mustard.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11143": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw celery is safe and refreshing for pregnant individuals when cleaned thoroughly. It provides excellent hydration along with modest amounts of potassium, folate, and vitamin K. CDC recommends separating individual celery stalks and rubbing them under cold running water to eliminate soil and pesticide residues. Fill washed celery ribs with pasteurized cream cheese or natural peanut butter for a satisfying, hydrating snack.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11144": {
+    "verdict": "Recommended",
+    "explanation": "Boiled celery is safe and beneficial during pregnancy. It contributes gentle dietary fiber, potassium, and folate, while the cooking process softens its stringy texture for effortless digestion. Boiling ensures any bacteria from agricultural soil are completely destroyed. Incorporate boiled celery into soups, stews, and casseroles for subtle flavor and extra vegetable volume.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11147": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw Swiss chard is safe during pregnancy if washed with meticulous care. It offers vitamin A, vitamin C, folate, and potassium to support maternal vitality. Because chard grows close to the ground, CDC produce guidelines stress washing each broad leaf individually under running water to remove potential Toxoplasma and Listeria. Chop tender young leaves finely into mixed salads, or lightly wilt them if raw greens feel harsh on digestion.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11148": {
+    "verdict": "Recommended",
+    "explanation": "Boiled Swiss chard is highly recommended during pregnancy. It supplies abundant magnesium, iron, calcium, folate, and vitamin K to support maternal blood health and skeletal integrity. Boiling or braising the leaves reduces soluble oxalates and destroys any lingering agricultural bacteria. Sauté boiled chard with olive oil and garlic, then finish with a splash of lemon juice to enhance plant iron absorption.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11149": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw chayote is safe to eat during pregnancy when washed and peeled properly. It delivers crisp hydration, vitamin C, and folate to help meet daily prenatal nutrient goals. CDC advises rinsing the gourd under running water and using a clean vegetable peeler to remove the outer rind and eliminate soil contaminants. Thinly julienne peeled chayote into fresh slaws dressed with lime juice and olive oil.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11152": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw chicory greens are safe to consume during pregnancy with proper food hygiene. They provide dietary folate, vitamin A, vitamin K, and prebiotic inulin that supports healthy intestinal flora. Wash the bitter leaves thoroughly under cold running water per CDC instructions to dislodge any soil bacteria or parasites. Combine washed chicory with sweet fruits like sliced pears and a mild vinaigrette to balance its sharp bitterness.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11156": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw chives are safe and flavorful for pregnant women when washed thoroughly. They deliver trace amounts of folate, vitamin C, and allicin while adding savory flavor without excess salt. CDC produce safety guidance recommends rinsing fresh herbs under cool running water before chopping to wash away dust and microbes. Sprinkle freshly washed snipped chives over scrambled eggs, baked potatoes, or soups for a burst of flavor.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11158": {
+    "verdict": "Recommended",
+    "explanation": "Boiled garland chrysanthemum is safe and nutritious when eaten in culinary amounts during pregnancy. It delivers valuable beta-carotene, vitamin K, potassium, and folate to support maternal nutrition. Boiling the greens in water or broth for two minutes softens their aromatic bite and eliminates any foodborne pathogens. Stir boiled garland chrysanthemum into hot noodle soups or vegetable hot pots for an authentic herbal flavor.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11161": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw collard greens are safe during pregnancy provided they are washed thoroughly. They supply substantial folate, calcium, and vitamins A and C to bolster maternal health. CDC advises washing both sides of each broad leaf under running tap water to remove soil and microbial contaminants like Toxoplasma. Slice washed collard leaves into very fine ribbons for slaws, or massage them with olive oil to soften their tough texture.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11162": {
+    "verdict": "Recommended",
+    "explanation": "Boiled collard greens are exceptionally nutritious and highly recommended during pregnancy. They are an outstanding source of bioavailable plant calcium, folate, dietary fiber, iron, and vitamin A to support fetal bone and tissue growth. Simmering collards until tender breaks down tough cellulose fibers and ensures complete food safety. Season tender boiled collards with olive oil and a dash of vinegar to facilitate iron absorption and digestive ease.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11165": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw fresh cilantro leaves are safe and beneficial during pregnancy when washed properly. They provide small amounts of vitamin K, vitamin A, and antioxidants, adding vibrant flavor to prenatal meals. CDC recommends rinsing fresh culinary herbs under running water and patting them dry to remove surface dirt and bacteria. Sprinkle freshly chopped cilantro over thoroughly cooked tacos, lentil soups, or bean salads.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11168": {
+    "verdict": "Recommended",
+    "explanation": "Boiled yellow sweet corn is strongly recommended for pregnancy nutrition. It contributes lutein, zeaxanthin, folate, and dietary fiber to support fetal eye health and maternal digestion. Boiling the ears in water softens the outer hulls and guarantees complete food safety. Serve fresh boiled corn with a squeeze of lime juice and a sprinkle of paprika as a wholesome meal component.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11172": {
+    "verdict": "Recommended",
+    "explanation": "Canned yellow sweet corn is a safe and nutritious vegetable choice for expectant mothers. It delivers steady energy, lutein, folate, and dietary fiber in an affordable, shelf-stable form. Commercial canning ensures microbiological safety, though rinsing the kernels in cold water helps reduce added salt. Mix drained yellow corn into whole-grain bowls, chili, or scrambled pasteurized eggs.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11192": {
+    "verdict": "Recommended",
+    "explanation": "Boiled immature cowpeas are highly recommended during pregnancy. They provide excellent quantities of plant protein, dietary fiber, iron, and folate to help prevent prenatal anemia and support fetal development. Simmering the fresh peas until tender ensures complete destruction of foodborne microbes and softens their starches for easy digestion. Combine boiled cowpeas with brown rice and leafy greens for a traditional, nutrient-packed meal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11203": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw garden cress is safe to consume in culinary amounts during pregnancy if washed thoroughly. It offers intense peppery flavor along with vitamin C, vitamin A, and folate. Because water-grown and soil-grown greens can harbor bacteria, CDC recommends washing cress vigorously under clean running water before eating. Use small washed pinches as a garnish on soups, egg salads, or whole-wheat sandwiches.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11204": {
+    "verdict": "Recommended",
+    "explanation": "Boiled garden cress is safe and highly nutritious during pregnancy when eaten in standard culinary amounts. It delivers concentrated vitamin K, vitamin C, folate, and iron to nourish expanding maternal blood supplies. Boiling or blanching cress mellows its peppery heat and neutralizes any surface pathogens. Stir boiled garden cress into warm grain bowls or potato dishes for a peppery, micronutrient-dense green.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11205": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw unpeeled cucumber is safe and wholesome for pregnant women when washed properly. Retaining the dark peel provides extra dietary fiber, vitamin K, and antioxidants to support regularity and bone health. CDC recommends scrubbing cucumbers with a clean produce brush under running water to eliminate surface wax and microbes before slicing. Toss washed cucumber slices with tomatoes, olive oil, and pasteurized feta cheese for a crisp Mediterranean salad.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11206": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw peeled cucumber is safe, hydrating, and beneficial throughout pregnancy. It delivers gentle hydration, potassium, and vitamin C while being exceptionally easy on sensitive, nausea-prone stomachs. CDC advises rinsing whole cucumbers under running water prior to peeling so that a knife or peeler does not transfer bacteria into the flesh. Slice peeled cucumber into chilled spears for a cooling snack, or dip them into pasteurized hummus.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11207": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw dandelion greens are safe during pregnancy if washed thoroughly and sourced from clean, pesticide-free growers. They supply dietary fiber, vitamin K, calcium, and vitamin C to promote prenatal wellness. CDC advises rinsing leafy greens under cold running water to eliminate soil-dwelling parasites like Toxoplasma. Chop washed dandelion leaves finely into mixed salads paired with a citrus vinaigrette to balance their pungent flavor.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11208": {
+    "verdict": "Recommended",
+    "explanation": "Boiled dandelion greens are highly recommended during pregnancy. They provide generous amounts of calcium, iron, folate, and vitamin A to assist fetal skeleton formation and maternal red blood cell production. Boiling dandelion leaves reduces their natural bitterness and eliminates any environmental contaminants. Drain the boiled greens and toss them with olive oil, garlic, and lemon juice for an iron-rich side dish.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11209": {
+    "verdict": "Avoid",
+    "explanation": "Raw eggplant should be avoided during pregnancy. Raw eggplant contains solanine, a natural alkaloid that can cause gastrointestinal distress, nausea, and cramping when eaten uncooked. In addition, unwashed raw eggplant skin may carry agricultural soil pathogens. Always cook eggplant completely by boiling, baking, or sautéing until tender before consumption.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      }
+    ]
+  },
+  "11210": {
+    "verdict": "Recommended",
+    "explanation": "Boiled eggplant is safe and recommended for expectant mothers. It provides dietary fiber, potassium, and antioxidants while contributing very few calories to daily meals. Cooking eggplant thoroughly until tender breaks down its spongy texture and neutralizes mild solanine alkaloids. Combine boiled or stewed eggplant with tomatoes, garlic, and olive oil for a delicious Mediterranean ratatouille.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11212": {
+    "verdict": "Recommended",
+    "explanation": "Prepared frozen edamame is strongly recommended during pregnancy. These young soybeans provide complete plant protein, dietary fiber, iron, choline, and folate to support fetal brain development and maternal energy. Steam or boil frozen edamame pods until steaming hot to eliminate any possible foodborne bacteria. Pop the warm beans from their outer pods for an energizing afternoon snack or toss them into grain bowls.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11213": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw endive is safe and nutritious for pregnant women when washed with care. Its crisp leaves supply dietary folate, vitamin K, potassium, and fiber that support fetal neural development and digestion. CDC recommends rinsing individual endive leaves under cool running water to eliminate soil residue and microbes. Use washed endive leaves as crisp edible scoops for pasteurized guacamole or bean dips.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11214": {
+    "verdict": "Recommended",
+    "explanation": "Boiled escarole is strongly recommended during pregnancy. It provides valuable dietary folate, fiber, vitamin A, and potassium to support maternal cardiovascular health and fetal development. Simmering escarole in soups or salted water softens its slightly bitter flavor and ensures complete microbial safety. Add boiled escarole to white bean soups or pasta dishes for a nourishing, comforting dinner.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11215": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw garlic is safe in normal culinary amounts during pregnancy, but should not be taken in medicinal doses. It delivers allicin, vitamin B6, and trace minerals that support maternal immune function. Wash and peel garlic cloves cleanly under running water, and avoid high-dose garlic dietary supplements which can increase bleeding risk. Use minced raw garlic to flavor homemade dressings or salsas, or cook it gently to avoid pregnancy heartburn.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11216": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fresh raw ginger root is safe and effective in culinary amounts during pregnancy. ACOG recognizes ginger as a proven non-pharmacologic remedy for nausea and morning sickness in early pregnancy. Wash the root under running water, scrub away dirt, and peel the skin before grating into hot water or meals. Limit intake to roughly one gram of fresh ginger daily, and avoid high-dose medicinal supplements.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11223": {
+    "verdict": "Safe with precautions",
+    "explanation": "Boiled drumstick tree leaves are safe and nutritious when eaten in culinary quantities during pregnancy. They are exceptionally rich in iron, calcium, vitamin C, and folate, which help combat pregnancy fatigue and support fetal growth. Boil the leaves thoroughly in soups or curries, and avoid moringa root or bark preparations which carry uterine-stimulating risks. Limit intake to standard dietary food portions, and enjoy them as a nourishing vegetable in lentil dahl.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11226": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw Jerusalem artichokes are safe during pregnancy if washed and peeled, though they can cause digestive gas. They are packed with prebiotic inulin fiber, potassium, and iron to support bowel health and maternal iron levels. CDC advises scrubbing knobby tubers with a stiff produce brush under running water to eliminate soil bacteria like Toxoplasma. Slice washed tubers thinly into salads, but start with modest portions to gauge your tolerance for inulin.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11232": {
+    "verdict": "Recommended",
+    "explanation": "Boiled jute leaves are highly recommended during pregnancy. They deliver generous amounts of folate, beta-carotene, iron, calcium, and potassium to support maternal blood health and fetal growth. Boiling the leaves creates a smooth texture and ensures complete destruction of foodborne microorganisms. Simmer boiled jute leaves into a nourishing garlic and coriander broth served over brown rice.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11234": {
+    "verdict": "Recommended",
+    "explanation": "Boiled kale is strongly recommended throughout pregnancy. It supplies rich amounts of bioavailable calcium, folate, vitamin C, and lutein to support fetal skeletal and optical development. Boiling kale softens its tough cellulose fibers, reducing digestive discomfort while eliminating any surface microbes. Toss boiled kale with olive oil, lemon juice, and a pinch of salt for a comforting, nutrient-dense side dish.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11241": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw kohlrabi is safe and wholesome during pregnancy when prepared properly. It delivers exceptional vitamin C, potassium, and crisp fiber to satisfy crunchy snack cravings. CDC advises washing the bulb under running water and using a sharp knife to peel away the thick fibrous outer skin. Cut peeled raw kohlrabi into crisp matchsticks to enjoy with guacamole or pasteurized hummus.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11242": {
+    "verdict": "Recommended",
+    "explanation": "Boiled kohlrabi is highly recommended for prenatal diets. It is loaded with vitamin C, potassium, and dietary fiber that support maternal immune function and prevent constipation. Boiling peeled kohlrabi cubes until fork-tender eliminates food safety concerns and mellows its cabbage-like flavor. Mash boiled kohlrabi with a little butter or fold into vegetable soups for gentle, satisfying nutrition.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11245": {
+    "verdict": "Safe with precautions",
+    "explanation": "Boiled lambsquarters are safe and exceptionally nutritious in dietary amounts during pregnancy. They provide substantial calcium, iron, folate, and vitamin A to support fetal growth and maternal energy. Because lambsquarters contain natural oxalates, boil the leaves in water and discard the cooking liquid to lower oxalate levels and ensure food safety. Sauté the drained greens with garlic and olive oil as an iron-rich alternative to spinach.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11246": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw leeks are safe to consume during pregnancy if cleaned meticulously. They provide dietary folate, vitamin K, and prebiotic fiber that promotes beneficial gut bacteria. Because leeks grow in sandy soil that becomes trapped between internal layers, CDC advises splitting leeks lengthwise and rinsing thoroughly under running water to remove all dirt. Slice clean leeks thinly into fresh salads, or cook them gently to reduce pungent allicin compounds.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11250": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw butterhead lettuce is safe and beneficial during pregnancy when washed properly. Its soft leaves provide dietary folate, vitamin A, and gentle hydration to support maternal wellness. CDC produce safety rules emphasize separating leaves and washing each one under cool running water to eliminate Toxoplasma and Listeria. Use clean butterhead leaves as tender wraps for grilled chicken or toss into a light lunch salad.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11251": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw romaine lettuce is safe and highly nutritious for pregnant women with proper food hygiene. It delivers folate, vitamin K, lutein, and dietary fiber to aid fetal neural tube development and digestive health. CDC warns that leafy greens can carry bacterial contaminants, so wash heads thoroughly by separating leaves and rinsing under running tap water. Chop crisp washed romaine for classic Caesar salads made with pasteurized dressings.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11252": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw iceberg lettuce is safe and hydrating during pregnancy if prepared properly. While lower in micronutrients than dark greens, it supplies crisp hydration, folate, and vitamin K that are gentle on an upset stomach. CDC recommends discarding damaged outer leaves and rinsing the head under running water before cutting. Use washed iceberg wedges topped with pasteurized dressing as an appetizing, crunchy side.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11253": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw green leaf lettuce is safe and wholesome throughout pregnancy when handled with care. It provides dietary folate, vitamin A, and essential hydration with negligible calories. CDC advises washing loose leaves under clean running water to remove surface soil and protect against foodborne illnesses. Pat leaves dry with a clean paper towel and use them to add crisp freshness to whole-grain sandwiches.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11255": {
+    "verdict": "Recommended",
+    "explanation": "Boiled lotus root is safe and recommended during pregnancy. It supplies dietary fiber, vitamin C, potassium, and B vitamins that assist in maternal hydration and digestion. Boiling peeled lotus root slices until tender neutralizes any aquatic pathogens and softens its crunchy texture. Add boiled lotus root to savory Asian soups or stir-fries for an attractive pattern and pleasant crispness.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11261": {
+    "verdict": "Recommended",
+    "explanation": "Boiled white button mushrooms are highly recommended for expectant mothers. They offer riboflavin, niacin, selenium, and potassium to support maternal metabolism and cellular repair. Boiling mushrooms destroys natural agaritine compounds and eliminates any agricultural bacteria. Fold tender boiled mushrooms into scrambled pasteurized eggs or blend into velvety vegetable soups.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11264": {
+    "verdict": "Recommended",
+    "explanation": "Canned mushrooms are safe and nutritious to eat during pregnancy. They provide B vitamins, selenium, potassium, and dietary fiber that support maternal metabolic health. The commercial canning process uses high heat that destroys all foodborne microorganisms and heat-sensitive mushroom toxins. Drain and rinse canned mushrooms before adding them to hot pasta sauces, omelets, or casseroles.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11268": {
+    "verdict": "Safe with precautions",
+    "explanation": "Dried shiitake mushrooms are safe and nutritious during pregnancy once properly rehydrated and cooked. They deliver concentrated B vitamins, minerals, and rich umami flavor that can satisfy prenatal savory cravings. Always soak dried mushrooms in hot water until tender and cook them thoroughly to steaming temperatures. Use the strained soaking liquid and cooked sliced caps to enrich prenatal soups and risottos.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11269": {
+    "verdict": "Recommended",
+    "explanation": "Cooked shiitake mushrooms are strongly recommended during pregnancy. They provide copper, selenium, B vitamins, and lentinan to bolster maternal immunity and energy metabolism. Cooking shiitake mushrooms thoroughly breaks down tough cell walls and neutralizes raw shiitake dermatitis compounds. Sauté sliced shiitake in olive oil with garlic and add to warm stir-fries or broths.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11270": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw mustard greens are safe during pregnancy if washed with rigorous care. They deliver concentrated vitamin C, folate, and glucosinolates to bolster maternal immune health. CDC guidelines emphasize washing leafy greens under running water to eliminate soil-borne microbes like Toxoplasma and Listeria. Slice clean mustard greens finely into mixed salads to add a zesty, peppery kick.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11271": {
+    "verdict": "Recommended",
+    "explanation": "Boiled mustard greens are exceptionally nutritious and recommended during pregnancy. They provide abundant vitamin A, vitamin C, folate, calcium, and iron to nourish both mother and developing baby. Boiling the greens mellows their peppery bite and destroys any potential surface bacteria or parasites. Season warm boiled mustard greens with extra virgin olive oil and a splash of cider vinegar for maximum flavor.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11715": {
+    "verdict": "Recommended",
+    "explanation": "Canned lima beans are safe, convenient, and recommended for prenatal nutrition. They deliver high levels of dietary fiber, plant protein, iron, and potassium to support maternal stamina. High-heat commercial canning destroys natural antinutrients and guarantees microbiological safety. Drain and rinse the beans in cool water to reduce sodium, then stir into soups, stews, or succotash.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11718": {
+    "verdict": "Recommended",
+    "explanation": "Boiled sprouted mung beans are safe and highly recommended during pregnancy. Cooking eliminates the foodborne pathogen risks associated with raw sprouts while preserving plant protein, folate, and iron. CDC confirms that cooking sprouts until steaming hot makes them completely safe for pregnant individuals to eat. Stir boiled sprouted mung beans into hot noodle soups, curries, or stir-fries for great texture.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/sprouts.html"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11766": {
+    "verdict": "Recommended",
+    "explanation": "Boiled chayote squash is strongly recommended during pregnancy. It offers generous amounts of folate, dietary fiber, vitamin C, and potassium with very few calories and a mild, soothing taste. Boiling chayote until tender ensures microbiological safety and produces a delicate texture that is easy on the stomach. Cube boiled chayote into vegetable soups, curries, or warm salads seasoned with lime juice and olive oil.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11901": {
+    "verdict": "Recommended",
+    "explanation": "Boiled white sweet corn is highly recommended during pregnancy. It supplies energetic complex carbohydrates, dietary fiber, folate, and potassium to support maternal stamina and bowel regularity. Boiling corn on the cob or as kernels destroys any potential pathogens and makes the kernels tender and digestible. Enjoy a warm ear of boiled corn with a touch of butter alongside lean poultry or fish.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11905": {
+    "verdict": "Recommended",
+    "explanation": "Canned white sweet corn is safe, convenient, and recommended during pregnancy. It provides dietary fiber, folate, and B vitamins that assist with cellular energy production and digestion. The high heat of commercial canning eliminates bacteria, but choosing low-sodium versions is advisable to help regulate blood pressure. Drain and warm the kernels to toss into black bean salads or vegetable soups.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11957": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw fennel bulb is safe to eat in standard culinary portions during pregnancy when washed properly. It provides dietary fiber, vitamin C, and potassium, while its natural anise flavor can help soothe pregnancy indigestion. CDC guidelines advise trimming the outer stalks and rinsing the bulb under cold running water before slicing to eliminate soil particles. Shave washed raw fennel thinly and toss with orange segments and olive oil for a refreshing salad.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11964": {
+    "verdict": "Recommended",
+    "explanation": "Cooked nopales are safe and highly recommended during pregnancy. They provide soluble dietary fiber, calcium, magnesium, and potassium that support maternal blood sugar regulation and bone maintenance. Cooking sliced nopales by boiling or grilling eliminates any food safety risks and reduces their natural mucilage. Toss cooked nopales with diced tomatoes, onions, and lime juice for a traditional, nourishing Mexican salad.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11965": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw green cauliflower is safe to eat during pregnancy when thoroughly cleaned. It offers crisp hydration, vitamin C, folate, and dietary fiber. CDC guidelines emphasize washing all cruciferous vegetables under running tap water to dislodge trapped soil particles and pathogens. Serve clean florets with pasteurized hummus or yogurt dip for a crunchy snack.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11967": {
+    "verdict": "Recommended",
+    "explanation": "Cooked green cauliflower is highly recommended for prenatal diets. It provides substantial vitamin C, folate, and carotenoids to bolster maternal immunity and tissue growth. Gentle steaming or cooking until tender retains its vibrant color while ensuring food safety. Toss cooked florets with extra virgin olive oil and lemon zest for a nutritious dinner side.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11974": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw grape leaves are safe to consume during pregnancy if cleaned and blanched properly. They provide calcium, iron, folate, and dietary fiber to support maternal vitality. Because fresh leaves can harbor agricultural bacteria and tough tannins, CDC recommends washing leaves under running water and blanching them in boiling water before eating. Stuff blanched grape leaves with cooked rice and lean meat for a nutritious, traditional dish.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "31033": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pickled ginger root with artificial sweeteners is safe in moderation during pregnancy. Ginger is well known for alleviating pregnancy-related nausea and morning sickness. FDA considers common approved artificial sweeteners safe in pregnancy, but check labels for sodium and consume modest amounts. Savor a few slices alongside meals when experiencing mild nausea, or choose fresh brewed ginger tea as a natural alternative.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-additives-petitions/additional-information-about-high-intensity-sweeteners-permitted-use-food-united-states"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43146": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pickled eggplant is safe during pregnancy, but should be eaten in moderation due to sodium content. It offers dietary fiber and an appetizing acidity that can help stimulate appetite during bouts of morning sickness. Ensure the pickled eggplant comes from a commercially sealed jar and is stored in the refrigerator after opening. Enjoy a forkful as an accent with grilled meats or whole-grain crackers.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "43392": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw fresh hearts of palm are safe during pregnancy provided they are handled with proper hygiene. They provide dietary fiber, potassium, iron, and zinc while remaining low in calories and gentle on digestion. Wash the harvested stalks thoroughly under clean running water and trim away tough outer sheaths to remove any potential pathogens. Slice clean hearts of palm into fresh salads or lightly steam them for enhanced tenderness.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      }
+    ]
+  }
+}

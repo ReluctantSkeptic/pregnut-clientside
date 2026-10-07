@@ -1,0 +1,898 @@
+{
+  "11001": {
+    "verdict": "Avoid",
+    "explanation": "Raw sprouted alfalfa seeds should be completely avoided during pregnancy. The warm and humid conditions required to sprout seeds create an ideal breeding ground for Salmonella, Listeria, and E. coli. CDC warns that pregnant women should never consume raw sprouts because washing seeds cannot eliminate internalized bacteria. If you crave crunchy toppings for sandwiches, use thoroughly washed shredded lettuce or crisp sliced cucumbers instead.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/sprouts.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11008": {
+    "verdict": "Recommended",
+    "explanation": "Boiled globe artichokes are strongly recommended during pregnancy. They provide rich supplies of dietary fiber, folate, potassium, and magnesium to support digestive comfort and fetal development. Boil or steam artichokes until the outer leaves pull away easily and the heart is tender. Dip the cooked petals into olive oil and lemon juice for a nourishing side dish.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11011": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw asparagus is safe to eat during pregnancy if it is cleaned meticulously. It delivers folate, vitamin C, and insoluble dietary fiber that helps ease pregnancy constipation. CDC recommends scrubbing firm vegetables with a produce brush under clean running water to eliminate soil bacteria and parasites. Shave washed raw spears into thin ribbons with a vegetable peeler to make them easy to chew in salads.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11012": {
+    "verdict": "Recommended",
+    "explanation": "Boiled asparagus is highly recommended during pregnancy. It is packed with natural folate, which ACOG highlights for neural tube development, along with vitamin K and prebiotic fiber. Boil or steam trimmed spears for three to five minutes until tender-crisp to protect heat-sensitive vitamins. Serve spears warm with a drizzle of olive oil or toss them into a pasteurized egg frittata.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11015": {
+    "verdict": "Recommended",
+    "explanation": "Canned asparagus is safe and nutritious to eat during pregnancy. The commercial canning process heat-sterilizes the vegetable while preserving useful amounts of folate, iron, and fiber. Check nutrition labels for sodium, and rinse the spears under cold running water to remove excess canning salt. Blend drained spears into warm vegetable soups or stir them into pasta dishes for easy nutrition.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11023": {
+    "verdict": "Caution",
+    "explanation": "Boiled bitter gourd leafy tips should be eaten with caution and only in modest culinary amounts during pregnancy. While they supply dietary iron, folate, and vitamin C, bitter melon greens contain bioactive compounds that may stimulate uterine contractions. Boil the greens thoroughly in water to reduce bitterness and ensure any foodborne pathogens are destroyed. Limit your intake to occasional small side dishes, or choose well-studied greens like boiled spinach.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11025": {
+    "verdict": "Caution",
+    "explanation": "Boiled bitter gourd pods should be eaten with caution and in strict moderation during pregnancy. They provide dietary fiber, vitamin C, and potassium, but compounds in bitter melon seeds and rind have demonstrated uterine-stimulating properties in clinical literature. Always discard the inner seeds and pith, and cook the sliced gourd thoroughly in boiling water or curries. Limit intake to small occasional servings or replace with gentle squash varieties like zucchini.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11026": {
+    "verdict": "Avoid",
+    "explanation": "Raw bamboo shoots should be strictly avoided during pregnancy. Fresh unboiled bamboo shoots naturally contain cyanogenic glycosides that degrade into toxic hydrogen cyanide in the human body. FDA and CDC guidelines mandate that bamboo shoots must be peeled and boiled vigorously for at least twenty minutes to eliminate cyanogenic toxins. Choose pre-cooked or commercially canned bamboo shoots to enjoy this vegetable without chemical hazards.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      }
+    ]
+  },
+  "11028": {
+    "verdict": "Recommended",
+    "explanation": "Canned bamboo shoots are safe and nutritious for pregnant women. They provide dietary fiber, potassium, and antioxidants, and the commercial canning process destroys natural cyanogenic glycosides. Drain and rinse the shoots under cool water before cooking to reduce sodium and freshen their flavor. Add them to vegetable stir-fries, soups, or noodle bowls for a crisp texture and low-calorie fiber.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11050": {
+    "verdict": "Recommended",
+    "explanation": "Canned shellie beans are safe and nutritious to include in a prenatal diet. They offer a wholesome mixture of plant protein, dietary fiber, iron, and potassium to help combat fatigue and constipation. Look for low-sodium varieties or rinse the beans under running water in a colander to wash away excess salt. Simmer them into hearty vegetable stews or serve alongside brown rice for a complete plant protein meal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11052": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw green snap beans are safe to eat during pregnancy if washed properly. They offer crisp hydration, vitamin C, and folate to support your daily nutrient requirements. Wash the pods vigorously under cold running water to remove agricultural soil and potential surface contaminants like Toxoplasma. Snap off the stem ends and enjoy them dipped in hummus or guacamole for an energizing afternoon snack.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11053": {
+    "verdict": "Recommended",
+    "explanation": "Boiled green snap beans are highly recommended throughout pregnancy. They supply dietary folate, vitamin C, vitamin K, and gentle fiber that supports digestive health without causing excess gas. Boil or steam trimmed green beans for five minutes until tender-crisp to preserve their valuable micronutrients. Toss them with olive oil, toasted sliced almonds, and a pinch of salt for a nourishing dinner side.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11056": {
+    "verdict": "Recommended",
+    "explanation": "Canned green snap beans are a safe and convenient vegetable option during pregnancy. They deliver gentle dietary fiber, potassium, and vitamins A and C to help meet your daily vegetable targets. The canning heat process eliminates foodborne microorganisms, but check the nutrition panel for sodium content and rinse well. Warm them gently with garlic powder and black pepper as an effortless meal accompaniment.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11080": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw beets are safe to consume during pregnancy provided they are thoroughly cleaned and peeled. They deliver concentrated folate, vitamin C, potassium, and prebiotic fiber that promotes regularity. CDC emphasizes scrubbing root vegetables with a stiff produce brush under running water and peeling the outer skin to remove soil-borne Toxoplasma gondii. Grate peeled raw beets finely over fresh salads or coleslaw for a vibrant color and satisfying crunch.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11081": {
+    "verdict": "Recommended",
+    "explanation": "Boiled beets are strongly recommended during pregnancy. They deliver natural folate, potassium, dietary fiber, and inorganic nitrates that help support healthy blood pressure regulation. Boil whole unpeeled beets until a knife slides through the center effortlessly, then slide off the skins under cool water. Slice boiled beets into salads with pasteurized goat cheese and walnuts for a nutrient-rich lunch.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11084": {
+    "verdict": "Recommended",
+    "explanation": "Canned beets are safe and recommended for pregnant individuals. They retain high levels of folate, potassium, and dietary fiber while providing a ready-to-eat vegetable source. The commercial canning heat destroys all foodborne bacteria, making them completely safe right out of the can. Drain and rinse sliced canned beets before tossing them into leafy salads or grain bowls.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11086": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw beet greens are safe during pregnancy when handled with rigorous hygiene. They provide abundant vitamin A, vitamin C, folate, and calcium for maternal and fetal wellness. Because beet greens grow directly at the soil line, CDC advises rinsing each leaf individually under cool running water to eliminate Toxoplasma and Listeria. Chop washed young leaves finely and mix them with tender salad greens, or blend into morning smoothies.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11087": {
+    "verdict": "Recommended",
+    "explanation": "Boiled beet greens are exceptionally nutritious and highly recommended during pregnancy. They supply substantial iron, calcium, magnesium, potassium, and folate to support expanded maternal blood volume. Boiling the leaves reduces their natural oxalic acid content, improving mineral absorption while making the greens easy to digest. Season warm boiled beet greens with extra virgin olive oil and a dash of lemon juice to enhance non-heme iron uptake.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11090": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw broccoli is safe and wholesome during pregnancy when prepared properly. It offers exceptional vitamin C, folate, potassium, and dietary fiber to aid immune defense and regularity. CDC recommends separating florets and rinsing them thoroughly under running water to dislodge lingering soil particles and microbes. Dip clean florets into pasteurized Greek yogurt ranch dip, or lightly steam them if raw cruciferous vegetables cause digestive gas.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11091": {
+    "verdict": "Recommended",
+    "explanation": "Boiled broccoli is strongly recommended during pregnancy. It delivers folate, vitamin C, calcium, and dietary fiber that support fetal neural development and maternal digestive ease. Steam or boil broccoli florets for three to four minutes until tender yet bright green to retain maximum water-soluble vitamins. Pair boiled broccoli with cheese sauce made from pasteurized milk or drizzle with olive oil and lemon juice.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11096": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw broccoli raab is safe to eat in pregnancy when thoroughly cleaned, though its bitter flavor is quite intense. It provides high levels of vitamin A, vitamin C, folate, and calcium for prenatal wellness. CDC guidelines instruct washing all raw greens under cold running water to eliminate soil bacteria and parasites before consumption. Chop washed rapini leaves finely into raw salads with rich dressings, or consider light cooking for enhanced palatability.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11097": {
+    "verdict": "Recommended",
+    "explanation": "Cooked broccoli raab is highly recommended during pregnancy. It supplies generous amounts of folate, iron, calcium, vitamin K, and vitamin C to bolster maternal health and fetal bone growth. Blanching or boiling rapini in salted water removes its sharp bitterness while ensuring any potential surface pathogens are eradicated. Sauté the blanched greens in olive oil with minced garlic, and serve over whole-wheat pasta for an iron-rich dinner.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11098": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw Brussels sprouts are safe during pregnancy if washed meticulously. They supply abundant folate, vitamin C, and fiber to maintain steady maternal digestion and immune health. CDC recommends trimming the stem ends, discarding loose outer leaves, and washing individual sprouts under cool running water. Shred cleaned sprouts thinly into a prenatal slaw dressed with apple cider vinaigrette and dried cranberries.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11099": {
+    "verdict": "Recommended",
+    "explanation": "Boiled Brussels sprouts are strongly recommended during pregnancy. They are rich in natural folate, dietary fiber, vitamin K, and vitamin C, supporting maternal heart health and fetal growth. Boiling or roasting sprouts until fork-tender eliminates food safety concerns and mellows their sulfur compounds. Halve the cooked sprouts and toss them with olive oil, black pepper, and balsamic glaze for a delicious side dish.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11104": {
+    "verdict": "Avoid",
+    "explanation": "Raw burdock root is not advisable during pregnancy and should be avoided. Because it is a deep taproot growing in dense soil, raw burdock carries a high risk of soil pathogens like Toxoplasma alongside harsh phytochemicals. FDA and CDC food safety guidelines stress that tough root vegetables must be peeled, washed, and cooked to ensure microbiological safety and digestibility. Substitute with well-washed cooked root vegetables such as carrots, parsnips, or sweet potatoes.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11105": {
+    "verdict": "Caution",
+    "explanation": "Boiled burdock root should be consumed in moderation and with caution during pregnancy. It provides prebiotic inulin fiber, potassium, and iron, but burdock has traditional herbal uses associated with uterine stimulation when consumed in large amounts. Peel the root deeply and boil it thoroughly in water until tender to reduce active bitter compounds and eliminate soil microbes. Limit consumption to minor culinary additions in mixed vegetable soups, and avoid medicinal burdock teas or extracts.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11109": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw green cabbage is safe and nutritious for pregnant women when washed properly. It provides vitamin C, folate, vitamin K, and dietary fiber that help promote healthy bowel regularity. CDC advises removing the outer loose leaves and washing the cabbage head or sliced ribbons under cold running water to remove potential contaminants. Toss washed shredded cabbage with olive oil and lemon juice for a crunchy, nutrient-dense coleslaw.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11110": {
+    "verdict": "Recommended",
+    "explanation": "Boiled cabbage is highly recommended during pregnancy. It provides gentle dietary fiber, folate, vitamin C, and potassium that support hydration and digestive regularity without stressing the stomach. Boiling wedges of cabbage until tender eliminates any foodborne pathogens and significantly reduces intestinal bloating. Add boiled cabbage to vegetable soups or serve it alongside lean protein with a sprinkle of caraway seeds.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11112": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw red cabbage is safe during pregnancy with appropriate washing. It is loaded with vitamin C, vitamin K, and dietary folate to support immune function and fetal tissue growth. Wash trimmed heads thoroughly under running water per CDC produce safety recommendations to eliminate soil-borne microbes. Shred it finely into mixed vegetable salads or grain bowls for added texture and antioxidant protection.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11113": {
+    "verdict": "Recommended",
+    "explanation": "Boiled red cabbage is strongly recommended during pregnancy. It offers rich anthocyanin antioxidants, vitamin C, folate, and dietary fiber to protect cells and support prenatal digestion. Boiling wedges with a splash of vinegar preserves its deep red color while ensuring all surface bacteria are eradicated. Serve braised or boiled red cabbage alongside roasted poultry or lentils for a colorful, micronutrient-dense meal.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11114": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw Savoy cabbage is safe to enjoy during pregnancy when cleaned with care. Its crinkled leaves provide dietary folate, vitamin C, potassium, and gentle fiber for prenatal wellness. Because the crinkled texture can trap soil particles, CDC recommends rinsing individual leaves under running tap water before eating. Use tender raw leaves as wholesome wraps for hummus, or slice them into fresh slaws.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11117": {
+    "verdict": "Recommended",
+    "explanation": "Boiled pak-choi is highly recommended for prenatal nutrition. It delivers bioavailable plant calcium, folate, vitamin A, and vitamin C to support fetal skeletal and neural development. Cook the separated stalks and leaves in boiling broth or water for three to five minutes until the white stems soften. Incorporate boiled bok choy into noodle soups or stir-fries for a low-calorie, calcium-rich vegetable portion.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11118": {
+    "verdict": "Safe with precautions",
+    "explanation": "Kimchi is safe to eat during pregnancy if it is commercially prepared and kept continuously refrigerated. It delivers active probiotics, dietary fiber, and vitamins A and C to support gut microbiome diversity. Commercial varieties are safely fermented and tested, but expectant mothers should check for high sodium and avoid unverified homemade batches. Add a few tablespoons to warm fried brown rice or noodle dishes, or cook it into a savory stew to reduce gastrointestinal spice sensitivity.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11119": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw Chinese cabbage is safe during pregnancy when washed properly. It offers crisp hydration, dietary folate, potassium, and vitamin C with a mild, sweet flavor. CDC emphasizes pulling the leaves apart and washing each leaf under cold running water to eliminate trapped dirt and soil bacteria. Shred clean leaves into refreshing salads or wraps, or toss them into hot soups just before serving.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11124": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw carrots are safe and wholesome during pregnancy when prepared properly. They deliver beta-carotene, vitamin C, and fiber, satisfying crunchy cravings while stabilizing blood sugar. CDC emphasizes scrubbing carrots with a produce brush under running tap water and peeling the outer layer to eliminate soil-dwelling Toxoplasma. Cut peeled carrots into sticks to enjoy with hummus, guacamole, or pasteurized tzatziki.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11125": {
+    "verdict": "Recommended",
+    "explanation": "Boiled carrots are highly recommended throughout pregnancy. They provide abundant beta-carotene, potassium, and soluble fiber to support fetal vision development and maternal digestion. Cooking carrots softens their cell walls, enhancing the bioavailability of carotenoids while eliminating any foodborne bacteria. Toss tender boiled carrots with a teaspoon of olive oil, as dietary fat helps your body absorb fat-soluble beta-carotene.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11128": {
+    "verdict": "Recommended",
+    "explanation": "Canned carrots are safe, convenient, and recommended during pregnancy. They offer high amounts of beta-carotene, potassium, and dietary fiber to meet maternal vegetable goals. Heat processing during commercial canning eliminates microbial pathogens, though selecting low-sodium cans is wise. Drain and warm the carrots in vegetable soups or mash them with sweet potatoes for a silky side dish.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11134": {
+    "verdict": "Avoid",
+    "explanation": "Raw cassava should be strictly avoided during pregnancy. Raw cassava contains naturally occurring cyanogenic glycosides that release highly poisonous cyanide when chewed or digested. CDC and FDA food safety authorities warn that cassava must always be thoroughly peeled, soaked, and cooked to eliminate toxic cyanogens. Never consume raw cassava, and only eat fully boiled or baked cassava products from reputable sources.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      }
+    ]
+  },
+  "11609": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned pickled beets are safe during pregnancy, but should be eaten in moderation due to sodium and sugar content. They offer dietary fiber, folate, and betalain antioxidants alongside an acidic tang that can ease pregnancy nausea. Commercial pickling and canning ensure microbiological safety, but inspect labels for elevated sodium and added sweetener levels. Enjoy two or three pickled slices as a zesty condiment alongside grilled chicken or roasted vegetables.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11626": {
+    "verdict": "Recommended",
+    "explanation": "Canned sprouted mung beans are safe and recommended during pregnancy. They provide plant protein, dietary fiber, iron, and folate to support maternal blood volume and fetal growth. Because commercial canning involves high-heat processing, canned sprouts carry none of the bacterial risks associated with raw sprouts. Drain and rinse them under running tap water to reduce sodium, then toss into hot soups or warm stir-fries.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "11655": {
+    "verdict": "Safe with precautions",
+    "explanation": "Canned carrot juice is safe during pregnancy, but should be consumed in modest portions. It supplies concentrated beta-carotene, potassium, and vitamin C, and commercial canning ensures it is fully pasteurized. While plant beta-carotene does not cause the toxicity associated with preformed animal vitamin A, carrot juice is calorie-dense and low in fiber. Limit intake to a four-ounce glass diluted with water, or opt for whole carrots to gain the full benefits of dietary fiber.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11724": {
+    "verdict": "Recommended",
+    "explanation": "Boiled yellow snap beans are highly recommended during pregnancy. They contribute dietary fiber, folate, potassium, and vitamin C to support maternal hydration and fetal tissue formation. Boil the snapped beans until tender and easily pierced with a fork to optimize nutrient availability. Combine them with boiled green beans and fresh herbs for a colorful, nutrient-packed warm side dish.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11932": {
+    "verdict": "Recommended",
+    "explanation": "Canned yellow snap beans are safe and nutritious for expecting mothers. They provide dietary fiber and essential minerals while offering shelf-stable vegetable variety. Commercial canning ensures microbiological safety, though rinsing the beans in cold water is advisable to reduce sodium content. Fold them into warm casseroles, minestrone soups, or grain bowls for added color and fiber.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11935": {
+    "verdict": "Limit",
+    "explanation": "Tomato catsup is safe during pregnancy, but should be consumed in limited amounts. It provides lycopene from cooked tomatoes, but commercial varieties are heavily concentrated with added sugars and high sodium. ACOG and USDA suggest limiting high-sodium and high-sugar condiments to maintain healthy blood pressure and manage weight. Measure out a single tablespoon as an accent for meals, or swap for fresh tomato salsa.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11959": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw arugula is safe and nutritious during pregnancy when washed thoroughly. Its peppery leaves supply dietary folate, calcium, vitamin K, and vitamin C. CDC advises washing all salad greens under clean running water to remove surface soil and protect against Toxoplasma and Listeria. Toss freshly washed arugula with olive oil, lemon juice, and pumpkin seeds for a vibrant salad.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "11969": {
+    "verdict": "Recommended",
+    "explanation": "Cooked Chinese broccoli is highly recommended for pregnancy diets. It provides significant calcium, iron, folate, and vitamins A and C to support skeletal development and maternal blood health. Steam or blanch the thick stems and leafy crowns until tender to neutralize potential microorganisms and soften tough fibers. Drizzle with a teaspoon of oyster sauce and sesame oil as a classic, flavorful accompaniment to brown rice.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "11994": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw Chinese broccoli is safe to consume during pregnancy if handled with strict hygiene. It is rich in dietary calcium, folate, and vitamin C to nourish both mother and baby. Wash each stem and leaf thoroughly under cold running water per CDC produce guidance to eliminate surface contaminants. Slice the clean stems thinly on a bias for raw dipping, or lightly steam them to reduce their fibrous toughness.",
+    "sources": [
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      }
+    ]
+  },
+  "19001": {
+    "verdict": "Limit",
+    "explanation": "Toblerone milk chocolate is safe in moderation during pregnancy, but it should remain an occasional treat. It provides modest amounts of calcium and protein from milk and almonds, but is rich in added sugars and saturated fats. ACOG recommends moderating confections to support healthy blood sugar balance and avoid excess caloric intake. Break off a single triangle to enjoy after a balanced meal rather than eating several portions.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "19014": {
+    "verdict": "Limit",
+    "explanation": "Fruit leather rolls are safe to consume during pregnancy, but they should be eaten in moderation. Commercial fruit rolls deliver quick carbohydrates and sometimes added vitamin C, but they lack the natural fiber found in whole fruit. USDA guidelines emphasize fresh or whole frozen fruit over sticky fruit candies that cling to teeth. Choose fresh fruit or unsweetened dried fruit for better satiety and oral health.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19080": {
+    "verdict": "Limit",
+    "explanation": "Semisweet chocolate is safe during pregnancy when consumed in modest portions. It delivers small quantities of dietary iron, magnesium, and protective flavonoids, alongside modest caffeine and added sugars. ACOG advises keeping total daily caffeine intake from all sources below 200 milligrams. Melt one ounce over fresh strawberries or mix a spoonful into morning oatmeal for a balanced treat.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "19087": {
+    "verdict": "Limit",
+    "explanation": "White chocolate is safe to consume during pregnancy, but should be strictly limited. It contains cocoa butter, milk solids, and sugar, which means it provides virtually no cocoa flavonoids or iron. ACOG advises limiting confectionery high in added sugars and saturated fats to prevent unwanted glucose spikes. Enjoy a single square on occasion, or swap for dark chocolate to receive modest mineral benefits.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "19097": {
+    "verdict": "Limit",
+    "explanation": "Orange sherbet is safe during pregnancy, but you should treat it as an occasional indulgence. It supplies small amounts of calcium and vitamin C, but most of its calories derive from added sugars. ACOG recommends moderating sweet frozen desserts to help prevent steep blood sugar spikes. For a cooling snack with more dietary fiber, blend frozen orange slices with plain pasteurized yogurt.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "19150": {
+    "verdict": "Limit",
+    "explanation": "Reese's Peanut Butter Cups are safe in moderation, but you should limit them during pregnancy. They contribute modest potassium and protein from peanuts, yet also contain substantial added sugars and saturated fats. USDA dietary patterns suggest moderating confectionery to leave ample room for nutrient-dense whole foods. Satisfy a chocolate peanut butter craving by savoring a single miniature cup alongside a piece of fresh fruit.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19151": {
+    "verdict": "Limit",
+    "explanation": "Reese's Pieces candy is safe in small amounts, but health guidance suggests limiting it while pregnant. This candy provides quick carbohydrates, yet it is concentrated in refined sugars and artificial coloring while lacking meaningful vitamins. ACOG advises limiting high-sugar treats to reduce the risk of excessive gestational weight gain and gestational diabetes. Measure out a single small portion rather than snacking directly from the bag.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "19152": {
+    "verdict": "Limit",
+    "explanation": "Rolo caramels in milk chocolate are safe in moderation, but should be strictly limited during pregnancy. The chocolate coating contributes a small amount of calcium, but the caramel filling consists primarily of corn syrup and refined sugar. USDA guidelines encourage pregnant women to minimize added sugars that offer little nutritional value. Enjoy one or two pieces mindfully as an occasional treat rather than a daily habit.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19154": {
+    "verdict": "Limit",
+    "explanation": "Sesame crunch candy is safe to enjoy in moderation during pregnancy. Sesame seeds provide plant-based calcium, iron, and healthy unsaturated fats, though the binding syrup adds concentrated calories and sugar. USDA dietary patterns support eating whole sesame seeds while moderating candies made with refined sweeteners. Pair a single portion with a cup of plain yogurt or a glass of milk to balance your snack.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19162": {
+    "verdict": "Limit",
+    "explanation": "Whatchamacallit candy bars are safe to eat occasionally, but health authorities recommend limiting them during pregnancy. This chocolate bar delivers dense calories and refined sugars with minimal essential vitamins. USDA guidelines suggest limiting candy bars because they displace foods rich in iron, calcium, and folate. Satisfy afternoon hunger with whole-grain toast topped with peanut butter and a few dark chocolate chips instead.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19334": {
+    "verdict": "Limit",
+    "explanation": "Brown sugar is safe during pregnancy, but health guidelines recommend limiting its intake. Although it retains tiny amounts of molasses minerals, brown sugar affects your body just like refined white sugar. ACOG urges pregnant women to restrict added sugars to support stable maternal glucose levels. Use modest teaspoons in home cooking, or sweeten foods naturally with cinnamon and ripe fruit.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "19335": {
+    "verdict": "Limit",
+    "explanation": "Granulated white sugar is safe during pregnancy, but you should strictly limit its quantity. It provides caloric energy without delivering vitamins, minerals, or dietary fiber. ACOG notes that diets high in added sugar raise the risk of excessive gestational weight gain and complications. Reduce the sugar used in home recipes, and rely on fresh whole fruit to sweeten cereals.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "19896": {
+    "verdict": "Limit",
+    "explanation": "Reese's Fast Break candy bars are safe to eat occasionally, but health authorities advise limiting them during pregnancy. While the peanut butter provides small amounts of protein and zinc, the bar is heavy in added sugars and saturated fats. ACOG recommends keeping candy to occasional treats to help manage gestational weight gain and maintain steady blood glucose. For a nutrient-dense alternative with similar flavors, dip fresh apple slices into natural peanut butter.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "19912": {
+    "verdict": "Limit",
+    "explanation": "Agave syrup is safe to consume during pregnancy, but you should use it sparingly. It has a lower glycemic index than table sugar, but it is heavily concentrated in fructose and calories. USDA guidelines recommend treating agave nectar like any added sweetener and limiting total intake. Drizzle just a light teaspoon over morning oatmeal or replace it with mashed fresh berries.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "19918": {
+    "verdict": "Safe with precautions",
+    "explanation": "Purified stevia leaf extract powder is safe to use in moderation during pregnancy. High-purity steviol glycosides sweeten beverages without adding calories or raising blood sugar levels. FDA classifies high-purity stevia extracts as Generally Recognized as Safe, though crude whole-leaf stevia is not approved for food use. Use small pinches in warm tea or plain yogurt, while keeping your general diet centered on whole foods.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-additives-petitions/additional-information-about-high-intensity-sweeteners-permitted-use-food-united-states"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43143": {
+    "verdict": "Safe with precautions",
+    "explanation": "Japanese style fresh pickled cabbage is safe during pregnancy, but should be consumed in moderation. It provides beneficial lactobacillus probiotics, dietary fiber, and vitamin C, though the pickling brine contains substantial sodium. Ensure the cabbage was prepared using pasteurized ingredients and kept refrigerated below 40 degrees Fahrenheit to prevent bacterial growth. Serve a small portion as an appetizing side dish to accompany steamed brown rice and cooked fish.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "43144": {
+    "verdict": "Limit",
+    "explanation": "Salted mustard cabbage is safe in very small quantities, but should be strictly limited during pregnancy. While it supplies trace minerals and fiber from mustard greens, the heavy salting creates extreme sodium levels. ACOG and USDA advise monitoring high-sodium foods to help prevent excessive fluid retention and manage maternal blood pressure. Soak and rinse the cabbage in fresh water before using, and use it sparingly as a garnish rather than a primary vegetable.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  }
+}

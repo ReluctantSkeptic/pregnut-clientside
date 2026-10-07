@@ -1,0 +1,898 @@
+{
+  "04016": {
+    "verdict": "Safe with precautions",
+    "explanation": "Commercial sesame seed salad dressing is safe to eat during pregnancy when made with pasteurized ingredients. It provides healthy unsaturated fats and small amounts of minerals, but commercial bottles often contain significant sodium and added sugars. Choose commercially bottled brands because manufacturers use pasteurized eggs to eliminate Salmonella risks. Use modest portions over leafy greens to add flavor without excess calories.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-fruits-and-vegetables-safely"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "43019": {
+    "verdict": "Safe with precautions",
+    "explanation": "Commercial sweet and sour salad dressing is safe during pregnancy. It is low in fat but often carries concentrated amounts of added sugar and sodium per serving. Check nutrition labels to keep added sugars within daily dietary targets. Drizzle lightly over fresh washed vegetables or grilled lean poultry for flavor.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      }
+    ]
+  },
+  "04017": {
+    "verdict": "Safe with precautions",
+    "explanation": "Commercially prepared Thousand Island dressing is safe to consume while pregnant. It provides dietary fats that help absorb fat-soluble vitamins, though it is calorically dense and high in sodium. Ensure you buy commercially bottled varieties made with pasteurized egg ingredients rather than unpasteurized homemade recipes. Measure portions with a tablespoon to balance caloric intake across your daily meals.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "04635": {
+    "verdict": "Safe with precautions",
+    "explanation": "Commercial fat-free Thousand Island dressing is safe for pregnant women. While it reduces overall dietary fat intake, manufacturers frequently add extra sodium and sugar to compensate for flavor and texture. Verify on the label that the product is commercially packaged and pasteurized. Pair with fiber-rich raw salad greens that have been thoroughly rinsed under clean running water.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "04554": {
+    "verdict": "Limit",
+    "explanation": "Hydrogenated soybean and cottonseed shortening should be strictly limited during pregnancy. This fat source contains high amounts of saturated fats and offers virtually no essential vitamins, minerals, or omega-3 fatty acids. Replace solid industrial shortenings with liquid plant oils such as extra virgin olive oil or canola oil. Check ingredient labels on packaged baked goods to avoid excess industrial fats.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "04666": {
+    "verdict": "Limit",
+    "explanation": "Industrial soy and corn frying shortening should be limited while pregnant. It is composed almost entirely of refined saturated fats and calories without delivering beneficial micronutrients. The USDA recommends replacing solid shortening fats with heart-healthy unsaturated plant oils for cooking. Limit deep-fried commercial foods cooked in industrial shortening to avoid digestive discomfort and excessive weight gain.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "04615": {
+    "verdict": "Limit",
+    "explanation": "Household vegetable shortening is safe in small amounts but should be limited during pregnancy. It provides calorie-dense fats with negligible amounts of protein, vitamins, or minerals. Use healthier cooking fats like olive oil, avocado oil, or butter in moderation instead of solid shortening. Reserve vegetable shortening for occasional baked goods rather than everyday meal preparation.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "42151": {
+    "verdict": "Safe with precautions",
+    "explanation": "Reduced-calorie vegetable oil and butter spreads are safe to consume during pregnancy. They supply modest amounts of dietary fat while reducing total calories compared to traditional solid butter. Confirm that the spread is commercially produced with pasteurized dairy ingredients. Spread thinly on whole-grain toast to add flavor while keeping saturated fat intake moderate.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "04513": {
+    "verdict": "Limit",
+    "explanation": "Palm kernel oil should be limited during pregnancy. It is exceptionally high in saturated fatty acids, containing over eighty percent saturated fat, and lacks significant protective nutrients. The USDA advises prioritizing unsaturated plant oils like olive, sunflower, or canola oils for daily cooking. Check packaged snack and confectionery labels where palm kernel oil is commonly used as a shelf-stable fat.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15155": {
+    "verdict": "Safe with precautions",
+    "explanation": "Abalone is safe to eat during pregnancy provided it is thoroughly cooked. It delivers lean protein, vitamin B12, and iron while remaining naturally low in methylmercury. The FDA advises cooking all molluscan shellfish to an internal temperature of 145\u00b0F to eliminate marine bacteria and viruses. Avoid any raw or lightly steamed abalone preparations often served in sushi restaurants.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      }
+    ]
+  },
+  "15002": {
+    "verdict": "Recommended",
+    "explanation": "Canned anchovies are recommended during pregnancy as an FDA Best Choice fish. They are exceptionally rich in omega-3 DHA and EPA, which support fetal brain development, while remaining very low in mercury. The FDA and EPA recommend eating two to three four-ounce servings of low-mercury fish each week. Because canned anchovies contain elevated sodium from curing, rinse them or use them sparingly to flavor pasta sauces and salads.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15008": {
+    "verdict": "Limit",
+    "explanation": "Carp is categorized by the FDA and EPA as a Good Choice fish that should be limited during pregnancy. It supplies protein, vitamin D, and omega-3 fatty acids, but it carries moderate levels of mercury and can accumulate local freshwater contaminants. Eat no more than one four-ounce serving per week, and verify state fish advisories if the carp is caught by family or friends. Cook carp to an internal temperature of 145\u00b0F until the flesh is opaque and flakes easily with a fork.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      }
+    ]
+  },
+  "15235": {
+    "verdict": "Recommended",
+    "explanation": "Cooked channel catfish is recommended during pregnancy as an FDA Best Choice fish. It delivers lean protein, vitamin B12, and selenium with minimal mercury accumulation. The FDA and EPA recommend eating two to three servings of Best Choice seafood weekly, cooked to 145\u00b0F. Bake or broil seasoned catfish fillets rather than deep frying to retain lean nutritional quality.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15012": {
+    "verdict": "Safe with precautions",
+    "explanation": "Caviar is safe during pregnancy only if it is commercially pasteurized or thoroughly cooked. It contains high concentrations of omega-3 fatty acids and choline, but cold unpasteurized fish roe carries severe risks of Listeria monocytogenes contamination. The FDA and CDC warn pregnant women to avoid unpasteurized, refrigerated fish eggs unless heated until steaming hot. Inspect the jar label for clear pasteurization statements and consume in small amounts due to high sodium content.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/listeria/prevention.html"
+      }
+    ]
+  },
+  "15014": {
+    "verdict": "Safe with precautions",
+    "explanation": "Smoked cisco is safe during pregnancy only when thoroughly reheated to 165\u00b0F before eating. While it supplies beneficial omega-3 DHA and vitamin D, refrigerated cold-smoked freshwater fish can harbor harmful Listeria monocytogenes bacteria. The FDA and CDC instruct pregnant women to avoid eating cold-smoked seafood unless it is incorporated into a thoroughly cooked, steaming hot meal. Bake smoked cisco into a hot casserole or creamy chowder rather than eating it straight from the package.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/listeria/prevention.html"
+      }
+    ]
+  },
+  "15157": {
+    "verdict": "Safe with precautions",
+    "explanation": "Clams are safe and highly nutritious during pregnancy when served completely cooked. They are an FDA Best Choice seafood that delivers extraordinary amounts of iron, vitamin B12, and lean protein with minimal mercury. The FDA explicitly advises against eating raw clams due to dangerous Vibrio bacteria and norovirus, requiring cooking until the shells open. Discard any clams that fail to open during steaming or boiling to ensure food safety.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      }
+    ]
+  },
+  "15160": {
+    "verdict": "Recommended",
+    "explanation": "Canned clams are recommended during pregnancy as a convenient and safe low-mercury seafood. They provide abundant maternal iron and vitamin B12, helping support red blood cell expansion and fetal development. Because commercial canning involves high-heat processing, canned clams are completely cooked and free from foodborne pathogens. Stir drained canned clams into hot red pasta sauce or vegetable chowder for a quick nutrient boost.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15017": {
+    "verdict": "Recommended",
+    "explanation": "Canned Atlantic cod is recommended during pregnancy as an FDA Best Choice seafood. It offers easily digestible protein, iodine, and vitamin B12 with very low mercury levels. The FDA and EPA encourage pregnant women to eat two to three four-ounce servings of low-mercury fish each week. Mix canned cod with lemon juice, chopped herbs, and light olive oil for a simple high-protein lunch.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15016": {
+    "verdict": "Recommended",
+    "explanation": "Cooked Atlantic cod is recommended during pregnancy as an FDA Best Choice fish. It provides lean dietary protein, essential iodine for fetal thyroid function, and choline. Cook fresh or frozen cod fillets to an internal temperature of 145\u00b0F until the flesh turns milky white and separates cleanly. Season with garlic, dill, and a squeeze of fresh lemon to enhance flavor without adding heavy sauces.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15192": {
+    "verdict": "Recommended",
+    "explanation": "Cooked Pacific cod is recommended during pregnancy as an FDA Best Choice seafood. It supplies high-quality complete protein, vitamin B12, and selenium while remaining low in environmental mercury. The FDA and EPA recommend consuming two to three servings of low-mercury fish per week, cooked to 145\u00b0F. Bake Pacific cod alongside colorful bell peppers and roasted potatoes for a balanced prenatal dinner.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15138": {
+    "verdict": "Recommended",
+    "explanation": "Imitation Alaska king crab made from surimi is safe and recommended during pregnancy. It is manufactured from cooked whitefish puree, usually wild Alaska pollock, which provides clean protein and B vitamins with very low mercury. Keep imitation crab refrigerated below 40\u00b0F and consume before the expiration date to maintain freshness. Toss chilled surimi into crisp green salads or heat it gently in warm pasta dishes.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      }
+    ]
+  },
+  "15141": {
+    "verdict": "Recommended",
+    "explanation": "Canned blue crab is recommended during pregnancy as an FDA Best Choice seafood. It delivers bioavailable zinc, vitamin B12, and lean protein that support immune function and fetal tissue growth. Commercial canning subjects the meat to sterile high temperatures, eliminating bacterial risks like Listeria. Use canned crab meat to make baked crab cakes or folded into a vegetable omelet.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15140": {
+    "verdict": "Recommended",
+    "explanation": "Cooked blue crab is recommended during pregnancy as an FDA Best Choice seafood. It provides zinc, selenium, and quality protein with low levels of methylmercury. The FDA advises cooking crab thoroughly until the shell turns bright red and the meat becomes completely opaque. Pregnant women can enjoy two to three four-ounce servings of cooked crab each week as part of a healthy diet.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "15146": {
+    "verdict": "Recommended",
+    "explanation": "Cooked crayfish is recommended during pregnancy as an FDA Best Choice shellfish. It supplies valuable amounts of protein, choline, and vitamin B12 with minimal mercury accumulation. The FDA instructs that crayfish must be boiled or steamed thoroughly until the shells turn bright red and the meat is firm. If consuming wild crayfish caught by friends or family in local waters, check local water advisories for regional pollutant limits.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      }
+    ]
+  },
+  "15020": {
+    "verdict": "Recommended",
+    "explanation": "Atlantic croaker is recommended during pregnancy as an FDA Best Choice fish. It provides omega-3 fatty acids, vitamin B12, and high-quality protein while keeping mercury exposure low. Cook whole fish or fillets to an internal temperature of 145\u00b0F until the meat flakes easily. Enjoy up to three four-ounce servings per week alongside steamed vegetables and whole grains.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15025": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked eel is safe to eat in moderation during pregnancy. It supplies concentrated amounts of vitamin A, vitamin D, and omega-3 fats, but it contains moderate mercury levels and can absorb environmental toxins. Limit intake to one serving per week and ensure it is fully cooked to 145\u00b0F to eliminate marine parasites. Avoid raw unagi or sushi eel and opt for thoroughly broiled fillets served with mild sauce.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      }
+    ]
+  },
+  "15027": {
+    "verdict": "Recommended",
+    "explanation": "Prepared fish sticks are safe and recommended during pregnancy when baked thoroughly. Typically made from Alaska pollock or minced cod, they deliver lean protein and iodine with very low mercury levels. Bake them according to package instructions until internal temperatures reach 165\u00b0F and the coating is crispy. Serve with a side of steamed broccoli or carrot sticks to add dietary fiber to your meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15029": {
+    "verdict": "Recommended",
+    "explanation": "Cooked flatfish like flounder and sole is recommended during pregnancy as an FDA Best Choice. It offers mild, easily digestible protein, vitamin B12, and selenium with exceptionally low mercury content. The FDA and EPA recommend eating two to three four-ounce servings of Best Choice fish each week. Pan-sear or bake delicate flounder fillets with herbs and olive oil for a gentle prenatal meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "80200": {
+    "verdict": "Safe with precautions",
+    "explanation": "Frog legs are safe during pregnancy only when thoroughly cooked to an internal temperature of 165\u00b0F. They provide lean animal protein, iron, and riboflavin with negligible fat. Raw amphibian meat carries risks of Salmonella and other bacterial pathogens, so thorough heat treatment is mandatory. Avoid undercooked or street-food preparations and prepare them freshly braised or sauteed in a home kitchen.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "15035": {
+    "verdict": "Safe with precautions",
+    "explanation": "Smoked haddock is safe during pregnancy only when thoroughly cooked or heated until steaming hot. While haddock itself is an FDA Best Choice fish rich in protein and B vitamins, refrigerated smoked fish can carry Listeria monocytogenes. The FDA and CDC state that pregnant women must heat refrigerated smoked seafood to 165\u00b0F before consumption. Simmer smoked haddock in milk for a traditional fish pie or hot chowder to eliminate bacterial risks.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/listeria/prevention.html"
+      }
+    ]
+  },
+  "15036": {
+    "verdict": "Limit",
+    "explanation": "Halibut is classified by the FDA and EPA as a Good Choice fish that should be limited during pregnancy. It provides excellent protein, selenium, and vitamin D, but its predatory life cycle leads to moderate mercury accumulation. The FDA advises eating no more than one four-ounce serving of halibut per week and avoiding other fish during that same week. Always cook halibut steaks to an internal temperature of 145\u00b0F until the flesh flakes easily.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      }
+    ]
+  },
+  "15040": {
+    "verdict": "Recommended",
+    "explanation": "Cooked Atlantic herring is recommended during pregnancy as an FDA Best Choice fish. It is packed with omega-3 fatty acids DHA and EPA, vitamin D, and vitamin B12, while maintaining very low mercury levels. The FDA recommends two to three servings of Best Choice seafood per week to support fetal nervous system development. Cook herring fillets to 145\u00b0F, avoiding cold-pickled or unpasteurized preparations that may present bacterial concerns.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15148": {
+    "verdict": "Recommended",
+    "explanation": "Cooked northern lobster is recommended during pregnancy as an FDA Best Choice shellfish. It provides lean dietary protein, zinc, selenium, and vitamin B12 with very low mercury levels. The FDA instructs that lobster must be cooked thoroughly until the shell turns red and the meat becomes firm and white. Avoid eating the greenish tomalley organ, which concentrates environmental toxins, and enjoy the tail and claw meat.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "15046": {
+    "verdict": "Recommended",
+    "explanation": "Atlantic mackerel is recommended during pregnancy as an FDA Best Choice fish. It provides substantial amounts of omega-3 DHA and vitamin D while remaining low in mercury, unlike large king mackerel. The FDA advises pregnant women to enjoy two to three four-ounce servings of low-mercury fish each week. Bake or grill Atlantic mackerel with lemon slices and fresh rosemary for a flavorful prenatal dinner.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15055": {
+    "verdict": "Recommended",
+    "explanation": "Striped mullet is recommended during pregnancy as an FDA Best Choice fish. It delivers complete protein, vitamin B6, and omega-3 fatty acids with low mercury accumulation. The FDA and EPA recommend eating two to three four-ounce servings weekly, cooked to an internal temperature of 145\u00b0F. Broil or pan-sear fresh mullet fillets and pair with roasted seasonal root vegetables.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15164": {
+    "verdict": "Safe with precautions",
+    "explanation": "Blue mussels are safe and recommended during pregnancy when thoroughly cooked. They are an FDA Best Choice shellfish delivering remarkable levels of vitamin B12, non-heme iron, and omega-3 fats. The FDA strictly warns against consuming raw mussels due to bacterial and viral contamination, requiring steaming until shells open wide. Discard any mussels that stay tightly closed after cooking to ensure food safety.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      }
+    ]
+  },
+  "15230": {
+    "verdict": "Recommended",
+    "explanation": "Cooked octopus is recommended during pregnancy as an FDA Best Choice seafood. It supplies lean protein, vitamin B12, iron, and selenium while keeping mercury exposure minimal. The FDA requires cooking all cephalopods thoroughly until firm and opaque to destroy any potential foodborne pathogens. Simmer gently until tender and toss with olive oil, lemon juice, and parsley for a nutrient-dense salad.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15170": {
+    "verdict": "Recommended",
+    "explanation": "Canned Eastern oysters are recommended during pregnancy as a safe and convenient seafood option. They supply extraordinary concentrations of zinc and vitamin B12, which support maternal immune defense and cellular growth. Commercial canning processes cook the oysters under intense pressure and heat, killing harmful marine bacteria like Vibrio vulnificus. Stir canned oysters into hot seafood stews or bake them into a savory stuffing.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15167": {
+    "verdict": "Safe with precautions",
+    "explanation": "Wild Eastern oysters are safe during pregnancy only when served thoroughly cooked. They offer abundant zinc, iron, and omega-3 fats with very low mercury levels. The FDA and CDC warn that raw oysters carry severe risks of life-threatening Vibrio infections and must be boiled, fried, or baked until internal temperatures reach 145\u00b0F. Never eat raw oysters on the half shell during pregnancy, even with hot sauce or lemon juice.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "15060": {
+    "verdict": "Recommended",
+    "explanation": "Perch is recommended during pregnancy as an FDA Best Choice fish. It provides easily digested protein, vitamin B12, and selenium with low mercury concentration. The FDA and EPA recommend two to three four-ounce servings of Best Choice fish each week, cooked to 145\u00b0F. Saute perch fillets in a small amount of olive oil and serve with steamed green beans.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15062": {
+    "verdict": "Limit",
+    "explanation": "Northern pike should be limited during pregnancy due to moderate mercury bioaccumulation. It supplies lean protein and B vitamins, but as a predatory freshwater fish, it concentrates environmental contaminants. The EPA advises limiting freshwater predatory fish to one four-ounce serving weekly and checking local fish advisories. Cook thoroughly to 145\u00b0F until the flesh flakes easily away from the bone.",
+    "sources": [
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      },
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      }
+    ]
+  },
+  "15067": {
+    "verdict": "Recommended",
+    "explanation": "Cooked Alaska pollock is recommended during pregnancy as an FDA Best Choice fish. It is one of the lowest-mercury fish available, offering high amounts of omega-3 DHA, protein, and selenium. The FDA and EPA encourage consuming two to three four-ounce servings of low-mercury fish weekly. Bake fresh or frozen pollock fillets with mild seasonings for an easy, nutritious weeknight dinner.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15068": {
+    "verdict": "Recommended",
+    "explanation": "Florida pompano is recommended during pregnancy as an FDA Best Choice fish. It offers valuable omega-3 fatty acids, vitamin D, and complete protein with low mercury levels. The FDA advises cooking finfish to an internal temperature of 145\u00b0F until the flesh is completely opaque. Broil or bake pompano fillets with citrus and fresh thyme for a wholesome prenatal meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15071": {
+    "verdict": "Limit",
+    "explanation": "Pacific rockfish is categorized by the FDA and EPA as a Good Choice fish that should be limited during pregnancy. It provides lean protein, selenium, and vitamin B12, but it accumulates moderate amounts of methylmercury. Limit intake to one four-ounce serving per week and eat no other fish during that week according to FDA guidelines. Ensure the fish is cooked thoroughly to 145\u00b0F before serving with roasted vegetables.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      }
+    ]
+  },
+  "15072": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fish roe is safe during pregnancy only if it is commercially pasteurized or thoroughly cooked. It delivers concentrated omega-3 fatty acids, choline, and vitamin B12, but raw or chilled roe carries a serious risk of Listeria monocytogenes. The FDA and CDC recommend avoiding unpasteurized refrigerated fish roe found in sushi or deli counters. Choose jarred pasteurized roe or cook fresh fish eggs thoroughly in hot soups or sauces.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/listeria/prevention.html"
+      }
+    ]
+  },
+  "15237": {
+    "verdict": "Recommended",
+    "explanation": "Cooked farmed Atlantic salmon is recommended during pregnancy as an FDA Best Choice fish. It is one of the richest sources of omega-3 DHA and EPA, which support fetal brain and retinal development, while remaining low in mercury. The FDA and ACOG recommend two to three four-ounce servings of low-mercury fish each week, cooked to 145\u00b0F. Roast salmon fillets with asparagus and brown rice for a complete nutrient-rich dinner.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15247": {
+    "verdict": "Recommended",
+    "explanation": "Cooked wild coho salmon is recommended during pregnancy as an FDA Best Choice fish. It supplies substantial omega-3 DHA, high-quality protein, and vitamin D with very low mercury levels. The FDA recommends eating two to three four-ounce servings of Best Choice fish weekly. Grill or bake wild salmon until the flesh reaches 145\u00b0F and flakes easily under gentle pressure.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15084": {
+    "verdict": "Recommended",
+    "explanation": "Canned pink salmon is recommended during pregnancy as an FDA Best Choice seafood. It provides abundant omega-3 fatty acids, protein, and bioavailable calcium when packed with soft edible bones. Because canned fish undergoes sterile commercial heating, it is fully cooked and convenient to store. Mash canned salmon with diced celery and a light vinaigrette for a fast, nourishing lunch.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15086": {
+    "verdict": "Recommended",
+    "explanation": "Cooked sockeye salmon is recommended during pregnancy as an FDA Best Choice fish. It delivers exceptionally high concentrations of omega-3 DHA, vitamin D, and vitamin B12 with very low mercury. The FDA and EPA recommend enjoying two to three servings of low-mercury fish per week, cooked to an internal temperature of 145\u00b0F. Pan-sear sockeye fillets skin-side down until crisp and pair with a colorful garden salad.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15088": {
+    "verdict": "Recommended",
+    "explanation": "Canned Atlantic sardines are recommended during pregnancy as an FDA Best Choice fish. They are packed with omega-3 fatty acids DHA and EPA, vitamin B12, and dietary calcium from their soft edible bones. Sardines feed at the base of the marine food chain and accumulate minimal methylmercury. Serve canned sardines on toasted whole-grain sourdough with sliced tomatoes and a squeeze of fresh lemon.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15089": {
+    "verdict": "Recommended",
+    "explanation": "Canned Pacific sardines in tomato sauce are recommended during pregnancy as an FDA Best Choice fish. They provide calcium, vitamin D, and essential omega-3 fatty acids that support fetal skeletal and brain development. Commercial canning ensures complete sterility and food safety from bacterial pathogens. Enjoy them straight from the tin or warm them gently over whole-wheat pasta for an iron-rich meal.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "90240": {
+    "verdict": "Recommended",
+    "explanation": "Steamed bay and sea scallops are recommended during pregnancy as an FDA Best Choice seafood. They provide lean, easily absorbed protein, vitamin B12, and potassium while remaining very low in mercury. The FDA instructs that scallops must be cooked until the flesh turns milky white and firm to the touch. Incorporate steamed scallops into light whole-grain risotto or vegetable stir-fries.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15091": {
+    "verdict": "Limit",
+    "explanation": "Sea bass is classified by the FDA and EPA as a fish to limit during pregnancy. It offers valuable protein and vitamin D, but species like Chilean sea bass accumulate moderate to high levels of mercury. The FDA advises eating no more than one four-ounce serving per week of Good Choice sea bass, while avoiding other fish that week. Ensure the fillet is thoroughly cooked to 145\u00b0F before serving with steamed vegetables.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      }
+    ]
+  },
+  "15094": {
+    "verdict": "Recommended",
+    "explanation": "American shad is recommended during pregnancy as an FDA Best Choice fish. It provides generous amounts of omega-3 fatty acids, protein, and selenium with low mercury bioaccumulation. The FDA recommends two to three four-ounce servings of Best Choice fish weekly, cooked to an internal temperature of 145\u00b0F. Bake or broil shad fillets to soften small bones and pair with a fresh green salad.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15152": {
+    "verdict": "Recommended",
+    "explanation": "Canned shrimp is recommended during pregnancy as an FDA Best Choice shellfish. It delivers lean protein, choline, and selenium while remaining consistently low in mercury. Commercial canning processes cook the shrimp thoroughly, eliminating foodborne pathogens like Salmonella and Listeria. Rinse canned shrimp under cold water to reduce surface sodium before tossing into grain bowls or salads.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15151": {
+    "verdict": "Recommended",
+    "explanation": "Cooked shrimp is recommended during pregnancy as an FDA Best Choice seafood. It is one of the most widely consumed low-mercury shellfish, supplying complete protein, choline, and iodine. The FDA advises cooking raw shrimp until the flesh becomes pearly and opaque and the shells turn pink. Pregnant women can safely enjoy two to three four-ounce servings of cooked shrimp each week.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "90560": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked edible snails are safe during pregnancy when prepared properly. They provide lean dietary protein, iron, and magnesium with negligible fat. Snails must be thoroughly cooked to an internal temperature of 165\u00b0F to kill potential parasites and bacteria. Choose commercially canned or prepared escargot from reputable suppliers rather than harvesting wild garden snails.",
+    "sources": [
+      {
+        "name": "USDA",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC",
+        "url": "https://www.cdc.gov/foodsafety/communication/food-safety-in-pregnancy.html"
+      }
+    ]
+  },
+  "15101": {
+    "verdict": "Limit",
+    "explanation": "Snapper is categorized by the FDA and EPA as a Good Choice fish that should be limited during pregnancy. It provides beneficial protein, potassium, and vitamin D, but its reef habitat contributes to moderate mercury accumulation. The FDA recommends limiting consumption to one four-ounce serving per week and eating no other fish during that week. Cook snapper fillets to an internal temperature of 145\u00b0F until the fish flakes readily.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      }
+    ]
+  },
+  "15175": {
+    "verdict": "Recommended",
+    "explanation": "Cooked squid is recommended during pregnancy as an FDA Best Choice seafood. It supplies lean protein, vitamin B12, selenium, and copper while remaining very low in mercury. The FDA and CDC advise cooking squid thoroughly until firm and opaque rather than consuming raw squid sushi. Grill or saute calamari rings quickly with garlic and olive oil for a light, nutrient-rich dish.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15105": {
+    "verdict": "Limit",
+    "explanation": "Cooked sturgeon should be limited during pregnancy. While it delivers high amounts of protein and vitamin D, sturgeon are long-lived bottom feeders that accumulate moderate levels of mercury and environmental chemicals. Limit intake to one four-ounce serving per week and consult local water advisories for wild-caught river fish. Cook fillets to an internal temperature of 145\u00b0F until the center is firm and opaque.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      }
+    ]
+  },
+  "15110": {
+    "verdict": "Avoid",
+    "explanation": "Swordfish must be strictly avoided during pregnancy according to the FDA and EPA. As a large apex predator, swordfish accumulates the highest levels of methylmercury found in commercial seafood. Maternal methylmercury exposure crosses the placenta and can impair the developing fetal brain and central nervous system. Swap swordfish for low-mercury options like wild salmon, cod, or canned light tuna to obtain beneficial seafood nutrients safely.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  },
+  "15262": {
+    "verdict": "Recommended",
+    "explanation": "Cooked tilapia is recommended during pregnancy as an FDA Best Choice fish. It is a mild, accessible fish that provides lean protein, selenium, and vitamin B12 with very low mercury levels. The FDA and EPA suggest eating two to three four-ounce servings of low-mercury fish each week. Bake tilapia fillets to 145\u00b0F with lime juice, cumin, and cilantro for simple fish tacos.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "USDA",
+        "url": "https://www.dietaryguidelines.gov"
+      }
+    ]
+  },
+  "15114": {
+    "verdict": "Recommended",
+    "explanation": "Freshwater trout is recommended during pregnancy as an FDA Best Choice fish. It supplies substantial omega-3 fatty acids DHA and EPA, complete protein, and vitamin B12 with minimal mercury. The FDA recommends two to three servings of low-mercury fish per week, cooked to an internal temperature of 145\u00b0F. If eating wild trout caught from local streams, check state fish advisories for regional water safety standards.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "EPA",
+        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+      }
+    ]
+  },
+  "15117": {
+    "verdict": "Limit",
+    "explanation": "Fresh bluefin tuna should be strictly limited during pregnancy. While it provides omega-3 fatty acids and protein, bluefin is a massive predatory fish that accumulates significant levels of methylmercury. The FDA advises pregnant women to limit predatory tuna varieties to at most one four-ounce serving per week or choose canned light tuna instead. Ensure fresh tuna steaks are cooked thoroughly to 145\u00b0F rather than eaten seared rare or raw.",
+    "sources": [
+      {
+        "name": "FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      }
+    ]
+  }
+}

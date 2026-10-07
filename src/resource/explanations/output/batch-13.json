@@ -1,0 +1,898 @@
+{
+  "10007": {
+    "verdict": "Limit",
+    "explanation": "Cooked pork separable fat should be limited during pregnancy due to its dense saturated fat and calorie content. It offers small amounts of fat-soluble vitamins but lacks the vital protein and micronutrients found in lean meat. Regular excess consumption of animal fat increases cardiovascular strain without delivering balanced nourishment. Trim separable fat away and focus on lean cuts of pork instead.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "10022": {
+    "verdict": "Safe with precautions",
+    "explanation": "Broiled whole pork loin with lean and fat is safe with precautions during pregnancy when cooked to safe temperatures. It contributes complete animal protein, B vitamins, and zinc for maternal tissue synthesis. According to USDA guidelines, cook whole pork cuts to an internal temperature of at least 145°F followed by a three-minute rest. Trim visible exterior fat to manage saturated lipid intake.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "10026": {
+    "verdict": "Safe with precautions",
+    "explanation": "Broiled lean pork loin is safe with precautions during pregnancy when cooked thoroughly. It provides high-quality protein, thiamin, and zinc with very little saturated fat to support healthy gestational weight gain. Use a calibrated food thermometer to confirm an internal temperature of 145°F with a three-minute rest period before carving. Serve with roasted root vegetables and applesauce for a wholesome dinner.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "10089": {
+    "verdict": "Safe with precautions",
+    "explanation": "Braised pork spareribs are safe with precautions during pregnancy when cooked until thoroughly done. They provide bioavailable zinc, iron, and protein, though the cut contains substantial saturated fat and calories. Braise ribs slowly until tender and confirm they reach a safe internal temperature of at least 145°F. Pair a modest portion with a crisp green salad to balance the meal.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "10136": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted boneless ham is safe with precautions during pregnancy when served piping hot. It offers bioavailable protein, iron, and vitamin B12, but curing adds high amounts of dietary sodium. Ensure roasted ham reaches an internal temperature of 145°F with a three-minute rest for whole cuts, or 165°F for reheated leftovers. Pair moderate portions with steamed green beans and sweet potatoes.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "10182": {
+    "verdict": "Safe with precautions",
+    "explanation": "Unheated boneless ham is safe with precautions during pregnancy only after being reheated until steaming hot. Cold sliced ham carries a recognized risk of Listeria monocytogenes contamination during commercial slicing and storage. The CDC advises reheating all cold cuts to 165°F before eating to ensure complete food safety. Enjoy your ham inside a hot pressed panini or baked casserole rather than cold.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "10220": {
+    "verdict": "Safe with precautions",
+    "explanation": "Cooked ground pork is safe with precautions during pregnancy when prepared to proper internal temperatures. It delivers heme iron, complete protein, zinc, and vitamin B12 to support expanded maternal blood volume. The USDA mandates cooking all ground meats to an internal temperature of at least 160°F checked with a meat thermometer. Incorporate it into fully simmered pasta sauces or thoroughly baked meatballs.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "10862": {
+    "verdict": "Limit",
+    "explanation": "Pan-fried pork bacon should be limited during pregnancy because of its high sodium, saturated fat, and nitrate content. While it provides protein and vitamin B12, frequent intake of processed pork products is tied to elevated cardiovascular strain. Cook bacon until fully crisp and steaming hot to eliminate bacterial hazards before consuming. Savor an occasional single strip alongside nutrient-rich scrambled eggs and fresh fruit.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "10998": {
+    "verdict": "Safe with precautions",
+    "explanation": "Pan-fried Canadian bacon is safe with precautions during pregnancy provided it is heated thoroughly. It provides lean animal protein, B vitamins, and potassium with less saturated fat than belly bacon. The CDC and USDA instruct heating all cured deli-style meats until steaming hot to 165°F to destroy potential Listeria bacteria. Serve it hot on a whole-wheat English muffin with pasteurized melted cheddar.",
+    "sources": [
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      }
+    ]
+  },
+  "12014": {
+    "verdict": "Recommended",
+    "explanation": "Dried pumpkin and squash seeds are recommended as a potent mineral source during pregnancy. They supply abundant zinc, plant iron, magnesium, and protein to support immune function and fetal tissue synthesis. Choose unsalted kernels to control sodium while maximizing vital trace minerals. Sprinkle a couple tablespoons over grain bowls or vegetable purées.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12023": {
+    "verdict": "Recommended",
+    "explanation": "Whole dried sesame seeds are recommended as a stellar plant source of bone-building minerals in pregnancy. They contribute remarkable levels of non-dairy calcium, iron, zinc, and dietary fiber per tablespoon. Use whole or ground seeds in cooked meals to optimize digestive breakdown and mineral absorption. Sprinkle them generously over steamed broccoli, rice bowls, or whole-grain breads.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12036": {
+    "verdict": "Recommended",
+    "explanation": "Dried sunflower seed kernels are recommended during pregnancy for their excellent vitamin and mineral content. They deliver vitamin E, folate, zinc, and magnesium to sustain healthy fetal cellular growth and maternal stamina. Select raw or unsalted seeds to keep dietary sodium within recommended prenatal ranges. Toss a spoonful into green salads, morning yogurt, or homemade baked goods.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12061": {
+    "verdict": "Recommended",
+    "explanation": "Whole almonds are recommended during pregnancy for their rich micronutrient density. They deliver calcium, magnesium, vitamin E, and dietary fiber to relieve common pregnancy constipation. Select raw or unsalted dry-roasted nuts to keep sodium intake within healthy bounds. Keep a small handful in your bag for convenient midday snacking.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12062": {
+    "verdict": "Recommended",
+    "explanation": "Blanched almonds are recommended during pregnancy as an easy-to-digest nut option. They retain their healthy monounsaturated fats, protein, and magnesium while removing skins that can irritate sensitive stomachs. Store them in an airtight container in the refrigerator to protect delicate oils from oxidation. Blend them into smoothies or chop them over warm breakfast cereal.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12078": {
+    "verdict": "Limit",
+    "explanation": "Brazil nuts must be strictly limited during pregnancy due to their exceptionally concentrated selenium content. A single nut provides more than the full daily selenium allowance, and chronic overconsumption can lead to selenosis. Restrict intake to at most one or two nuts occasionally to prevent toxic selenium accumulation. Obtain remaining prenatal minerals from balanced mixed nuts or prenatal supplements.",
+    "sources": [
+      {
+        "name": "EFSA",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/7704"
+      },
+      {
+        "name": "NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+      }
+    ]
+  },
+  "12104": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw fresh coconut meat is safe with precautions during pregnancy when freshly opened and hygienically handled. It supplies dietary fiber, potassium, and medium-chain fatty acids, though saturated fat remains prominent. Wash the exterior shell thoroughly before cracking, and refrigerate the white meat immediately to avoid contamination. Enjoy fresh thin slices in moderation as part of a varied fruit plate.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12108": {
+    "verdict": "Limit",
+    "explanation": "Unsweetened dried coconut meat is safe in moderation but best limited during pregnancy because of its saturated fat density. It delivers dietary fiber, potassium, and zinc alongside substantial calories per serving. Consume small portions to leave caloric room for micronutrient-dense fruits and vegetables. Sprinkle a tablespoon over chia seed pudding or Greek yogurt.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12116": {
+    "verdict": "Limit",
+    "explanation": "Sweetened canned coconut cream should be limited during pregnancy due to high concentrations of saturated fat and refined sugars. While it provides minor trace minerals, the heavy saturated lipid profile can contribute to excessive gestational weight gain without commensurate nutrient density. Reserve it for small culinary accents in curries or desserts rather than daily consumption. Substitute lighter plant milks when preparing daily beverages.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12117": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw coconut milk expressed from fresh meat is safe with precautions during pregnancy only if brought to a rolling boil. Unpasteurized raw plant extracts can harbor environmental bacteria if prepared in unsterile conditions. Boil fresh coconut milk thoroughly in stews or curries to ensure microbial safety. Store leftover coconut milk in an airtight container in the refrigerator and discard after two days.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "12119": {
+    "verdict": "Recommended",
+    "explanation": "Pure coconut water is recommended during pregnancy as an effective natural electrolyte beverage. It contributes potassium, magnesium, and hydration to help counteract dehydration and mild muscle cramps. Purchase pasteurized commercial bottles rather than unsealed street vendor drinks to guarantee safety. Sip a glass on warm afternoons or after light prenatal exercise.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12120": {
+    "verdict": "Recommended",
+    "explanation": "Hazelnuts are recommended during pregnancy for their rich vitamin and mineral profile. They supply dietary folate, vitamin E, potassium, and zinc to aid cell proliferation and neural development. Choose unsalted raw or dry-roasted nuts to protect cardiovascular balance. Toss a palmful into mixed green salads or homemade trail mix.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12142": {
+    "verdict": "Recommended",
+    "explanation": "Pecans are recommended during pregnancy as an excellent source of healthy lipids and minerals. They offer zinc, dietary fiber, and monounsaturated fatty acids to support cellular integrity and digestion. Choose plain unsalted halves instead of candied or sugar-glazed varieties. Scatter a handful over spinach salads or fold into whole-wheat muffins.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12147": {
+    "verdict": "Recommended",
+    "explanation": "Dried pine nuts are recommended during pregnancy for their rich micronutrient density. They deliver plant iron, zinc, magnesium, and healthy unsaturated fatty acids to meet heightened maternal blood volume demands. Store them sealed in the freezer to safeguard against quick rancidity. Toast lightly and toss over whole-wheat pasta with basil pesto.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12155": {
+    "verdict": "Recommended",
+    "explanation": "Raw English walnuts are recommended during pregnancy for their exceptional lipid and antioxidant content. They deliver plant-based omega-3 fatty acids, vitamin E, and magnesium that support maternal cardiovascular function. Store walnuts in the refrigerator or freezer in an airtight container to avoid oil spoilage. Pair a one-ounce portion with fresh berries or pear slices.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12157": {
+    "verdict": "Recommended",
+    "explanation": "Dry roasted walnuts are recommended during pregnancy as a premier plant source of omega-3 fats. They contribute alpha-linolenic acid, zinc, and vitamin B6 to aid fetal neural and visual system maturation. Opt for unsalted nuts and keep them chilled to preserve beneficial fatty acids. Chop a tablespoon over warm morning porridge or mix into fresh salads.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12166": {
+    "verdict": "Recommended",
+    "explanation": "Tahini sesame butter is recommended during pregnancy as a valuable non-dairy mineral source. It supplies plant calcium, zinc, iron, and healthy unsaturated lipids to assist bone and blood cell development. Choose pasteurized commercial jars and refrigerate after opening to protect against bacterial growth or oil degradation. Drizzle a tablespoon into hummus, salad dressings, or over roasted root vegetables.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "12167": {
+    "verdict": "Recommended",
+    "explanation": "Roasted European chestnuts are recommended during pregnancy as a unique low-fat nut option. Unlike oily tree nuts, chestnuts deliver complex carbohydrates, dietary fiber, vitamin C, and potassium. Roast them thoroughly until the hard outer shells split and the inner meat is soft. Eat them warm as a comforting autumn snack or fold them into grain dishes.",
+    "sources": [
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12179": {
+    "verdict": "Limit",
+    "explanation": "Sweetened shredded dried coconut should be limited during pregnancy due to added sugars and high saturated fat. The added cane sugar increases blood glucose spikes while offering minimal maternal nutritional benefit. Keep portions small when baking or decorating desserts to manage glycemic balance. Choose unsweetened coconut flakes when you desire natural coconut flavor.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12220": {
+    "verdict": "Recommended",
+    "explanation": "Flaxseed is recommended in moderation during pregnancy as a beneficial seed for digestion. It provides alpha-linolenic acid, soluble fiber, and zinc to soothe bowel irregularity. Consume ground flaxseed rather than whole seeds because whole seeds pass through the digestive tract undigested. Stir one to two tablespoons into yogurt or smoothie bowls along with ample water.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12516": {
+    "verdict": "Recommended",
+    "explanation": "Roasted pumpkin seed kernels are recommended as an energizing, nutrient-packed snack throughout pregnancy. They deliver plant protein, iron, zinc, and healthy fats that help satisfy elevated maternal micronutrient demands. Pick dry-roasted, unsalted varieties to prevent unneeded sodium accumulation. Keep a small container in your purse for sustained energy during busy days.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12529": {
+    "verdict": "Safe with precautions",
+    "explanation": "Salted sesame seed kernels are safe with precautions during pregnancy due to their added sodium. They deliver plant calcium, zinc, and iron, but salted processing raises total salt intake quickly. Moderate your portion sizes and favor unsalted seeds when using them frequently in home cooking. Shake a teaspoon over stir-fried greens or noodle bowls for crunch.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12537": {
+    "verdict": "Recommended",
+    "explanation": "Dry roasted sunflower seed kernels are recommended as an accessible, nutrient-dense snack in pregnancy. They provide dietary folate, plant protein, vitamin E, and zinc without extra frying oils. Pick unsalted options whenever possible to avoid excess sodium retention and swelling. Enjoy a small handful alongside an apple or mixed into hot oatmeal.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12538": {
+    "verdict": "Safe with precautions",
+    "explanation": "Oil roasted sunflower seed kernels are safe with precautions during pregnancy when consumed in moderation. They deliver folate, zinc, and vitamin E, but oil roasting adds extra calories and often elevated sodium levels. Check the nutrition label for sodium content and choose lightly salted varieties when available. Measure small portions to complement salads or roasted vegetables.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12563": {
+    "verdict": "Recommended",
+    "explanation": "Dry roasted almonds are recommended as a satisfying, nutrient-rich snack in pregnancy. They provide plant-based protein, dietary fiber, vitamin E, and magnesium without unnecessary cooking oils. Pick unsalted varieties to help prevent excess fluid retention during later trimesters. Mix a one-ounce portion into Greek yogurt or morning oatmeal.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12585": {
+    "verdict": "Recommended",
+    "explanation": "Dry roasted cashews are recommended during pregnancy for their valuable mineral content. They deliver zinc, iron, copper, and plant protein to meet increased gestational blood and tissue requirements. Opt for unsalted or lightly salted varieties to maintain steady blood pressure. Enjoy a one-ounce serving alongside dried apricots for enhanced iron pairing.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12588": {
+    "verdict": "Recommended",
+    "explanation": "Cashew butter is recommended during pregnancy as a creamy source of plant nutrition. It provides zinc, magnesium, non-heme iron, and healthy fats that support maternal metabolic health and fetal tissue construction. Purchase pasteurized commercial brands to avoid foodborne illness risks from improperly handled raw nuts. Swirl a spoonful into warm oatmeal or use it as a dip for celery sticks.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12632": {
+    "verdict": "Recommended",
+    "explanation": "Dry roasted macadamia nuts are recommended in moderation during pregnancy. They provide heart-healthy monounsaturated fatty acids, vitamin B6, and potassium to nourish maternal energy. Because of their very high caloric density, keep portion sizes to about one ounce per serving. Enjoy them crushed over morning oatmeal or eaten alongside fresh fruit.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "12635": {
+    "verdict": "Recommended",
+    "explanation": "Dry roasted mixed nuts with peanuts are recommended as a balanced, protein-packed snack during pregnancy. They supply diverse nutrients including zinc, magnesium, plant protein, and folate across multiple nut varieties. Choose unsalted blends to avoid excessive sodium intake that could worsen fluid retention. Measure a small handful for an easy afternoon snack.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12652": {
+    "verdict": "Recommended",
+    "explanation": "Dry roasted pistachios are recommended as an outstanding snack choice in pregnancy. They supply vitamin B6, potassium, plant protein, and dietary fiber that can help reduce pregnancy nausea and manage blood pressure. Purchase unsalted in-shell varieties to naturally pace consumption and moderate sodium. Crack open a handful for a nourishing snack between main meals.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "12695": {
+    "verdict": "Recommended",
+    "explanation": "Almond butter is recommended during pregnancy as a nutrient-dense whole food spread. It supplies healthy monounsaturated fats, vitamin E, magnesium, and plant protein to aid fetal brain and cellular growth. Choose commercial jars with minimal added sugar and store them properly to prevent rancidity. Spread two tablespoons on apple slices or whole-grain toast for sustained fullness.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "16107": {
+    "verdict": "Safe with precautions",
+    "explanation": "Meatless sausage is safe with precautions during pregnancy when cooked to safe temperatures. It delivers plant protein, vitamin B6, and riboflavin, but commercial patties often contain significant sodium. Cook the sausage thoroughly until steaming hot to eliminate any surface bacteria. Serve it alongside whole-grain toast and sliced fruit for a balanced breakfast.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "16109": {
+    "verdict": "Recommended",
+    "explanation": "Boiled mature soybeans are recommended as a nutritious staple during pregnancy. They supply complete plant protein, dietary fiber, iron, choline, and folate for maternal and fetal tissue development. Cook dried soybeans thoroughly until tender, and avoid eating undercooked beans. Add them to vegetable soups, grain bowls, or salads for sustained energy.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "16115": {
+    "verdict": "Safe with precautions",
+    "explanation": "Raw full-fat soy flour is safe only after thorough baking or cooking during pregnancy. It supplies concentrated potassium, folate, and plant protein to meet increased gestational nutrient needs. The FDA advises never consuming raw flours because uncooked grains and legumes can harbor harmful bacteria like Salmonella or Escherichia coli. Incorporate it entirely into thoroughly baked breads or muffins rather than raw mixes.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "16118": {
+    "verdict": "Safe with precautions",
+    "explanation": "Low-fat soy flour is safe with precautions when fully cooked in baked recipes during pregnancy. This flour provides high concentrations of plant protein, potassium, and vitamin B6 with minimal fat. You should always bake or cook foods containing soy flour thoroughly to destroy potential microbial contaminants present in raw milling products. Blend it into pancake batters or baked loaves that reach standard baking temperatures.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "16120": {
+    "verdict": "Safe with precautions",
+    "explanation": "Unfortified soymilk is safe with precautions during pregnancy as a pasteurized beverage. It supplies quality plant protein and hydration, but lacks the calcium and vitamin D found in fortified varieties. If drinking unfortified versions, ensure you obtain adequate calcium from other dietary staples or prenatal supplements. Check that the product is commercially pasteurized before consumption.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "16122": {
+    "verdict": "Safe with precautions",
+    "explanation": "Soy protein isolate is safe with precautions as an occasional dietary supplement during pregnancy. It delivers highly concentrated protein, iron, and choline to assist daily macronutrient targets. Rely primarily on whole food protein sources and review ingredient labels to avoid excessive herbal additives or contaminants. Stir modest scoops into oatmeal or fruit smoothies when whole food intake falls short.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "16124": {
+    "verdict": "Limit",
+    "explanation": "Tamari soy sauce is safe to consume in culinary moderation but should be limited due to sodium density. It provides small amounts of amino acids while delivering substantial sodium that may affect maternal blood pressure. Measure teaspoon portions rather than pouring freely over dishes. Pair it with steamed vegetables and brown rice to dilute overall sodium density.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "16125": {
+    "verdict": "Limit",
+    "explanation": "Soy sauce made from hydrolyzed vegetable protein is safe in small amounts but should be limited during pregnancy. It adds savory flavor but contributes very large amounts of sodium per tablespoon, which can exacerbate fluid retention. Use modest splashes as a culinary condiment rather than a heavy cooking base. Consider switching to reduced-sodium soy sauce varieties or balancing with fresh herbs.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "16127": {
+    "verdict": "Recommended",
+    "explanation": "Soft tofu set with calcium sulfate is recommended as an excellent protein and mineral source in pregnancy. It contributes highly bioavailable calcium, plant protein, and iron for maternal bone density and blood volume expansion. Cook the tofu thoroughly in simmering soups, scrambles, or stews rather than consuming it raw from the pack. Blend it into warm vegetable curries or noodle broths.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "16129": {
+    "verdict": "Safe with precautions",
+    "explanation": "Fried tofu is safe with precautions during pregnancy when cooked fresh and served piping hot. It supplies plant protein, iron, and calcium, though frying adds extra calories and saturated fats. Cook or reheat fried tofu thoroughly to at least 165°F to eliminate bacterial risks from prep surfaces. Combine it with stir-fried broccoli and brown rice for a satisfying meal.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "16139": {
+    "verdict": "Recommended",
+    "explanation": "Original calcium-fortified soymilk is recommended as a nutritious daily beverage in pregnancy. It supplies eight grams of plant protein per cup along with bone-building calcium and vitamin D comparable to cow milk. Verify that the carton indicates pasteurization to guard against harmful pathogens. Pour it over morning oats or enjoy an eight-ounce glass with meals.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "16147": {
+    "verdict": "Safe with precautions",
+    "explanation": "Unprepared veggie burgers are safe with precautions during pregnancy once cooked completely. They offer dietary fiber, potassium, and plant protein to nourish both parent and developing baby. Cook raw or frozen patties on a grill or skillet to 165°F as verified with a food thermometer. Pair the burger with a leafy side salad dressed in olive oil.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "16168": {
+    "verdict": "Safe with precautions",
+    "explanation": "Chocolate fortified soymilk is safe with precautions during pregnancy because of its added sugar content. It delivers beneficial calcium, vitamin D, and plant protein, but the cocoa syrup increases daily caloric intake. Choose it as an occasional treat rather than your primary fluid replacement. Enjoy a small chilled glass after physical activity or as an afternoon snack.",
+    "sources": [
+      {
+        "name": "USDA Dietary Guidelines",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "16172": {
+    "verdict": "Recommended",
+    "explanation": "Canned fat-free refried beans are recommended during pregnancy as an accessible source of plant nutrients. They provide dietary fiber, plant protein, folate, and potassium to support maternal blood pressure and bowel regularity. Warm them thoroughly on the stovetop or in the microwave before serving. Pair them with bell peppers or citrus salsa to improve non-heme iron absorption.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "16225": {
+    "verdict": "Recommended",
+    "explanation": "Light fortified soymilk is recommended during pregnancy for individuals seeking plant-based nutrition with fewer calories. It delivers fortified calcium, vitamin D, and soy protein necessary for skeletal development. Choose pasteurized store-bought brands and refrigerate them after opening. Use it over whole-grain cereals or in herbal tea lattes.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "16230": {
+    "verdict": "Recommended",
+    "explanation": "Nonfat calcium-fortified soymilk is recommended throughout pregnancy as a nutrient-dense dairy alternative. It provides plant protein alongside fortified calcium, vitamin A, and vitamin D to build fetal bones and teeth. Select commercially pasteurized cartons and shake well before pouring to redistribute settled minerals. Drink it plain or blend it into morning fruit smoothies.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      }
+    ]
+  },
+  "43114": {
+    "verdict": "Recommended",
+    "explanation": "Soy vermicelli noodles are recommended as a nutritious carbohydrate and protein base in pregnancy. They provide easily digestible calories, plant protein, and iron to sustain prenatal energy levels. Boil the noodles thoroughly in clean water and drain before incorporating into dishes. Toss them with sautéed vegetables, edamame, and a light sesame dressing.",
+    "sources": [
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      },
+      {
+        "name": "USDA MyPlate",
+        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+      }
+    ]
+  },
+  "43134": {
+    "verdict": "Safe with precautions",
+    "explanation": "Vegetarian fillets are safe with precautions during pregnancy provided they are heated thoroughly. They deliver dietary protein and iron, though sodium levels can vary across commercial brands. Bake or pan-sear the fillets until they reach an internal temperature of 165°F before eating. Serve them with roasted potatoes and a fresh green salad.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43137": {
+    "verdict": "Safe with precautions",
+    "explanation": "Vegetarian meatloaf or patties are safe with precautions during pregnancy when fully cooked. These plant-based entrees supply protein, zinc, and B vitamins while reducing saturated fat compared to red meat. Heat frozen or chilled patties to an internal temperature of 165°F to ensure safety against foodborne pathogens. Enjoy them tucked into a whole-wheat bun with tomato and avocado.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43299": {
+    "verdict": "Safe with precautions",
+    "explanation": "Soybean curd cheese is safe with precautions during pregnancy when prepared from pasteurized soy milk and handled cleanly. It offers plant protein, calcium, and B vitamins in a fermented format. Confirm that commercial packaging shows pasteurization and heat the curd in hot stews or soups to minimize foodborne risk. Store any opened packages in the refrigerator and discard within a few days.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "43476": {
+    "verdict": "Safe with precautions",
+    "explanation": "Tofu yogurt is safe with precautions during pregnancy when prepared with pasteurized ingredients. It provides plant protein and beneficial probiotics to support maternal gut health and regularity. Verify on the container that all soy bases and cultures underwent pasteurization before purchase. Top with fresh berries or chia seeds for an antioxidant boost.",
+    "sources": [
+      {
+        "name": "FDA Safe Eats",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "05327": {
+    "verdict": "Safe with precautions",
+    "explanation": "Uncooked breaded chicken breast tenders are safe with precautions during pregnancy only after thorough cooking. Raw poultry frequently harbors Salmonella and Campylobacter bacteria that can trigger serious foodborne illness during gestation. The USDA requires cooking all poultry to an internal temperature of 165°F measured in the thickest part. Bake or air-fry until crisp and serve hot with steamed broccoli.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "CDC Food Safety",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      }
+    ]
+  },
+  "05324": {
+    "verdict": "Safe with precautions",
+    "explanation": "Frozen cooked chicken patties are safe with precautions during pregnancy when reheated completely. They offer dietary protein and B vitamins, though breading and processing elevate sodium levels. Reheat the patties in an oven or toaster oven until steaming hot throughout to 165°F to eliminate any storage contaminants. Layer the hot patty onto a whole-wheat bun with lettuce and tomato.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  },
+  "05060": {
+    "verdict": "Safe with precautions",
+    "explanation": "Roasted chicken breast with meat and skin is safe with precautions during pregnancy when cooked to safe temperatures. It delivers lean protein, choline, and vitamin B6 to promote fetal organ and neurological growth. Use a meat thermometer to ensure the breast reaches an internal temperature of 165°F before serving. Remove skin if you prefer to lower saturated fat intake while keeping all the lean protein.",
+    "sources": [
+      {
+        "name": "USDA Food Safety",
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+      },
+      {
+        "name": "ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+      }
+    ]
+  }
+}
