@@ -130,25 +130,6 @@
   }
 }
 
-.home-trust {
-  margin: 30px 0 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 20px;
-  color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 550;
-  list-style: none;
-}
-
-.home-trust li::before {
-  content: "✓";
-  margin-right: 7px;
-  color: var(--accent);
-  font-weight: 700;
-}
-
 .home-hero-visual {
   position: relative;
   padding: 28px;
@@ -237,42 +218,6 @@
   font-family: "Instrument Serif", Georgia, serif;
   font-size: 2.5rem !important;
   line-height: 1 !important;
-}
-
-.home-proof {
-  width: min(100%, var(--max));
-  margin: 0 auto 104px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-}
-
-.home-proof article {
-  min-height: 132px;
-  padding: 30px clamp(18px, 3vw, 36px);
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 16px;
-}
-
-.home-proof article + article {
-  border-left: 1px solid var(--border);
-}
-
-.home-proof strong {
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: clamp(2.4rem, 4vw, 4rem);
-  font-weight: 400;
-  line-height: 1;
-}
-
-.home-proof span {
-  max-width: 170px;
-  color: var(--muted);
-  font-size: 0.86rem;
-  line-height: 1.4;
 }
 
 .home-slab {
@@ -807,12 +752,9 @@ h3.home-lede {
 .need-card[data-nutrient="Vitamin D"] { --nutrient-color: #c8beda; }
 .need-card[data-nutrient="Zinc"] { --nutrient-color: #aebbd1; }
 
-.page-home .home-proof,
 .page-home .home-slab {
   animation: home-rise 0.75s ease both;
 }
-
-.page-home .home-proof { animation-delay: 0.06s; }
 .page-home .home-slab { animation-delay: 0.11s; }
 
 @keyframes home-rise {
@@ -821,7 +763,6 @@ h3.home-lede {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .page-home .home-proof,
   .page-home .home-slab {
     animation: none;
   }
@@ -886,20 +827,6 @@ h3.home-lede {
     left: -4px;
   }
 
-  .home-proof {
-    grid-template-columns: 1fr;
-    margin-bottom: 70px;
-  }
-
-  .home-proof article {
-    min-height: 100px;
-  }
-
-  .home-proof article + article {
-    border-top: 1px solid var(--border);
-    border-left: 0;
-  }
-
   .home-slab.is-tone {
     padding: 28px 18px;
     border-radius: 22px;
@@ -947,10 +874,6 @@ h3.home-lede {
 @media (max-width: 540px) {
   .home-hero-copy {
     padding-top: 26px;
-  }
-
-  .home-trust {
-    display: grid;
   }
 
   .home-hero-frame {
@@ -1026,9 +949,8 @@ h3.home-lede {
 .home-hero-lede { max-width: 68ch; margin: 0 auto; font-size: 1.08rem; line-height: 1.7; }
 .home-actions { justify-content: center; gap: 12px; margin-top: 26px; }
 .home-action { padding-inline: 22px; }
-.home-trust { display: flex; justify-content: center; gap: 10px 24px; margin-top: 22px; font-size: .78rem; }
-.home-trust li::before { content: none; }
 .home-food-gallery { margin: 8px -28px 0; }
+.home-slab-desc a { color: var(--accent-2); font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .home-gallery-stage { position: relative; aspect-ratio: 2172 / 724; }
 .home-gallery-food { position: absolute; display: block; border-radius: 18px; -webkit-tap-highlight-color: transparent; }
 .home-gallery-food img { display: block; width: 100%; height: 100%; transform-origin: 50% 85%; }
@@ -1042,11 +964,7 @@ h3.home-lede {
 @media (prefers-reduced-motion: reduce) {
   .home-gallery-food:is(:hover, :focus-visible, :active) img { filter: saturate(1.08) brightness(1.03); }
 }
-.home-food-gallery figcaption { display: grid; grid-template-columns: repeat(9, 1fr); gap: 8px; margin-top: -22px; padding: 0 12px; color: var(--accent-2); font: italic 1.12rem 'Instrument Serif', Georgia, serif; }
-.home-explore-link { display: flex; align-items: center; justify-content: center; gap: 16px; width: fit-content; margin: 28px auto 0; padding: 15px 20px; color: var(--accent-2); font-size: .85rem; }
-.home-explore-link span { font-size: 1.3rem; transition: transform 180ms ease-out; }
-.home-explore-link:hover span { transform: translateY(3px); }
-#home-explore { scroll-margin-top: 100px; }
+.home-food-gallery figcaption { display: grid; grid-template-columns: repeat(9, 1fr); gap: 8px; margin-top: -5%; padding: 0 12px; color: var(--accent-2); font: italic 1.12rem 'Instrument Serif', Georgia, serif; }
 .page-home a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 .home-action:active { transform: translateY(1px); }
 @media (prefers-reduced-motion: no-preference) {
@@ -1062,10 +980,8 @@ h3.home-lede {
   .home-hero-lede { font-size: 1rem; }
   .home-actions { gap: 10px; }
   .home-action { padding-inline: 17px; font-size: .86rem; }
-  .home-trust { gap: 8px 16px; font-size: .72rem; }
   .home-food-gallery { margin: 26px -8px 0; }
   .home-food-gallery figcaption { display: none; }
-  .home-explore-link { margin-top: 16px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

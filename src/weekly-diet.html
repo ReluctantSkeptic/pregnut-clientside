@@ -6,95 +6,86 @@ permalink: /weekly-diet/index.html
 bodyClass: page-weekly
 vizStyles: true
 pageStyles:
-  - /style/weekly-diet.css?v=20260928-viz
+  - /style/weekly.css?v=20261007
 pageScripts:
-  - /js/viz.js?v=20260928-1
-  - /js/weekly-diet.js?v=20260928-viz
+  - /js/viz.js?v=20261007
+  - /js/weekly-diet.js?v=20261007
 ---
 
-<section class="hero slim weekly-hero">
-  <div>
-    <h1 class="hero-title">Pregnancy nutrition by week</h1>
-    <p class="hero-lede">Select a stage to explore nutrient highlights and compare foods that provide them.</p>
+<header class="wk-hero">
+  <p class="wk-kicker">Weekly guide</p>
+  <h1 class="wk-title">What to eat, <em>stage by stage.</em></h1>
+  <p class="wk-lede">Choose your week to see which nutrients matter now, and the foods richest in them.</p>
+</header>
+
+<section class="wk-picker" aria-label="Choose your week">
+  <div class="wk-picker-now" aria-live="polite">
+    <span class="wk-picker-label">Week</span>
+    <strong class="wk-picker-week" id="WeekNumber">–</strong>
+    <span class="wk-picker-period" id="TimelineCurrent"></span>
+  </div>
+  <div class="wk-ruler">
+    <input class="wk-range" id="WeekRange" type="range" min="1" max="40" step="1" value="4" aria-label="Pregnancy week" />
+    <div class="wk-ruler-track" id="Timeline" aria-hidden="true"></div>
   </div>
 </section>
 
-<section class="section weekly-chapter-links" aria-labelledby="weekly-chapters-title">
-  <div class="content-card">
-    <div class="content-head">
-      <p class="content-eyebrow">Browse the static guides</p>
-      <h2 class="content-title" id="weekly-chapters-title">Pregnancy nutrition by week</h2>
-      <p class="content-summary">Open a chapter for a crawlable summary of development, priority nutrients, practical notes, and sources.</p>
+<article class="wk-chapter" aria-labelledby="PeriodTitle">
+  <div class="wk-chapter-copy">
+    <p class="wk-kicker" id="PeriodLabel">&nbsp;</p>
+    <h2 class="wk-chapter-title" id="PeriodTitle">Loading…</h2>
+    <p class="wk-chapter-summary" id="PeriodSummary"></p>
+    <h3 class="wk-subhead">What’s developing</h3>
+    <ol class="wk-dev" id="DevList"></ol>
+    <ul class="wk-notes" id="PeriodNotes" aria-label="Good to know"></ul>
+  </div>
+  <figure class="wk-chapter-art" id="ChapterArt" hidden>
+    <img id="ChapterArtImage" width="1024" height="1280" decoding="async" alt="" />
+  </figure>
+</article>
+
+<section class="wk-block" aria-labelledby="wk-nutrients-title">
+  <header class="wk-block-head">
+    <h2 class="wk-block-title" id="wk-nutrients-title">Nutrients to prioritize</h2>
+    <p class="wk-block-note">These shape the food ranking below. Your daily needs don’t change—ask your care team about your own targets.</p>
+  </header>
+  <ol class="wk-nutrients" id="NutrientCards"></ol>
+  <p class="wk-also" id="AlsoNutrients"></p>
+</section>
+
+<section class="wk-block" aria-labelledby="wk-foods-title">
+  <header class="wk-block-head is-split">
+    <div>
+      <h2 class="wk-block-title" id="wk-foods-title">Foods that cover this stage</h2>
+      <p class="wk-block-note">Scored per 100 g against this stage’s priorities—not a serving size or a safety check. <a href="/about/#hundred-grams">What 100 g looks like</a></p>
     </div>
-    <ul class="guide-link-list">
-      {% for period in weeklyProtocol.periods %}
-        <li><a href="/weekly-guide/{{ period.id }}/">Pregnancy nutrition weeks {{ period.weeks.start }}–{{ period.weeks.end }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-
-<section class="section weekly-shell">
-  <section class="weekly-timeline-stage" aria-label="Timeline">
-    <div class="weekly-timeline-meta" aria-hidden="true">
-      <p class="weekly-timeline-kicker">Choose a chapter</p>
-      <p class="weekly-timeline-current" id="TimelineCurrent">Loading...</p>
+    <div class="viz-segmented wk-source" id="SourceToggle" role="radiogroup" aria-label="Food source">
+      <label class="viz-segment"><input type="radio" name="weekly-source" value="natural"><span>Whole foods</span></label>
+      <label class="viz-segment"><input type="radio" name="weekly-source" value="processed"><span>Fortified</span></label>
     </div>
-    <div class="weekly-timeline" id="Timeline" aria-label="Timeline"></div>
-  </section>
-
-  <div class="weekly-content" aria-label="Weekly diet content">
-    <section class="content-card" aria-label="Development summary">
-      <div class="content-head development-summary-head">
-        <div class="development-summary-copy">
-          <p class="content-eyebrow" id="PeriodLabel">Loading...</p>
-          <h2 class="content-title" id="PeriodTitle">Loading...</h2>
-          <p class="content-summary" id="PeriodSummary"></p>
-          <div class="cite-list period-cites" id="PeriodCites" aria-label="Sources"></div>
-        </div>
-        <figure class="chapter-art" id="ChapterArt" hidden>
-          <img id="ChapterArtImage" width="1254" height="1254" decoding="async" alt="Illustration of fetal development during this pregnancy stage" />
-        </figure>
-      </div>
-      <ul class="dev-list" id="DevList" aria-label="What is developing"></ul>
-      <div class="period-notes" id="PeriodNotes" aria-label="Notes"></div>
-    </section>
-
-    <section class="content-card focus-card" aria-label="Priority nutrients">
-      <div class="content-head">
-        <h2 class="content-title">Nutrient highlights for this chapter</h2>
-        <p class="content-summary">Priority labels organize this tool's food ranking. Daily nutrient needs continue throughout pregnancy; these labels do not change your prescribed intake or replace clinician guidance.</p>
-      </div>
-      <div class="nutrient-cards" id="NutrientCards"></div>
-    </section>
-
-    <section class="content-card" aria-label="Top foods this period">
-      <div class="content-head weekly-rank-head">
-        <div>
-          <h2 class="content-title">Highest nutrient scores for this period</h2>
-          <p class="viz-note">Scores compare 100 g of each food with this stage's highlighted nutrient references. They do not establish a practical serving or pregnancy safety. <a href="/about/#hundred-grams">How much is 100 grams?</a></p>
-        </div>
-        <div class="weekly-source">
-          <div class="viz-segmented" id="SourceToggle" role="radiogroup" aria-label="Food source">
-            <label class="viz-segment"><input type="radio" name="weekly-source" value="processed"><span>Processed</span></label>
-            <label class="viz-segment"><input type="radio" name="weekly-source" value="natural"><span>Natural</span></label>
-          </div>
-          <span class="caution is-info"><button type="button" class="caution-trigger" aria-label="About food sources" aria-expanded="false">i</button><span class="caution-popover" role="tooltip">Processed includes fortified foods; Natural is whole-food sources.</span></span>
-        </div>
-      </div>
-      <p class="viz-summary weekly-summary" id="TopFoodsSummary"></p>
-      <div class="weekly-top" id="TopFoods"></div>
-    </section>
-
-    <section class="content-card" aria-label="Top foods by nutrient">
-      <div class="content-head">
-        <h2 class="content-title">Top foods per nutrient</h2>
-        <p class="viz-note">Use this view when you're trying to push a specific nutrient higher.</p>
-      </div>
-      <div class="viz-chips weekly-chips" id="NutrientChips" role="radiogroup" aria-label="Nutrient"></div>
-      <p class="viz-summary weekly-summary" id="ByNutrientSummary"></p>
-      <div class="weekly-by-nutrient" id="FoodsByNutrient"></div>
-      <p class="viz-note weekly-footnote">Percentages use <a href="/about/#nutrient-references">PregNut's reference amounts</a>. DHA and protein use illustrative benchmarks; needs can differ by person. Food values come from a <a href="/about/#food-data-sources">fixed historical USDA snapshot</a>.</p>
-    </section>
-  </div>
+  </header>
+  <p class="viz-summary wk-summary" id="TopFoodsSummary"></p>
+  <div class="wk-top" id="TopFoods"></div>
 </section>
+
+<section class="wk-block" aria-labelledby="wk-by-nutrient-title">
+  <header class="wk-block-head">
+    <h2 class="wk-block-title" id="wk-by-nutrient-title">Richest sources, by nutrient</h2>
+  </header>
+  <div class="viz-chips wk-chips" id="NutrientChips" role="radiogroup" aria-label="Nutrient"></div>
+  <p class="viz-summary wk-summary" id="ByNutrientSummary"></p>
+  <div class="wk-by-nutrient" id="FoodsByNutrient"></div>
+  <p class="wk-footnote">Percentages use <a href="/about/#nutrient-references">PregNut’s reference amounts</a>; DHA and protein are illustrative benchmarks. Food values come from a <a href="/about/#food-data-sources">fixed USDA snapshot</a>.</p>
+</section>
+
+<script type="application/json" id="NutrientGuides">{ {% for n in nutrientGuidance %}{% if n.guide %}{% if not loop.first %},{% endif %}"{{ n.id }}": "{{ n.guide }}"{% endif %}{% endfor %} }</script>
+
+{% set stageNames = { "wk1-8": "Foundations", "wk9-12": "Organ formation", "wk13-16": "Brain and skeleton", "wk17-20": "Movement and senses", "wk21-24": "Lungs and sleep", "wk25-28": "Readiness", "wk29-32": "Birth position", "wk33-36": "Weight gain", "wk37-40": "Full term" } %}
+<nav class="wk-stages" aria-labelledby="wk-stages-title">
+  <h2 class="wk-kicker" id="wk-stages-title">Read each stage</h2>
+  <ol class="wk-stage-links">
+    {% for period in weeklyProtocol.periods %}
+    <li><a href="/weekly-guide/{{ period.id }}/"><span>Weeks {{ period.weeks.start }}–{{ period.weeks.end }}</span><em>{{ stageNames[period.id] }}</em></a></li>
+    {% endfor %}
+  </ol>
+</nav>
