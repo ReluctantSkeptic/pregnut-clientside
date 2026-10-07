@@ -153,6 +153,75 @@ function seoTitle(name, isAvoid = false) {
   return name;
 }
 
+// Short, human-friendly heading. Reuses the curated search-title overrides when present.
+function displayName(food, pageName) {
+  const override = FOOD_TITLE_OVERRIDES[food.id];
+  if (!override) return pageName;
+  return override.replace(/\s*\|\s*PregNut$/, "").replace(/\s+Nutrition$/, "");
+}
+
+function lowerNutrient(name) {
+  // Keep acronyms and lettered vitamins readable ("DHA", "Vitamin C" -> "vitamin C").
+  if (/^[A-Z0-9-]+$/.test(name)) return name;
+  return name.replace(/\s*\(DFE\)$/, "").replace(/^Vitamin/, "vitamin").replace(/^(Folate|Calcium|Choline|Iron|Potassium|Protein|Riboflavin|Zinc|Magnesium|Iodine|Thiamin|Niacin|Fiber)/, (m) => m.toLowerCase());
+}
+
+function joinList(parts) {
+  if (parts.length <= 1) return parts.join("");
+  return parts.slice(0, -1).join(", ") + " and " + parts[parts.length - 1];
+}
+
+// One plain-English sentence describing the strongest contributions.
+function summaryText(topNutrients) {
+  if (!topNutrients.length) return "100 g has little or none of the pregnancy nutrients tracked here.";
+  const parts = topNutrients.map((row) => `${row.displayPercent}% of daily ${lowerNutrient(row.name)}`);
+  return `100 g gives about ${joinList(parts)} needed in pregnancy.`;
+}
+
+const TOPIC_GUIDES = {
+  cheese: { title: "Cheese and pasteurization", url: "/blog/soft-cheese-pregnancy/" },
+  dairy: { title: "Milk and yogurt pasteurization", url: "/blog/raw-milk-pregnancy/" },
+  egg: { title: "Egg doneness and safety", url: "/blog/eggs-during-pregnancy/" },
+  juice: { title: "Juice and smoothie safety", url: "/blog/juice-pasteurization-pregnancy/" },
+  sprout: { title: "Sprouts during pregnancy", url: "/blog/sprouts-during-pregnancy/" },
+  produce: { title: "Washing fresh produce", url: "/blog/wash-produce-pregnancy/" },
+  deli: { title: "Deli meat and reheating", url: "/blog/deli-meat-pregnancy/" },
+  fish: { title: "Lower-mercury fish", url: "/blog/low-mercury-fish-pregnancy/" },
+  smokedFish: { title: "Smoked salmon and lox", url: "/blog/smoked-salmon-pregnancy/" },
+  protein: { title: "Protein powder labels", url: "/blog/protein-powder-pregnancy/" },
+  liver: { title: "Vitamin A foods without liver", url: "/blog/vitamin-a-foods-without-liver-pregnancy/" },
+  safety: { title: "Pregnancy food-safety checklist", url: "/blog/food-safety-pregnancy/" }
+};
+
+function readingLinks(food, flags, topNutrients) {
+  const links = [];
+  if (food.id === "05028" || food.id === "13327") links.push(TOPIC_GUIDES.liver);
+  if (flags.isCheese) links.push(TOPIC_GUIDES.cheese);
+  if (flags.isMilkOrYogurt) links.push(TOPIC_GUIDES.dairy);
+  if (flags.isEgg) links.push(TOPIC_GUIDES.egg);
+  if (flags.isJuice) links.push(TOPIC_GUIDES.juice);
+  if (flags.isSeedSprout) links.push(TOPIC_GUIDES.sprout);
+  if (flags.isFreshProduce) links.push(TOPIC_GUIDES.produce);
+  if (food.group === "Sausages and Luncheon Meats") links.push(TOPIC_GUIDES.deli);
+  if (flags.isSmokedFish) links.push(TOPIC_GUIDES.smokedFish);
+  else if (food.group === "Finfish and Shellfish Products") links.push(TOPIC_GUIDES.fish);
+  if (flags.isProteinPowder) links.push(TOPIC_GUIDES.protein);
+  for (const row of topNutrients) {
+    if (NUTRIENT_GUIDES[row.name]) links.push(NUTRIENT_GUIDES[row.name]);
+  }
+  const seen = new Set();
+  return links.filter((link) => !seen.has(link.url) && seen.add(link.url)).slice(0, 3);
+}
+
+function toolLinks(topNutrients) {
+  const links = topNutrients.slice(0, 1).map((row) => ({
+    title: `Top foods for ${lowerNutrient(row.name)}`,
+    url: `/app/?nutrient=${encodeURIComponent(row.name)}`
+  }));
+  links.push({ title: "Nutrients by pregnancy week", url: "/weekly-diet/" });
+  return links;
+}
+
 function nutrientRows(food) {
   return Object.entries(foodData.nutrients || {})
     .filter(([name, info]) => name !== "Calories" && info && info.rda)
@@ -199,20 +268,7 @@ const items = (foodData.foods || [])
     let pageDescription = metaDescription(pageName, topNutrients);
     if (isRawPulse || isRawFlour) pageDescription = `${pageName}: historical USDA-based nutrients per 100 g before cooking. Uncooked ingredient data; see preparation guidance.`;
     if (isAvoid) pageDescription = `Avoid ${pageName} during pregnancy. See the safety reason, source guidance, and historical nutrients per 100 g.`;
-    return {
-      ...food,
-      pageName,
-      slug,
-      url: `/food/${slug}/`,
-      nutrientRows: rows,
-      chartRows,
-      topNutrients,
-      metaDescription: pageDescription,
-      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
-      guideLinks: topNutrients.map((row) => NUTRIENT_GUIDES[row.name]).filter(Boolean),
-      isHumanMilk,
-      isRawPulse,
-      isRawFlour,
+    const flags = {
       isCheese: food.group === "Dairy and Egg Products" && food.name.startsWith("Cheese,"),
       isMilkOrYogurt: food.group === "Dairy and Egg Products" && /^(Milk|Yogurt),/.test(food.name) && !/^Milk, (Human|Imitation)/.test(food.name),
       isSmokedFish: food.group === "Finfish and Shellfish Products" && /\bSmoked\b/i.test(food.name),
@@ -220,7 +276,27 @@ const items = (foodData.foods || [])
       isJuice: /\bjuice\b/i.test(food.name) && !/\b(?:in|with) (?:\w+ )?juice\b/i.test(food.name),
       isFreshProduce: /\bRaw\b/i.test(food.name) && Boolean(food.warningText && food.warningText.startsWith("Wash fresh")),
       isSeedSprout: /\bSprouted\b/i.test(food.name),
-      isProteinPowder: food.name.startsWith("Protein powder") || food.name.startsWith("Protein supplement,"),
+      isProteinPowder: food.name.startsWith("Protein powder") || food.name.startsWith("Protein supplement,")
+    };
+    return {
+      ...food,
+      ...flags,
+      pageName,
+      displayName: displayName(food, pageName),
+      slug,
+      url: `/food/${slug}/`,
+      nutrientRows: rows,
+      chartRows,
+      topNutrients,
+      summary: summaryText(topNutrients),
+      metaDescription: pageDescription,
+      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
+      readingLinks: readingLinks(food, flags, topNutrients),
+      toolLinks: toolLinks(topNutrients),
+      isAvoid,
+      isHumanMilk,
+      isRawPulse,
+      isRawFlour,
       calories: food.nutrients && food.nutrients.Calories,
       image: foodImages.has(String(food.id))
         ? {
