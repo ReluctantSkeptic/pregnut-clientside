@@ -127,15 +127,43 @@
   },
   "43015": {
     "verdict": "Safe with precautions",
-    "explanation": "Regular Caesar dressing is safe with precautions during pregnancy when commercially prepared and bottled. Commercial dressings are formulated with pasteurized egg yolks and high acidity, making them completely safe from Salmonella. The FDA warns against homemade Caesar dressing made with raw shell eggs unless certified pasteurized eggs are used. Enjoy a measured portion on crisp garden salads.",
+    "explanation": "CDC lists foods made with raw or undercooked eggs, including Caesar salad dressing, as a riskier choice during pregnancy, and names pasteurized eggs as the safer choice in dressings that will not be cooked. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and advises avoiding homemade or fresh-made Caesar dressing made with raw eggs. For a restaurant or homemade Caesar, ask whether the dressing was made with pasteurized eggs. The nutrient values on this page describe a reference product per 100 g, not a particular bottle or a serving recommendation.",
+    "claims": [
+      {
+        "text": "CDC lists foods made with raw or undercooked eggs, including Caesar salad dressing, as a riskier choice during pregnancy, and names pasteurized eggs as the safer choice in dressings that will not be cooked.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and advises avoiding homemade or fresh-made Caesar dressing made with raw eggs.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "For a restaurant or homemade Caesar, ask whether the dressing was made with pasteurized eggs. The nutrient values on this page describe a reference product per 100 g, not a particular bottle or a serving recommendation.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -855,15 +883,39 @@
   },
   "04639": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercial ranch dressing is safe with precautions during pregnancy because the dairy and egg ingredients are pasteurized. Store-bought bottled ranch poses no risk of Listeria or Salmonella due to pasteurization and acidic preservation. While microbiologically safe, ranch dressing is dense in calories, sodium, and saturated fats. Measure two tablespoons to serve as a dip with raw baby carrots, celery, and bell peppers.",
+    "explanation": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy. FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch. This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation.",
+    "claims": [
+      {
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },

@@ -57,15 +57,50 @@
   },
   "19095": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercial vanilla ice cream is safe with precautions during pregnancy when consumed in measured servings. Packaged store-bought ice creams utilize pasteurized ingredients that are completely safe from Salmonella and Listeria. While it supplies bone-building calcium, ice cream is calorie-dense and rich in added sugars. Measure a single half-cup serving to satisfy sweet cravings while maintaining balanced nutrition.",
-    "sources": [
+    "explanation": "FDA lists homemade ice cream among foods that may contain raw or lightly cooked eggs and says store-bought versions are often already cooked or pasteurized. FDA also advises making sure dairy products are made with pasteurized milk and keeping milk products refrigerated at 40°F or below. CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so a pasteurized label is not a guarantee. This record contains 128 mg calcium per 100 g of vanilla ice cream in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "FDA Safe Eats",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+        "text": "FDA lists homemade ice cream among foods that may contain raw or lightly cooked eggs and says store-bought versions are often already cooked or pasteurized.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "FDA also advises making sure dairy products are made with pasteurized milk and keeping milk products refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so a pasteurized label is not a guarantee.",
+        "source": {
+          "name": "CDC: how Listeria spreads",
+          "url": "https://www.cdc.gov/listeria/causes/index.html"
+        }
+      },
+      {
+        "text": "This record contains 128 mg calcium per 100 g of vanilla ice cream in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: how Listeria spreads",
+        "url": "https://www.cdc.gov/listeria/causes/index.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },

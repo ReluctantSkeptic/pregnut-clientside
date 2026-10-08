@@ -17,12 +17,12 @@ dateModified: 2026-09-26
 
 1. **Read the milk statement.** Look for “made with pasteurized milk.” Do not assume that a cheese is pasteurized from its name or appearance.
 2. **Identify the type.** Pasteurized feta and mozzarella are on CDC's safer-choice list. Unheated queso fresco-type cheese is on its riskier-choice list regardless of the milk statement.
-3. **Consider how it is served.** CDC lists pasteurized soft cheeses and deli-sliced cheese heated to **165°F or until steaming hot** as safer choices. An unheated deli slice is a different choice from cheese heated in a dish.
+3. **Consider how it is served.** CDC lists pasteurized soft cheeses and deli-sliced cheese heated to **165°F or until steaming hot** as safer choices. An unheated deli slice is a different choice from cheese heated in a dish; it follows the same reheating rule as [deli meat](/blog/deli-meat-pregnancy/).
 4. **Check current recalls.** A pasteurized label cannot rule out contamination after processing. [FDA explains](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) that queso fresco-type cheeses made with pasteurized milk can still become contaminated during production.
 
 ## Why is queso fresco different?
 
-[FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) people at higher risk of Listeria infection to avoid queso fresco-type cheeses, including queso blanco and requesón, whether the milk was pasteurized or not. These fresh cheeses can support Listeria growth, and contamination can occur after pasteurization. If someone chooses to eat one, FDA recommends cooking it as part of a dish to **165°F** when possible. A label saying “pasteurized” is not, by itself, the answer for this category.
+[FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) people at higher risk of Listeria infection to avoid queso fresco-type cheeses, including queso blanco and requesón, whether the milk was pasteurized or not. These fresh cheeses can support Listeria growth, and contamination can occur after pasteurization. If someone chooses to eat one, FDA recommends cooking it as part of a dish to **165°F** when possible. A label saying “pasteurized” is not, by itself, the answer for this category. Our [queso fresco guide](/blog/queso-fresco-pregnancy/) covers cooked dishes, pupusas, and restaurant orders.
 
 ## Is pasteurized brie okay?
 

@@ -322,16 +322,44 @@
     ]
   },
   "11099": {
-    "verdict": "Recommended",
-    "explanation": "Boiled Brussels sprouts are strongly recommended during pregnancy. They are rich in natural folate, dietary fiber, vitamin K, and vitamin C, supporting maternal heart health and fetal growth. Boiling or roasting sprouts until fork-tender eliminates food safety concerns and mellows their sulfur compounds. Halve the cooked sprouts and toss them with olive oil, black pepper, and balsamic glaze for a delicious side dish.",
-    "sources": [
+    "verdict": "Safe with preparation",
+    "explanation": "This record contains 62 mg vitamin C and 60 mcg dietary folate equivalents per 100 g of boiled Brussels sprouts in PregNut’s historical USDA-based dataset. These figures describe a food sample, not a suggested serving. NIH lists Brussels sprouts among the foods with the highest folate levels; food folate does not replace folic acid guidance or an individualized prenatal plan. Brussels sprouts are a vegetable, not the raw seed sprouts CDC lists as a riskier choice. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest.",
+    "claims": [
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "This record contains 62 mg vitamin C and 60 mcg dietary folate equivalents per 100 g of boiled Brussels sprouts in PregNut’s historical USDA-based dataset. These figures describe a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "NIH lists Brussels sprouts among the foods with the highest folate levels; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "Brussels sprouts are a vegetable, not the raw seed sprouts CDC lists as a riskier choice. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },

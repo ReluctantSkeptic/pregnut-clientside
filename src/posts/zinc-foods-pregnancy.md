@@ -41,7 +41,7 @@ Fortified breakfast cereals can also supply zinc, but amounts depend on the bran
 
 ## Should I add a separate zinc supplement?
 
-Check the **serving size and zinc amount** on your prenatal's Supplement Facts panel first. NIH notes that most prenatal supplements include zinc. For pregnant adults, NIH lists **40 mg per day** as the upper limit from food and supplements combined; for pregnant teens, the limit is **34 mg per day**. More zinc is not automatically better. [NIH says the effects of zinc supplementation on pregnancy outcomes are unclear](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), and WHO does not recommend it as part of routine pregnancy care. Discuss a separate product with your clinician, especially if you avoid animal foods or have a condition that affects absorption.
+Before taking a zinc supplement while pregnant, check the **serving size and zinc amount** on your prenatal's Supplement Facts panel. NIH notes that most prenatal supplements include zinc. For pregnant adults, NIH lists **40 mg per day** as the upper limit from food and supplements combined; for pregnant teens, the limit is **34 mg per day**. More zinc is not automatically better. [NIH says the effects of zinc supplementation on pregnancy outcomes are unclear](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), and WHO does not recommend it as part of routine pregnancy care. Discuss a separate product with your clinician, especially if you avoid animal foods or have a condition that affects absorption.
 
 ## Common questions
 

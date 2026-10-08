@@ -476,16 +476,44 @@
     ]
   },
   "11099": {
-    "verdict": "Recommended",
-    "explanation": "Boiled Brussels sprouts are strongly recommended during pregnancy. They are rich in natural folate, dietary fiber, vitamin K, and vitamin C, supporting maternal heart health and fetal growth. Boiling or roasting sprouts until fork-tender eliminates food safety concerns and mellows their sulfur compounds. Halve the cooked sprouts and toss them with olive oil, black pepper, and balsamic glaze for a delicious side dish.",
-    "sources": [
+    "verdict": "Safe with preparation",
+    "explanation": "This record contains 62 mg vitamin C and 60 mcg dietary folate equivalents per 100 g of boiled Brussels sprouts in PregNut’s historical USDA-based dataset. These figures describe a food sample, not a suggested serving. NIH lists Brussels sprouts among the foods with the highest folate levels; food folate does not replace folic acid guidance or an individualized prenatal plan. Brussels sprouts are a vegetable, not the raw seed sprouts CDC lists as a riskier choice. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest.",
+    "claims": [
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "This record contains 62 mg vitamin C and 60 mcg dietary folate equivalents per 100 g of boiled Brussels sprouts in PregNut’s historical USDA-based dataset. These figures describe a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "NIH lists Brussels sprouts among the foods with the highest folate levels; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "Brussels sprouts are a vegetable, not the raw seed sprouts CDC lists as a riskier choice. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -2688,16 +2716,44 @@
     ]
   },
   "11718": {
-    "verdict": "Recommended",
-    "explanation": "Boiled sprouted mung beans are safe and highly recommended during pregnancy. Cooking eliminates the foodborne pathogen risks associated with raw sprouts while preserving plant protein, folate, and iron. CDC confirms that cooking sprouts until steaming hot makes them completely safe for pregnant individuals to eat. Stir boiled sprouted mung beans into hot noodle soups, curries, or stir-fries for great texture.",
-    "sources": [
+    "verdict": "Safe when cooked",
+    "explanation": "CDC lists raw or undercooked sprouts, including bean sprouts, as a riskier choice during pregnancy and names sprouts cooked until steaming hot as the safer choice. FDA advises pregnant people to avoid raw sprouts of any kind, including mung bean sprouts. This record contains 29 mcg dietary folate equivalents and 2.03 g protein per 100 g of boiled sprouted mung beans in PregNut’s historical USDA-based dataset. It cannot show whether your own dish reached steaming hot.",
+    "claims": [
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/foodsafety/communication/sprouts.html"
+        "text": "CDC lists raw or undercooked sprouts, including bean sprouts, as a riskier choice during pregnancy and names sprouts cooked until steaming hot as the safer choice.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "FDA advises pregnant people to avoid raw sprouts of any kind, including mung bean sprouts.",
+        "source": {
+          "name": "FDA: produce for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 29 mcg dietary folate equivalents and 2.03 g protein per 100 g of boiled sprouted mung beans in PregNut’s historical USDA-based dataset. It cannot show whether your own dish reached steaming hot.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: produce for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -4872,16 +4928,55 @@
     ]
   },
   "15151": {
-    "verdict": "Recommended",
-    "explanation": "Cooked shrimp is recommended during pregnancy as an FDA Best Choice seafood. It is one of the most widely consumed low-mercury shellfish, supplying complete protein, choline, and iodine. The FDA advises cooking raw shrimp until the flesh becomes pearly and opaque and the shells turn pink. Pregnant women can safely enjoy two to three four-ounce servings of cooked shrimp each week.",
+    "verdict": "Safe when cooked",
+    "explanation": "FDA lists shrimp as a Best Choice. For pregnancy, FDA advises 2 to 3 servings of 4 ounces a week from the Best Choices list in total, not that amount of shrimp on top of other fish. FDA says the flesh of cooked shrimp should be opaque (milky white). CDC lists raw or undercooked shellfish, including in sushi and ceviche, as a riskier choice during pregnancy. This record contains 22.78 g protein and 135.4 mg choline per 100 g of cooked shrimp in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
+      {
+        "text": "FDA lists shrimp as a Best Choice. For pregnancy, FDA advises 2 to 3 servings of 4 ounces a week from the Best Choices list in total, not that amount of shrimp on top of other fish.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "FDA says the flesh of cooked shrimp should be opaque (milky white).",
+        "source": {
+          "name": "FDA: seafood for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists raw or undercooked shellfish, including in sushi and ceviche, as a riskier choice during pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record contains 22.78 g protein and 135.4 mg choline per 100 g of cooked shrimp in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA",
+        "name": "FDA: advice about eating fish",
         "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "FDA: seafood for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -7505,15 +7600,50 @@
   },
   "19095": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercial vanilla ice cream is safe with precautions during pregnancy when consumed in measured servings. Packaged store-bought ice creams utilize pasteurized ingredients that are completely safe from Salmonella and Listeria. While it supplies bone-building calcium, ice cream is calorie-dense and rich in added sugars. Measure a single half-cup serving to satisfy sweet cravings while maintaining balanced nutrition.",
-    "sources": [
+    "explanation": "FDA lists homemade ice cream among foods that may contain raw or lightly cooked eggs and says store-bought versions are often already cooked or pasteurized. FDA also advises making sure dairy products are made with pasteurized milk and keeping milk products refrigerated at 40°F or below. CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so a pasteurized label is not a guarantee. This record contains 128 mg calcium per 100 g of vanilla ice cream in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "FDA Safe Eats",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+        "text": "FDA lists homemade ice cream among foods that may contain raw or lightly cooked eggs and says store-bought versions are often already cooked or pasteurized.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "FDA also advises making sure dairy products are made with pasteurized milk and keeping milk products refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so a pasteurized label is not a guarantee.",
+        "source": {
+          "name": "CDC: how Listeria spreads",
+          "url": "https://www.cdc.gov/listeria/causes/index.html"
+        }
+      },
+      {
+        "text": "This record contains 128 mg calcium per 100 g of vanilla ice cream in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: how Listeria spreads",
+        "url": "https://www.cdc.gov/listeria/causes/index.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -10431,15 +10561,43 @@
   },
   "43015": {
     "verdict": "Safe with precautions",
-    "explanation": "Regular Caesar dressing is safe with precautions during pregnancy when commercially prepared and bottled. Commercial dressings are formulated with pasteurized egg yolks and high acidity, making them completely safe from Salmonella. The FDA warns against homemade Caesar dressing made with raw shell eggs unless certified pasteurized eggs are used. Enjoy a measured portion on crisp garden salads.",
+    "explanation": "CDC lists foods made with raw or undercooked eggs, including Caesar salad dressing, as a riskier choice during pregnancy, and names pasteurized eggs as the safer choice in dressings that will not be cooked. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and advises avoiding homemade or fresh-made Caesar dressing made with raw eggs. For a restaurant or homemade Caesar, ask whether the dressing was made with pasteurized eggs. The nutrient values on this page describe a reference product per 100 g, not a particular bottle or a serving recommendation.",
+    "claims": [
+      {
+        "text": "CDC lists foods made with raw or undercooked eggs, including Caesar salad dressing, as a riskier choice during pregnancy, and names pasteurized eggs as the safer choice in dressings that will not be cooked.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and advises avoiding homemade or fresh-made Caesar dressing made with raw eggs.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "For a restaurant or homemade Caesar, ask whether the dressing was made with pasteurized eggs. The nutrient values on this page describe a reference product per 100 g, not a particular bottle or a serving recommendation.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -15065,15 +15223,39 @@
   },
   "04639": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercial ranch dressing is safe with precautions during pregnancy because the dairy and egg ingredients are pasteurized. Store-bought bottled ranch poses no risk of Listeria or Salmonella due to pasteurization and acidic preservation. While microbiologically safe, ranch dressing is dense in calories, sodium, and saturated fats. Measure two tablespoons to serve as a dip with raw baby carrots, celery, and bell peppers.",
+    "explanation": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy. FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch. This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation.",
+    "claims": [
+      {
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },

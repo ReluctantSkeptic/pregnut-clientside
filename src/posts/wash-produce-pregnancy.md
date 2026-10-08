@@ -1,5 +1,6 @@
 ---
 title: "Washing Fruits and Vegetables During Pregnancy"
+seoTitle: "How to Wash Fruits and Vegetables When Pregnant"
 description: How to wash fresh produce, handle pre-washed salad greens, and store cut melon during pregnancy, using CDC and FDA food-safety guidance.
 layout: post.njk
 permalink: /blog/wash-produce-pregnancy/index.html

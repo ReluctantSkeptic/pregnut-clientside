@@ -1,5 +1,6 @@
 ---
 title: "Pregnancy Food Safety: What to Check Before You Eat"
+seoTitle: "Pregnancy Food Safety: What to Check Before Eating"
 description: A quick guide to pasteurization, cooking, storage, and fish choices during pregnancy, with links to detailed food guides and current CDC and FDA advice.
 layout: post.njk
 permalink: /blog/food-safety-pregnancy/index.html
@@ -16,14 +17,14 @@ dateModified: 2026-09-26
 ## Start with three checks
 
 1. **Was it pasteurized?** Choose pasteurized milk and juice, and check the milk used in cheese. An unheated queso fresco-type cheese needs extra caution even when its milk was pasteurized. Read the details for [milk and yogurt](/blog/raw-milk-pregnancy/), [soft cheese](/blog/soft-cheese-pregnancy/), and [juice or cider](/blog/juice-pasteurization-pregnancy/).
-2. **Was it cooked or reheated as needed?** CDC lists raw or undercooked meat, eggs, and seafood among riskier choices. It advises heating deli meats, cold cuts, hot dogs, and dry sausages to **165°F or until steaming hot**. Check the specific food in our guides to [eggs](/blog/eggs-during-pregnancy/), [deli meat](/blog/deli-meat-pregnancy/), and [refrigerated smoked salmon or lox](/blog/smoked-salmon-pregnancy/).
+2. **Was it cooked or reheated as needed?** CDC lists raw or undercooked meat, eggs, and seafood among riskier choices. It advises heating deli meats, cold cuts, hot dogs, and dry sausages to **165°F or until steaming hot**. Check the specific food in our guides to [eggs](/blog/eggs-during-pregnancy/), [deli meat](/blog/deli-meat-pregnancy/), [hot dogs](/blog/hot-dogs-pregnancy/), [steak and burgers](/blog/medium-rare-steak-pregnancy/), and [refrigerated smoked salmon or lox](/blog/smoked-salmon-pregnancy/).
 3. **Was it washed and stored safely?** Wash fresh produce under running water before preparing or eating it; raw seed sprouts need cooking until steaming hot rather than washing alone. Refrigerate perishable foods promptly and check the storage time for [leftovers](/blog/leftovers-pregnancy/). See our guides to [fresh produce](/blog/wash-produce-pregnancy/) and [sprouts](/blog/sprouts-during-pregnancy/).
 
 These checks are a way to find the relevant guidance, not a guarantee that a particular food is safe. For a specific product, follow its label, current recall information, and advice from your prenatal care team.
 
 ## Fish has two separate questions
 
-Cooking helps address germs; it **does not remove mercury**. FDA and EPA recommend **two to three 4-ounce adult servings a week** from their *Best Choices* lower-mercury fish list, or one serving from the *Good Choices* list and no other fish that week. Use the current [FDA/EPA species chart](https://www.fda.gov/food/consumers/advice-about-eating-fish), then see our [lower-mercury fish guide](/blog/low-mercury-fish-pregnancy/) for examples. Raw fish and refrigerated smoked seafood also have preparation concerns, even if the species is lower in mercury.
+Cooking helps address germs; it **does not remove mercury**. FDA and EPA recommend **two to three 4-ounce adult servings a week** from their *Best Choices* lower-mercury fish list, or one serving from the *Good Choices* list and no other fish that week. Use the current [FDA/EPA species chart](https://www.fda.gov/food/consumers/advice-about-eating-fish), then see our [lower-mercury fish guide](/blog/low-mercury-fish-pregnancy/) for examples. Raw fish and refrigerated smoked seafood also have preparation concerns, even if the species is lower in mercury. See our guides to [sushi](/blog/sushi-pregnancy/), [shrimp](/blog/shrimp-pregnancy/), and [oysters](/blog/oysters-pregnancy/).
 
 ## What if I already ate something on a riskier-choice list?
 

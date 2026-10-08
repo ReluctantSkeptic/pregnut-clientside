@@ -1,6 +1,6 @@
 ---
 title: "Smoked Salmon During Pregnancy: Lox, Canned, and Cooked Options"
-seoTitle: "Smoked Salmon During Pregnancy: Lox and Safer Options"
+seoTitle: "Smoked Salmon While Pregnant: Lox vs Cooked"
 description: "Compare refrigerated lox and smoked salmon with shelf-stable or thoroughly cooked options, using current CDC and FDA pregnancy guidance."
 layout: post.njk
 permalink: /blog/smoked-salmon-pregnancy/index.html

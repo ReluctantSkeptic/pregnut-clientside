@@ -1,5 +1,6 @@
 ---
 title: "Ginger Tea or Capsules for Pregnancy Nausea?"
+seoTitle: "Ginger for Pregnancy Nausea: Tea, Chews, Capsules"
 description: "What the evidence says about ginger tea, candies, and capsules for pregnancy nausea, and when to ask for medical treatment."
 layout: post.njk
 permalink: /blog/ginger-tea-capsules-pregnancy-nausea/index.html
@@ -28,7 +29,7 @@ These are ways to think about the forms, not a treatment dose or a ranking of wh
 
 ## Is a ginger supplement safe during pregnancy?
 
-[NIH says ginger supplements during pregnancy **may be safe**](https://www.nccih.nih.gov/health/ginger), but recommends discussing any herbal supplement with a health care provider. Ginger can cause heartburn, diarrhea, or stomach discomfort, and herbs can interact with medicines. Tell your prenatal care team about the specific product and any medicines you take. Do not assume that a stronger capsule is better because ginger appears in food.
+[NIH says ginger supplements during pregnancy **may be safe**](https://www.nccih.nih.gov/health/ginger), but recommends discussing any herbal supplement with a health care provider. Ginger can cause heartburn, diarrhea, or stomach discomfort, and herbs can interact with medicines. If heartburn is already a problem, see our [pregnancy heartburn meal guide](/blog/heartburn-foods-pregnancy/). Tell your prenatal care team about the specific product and any medicines you take. Do not assume that a stronger capsule is better because ginger appears in food.
 
 PregNut's [food lookup](/food/) reports selected nutrients per 100 grams. It does **not** measure the active ingredients in ginger tea, candies, or supplements and cannot be used to choose a nausea dose.
 

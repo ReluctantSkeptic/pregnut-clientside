@@ -770,16 +770,55 @@
     ]
   },
   "15151": {
-    "verdict": "Recommended",
-    "explanation": "Cooked shrimp is recommended during pregnancy as an FDA Best Choice seafood. It is one of the most widely consumed low-mercury shellfish, supplying complete protein, choline, and iodine. The FDA advises cooking raw shrimp until the flesh becomes pearly and opaque and the shells turn pink. Pregnant women can safely enjoy two to three four-ounce servings of cooked shrimp each week.",
+    "verdict": "Safe when cooked",
+    "explanation": "FDA lists shrimp as a Best Choice. For pregnancy, FDA advises 2 to 3 servings of 4 ounces a week from the Best Choices list in total, not that amount of shrimp on top of other fish. FDA says the flesh of cooked shrimp should be opaque (milky white). CDC lists raw or undercooked shellfish, including in sushi and ceviche, as a riskier choice during pregnancy. This record contains 22.78 g protein and 135.4 mg choline per 100 g of cooked shrimp in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
+      {
+        "text": "FDA lists shrimp as a Best Choice. For pregnancy, FDA advises 2 to 3 servings of 4 ounces a week from the Best Choices list in total, not that amount of shrimp on top of other fish.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "FDA says the flesh of cooked shrimp should be opaque (milky white).",
+        "source": {
+          "name": "FDA: seafood for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists raw or undercooked shellfish, including in sushi and ceviche, as a riskier choice during pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record contains 22.78 g protein and 135.4 mg choline per 100 g of cooked shrimp in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA",
+        "name": "FDA: advice about eating fish",
         "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "FDA: seafood for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
