@@ -855,15 +855,43 @@
   },
   "06027": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned Manhattan clam chowder is safe with precautions during pregnancy when heated until steaming hot. Commercial canning cooks clams thoroughly, eliminating bacterial and parasitic risks associated with raw shellfish. Clams supply remarkable amounts of bioavailable iron, vitamin B12, and lean protein in a tomato base. Heat the chowder to 165°F before serving and enjoy with whole-wheat crackers.",
-    "sources": [
+    "explanation": "This record contains 3.3 mcg vitamin B12 and 1.1 mg iron per 100 g of canned Manhattan clam chowder in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists raw or undercooked shellfish as a riskier choice during pregnancy and canned fish and seafood as a safer choice. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+    "claims": [
       {
-        "name": "FDA Safe Eats",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+        "text": "This record contains 3.3 mcg vitamin B12 and 1.1 mg iron per 100 g of canned Manhattan clam chowder in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA Food Safety",
-        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "text": "CDC lists raw or undercooked shellfish as a riskier choice during pregnancy and canned fish and seafood as a safer choice.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
       }
     ]
   },

@@ -169,15 +169,43 @@
   },
   "11056": {
     "verdict": "Recommended",
-    "explanation": "Canned green snap beans are a safe and convenient vegetable option during pregnancy. They deliver gentle dietary fiber, potassium, and vitamins A and C to help meet your daily vegetable targets. The canning heat process eliminates foodborne microorganisms, but check the nutrition panel for sodium content and rinse well. Warm them gently with garlic powder and black pepper as an effortless meal accompaniment.",
-    "sources": [
+    "explanation": "This record contains 24 mcg dietary folate equivalents, 37 mg calcium and 0.89 mg iron per 100 g of canned green beans in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening. The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 24 mcg dietary folate equivalents, 37 mg calcium and 0.89 mg iron per 100 g of canned green beans in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -211,15 +239,43 @@
   },
   "11084": {
     "verdict": "Recommended",
-    "explanation": "Canned beets are safe and recommended for pregnant individuals. They retain high levels of folate, potassium, and dietary fiber while providing a ready-to-eat vegetable source. The commercial canning heat destroys all foodborne bacteria, making them completely safe right out of the can. Drain and rinse sliced canned beets before tossing them into leafy salads or grain bowls.",
-    "sources": [
+    "explanation": "This record contains 30 mcg dietary folate equivalents, 148 mg potassium and 1.82 mg iron per 100 g of canned beets in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening. The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 30 mcg dietary folate equivalents, 148 mg potassium and 1.82 mg iron per 100 g of canned beets in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -379,15 +435,43 @@
   },
   "11110": {
     "verdict": "Recommended",
-    "explanation": "Boiled cabbage is highly recommended during pregnancy. It provides gentle dietary fiber, folate, vitamin C, and potassium that support hydration and digestive regularity without stressing the stomach. Boiling wedges of cabbage until tender eliminates any foodborne pathogens and significantly reduces intestinal bloating. Add boiled cabbage to vegetable soups or serve it alongside lean protein with a sprinkle of caraway seeds.",
-    "sources": [
+    "explanation": "This record contains 37.5 mg vitamin C, 30 mcg dietary folate equivalents and 196 mg potassium per 100 g of boiled cabbage in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH lists vegetables, especially dark green leafy vegetables, among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 37.5 mg vitamin C, 30 mcg dietary folate equivalents and 196 mg potassium per 100 g of boiled cabbage in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "NIH lists vegetables, especially dark green leafy vegetables, among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -491,29 +575,85 @@
   },
   "11125": {
     "verdict": "Recommended",
-    "explanation": "Boiled carrots are highly recommended throughout pregnancy. They provide abundant beta-carotene, potassium, and soluble fiber to support fetal vision development and maternal digestion. Cooking carrots softens their cell walls, enhancing the bioavailability of carotenoids while eliminating any foodborne bacteria. Toss tender boiled carrots with a teaspoon of olive oil, as dietary fat helps your body absorb fat-soluble beta-carotene.",
-    "sources": [
+    "explanation": "This record contains 235 mg potassium and 0.15 mg vitamin B6 per 100 g of boiled carrots in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 235 mg potassium and 0.15 mg vitamin B6 per 100 g of boiled carrots in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
   "11128": {
     "verdict": "Recommended",
-    "explanation": "Canned carrots are safe, convenient, and recommended during pregnancy. They offer high amounts of beta-carotene, potassium, and dietary fiber to meet maternal vegetable goals. Heat processing during commercial canning eliminates microbial pathogens, though selecting low-sodium cans is wise. Drain and warm the carrots in vegetable soups or mash them with sweet potatoes for a silky side dish.",
-    "sources": [
+    "explanation": "This record contains 179 mg potassium and 0.64 mg iron per 100 g of canned carrots in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening. The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 179 mg potassium and 0.64 mg iron per 100 g of canned carrots in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },

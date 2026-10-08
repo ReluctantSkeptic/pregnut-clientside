@@ -15,15 +15,43 @@
   },
   "11438": {
     "verdict": "Recommended",
-    "explanation": "Boiled salsify is safe and recommended during pregnancy. It provides substantial prebiotic inulin fiber, potassium, iron, and vitamin C that support maternal gut health and red blood cell production. Boiling peeled salsify roots until fork-tender eliminates soil microbes and softens their fibrous texture. Serve boiled salsify warm with olive oil and fresh parsley or blend into a creamy root vegetable soup.",
-    "sources": [
+    "explanation": "This record contains 283 mg potassium and 2.73 g protein per 100 g of boiled salsify in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 283 mg potassium and 2.73 g protein per 100 g of boiled salsify in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -98,16 +126,44 @@
     ]
   },
   "11453": {
-    "verdict": "Recommended",
-    "explanation": "Steamed sprouted soybeans are safe and strongly recommended during pregnancy. They provide complete plant protein, dietary fiber, iron, calcium, and choline to support maternal red blood cells and fetal brain growth. CDC confirms that steaming or cooking sprouts until steaming hot completely eliminates the risk of Salmonella and Listeria. Enjoy warm steamed soybean sprouts seasoned with sesame oil and garlic as a nutritious side dish.",
-    "sources": [
+    "verdict": "Safe when cooked",
+    "explanation": "This record contains 8.47 g protein, 80 mcg dietary folate equivalents and 41.2 mg choline per 100 g of steamed sprouted soybeans in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists raw or undercooked sprouts as a riskier choice during pregnancy and names sprouts cooked until steaming hot as the safer choice. FDA advises avoiding raw sprouts of any kind and says cooking sprouts thoroughly significantly reduces the risk of illness.",
+    "claims": [
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/foodsafety/communication/sprouts.html"
+        "text": "This record contains 8.47 g protein, 80 mcg dietary folate equivalents and 41.2 mg choline per 100 g of steamed sprouted soybeans in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "CDC lists raw or undercooked sprouts as a riskier choice during pregnancy and names sprouts cooked until steaming hot as the safer choice.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA advises avoiding raw sprouts of any kind and says cooking sprouts thoroughly significantly reduces the risk of illness.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
       }
     ]
   },
@@ -127,29 +183,107 @@
   },
   "11458": {
     "verdict": "Recommended",
-    "explanation": "Boiled spinach is exceptionally nutritious and highly recommended throughout pregnancy. It delivers concentrated folate, non-heme iron, calcium, and lutein to support fetal neural tube development and maternal blood expansion. Boiling spinach reduces natural oxalic acid, which improves the absorption of iron and calcium while eliminating any surface microbes. Season boiled spinach with olive oil and lemon juice, as vitamin C enhances plant iron absorption.",
-    "sources": [
+    "explanation": "This record contains 146 mcg dietary folate equivalents, 3.57 mg iron and 136 mg calcium per 100 g of boiled spinach in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH says spinach is among the foods with the highest folate levels. NIH also notes that spinach iron is less well absorbed because of compounds such as polyphenols, and that vitamin C (ascorbic acid) can improve absorption of plant iron. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "This record contains 146 mcg dietary folate equivalents, 3.57 mg iron and 136 mg calcium per 100 g of boiled spinach in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "NIH says spinach is among the foods with the highest folate levels.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "NIH also notes that spinach iron is less well absorbed because of compounds such as polyphenols, and that vitamin C (ascorbic acid) can improve absorption of plant iron.",
+        "source": {
+          "name": "NIH: iron sources and absorption",
+          "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "NIH: iron sources and absorption",
+        "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
   "11461": {
     "verdict": "Recommended",
-    "explanation": "Canned spinach is safe, convenient, and recommended for pregnancy nutrition. It provides substantial dietary folate, iron, and magnesium to help prevent maternal anemia and fatigue. The commercial canning process heat-sterilizes the greens, making them completely safe from foodborne pathogens right from the can. Drain and warm canned spinach with a dash of vinegar and black pepper as a quick side for dinner.",
-    "sources": [
+    "explanation": "This record contains 98 mcg dietary folate equivalents, 2.3 mg iron and 127 mg calcium per 100 g of canned spinach in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH says spinach is among the foods with the highest folate levels. NIH also notes that spinach has lower iron bioavailability because it contains absorption inhibitors such as polyphenols. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 98 mcg dietary folate equivalents, 2.3 mg iron and 127 mg calcium per 100 g of canned spinach in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "NIH says spinach is among the foods with the highest folate levels.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "NIH also notes that spinach has lower iron bioavailability because it contains absorption inhibitors such as polyphenols.",
+        "source": {
+          "name": "NIH: iron sources and absorption",
+          "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "NIH: iron sources and absorption",
+        "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
       }
     ]
   },
@@ -183,15 +317,43 @@
   },
   "11478": {
     "verdict": "Recommended",
-    "explanation": "Boiled zucchini with skin is strongly recommended during pregnancy. Keeping the skin on supplies extra dietary fiber, lutein, and potassium to promote digestive comfort and cardiovascular wellness. Boiling zucchini until fork-tender eliminates any surface bacteria and creates a tender, easily digestible texture. Combine boiled zucchini rounds with garlic and olive oil as an easy, nutrient-dense vegetable side dish.",
-    "sources": [
+    "explanation": "This record contains 264 mg potassium and 12.9 mg vitamin C per 100 g of boiled zucchini with skin in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 264 mg potassium and 12.9 mg vitamin C per 100 g of boiled zucchini with skin in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -225,15 +387,43 @@
   },
   "11502": {
     "verdict": "Recommended",
-    "explanation": "Boiled succotash is safe and highly recommended during pregnancy. The classic combination of sweet corn and lima beans delivers complementary plant proteins, folate, dietary fiber, and iron to support expanded maternal blood volume. Boiling the mixture thoroughly ensures that lima bean antinutrients are eliminated and all ingredients are microbiologically safe. Serve warm boiled succotash as a colorful, fiber-rich side dish alongside grilled fish or roasted poultry.",
-    "sources": [
+    "explanation": "This record contains 4.31 g protein, 33 mcg dietary folate equivalents and 265 mg potassium per 100 g of boiled succotash in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH lists beans and peas among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 4.31 g protein, 33 mcg dietary folate equivalents and 265 mg potassium per 100 g of boiled succotash in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "NIH lists beans and peas among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -309,15 +499,43 @@
   },
   "11530": {
     "verdict": "Recommended",
-    "explanation": "Cooked ripe red tomatoes are highly recommended for prenatal diets. Cooking releases concentrated lycopene, potassium, and vitamin C to bolster maternal cellular health and immune defense. The heat of cooking eliminates any lingering surface microbes, making cooked tomatoes exceptionally safe. Simmer cooked tomatoes into stews, ratatouille, or warm grain bowls for an antioxidant-rich meal.",
-    "sources": [
+    "explanation": "This record contains 22.8 mg vitamin C and 218 mg potassium per 100 g of cooked red tomatoes in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 22.8 mg vitamin C and 218 mg potassium per 100 g of cooked red tomatoes in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -393,15 +611,43 @@
   },
   "11565": {
     "verdict": "Recommended",
-    "explanation": "Boiled turnips are safe and highly recommended for expectant mothers. They offer gentle dietary fiber, vitamin C, potassium, and calcium that support maternal immune function and digestive regularity. Boiling peeled turnip cubes until tender eliminates soil bacteria and mellows their sharp mustard-like flavor. Mash boiled turnips with carrots or potatoes for a soothing, nutrient-dense side dish.",
-    "sources": [
+    "explanation": "This record contains 11.6 mg vitamin C, 33 mg calcium and 177 mg potassium per 100 g of boiled turnips in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 11.6 mg vitamin C, 33 mg calcium and 177 mg potassium per 100 g of boiled turnips in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -421,15 +667,43 @@
   },
   "11569": {
     "verdict": "Recommended",
-    "explanation": "Boiled turnip greens are exceptionally nutritious and strongly recommended throughout pregnancy. They are an outstanding source of bioavailable plant calcium, folate, iron, and vitamin A to support fetal bone formation and maternal red blood cell counts. Simmering the greens in water reduces natural bitterness and eliminates any agricultural bacteria. Drain the boiled greens and toss them with olive oil, garlic, and vinegar to enhance mineral absorption.",
-    "sources": [
+    "explanation": "This record contains 137 mg calcium, 118 mcg dietary folate equivalents and 27.4 mg vitamin C per 100 g of boiled turnip greens in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH lists vegetables, especially dark green leafy vegetables, among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 137 mg calcium, 118 mcg dietary folate equivalents and 27.4 mg vitamin C per 100 g of boiled turnip greens in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "NIH lists vegetables, especially dark green leafy vegetables, among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -463,29 +737,85 @@
   },
   "11581": {
     "verdict": "Recommended",
-    "explanation": "Canned mixed vegetables are safe, affordable, and recommended during pregnancy. They provide a colorful blend of dietary fiber, beta-carotene, potassium, and B vitamins to help meet daily vegetable targets. High-heat canning eliminates food safety concerns, but selecting low-sodium cans is wise for cardiovascular health. Warm the drained vegetables with a teaspoon of olive oil and herbs as a simple dinner accompaniment.",
-    "sources": [
+    "explanation": "This record contains 291 mg potassium, 2.59 g protein and 24 mcg dietary folate equivalents per 100 g of canned mixed vegetables in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening. The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 291 mg potassium, 2.59 g protein and 24 mcg dietary folate equivalents per 100 g of canned mixed vegetables in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
   "11590": {
     "verdict": "Recommended",
-    "explanation": "Canned Chinese water chestnuts are safe and recommended for pregnant individuals. They provide dietary fiber, potassium, and B vitamins while adding a crisp, refreshing crunch to meals. High-heat commercial canning eliminates any risk of aquatic parasites that can contaminate raw water chestnuts. Drain, rinse, and toss sliced water chestnuts into warm vegetable stir-fries or noodle dishes.",
-    "sources": [
+    "explanation": "This record contains 118 mg potassium and 0.87 mg iron per 100 g of canned water chestnuts in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening. The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+    "claims": [
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "This record contains 118 mg potassium and 0.87 mg iron per 100 g of canned water chestnuts in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "CDC notes that store-bought foods, though uncommonly, can be contaminated with botulinum toxin, and says not to eat canned food if the food or its container shows signs of contamination and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day, and this dataset does not list sodium, so compare the Nutrition Facts label or choose a low-sodium can.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -505,15 +835,43 @@
   },
   "11594": {
     "verdict": "Recommended",
-    "explanation": "Boiled waxgourd is safe and highly recommended during pregnancy. It provides gentle dietary fiber, potassium, and vitamin C with very few calories and high water content to aid maternal hydration. Boiling peeled waxgourd in soups until translucent eliminates any agricultural bacteria and makes it very soothing on the stomach. Simmer waxgourd with ginger and lean poultry broth for a traditional, comforting prenatal soup.",
-    "sources": [
+    "explanation": "This record contains 10.5 mg vitamin C and 14 calories per 100 g of boiled waxgourd in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 10.5 mg vitamin C and 14 calories per 100 g of boiled waxgourd in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -771,15 +1129,43 @@
   },
   "43387": {
     "verdict": "Recommended",
-    "explanation": "Canned turnip greens are safe, convenient, and recommended during pregnancy. They deliver valuable calcium, folate, and iron to help expectant mothers meet elevated daily nutrient requirements. Commercial heat canning eliminates all foodborne microorganisms, though rinsing the greens helps reduce added sodium. Heat drained canned greens on the stove with black pepper and serve alongside brown rice and lean protein.",
-    "sources": [
+    "explanation": "This record contains 118 mg calcium, 92 mcg dietary folate equivalents and 1.51 mg iron per 100 g of canned turnip greens in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH lists vegetables, especially dark green leafy vegetables, among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 118 mg calcium, 92 mcg dietary folate equivalents and 1.51 mg iron per 100 g of canned turnip greens in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "NIH lists vegetables, especially dark green leafy vegetables, among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
       }
     ]
   }

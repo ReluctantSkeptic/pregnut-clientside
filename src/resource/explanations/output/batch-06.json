@@ -491,15 +491,43 @@
   },
   "01033": {
     "verdict": "Recommended",
-    "explanation": "Hard Parmesan cheese is recommended during pregnancy as an exceptional source of calcium and dairy protein. Because hard Parmesan undergoes extensive aging and has extremely low water content, Listeria bacteria cannot survive in it. The FDA and NHS confirm that hard cheeses like Parmesan are completely safe during pregnancy whether pasteurized or unpasteurized. Grate generously over warm soups, roasted vegetables, or whole-wheat pasta.",
-    "sources": [
+    "explanation": "This record contains 1184 mg calcium and 35.75 g protein per 100 g of hard Parmesan in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists hard cheese made with pasteurized milk, including Parmesan, as a safer choice during pregnancy. CDC also advises people at higher risk of Listeria infection, including pregnant people, to avoid any type of cheese made with unpasteurized (raw) milk unless it is heated to 165°F or until steaming hot, so check the label for pasteurized milk.",
+    "claims": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        "text": "This record contains 1184 mg calcium and 35.75 g protein per 100 g of hard Parmesan in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "NHS Foods to Avoid in Pregnancy",
-        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+        "text": "CDC lists hard cheese made with pasteurized milk, including Parmesan, as a safer choice during pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "CDC also advises people at higher risk of Listeria infection, including pregnant people, to avoid any type of cheese made with unpasteurized (raw) milk unless it is heated to 165°F or until steaming hot, so check the label for pasteurized milk.",
+        "source": {
+          "name": "CDC: preventing Listeria infection",
+          "url": "https://www.cdc.gov/listeria/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: preventing Listeria infection",
+        "url": "https://www.cdc.gov/listeria/prevention/index.html"
       }
     ]
   },
@@ -617,15 +645,54 @@
   },
   "01054": {
     "verdict": "Safe with precautions",
-    "explanation": "Pressurized whipped cream topping is safe with precautions during pregnancy when consumed in moderation. Commercial aerosol whipped creams are pasteurized and sealed, making them completely safe from foodborne contaminants. While safe microbiologically, whipped cream contains added sugars and saturated fats with modest micronutrient density. Use a light swirl as an occasional accent over fresh strawberries or fruit salads.",
-    "sources": [
+    "explanation": "This record contains 257 calories and 101 mg calcium per 100 g of pressurized whipped cream topping in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists pasteurized milk and dairy products made from pasteurized milk as the safer choice during pregnancy, and raw-milk dairy products as riskier. CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so a pasteurized label is not a guarantee. FDA advises keeping the refrigerator at 40°F or below, where Listeria grows more slowly.",
+    "claims": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        "text": "This record contains 257 calories and 101 mg calcium per 100 g of pressurized whipped cream topping in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "CDC lists pasteurized milk and dairy products made from pasteurized milk as the safer choice during pregnancy, and raw-milk dairy products as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so a pasteurized label is not a guarantee.",
+        "source": {
+          "name": "CDC: how Listeria spreads",
+          "url": "https://www.cdc.gov/listeria/causes/index.html"
+        }
+      },
+      {
+        "text": "FDA advises keeping the refrigerator at 40°F or below, where Listeria grows more slowly.",
+        "source": {
+          "name": "FDA: ready-to-eat foods for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: how Listeria spreads",
+        "url": "https://www.cdc.gov/listeria/causes/index.html"
+      },
+      {
+        "name": "FDA: ready-to-eat foods for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
       }
     ]
   },

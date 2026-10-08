@@ -141,15 +141,43 @@
   },
   "11301": {
     "verdict": "Recommended",
-    "explanation": "Boiled edible-podded peas are strongly recommended during pregnancy. They provide excellent dietary fiber, vitamin C, folate, and iron to support immune function and blood health. Boiling or steaming the pods for two to three minutes keeps them tender-crisp while ensuring any surface microbes are eliminated. Toss boiled pea pods with sesame oil and toasted sesame seeds for a crunchy, colorful side.",
-    "sources": [
+    "explanation": "This record contains 47.9 mg vitamin C, 29 mcg dietary folate equivalents and 1.97 mg iron per 100 g of boiled snow peas in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH lists beans and peas among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 47.9 mg vitamin C, 29 mcg dietary folate equivalents and 1.97 mg iron per 100 g of boiled snow peas in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "NIH lists beans and peas among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -169,15 +197,43 @@
   },
   "11305": {
     "verdict": "Recommended",
-    "explanation": "Boiled green peas are highly recommended throughout pregnancy. They are an outstanding source of plant protein, dietary fiber, folate, iron, and thiamin to help meet heightened prenatal metabolic demands. Simmering green peas until tender makes their starches easy to digest and eliminates food safety risks. Stir boiled peas into vegetable risottos, whole-grain pasta, or creamy pureed soups.",
-    "sources": [
+    "explanation": "This record contains 63 mcg dietary folate equivalents, 5.36 g protein and 1.54 mg iron per 100 g of boiled green peas in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH lists beans and peas among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 63 mcg dietary folate equivalents, 5.36 g protein and 1.54 mg iron per 100 g of boiled green peas in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "NIH lists beans and peas among natural food sources of folate; food folate does not replace folic acid guidance or an individualized prenatal plan.",
+        "source": {
+          "name": "NIH: folate sources",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH: folate sources",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -239,15 +295,43 @@
   },
   "11334": {
     "verdict": "Recommended",
-    "explanation": "Boiled green sweet bell peppers are highly recommended during pregnancy. They provide dietary folate, vitamin C, potassium, and fiber that support maternal hydration and fetal tissue formation. Boiling or stewing bell peppers softens their skins, improving digestibility and completely eliminating food safety concerns. Incorporate tender boiled green peppers into fajita bowls, tomato sauces, or stuffed pepper casseroles.",
-    "sources": [
+    "explanation": "This record contains 74.4 mg vitamin C and 166 mg potassium per 100 g of boiled green bell peppers in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 74.4 mg vitamin C and 166 mg potassium per 100 g of boiled green bell peppers in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -309,15 +393,43 @@
   },
   "11363": {
     "verdict": "Recommended",
-    "explanation": "Baked potato flesh is strongly recommended throughout pregnancy. It delivers excellent amounts of potassium, vitamin B6, vitamin C, and easily digestible complex carbohydrates to maintain maternal energy and manage nausea. Baking the potato thoroughly until steaming hot eliminates all bacterial concerns. Top baked potato flesh with plain pasteurized Greek yogurt and chopped chives for a nourishing, comforting meal.",
-    "sources": [
+    "explanation": "This record contains 391 mg potassium, 0.3 mg vitamin B6 and 12.8 mg vitamin C per 100 g of baked potato flesh in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest. CDC also lists foil-wrapped baked potatoes as a botulism source and advises keeping them at 140°F or hotter until served, or refrigerating them at 40°F or colder with the foil loosened.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 391 mg potassium, 0.3 mg vitamin B6 and 12.8 mg vitamin C per 100 g of baked potato flesh in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "CDC also lists foil-wrapped baked potatoes as a botulism source and advises keeping them at 140°F or hotter until served, or refrigerating them at 40°F or colder with the foil loosened.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
       }
     ]
   },
@@ -533,15 +645,43 @@
   },
   "11436": {
     "verdict": "Recommended",
-    "explanation": "Boiled rutabagas are strongly recommended for pregnancy nutrition. They are an excellent source of vitamin C, potassium, calcium, and dietary fiber that support maternal immune function and regularity. Boiling peeled rutabaga cubes until fork-tender eliminates food safety concerns and softens their firm, sweet flesh. Mash boiled rutabagas with carrots or potatoes and a dash of nutmeg for a hearty, comforting side dish.",
-    "sources": [
+    "explanation": "This record contains 18.8 mg vitamin C, 216 mg potassium and 18 mg calcium per 100 g of boiled rutabaga in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 18.8 mg vitamin C, 216 mg potassium and 18 mg calcium per 100 g of boiled rutabaga in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
@@ -687,15 +827,43 @@
   },
   "11831": {
     "verdict": "Recommended",
-    "explanation": "Boiled potatoes cooked in their skin are strongly recommended during pregnancy. Boiling with the skin intact helps retain valuable potassium, vitamin C, and B vitamins in the flesh. The boiling process reaches high temperatures that completely eliminate any foodborne pathogens. Peel the skin after boiling or cube the flesh into a warm potato salad dressed with olive oil and fresh herbs.",
-    "sources": [
+    "explanation": "This record contains 379 mg potassium, 0.29 mg vitamin B6 and 13 mg vitamin C per 100 g of boiled potato flesh cooked in the skin in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas. CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "This record contains 379 mg potassium, 0.29 mg vitamin B6 and 13 mg vitamin C per 100 g of boiled potato flesh cooked in the skin in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "FDA advises rinsing raw vegetables under running water before preparing them, without soap, and cutting away bruised or damaged areas.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists washed produce as a safer choice during pregnancy and says washed-then-cooked produce is safest; that lowers risk but does not guarantee every germ is gone.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
   },
