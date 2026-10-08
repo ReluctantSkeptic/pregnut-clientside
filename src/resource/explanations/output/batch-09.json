@@ -295,15 +295,54 @@
   },
   "15141": {
     "verdict": "Recommended",
-    "explanation": "Canned blue crab is recommended during pregnancy as an FDA Best Choice seafood. It delivers bioavailable zinc, vitamin B12, and lean protein that support immune function and fetal tissue growth. Commercial canning subjects the meat to sterile high temperatures, eliminating bacterial risks like Listeria. Use canned crab meat to make baked crab cakes or folded into a vegetable omelet.",
+    "explanation": "This record contains 17.88 g protein, 3.81 mg zinc and 3.33 mcg vitamin B12 per 100 g of canned blue crab in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists canned fish and seafood as a safer choice during pregnancy. FDA lists crab as a Best Choice and advises 2 to 3 servings of 4 ounces a week from the Best Choices list in total during pregnancy. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+    "claims": [
+      {
+        "text": "This record contains 17.88 g protein, 3.81 mg zinc and 3.33 mcg vitamin B12 per 100 g of canned blue crab in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "CDC lists canned fish and seafood as a safer choice during pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA lists crab as a Best Choice and advises 2 to 3 servings of 4 ounces a week from the Best Choices list in total during pregnancy.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA",
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: advice about eating fish",
         "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
       }
     ]
   },
@@ -757,15 +796,54 @@
   },
   "15152": {
     "verdict": "Recommended",
-    "explanation": "Canned shrimp is recommended during pregnancy as an FDA Best Choice shellfish. It delivers lean protein, choline, and selenium while remaining consistently low in mercury. Commercial canning processes cook the shrimp thoroughly, eliminating foodborne pathogens like Salmonella and Listeria. Rinse canned shrimp under cold water to reduce surface sodium before tossing into grain bowls or salads.",
+    "explanation": "This record contains 20.42 g protein, 80.9 mg choline and 145 mg calcium per 100 g of canned shrimp in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists canned fish and seafood as a safer choice during pregnancy, and shrimp among fish lower in mercury. FDA lists shrimp as a Best Choice and advises 2 to 3 servings of 4 ounces a week from the Best Choices list in total during pregnancy. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+    "claims": [
+      {
+        "text": "This record contains 20.42 g protein, 80.9 mg choline and 145 mg calcium per 100 g of canned shrimp in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "CDC lists canned fish and seafood as a safer choice during pregnancy, and shrimp among fish lower in mercury.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA lists shrimp as a Best Choice and advises 2 to 3 servings of 4 ounces a week from the Best Choices list in total during pregnancy.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA",
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: advice about eating fish",
         "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
       }
     ]
   },

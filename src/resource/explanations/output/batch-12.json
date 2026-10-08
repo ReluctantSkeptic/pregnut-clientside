@@ -267,15 +267,43 @@
   },
   "16010": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned baked beans with pork and sweet sauce are safe during pregnancy when heated thoroughly. They deliver dietary fiber, potassium, and plant protein, though the pork and sauce add extra sodium and sugar. Commercial canning subjects the beans and pork to high heat sterilization, eliminating bacterial pathogens. Enjoy in moderate portions alongside fresh steamed vegetables.",
-    "sources": [
+    "explanation": "This record contains 4.52 g protein, 231 mg potassium and 1.4 mg iron per 100 g of canned baked beans with pork and sweet sauce in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines suggest no more than 10 grams of added sugars per meal and under 2,300 mg of sodium a day, so check the label on sweetened baked beans.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 4.52 g protein, 231 mg potassium and 1.4 mg iron per 100 g of canned baked beans with pork and sweet sauce in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines suggest no more than 10 grams of added sugars per meal and under 2,300 mg of sodium a day, so check the label on sweetened baked beans.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -309,15 +337,43 @@
   },
   "16316": {
     "verdict": "Recommended",
-    "explanation": "Low-sodium canned black beans are recommended during pregnancy as a fast and healthy meal foundation. They offer folate, plant protein, and dietary fiber without the excessive sodium found in standard canned goods. Because canning pre-cooks the beans at high heat, they are completely safe and ready to eat. Rinse under cold water before adding to salads, burritos, or soups.",
-    "sources": [
+    "explanation": "This record contains 61 mcg dietary folate equivalents, 6.03 g protein and 308 mg potassium per 100 g of low-sodium canned black beans in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. The Dietary Guidelines name folate-rich greens and legumes among the foods to eat during pregnancy. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 61 mcg dietary folate equivalents, 6.03 g protein and 308 mg potassium per 100 g of low-sodium canned black beans in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "text": "The Dietary Guidelines name folate-rich greens and legumes among the foods to eat during pregnancy.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      },
+      {
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
       }
     ]
   },

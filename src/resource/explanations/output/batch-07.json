@@ -1,15 +1,43 @@
 {
   "21024": {
     "verdict": "Limit",
-    "explanation": "French toast sticks should be limited during pregnancy because they are deep-fried and loaded with added sugars. The egg batter is safely cooked during frying, eliminating Salmonella concerns, but the fried bread delivers high calories with minimal micronutrients. Excessive intake of sugary breakfast pastries can worsen gestational glucose tolerance. Pair a single stick with scrambled eggs and fresh berries if you choose to indulge.",
-    "sources": [
+    "explanation": "This record contains 340 calories, 212 mcg dietary folate equivalents and 1.92 mg iron per 100 g of French toast sticks in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists egg dishes cooked to 160°F and flour foods cooked following the package directions as safer choices during pregnancy, so heat frozen sticks as the package directs. The Dietary Guidelines advise significantly reducing highly processed refined carbohydrates, including packaged breakfast options, and no more than 10 grams of added sugars per meal.",
+    "claims": [
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 340 calories, 212 mcg dietary folate equivalents and 1.92 mg iron per 100 g of French toast sticks in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "CDC Food Safety",
+        "text": "CDC lists egg dishes cooked to 160°F and flour foods cooked following the package directions as safer choices during pregnancy, so heat frozen sticks as the package directs.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise significantly reducing highly processed refined carbohydrates, including packaged breakfast options, and no more than 10 grams of added sugars per meal.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
         "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -141,15 +169,54 @@
   },
   "21299": {
     "verdict": "Safe with precautions",
-    "explanation": "Regular crust cheese pizza is safe with precautions during pregnancy when baked until the cheese is bubbling hot. It supplies dietary calcium, dairy protein, and folate from enriched crust flour to support fetal growth. High oven baking temperatures eliminate bacterial risks from soft or shredded cheeses. Allow the pizza to cool slightly before eating, and limit portion sizes to manage sodium intake.",
-    "sources": [
+    "explanation": "This record contains 188 mg calcium, 11.39 g protein and 129 mcg dietary folate equivalents per 100 g of regular-crust cheese pizza in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists mozzarella made with pasteurized milk as a safer choice during pregnancy, and pasteurized soft cheeses heated to 165°F or until steaming hot. CDC notes that Listeria is easily killed by heating food to a high enough temperature, so serve pizza hot. FDA advises refrigerating leftovers within two hours, or one hour above 90°F.",
+    "claims": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        "text": "This record contains 188 mg calcium, 11.39 g protein and 129 mcg dietary folate equivalents per 100 g of regular-crust cheese pizza in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "CDC lists mozzarella made with pasteurized milk as a safer choice during pregnancy, and pasteurized soft cheeses heated to 165°F or until steaming hot.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "CDC notes that Listeria is easily killed by heating food to a high enough temperature, so serve pizza hot.",
+        "source": {
+          "name": "CDC: how Listeria spreads",
+          "url": "https://www.cdc.gov/listeria/causes/index.html"
+        }
+      },
+      {
+        "text": "FDA advises refrigerating leftovers within two hours, or one hour above 90°F.",
+        "source": {
+          "name": "FDA: ready-to-eat foods for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: how Listeria spreads",
+        "url": "https://www.cdc.gov/listeria/causes/index.html"
+      },
+      {
+        "name": "FDA: ready-to-eat foods for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
       }
     ]
   },
@@ -379,15 +446,54 @@
   },
   "42157": {
     "verdict": "Safe with precautions",
-    "explanation": "Fat-free creamy salad dressing is safe with precautions during pregnancy as a pasteurized condiment. Factory bottling and acidification ensure it remains completely safe from bacterial foodborne pathogens. However, fat-free dressings often substitute added starches and sodium for oil, offering minimal lipid support for vitamin absorption. Measure a two-tablespoon serving and toss with fresh spinach, cucumbers, and grilled chicken.",
-    "sources": [
+    "explanation": "This record contains 107 calories and 36 mg calcium per 100 g of fat-free creamy dressing in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings made with raw eggs among foods to avoid during pregnancy. For a dressing made with sour cream or buttermilk, CDC lists dairy products made from pasteurized milk as the safer choice during pregnancy, so check the label. CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so bottling and acidity are not a guarantee.",
+    "claims": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be"
+        "text": "This record contains 107 calories and 36 mg calcium per 100 g of fat-free creamy dressing in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings made with raw eggs among foods to avoid during pregnancy.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "For a dressing made with sour cream or buttermilk, CDC lists dairy products made from pasteurized milk as the safer choice during pregnancy, so check the label.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so bottling and acidity are not a guarantee.",
+        "source": {
+          "name": "CDC: how Listeria spreads",
+          "url": "https://www.cdc.gov/listeria/causes/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: how Listeria spreads",
+        "url": "https://www.cdc.gov/listeria/causes/index.html"
       }
     ]
   },
@@ -519,15 +625,43 @@
   },
   "01290": {
     "verdict": "Recommended",
-    "explanation": "Low-fat strawberry kefir is recommended during pregnancy as a nutritious and refreshing probiotic option. It delivers essential calcium for fetal skeletal development, along with complete protein and riboflavin from pasteurized milk. Commercial kefir brands pasteurize their dairy bases, making them completely safe for expecting mothers. Check the nutrition facts label to manage portions and monitor added strawberry flavoring sugars.",
-    "sources": [
+    "explanation": "This record contains 119 mg calcium, 44 IU vitamin D and 3.39 g protein per 100 g of low-fat strawberry kefir in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists raw (unpasteurized) milk and yogurt as riskier choices during pregnancy and pasteurized versions as the safer choice; check that the kefir label says pasteurized. For flavored dairy snacks, the Dietary Guidelines suggest no more than 2.5 grams of added sugar per ⅔ cup, so compare the label.",
+    "claims": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        "text": "This record contains 119 mg calcium, 44 IU vitamin D and 3.39 g protein per 100 g of low-fat strawberry kefir in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "CDC lists raw (unpasteurized) milk and yogurt as riskier choices during pregnancy and pasteurized versions as the safer choice; check that the kefir label says pasteurized.",
+        "source": {
+          "name": "CDC: preventing Listeria infection",
+          "url": "https://www.cdc.gov/listeria/prevention/index.html"
+        }
+      },
+      {
+        "text": "For flavored dairy snacks, the Dietary Guidelines suggest no more than 2.5 grams of added sugar per ⅔ cup, so compare the label.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: preventing Listeria infection",
+        "url": "https://www.cdc.gov/listeria/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },

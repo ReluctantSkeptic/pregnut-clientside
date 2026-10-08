@@ -351,15 +351,43 @@
   },
   "09229": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned papaya nectar is safe during pregnancy as a pasteurized commercial beverage. It provides modest amounts of vitamin C, but canning recipes often include substantial added sugar. The high-heat commercial canning process eliminates any enzyme or bacterial concerns associated with unpasteurized fruit. Enjoy an occasional small glass and prioritize whole ripe fruits.",
-    "sources": [
+    "explanation": "This record contains 57 calories and 3 mg vitamin C per 100 g of canned papaya nectar in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises pregnant people to drink only juice that has been pasteurized or otherwise treated to kill harmful bacteria, and says shelf-stable juice is packaged in treated containers such as boxes, bottles, or cans. The Dietary Guidelines advise avoiding sugar-sweetened beverages such as fruit drinks, so check the nectar label for added sugars.",
+    "claims": [
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+        "text": "This record contains 57 calories and 3 mg vitamin C per 100 g of canned papaya nectar in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "FDA advises pregnant people to drink only juice that has been pasteurized or otherwise treated to kill harmful bacteria, and says shelf-stable juice is packaged in treated containers such as boxes, bottles, or cans.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise avoiding sugar-sweetened beverages such as fruit drinks, so check the nectar label for added sugars.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -519,15 +547,43 @@
   },
   "09253": {
     "verdict": "Recommended",
-    "explanation": "Canned pears packed in water are recommended during pregnancy as a wholesome and convenient snack. They supply gentle soluble fiber and potassium without the extra calories of sweet syrup. Commercial high-heat canning eliminates microbial risks, making them shelf-stable and safe. Serve chilled with a sprinkle of ground cinnamon for a comforting snack.",
-    "sources": [
+    "explanation": "This record contains 29 calories and 53 mg potassium per 100 g of canned pears in water in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines say the sugars naturally present in fruit are not counted as added sugars, so fruit packed in water avoids the added sugar of syrup.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 29 calories and 53 mg potassium per 100 g of canned pears in water in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say the sugars naturally present in fruit are not counted as added sugars, so fruit packed in water avoids the added sugar of syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -589,29 +645,85 @@
   },
   "09270": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned pineapple in syrup is safe during pregnancy but should be eaten in moderation. It delivers vitamin C and potassium, though canning syrup contributes considerable added sugar. The culinary amount of bromelain in canned pineapple is negligible and completely safe for pregnancy. Drain the heavy syrup thoroughly before adding pineapple chunks to salads or stir-fries.",
-    "sources": [
+    "explanation": "This record contains 78 calories, 7.4 mg vitamin C and 104 mg potassium per 100 g of canned pineapple in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. NIH\u2019s NCCIH, which covers bromelain as a supplement, says little is known about whether it is safe to use during pregnancy; PregNut has no data on how much bromelain canned pineapple contains. The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 78 calories, 7.4 mg vitamin C and 104 mg potassium per 100 g of canned pineapple in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "NHS",
-        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/"
+        "text": "NIH\u2019s NCCIH, which covers bromelain as a supplement, says little is known about whether it is safe to use during pregnancy; PregNut has no data on how much bromelain canned pineapple contains.",
+        "source": {
+          "name": "NIH NCCIH: bromelain",
+          "url": "https://www.nccih.nih.gov/health/bromelain"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "NIH NCCIH: bromelain",
+        "url": "https://www.nccih.nih.gov/health/bromelain"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
   "09267": {
     "verdict": "Recommended",
-    "explanation": "Canned pineapple packed in water is recommended during pregnancy as a nutritious fruit choice. It provides vitamin C and manganese without the empty calories of sugary syrup. Commercial canning uses sterile heat processing, eliminating any foodborne bacterial hazards. Add drained chunks to cottage cheese or brown rice bowls for a sweet contrast.",
-    "sources": [
+    "explanation": "This record contains 32 calories, 7.7 mg vitamin C and 127 mg potassium per 100 g of canned pineapple in water in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines say the sugars naturally present in fruit are not counted as added sugars, so fruit packed in water avoids the added sugar of syrup.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 32 calories, 7.7 mg vitamin C and 127 mg potassium per 100 g of canned pineapple in water in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say the sugars naturally present in fruit are not counted as added sugars, so fruit packed in water avoids the added sugar of syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -659,15 +771,43 @@
   },
   "09284": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned purple plums in syrup are safe during pregnancy when eaten in moderation. They contain antioxidants, potassium, and plant iron, though heavy syrup adds substantial simple sugars. Commercial canning provides complete heat sterilization, eliminating microbial concerns. Drain the syrup thoroughly before eating or incorporating into baked whole grains.",
-    "sources": [
+    "explanation": "This record contains 89 calories and 0.84 mg iron per 100 g of canned purple plums in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 89 calories and 0.84 mg iron per 100 g of canned purple plums in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -785,15 +925,43 @@
   },
   "09304": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned red raspberries in syrup are safe during pregnancy when consumed in moderation. They contain vitamin C and potassium from the fruit, though canning syrup adds significant extra sugar. Commercial canning provides sterile heat treatment, eliminating any foodborne illness concerns. Drain the syrup thoroughly before folding the raspberries into plain yogurt.",
-    "sources": [
+    "explanation": "This record contains 91 calories and 8.7 mg vitamin C per 100 g of canned red raspberries in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 91 calories and 8.7 mg vitamin C per 100 g of canned red raspberries in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
