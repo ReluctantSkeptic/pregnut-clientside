@@ -1,7 +1,7 @@
 ---
 title: "Magnesium-Rich Foods During Pregnancy: Seeds, Beans, and Greens"
 seoTitle: "Magnesium-Rich Foods During Pregnancy"
-description: Compare magnesium in everyday portions of seeds, nuts, spinach, and beans during pregnancy, and understand when supplement amounts need a closer look.
+description: Magnesium-rich foods for pregnancy include pumpkin seeds, chia, almonds, spinach, cashews, and black beans. NIH amounts per serving, daily needs, and supplement limits.
 layout: post.njk
 permalink: /blog/magnesium-foods-pregnancy/index.html
 author: Yuriy Stasyuk
@@ -14,10 +14,10 @@ socialImageWidth: 900
 socialImageHeight: 900
 socialImageAlt: Illustration of almonds in a bowl
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-09
 ---
 
-**The short answer:** Seeds, nuts, beans, cooked spinach, and whole grains all contribute magnesium. The [NIH pregnancy review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists a daily recommended amount of **350 mg at ages 19–30**, **360 mg at ages 31–50**, and **400 mg for pregnant teens**. These are whole-day references, not amounts to get from one food or supplement.
+**The short answer:** The most magnesium-rich everyday foods for pregnancy are seeds, nuts, beans, and leafy greens. The [NIH magnesium food table](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/) lists **156 mg** in 1 ounce of roasted pumpkin seeds, **111 mg** in 1 ounce of chia seeds, and **80 mg** in 1 ounce of dry-roasted almonds. The [NIH pregnancy review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists a daily recommended amount of **350 mg at ages 19–30**, **360 mg at ages 31–50**, and **400 mg for pregnant teens**. These are whole-day references, not amounts to get from one food or supplement.
 
 <figure class="post-image"><img src="/resource/portions/portion-almonds-100g.webp" srcset="/resource/portions/portion-almonds-100g-600.webp 600w, /resource/portions/portion-almonds-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of almonds in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
@@ -28,6 +28,7 @@ The [NIH magnesium food table](https://ods.od.nih.gov/factsheets/Magnesium-Healt
 | Food | Portion | Magnesium |
 | --- | --- | ---: |
 | Roasted pumpkin seeds | 1 ounce | 156 mg |
+| Chia seeds | 1 ounce | 111 mg |
 | Dry-roasted almonds | 1 ounce | 80 mg |
 | Dry-roasted cashews | 1 ounce | 74 mg |
 | Boiled spinach | ½ cup | 78 mg |

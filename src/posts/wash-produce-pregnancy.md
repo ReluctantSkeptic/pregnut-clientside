@@ -14,16 +14,23 @@ socialImageWidth: 900
 socialImageHeight: 900
 socialImageAlt: Illustration of sliced apple
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-09
 ---
 
 **The short answer:** Fresh fruits and vegetables can be part of your pregnancy meals. [CDC lists unwashed produce as a riskier choice](https://www.cdc.gov/food-safety/foods/pregnant-women.html) and washed produce as a safer one; washing and then cooking is safest. A nutrient chart cannot tell you whether a particular item was washed, stored, or prepared safely.
 
 <figure class="post-image"><img src="/resource/portions/portion-apple-100g.webp" srcset="/resource/portions/portion-apple-100g-600.webp 600w, /resource/portions/portion-apple-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of sliced apple" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
 
-## How should I wash fresh produce?
+## How do I wash vegetables and fruit when pregnant?
 
-Start with clean hands and a clean work surface. [FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) washing produce thoroughly under running water **before eating or preparing it**, including produce you plan to peel. Washing the outside first helps avoid moving surface dirt or bacteria inside when you cut it. Scrub firm produce such as melon or cucumber with a clean produce brush, cut away damaged areas, and dry the produce with a clean cloth or paper towel.
+These steps follow [FDA's produce-handling guide](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely):
+
+1. **Wash your hands** for at least 20 seconds with soap and warm water, and start with a clean work surface.
+2. **Cut away damaged or bruised areas.** Throw away produce that looks rotten.
+3. **Rinse under running water** before eating or preparing it, including produce you plan to peel. Washing the outside first helps avoid moving surface dirt or bacteria inside when you cut it.
+4. **Scrub firm produce,** such as melon or cucumber, with a clean produce brush.
+5. **Dry it** with a clean cloth or paper towel.
+6. **Cook it when you can.** [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists washed produce as a safer choice and washed-then-cooked produce as safest.
 
 Do **not** wash fruits and vegetables with soap, detergent, bleach, or commercial produce wash. FDA says these products are not recommended for produce. Washing reduces bacteria but does not remove every possible risk; cooking produce thoroughly reduces risk further.
 
@@ -44,5 +51,15 @@ Rinse berries and other fresh fruit under running water before eating or prepari
 No. Washing alone does not solve the particular risk from raw seed sprouts. CDC lists **cooked sprouts, heated until steaming hot**, as the safer choice during pregnancy. Read our [raw and cooked sprouts guide](/blog/sprouts-during-pregnancy/) for that separate question. For drinks made from produce, see our [juice and smoothie pasteurization guide](/blog/juice-pasteurization-pregnancy/).
 
 PregNut's [raw spinach](/food/11457-spinach-raw/), [blueberry](/food/09050-blueberries-raw/), and [cantaloupe](/food/09181-melons-cantaloupe-raw/) pages compare nutrients per 100 grams. Their numbers do not establish how the produce was handled or whether eating it raw is appropriate for you.
+
+## Common questions
+
+### Do I need to wash bagged salad when pregnant?
+
+Not if the bag says **pre-washed** or **ready-to-eat**. [FDA says](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) you can use those greens without washing them again. Bagged greens that do not carry that statement should be washed like other produce. Buy bagged salad only when it is refrigerated or surrounded by ice.
+
+### Do I need to wash fruit I peel, like oranges or avocados?
+
+Yes. [FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) washing produce even if you do not plan to eat the skin, so dirt and bacteria are not carried from the surface when you peel or cut it.
 
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA selecting and serving produce safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely), and [FDA fruits, vegetables, and juices during pregnancy](https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be). This guide is educational and does not replace prenatal care.
