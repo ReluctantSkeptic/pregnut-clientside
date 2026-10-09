@@ -1,22 +1,24 @@
 // Cloudflare Pages Function: POST /api/contact
 //
 // Zero-cost contact form handler. Nothing here contains the site owner's
-// address; delivery settings come only from Pages environment variables:
-//   CONTACT_TO        destination address (encrypted Pages secret). Used
-//                     server-side only, so it never reaches the browser.
-//   FORMSUBMIT_ID     optional FormSubmit alias token. Once set, it is used
-//                     instead of CONTACT_TO in the FormSubmit URL.
+// address. Settings come only from Pages environment variables:
+//   FORMSUBMIT_ID     FormSubmit alias token for the owner's inbox (the random
+//                     string FormSubmit issues after its one-time activation
+//                     click). Not an email address, so it is safe for the
+//                     browser to see. CONTACT_TO (the real address, an
+//                     encrypted secret) is never read or returned here.
 // Optional binding:
 //   CONTACT_LOG       Workers Analytics Engine dataset; every accepted
 //                     submission is written here first as a backup.
 //
-// Delivery: the function forwards each accepted submission to FormSubmit's
-// free AJAX endpoint (https://formsubmit.co/ajax/<address-or-alias>), which
-// emails it to the owner. FormSubmit needs a one-time "Activate Form" click
-// in the destination inbox; activation is tied to the form URL, so the
-// Referer below is always the production contact page, even on previews.
+// Delivery: FormSubmit (free, no account) answers every request that comes
+// from Cloudflare Workers/Pages Functions with HTTP 429, so the email cannot
+// be sent server-side. Instead, once this function has validated the message,
+// passed the honeypot/timing checks, rate-limited and stored it, it returns
+// the FormSubmit alias endpoint and the browser relays the message there
+// (see src/js/contact.js). Bots caught by the checks never get the endpoint.
 
-const FORMSUBMIT_FORM_URL = "https://pregnut.com/contact/";
+const FORMSUBMIT_AJAX = "https://formsubmit.co/ajax/";
 const LIMITS = { name: 100, email: 200, topic: 60, message: 3000 };
 const RATE_WINDOW_SECONDS = 3600;
 const RATE_MAX = 5;
@@ -94,38 +96,14 @@ async function readBody(request) {
   return Object.fromEntries(form.entries());
 }
 
-async function sendEmail(env, entry) {
-  const target = clean(env.FORMSUBMIT_ID || env.CONTACT_TO, 200);
-  if (!target) return { attempted: false };
-  const subject = oneLine(`PregNut contact: ${entry.topic}${entry.name ? ` from ${entry.name}` : ""}`).slice(0, 180);
-
-  const response = await fetch(`https://formsubmit.co/ajax/${encodeURIComponent(target)}`, {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      accept: "application/json",
-      origin: new URL(FORMSUBMIT_FORM_URL).origin,
-      referer: FORMSUBMIT_FORM_URL,
-      "user-agent": "Mozilla/5.0 (compatible; PregNutContact/1.0; +https://pregnut.com/contact/)",
-    },
-    body: JSON.stringify({
-      _subject: subject,
-      _replyto: entry.email,
-      _template: "box",
-      _captcha: "false",
-      Name: entry.name || "(not given)",
-      Email: entry.email,
-      Topic: entry.topic,
-      Message: entry.message,
-      Page: entry.page || "/contact/",
-      Received: entry.receivedAt,
-      Reference: entry.id,
-    }),
-  });
-  let data = null;
-  try { data = await response.json(); } catch (_) {}
-  const ok = response.ok && data && String(data.success) === "true";
-  return { attempted: true, ok, status: response.status, message: data && data.message };
+function relayFor(env, entry) {
+  const alias = clean(env.FORMSUBMIT_ID, 100);
+  if (!/^[A-Za-z0-9]{8,100}$/.test(alias)) return null;
+  return {
+    url: FORMSUBMIT_AJAX + alias,
+    subject: oneLine(`PregNut contact: ${entry.topic}${entry.name ? ` from ${entry.name}` : ""}`).slice(0, 180),
+    received: entry.receivedAt,
+  };
 }
 
 export async function onRequestPost({ request, env }) {
@@ -200,20 +178,12 @@ export async function onRequestPost({ request, env }) {
     }
   }
 
-  let mail = { attempted: false };
-  try {
-    mail = await sendEmail(env, entry);
-    if (mail.attempted && !mail.ok) console.error("contact: email failed", mail.status, String(mail.message || "").slice(0, 200));
-  } catch (error) {
-    mail = { attempted: true, ok: false };
-    console.error("contact: email error", error && error.message);
-  }
-
-  if (!stored && !(mail.attempted && mail.ok)) {
+  const relay = relayFor(env, entry);
+  if (!stored && !relay) {
     return json({ ok: false, error: "Sorry, the message could not be delivered right now. Please try again later." }, 503);
   }
-  console.log("contact: accepted", entry.id, `stored=${stored}`, `emailed=${Boolean(mail.ok)}`);
-  return json({ ok: true, id: entry.id });
+  console.log("contact: accepted", entry.id, `stored=${stored}`, `relay=${Boolean(relay)}`);
+  return json(relay ? { ok: true, id: entry.id, relay } : { ok: true, id: entry.id });
 }
 
 export function onRequest() {
