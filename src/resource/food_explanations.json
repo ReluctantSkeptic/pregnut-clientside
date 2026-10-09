@@ -13802,15 +13802,54 @@
   },
   "08067": {
     "verdict": "Recommended",
-    "explanation": "Kellogg's Special K cereal is recommended during pregnancy as a light, high-protein morning flake. Made from wheat and rice, it supplies fortified vitamin B12, folic acid, and vitamin B6 to support maternal blood cells and embryonic growth. The ACOG emphasizes adequate daily folic acid intake to protect against fetal neural tube defects. Pour one cup into a bowl with cold pasteurized milk and top with sliced strawberries.",
-    "sources": [
+    "explanation": "This record contains 28 mg iron and 2,180 mcg dietary folate equivalents per 100 g of Kellogg’s Special K in PregNut’s historical USDA-based dataset; 100 g is several servings, and current boxes may differ, so check the label. CDC recommends 400 mcg of folic acid daily for anyone who could become pregnant and names fortified breakfast cereals as one source. NIH sets an adult upper limit of 1,000 mcg a day of folic acid from supplements and fortified foods combined, so count cereal alongside your prenatal. Is Special K good for pregnancy? Our cereal guide compares it with other cereals and explains which label lines to check.",
+    "claims": [
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "This record contains 28 mg iron and 2,180 mcg dietary folate equivalents per 100 g of Kellogg’s Special K in PregNut’s historical USDA-based dataset; 100 g is several servings, and current boxes may differ, so check the label.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "CDC recommends 400 mcg of folic acid daily for anyone who could become pregnant and names fortified breakfast cereals as one source.",
+        "source": {
+          "name": "CDC: folic acid",
+          "url": "https://www.cdc.gov/folic-acid/about/index.html"
+        }
+      },
+      {
+        "text": "NIH sets an adult upper limit of 1,000 mcg a day of folic acid from supplements and fortified foods combined, so count cereal alongside your prenatal.",
+        "source": {
+          "name": "NIH: folate fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        }
+      },
+      {
+        "text": "Is Special K good for pregnancy? Our cereal guide compares it with other cereals and explains which label lines to check.",
+        "source": {
+          "name": "PregNut cereal guide",
+          "url": "/blog/cereal-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-09",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: folic acid",
+        "url": "https://www.cdc.gov/folic-acid/about/index.html"
+      },
+      {
+        "name": "NIH: folate fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      {
+        "name": "PregNut cereal guide",
+        "url": "/blog/cereal-pregnancy/"
       }
     ]
   },
@@ -15311,15 +15350,43 @@
   },
   "01132": {
     "verdict": "Recommended",
-    "explanation": "Scrambled eggs are recommended during pregnancy when cooked until completely firm and dry. They provide abundant choline to support fetal brain development, along with complete protein, riboflavin, and vitamin B12. The FDA instructs cooks to avoid soft, runny scrambles to prevent foodborne illness from Salmonella. Cook over medium heat until all moisture evaporates, and serve with whole-grain toast and sliced tomatoes.",
+    "explanation": "This record contains 221 mg choline and 9.99 g protein per 100 g of scrambled egg in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises cooking scrambled eggs until they are firm throughout, not runny. For poached, fried, and pasteurized eggs, see our eggs-in-pregnancy guide.",
+    "claims": [
+      {
+        "text": "This record contains 221 mg choline and 9.99 g protein per 100 g of scrambled egg in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "FDA advises cooking scrambled eggs until they are firm throughout, not runny.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "For poached, fried, and pasteurized eggs, see our eggs-in-pregnancy guide.",
+        "source": {
+          "name": "PregNut eggs guide",
+          "url": "/blog/eggs-during-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-09",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "PregNut eggs guide",
+        "url": "/blog/eggs-during-pregnancy/"
       }
     ]
   },

@@ -824,15 +824,43 @@
   },
   "01132": {
     "verdict": "Recommended",
-    "explanation": "Scrambled eggs are recommended during pregnancy when cooked until completely firm and dry. They provide abundant choline to support fetal brain development, along with complete protein, riboflavin, and vitamin B12. The FDA instructs cooks to avoid soft, runny scrambles to prevent foodborne illness from Salmonella. Cook over medium heat until all moisture evaporates, and serve with whole-grain toast and sliced tomatoes.",
+    "explanation": "This record contains 221 mg choline and 9.99 g protein per 100 g of scrambled egg in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises cooking scrambled eggs until they are firm throughout, not runny. For poached, fried, and pasteurized eggs, see our eggs-in-pregnancy guide.",
+    "claims": [
+      {
+        "text": "This record contains 221 mg choline and 9.99 g protein per 100 g of scrambled egg in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "FDA advises cooking scrambled eggs until they are firm throughout, not runny.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "For poached, fried, and pasteurized eggs, see our eggs-in-pregnancy guide.",
+        "source": {
+          "name": "PregNut eggs guide",
+          "url": "/blog/eggs-during-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-09",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "PregNut eggs guide",
+        "url": "/blog/eggs-during-pregnancy/"
       }
     ]
   },

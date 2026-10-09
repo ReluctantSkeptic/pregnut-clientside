@@ -6,7 +6,7 @@ layout: post.njk
 permalink: /blog/eggs-during-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
-dateModified: 2026-10-07
+dateModified: 2026-10-09
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-eggs-100g.webp
@@ -29,11 +29,11 @@ For mixed egg dishes, the [CDC lists](https://www.cdc.gov/food-safety/foods/preg
 
 ## Are pasteurized eggs safe for pregnancy?
 
-Pasteurized eggs are the option CDC and FDA point to when an egg will not be cooked through. Look for the word **pasteurized** on the shell or carton. Pasteurization is separate from cooking, so a pasteurized egg in a cooked dish should still be cooked as above.
+Pasteurized eggs are the option CDC and FDA point to when an egg will not be cooked through. Look for the word **pasteurized** on the shell or carton. The [FDA lists](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) fresh pasteurized eggs in the shell and liquid pasteurized egg products in the refrigerator section of some supermarkets, and frozen pasteurized egg products in the freezer section. Pasteurization is separate from cooking, so a pasteurized egg in a cooked dish should still be cooked as above.
 
-## Is pasteurised egg yolk safe in pregnancy?
+## Is pasteurized egg yolk safe in pregnancy?
 
-The yolk follows the same rule as the whole egg (“pasteurised” is the British spelling). A yolk used raw or lightly cooked, such as in hollandaise or custard, should come from a pasteurized egg or pasteurized egg product. A yolk from an ordinary shell egg should be cooked until firm.
+The yolk follows the same rule as the whole egg (“pasteurised” is the British spelling). A yolk used raw or lightly cooked, such as in hollandaise or custard, should come from a pasteurized egg or pasteurized egg product. A yolk from an ordinary shell egg should be cooked until firm. The [FDA's egg-safety guide](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety) says shell eggs treated to destroy *Salmonella* do not have to carry the “cook eggs until yolks are firm” handling statement and are usually labeled as treated, so the carton tells you which kind you have.
 
 ## Are runny eggs or raw-egg sauces different if the eggs are pasteurized?
 
@@ -44,6 +44,8 @@ Commercial mayonnaise, dressings, and sauces commonly use pasteurized eggs, acco
 ## Can you eat poached eggs when pregnant?
 
 Only if the yolk is cooked firm. Poached eggs are usually served with a runny yolk, which CDC lists as a riskier choice. Poach them longer until the yolk is firm, or use pasteurized eggs. The same goes for fried eggs: a sunny-side-up egg is safe only once the yolk has set.
+
+Cut into the egg before eating: the [FDA's egg-safety guide](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety) says to cook eggs until **both the yolk and the white are firm**. At a restaurant, ask for the poached egg “hard” or “well done.” Eggs Benedict brings a second question: the [FDA lists hollandaise](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) among homemade or fresh-made sauces that can contain raw egg, so ask whether it was made with pasteurized eggs.
 
 ## Are scrambled, fried, or soft-boiled eggs safe while pregnant?
 

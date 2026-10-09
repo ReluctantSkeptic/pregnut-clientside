@@ -1,5 +1,6 @@
 ---
 title: "Zinc Foods During Pregnancy Without Meat"
+seoTitle: "Zinc in Pregnancy: Foods, Needs, and Supplements"
 description: Compare zinc in roasted pumpkin seeds, cooked lentils, oats, and Greek yogurt, and learn when to review your prenatal zinc label.
 layout: post.njk
 permalink: /blog/zinc-foods-pregnancy/index.html
@@ -13,12 +14,18 @@ socialImageWidth: 400
 socialImageHeight: 400
 socialImageAlt: Illustration of roasted pumpkin seeds in a bowl
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-09
 ---
 
 **The short answer:** You can get zinc from beans, nuts, seeds, whole grains, dairy, eggs, meat, and seafood. If you avoid meat, include a variety of zinc-containing foods and check your prenatal label. The [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists **11 mg per day** as the zinc recommended dietary allowance during pregnancy for adults ages 19–50 and **12 mg** for pregnant teens ages 14–18. A food ranking cannot tell how much zinc your body absorbs.
 
 <figure class="post-image post-image-compact"><img src="/resource/portions/top-foods/12516-seeds-pumpkin-and-squash-seed-kernels-roasted.webp" alt="Illustration of roasted pumpkin seeds in a bowl" width="400" height="400" loading="eager" fetchpriority="high"><figcaption>Illustrative roasted seeds; the food data below compare 100 g, not a typical handful.</figcaption></figure>
+
+## How much zinc do you need in pregnancy?
+
+Zinc needs rise during pregnancy to support fetal growth. The [NIH zinc fact sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/) says the recommended amount is **3 mg a day more** than for nonpregnant women of the same age. In NIH's summary of U.S. survey data, pregnant women ages 20 to 40 averaged about **12.4 mg a day from food alone**, and **11%** had total intakes from food and supplements below the estimated average requirement. NIH advises meeting nutrient needs mainly through food, with supplements useful when food alone falls short, such as during pregnancy.
+
+If you eat animal foods, they are good sources: NIH lists about **3.8 mg** in 3 ounces of roasted beef sirloin, **3.2 mg** in 3 ounces of cooked blue crab, and **1.5 mg** in 1.5 ounces of cheddar. Cook meat and seafood fully, as [CDC advises](https://www.cdc.gov/food-safety/foods/pregnant-women.html) during pregnancy.
 
 ## Which meat-free foods contain zinc?
 
@@ -37,11 +44,13 @@ These are equal-weight comparisons, **not equal everyday servings**. The [NIH zi
 
 Plant foods do contribute zinc, but the amount listed in a food table is not the amount absorbed. [NIH explains](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/) that phytates in beans, nuts, and whole grains can reduce zinc absorption. That is one reason a vegetarian or vegan pregnancy diet deserves a review of the **whole diet**, not just a sum of food-table milligrams. PregNut does not estimate individual zinc absorption.
 
-Fortified breakfast cereals can also supply zinc, but amounts depend on the brand and serving. Check the current package label rather than applying an older database value to the product you buy. For additional meat-free meal planning, see our [vegetarian protein](/blog/vegetarian-protein-pregnancy/), [iron](/blog/iron-foods-pregnancy/), and [vitamin B12](/blog/vegetarian-b12-pregnancy/) guides.
+NIH notes that soaking beans, grains, and seeds in water for several hours before cooking can reduce phytate binding and make zinc more available. Fortified breakfast cereals can also supply zinc, but amounts depend on the brand and serving. Check the current package label rather than applying an older database value to the product you buy. For additional meat-free meal planning, see our [vegetarian protein](/blog/vegetarian-protein-pregnancy/), [iron](/blog/iron-foods-pregnancy/), and [vitamin B12](/blog/vegetarian-b12-pregnancy/) guides.
 
-## Should I add a separate zinc supplement?
+## Should I take a zinc supplement while pregnant?
 
 Before taking a zinc supplement while pregnant, check the **serving size and zinc amount** on your prenatal's Supplement Facts panel. NIH notes that most prenatal supplements include zinc. For pregnant adults, NIH lists **40 mg per day** as the upper limit from food and supplements combined; for pregnant teens, the limit is **34 mg per day**. More zinc is not automatically better. [NIH says the effects of zinc supplementation on pregnancy outcomes are unclear](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), and WHO does not recommend it as part of routine pregnancy care. Discuss a separate product with your clinician, especially if you avoid animal foods or have a condition that affects absorption.
+
+If you and your clinician decide on one, the [NIH zinc fact sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/) notes that common forms include zinc sulfate, zinc acetate, and zinc gluconate, and that the Supplement Facts panel lists **elemental zinc**, the amount that counts toward the limit. NIH also says taking **25 mg or more of iron** at the same time as a zinc supplement can reduce zinc absorption, which matters if you take a separate iron supplement.
 
 ## Common questions
 
