@@ -6,6 +6,7 @@ layout: post.njk
 permalink: /blog/mayonnaise-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-10-07
+dateModified: 2026-10-12
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/top-foods/04025-salad-dressing-mayonnaise-regular.webp
@@ -48,6 +49,6 @@ Not many per spoonful. PregNut's historical USDA-based data lists [regular mayon
 
 ### Is ranch or Caesar dressing from a bottle OK?
 
-Yes. Bottled dressings fall under FDA's statement about commercial dressings made with pasteurized eggs. Fresh-made Caesar dressing at a restaurant is the one to ask about.
+Yes. Bottled dressings fall under FDA's statement about commercial dressings made with pasteurized eggs. Fresh-made Caesar dressing at a restaurant is the one to ask about. Our [ranch dressing guide](/blog/ranch-dressing-pregnancy/) covers restaurant and homemade ranch.
 
 **Sources:** [FDA dairy and eggs for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be), [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), and [CDC food-poisoning symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html). This guide is educational and does not replace prenatal care.

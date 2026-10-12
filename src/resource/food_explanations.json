@@ -3313,15 +3313,54 @@
   },
   "11603": {
     "verdict": "Safe with precautions",
-    "explanation": "Raw jicama is safe and refreshing during pregnancy when peeled and washed properly. It provides prebiotic inulin fiber, vitamin C, and crisp hydration to support gut health and prevent constipation. CDC produce safety guidance advises scrubbing the tuber under running water and thoroughly peeling away the fibrous outer peel, which is inedible. Slice peeled jicama into sticks and sprinkle with lime juice and chili powder for a hydrating snack.",
-    "sources": [
+    "explanation": "Can you eat jicama while pregnant? Yes, washed. CDC lists washed fruits and vegetables as safer choices in pregnancy and unwashed produce as riskier. FDA advises washing produce even if you will peel it, so dirt and bacteria are not carried from the skin when you cut it, and scrubbing firm produce with a clean produce brush. This record contains 20.2 mg vitamin C and 38 calories per 100 g of raw jicama in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our produce-washing guide has step-by-step instructions.",
+    "claims": [
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+        "text": "Can you eat jicama while pregnant? Yes, washed. CDC lists washed fruits and vegetables as safer choices in pregnancy and unwashed produce as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "FDA",
+        "text": "FDA advises washing produce even if you will peel it, so dirt and bacteria are not carried from the skin when you cut it, and scrubbing firm produce with a clean produce brush.",
+        "source": {
+          "name": "FDA: selecting and serving produce safely",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      },
+      {
+        "text": "This record contains 20.2 mg vitamin C and 38 calories per 100 g of raw jicama in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our produce-washing guide has step-by-step instructions.",
+        "source": {
+          "name": "PregNut produce-washing guide",
+          "url": "/blog/wash-produce-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: selecting and serving produce safely",
         "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut produce-washing guide",
+        "url": "/blog/wash-produce-pregnancy/"
       }
     ]
   },
@@ -8008,15 +8047,54 @@
   },
   "18320": {
     "verdict": "Safe with precautions",
-    "explanation": "Lemon meringue pie is safe during pregnancy only when the meringue is thoroughly cooked or made with pasteurized egg whites. Raw or lightly torched unpasteurized egg whites can harbor Salmonella, which poses serious health risks for pregnant individuals. The FDA advises ensuring that all egg dishes and meringue toppings reach an internal temperature of at least 160 degrees Fahrenheit. Purchase commercially prepared pies that use pasteurized eggs and keep them refrigerated.",
+    "explanation": "Can you eat lemon meringue pie while pregnant? A baked, store-bought pie is the safer choice. FDA lists homemade meringue among foods that may contain raw or lightly cooked eggs to avoid in pregnancy, and says store-bought versions are often already cooked or pasteurized. For homemade pie, FDA advises cooking dishes that contain eggs to 160°F, checked with a food thermometer, or using pasteurized eggs. This record contains 268 calories per 100 g of lemon meringue pie in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our eggs guide explains pasteurized eggs and other egg-based desserts.",
+    "claims": [
+      {
+        "text": "Can you eat lemon meringue pie while pregnant? A baked, store-bought pie is the safer choice. FDA lists homemade meringue among foods that may contain raw or lightly cooked eggs to avoid in pregnancy, and says store-bought versions are often already cooked or pasteurized.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "For homemade pie, FDA advises cooking dishes that contain eggs to 160°F, checked with a food thermometer, or using pasteurized eggs.",
+        "source": {
+          "name": "FDA: egg safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        }
+      },
+      {
+        "text": "This record contains 268 calories per 100 g of lemon meringue pie in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our eggs guide explains pasteurized eggs and other egg-based desserts.",
+        "source": {
+          "name": "PregNut eggs guide",
+          "url": "/blog/eggs-during-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA",
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "FDA: egg safety",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut eggs guide",
+        "url": "/blog/eggs-during-pregnancy/"
       }
     ]
   },
@@ -9541,15 +9619,43 @@
   },
   "19912": {
     "verdict": "Limit",
-    "explanation": "Agave syrup is safe to consume during pregnancy, but you should use it sparingly. It has a lower glycemic index than table sugar, but it is heavily concentrated in fructose and calories. USDA guidelines recommend treating agave nectar like any added sweetener and limiting total intake. Drizzle just a light teaspoon over morning oatmeal or replace it with mashed fresh berries.",
-    "sources": [
+    "explanation": "Is agave safe during pregnancy? CDC’s pregnancy food-safety chart does not list sweeteners like agave syrup among riskier foods; the reason to limit it is sugar. CDC counts sugars from syrups and honey as added sugars and, citing the Dietary Guidelines, says adults should have no more than 10 grams of added sugars per meal. This record contains 310 calories per 100 g of agave syrup in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "Is agave safe during pregnancy? CDC’s pregnancy food-safety chart does not list sweeteners like agave syrup among riskier foods; the reason to limit it is sugar.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "CDC counts sugars from syrups and honey as added sugars and, citing the Dietary Guidelines, says adults should have no more than 10 grams of added sugars per meal.",
+        "source": {
+          "name": "CDC: added sugars",
+          "url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+        }
+      },
+      {
+        "text": "This record contains 310 calories per 100 g of agave syrup in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: added sugars",
+        "url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -14849,15 +14955,54 @@
   },
   "01020": {
     "verdict": "Safe with precautions",
-    "explanation": "Fontina cheese is safe with precautions during pregnancy when made with pasteurized milk. It delivers substantial amounts of calcium, vitamin B12, and protein to support skeletal development. Because some traditional European Fontina varieties use raw milk, always read the package label carefully. If pasteurization cannot be confirmed, heat the cheese until thoroughly melted and steaming hot.",
+    "explanation": "Is fontina safe during pregnancy? Choose fontina labeled as made with pasteurized milk. CDC lists any cheese made with raw milk as a riskier choice in pregnancy, and raw-milk cheeses heated to 165°F or until steaming hot as safer. FDA notes that some cheeses, especially specialty or locally sold ones, are not made with pasteurized milk, so read the label or ask. This record contains 550 mg calcium and 25.6 g protein per 100 g of fontina in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide explains deli-sliced cheese and other varieties.",
+    "claims": [
+      {
+        "text": "Is fontina safe during pregnancy? Choose fontina labeled as made with pasteurized milk. CDC lists any cheese made with raw milk as a riskier choice in pregnancy, and raw-milk cheeses heated to 165°F or until steaming hot as safer.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA notes that some cheeses, especially specialty or locally sold ones, are not made with pasteurized milk, so read the label or ask.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 550 mg calcium and 25.6 g protein per 100 g of fontina in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide explains deli-sliced cheese and other varieties.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -15059,15 +15204,54 @@
   },
   "01043": {
     "verdict": "Safe with precautions",
-    "explanation": "Pasteurized process pimento cheese is safe with precautions during pregnancy when consumed in moderation. The heat treatment applied during processing eliminates harmful bacteria like Listeria and Salmonella. It delivers calcium and protein, but processed cheeses often contain elevated sodium and saturated fat levels. Spread a modest portion onto whole-grain crackers or celery sticks.",
+    "explanation": "Can you eat pimento cheese while pregnant? Usually yes. This record is pasteurized process pimento cheese, and CDC lists hard cheeses such as cheddar, when made with pasteurized milk, as safer choices. FDA says commercial mayonnaise contains pasteurized eggs, so homemade pimento cheese made with pasteurized cheese and store-bought mayonnaise fits the safer choices; ask about house-made spreads that use homemade mayonnaise. This record contains 614 mg calcium and 22.13 g protein per 100 g in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide covers pimento cheese alongside provolone, Swiss, and fontina.",
+    "claims": [
+      {
+        "text": "Can you eat pimento cheese while pregnant? Usually yes. This record is pasteurized process pimento cheese, and CDC lists hard cheeses such as cheddar, when made with pasteurized milk, as safer choices.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says commercial mayonnaise contains pasteurized eggs, so homemade pimento cheese made with pasteurized cheese and store-bought mayonnaise fits the safer choices; ask about house-made spreads that use homemade mayonnaise.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 614 mg calcium and 22.13 g protein per 100 g in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide covers pimento cheese alongside provolone, Swiss, and fontina.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -15101,15 +15285,61 @@
   },
   "01035": {
     "verdict": "Recommended",
-    "explanation": "Provolone cheese is recommended during pregnancy as a nutritious and safe dairy food. It delivers high amounts of calcium, vitamin B12, and protein to support expanding maternal blood volume and fetal bone growth. Standard commercial Provolone has low moisture and is produced from pasteurized milk, protecting against foodborne illness. Layer slices onto warm sandwiches or bake into Italian pasta dishes.",
+    "explanation": "Is provolone safe during pregnancy? Yes, when the label says it is made with pasteurized milk. CDC lists pasteurized hard cheeses as safer choices and any cheese made with raw milk as riskier. FDA notes that some cheeses are not made with pasteurized milk, especially those sold locally, so check the label. CDC lists unheated cheese sliced at a deli as a riskier choice; heat counter-sliced provolone to 165°F or until steaming hot, as in a hot sandwich. This record contains 756 mg calcium and 25.58 g protein per 100 g of provolone in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. See our cheese guide for pasteurized vs unpasteurized cheese.",
+    "claims": [
+      {
+        "text": "Is provolone safe during pregnancy? Yes, when the label says it is made with pasteurized milk. CDC lists pasteurized hard cheeses as safer choices and any cheese made with raw milk as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA notes that some cheeses are not made with pasteurized milk, especially those sold locally, so check the label.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists unheated cheese sliced at a deli as a riskier choice; heat counter-sliced provolone to 165°F or until steaming hot, as in a hot sandwich.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record contains 756 mg calcium and 25.58 g protein per 100 g of provolone in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "See our cheese guide for pasteurized vs unpasteurized cheese.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -15143,15 +15373,50 @@
   },
   "01040": {
     "verdict": "Recommended",
-    "explanation": "Swiss cheese is recommended during pregnancy as a nutritious and safe hard cheese. It supplies exceptionally high levels of vitamin B12, calcium, and zinc, which are vital for maternal red blood cells and fetal development. The FDA and NHS classify hard Swiss cheese as safe to eat whether made from pasteurized or unpasteurized milk. Layer a slice into a hot lean poultry sandwich or eat alongside fresh fruit.",
-    "sources": [
+    "explanation": "Is Swiss cheese safe during pregnancy? Yes, when it is made with pasteurized milk: CDC lists Swiss, Gruyère, and Emmental among hard cheeses that are safer choices when made with pasteurized milk, and lists any cheese made with raw milk as riskier. CDC also lists unheated cheese sliced at a deli as a riskier choice, so heat counter-sliced Swiss to 165°F or until steaming hot, as in a melted sandwich. This record contains 890 mg calcium and 3.06 mcg vitamin B12 per 100 g of Swiss cheese in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide covers provolone, fontina, and pimento cheese too.",
+    "claims": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        "text": "Is Swiss cheese safe during pregnancy? Yes, when it is made with pasteurized milk: CDC lists Swiss, Gruyère, and Emmental among hard cheeses that are safer choices when made with pasteurized milk, and lists any cheese made with raw milk as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "NHS Foods to Avoid in Pregnancy",
-        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+        "text": "CDC also lists unheated cheese sliced at a deli as a riskier choice, so heat counter-sliced Swiss to 165°F or until steaming hot, as in a melted sandwich.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record contains 890 mg calcium and 3.06 mcg vitamin B12 per 100 g of Swiss cheese in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide covers provolone, fontina, and pimento cheese too.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -15770,29 +16035,107 @@
   },
   "01180": {
     "verdict": "Safe with precautions",
-    "explanation": "Fat-free sour cream is safe with precautions during pregnancy when produced from pasteurized milk. It provides dietary calcium and riboflavin while avoiding saturated fat and excess calories. Commercially packaged dairy products in supermarkets are pasteurized, preventing foodborne bacterial infection. Spoon a dollop over warm black bean bowls or baked potatoes.",
+    "explanation": "Choose fat-free sour cream made from pasteurized milk: CDC lists dairy products made from pasteurized milk as safer choices in pregnancy and raw-milk dairy as riskier. FDA says some dairy products are not made with pasteurized milk, so check the label. This record contains 125 mg calcium per 100 g of fat-free sour cream in PregNut’s historical USDA-based dataset; a spoonful is much smaller than 100 g. Can you have sour cream while pregnant? Our sour cream guide covers labels, taco bars, and how long it can sit out.",
+    "claims": [
+      {
+        "text": "Choose fat-free sour cream made from pasteurized milk: CDC lists dairy products made from pasteurized milk as safer choices in pregnancy and raw-milk dairy as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says some dairy products are not made with pasteurized milk, so check the label.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 125 mg calcium per 100 g of fat-free sour cream in PregNut’s historical USDA-based dataset; a spoonful is much smaller than 100 g.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Can you have sour cream while pregnant? Our sour cream guide covers labels, taco bars, and how long it can sit out.",
+        "source": {
+          "name": "PregNut sour cream guide",
+          "url": "/blog/sour-cream-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut sour cream guide",
+        "url": "/blog/sour-cream-pregnancy/"
       }
     ]
   },
   "01179": {
     "verdict": "Safe with precautions",
-    "explanation": "Light sour cream is safe with precautions during pregnancy when made with pasteurized cultured milk and cream. It offers calcium, vitamin B12, and riboflavin while cutting saturated fat in half compared to traditional sour cream. Standard commercial manufacturing includes pasteurization, which kills pathogenic bacteria like Listeria. Use moderately on whole-grain chicken quesadillas or hot vegetable soups.",
+    "explanation": "Choose light sour cream made from pasteurized milk and cream: CDC lists dairy products made from pasteurized milk as safer choices in pregnancy and raw-milk dairy as riskier. FDA says some dairy products are not made with pasteurized milk, so check the label. This record contains 141 mg calcium per 100 g of light sour cream in PregNut’s historical USDA-based dataset; a spoonful is much smaller than 100 g. Can you have sour cream while pregnant? Our sour cream guide covers labels, taco bars, and how long it can sit out.",
+    "claims": [
+      {
+        "text": "Choose light sour cream made from pasteurized milk and cream: CDC lists dairy products made from pasteurized milk as safer choices in pregnancy and raw-milk dairy as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says some dairy products are not made with pasteurized milk, so check the label.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 141 mg calcium per 100 g of light sour cream in PregNut’s historical USDA-based dataset; a spoonful is much smaller than 100 g.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Can you have sour cream while pregnant? Our sour cream guide covers labels, taco bars, and how long it can sit out.",
+        "source": {
+          "name": "PregNut sour cream guide",
+          "url": "/blog/sour-cream-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut sour cream guide",
+        "url": "/blog/sour-cream-pregnancy/"
       }
     ]
   },
@@ -16690,7 +17033,7 @@
   },
   "04639": {
     "verdict": "Safe with precautions",
-    "explanation": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy. FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch. This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation.",
+    "explanation": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy. FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch. This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation. Is ranch dressing safe during pregnancy? Our ranch guide covers bottled, restaurant, and homemade ranch.",
     "claims": [
       {
         "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy.",
@@ -16712,9 +17055,16 @@
           "name": "Food data and limitations",
           "url": "/about/#food-data-sources"
         }
+      },
+      {
+        "text": "Is ranch dressing safe during pregnancy? Our ranch guide covers bottled, restaurant, and homemade ranch.",
+        "source": {
+          "name": "PregNut ranch dressing guide",
+          "url": "/blog/ranch-dressing-pregnancy/"
+        }
       }
     ],
-    "dateModified": "2026-10-07",
+    "dateModified": "2026-10-12",
     "sources": [
       {
         "name": "FDA: dairy and eggs for moms-to-be",
@@ -16723,6 +17073,10 @@
       {
         "name": "Food data and limitations",
         "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut ranch dressing guide",
+        "url": "/blog/ranch-dressing-pregnancy/"
       }
     ]
   },

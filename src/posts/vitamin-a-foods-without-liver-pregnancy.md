@@ -1,6 +1,7 @@
 ---
 title: "Vitamin A Foods During Pregnancy Without Liver"
-description: Compare vitamin A foods without liver and learn why the pregnancy upper limit for preformed vitamin A does not apply to plant foods.
+seoTitle: "Vitamin A in Pregnancy: How Much, Foods, and Limits"
+description: Pregnancy needs 770 mcg RAE of vitamin A a day (NIH). Foods that supply it without liver, and why the upper limit applies only to preformed vitamin A.
 layout: post.njk
 permalink: /blog/vitamin-a-foods-without-liver-pregnancy/index.html
 author: Yuriy Stasyuk
@@ -8,7 +9,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
-dateModified: 2026-10-07
+dateModified: 2026-10-12
 ---
 
 **The short answer:** You can get vitamin A from orange and green vegetables without eating liver. Sweet potatoes, carrots, and spinach contain **provitamin A carotenoids**, which the body converts to vitamin A. The [NIH pregnancy review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists **770 mcg retinol activity equivalents (RAE) per day** for pregnant adults and **750 mcg RAE** for pregnant teens.

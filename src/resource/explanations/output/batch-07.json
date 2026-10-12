@@ -807,29 +807,107 @@
   },
   "01180": {
     "verdict": "Safe with precautions",
-    "explanation": "Fat-free sour cream is safe with precautions during pregnancy when produced from pasteurized milk. It provides dietary calcium and riboflavin while avoiding saturated fat and excess calories. Commercially packaged dairy products in supermarkets are pasteurized, preventing foodborne bacterial infection. Spoon a dollop over warm black bean bowls or baked potatoes.",
+    "explanation": "Choose fat-free sour cream made from pasteurized milk: CDC lists dairy products made from pasteurized milk as safer choices in pregnancy and raw-milk dairy as riskier. FDA says some dairy products are not made with pasteurized milk, so check the label. This record contains 125 mg calcium per 100 g of fat-free sour cream in PregNut’s historical USDA-based dataset; a spoonful is much smaller than 100 g. Can you have sour cream while pregnant? Our sour cream guide covers labels, taco bars, and how long it can sit out.",
+    "claims": [
+      {
+        "text": "Choose fat-free sour cream made from pasteurized milk: CDC lists dairy products made from pasteurized milk as safer choices in pregnancy and raw-milk dairy as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says some dairy products are not made with pasteurized milk, so check the label.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 125 mg calcium per 100 g of fat-free sour cream in PregNut’s historical USDA-based dataset; a spoonful is much smaller than 100 g.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Can you have sour cream while pregnant? Our sour cream guide covers labels, taco bars, and how long it can sit out.",
+        "source": {
+          "name": "PregNut sour cream guide",
+          "url": "/blog/sour-cream-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut sour cream guide",
+        "url": "/blog/sour-cream-pregnancy/"
       }
     ]
   },
   "01179": {
     "verdict": "Safe with precautions",
-    "explanation": "Light sour cream is safe with precautions during pregnancy when made with pasteurized cultured milk and cream. It offers calcium, vitamin B12, and riboflavin while cutting saturated fat in half compared to traditional sour cream. Standard commercial manufacturing includes pasteurization, which kills pathogenic bacteria like Listeria. Use moderately on whole-grain chicken quesadillas or hot vegetable soups.",
+    "explanation": "Choose light sour cream made from pasteurized milk and cream: CDC lists dairy products made from pasteurized milk as safer choices in pregnancy and raw-milk dairy as riskier. FDA says some dairy products are not made with pasteurized milk, so check the label. This record contains 141 mg calcium per 100 g of light sour cream in PregNut’s historical USDA-based dataset; a spoonful is much smaller than 100 g. Can you have sour cream while pregnant? Our sour cream guide covers labels, taco bars, and how long it can sit out.",
+    "claims": [
+      {
+        "text": "Choose light sour cream made from pasteurized milk and cream: CDC lists dairy products made from pasteurized milk as safer choices in pregnancy and raw-milk dairy as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says some dairy products are not made with pasteurized milk, so check the label.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 141 mg calcium per 100 g of light sour cream in PregNut’s historical USDA-based dataset; a spoonful is much smaller than 100 g.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Can you have sour cream while pregnant? Our sour cream guide covers labels, taco bars, and how long it can sit out.",
+        "source": {
+          "name": "PregNut sour cream guide",
+          "url": "/blog/sour-cream-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut sour cream guide",
+        "url": "/blog/sour-cream-pregnancy/"
       }
     ]
   },

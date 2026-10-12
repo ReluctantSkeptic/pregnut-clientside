@@ -225,15 +225,54 @@
   },
   "18320": {
     "verdict": "Safe with precautions",
-    "explanation": "Lemon meringue pie is safe during pregnancy only when the meringue is thoroughly cooked or made with pasteurized egg whites. Raw or lightly torched unpasteurized egg whites can harbor Salmonella, which poses serious health risks for pregnant individuals. The FDA advises ensuring that all egg dishes and meringue toppings reach an internal temperature of at least 160 degrees Fahrenheit. Purchase commercially prepared pies that use pasteurized eggs and keep them refrigerated.",
+    "explanation": "Can you eat lemon meringue pie while pregnant? A baked, store-bought pie is the safer choice. FDA lists homemade meringue among foods that may contain raw or lightly cooked eggs to avoid in pregnancy, and says store-bought versions are often already cooked or pasteurized. For homemade pie, FDA advises cooking dishes that contain eggs to 160°F, checked with a food thermometer, or using pasteurized eggs. This record contains 268 calories per 100 g of lemon meringue pie in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our eggs guide explains pasteurized eggs and other egg-based desserts.",
+    "claims": [
+      {
+        "text": "Can you eat lemon meringue pie while pregnant? A baked, store-bought pie is the safer choice. FDA lists homemade meringue among foods that may contain raw or lightly cooked eggs to avoid in pregnancy, and says store-bought versions are often already cooked or pasteurized.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "For homemade pie, FDA advises cooking dishes that contain eggs to 160°F, checked with a food thermometer, or using pasteurized eggs.",
+        "source": {
+          "name": "FDA: egg safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        }
+      },
+      {
+        "text": "This record contains 268 calories per 100 g of lemon meringue pie in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our eggs guide explains pasteurized eggs and other egg-based desserts.",
+        "source": {
+          "name": "PregNut eggs guide",
+          "url": "/blog/eggs-during-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA",
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "FDA: egg safety",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut eggs guide",
+        "url": "/blog/eggs-during-pregnancy/"
       }
     ]
   },
