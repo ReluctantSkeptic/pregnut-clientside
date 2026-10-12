@@ -8,7 +8,7 @@ date: 2026-09-25
 ogType: article
 schemaType: Article
 tags: post
-dateModified: 2026-10-05
+dateModified: 2026-10-12
 ---
 
 **The short answer:** [ACOG advises 8–12 cups (64–96 US fluid ounces) of water each day during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy). Drink across the day instead of trying to catch up all at once. This is general guidance; your prenatal care team can help you adapt it to your health and activity.
@@ -33,5 +33,15 @@ For a simple routine, keep water available with meals and between them. [ACOG su
 ## When should you ask for help?
 
 If nausea or vomiting makes drinking difficult, tell your prenatal care team. The [CDC lists being unable to drink for more than 8 hours, or vomiting so that fluids will not stay down, among urgent maternal warning signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html). Seek medical care immediately for those symptoms. Ask your clinician how to adjust fluid intake if you have been given a personal fluid limit or have another condition that changes your needs.
+
+## Common questions
+
+### How much water should a pregnant woman drink a day in ounces or liters?
+
+[ACOG's 8–12 cups](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) equals **64–96 US fluid ounces**, or about **1.9–2.8 liters** of water a day. In 500 mL bottles, that is roughly 4 to 6 bottles.
+
+### Does the amount change by trimester or with twins?
+
+ACOG gives one range for pregnancy rather than a separate number for each trimester. If you are carrying twins, have a medical condition, or have been told to limit fluids, ask your prenatal care team for a personal target.
 
 **Sources and limits:** [ACOG's pregnancy nutrition FAQ](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), the [National Academies' water reference](https://nap.nationalacademies.org/skim.php?chap=156-166&record_id=11537), [ODPHP's pregnancy nutrition tips](https://odphp.health.gov/myhealthfinder/pregnancy/nutrition-and-physical-activity/eat-healthy-during-pregnancy-quick-tips), and [CDC urgent warning signs](https://www.cdc.gov/hearher/maternal-warning-signs/index.html). PregNut's food charts do not measure your daily water intake; this guide is educational and does not replace individualized prenatal care.

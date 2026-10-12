@@ -102,6 +102,40 @@ const FOOD_TITLE_OVERRIDES = {
   "43312": "Canned Mixed Vegetables with Corn and Beans | PregNut"
 };
 
+// Search-intent titles and descriptions for food pages where Search Console shows
+// "is X safe during pregnancy" queries at positions 4-11 with no clicks (2026-10-12).
+// Used for <title> and meta description only; the on-page heading is unchanged.
+const FOOD_SEARCH_OVERRIDES = {
+  "01020": {
+    title: "Is Fontina Cheese Safe During Pregnancy? | PregNut",
+    description: "Fontina is a safer choice in pregnancy when made with pasteurized milk; FDA notes some specialty cheeses are not. Label checks and nutrients per 100 g."
+  },
+  "01035": {
+    title: "Is Provolone Safe During Pregnancy? | PregNut",
+    description: "Provolone is a safer choice in pregnancy when made with pasteurized milk. CDC says heat deli-sliced cheese to 165°F. Label tips and nutrients per 100 g."
+  },
+  "01040": {
+    title: "Is Swiss Cheese Safe During Pregnancy? | PregNut",
+    description: "CDC lists pasteurized Swiss as a safer hard cheese in pregnancy. When deli-sliced Swiss needs heating to 165°F, plus calcium and B12 per 100 g."
+  },
+  "01043": {
+    title: "Can You Eat Pimento Cheese While Pregnant? | PregNut",
+    description: "Pimento cheese made with pasteurized cheese and store-bought mayo fits CDC and FDA safer choices in pregnancy. What to ask about house-made spreads."
+  },
+  "11603": {
+    title: "Can You Eat Jicama While Pregnant? | PregNut",
+    description: "Yes, you can eat jicama while pregnant once it is washed. FDA says to wash produce even if you peel it. Washing steps, plus vitamin C per 100 g."
+  },
+  "18320": {
+    title: "Can You Eat Lemon Meringue Pie When Pregnant? | PregNut",
+    description: "FDA lists homemade meringue among raw-egg foods to avoid in pregnancy. Why baked store-bought pie is the safer choice, and the 160°F rule for homemade."
+  },
+  "19912": {
+    title: "Is Agave Syrup Safe During Pregnancy? | PregNut",
+    description: "Agave syrup is not on CDC's list of riskier foods in pregnancy, but it counts as added sugar. How much to limit, plus calories per 100 g."
+  }
+};
+
 function slugify(value) {
   return String(value || "")
     .normalize("NFKD")
@@ -294,8 +328,8 @@ const items = (foodData.foods || [])
       topNutrients,
       summary: summaryText(topNutrients),
       guidance: foodExplanations[food.id] || null,
-      metaDescription: pageDescription,
-      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
+      metaDescription: (FOOD_SEARCH_OVERRIDES[food.id] && FOOD_SEARCH_OVERRIDES[food.id].description) || pageDescription,
+      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : ((FOOD_SEARCH_OVERRIDES[food.id] && FOOD_SEARCH_OVERRIDES[food.id].title) || FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
       readingLinks: readingLinks(food, flags, topNutrients),
       toolLinks: toolLinks(topNutrients),
       isAvoid,

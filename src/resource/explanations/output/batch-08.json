@@ -1002,7 +1002,7 @@
   },
   "04639": {
     "verdict": "Safe with precautions",
-    "explanation": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy. FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch. This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation.",
+    "explanation": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy. FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch. This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation. Is ranch dressing safe during pregnancy? Our ranch guide covers bottled, restaurant, and homemade ranch.",
     "claims": [
       {
         "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy.",
@@ -1024,9 +1024,16 @@
           "name": "Food data and limitations",
           "url": "/about/#food-data-sources"
         }
+      },
+      {
+        "text": "Is ranch dressing safe during pregnancy? Our ranch guide covers bottled, restaurant, and homemade ranch.",
+        "source": {
+          "name": "PregNut ranch dressing guide",
+          "url": "/blog/ranch-dressing-pregnancy/"
+        }
       }
     ],
-    "dateModified": "2026-10-07",
+    "dateModified": "2026-10-12",
     "sources": [
       {
         "name": "FDA: dairy and eggs for moms-to-be",
@@ -1035,6 +1042,10 @@
       {
         "name": "Food data and limitations",
         "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut ranch dressing guide",
+        "url": "/blog/ranch-dressing-pregnancy/"
       }
     ]
   },

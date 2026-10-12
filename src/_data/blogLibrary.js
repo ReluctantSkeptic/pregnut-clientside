@@ -58,6 +58,7 @@ module.exports = [
     ["medium-rare-steak-pregnancy", "Steak & burger temperatures"],
     ["pepperoni-pregnancy", "Pepperoni & pizza"],
     ["mayonnaise-pregnancy", "Mayonnaise & aioli"],
+    ["ranch-dressing-pregnancy", "Ranch & salad dressings"],
     ["sour-cream-pregnancy", "Sour cream"],
     ["ice-cream-pregnancy", "Ice cream & soft serve"],
   ]),

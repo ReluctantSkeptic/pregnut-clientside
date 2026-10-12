@@ -323,15 +323,54 @@
   },
   "01020": {
     "verdict": "Safe with precautions",
-    "explanation": "Fontina cheese is safe with precautions during pregnancy when made with pasteurized milk. It delivers substantial amounts of calcium, vitamin B12, and protein to support skeletal development. Because some traditional European Fontina varieties use raw milk, always read the package label carefully. If pasteurization cannot be confirmed, heat the cheese until thoroughly melted and steaming hot.",
+    "explanation": "Is fontina safe during pregnancy? Choose fontina labeled as made with pasteurized milk. CDC lists any cheese made with raw milk as a riskier choice in pregnancy, and raw-milk cheeses heated to 165°F or until steaming hot as safer. FDA notes that some cheeses, especially specialty or locally sold ones, are not made with pasteurized milk, so read the label or ask. This record contains 550 mg calcium and 25.6 g protein per 100 g of fontina in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide explains deli-sliced cheese and other varieties.",
+    "claims": [
+      {
+        "text": "Is fontina safe during pregnancy? Choose fontina labeled as made with pasteurized milk. CDC lists any cheese made with raw milk as a riskier choice in pregnancy, and raw-milk cheeses heated to 165°F or until steaming hot as safer.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA notes that some cheeses, especially specialty or locally sold ones, are not made with pasteurized milk, so read the label or ask.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 550 mg calcium and 25.6 g protein per 100 g of fontina in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide explains deli-sliced cheese and other varieties.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -533,15 +572,54 @@
   },
   "01043": {
     "verdict": "Safe with precautions",
-    "explanation": "Pasteurized process pimento cheese is safe with precautions during pregnancy when consumed in moderation. The heat treatment applied during processing eliminates harmful bacteria like Listeria and Salmonella. It delivers calcium and protein, but processed cheeses often contain elevated sodium and saturated fat levels. Spread a modest portion onto whole-grain crackers or celery sticks.",
+    "explanation": "Can you eat pimento cheese while pregnant? Usually yes. This record is pasteurized process pimento cheese, and CDC lists hard cheeses such as cheddar, when made with pasteurized milk, as safer choices. FDA says commercial mayonnaise contains pasteurized eggs, so homemade pimento cheese made with pasteurized cheese and store-bought mayonnaise fits the safer choices; ask about house-made spreads that use homemade mayonnaise. This record contains 614 mg calcium and 22.13 g protein per 100 g in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide covers pimento cheese alongside provolone, Swiss, and fontina.",
+    "claims": [
+      {
+        "text": "Can you eat pimento cheese while pregnant? Usually yes. This record is pasteurized process pimento cheese, and CDC lists hard cheeses such as cheddar, when made with pasteurized milk, as safer choices.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says commercial mayonnaise contains pasteurized eggs, so homemade pimento cheese made with pasteurized cheese and store-bought mayonnaise fits the safer choices; ask about house-made spreads that use homemade mayonnaise.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 614 mg calcium and 22.13 g protein per 100 g in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide covers pimento cheese alongside provolone, Swiss, and fontina.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -575,15 +653,61 @@
   },
   "01035": {
     "verdict": "Recommended",
-    "explanation": "Provolone cheese is recommended during pregnancy as a nutritious and safe dairy food. It delivers high amounts of calcium, vitamin B12, and protein to support expanding maternal blood volume and fetal bone growth. Standard commercial Provolone has low moisture and is produced from pasteurized milk, protecting against foodborne illness. Layer slices onto warm sandwiches or bake into Italian pasta dishes.",
+    "explanation": "Is provolone safe during pregnancy? Yes, when the label says it is made with pasteurized milk. CDC lists pasteurized hard cheeses as safer choices and any cheese made with raw milk as riskier. FDA notes that some cheeses are not made with pasteurized milk, especially those sold locally, so check the label. CDC lists unheated cheese sliced at a deli as a riskier choice; heat counter-sliced provolone to 165°F or until steaming hot, as in a hot sandwich. This record contains 756 mg calcium and 25.58 g protein per 100 g of provolone in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. See our cheese guide for pasteurized vs unpasteurized cheese.",
+    "claims": [
+      {
+        "text": "Is provolone safe during pregnancy? Yes, when the label says it is made with pasteurized milk. CDC lists pasteurized hard cheeses as safer choices and any cheese made with raw milk as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA notes that some cheeses are not made with pasteurized milk, especially those sold locally, so check the label.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists unheated cheese sliced at a deli as a riskier choice; heat counter-sliced provolone to 165°F or until steaming hot, as in a hot sandwich.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record contains 756 mg calcium and 25.58 g protein per 100 g of provolone in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "See our cheese guide for pasteurized vs unpasteurized cheese.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -617,15 +741,50 @@
   },
   "01040": {
     "verdict": "Recommended",
-    "explanation": "Swiss cheese is recommended during pregnancy as a nutritious and safe hard cheese. It supplies exceptionally high levels of vitamin B12, calcium, and zinc, which are vital for maternal red blood cells and fetal development. The FDA and NHS classify hard Swiss cheese as safe to eat whether made from pasteurized or unpasteurized milk. Layer a slice into a hot lean poultry sandwich or eat alongside fresh fruit.",
-    "sources": [
+    "explanation": "Is Swiss cheese safe during pregnancy? Yes, when it is made with pasteurized milk: CDC lists Swiss, Gruyère, and Emmental among hard cheeses that are safer choices when made with pasteurized milk, and lists any cheese made with raw milk as riskier. CDC also lists unheated cheese sliced at a deli as a riskier choice, so heat counter-sliced Swiss to 165°F or until steaming hot, as in a melted sandwich. This record contains 890 mg calcium and 3.06 mcg vitamin B12 per 100 g of Swiss cheese in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide covers provolone, fontina, and pimento cheese too.",
+    "claims": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        "text": "Is Swiss cheese safe during pregnancy? Yes, when it is made with pasteurized milk: CDC lists Swiss, Gruyère, and Emmental among hard cheeses that are safer choices when made with pasteurized milk, and lists any cheese made with raw milk as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "NHS Foods to Avoid in Pregnancy",
-        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+        "text": "CDC also lists unheated cheese sliced at a deli as a riskier choice, so heat counter-sliced Swiss to 165°F or until steaming hot, as in a melted sandwich.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record contains 890 mg calcium and 3.06 mcg vitamin B12 per 100 g of Swiss cheese in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide covers provolone, fontina, and pimento cheese too.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },

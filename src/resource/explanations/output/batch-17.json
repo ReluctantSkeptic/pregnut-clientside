@@ -1009,15 +1009,43 @@
   },
   "19912": {
     "verdict": "Limit",
-    "explanation": "Agave syrup is safe to consume during pregnancy, but you should use it sparingly. It has a lower glycemic index than table sugar, but it is heavily concentrated in fructose and calories. USDA guidelines recommend treating agave nectar like any added sweetener and limiting total intake. Drizzle just a light teaspoon over morning oatmeal or replace it with mashed fresh berries.",
-    "sources": [
+    "explanation": "Is agave safe during pregnancy? CDC’s pregnancy food-safety chart does not list sweeteners like agave syrup among riskier foods; the reason to limit it is sugar. CDC counts sugars from syrups and honey as added sugars and, citing the Dietary Guidelines, says adults should have no more than 10 grams of added sugars per meal. This record contains 310 calories per 100 g of agave syrup in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "Is agave safe during pregnancy? CDC’s pregnancy food-safety chart does not list sweeteners like agave syrup among riskier foods; the reason to limit it is sugar.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "CDC counts sugars from syrups and honey as added sugars and, citing the Dietary Guidelines, says adults should have no more than 10 grams of added sugars per meal.",
+        "source": {
+          "name": "CDC: added sugars",
+          "url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+        }
+      },
+      {
+        "text": "This record contains 310 calories per 100 g of agave syrup in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: added sugars",
+        "url": "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },

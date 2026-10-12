@@ -1,12 +1,12 @@
 ---
 title: "Iron-Rich Foods During Pregnancy: Practical Pairings"
-seoTitle: "Iron-Rich Foods for Pregnancy: Practical Pairings"
-description: Compare iron in half-cup servings of lentils, spinach, tofu, and beans, plus vitamin C pairings and prenatal label guidance.
+seoTitle: "Iron-Rich Foods for Pregnancy: List and Pairings"
+description: Foods high in iron for pregnancy, with NIH amounts for fortified cereal, beans, lentils, tofu, spinach, and meat, plus vitamin C pairings.
 layout: post.njk
 permalink: /blog/iron-foods-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-26
+dateModified: 2026-10-12
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-lentils-100g.webp
@@ -20,6 +20,22 @@ tags: post
 **The short answer:** Iron needs rise during pregnancy. [ACOG](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) lists 27 mg per day. Foods can contribute, and a prenatal vitamin often supplies iron, but a clinician should guide treatment if blood tests show anemia.
 
 <figure class="post-image"><img src="/resource/portions/portion-lentils-100g.webp" srcset="/resource/portions/portion-lentils-100g-600.webp 600w, /resource/portions/portion-lentils-100g.webp 900w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Illustration of cooked lentils in a bowl" width="900" height="900" loading="eager" fetchpriority="high"><figcaption>Illustrative food image; not a measured serving.</figcaption></figure>
+
+## Which foods are highest in iron for pregnancy?
+
+Fortified breakfast cereal, beans, lentils, tofu, cooked spinach, and lean meat are among the highest-iron everyday foods. The [NIH iron food table](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) lists these servings:
+
+| Food | Serving | Iron |
+| --- | --- | ---: |
+| Breakfast cereal fortified with 100% of the Daily Value | 1 serving | 18 mg |
+| White beans, canned | 1 cup | 8 mg |
+| Lentils, boiled | ½ cup | 3 mg |
+| Spinach, boiled | ½ cup | 3 mg |
+| Tofu, firm | ½ cup | 3 mg |
+| Chickpeas, boiled | ½ cup | 2 mg |
+| Beef, braised bottom round | 3 ounces | 2 mg |
+
+[ACOG](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) names lean red meat, poultry, fish, dried beans and peas, iron-fortified cereals, and prune juice as iron sources in pregnancy. Cook meat, poultry, and fish fully, as [CDC advises](https://www.cdc.gov/food-safety/foods/pregnant-women.html). Cooked oysters are also high in iron (NIH lists 8 mg in 3 ounces); see our [oysters guide](/blog/oysters-pregnancy/) for why they must be cooked.
 
 ## What foods contain iron?
 
@@ -58,6 +74,10 @@ Spinach contains iron, but food tables alone do not describe how much your body 
 ### Do I need an extra iron pill if my prenatal contains iron?
 
 Do not double up automatically. Extra iron can cause side effects, and the right dose depends on your lab results and care plan. Bring your prenatal label to an appointment if you are unsure.
+
+### Which fruits are high in iron?
+
+Fruit is not a major iron source. In the NIH table, ¼ cup of raisins provides about **1 mg**, and ACOG lists **prune juice** among iron sources. Fruit is more useful for its vitamin C, which helps you absorb plant iron, as described above.
 
 ### What if my prenatal is a gummy?
 

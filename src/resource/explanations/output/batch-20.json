@@ -891,15 +891,54 @@
   },
   "11603": {
     "verdict": "Safe with precautions",
-    "explanation": "Raw jicama is safe and refreshing during pregnancy when peeled and washed properly. It provides prebiotic inulin fiber, vitamin C, and crisp hydration to support gut health and prevent constipation. CDC produce safety guidance advises scrubbing the tuber under running water and thoroughly peeling away the fibrous outer peel, which is inedible. Slice peeled jicama into sticks and sprinkle with lime juice and chili powder for a hydrating snack.",
-    "sources": [
+    "explanation": "Can you eat jicama while pregnant? Yes, washed. CDC lists washed fruits and vegetables as safer choices in pregnancy and unwashed produce as riskier. FDA advises washing produce even if you will peel it, so dirt and bacteria are not carried from the skin when you cut it, and scrubbing firm produce with a clean produce brush. This record contains 20.2 mg vitamin C and 38 calories per 100 g of raw jicama in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. Our produce-washing guide has step-by-step instructions.",
+    "claims": [
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+        "text": "Can you eat jicama while pregnant? Yes, washed. CDC lists washed fruits and vegetables as safer choices in pregnancy and unwashed produce as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "FDA",
+        "text": "FDA advises washing produce even if you will peel it, so dirt and bacteria are not carried from the skin when you cut it, and scrubbing firm produce with a clean produce brush.",
+        "source": {
+          "name": "FDA: selecting and serving produce safely",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      },
+      {
+        "text": "This record contains 20.2 mg vitamin C and 38 calories per 100 g of raw jicama in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our produce-washing guide has step-by-step instructions.",
+        "source": {
+          "name": "PregNut produce-washing guide",
+          "url": "/blog/wash-produce-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: selecting and serving produce safely",
         "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut produce-washing guide",
+        "url": "/blog/wash-produce-pregnancy/"
       }
     ]
   },

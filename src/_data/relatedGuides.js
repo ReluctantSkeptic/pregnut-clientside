@@ -7,6 +7,10 @@ module.exports = {
     { url: "/blog/eggs-during-pregnancy/", title: "Check egg doneness and pasteurization" },
     { url: "/blog/deli-meat-pregnancy/", title: "Deli meat and cold cuts" }
   ],
+  "/blog/ranch-dressing-pregnancy/": [
+    { url: "/blog/mayonnaise-pregnancy/", title: "Mayonnaise and aioli" },
+    { url: "/blog/sour-cream-pregnancy/", title: "Sour cream labels and storage" }
+  ],
   "/blog/sour-cream-pregnancy/": [
     { url: "/blog/raw-milk-pregnancy/", title: "Check milk and yogurt pasteurization" },
     { url: "/blog/calcium-without-dairy-pregnancy/", title: "Compare calcium foods" }

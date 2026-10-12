@@ -1,12 +1,12 @@
 ---
 title: "Choline Foods During Pregnancy: Eggs, Beans, and Prenatal Labels"
-seoTitle: "Choline Foods in Pregnancy Beyond Eggs"
+seoTitle: "Choline in Pregnancy: Eggs, Other Foods, and Labels"
 description: Compare choline in eggs and egg-free foods by everyday portions, then check how much your prenatal label contributes during pregnancy.
 layout: post.njk
 permalink: /blog/choline-foods-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-22
-dateModified: 2026-09-26
+dateModified: 2026-10-12
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/portion-eggs-100g.webp
@@ -43,7 +43,7 @@ These examples come from [PregNut's USDA-based food data](/about/) and use the s
 
 An egg, a serving of salmon, and a bowl of soybeans will not usually weigh the same. Use the numbers to compare nutrient density, then account for your actual portion.
 
-### What do everyday portions add?
+### How much choline is in an egg and other everyday portions?
 
 The [NIH choline food table](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/) gives amounts for portions people may actually eat:
 
@@ -69,6 +69,18 @@ Yes. The egg-free portions above show how soybeans, quinoa, and broccoli contrib
 
 Two large hard-boiled eggs provide about **294 mg**, compared with the **450 mg** pregnancy adequate intake. They contribute substantially but do not cover the entire reference amount. Your other foods and prenatal label matter, too.
 
+### Do most pregnant people get enough choline?
+
+Often not. The [NIH choline fact sheet](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/) says about **90% to 95%** of pregnant women consume less choline than the adequate intake, and that prenatal supplements typically contain little if any choline. [ACOG](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy) says experts recommend **450 mg** of choline a day during pregnancy and names chicken, beef, eggs, milk, soy products, and peanuts as sources.
+
+### Is choline safe during pregnancy? How much is too much?
+
+Choline from food is part of a normal diet. NIH sets the upper limit for choline from food and supplements combined at **3,500 mg a day** for pregnant adults and **3,000 mg** for pregnant teens ages 14 to 18. NIH links very high intakes to a fishy body odor, vomiting, heavy sweating and salivation, low blood pressure, and liver toxicity.
+
+### What form of choline is in supplements?
+
+NIH lists **choline bitartrate, phosphatidylcholine, and lecithin** as the forms found in supplements, typically 10 mg to 250 mg per product, and says no studies have compared how well these forms are absorbed. Compare the milligrams of choline on the Supplement Facts panel rather than the form name.
+
 ### Should I buy a choline-only supplement?
 
 That depends on your diet, prenatal formulation, and medical history. Bring the product's Supplement Facts panel to a prenatal visit before adding it.
@@ -77,4 +89,4 @@ That depends on your diet, prenatal formulation, and medical history. Bring the 
 
 The intake target helps with nutrition planning. It does not mean that taking more than the target produces a better outcome. Avoid exceeding supplement directions without individualized advice.
 
-**Sources:** [NIH choline fact sheet](https://ods.od.nih.gov/factsheets/Choline-Consumer/), [NIH choline food table](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/), [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), and [CDC safer food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html). This guide is educational and does not replace prenatal care.
+**Sources:** [NIH choline fact sheet](https://ods.od.nih.gov/factsheets/Choline-Consumer/), [ACOG healthy eating during pregnancy](https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy), [NIH choline food table](https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/), [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), and [CDC safer food choices](https://www.cdc.gov/food-safety/foods/pregnant-women.html). This guide is educational and does not replace prenatal care.
