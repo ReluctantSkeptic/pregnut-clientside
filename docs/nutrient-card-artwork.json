@@ -1,0 +1,92 @@
+{
+  "created": "2026-10-14",
+  "tool": "Built-in image_gen",
+  "format": "256x256 transparent RGBA PNG",
+  "fit": "Visible subject normalized into a 216px area with 20px minimum transparent margins; alpha-preserving FFmpeg resize.",
+  "assets": [
+    {
+      "nutrient": "calcium",
+      "file": "src/resource/nutrients/calcium.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: a single gently curved ivory bone, friendly simplified anatomical bone shape, warm ivory cotton.",
+      "generatedSource": "exec-1bb7c24b-102c-4b58-9e97-42d00371bf1d.png"
+    },
+    {
+      "nutrient": "choline",
+      "file": "src/resource/nutrients/choline.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one fully hard-boiled egg half, firm golden yolk encircled by creamy ivory egg white.",
+      "generatedSource": "exec-f2ce3f8b-f423-4c0c-b330-df338dd31413.png"
+    },
+    {
+      "nutrient": "dha",
+      "file": "src/resource/nutrients/dha.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one small sage-blue fish beside one short curling teal ocean wave, compact combined silhouette.",
+      "generatedSource": "exec-57e41cb4-758e-4e9a-9ab9-168ce7a3b65b.png"
+    },
+    {
+      "nutrient": "folate",
+      "file": "src/resource/nutrients/folate-dfe.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one short sprig of three olive-green leaves on a slender stem.",
+      "generatedSource": "exec-bfdfcfe6-c415-4bae-b42b-fb7e493456ef.png"
+    },
+    {
+      "nutrient": "iodine",
+      "file": "src/resource/nutrients/iodine.png",
+      "prompt": "Style reference only: the ivory felt bone. Generate a NEW icon in exactly its opaque needle-felted plush fibre material and stitched sculpture style, but subject is one compact upright sprig of lavender seaweed, three rounded wavy leaves on a short stem. Square canvas. Opaque felt seaweed only, no translucent botanical photograph, no floor, no background, no halo, no shadow outside the seaweed. Actual transparent RGBA around the complete object. Fully contained centered compact silhouette filling 75% of the square, equal clear transparent margins. No badge, no disk, no frame, no text.",
+      "generatedSource": "exec-a2c782e5-1327-43fe-9e8a-5e677be6cde3.png"
+    },
+    {
+      "nutrient": "iron",
+      "file": "src/resource/nutrients/iron.png",
+      "prompt": "Edit target image: the red felt droplet. Remove ALL background, floor, cast shadow, glow and coloured haze so ONLY the felt droplet remains on actual transparent RGBA pixels. Preserve the exact red felt droplet shape, stitches and lighting. Square canvas, fully contained object, transparent margins. No white matte, no checkerboard image. Background alpha must be zero around the entire object.",
+      "generatedSource": "exec-7679d6ab-793b-4628-9079-66729200a708.png"
+    },
+    {
+      "nutrient": "potassium",
+      "file": "src/resource/nutrients/potassium.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one small ripe golden banana, gently curved silhouette, muted olive stem. Match the supplied reference's opaque felt fibre and stitching material, not a realistic food photo. Every pixel outside the subject must be transparent, with no studio ground, haze or cast shadow.",
+      "generatedSource": "exec-dd65a79e-bf6f-47f9-96bd-c2639231e4c6.png"
+    },
+    {
+      "nutrient": "protein",
+      "file": "src/resource/nutrients/protein.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one plump terracotta kidney bean, a tiny ivory hilum detail, tactile cotton weave. Match the supplied reference's opaque felt fibre and stitching material, not a realistic food photo. Every pixel outside the subject must be transparent, with no studio ground, haze or cast shadow.",
+      "generatedSource": "exec-01a78af5-b650-4c1f-86c5-3c8f4bbaf575.png"
+    },
+    {
+      "nutrient": "riboflavin",
+      "file": "src/resource/nutrients/riboflavin.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one small warm coral sun with eight short golden rays around a plush circular sun center; rays are part of the sun motif, no background disk. Match the supplied reference's opaque felt fibre and stitching material, not a realistic food photo. Every pixel outside the subject must be transparent, with no studio ground, haze or cast shadow.",
+      "generatedSource": "exec-e8d801cb-d40e-4679-b2dd-d977563ef5fa.png"
+    },
+    {
+      "nutrient": "vitamin-b-6",
+      "file": "src/resource/nutrients/vitamin-b-6.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one small muted rose neuron motif, a plush round center with five gracefully branching arms and tiny rounded tips, compact connected silhouette.",
+      "generatedSource": "exec-d93e1fd5-2286-49ee-9241-d2b30710cb9f.png"
+    },
+    {
+      "nutrient": "vitamin-b-12",
+      "file": "src/resource/nutrients/vitamin-b-12.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one deep berry-red blood cell, soft biconcave rounded disk with a gently indented center; this disk IS the subject, no backing badge or extra dots.",
+      "generatedSource": "exec-47e4c9df-7c53-4109-810f-ced89ddc154c.png"
+    },
+    {
+      "nutrient": "vitamin-c",
+      "file": "src/resource/nutrients/vitamin-c.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one orange citrus slice with creamy ivory radial segment dividers, warm burnt-orange flesh and thin golden rind, slight three-quarter angle.",
+      "generatedSource": "exec-74beba04-63a9-4a22-9b17-506fb67ae79a.png"
+    },
+    {
+      "nutrient": "vitamin-d",
+      "file": "src/resource/nutrients/vitamin-d.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one golden ochre sun with eight short rounded rays and a softly domed central sphere; rays are part of the sun motif, no background badge.",
+      "generatedSource": "exec-6175bf3b-6b18-4894-b5ca-e74112f3de01.png"
+    },
+    {
+      "nutrient": "zinc",
+      "file": "src/resource/nutrients/zinc.png",
+      "prompt": "Use case: stylized-concept. Asset: individual nutrient card icon for PregNut. Create one refined three-dimensional handcrafted wool-and-cotton felt sculpture cutout on a genuinely transparent RGBA background. NOT a badge: no disk, no backing patch, no border, no circular frame, no pedestal, no checkerboard pixels, no text, no watermark. Tactile fine felt fibres, clean soft edges, softly raised stitching only where the subject needs it. Soft upper-left studio light, balanced restrained natural colours. Center the whole subject in a square canvas, filling roughly 75% of the width and 75% of the height, with even transparent margin on all four sides. Make a compact legible silhouette that stays recognizable at 64px. Keep alpha edges clean for cream, sage and dark forest backgrounds. No cast shadow outside the subject, only self-shading. Subject: one small slate-blue protective shield with an ivory stitched rim, simple gently curved shield shape with a centered vertical stitch, no letter or symbol.",
+      "generatedSource": "exec-ec1aec78-c814-4507-a800-cb1a8dfa883d.png"
+    }
+  ]
+}

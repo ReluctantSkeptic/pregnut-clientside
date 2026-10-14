@@ -80,43 +80,6 @@
     var cards = document.querySelectorAll("[data-need-card]");
     if (!cards || !cards.length) return;
 
-    var nutrientIconIndex = {
-      "Calcium": 0,
-      "Choline": 1,
-      "DHA": 2,
-      "Folate (DFE)": 3,
-      "Iodine": 4,
-      "Iron": 5,
-      "Potassium": 6,
-      "Protein": 7,
-      "Riboflavin": 8,
-      "Vitamin B-6": 9,
-      "Vitamin B-12": 10,
-      "Vitamin C": 11,
-      "Vitamin D": 12,
-      "Zinc": 13
-    };
-
-    for (var i = 0; i < cards.length; i++) {
-      try {
-
-
-        var nutrientId = cards[i].getAttribute("data-nutrient") || "";
-        var iconIndex = Object.prototype.hasOwnProperty.call(nutrientIconIndex, nutrientId)
-          ? nutrientIconIndex[nutrientId]
-          : i;
-        var cover = cards[i].querySelector(".need-card-cover");
-        if (cover && !cover.querySelector(".need-card-icon")) {
-          var icon = document.createElement("span");
-          icon.className = "need-card-icon";
-          icon.setAttribute("aria-hidden", "true");
-          icon.style.setProperty("--icon-col", String(iconIndex % 4));
-          icon.style.setProperty("--icon-row", String(Math.floor(iconIndex / 4)));
-          cover.insertBefore(icon, cover.firstChild);
-        }
-      } catch (e) {}
-    }
-
     // RealFood reference: sequential 20% scroll segments, bottom-origin rotation,
     // and a mass-1 spring with stiffness 400 / damping 25 for the 1.03 hover scale.
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");

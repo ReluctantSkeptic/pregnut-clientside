@@ -24,3 +24,5 @@ One hue, no rainbow: forest fill (--accent) on #e9e5da track, 8px rounded bars t
 Rows: 48px rounded food photo (placeholder tile with serif initial when missing), name + muted detail, value, bar; whole row is one link; hover/focus tooltip gives the absolute amount and reference. Cards: --card, hairline border, 16–18px radius, no gradients or resting shadow.
 Controls: nutrient pill chips (native radios, horizontal scroll) and a two-segment Processed/Natural control; sticky toolbar docks under the 72px header (87px mobile).
 Disclosure: one visible summary line per chart plus an ⓘ popover (caution.js, .caution.is-info); long caveats move to <details>. Safety warnings are a small peach "!" button with the unchanged warning text. Every caveat sentence and source link stays on the page.
+
+Nutrient card artwork (2026-10-14): individual transparent RGBA PNGs, handcrafted felt/cotton motifs without circular badges or backing. Centered square assets with consistent transparent margins. Render as semantic img elements with explicit dimensions and object-fit: contain in the existing 56/60/78px artwork lane, preserving all card copy, links, proportions and motion.

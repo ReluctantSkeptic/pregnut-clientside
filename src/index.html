@@ -5,9 +5,9 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20261007
+  - /style/home.css?v=20261014-transparent-art
 pageScripts:
-  - /js/home.js?v=20260927-stack-refined
+  - /js/home.js?v=20261014-transparent-art
 ---
 
 <section class="home-hero" aria-label="Hero">
@@ -157,7 +157,7 @@ pageScripts:
               <article class="need-card" data-need-card data-nutrient="{{ nutrient.id }}" style="--i: {{ loop.index0 }}" tabindex="0" aria-label="{{ nutrient.label }} nutrient card">
                 <div class="need-paper">
                   <h3 class="need-card-nutrient">{{ nutrient.label }}</h3>
-                  <div class="need-card-cover"><span class="need-card-cover-label">Reference amount</span><strong class="need-card-cover-amount">{{ nutrient.amount }}</strong></div>
+                  <div class="need-card-cover"><img class="need-card-icon" src="{{ nutrient.artwork }}" width="256" height="256" alt="" loading="lazy" decoding="async"><span class="need-card-cover-label">Reference amount</span><strong class="need-card-cover-amount">{{ nutrient.amount }}</strong></div>
                   <p class="need-card-text">{{ nutrient.role }}</p>
                   <div class="need-card-evidence"><a href="{{ nutrient.guide or nutrient.source }}">Read the guide <span aria-hidden="true">↗</span></a></div>
                 </div>
