@@ -30,4 +30,6 @@ Cooking helps address germs; it **does not remove mercury**. FDA and EPA recomme
 
 Eating a food once does not establish that it was contaminated or that you are ill. If you have symptoms, know the food was recalled, or have a specific exposure concern, contact your prenatal clinician. The [CDC pregnancy food-safety chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) and [FDA Safe Eats guide](https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be) are the best starting points for current general guidance.
 
+**Related guides:** [pâté and meat spreads](/blog/pate-pregnancy/), [deli salads](/blog/deli-salads-pregnancy/), [cantaloupe and cut melon](/blog/cantaloupe-melon-pregnancy/), [raw cookie dough](/blog/cookie-dough-pregnancy/), and [raw egg foods](/blog/raw-egg-foods-pregnancy/).
+
 **Sources:** [CDC safer food choices for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA Safe Eats](https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be), and [FDA/EPA advice about eating fish](https://www.fda.gov/food/consumers/advice-about-eating-fish). This guide is educational and does not replace prenatal care.
