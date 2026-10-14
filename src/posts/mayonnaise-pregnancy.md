@@ -55,4 +55,6 @@ Not many per spoonful. PregNut's historical USDA-based data lists [regular mayon
 
 Yes. Bottled dressings fall under FDA's statement about commercial dressings made with pasteurized eggs. Fresh-made Caesar dressing at a restaurant is the one to ask about. Our [ranch dressing guide](/blog/ranch-dressing-pregnancy/) covers restaurant and homemade ranch; see also [honey mustard](/food/04706-dressing-honey-mustard-fat-free/) and [Thousand Island](/food/04017-salad-dressing-thousand-island-commercial-regular/) food pages.
 
+**Related:** [hollandaise, Caesar dressing, and other raw egg foods](/blog/raw-egg-foods-pregnancy/).
+
 **Sources:** [FDA dairy and eggs for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be), [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), and [CDC food-poisoning symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html). This guide is educational and does not replace prenatal care.

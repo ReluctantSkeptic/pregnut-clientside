@@ -59,4 +59,6 @@ Eating one does not mean you will get sick. The [CDC lists eggs among the foods 
 
 The [hard-boiled egg](/food/01129-egg-hard-boiled/), [poached egg](/food/01131-egg-poached/), and [scrambled egg](/food/01132-egg-scrambled/) pages compare nutrients per 100 grams. Those values describe reference foods; they do not verify the doneness, pasteurization, storage, or safety of the eggs on your plate. For egg and egg-free choline ideas, see our [choline foods guide](/blog/choline-foods-pregnancy/).
 
+**Related:** [raw egg foods](/blog/raw-egg-foods-pregnancy/) (meringue, hollandaise, Caesar, tiramisu) and [raw cookie dough](/blog/cookie-dough-pregnancy/).
+
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [CDC food-poisoning symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html), [FDA dairy and eggs food safety for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be), and [FDA egg safety](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety). This guide is educational and does not replace prenatal care.

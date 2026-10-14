@@ -62,4 +62,6 @@ Not if the bag says **pre-washed** or **ready-to-eat**. [FDA says](https://www.f
 
 Yes. [FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) washing produce even if you do not plan to eat the skin, so dirt and bacteria are not carried from the surface when you peel or cut it.
 
+**Related:** [cantaloupe and cut melon rules](/blog/cantaloupe-melon-pregnancy/).
+
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA selecting and serving produce safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely), and [FDA fruits, vegetables, and juices during pregnancy](https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be). This guide is educational and does not replace prenatal care.
