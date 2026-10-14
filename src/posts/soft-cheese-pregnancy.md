@@ -8,7 +8,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
-dateModified: 2026-10-12
+dateModified: 2026-10-14
 ---
 
 **The short answer:** Check both the **kind of cheese** and whether its milk was **pasteurized**. [CDC's pregnancy food-safety chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists pasteurized cheddar, cottage cheese, cream cheese, feta, and mozzarella among safer choices. It lists cheese made with raw milk and **unheated queso fresco-type cheese** among riskier choices. Queso fresco, queso blanco, and requesón need extra care **even when made with pasteurized milk**.
@@ -26,11 +26,11 @@ The milk makes the difference for most cheeses. [CDC](https://www.cdc.gov/food-s
 
 The [FDA explains](https://www.fda.gov/food/people-risk-foodborne-illness/fact-or-fiction-food-safety-moms-be) that cheese made from unpasteurized milk can become contaminated with *Listeria*, and says to check that the label reads “made with pasteurized milk.” [FDA also notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that while milk sold across state lines is pasteurized, some cheeses are not, especially those produced and sold locally on farms or at local cheese shops. If a farmers' market or specialty cheese has no label, ask, and skip it if no one can confirm. Fresh Mexican-style cheeses are the exception to “pasteurized means safer”; see the next section and our [queso fresco guide](/blog/queso-fresco-pregnancy/).
 
-## Are provolone, Swiss, fontina, and pimento cheese safe while pregnant?
+## Are provolone, Swiss, fontina, Monterey Jack, Colby, Port Salut, and pimento cheese safe while pregnant?
 
-Yes, when they are made with pasteurized milk, and deli-counter slices are heated. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) names **Swiss** among the hard cheeses that are safer when made with pasteurized milk. CDC's chart does not name provolone or fontina, so use the same check: look for “made with pasteurized milk” on the label, because [FDA notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that some cheeses, especially local or specialty ones, are not.
+Yes, when they are made with pasteurized milk, and deli-counter slices are heated. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) names **Swiss** among the hard cheeses that are safer when made with pasteurized milk. CDC's chart does not name provolone, fontina, Monterey Jack, Colby, or Port Salut, so use the same check: look for “made with pasteurized milk” on the label, because [FDA notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that some cheeses, especially local or specialty ones, are not. Port Salut is a soft or semi-soft cheese, so the pasteurization label matters the same way it does for other soft cheeses on CDC's chart.
 
-How the cheese is served matters too. CDC lists **unheated cheese sliced at a deli** as a riskier choice and deli-sliced cheese heated to **165°F or until steaming hot** as safer, so provolone or Swiss sliced at the counter belongs in a hot sandwich or melted dish. Pimento cheese is usually shredded cheddar mixed with mayonnaise: CDC lists pasteurized cheddar as a safer choice, and FDA says commercial mayonnaise contains pasteurized eggs. A house-made spread made with homemade mayonnaise is the one to ask about; see our [mayonnaise guide](/blog/mayonnaise-pregnancy/). Compare nutrients for [provolone](/food/01035-cheese-provolone/), [Swiss](/food/01040-cheese-swiss/), [fontina](/food/01020-cheese-fontina/), and [pimento cheese](/food/01043-cheese-pasteurized-process-pimento/).
+How the cheese is served matters too. CDC lists **unheated cheese sliced at a deli** as a riskier choice and deli-sliced cheese heated to **165°F or until steaming hot** as safer, so provolone, Swiss, Monterey Jack, or Colby sliced at the counter belongs in a hot sandwich or melted dish. Pimento cheese is usually shredded cheddar mixed with mayonnaise: CDC lists pasteurized cheddar as a safer choice, and FDA says commercial mayonnaise contains pasteurized eggs. A house-made spread made with homemade mayonnaise is the one to ask about; see our [mayonnaise guide](/blog/mayonnaise-pregnancy/). Compare nutrients for [provolone](/food/01035-cheese-provolone/), [Swiss](/food/01040-cheese-swiss/), [fontina](/food/01020-cheese-fontina/), [Monterey Jack](/food/01025-cheese-monterey/), [Colby](/food/01011-cheese-colby/), [Port Salut](/food/01034-cheese-port-de-salut/), and [pimento cheese](/food/01043-cheese-pasteurized-process-pimento/).
 
 ## Why is queso fresco different?
 

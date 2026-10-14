@@ -1,17 +1,22 @@
 ---
 title: "Queso Fresco During Pregnancy: Pasteurized, Cooked, and Restaurant"
-seoTitle: "Can You Eat Queso Fresco While Pregnant?"
-description: CDC and FDA advise avoiding unheated queso fresco in pregnancy, even pasteurized. When cooked queso fresco is safer, plus tacos, pupusas, and queso dip.
+seoTitle: "Can You Eat Queso While Pregnant? Fresco, Cooked, Dip"
+description: "Can you eat queso while pregnant? CDC and FDA advise avoiding unheated queso fresco, even pasteurized. When cooked queso is safer, plus dip and restaurants."
 layout: post.njk
 permalink: /blog/queso-fresco-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-10-07
+dateModified: 2026-10-14
 ogType: article
 schemaType: Article
 tags: post
 ---
 
 **The short answer:** Avoid **unheated** queso fresco while pregnant, even if the label says pasteurized. The [CDC lists any queso fresco-type cheese](https://www.cdc.gov/food-safety/foods/pregnant-women.html), pasteurized or not, as a riskier choice. Its safer choice is queso fresco **heated to 165°F or until steaming hot**, such as cheese melted inside a hot dish.
+
+## Can you eat queso while pregnant?
+
+“Queso” often means **queso fresco** or a similar fresh Mexican-style cheese, not melted cheddar. For that category, [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) and [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) advise avoiding **unheated** queso fresco-type cheese in pregnancy, even when the milk was pasteurized. Heat it to **165°F or until steaming hot** inside a dish. A hot cheese dip or nacho cheese made from pasteurized processed cheese is a different product—ask what is in it and whether it arrives steaming hot.
 
 ## Why is pasteurized queso fresco still a concern?
 
