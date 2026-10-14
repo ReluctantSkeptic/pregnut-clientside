@@ -102,6 +102,77 @@ const FOOD_TITLE_OVERRIDES = {
   "43312": "Canned Mixed Vegetables with Corn and Beans | PregNut"
 };
 
+// Search-intent titles and descriptions for food pages where Search Console shows
+// "is X safe during pregnancy" queries at positions 4-11 with no clicks (2026-10-12).
+// Used for <title> and meta description only; the on-page heading is unchanged.
+const FOOD_SEARCH_OVERRIDES = {
+  "01020": {
+    title: "Is Fontina Cheese Safe During Pregnancy? | PregNut",
+    description: "Fontina is a safer choice in pregnancy when made with pasteurized milk; FDA notes some specialty cheeses are not. Label checks and nutrients per 100 g."
+  },
+  "01035": {
+    title: "Is Provolone Safe During Pregnancy? | PregNut",
+    description: "Provolone is a safer choice in pregnancy when made with pasteurized milk. CDC says heat deli-sliced cheese to 165°F. Label tips and nutrients per 100 g."
+  },
+  "01040": {
+    title: "Is Swiss Cheese Safe During Pregnancy? | PregNut",
+    description: "CDC lists pasteurized Swiss as a safer hard cheese in pregnancy. When deli-sliced Swiss needs heating to 165°F, plus calcium and B12 per 100 g."
+  },
+  "01043": {
+    title: "Can You Eat Pimento Cheese While Pregnant? | PregNut",
+    description: "Pimento cheese made with pasteurized cheese and store-bought mayo fits CDC and FDA safer choices in pregnancy. What to ask about house-made spreads."
+  },
+  "11603": {
+    title: "Can You Eat Jicama While Pregnant? | PregNut",
+    description: "Yes, you can eat jicama while pregnant once it is washed. FDA says to wash produce even if you peel it. Washing steps, plus vitamin C per 100 g."
+  },
+  "18320": {
+    title: "Can You Eat Lemon Meringue Pie When Pregnant? | PregNut",
+    description: "FDA lists homemade meringue among raw-egg foods to avoid in pregnancy. Why baked store-bought pie is the safer choice, and the 160°F rule for homemade."
+  },
+  "19912": {
+    title: "Is Agave Syrup Safe During Pregnancy? | PregNut",
+    description: "Agave syrup is not on CDC's list of riskier foods in pregnancy, but it counts as added sugar. How much to limit, plus calories per 100 g."
+  },
+  // 2026-10-14 GSC safety-intent food pages (pos ~4-11, 0 clicks)
+  "20137": {
+    title: "Is Quinoa Safe During Pregnancy? | PregNut",
+    description: "Yes, cooked quinoa is fine in pregnancy. ACOG lists quinoa as a whole grain. Cooking tips, plus protein and iron per 100 g."
+  },
+  "06971": {
+    title: "Is Worcestershire Sauce Safe During Pregnancy? | PregNut",
+    description: "Worcestershire sauce is fine in ordinary cooking amounts in pregnancy. CDC does not list it as riskier. Sodium note and nutrients per 100 g."
+  },
+  "11955": {
+    title: "Can You Eat Sun-Dried Tomatoes While Pregnant? | PregNut",
+    description: "Yes, you can eat sun-dried tomatoes while pregnant; CDC does not list them as a riskier food. Oil-packed jar storage, plus iron and vitamin C per 100 g."
+  },
+  "01025": {
+    title: "Is Monterey Jack Cheese Safe During Pregnancy? | PregNut",
+    description: "Monterey Jack is a safer choice in pregnancy when made with pasteurized milk. CDC deli-slice 165°F rule, label checks, and calcium per 100 g."
+  },
+  "01034": {
+    title: "Is Port Salut Cheese Safe During Pregnancy? | PregNut",
+    description: "Choose Port Salut made with pasteurized milk in pregnancy. CDC's safer choice for soft cheese is heating it until steaming hot. Calcium per 100 g."
+  },
+  "01011": {
+    title: "Is Colby Jack Cheese Safe During Pregnancy? | PregNut",
+    description: "Colby and Colby Jack are safer in pregnancy when made with pasteurized milk. Label checks, deli 165°F tip, and calcium per 100 g."
+  },
+  "01057": {
+    title: "Is Eggnog Safe During Pregnancy? | PregNut",
+    description: "CDC lists homemade eggnog as riskier in pregnancy. Why pasteurized, alcohol-free store eggnog is the safer choice, plus calcium per 100 g."
+  },
+  "04706": {
+    title: "Can You Have Honey Mustard While Pregnant? | PregNut",
+    description: "Yes, bottled honey mustard dressing is fine in pregnancy. FDA says commercial dressings use pasteurized eggs. Homemade raw-egg sauces differ."
+  },
+  "04017": {
+    title: "Can You Eat Thousand Island Dressing While Pregnant? | PregNut",
+    description: "Bottled Thousand Island dressing is fine in pregnancy. FDA says commercial dressings use pasteurized eggs. When to ask about house-made sauces."
+  }
+};
+
 function slugify(value) {
   return String(value || "")
     .normalize("NFKD")
@@ -294,8 +365,8 @@ const items = (foodData.foods || [])
       topNutrients,
       summary: summaryText(topNutrients),
       guidance: foodExplanations[food.id] || null,
-      metaDescription: pageDescription,
-      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : (FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
+      metaDescription: (FOOD_SEARCH_OVERRIDES[food.id] && FOOD_SEARCH_OVERRIDES[food.id].description) || pageDescription,
+      seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : ((FOOD_SEARCH_OVERRIDES[food.id] && FOOD_SEARCH_OVERRIDES[food.id].title) || FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
       readingLinks: readingLinks(food, flags, topNutrients),
       toolLinks: toolLinks(topNutrients),
       isAvoid,

@@ -9,7 +9,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -23,7 +23,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -51,7 +51,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -65,7 +65,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -99,15 +99,43 @@
   },
   "10862": {
     "verdict": "Limit",
-    "explanation": "Pan-fried pork bacon should be limited during pregnancy because of its high sodium, saturated fat, and nitrate content. While it provides protein and vitamin B12, frequent intake of processed pork products is tied to elevated cardiovascular strain. Cook bacon until fully crisp and steaming hot to eliminate bacterial hazards before consuming. Savor an occasional single strip alongside nutrient-rich scrambled eggs and fresh fruit.",
-    "sources": [
+    "explanation": "This record contains 33.92 g protein and 1.09 mcg vitamin B12 per 100 g of pan-fried bacon in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists raw or undercooked meat, including pork, as a riskier choice during pregnancy and meat cooked to a safe internal temperature as the safer choice. The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day and to avoid highly processed foods high in sodium; this dataset does not list sodium, so check the package label.",
+    "claims": [
       {
-        "name": "USDA Food Safety",
-        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "text": "This record contains 33.92 g protein and 1.09 mcg vitamin B12 per 100 g of pan-fried bacon in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "CDC lists raw or undercooked meat, including pork, as a riskier choice during pregnancy and meat cooked to a safe internal temperature as the safer choice.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise adults to keep sodium under 2,300 mg a day and to avoid highly processed foods high in sodium; this dataset does not list sodium, so check the package label.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -131,7 +159,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -145,7 +173,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -159,7 +187,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -173,7 +201,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -187,7 +215,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -219,7 +247,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -233,7 +261,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -247,7 +275,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -275,7 +303,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -285,7 +313,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -299,7 +327,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -313,7 +341,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -327,7 +355,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -341,7 +369,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -355,7 +383,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "FDA Safe Eats",
@@ -373,7 +401,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -387,7 +415,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -397,7 +425,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -411,7 +439,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -429,7 +457,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -439,7 +467,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -457,7 +485,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -467,7 +495,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -481,7 +509,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -495,7 +523,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -513,7 +541,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -523,7 +551,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -537,7 +565,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -551,7 +579,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -579,7 +607,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -597,7 +625,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -621,7 +649,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "FDA Safe Eats",
@@ -635,7 +663,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA Dietary Guidelines",
@@ -653,7 +681,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -667,7 +695,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -677,7 +705,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "FDA Safe Eats",
@@ -695,7 +723,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -705,7 +733,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -723,7 +751,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -737,7 +765,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -747,7 +775,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -761,7 +789,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "FDA Safe Eats",
@@ -775,7 +803,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "FDA Safe Eats",
@@ -789,7 +817,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -807,7 +835,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -821,7 +849,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -835,7 +863,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -849,7 +877,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -877,7 +905,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -891,7 +919,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   }

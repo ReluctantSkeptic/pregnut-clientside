@@ -1,12 +1,12 @@
 ---
 title: "Juice During Pregnancy: Pasteurized, Fresh-Squeezed, and Smoothies"
-seoTitle: "Juice During Pregnancy: Check Pasteurization"
-description: Learn how to check juice and cider labels, ask about fresh-squeezed drinks, and use CDC guidance for unpasteurized juice during pregnancy.
+seoTitle: "What Juice Is Safe While Pregnant? Pasteurization Check"
+description: "What juice is safe while pregnant? Choose pasteurized juice or cider. How to read labels, juice bars, smoothies, and the CDC boil option for untreated juice."
 layout: post.njk
 permalink: /blog/juice-pasteurization-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-09-23
-dateModified: 2026-10-05
+dateModified: 2026-10-14
 ogType: article
 schemaType: Article
 tags: post
@@ -35,5 +35,16 @@ A smoothie can contain juice. FDA advises checking that the juice used in a smoo
 ## What can PregNut's juice pages tell me?
 
 The [apple juice](/food/09016-apple-juice-canned-or-bottled-unsweetened/), [orange juice](/food/09207-orange-juice-canned-unsweetened/), and [raw grapefruit juice](/food/09128-grapefruit-juice-white-raw/) pages show nutrient amounts for reference foods. A name such as “canned” or “raw” in a nutrient database does not verify the processing or safety of the drink you buy. For other food sources of vitamin C, see our [noncitrus vitamin C guide](/blog/vitamin-c-without-citrus-pregnancy/).
+
+
+## Common questions
+
+### What juice is safe while pregnant?
+
+**Pasteurized** juice or cider, or juice that was otherwise treated to kill harmful bacteria. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists unpasteurized juice or cider as riskier and pasteurized juice or cider as safer. If you already have untreated juice, CDC says to bring it to a **rolling boil for at least one minute** before drinking.
+
+### How much prune juice while pregnant?
+
+Neither CDC nor FDA sets a pregnancy-specific prune-juice amount. Use pasteurized juice, watch added sugar on the label, and ask your clinician if you are using prune juice for constipation—our [fiber guide](/blog/fiber-foods-constipation-pregnancy/) covers food options.
 
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA fruits, vegetables, and juices during pregnancy](https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be), and [FDA juice safety](https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety). This guide is educational and does not replace prenatal care.

@@ -1,6 +1,7 @@
 ---
 title: "Vitamin B6 Foods During Pregnancy and Morning Sickness"
-description: Compare vitamin B6 in salmon, potatoes, bananas, and avocado, and learn why food B6 and nausea treatment are different questions.
+seoTitle: "Vitamin B6 for Morning Sickness: Dose, Foods, and Forms"
+description: "Vitamin B6 for morning sickness: NIH-reported ACOG dose range, food amounts vs treatment, supplement forms, and what your prenatal already supplies."
 layout: post.njk
 permalink: /blog/vitamin-b6-foods-pregnancy/index.html
 author: Yuriy Stasyuk
@@ -13,7 +14,7 @@ socialImageWidth: 900
 socialImageHeight: 900
 socialImageAlt: Illustration of sliced avocado
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-14
 ---
 
 **The short answer:** Fish, potatoes, bananas, and other foods can contribute vitamin B6 to your diet. [NIH lists 1.9 mg per day](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) as the recommended amount during pregnancy. That nutrition target is a different question from using a B6 supplement to treat nausea. Eating a B6-containing food has not been shown to replace nausea treatment.
@@ -41,6 +42,18 @@ If nausea makes eating difficult, choose foods you can tolerate. ACOG suggests s
 
 For a separate option, read what the evidence says about [ginger tea and supplements for pregnancy nausea](/blog/ginger-tea-capsules-pregnancy-nausea/).
 
+## Does vitamin B6 help morning sickness?
+
+As a treatment, it can. [ACOG describes vitamin B6 as a safe, over-the-counter treatment that may be tried first](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) when diet and lifestyle changes do not help. ACOG adds that doxylamine can be added if B6 alone does not relieve symptoms, and that a prescription combining the two is available. ACOG's patient FAQ does not give a dose, so before taking B6 while pregnant, ask your clinician how much to take and check what your prenatal already supplies; see the dose section below. For food ideas while you feel sick, see [what to eat with morning sickness](/blog/foods-for-morning-sickness-pregnancy/).
+
+## What dose of vitamin B6 is used for morning sickness?
+
+The [NIH vitamin B6 fact sheet](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) reports that ACOG has recommended **10–25 mg of vitamin B6 three or four times a day** to treat nausea and vomiting of pregnancy, with doxylamine added if symptoms do not improve. In two trials NIH describes, **30–75 mg a day** reduced nausea. The upper limit is **100 mg a day** for adults and **80 mg a day** for ages 14–18, and NIH advises consulting a physician first because treatment doses can approach that limit. Your clinician should set the dose, counting the B6 in your prenatal.
+
+## What form of B6 is best?
+
+[NIH](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) says the most common form in supplements is **pyridoxine hydrochloride**, some products use pyridoxal 5'-phosphate (PLP), and absorption does not differ substantially among supplement forms. Tablets, capsules, chewables, and liquids are all available. A prescription that combines B6 with doxylamine is also an option, [according to ACOG](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy). Food B6 still counts toward your daily total, but it is not the form studied for nausea treatment.
+
 ## Should I add a B6 supplement?
 
 Check the vitamin B6 amount and serving size on your prenatal's **Supplement Facts** panel, then discuss any additional B6 or nausea treatment with your clinician. [NIH advises consulting a physician before taking B6 for pregnancy nausea](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) because treatment doses can approach intake limits. High supplemental intakes over time can harm nerves; ordinary food amounts have not been reported to cause that problem. Our [prenatal label guide](/blog/prenatal-vitamin-label-pregnancy/) can help you check what is already in your product.
@@ -54,6 +67,11 @@ No. It is the **recommended dietary allowance during pregnancy**, a nutrition re
 ### Is a banana enough B6 for the whole day?
 
 NIH lists about **0.4 mg in a medium banana**, part of the **1.9 mg daily pregnancy reference**. Other foods and your prenatal may contribute too. A banana is not a stand-alone treatment for nausea.
+
+
+### What is the best vitamin B6 for morning sickness?
+
+There is no single “best” brand. [NIH](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) says absorption does not differ substantially among common supplement forms, and pyridoxine hydrochloride is the most common. [ACOG](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) discusses B6 as a first over-the-counter option and a prescription B6–doxylamine product when needed. Ask your clinician for a dose that counts the B6 already in your prenatal.
 
 ### Can I use the food chart to pick a safe fish?
 

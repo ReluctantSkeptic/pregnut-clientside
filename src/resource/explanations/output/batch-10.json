@@ -155,15 +155,43 @@
   },
   "09036": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned apricot nectar is safe to drink during pregnancy when pasteurized. It offers small amounts of vitamin C and potassium, but it contains concentrated liquid sugars and minimal dietary fiber. The FDA ensures commercially canned juices are sterile, eliminating bacterial hazards like Salmonella. Limit portion sizes to a single small glass and prioritize whole fruit when possible.",
-    "sources": [
+    "explanation": "This record contains 56 calories and 114 mg potassium per 100 g of canned apricot nectar in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA says most juice sold in the U.S. is pasteurized or otherwise treated, that shelf-stable juice comes in treated containers such as cans, and that untreated juice must carry a warning label. The Dietary Guidelines advise avoiding sugar-sweetened beverages such as fruit drinks, so check the nectar label for added sugars.",
+    "claims": [
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+        "text": "This record contains 56 calories and 114 mg potassium per 100 g of canned apricot nectar in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "FDA says most juice sold in the U.S. is pasteurized or otherwise treated, that shelf-stable juice comes in treated containers such as cans, and that untreated juice must carry a warning label.",
+        "source": {
+          "name": "FDA: juice safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise avoiding sugar-sweetened beverages such as fruit drinks, so check the nectar label for added sugars.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: juice safety",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -435,15 +463,43 @@
   },
   "09066": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned red sour cherries in syrup are safe during pregnancy when consumed in moderation. They contain antioxidants, iron, and potassium, but heavy packing syrup contributes substantial added sugar. Commercial canning provides complete heat sterilization, eliminating foodborne microbial risks. Drain the syrup thoroughly before folding the cherries into baked whole grains.",
-    "sources": [
+    "explanation": "This record contains 91 calories and 1.3 mg iron per 100 g of canned sour cherries in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 91 calories and 1.3 mg iron per 100 g of canned sour cherries in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -547,15 +603,43 @@
   },
   "09081": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned sweetened cranberry sauce is safe during pregnancy when eaten in moderation. It delivers small amounts of vitamin C, but it is high in refined sugars from cooking syrups. Commercial canning provides sterile packaging, making it completely safe from foodborne illness. Serve a modest spoonful alongside roasted turkey or chicken to keep added sugars in check.",
-    "sources": [
+    "explanation": "This record contains 159 calories and 1 mg vitamin C per 100 g of sweetened canned cranberry sauce in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+    "claims": [
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+        "text": "This record contains 159 calories and 1 mg vitamin C per 100 g of sweetened canned cranberry sauce in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -729,15 +813,43 @@
   },
   "09105": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned mixed fruit salad in syrup is safe during pregnancy but best consumed in moderation. It provides small amounts of vitamin C and potassium, though the sweet syrup adds excess calories and simple sugars. Commercial canning provides thorough heat preservation, making it completely safe from foodborne bacteria. Drain the heavy syrup and rinse the fruit pieces with cool water before eating.",
-    "sources": [
+    "explanation": "This record contains 73 calories, 2.4 mg vitamin C and 80 mg potassium per 100 g of canned fruit salad in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 73 calories, 2.4 mg vitamin C and 80 mg potassium per 100 g of canned fruit salad in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -799,15 +911,43 @@
   },
   "09134": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned Thompson seedless grapes in syrup are safe during pregnancy when eaten in moderation. They supply small amounts of iron and potassium, but heavy canning syrup contributes excessive refined sugar. Commercial canning provides heat processing that eliminates foodborne bacterial pathogens. Drain the sugary syrup thoroughly and combine the grapes with diced melon in a fresh fruit salad.",
-    "sources": [
+    "explanation": "This record contains 76 calories and 0.94 mg iron per 100 g of canned grapes in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening. The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 76 calories and 0.94 mg iron per 100 g of canned grapes in syrup in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines say no amount of added sugars is recommended and suggest no more than 10 grams per meal; syrup counts as an added sugar, so check the label or drain the syrup.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -827,15 +967,43 @@
   },
   "09434": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned guanabana nectar is safe during pregnancy when consumed in moderation. It delivers small amounts of vitamin C and folate, but commercial nectars often carry considerable added sugar. The canning process pasteurizes the beverage, eliminating microbial hazards like Listeria. Limit serving sizes to a single cup to keep total dietary sugars within healthy limits.",
-    "sources": [
+    "explanation": "This record contains 11.1 mg vitamin C and 59 calories per 100 g of canned guanabana nectar in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA says shelf-stable juice is packaged in treated containers such as boxes, bottles, or cans, and advises pregnant people to drink only juice that has been pasteurized or otherwise treated. The Dietary Guidelines advise avoiding sugar-sweetened beverages such as fruit drinks, so check the nectar label for added sugars.",
+    "claims": [
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/fruits-veggies-and-juices-food-safety-moms-be"
+        "text": "This record contains 11.1 mg vitamin C and 59 calories per 100 g of canned guanabana nectar in PregNut\u2019s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "FDA says shelf-stable juice is packaged in treated containers such as boxes, bottles, or cans, and advises pregnant people to drink only juice that has been pasteurized or otherwise treated.",
+        "source": {
+          "name": "FDA: produce and juice for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "The Dietary Guidelines advise avoiding sugar-sweetened beverages such as fruit drinks, so check the nectar label for added sugars.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: produce and juice for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/fruits-veggies-and-juices-food-safety-moms-be"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },

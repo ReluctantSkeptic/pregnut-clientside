@@ -9,7 +9,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -23,7 +23,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -37,7 +37,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -47,7 +47,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA Dietary Guidelines",
@@ -57,15 +57,50 @@
   },
   "19095": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercial vanilla ice cream is safe with precautions during pregnancy when consumed in measured servings. Packaged store-bought ice creams utilize pasteurized ingredients that are completely safe from Salmonella and Listeria. While it supplies bone-building calcium, ice cream is calorie-dense and rich in added sugars. Measure a single half-cup serving to satisfy sweet cravings while maintaining balanced nutrition.",
-    "sources": [
+    "explanation": "FDA lists homemade ice cream among foods that may contain raw or lightly cooked eggs and says store-bought versions are often already cooked or pasteurized. FDA also advises making sure dairy products are made with pasteurized milk and keeping milk products refrigerated at 40°F or below. CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so a pasteurized label is not a guarantee. This record contains 128 mg calcium per 100 g of vanilla ice cream in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "FDA Safe Eats",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+        "text": "FDA lists homemade ice cream among foods that may contain raw or lightly cooked eggs and says store-bought versions are often already cooked or pasteurized.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "FDA also advises making sure dairy products are made with pasteurized milk and keeping milk products refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so a pasteurized label is not a guarantee.",
+        "source": {
+          "name": "CDC: how Listeria spreads",
+          "url": "https://www.cdc.gov/listeria/causes/index.html"
+        }
+      },
+      {
+        "text": "This record contains 128 mg calcium per 100 g of vanilla ice cream in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: how Listeria spreads",
+        "url": "https://www.cdc.gov/listeria/causes/index.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -79,7 +114,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -93,7 +128,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -107,7 +142,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -121,7 +156,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -135,7 +170,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -149,7 +184,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -163,7 +198,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -177,7 +212,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -191,7 +226,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -205,7 +240,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -219,7 +254,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -233,7 +268,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -247,7 +282,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -261,7 +296,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -275,7 +310,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -289,7 +324,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -303,7 +338,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -317,7 +352,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -331,7 +366,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -345,7 +380,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -359,7 +394,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -373,7 +408,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -383,7 +418,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA Dietary Guidelines",
@@ -401,7 +436,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -471,7 +506,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -513,7 +548,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -527,7 +562,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -541,7 +576,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -555,7 +590,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -565,7 +600,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA MyPlate",
@@ -583,7 +618,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -597,7 +632,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -607,7 +642,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "USDA Dietary Guidelines",
@@ -625,7 +660,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -639,7 +674,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -649,7 +684,7 @@
     "sources": [
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       },
       {
         "name": "FDA Safe Eats",
@@ -695,7 +730,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -709,7 +744,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -723,7 +758,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -737,7 +772,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -765,7 +800,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -779,7 +814,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -807,7 +842,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -821,7 +856,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -835,7 +870,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -855,15 +890,43 @@
   },
   "06027": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned Manhattan clam chowder is safe with precautions during pregnancy when heated until steaming hot. Commercial canning cooks clams thoroughly, eliminating bacterial and parasitic risks associated with raw shellfish. Clams supply remarkable amounts of bioavailable iron, vitamin B12, and lean protein in a tomato base. Heat the chowder to 165°F before serving and enjoy with whole-wheat crackers.",
-    "sources": [
+    "explanation": "This record contains 3.3 mcg vitamin B12 and 1.1 mg iron per 100 g of canned Manhattan clam chowder in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC lists raw or undercooked shellfish as a riskier choice during pregnancy and canned fish and seafood as a safer choice. CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+    "claims": [
       {
-        "name": "FDA Safe Eats",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+        "text": "This record contains 3.3 mcg vitamin B12 and 1.1 mg iron per 100 g of canned Manhattan clam chowder in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "USDA Food Safety",
-        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "text": "CDC lists raw or undercooked shellfish as a riskier choice during pregnancy and canned fish and seafood as a safer choice.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "CDC says not to eat store-bought canned food if the food or its container shows signs of contamination, and to refrigerate canned foods after opening.",
+        "source": {
+          "name": "CDC: botulism prevention",
+          "url": "https://www.cdc.gov/botulism/prevention/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "CDC: botulism prevention",
+        "url": "https://www.cdc.gov/botulism/prevention/index.html"
       }
     ]
   },
@@ -877,7 +940,7 @@
       },
       {
         "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },

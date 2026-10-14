@@ -8,7 +8,7 @@ date: 2026-09-23
 ogType: article
 schemaType: Article
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-14
 ---
 
 **The short answer:** Check both the **kind of cheese** and whether its milk was **pasteurized**. [CDC's pregnancy food-safety chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists pasteurized cheddar, cottage cheese, cream cheese, feta, and mozzarella among safer choices. It lists cheese made with raw milk and **unheated queso fresco-type cheese** among riskier choices. Queso fresco, queso blanco, and requesón need extra care **even when made with pasteurized milk**.
@@ -17,12 +17,24 @@ dateModified: 2026-09-26
 
 1. **Read the milk statement.** Look for “made with pasteurized milk.” Do not assume that a cheese is pasteurized from its name or appearance.
 2. **Identify the type.** Pasteurized feta and mozzarella are on CDC's safer-choice list. Unheated queso fresco-type cheese is on its riskier-choice list regardless of the milk statement.
-3. **Consider how it is served.** CDC lists pasteurized soft cheeses and deli-sliced cheese heated to **165°F or until steaming hot** as safer choices. An unheated deli slice is a different choice from cheese heated in a dish.
+3. **Consider how it is served.** CDC lists pasteurized soft cheeses and deli-sliced cheese heated to **165°F or until steaming hot** as safer choices. An unheated deli slice is a different choice from cheese heated in a dish; it follows the same reheating rule as [deli meat](/blog/deli-meat-pregnancy/).
 4. **Check current recalls.** A pasteurized label cannot rule out contamination after processing. [FDA explains](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) that queso fresco-type cheeses made with pasteurized milk can still become contaminated during production.
+
+## Pasteurized vs unpasteurized cheese when pregnant
+
+The milk makes the difference for most cheeses. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists dairy products made from raw milk, including soft cheeses such as brie, camembert, blue-veined cheese, and queso fresco made with raw milk, as riskier choices. It lists hard cheeses such as Asiago, cheddar, Parmesan, and Swiss **when made with pasteurized milk** as safer choices.
+
+The [FDA explains](https://www.fda.gov/food/people-risk-foodborne-illness/fact-or-fiction-food-safety-moms-be) that cheese made from unpasteurized milk can become contaminated with *Listeria*, and says to check that the label reads “made with pasteurized milk.” [FDA also notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that while milk sold across state lines is pasteurized, some cheeses are not, especially those produced and sold locally on farms or at local cheese shops. If a farmers' market or specialty cheese has no label, ask, and skip it if no one can confirm. Fresh Mexican-style cheeses are the exception to “pasteurized means safer”; see the next section and our [queso fresco guide](/blog/queso-fresco-pregnancy/).
+
+## Are provolone, Swiss, fontina, Monterey Jack, Colby, Port Salut, and pimento cheese safe while pregnant?
+
+Yes, when they are made with pasteurized milk, and deli-counter slices are heated. [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) names **Swiss** among the hard cheeses that are safer when made with pasteurized milk. CDC's chart does not name provolone, fontina, Monterey Jack, Colby, or Port Salut, so use the same check: look for “made with pasteurized milk” on the label, because [FDA notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that some cheeses, especially local or specialty ones, are not. Port Salut is a soft or semi-soft cheese, so the pasteurization label matters the same way it does for other soft cheeses on CDC's chart.
+
+How the cheese is served matters too. CDC lists **unheated cheese sliced at a deli** as a riskier choice and deli-sliced cheese heated to **165°F or until steaming hot** as safer, so provolone, Swiss, Monterey Jack, or Colby sliced at the counter belongs in a hot sandwich or melted dish. Pimento cheese is usually shredded cheddar mixed with mayonnaise: CDC lists pasteurized cheddar as a safer choice, and FDA says commercial mayonnaise contains pasteurized eggs. A house-made spread made with homemade mayonnaise is the one to ask about; see our [mayonnaise guide](/blog/mayonnaise-pregnancy/). Compare nutrients for [provolone](/food/01035-cheese-provolone/), [Swiss](/food/01040-cheese-swiss/), [fontina](/food/01020-cheese-fontina/), [Monterey Jack](/food/01025-cheese-monterey/), [Colby](/food/01011-cheese-colby/), [Port Salut](/food/01034-cheese-port-de-salut/), and [pimento cheese](/food/01043-cheese-pasteurized-process-pimento/).
 
 ## Why is queso fresco different?
 
-[FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) people at higher risk of Listeria infection to avoid queso fresco-type cheeses, including queso blanco and requesón, whether the milk was pasteurized or not. These fresh cheeses can support Listeria growth, and contamination can occur after pasteurization. If someone chooses to eat one, FDA recommends cooking it as part of a dish to **165°F** when possible. A label saying “pasteurized” is not, by itself, the answer for this category.
+[FDA advises](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) people at higher risk of Listeria infection to avoid queso fresco-type cheeses, including queso blanco and requesón, whether the milk was pasteurized or not. These fresh cheeses can support Listeria growth, and contamination can occur after pasteurization. If someone chooses to eat one, FDA recommends cooking it as part of a dish to **165°F** when possible. A label saying “pasteurized” is not, by itself, the answer for this category. Our [queso fresco guide](/blog/queso-fresco-pregnancy/) covers cooked dishes, pupusas, and restaurant orders.
 
 ## Is pasteurized brie okay?
 
@@ -36,4 +48,6 @@ No. PregNut's [food lookup](/food/) reports nutrients in a **100 g reference foo
 
 An exposure does not mean you have an infection. [CDC's Listeria symptom guidance](https://www.cdc.gov/listeria/signs-symptoms/) says to contact a healthcare provider if you ate food linked to a recall or outbreak **and** have fever with symptoms such as fatigue or muscle aches. Tell the provider about the food. If you feel well but have a specific concern, ask your prenatal care team what to do.
 
-**Sources:** [CDC safer food choices for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA queso fresco-type cheese guidance](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance), [FDA food safety facts](https://www.fda.gov/food/people-risk-foodborne-illness/fact-or-fiction-food-safety-moms-be), and [CDC Listeria symptoms](https://www.cdc.gov/listeria/signs-symptoms/). This guide is educational and does not replace prenatal care.
+**Related:** [hard cheese during pregnancy](/blog/hard-cheese-pregnancy/) covers cheddar, Parmesan, Swiss, and provolone.
+
+**Sources:** [CDC safer food choices for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA dairy and eggs food safety for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be), [FDA queso fresco-type cheese guidance](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance), [FDA food safety facts](https://www.fda.gov/food/people-risk-foodborne-illness/fact-or-fiction-food-safety-moms-be), and [CDC Listeria symptoms](https://www.cdc.gov/listeria/signs-symptoms/). This guide is educational and does not replace prenatal care.

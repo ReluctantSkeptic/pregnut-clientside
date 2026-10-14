@@ -1,5 +1,6 @@
 ---
 title: "Raw Milk During Pregnancy: How to Check Dairy Labels"
+seoTitle: "Raw Milk During Pregnancy: Check the Label"
 description: "Why raw milk is a risk during pregnancy, how to identify pasteurized milk and yogurt, and what PregNut's food data cannot tell you."
 layout: post.njk
 permalink: /blog/raw-milk-pregnancy/index.html
@@ -19,7 +20,7 @@ tags: post
 
 ## How do I check milk or yogurt?
 
-1. **Read the package:** Look for a statement that the milk is pasteurized. For yogurt or another dairy product, check that it was made with pasteurized milk. [FDA advises checking dairy labels](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be).
+1. **Read the package:** Look for a statement that the milk is pasteurized. For yogurt or another dairy product, check that it was made with pasteurized milk. [FDA advises checking dairy labels](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be). The same check applies to [sour cream](/blog/sour-cream-pregnancy/) and [ice cream](/blog/ice-cream-pregnancy/).
 2. **Ask when there is no package:** At a farm stand, café, or market, ask whether the milk used was pasteurized. If you cannot confirm, choose another option.
 3. **Keep it cold:** FDA advises refrigerating milk and milk products at **40°F (4°C) or colder** and following the product's date instructions. Pasteurization does not replace safe storage.
 

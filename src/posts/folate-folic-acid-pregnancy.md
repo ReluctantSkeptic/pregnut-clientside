@@ -30,7 +30,7 @@ On a Supplement Facts panel, look for **Folate** in mcg DFE and any **folic acid
 
 ## Which foods contribute folate?
 
-Leafy greens, beans, peas, asparagus, and avocado can contribute folate. Some grain products and breakfast cereals are fortified with folic acid; check their Nutrition Facts labels. Use [PregNut's food lookup](/food/) to compare options by **100 g**, then consider the serving you actually eat. A ranking does not tell you whether a food replaces a prenatal.
+Leafy greens, beans, peas, asparagus, and avocado can contribute folate. Some grain products and breakfast cereals are fortified with folic acid; check their Nutrition Facts labels, or see our [breakfast cereal guide](/blog/cereal-pregnancy/). Use [PregNut's food lookup](/food/) to compare options by **100 g**, then consider the serving you actually eat. A ranking does not tell you whether a food replaces a prenatal.
 
 ### Compare food folate in familiar foods
 

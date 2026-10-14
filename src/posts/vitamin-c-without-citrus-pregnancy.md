@@ -47,7 +47,7 @@ Vitamin C can improve absorption of **nonheme iron**, the form in plant foods. A
 
 ### Can I get enough vitamin C without oranges or juice?
 
-Yes. NIH lists several noncitrus sources. Its **½ cup raw red pepper** example provides about **95 mg**, more than the **85 mg adult pregnancy daily reference**. The amount in your own portion may differ, and the rest of your diet matters too.
+Yes. NIH lists several noncitrus sources. Its **½ cup raw red pepper** example provides about **95 mg**, more than the **85 mg adult pregnancy daily reference**. The amount in your own portion may differ, and the rest of your diet matters too. If you do drink juice, [check that it is pasteurized](/blog/juice-pasteurization-pregnancy/).
 
 ### Do I need a separate vitamin C supplement?
 

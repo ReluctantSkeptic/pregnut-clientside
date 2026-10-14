@@ -57,15 +57,54 @@
   },
   "42192": {
     "verdict": "Safe with precautions",
-    "explanation": "Fat-free blue cheese dressing is safe with precautions during pregnancy when purchased commercially bottled. Commercial processing and pasteurization ensure the dressing is completely safe from foodborne bacterial pathogens. While it eliminates saturated dairy fat, it often includes added sodium and starches to recreate a thick texture. Spoon a modest serving over fresh sliced cucumbers, tomatoes, and bell peppers.",
+    "explanation": "This record contains 115 calories and 51 mg calcium per 100 g of fat-free blue cheese dressing in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA advises against blue-veined cheeses during pregnancy unless they are made with pasteurized milk, so check that the dressing label says pasteurized. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings made with raw eggs among foods to avoid during pregnancy. CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so keep opened bottles refrigerated.",
+    "claims": [
+      {
+        "text": "This record contains 115 calories and 51 mg calcium per 100 g of fat-free blue cheese dressing in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "FDA advises against blue-veined cheeses during pregnancy unless they are made with pasteurized milk, so check that the dressing label says pasteurized.",
+        "source": {
+          "name": "FDA: ready-to-eat foods for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings made with raw eggs among foods to avoid during pregnancy.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC notes that Listeria can spread in food processing facilities and grow in refrigerated food, so keep opened bottles refrigerated.",
+        "source": {
+          "name": "CDC: how Listeria spreads",
+          "url": "https://www.cdc.gov/listeria/causes/index.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: ready-to-eat foods for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "CDC: how Listeria spreads",
+        "url": "https://www.cdc.gov/listeria/causes/index.html"
       }
     ]
   },
@@ -93,7 +132,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -107,7 +146,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -121,21 +160,49 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
   "43015": {
     "verdict": "Safe with precautions",
-    "explanation": "Regular Caesar dressing is safe with precautions during pregnancy when commercially prepared and bottled. Commercial dressings are formulated with pasteurized egg yolks and high acidity, making them completely safe from Salmonella. The FDA warns against homemade Caesar dressing made with raw shell eggs unless certified pasteurized eggs are used. Enjoy a measured portion on crisp garden salads.",
+    "explanation": "CDC lists foods made with raw or undercooked eggs, including Caesar salad dressing, as a riskier choice during pregnancy, and names pasteurized eggs as the safer choice in dressings that will not be cooked. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and advises avoiding homemade or fresh-made Caesar dressing made with raw eggs. For a restaurant or homemade Caesar, ask whether the dressing was made with pasteurized eggs. The nutrient values on this page describe a reference product per 100 g, not a particular bottle or a serving recommendation.",
+    "claims": [
+      {
+        "text": "CDC lists foods made with raw or undercooked eggs, including Caesar salad dressing, as a riskier choice during pregnancy, and names pasteurized eggs as the safer choice in dressings that will not be cooked.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and advises avoiding homemade or fresh-made Caesar dressing made with raw eggs.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "For a restaurant or homemade Caesar, ask whether the dressing was made with pasteurized eggs. The nutrient values on this page describe a reference product per 100 g, not a particular bottle or a serving recommendation.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -233,7 +300,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -253,15 +320,39 @@
   },
   "04520": {
     "verdict": "Limit",
-    "explanation": "Mutton tallow should be limited during pregnancy because of its very high concentration of saturated fatty acids. Rendering animal fat at high temperatures eliminates any microbial contamination, making it safe from foodborne illness. Nonetheless, excessive dietary saturated fat can contribute to cardiovascular strain and gestational weight complications. Reserve mutton tallow for occasional specialty cooking and prioritize liquid plant oils.",
-    "sources": [
+    "explanation": "This record contains 902 calories and 79.8 mg choline per 100 g of mutton tallow in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. The Dietary Guidelines suggest prioritizing oils with essential fatty acids, such as olive oil, and list butter or beef tallow as other options. The same guidelines say saturated fat should generally not exceed 10% of daily calories.",
+    "claims": [
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 902 calories and 79.8 mg choline per 100 g of mutton tallow in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "The Dietary Guidelines suggest prioritizing oils with essential fatty acids, such as olive oil, and list butter or beef tallow as other options.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      },
+      {
+        "text": "The same guidelines say saturated fat should generally not exceed 10% of daily calories.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -289,7 +380,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -323,15 +414,43 @@
   },
   "04631": {
     "verdict": "Safe with precautions",
-    "explanation": "Fat-free tub vegetable oil spread is safe with precautions during pregnancy as an ultra-low-calorie condiment. Manufactured under commercial hygiene standards, it carries no risk of foodborne bacterial contamination. However, fat-free spreads rely heavily on water, gel thickeners, and sodium, providing almost no essential fatty acids for fetal development. Use lightly for buttery flavor, but incorporate real plant oils elsewhere in your diet.",
-    "sources": [
+    "explanation": "This record contains 44 calories and 0.1 g protein per 100 g of fat-free tub vegetable oil spread in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. CDC’s pregnancy food chart does not list vegetable oil spreads as a riskier food, and it advises following four steps for all foods: clean, separate, cook, and chill. When cooking with or adding fats, the Dietary Guidelines suggest prioritizing oils with essential fatty acids, such as olive oil.",
+    "claims": [
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "This record contains 44 calories and 0.1 g protein per 100 g of fat-free tub vegetable oil spread in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
       },
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be"
+        "text": "CDC’s pregnancy food chart does not list vegetable oil spreads as a riskier food, and it advises following four steps for all foods: clean, separate, cook, and chill.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "When cooking with or adding fats, the Dietary Guidelines suggest prioritizing oils with essential fatty acids, such as olive oil.",
+        "source": {
+          "name": "Dietary Guidelines for Americans 2025-2030",
+          "url": "https://cdn.realfood.gov/DGA.pdf"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
+    "sources": [
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Dietary Guidelines for Americans 2025-2030",
+        "url": "https://cdn.realfood.gov/DGA.pdf"
       }
     ]
   },
@@ -387,7 +506,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -401,7 +520,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -415,7 +534,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -429,7 +548,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -457,7 +576,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -471,7 +590,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -485,7 +604,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -513,7 +632,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -527,7 +646,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -541,7 +660,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -555,7 +674,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -569,7 +688,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -583,7 +702,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -597,7 +716,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -681,7 +800,7 @@
       },
       {
         "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
       }
     ]
   },
@@ -771,14 +890,42 @@
   },
   "04018": {
     "verdict": "Safe with precautions",
-    "explanation": "Regular mayonnaise-type salad dressing is safe with precautions during pregnancy when commercially packaged. Commercially produced salad dressings use pasteurized eggs and high acidity, making them completely safe from foodborne Salmonella. They provide dietary plant fats and modest choline, though they contain more added sugar than traditional mayonnaise. Spread one tablespoon on whole-wheat sandwiches or mix into tuna salad.",
+    "explanation": "This record contains 250 calories and 14.6 mg choline per 100 g of mayonnaise-type salad dressing in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings made with raw eggs among foods to avoid during pregnancy. CDC lists pasteurized eggs as the safer choice in foods that will not be cooked, such as salad dressing.",
+    "claims": [
+      {
+        "text": "This record contains 250 calories and 14.6 mg choline per 100 g of mayonnaise-type salad dressing in PregNut’s historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings made with raw eggs among foods to avoid during pregnancy.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "CDC lists pasteurized eggs as the safer choice in foods that will not be cooked, such as salad dressing.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      }
+    ],
+    "dateModified": "2026-10-07",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
+        "name": "CDC: safer food choices in pregnancy",
         "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       }
     ]
@@ -855,15 +1002,50 @@
   },
   "04639": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercial ranch dressing is safe with precautions during pregnancy because the dairy and egg ingredients are pasteurized. Store-bought bottled ranch poses no risk of Listeria or Salmonella due to pasteurization and acidic preservation. While microbiologically safe, ranch dressing is dense in calories, sodium, and saturated fats. Measure two tablespoons to serve as a dip with raw baby carrots, celery, and bell peppers.",
+    "explanation": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy. FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch. This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation. Is ranch dressing safe during pregnancy? Our ranch guide covers bottled, restaurant, and homemade ranch.",
+    "claims": [
+      {
+        "text": "FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs, and lists homemade dressings and sauces made with raw eggs among foods to avoid during pregnancy.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "FDA also advises making sure dairy products are made with pasteurized milk, so check the label on any fresh or restaurant-made ranch.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record describes a bottled reference dressing per 100 g in PregNut’s historical USDA-based dataset, not a serving recommendation.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Is ranch dressing safe during pregnancy? Our ranch guide covers bottled, restaurant, and homemade ranch.",
+        "source": {
+          "name": "PregNut ranch dressing guide",
+          "url": "/blog/ranch-dressing-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-12",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut ranch dressing guide",
+        "url": "/blog/ranch-dressing-pregnancy/"
       }
     ]
   },

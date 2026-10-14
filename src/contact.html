@@ -1,0 +1,51 @@
+---
+title: Contact PregNut
+description: Send PregNut a question, a correction, a source issue, or a privacy request using the contact form.
+layout: base.njk
+permalink: /contact/index.html
+pageStyles:
+  - /style/contact.css
+pageScripts:
+  - /js/contact.js
+---
+
+<section class="section prose legal-page contact-page">
+  <h1>Contact PregNut</h1>
+  <p>Use this form for questions about the site, corrections, broken source links, or privacy requests. Messages go to the person who publishes PregNut.</p>
+  <p class="contact-note"><strong>Not for medical questions.</strong> PregNut can't give personal medical advice. For questions about your own pregnancy, contact your obstetric clinician or midwife. In an emergency, call your local emergency number.</p>
+
+  <form class="contact-form" id="ContactForm" action="/api/contact" method="post" novalidate>
+    <div class="contact-field">
+      <label for="ContactName">Name <span class="contact-optional">(optional)</span></label>
+      <input id="ContactName" name="name" type="text" maxlength="100" autocomplete="name">
+    </div>
+    <div class="contact-field">
+      <label for="ContactEmail">Your email</label>
+      <input id="ContactEmail" name="email" type="email" maxlength="200" autocomplete="email" required>
+      <p class="contact-hint">Used only to reply to you.</p>
+    </div>
+    <div class="contact-field">
+      <label for="ContactTopic">Topic</label>
+      <select id="ContactTopic" name="topic">
+        <option>General question</option>
+        <option>Correction or source issue</option>
+        <option>Privacy request</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="contact-field">
+      <label for="ContactMessage">Message</label>
+      <textarea id="ContactMessage" name="message" rows="7" minlength="10" maxlength="3000" required></textarea>
+    </div>
+    <div class="contact-trap" aria-hidden="true">
+      <label for="ContactWebsite">Leave this field empty</label>
+      <input id="ContactWebsite" name="website" type="text" tabindex="-1" autocomplete="off">
+    </div>
+    <input type="hidden" name="started_at" id="ContactStartedAt" value="">
+    <input type="hidden" name="page" id="ContactPage" value="/contact/">
+    <button class="button primary" type="submit" id="ContactSubmit">Send message</button>
+    <p class="contact-status" id="ContactStatus" role="status" aria-live="polite"></p>
+  </form>
+
+  <p class="contact-privacy">We use what you send only to read and answer your message. See the <a href="/privacy/#contact-form">privacy policy</a> for details.</p>
+</section>
