@@ -1,7 +1,7 @@
 ---
 title: "Magnesium-Rich Foods During Pregnancy: Seeds, Beans, and Greens"
-seoTitle: "Magnesium-Rich Foods During Pregnancy"
-description: Magnesium-rich foods for pregnancy include pumpkin seeds, chia, almonds, spinach, cashews, and black beans. NIH amounts per serving, daily needs, and supplement limits.
+seoTitle: "How Much Magnesium During Pregnancy? Foods and Limits"
+description: "How much magnesium during pregnancy: NIH daily amounts (350–360 mg for adults), top food servings, and the 350 mg supplement upper limit."
 layout: post.njk
 permalink: /blog/magnesium-foods-pregnancy/index.html
 author: Yuriy Stasyuk
@@ -14,7 +14,7 @@ socialImageWidth: 900
 socialImageHeight: 900
 socialImageAlt: Illustration of almonds in a bowl
 tags: post
-dateModified: 2026-10-09
+dateModified: 2026-10-14
 ---
 
 **The short answer:** The most magnesium-rich everyday foods for pregnancy are seeds, nuts, beans, and leafy greens. The [NIH magnesium food table](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/) lists **156 mg** in 1 ounce of roasted pumpkin seeds, **111 mg** in 1 ounce of chia seeds, and **80 mg** in 1 ounce of dry-roasted almonds. The [NIH pregnancy review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists a daily recommended amount of **350 mg at ages 19–30**, **360 mg at ages 31–50**, and **400 mg for pregnant teens**. These are whole-day references, not amounts to get from one food or supplement.
@@ -44,5 +44,16 @@ PregNut's food lookup does not currently calculate magnesium. Use the NIH food t
 Check the **serving size and magnesium amount** on your prenatal before adding another product. [NIH reports](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) that there is no specific professional recommendation for routine magnesium supplementation during pregnancy, even though some people may not get enough from food.
 
 The **350 mg daily upper limit** applies to magnesium from **supplements and medications**, including some antacids and laxatives. It does **not** apply to magnesium naturally present in foods. The [NIH magnesium fact sheet](https://ods.od.nih.gov/factsheets/Magnesium-Consumer/) explains this difference and notes that excess supplemental magnesium can cause diarrhea, nausea, and cramping. Ask your prenatal clinician before adding magnesium, particularly if you take medications or have kidney disease. A food list cannot diagnose a deficiency or determine whether a supplement will treat a symptom.
+
+
+## Common questions
+
+### How much magnesium should a pregnant woman take?
+
+[NIH](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) lists **350 mg per day at ages 19–30**, **360 mg at ages 31–50**, and **400 mg for pregnant teens** as the recommended amounts from food and supplements combined. That is a whole-day target, not a single-pill dose. [NIH also reports](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/) there is no specific professional recommendation for routine magnesium supplementation in pregnancy—check your prenatal and ask your clinician before adding more.
+
+### What magnesium is safe during pregnancy?
+
+Food magnesium does not have the same upper limit as pills. The [NIH magnesium fact sheet](https://ods.od.nih.gov/factsheets/Magnesium-Consumer/) applies the **350 mg daily upper limit** to magnesium from **supplements and medications** (including some antacids and laxatives), not to magnesium naturally present in food. Excess supplemental magnesium can cause diarrhea, nausea, and cramping.
 
 **Sources:** [NIH pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), [NIH magnesium food table](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/), and [NIH magnesium consumer fact sheet](https://ods.od.nih.gov/factsheets/Magnesium-Consumer/). This guide is educational and does not replace prenatal care.

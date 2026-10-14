@@ -3982,15 +3982,32 @@
   },
   "11955": {
     "verdict": "Recommended",
-    "explanation": "Sun-dried tomatoes are safe and nutritious to eat during pregnancy. They provide concentrated dietary fiber, potassium, iron, and lycopene to support maternal energy and blood volume expansion. Choose commercially packaged sun-dried tomatoes and ensure that oil-packed versions are stored refrigerated after opening. Chop sun-dried tomatoes into whole-grain pasta dishes, grain salads, or frittatas made with pasteurized eggs.",
-    "sources": [
+    "explanation": "Can you eat sun-dried tomatoes while pregnant? Yes. CDC's pregnancy food-safety chart does not list sun-dried tomatoes as a riskier choice. Keep opened oil-packed jars refrigerated as the label directs. This record contains 9.09 mg iron, 39.2 mg vitamin C, and 14.11 g protein per 100 g of sun-dried tomatoes in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "Can you eat sun-dried tomatoes while pregnant? Yes. CDC's pregnancy food-safety chart does not list sun-dried tomatoes as a riskier choice. Keep opened oil-packed jars refrigerated as the label directs.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        "text": "This record contains 9.09 mg iron, 39.2 mg vitamin C, and 14.11 g protein per 100 g of sun-dried tomatoes in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -9899,15 +9916,43 @@
   },
   "20137": {
     "verdict": "Recommended",
-    "explanation": "Cooked quinoa is recommended during pregnancy as an outstanding complete plant protein. It delivers all nine essential amino acids, non-heme iron to support maternal blood volume, zinc, and dietary folate. Rinse the raw seeds before cooking to wash away naturally bitter saponins on the outer coating. Serve warm as a grain bowl base or chill it for a hearty vegetable salad.",
-    "sources": [
+    "explanation": "Is quinoa safe during pregnancy? Yes, when it is cooked following the package directions. ACOG lists quinoa among the whole grains in its healthy-eating guidance for pregnancy. CDC's pregnancy food-safety chart does not list quinoa or other cooked grains as riskier choices. This record contains 4.4 g protein, 1.49 mg iron, and 1.09 mg zinc per 100 g of cooked quinoa in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "Is quinoa safe during pregnancy? Yes, when it is cooked following the package directions. ACOG lists quinoa among the whole grains in its healthy-eating guidance for pregnancy.",
+        "source": {
+          "name": "ACOG: healthy eating during pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        }
       },
       {
-        "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/nutrition-during-pregnancy"
+        "text": "CDC's pregnancy food-safety chart does not list quinoa or other cooked grains as riskier choices.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record contains 4.4 g protein, 1.49 mg iron, and 1.09 mg zinc per 100 g of cooked quinoa in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
+    "sources": [
+      {
+        "name": "ACOG: healthy eating during pregnancy",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -14885,15 +14930,54 @@
   },
   "01011": {
     "verdict": "Recommended",
-    "explanation": "Colby cheese is recommended during pregnancy when manufactured from pasteurized milk. It delivers substantial amounts of calcium, high-quality protein, and vitamin B12 for fetal development. Standard commercially produced Colby in the United States uses pasteurized milk, which eliminates harmful foodborne bacteria. Enjoy shredded Colby over black bean burritos or slice it with fresh pears for an afternoon snack.",
+    "explanation": "Is Colby or Colby Jack cheese safe during pregnancy? Yes, when the label says it is made with pasteurized milk. CDC lists hard cheeses such as cheddar, when made with pasteurized milk, as safer choices and cheese made from raw milk as riskier; its chart does not name Colby, so check the label. FDA notes that some cheeses are not made with pasteurized milk, especially local or specialty ones. CDC lists unheated cheese sliced at a deli as riskier; heat deli-sliced Colby to 165°F or until steaming hot. This record contains 685 mg calcium and 23.76 g protein per 100 g of Colby in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide covers Colby alongside Monterey Jack and Port Salut.",
+    "claims": [
+      {
+        "text": "Is Colby or Colby Jack cheese safe during pregnancy? Yes, when the label says it is made with pasteurized milk. CDC lists hard cheeses such as cheddar, when made with pasteurized milk, as safer choices and cheese made from raw milk as riskier; its chart does not name Colby, so check the label.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA notes that some cheeses are not made with pasteurized milk, especially local or specialty ones. CDC lists unheated cheese sliced at a deli as riskier; heat deli-sliced Colby to 165°F or until steaming hot.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 685 mg calcium and 23.76 g protein per 100 g of Colby in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide covers Colby alongside Monterey Jack and Port Salut.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -15106,15 +15190,54 @@
   },
   "01025": {
     "verdict": "Recommended",
-    "explanation": "Monterey Jack cheese is recommended during pregnancy as a safe, calcium-rich dairy food. It delivers vital dietary calcium, protein, and vitamin B12 to support fetal bone formation and maternal red blood cell maintenance. Standard commercial Monterey Jack is made with pasteurized milk, eliminating bacterial threats. Slice it for wholesome turkey sandwiches or melt it into warm vegetable casseroles.",
+    "explanation": "Is Monterey Jack cheese safe during pregnancy? Yes, when the label says it is made with pasteurized milk. CDC lists hard cheeses such as cheddar, when made with pasteurized milk, as safer choices and cheese made from raw milk as riskier; its chart does not name Monterey Jack, so check the label. FDA notes that some cheeses are not made with pasteurized milk, especially local or specialty ones. CDC lists unheated cheese sliced at a deli as riskier; heat counter-sliced Monterey Jack to 165°F or until steaming hot. This record contains 746 mg calcium and 24.48 g protein per 100 g in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide covers Monterey Jack alongside Colby, Port Salut, and other cheeses.",
+    "claims": [
+      {
+        "text": "Is Monterey Jack cheese safe during pregnancy? Yes, when the label says it is made with pasteurized milk. CDC lists hard cheeses such as cheddar, when made with pasteurized milk, as safer choices and cheese made from raw milk as riskier; its chart does not name Monterey Jack, so check the label.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA notes that some cheeses are not made with pasteurized milk, especially local or specialty ones. CDC lists unheated cheese sliced at a deli as riskier; heat counter-sliced Monterey Jack to 165°F or until steaming hot.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 746 mg calcium and 24.48 g protein per 100 g in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide covers Monterey Jack alongside Colby, Port Salut, and other cheeses.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -15271,15 +15394,54 @@
   },
   "01034": {
     "verdict": "Safe with precautions",
-    "explanation": "Port de Salut cheese is safe with precautions during pregnancy provided it is made with pasteurized milk. It offers dairy calcium, vitamin B12, and complete protein to support fetal tissue development. Because it is a semi-soft cheese, unpasteurized versions carry a risk of Listeria monocytogenes. Confirm pasteurization on the product label or heat until melted and steaming hot before eating.",
+    "explanation": "Is Port Salut cheese safe during pregnancy? Choose one made with pasteurized milk. CDC lists soft cheese made from unpasteurized milk as riskier, and its safer column includes pasteurized soft cheeses heated to 165°F or until steaming hot. CDC's chart does not name Port Salut, and FDA notes some cheeses, especially local or specialty ones, are not made with pasteurized milk, so check the label. Melting it into a hot dish fits CDC's safer column most clearly. This record contains 650 mg calcium and 23.78 g protein per 100 g in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving. Our cheese guide covers Port Salut alongside Monterey Jack and Colby.",
+    "claims": [
+      {
+        "text": "Is Port Salut cheese safe during pregnancy? Choose one made with pasteurized milk. CDC lists soft cheese made from unpasteurized milk as riskier, and its safer column includes pasteurized soft cheeses heated to 165°F or until steaming hot.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "CDC's chart does not name Port Salut, and FDA notes some cheeses, especially local or specialty ones, are not made with pasteurized milk, so check the label. Melting it into a hot dish fits CDC's safer column most clearly.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record contains 650 mg calcium and 23.78 g protein per 100 g in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our cheese guide covers Port Salut alongside Monterey Jack and Colby.",
+        "source": {
+          "name": "PregNut cheese guide",
+          "url": "/blog/soft-cheese-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut cheese guide",
+        "url": "/blog/soft-cheese-pregnancy/"
       }
     ]
   },
@@ -15685,15 +15847,54 @@
   },
   "01057": {
     "verdict": "Caution",
-    "explanation": "Eggnog requires caution during pregnancy because traditional recipes contain raw eggs and alcohol. Homemade or unpasteurized eggnog poses grave risks of Salmonella infection and fetal alcohol exposure. Commercial carton eggnog in grocery stores is pasteurized and non-alcoholic, making it safe from bacterial contamination. If enjoying commercially pasteurized eggnog, sip small servings to manage its high sugar and calorie density.",
+    "explanation": "Is eggnog safe during pregnancy? Store-bought eggnog that is pasteurized and alcohol-free is the safer choice. CDC lists homemade eggnog among riskier egg foods, and FDA advises avoiding eggnog and other egg-fortified drinks that are not thoroughly cooked. Check the carton for pasteurization wording, and skip any eggnog that contains alcohol—CDC says there is no known safe amount of alcohol in pregnancy. This record contains 130 mg calcium and 4.55 g protein per 100 g of eggnog in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
+      {
+        "text": "Is eggnog safe during pregnancy? Store-bought eggnog that is pasteurized and alcohol-free is the safer choice. CDC lists homemade eggnog among riskier egg foods.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA advises avoiding eggnog and other egg-fortified drinks that are not thoroughly cooked, and notes that commercial products are often cooked or pasteurized.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "Check the carton for pasteurization wording, and skip any eggnog that contains alcohol—CDC says there is no known safe amount of alcohol in pregnancy.",
+        "source": {
+          "name": "CDC: alcohol use during pregnancy",
+          "url": "https://www.cdc.gov/alcohol-pregnancy/about/index.html"
+        }
+      },
+      {
+        "text": "This record contains 130 mg calcium and 4.55 g protein per 100 g of eggnog in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "CDC: alcohol use during pregnancy",
+        "url": "https://www.cdc.gov/alcohol-pregnancy/about/index.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -16295,15 +16496,54 @@
   },
   "04706": {
     "verdict": "Safe with precautions",
-    "explanation": "Fat-free honey mustard dressing is safe with precautions during pregnancy when commercially bottled. Factory processing, pasteurization, and vinegar acidity protect against foodborne bacteria. The dressing adds tangy flavor without fat, though it contains concentrated sugars from honey and sweeteners. Spoon moderately over chopped cabbage slaw or fresh vegetable salads.",
-    "sources": [
+    "explanation": "Can you have honey mustard dressing while pregnant? Yes when it is a commercial bottled dressing. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs that are safe to eat. Homemade or fresh-made sauces with raw eggs are the ones to avoid. This fat-free honey mustard record is mainly calories and added sugar per 100 g; use the label for sodium and serving size. This record contains 169 calories and 1.07 g protein per 100 g in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-moms-be"
+        "text": "Can you have honey mustard dressing while pregnant? Yes when it is a commercial bottled dressing. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs that are safe to eat.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "Homemade or fresh-made sauces with raw eggs are the ones to avoid. CDC lists raw or undercooked eggs, and foods made with them, as riskier choices.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This fat-free honey mustard record is mainly calories and added sugar per 100 g; use the label for sodium and serving size. This record contains 169 calories and 1.07 g protein per 100 g in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our mayonnaise and ranch guides cover other bottled dressings.",
+        "source": {
+          "name": "PregNut mayonnaise guide",
+          "url": "/blog/mayonnaise-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
+    "sources": [
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut mayonnaise guide",
+        "url": "/blog/mayonnaise-pregnancy/"
       }
     ]
   },
@@ -17124,15 +17364,54 @@
   },
   "04017": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercially prepared Thousand Island dressing is safe to consume while pregnant. It provides dietary fats that help absorb fat-soluble vitamins, though it is calorically dense and high in sodium. Ensure you buy commercially bottled varieties made with pasteurized egg ingredients rather than unpasteurized homemade recipes. Measure portions with a tablespoon to balance caloric intake across your daily meals.",
-    "sources": [
+    "explanation": "Can you eat Thousand Island dressing while pregnant? Yes when it is commercially bottled. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs that are safe to eat. Ask about house-made dressings that may use raw eggs. This record contains 379 calories and 1.09 g protein per 100 g of regular Thousand Island in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+    "claims": [
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+        "text": "Can you eat Thousand Island dressing while pregnant? Yes when it is commercially bottled. FDA says commercial mayonnaise, dressings, and sauces contain pasteurized eggs that are safe to eat.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "Ask about house-made dressings that may use raw eggs. CDC lists raw or undercooked eggs, and foods made with them, as riskier choices.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record contains 379 calories and 1.09 g protein per 100 g of regular Thousand Island in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      },
+      {
+        "text": "Our mayonnaise and ranch guides cover other bottled dressings.",
+        "source": {
+          "name": "PregNut mayonnaise guide",
+          "url": "/blog/mayonnaise-pregnancy/"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
+    "sources": [
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
+      },
+      {
+        "name": "PregNut mayonnaise guide",
+        "url": "/blog/mayonnaise-pregnancy/"
       }
     ]
   },
@@ -19966,15 +20245,32 @@
   },
   "06971": {
     "verdict": "Safe with precautions",
-    "explanation": "Worcestershire sauce is safe with precautions during pregnancy when used as a light seasoning. It adds rich umami depth from vinegar, molasses, and anchovies, but carries high sodium per tablespoon. Because it is typically used in small splashes rather than large portions, it fits well into prenatal cooking. Add a few dashes to thoroughly cooked beef stews or marinades.",
-    "sources": [
+    "explanation": "Is Worcestershire sauce safe during pregnancy? Yes in ordinary cooking amounts. CDC's pregnancy food chart does not list Worcestershire or similar bottled sauces as riskier choices. This record is high in sodium per 100 g, so check the bottle label if you are watching salt and use it as a seasoning rather than by the spoonful. This record contains 800 mg potassium and 5.3 mg iron per 100 g of Worcestershire sauce in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "USDA Dietary Guidelines",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "Is Worcestershire sauce safe during pregnancy? Yes in ordinary cooking amounts. CDC's pregnancy food chart does not list Worcestershire or similar bottled sauces as riskier choices.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "FDA Safe Eats",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/safe-eats-food-safety-moms-be"
+        "text": "This record is high in sodium per 100 g, so check the bottle label if you are watching salt and use it as a seasoning rather than by the spoonful. This record contains 800 mg potassium and 5.3 mg iron per 100 g of Worcestershire sauce in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-14",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },

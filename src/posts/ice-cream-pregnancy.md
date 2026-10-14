@@ -1,11 +1,12 @@
 ---
 title: "Ice Cream During Pregnancy: Store-Bought, Homemade, and Soft Serve"
-seoTitle: "Can You Eat Ice Cream While Pregnant?"
-description: Store-bought ice cream made with pasteurized milk is a safer pregnancy choice. Why homemade is different, plus soft serve and cookie dough flavors.
+seoTitle: "Can You Eat Ice Cream While Pregnant? Store-Bought Guide"
+description: "Can you eat ice cream while pregnant? Yes when it is pasteurized store-bought. First trimester, soft serve, cookie dough, and homemade raw-egg rules."
 layout: post.njk
 permalink: /blog/ice-cream-pregnancy/index.html
 author: Yuriy Stasyuk
 date: 2026-10-07
+dateModified: 2026-10-14
 ogType: article
 schemaType: Article
 socialImage: /resource/portions/top-foods/19095-ice-creams-vanilla.webp
@@ -44,9 +45,9 @@ It adds some calcium and calories. PregNut's historical USDA-based data lists [v
 
 ## Common questions
 
-### Is vanilla ice cream OK in the first trimester?
+### Is ice cream OK in the first trimester?
 
-Yes. The CDC's food-safety chart does not change by trimester. See our [morning sickness food guide](/blog/foods-for-morning-sickness-pregnancy/) if nausea is shaping what you can eat.
+Yes. The CDC's food-safety chart does not change by trimester, so pasteurized store-bought ice cream stays in the safer column. See our [morning sickness food guide](/blog/foods-for-morning-sickness-pregnancy/) if nausea is shaping what you can eat.
 
 ### What about gelato or frozen yogurt?
 

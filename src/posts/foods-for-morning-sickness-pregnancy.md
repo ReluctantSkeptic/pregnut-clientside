@@ -1,7 +1,7 @@
 ---
 title: "What to Eat With Morning Sickness: Small Meals and Snacks"
-seoTitle: "What to Eat With Morning Sickness During Pregnancy"
-description: Practical food and drink ideas for pregnancy nausea, from bland snacks and small meals to hydration and signs that need medical care.
+seoTitle: "What Foods Help Morning Sickness? Small Meals and Snacks"
+description: "What foods help morning sickness, what to avoid if smells trigger nausea, bland BRATT options, hydration tips, and when to call your care team."
 layout: post.njk
 permalink: /blog/foods-for-morning-sickness-pregnancy/index.html
 author: Yuriy Stasyuk
@@ -9,7 +9,7 @@ date: 2026-09-25
 ogType: article
 schemaType: Article
 tags: post
-dateModified: 2026-09-26
+dateModified: 2026-10-14
 ---
 
 **The short answer:** Try small amounts of food you can tolerate, often enough that your stomach is not empty. Dry toast or crackers, rice, pasta, fruit, and simple snacks are reasonable starting points. Sip fluids throughout the day. These ideas come from [ACOG's morning-sickness guidance](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) and the [NHS pregnancy guidance](https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/); no single food works for everyone.
@@ -34,5 +34,20 @@ Try small, frequent sips of water rather than drinking a large amount at once, a
 Bananas are one bland option (ACOG's BRATT list is bananas, rice, applesauce, toast, and tea; tea counts toward your [daily caffeine](/blog/caffeine-coffee-tea-pregnancy/)), but a food's nutrient score does not show that it treats nausea. [ACOG discusses vitamin B6 as a treatment](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy/), while our [B6 food guide](/blog/vitamin-b6-foods-pregnancy/) explains why a banana's B6 content is a separate nutrition question. [Ginger tea and ginger supplements](/blog/ginger-tea-capsules-pregnancy-nausea/) also differ in dose and evidence. Discuss supplements and medicines with your prenatal clinician, especially if symptoms affect your daily life.
 
 PregNut's [food lookup](/food/) compares nutrients per 100 grams. It cannot tell you what your stomach will tolerate or whether vomiting needs treatment. Start with foods and fluids you can manage, then return to broader nutrition planning with your care team as you feel better. If burning after meals is the bigger problem, see our [heartburn meal guide](/blog/heartburn-foods-pregnancy/).
+
+
+## Common questions
+
+### What foods help for morning sickness?
+
+Bland, easy-to-digest foods many people tolerate first. [ACOG](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) suggests dry toast or crackers before getting up, five or six mini meals so your stomach is never empty, and the **BRATT** pattern (bananas, rice, applesauce, toast, and tea) if those appeal to you. Protein with meals can help when you can face it. No single food works for everyone.
+
+### What foods make morning sickness worse?
+
+[ACOG](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) says foods or odors that never bothered you before may now trigger nausea, and to stay away from them when you can. Use a fan when cooking if smells are the problem. Keeping a personal list of triggers is more useful than a universal “bad foods” list.
+
+### What foods should I avoid for morning sickness?
+
+There is no ACOG list of foods that every pregnant person must drop for nausea alone. Separate **food-safety** rules still apply (pasteurized dairy, fully cooked eggs and meat, washed produce). If a food smell or taste makes you vomit, skip it and try another option you can keep down.
 
 **Sources:** [ACOG morning sickness FAQ](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy), [NHS vomiting and morning sickness](https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/). This guide is educational and does not replace prenatal care.
