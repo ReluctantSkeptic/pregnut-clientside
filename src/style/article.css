@@ -44,11 +44,10 @@
   gap: 5px 11px;
   margin: 0;
   color: #4c6557;
-  font-size: .76rem;
+  font-size: 0.8rem;
   font-weight: 650;
   line-height: 1.55;
-  letter-spacing: .06em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 .magazine-post .post-meta a { text-decoration: underline; text-underline-offset: 3px; }
 .magazine-post .post-evidence {

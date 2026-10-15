@@ -176,10 +176,9 @@
 
 .home-float-label {
   color: var(--accent);
-  font-size: 0.66rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .home-float-card strong {
