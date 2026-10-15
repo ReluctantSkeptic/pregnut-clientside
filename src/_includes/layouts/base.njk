@@ -15,7 +15,8 @@
       {% set pageDescription = description or site.description %}
     {% endif %}
     {% set shareTitle = seoTitle or pageTitle %}
-    {% set socialTitle = food.seoTitle if food else (shareTitle if shareTitle == site.name else shareTitle + " | " + site.name) %}
+    {# Search results cut titles at about 60 characters, so the site name is added only when it still fits. #}
+    {% set socialTitle = food.seoTitle if food else (shareTitle if (shareTitle == site.name or (shareTitle + " | " + site.name) | length > 60) else shareTitle + " | " + site.name) %}
     {% set pageUrl = site.url + page.url %}
     {% set pageSchemaType = schemaType or "WebPage" %}
     {% set pageModifiedDate = dateModified or page.date %}
@@ -137,7 +138,7 @@
     {% if pageSchemaType == "Article" and page.date %}<meta property="article:published_time" content="{{ page.date | isoDate }}">{% endif %}
     {% if pageSchemaType == "Article" and dateModified %}<meta property="article:modified_time" content="{{ dateModified | isoDate }}">{% endif %}
     {% set documentTitle = seoTitle or pageTitle %}
-    <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
+    <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name or (documentTitle + " | " + site.name) | length > 60 %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
     <link rel="preload" href="/style/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/style/fonts/instrument-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
     {% if page.url == "/" %}<link rel="preload" href="/style/fonts/instrument-serif-italic-latin.woff2" as="font" type="font/woff2" crossorigin>{% endif %}

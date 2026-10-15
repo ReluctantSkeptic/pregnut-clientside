@@ -1,7 +1,7 @@
 ---
 title: "Raw Egg Foods in Pregnancy: Meringue, Hollandaise, Caesar and Tiramisu"
 seoTitle: "Can You Eat Meringue, Hollandaise or Tiramisu While Pregnant?"
-description: FDA lists homemade Caesar dressing, hollandaise, aioli, mousse, meringue and tiramisu as raw-egg foods to avoid in pregnancy. When store-bought or pasteurized versions are OK.
+description: FDA lists homemade Caesar dressing, hollandaise, aioli, mousse, meringue and tiramisu as raw-egg foods to avoid in pregnancy. When pasteurized versions are OK.
 layout: post.njk
 permalink: /blog/raw-egg-foods-pregnancy/index.html
 author: Yuriy Stasyuk
