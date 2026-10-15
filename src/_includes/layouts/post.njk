@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 pageStyles:
-  - /style/article.css
+  - /style/article.css?v=20261015-no-eyebrows
 ---
 
 <article class="post magazine-post">
@@ -9,7 +9,6 @@ pageStyles:
     <a href="/">Home</a><span aria-hidden="true">/</span><a href="/blog/">Pregnancy nutrition guides</a><span aria-hidden="true">/</span><span aria-current="page">{{ title }}</span>
   </nav>
   <header class="post-header">
-    <p class="post-series">PregNut field guide</p>
     <h1 class="post-title">{{ title }}</h1>
     {% if description %}<p class="post-dek">{{ description }}</p>{% endif %}
     <p class="post-meta"><time datetime="{{ page.date | isoDate }}">Published {{ page.date | readableDate }}</time>{% if dateModified %} <span aria-hidden="true">/</span> <time datetime="{{ dateModified | isoDate }}">Updated {{ dateModified | readableDate }}</time>{% endif %}{% if author %} <span aria-hidden="true">/</span> By {% if author == site.author %}<a href="/about/#editorial">{{ author }}</a>{% else %}{{ author }}{% endif %}{% endif %}</p>

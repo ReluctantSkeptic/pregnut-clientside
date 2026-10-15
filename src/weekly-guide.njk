@@ -11,7 +11,7 @@ eleventyComputed:
   schemaType: WebPage
   bodyClass: page-weekly-static
 pageStyles:
-  - /style/weekly-diet.css?v=20260923-guides
+  - /style/weekly-diet.css?v=20261015-no-eyebrows
 ---
 
 <article class="section weekly-static-page">
@@ -20,7 +20,6 @@ pageStyles:
   </nav>
   <header class="hero slim weekly-hero">
     <div>
-      <p class="eyebrow">Pregnancy nutrition guide</p>
       <p class="post-meta">By <a href="/about/#editorial">{{ site.author }}</a> · <time datetime="2026-09-25">Updated September 25, 2026</time></p>
       <h1 class="hero-title">Pregnancy nutrition for weeks {{ period.weeks.start }}–{{ period.weeks.end }}</h1>
       <p class="hero-lede">{{ period.summary }}</p>
@@ -29,7 +28,6 @@ pageStyles:
 
   <section class="content-card">
     <div class="content-head">
-      <p class="content-eyebrow">{{ period.title }}</p>
       <h2 class="content-title">What is developing</h2>
     </div>
     <ul class="dev-list">
@@ -62,7 +60,6 @@ pageStyles:
   {% if period.id == "wk1-8" %}
     <section class="content-card" aria-labelledby="early-food-example-title">
       <div class="content-head">
-        <p class="content-eyebrow">Food and prenatal examples</p>
         <h2 class="content-title" id="early-food-example-title">What can I eat in the first eight weeks?</h2>
         <p class="content-summary">Weeks 1–2 are counted before conception. Food choices can support nutrition before and after pregnancy begins, while folic acid has a separate, time-sensitive role.</p>
       </div>
@@ -76,7 +73,6 @@ pageStyles:
   {% elif period.id == "wk13-16" %}
     <section class="content-card" aria-labelledby="mid-pregnancy-food-example-title">
       <div class="content-head">
-        <p class="content-eyebrow">Food examples</p>
         <h2 class="content-title" id="mid-pregnancy-food-example-title">What could I eat around week 15?</h2>
         <p class="content-summary">This chapter highlights choline, DHA, calcium, and vitamin D. The examples below are choices to adapt, not a week-specific meal plan or a change in daily nutrient needs.</p>
       </div>
@@ -90,7 +86,6 @@ pageStyles:
   {% elif period.id == "wk21-24" %}
     <section class="content-card" aria-labelledby="week-food-example-title">
       <div class="content-head">
-        <p class="content-eyebrow">Food examples</p>
         <h2 class="content-title" id="week-food-example-title">What could I eat around week 23?</h2>
         <p class="content-summary">These combinations put this chapter's iron, protein, and vitamin C highlights into familiar meals. They are examples to adapt, not a week-specific meal plan or a change to your daily nutrient targets.</p>
       </div>
@@ -103,7 +98,6 @@ pageStyles:
   {% elif period.id == "wk25-28" %}
     <section class="content-card" aria-labelledby="week-27-fish-title">
       <div class="content-head">
-        <p class="content-eyebrow">Food comparison</p>
         <h2 class="content-title" id="week-27-fish-title">What do sardines and salmon contribute around week 27?</h2>
         <p class="content-summary">This chapter highlights DHA and calcium. The foods below are examples for comparison, not a week-specific meal plan or a change in daily nutrient needs.</p>
       </div>

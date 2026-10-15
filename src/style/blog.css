@@ -60,14 +60,6 @@
   padding: 28px 0;
   border-bottom: 1px solid #cbd0c5;
 }
-.blog-jump > span {
-  margin-right: auto;
-  color: #4d5e55;
-  font-size: .79rem;
-  font-weight: 700;
-  letter-spacing: .09em;
-  text-transform: uppercase;
-}
 .blog-jump a {
   color: #2d4d40;
   font-size: .9rem;
@@ -194,7 +186,6 @@
   .blog-hero h1 { max-width: 9ch; margin-bottom: 18px; font-size: clamp(3.15rem, 12vw, 4.6rem); }
   .blog-hero p { margin-bottom: 22px; font-size: 1rem; }
   .blog-jump { gap: 14px 18px; padding: 24px 0; }
-  .blog-jump > span { flex-basis: 100%; }
   .blog-library-heading { display: block; padding: 72px 0 54px; }
   .blog-library-heading h2 { margin-bottom: 20px; font-size: clamp(3.4rem, 11vw, 4.6rem); }
   .blog-library-heading p { margin: 0; }

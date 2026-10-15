@@ -6,14 +6,13 @@ permalink: /weekly-diet/index.html
 bodyClass: page-weekly
 vizStyles: true
 pageStyles:
-  - /style/weekly.css?v=20261007
+  - /style/weekly.css?v=20261015-no-eyebrows
 pageScripts:
   - /js/viz.js?v=20261007
   - /js/weekly-diet.js?v=20261007
 ---
 
 <header class="wk-hero">
-  <p class="wk-kicker">Weekly guide</p>
   <h1 class="wk-title">What to eat, <em>stage by stage.</em></h1>
   <p class="wk-lede">Choose your week to see which nutrients matter now, and the foods richest in them.</p>
 </header>
@@ -32,7 +31,6 @@ pageScripts:
 
 <article class="wk-chapter" aria-labelledby="PeriodTitle">
   <div class="wk-chapter-copy">
-    <p class="wk-kicker" id="PeriodLabel">&nbsp;</p>
     <h2 class="wk-chapter-title" id="PeriodTitle">Loading…</h2>
     <p class="wk-chapter-summary" id="PeriodSummary"></p>
     <h3 class="wk-subhead">What’s developing</h3>
@@ -82,7 +80,7 @@ pageScripts:
 
 {% set stageNames = { "wk1-8": "Foundations", "wk9-12": "Organ formation", "wk13-16": "Brain and skeleton", "wk17-20": "Movement and senses", "wk21-24": "Lungs and sleep", "wk25-28": "Readiness", "wk29-32": "Birth position", "wk33-36": "Weight gain", "wk37-40": "Full term" } %}
 <nav class="wk-stages" aria-labelledby="wk-stages-title">
-  <h2 class="wk-kicker" id="wk-stages-title">Read each stage</h2>
+  <h2 class="wk-stages-title" id="wk-stages-title">Read each stage</h2>
   <ol class="wk-stage-links">
     {% for period in weeklyProtocol.periods %}
     <li><a href="/weekly-guide/{{ period.id }}/"><span>Weeks {{ period.weeks.start }}–{{ period.weeks.end }}</span><em>{{ stageNames[period.id] }}</em></a></li>

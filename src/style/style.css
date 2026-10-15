@@ -146,7 +146,6 @@ p {
   font-size: clamp(2.25rem, 4.5vw, 4.5rem);
 }
 
-.eyebrow,
 .card-meta {
   margin: 0 0 12px;
   color: var(--accent-2);

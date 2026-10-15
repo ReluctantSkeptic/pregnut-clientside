@@ -23,14 +23,6 @@
   padding: 8px 0 42px;
   border-bottom: 1px solid #cbd2c8;
 }
-.magazine-post .post-series {
-  margin-bottom: 24px;
-  color: #30594d;
-  font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: .13em;
-  text-transform: uppercase;
-}
 .magazine-post .post-title {
   max-width: 22ch;
   margin-bottom: 28px;
@@ -175,7 +167,6 @@
 @media (max-width: 680px) {
   .magazine-post .post-breadcrumbs { margin-bottom: 30px; font-size: .78rem; }
   .magazine-post .post-header { padding-bottom: 30px; }
-  .magazine-post .post-series { margin-bottom: 17px; }
   .magazine-post .post-title { margin-bottom: 20px; font-size: clamp(2.85rem, 11vw, 4rem); }
   .magazine-post .post-dek { margin-bottom: 23px; font-size: 1.08rem; }
   .magazine-post .post-evidence {
