@@ -1,7 +1,7 @@
 ---
 title: "Cashews During Pregnancy: Iron, Magnesium, and Portions"
-seoTitle: "Cashews While Pregnant: How Many and Why"
-description: Cashews are a practical pregnancy snack. What a 1-ounce handful adds in iron and magnesium, how many to eat, and how salted cashews compare.
+seoTitle: "Can I Eat Cashews While Pregnant? How Many a Day"
+description: "Cashews are a practical pregnancy snack. How many to eat, what a 1-ounce handful adds in iron and magnesium, and whether salted cashews are OK."
 layout: post.njk
 permalink: /blog/cashews-pregnancy/index.html
 author: Yuriy Stasyuk

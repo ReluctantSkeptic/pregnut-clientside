@@ -1,7 +1,7 @@
 ---
 title: "Sprouts During Pregnancy: Raw Alfalfa, Mung Beans, and Cooked Options"
-seoTitle: "Can You Eat Sprouts While Pregnant? Raw vs Cooked"
-description: Raw alfalfa, bean, and mung bean sprouts are a riskier choice in pregnancy. CDC says cook sprouts until steaming hot. Brussels sprouts are different.
+seoTitle: "Alfalfa & Bean Sprouts While Pregnant: Safe?"
+description: "Avoid raw alfalfa and bean sprouts in pregnancy; CDC says cook sprouts until steaming hot. Cooked sprouts, bean sprouts and Brussels sprouts explained."
 layout: post.njk
 permalink: /blog/sprouts-during-pregnancy/index.html
 author: Yuriy Stasyuk
