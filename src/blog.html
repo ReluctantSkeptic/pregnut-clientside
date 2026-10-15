@@ -9,7 +9,7 @@ socialImageWidth: 1200
 socialImageHeight: 630
 socialImageAlt: Painted still life of greens, lentils, citrus, eggs, and vegetables
 pageStyles:
-  - /style/blog.css
+  - /style/blog.css?v=20261015-no-eyebrows
 permalink: /blog/index.html
 ---
 
@@ -24,7 +24,6 @@ permalink: /blog/index.html
   </section>
 
   <nav class="blog-jump" aria-label="Guide topics">
-    <span>Find your way</span>
     {% for category in blogLibrary %}
       <a href="#{{ category.id }}">{{ category.title }}</a>
     {% endfor %}

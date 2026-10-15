@@ -378,15 +378,6 @@
   box-shadow: 0 26px 80px rgba(23, 19, 16, 0.14);
 }
 
-.content-eyebrow {
-  margin: 0 0 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--weekly-accent-2);
-}
-
 .content-title {
   margin: 0 0 12px;
 }

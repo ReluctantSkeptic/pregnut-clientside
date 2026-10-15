@@ -18,24 +18,15 @@
   margin-inline: auto;
 }
 
-.wk-kicker {
-  margin: 0 0 18px;
-  color: var(--accent-2);
-  font: 700 0.74rem/1.2 "Geist", "Segoe UI", sans-serif;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
 /* Hero */
 .wk-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
-  grid-template-areas: "kicker kicker" "title lede";
+  grid-template-areas: "title lede";
   align-items: end;
   column-gap: 64px;
   padding: 24px 0 64px;
 }
-.wk-hero .wk-kicker { grid-area: kicker; }
 .wk-hero .wk-title { grid-area: title; margin-bottom: 0; }
 .wk-hero .wk-lede { grid-area: lede; padding-bottom: 10px; }
 .wk-title {
@@ -89,7 +80,7 @@
   align-items: center;
   column-gap: 16px;
 }
-.wk-picker-label { grid-area: label; color: var(--muted); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }
+.wk-picker-label { grid-area: label; color: var(--muted); font-size: 0.82rem; }
 .wk-picker-week {
   grid-area: num;
   min-width: 2ch;
@@ -301,6 +292,7 @@
 .wk-footnote { max-width: 70ch; margin: 28px 0 0; color: var(--muted); font-size: 0.8rem; line-height: 1.6; }
 
 /* Stage links */
+.wk-stages-title { margin: 0 0 8px; font: 400 clamp(1.8rem, 3vw, 2.4rem)/1.05 var(--wk-serif); letter-spacing: -0.02em; }
 .wk-stages { margin-top: clamp(88px, 11vw, 140px); padding-top: 40px; border-top: 1px solid var(--wk-hair); }
 .wk-stage-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 40px; margin: 0; padding: 0; list-style: none; }
 .wk-stage-links a {
@@ -336,7 +328,7 @@
 
 /* Responsive */
 @media (max-width: 980px) {
-  .wk-hero { grid-template-columns: 1fr; grid-template-areas: "kicker" "title" "lede"; }
+  .wk-hero { grid-template-columns: 1fr; grid-template-areas: "title" "lede"; }
   .wk-hero .wk-title { margin-bottom: 22px; }
   .wk-picker { grid-template-columns: 1fr; gap: 12px; }
   .wk-picker-now { grid-template-columns: auto auto minmax(0, 1fr); grid-template-areas: "label num period"; align-items: baseline; column-gap: 10px; }
