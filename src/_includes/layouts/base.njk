@@ -141,13 +141,13 @@
     <link rel="preload" href="/style/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/style/fonts/instrument-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
     {% if page.url == "/" %}<link rel="preload" href="/style/fonts/instrument-serif-italic-latin.woff2" as="font" type="font/woff2" crossorigin>{% endif %}
-    <link rel="stylesheet" href="/style/style.css?v=20261015-no-eyebrows">
+    <link rel="stylesheet" href="/style/style.css?v=20261015-no-caps">
     {% if pageStyles %}
       {% for href in pageStyles %}
         <link rel="stylesheet" href="{{ href }}">
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/style/overhaul.css">
+    <link rel="stylesheet" href="/style/overhaul.css?v=20261015-no-caps">
     {% if vizStyles %}<link rel="stylesheet" href="/style/viz.css?v=20260928-1">{% endif %}
   </head>
   <body{% if bodyClass or vizStyles %} class="{{ bodyClass }}{% if vizStyles %} viz-page{% endif %}"{% endif %}>

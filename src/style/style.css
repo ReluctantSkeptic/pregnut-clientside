@@ -149,11 +149,10 @@ p {
 .card-meta {
   margin: 0 0 12px;
   color: var(--accent-2);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .note {
@@ -242,11 +241,10 @@ p {
 
 .brand-tagline {
   color: var(--muted);
-  font-size: 0.66rem;
+  font-size: 0.8rem;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: 0.055em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .nav-pill-menu {
@@ -257,10 +255,9 @@ p {
 }
 
 .nav-pill-menu-text {
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .nav-pill-burger {
@@ -647,10 +644,9 @@ p {
 
 .post-meta {
   color: var(--accent-2);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .post-image {
@@ -738,9 +734,8 @@ p {
 .data-table thead th {
   color: var(--muted);
   background: var(--bg-2);
-  font-size: 0.75rem;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0;
 }
 
 .data-table tbody tr:last-child td {

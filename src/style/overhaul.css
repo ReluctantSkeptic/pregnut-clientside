@@ -522,10 +522,9 @@
   border-radius: 0;
   color: #6a726f;
   background: transparent;
-  font-size: 0.67rem;
+  font-size: 0.8rem;
   font-weight: 750;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .page-weekly .priority-pill::before {
