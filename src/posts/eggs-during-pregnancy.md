@@ -1,7 +1,7 @@
 ---
 title: "Eggs During Pregnancy: Runny Yolks, Pasteurized Eggs, and Sauces"
-seoTitle: "Eggs While Pregnant: Runny, Poached & Pasteurized"
-description: CDC says cook eggs until yolks and whites are firm. What that means for poached, fried, scrambled, and soft-boiled eggs, and when pasteurized eggs help.
+seoTitle: "Poached & Runny Eggs While Pregnant: Are They Safe?"
+description: "Poached eggs are safe in pregnancy only when the yolk is cooked firm (CDC, FDA). Runny, soft-boiled, scrambled and pasteurized eggs explained."
 layout: post.njk
 permalink: /blog/eggs-during-pregnancy/index.html
 author: Yuriy Stasyuk

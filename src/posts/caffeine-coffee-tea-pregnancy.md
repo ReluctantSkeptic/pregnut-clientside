@@ -1,7 +1,7 @@
 ---
 title: "Caffeine During Pregnancy: Coffee, Tea, and the 200 mg Guide"
-seoTitle: "Caffeine During Pregnancy: Coffee and Tea"
-description: "How to count caffeine from coffee, tea, decaf, energy drinks, and supplements during pregnancy, including why cup size and brand matter."
+seoTitle: "Caffeine in Pregnancy: ACOG's 200 mg Limit Explained"
+description: "ACOG advises keeping caffeine below 200 mg a day in pregnancy. How to count coffee, tea, decaf, energy drinks and supplements, and why cup size matters."
 layout: post.njk
 permalink: /blog/caffeine-coffee-tea-pregnancy/index.html
 author: Yuriy Stasyuk

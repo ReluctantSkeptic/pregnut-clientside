@@ -1,7 +1,7 @@
 ---
 title: "Sour Cream During Pregnancy: Pasteurization and Storage"
-seoTitle: "Can You Eat Sour Cream While Pregnant?"
-description: Pasteurized sour cream is a safer dairy choice in pregnancy. How to check the label, how long it can sit out at a taco bar, and what it adds in calcium.
+seoTitle: "Sour Cream While Pregnant: Safe If Pasteurized"
+description: "Yes, pasteurized sour cream is a safer dairy choice in pregnancy (CDC). Label checks, sour cream dips, how long it can sit out, and calcium."
 layout: post.njk
 permalink: /blog/sour-cream-pregnancy/index.html
 author: Yuriy Stasyuk

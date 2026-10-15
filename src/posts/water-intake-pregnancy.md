@@ -1,6 +1,7 @@
 ---
 title: "How Much Water Should You Drink During Pregnancy?"
-description: Put ACOG's 8–12 cups of water into everyday bottle sizes, and understand why a 3-liter total-water reference measures something different.
+description: "ACOG advises 8–12 cups (64–96 oz) of water a day in pregnancy. What that looks like in bottle sizes, and why some sources say 3 liters."
+seoTitle: "Water While Pregnant: ACOG’s 8–12 Cups a Day"
 layout: post.njk
 permalink: /blog/water-intake-pregnancy/index.html
 author: Yuriy Stasyuk

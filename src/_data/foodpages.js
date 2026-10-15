@@ -170,6 +170,23 @@ const FOOD_SEARCH_OVERRIDES = {
   "04017": {
     title: "Can You Eat Thousand Island Dressing While Pregnant? | PregNut",
     description: "Bottled Thousand Island dressing is fine in pregnancy. FDA says commercial dressings use pasteurized eggs. When to ask about house-made sauces."
+  },
+  // 2026-10-15 GSC zero-click food pages (pos ~4-11)
+  "08020": {
+    title: "Are Kellogg's Corn Flakes Safe During Pregnancy? | PregNut",
+    description: "Yes, corn flakes fit a pregnancy diet. This fortified cereal lists 583 mcg DFE folate and 28.9 mg iron per 100 g; check your box label for your serving."
+  },
+  "05140": {
+    title: "Can You Eat Duck While Pregnant? | PregNut",
+    description: "Fully cooked duck is a safer choice in pregnancy; CDC says cook poultry to 165°F. Roasted duck with skin: nutrients per 100 g."
+  },
+  "11333": {
+    title: "Can You Eat Raw Green Peppers While Pregnant? | PregNut",
+    description: "Yes, raw green peppers are fine in pregnancy once washed. FDA says rinse produce under running water, no soap. Nutrients per 100 g."
+  },
+  "11109": {
+    title: "Can You Eat Raw Cabbage While Pregnant? | PregNut",
+    description: "Yes, raw cabbage is fine in pregnancy once washed. FDA says rinse produce under running water, no soap. Nutrients per 100 g."
   }
 };
 
