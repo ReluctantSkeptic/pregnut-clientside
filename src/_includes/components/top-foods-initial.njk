@@ -1,6 +1,6 @@
 {% for group in topFoods.groups %}
   <section class="viz-card" id="{{ group.id }}" aria-label="{{ group.name | escape }} top foods">
-    <h3 class="viz-card-title">{{ group.name }}</h3>
+    <h2 class="viz-card-title">{{ group.name }}</h2>
     <ol class="viz-list">
       {% for food in group.items %}
         <li class="viz-row">

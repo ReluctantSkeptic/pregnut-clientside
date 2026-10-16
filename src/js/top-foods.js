@@ -205,7 +205,7 @@
       card.setAttribute("aria-label", group.name + " top foods");
       itemCount += group.items.length;
 
-      card.appendChild(el("h3", "viz-card-title", group.name));
+      card.appendChild(el("h2", "viz-card-title", group.name));
 
       var list = el("ol", "viz-list", null);
       for (var fi = 0; fi < group.items.length; fi++) {
