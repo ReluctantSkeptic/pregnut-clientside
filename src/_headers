@@ -1,0 +1,6 @@
+# Keep the Cloudflare Pages hosts out of search; the canonical host is pregnut.com.
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex

@@ -32,6 +32,7 @@ module.exports = function(eleventyConfig) {
    eleventyConfig.addPassthroughCopy("src/resource");
    eleventyConfig.addPassthroughCopy("src/favicon.svg");
    eleventyConfig.addPassthroughCopy("src/_redirects");
+   eleventyConfig.addPassthroughCopy("src/_headers");
 
    eleventyConfig.addFilter("isoDate", (dateObj) => {
      if (!dateObj) return "";
