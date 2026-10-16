@@ -28,4 +28,6 @@ For a cooked fish meal, [CDC lists fish cooked to **145°F**, or until the flesh
 
 PregNut's [smoked whitefish nutrient entry](/food/15131-whitefish-smoked/) reports nutrients for a reference food; it cannot tell whether a product is refrigerated, shelf-stable, or heated. Our [lower-mercury fish guide](/blog/low-mercury-fish-pregnancy/) explains fish choices and weekly servings separately from this smoked-seafood handling question.
 
+**Related:** [cooked salmon: how much and which kinds](/blog/salmon-pregnancy/).
+
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA ready-to-eat food guidance for pregnancy](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be), and [FDA/EPA advice about eating fish](https://www.fda.gov/food/consumers/advice-about-eating-fish). This guide is educational and does not replace prenatal care.

@@ -48,6 +48,6 @@ No. PregNut's [food lookup](/food/) reports nutrients in a **100 g reference foo
 
 An exposure does not mean you have an infection. [CDC's Listeria symptom guidance](https://www.cdc.gov/listeria/signs-symptoms/) says to contact a healthcare provider if you ate food linked to a recall or outbreak **and** have fever with symptoms such as fatigue or muscle aches. Tell the provider about the food. If you feel well but have a specific concern, ask your prenatal care team what to do.
 
-**Related:** [hard cheese during pregnancy](/blog/hard-cheese-pregnancy/) covers cheddar, Parmesan, Swiss, and provolone.
+**Related:** [hard cheese during pregnancy](/blog/hard-cheese-pregnancy/) covers cheddar, Parmesan, Swiss, and provolone. See also [feta cheese](/blog/feta-cheese-pregnancy/) and [blue cheese](/blog/blue-cheese-pregnancy/).
 
 **Sources:** [CDC safer food choices for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [FDA dairy and eggs food safety for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be), [FDA queso fresco-type cheese guidance](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance), [FDA food safety facts](https://www.fda.gov/food/people-risk-foodborne-illness/fact-or-fiction-food-safety-moms-be), and [CDC Listeria symptoms](https://www.cdc.gov/listeria/signs-symptoms/). This guide is educational and does not replace prenatal care.

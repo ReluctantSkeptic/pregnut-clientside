@@ -33,6 +33,6 @@ No. [PregNut's food pages](/food/) show nutrients per **100 g of a reference foo
 
 Eating it does not mean you have a *Listeria* infection. [CDC's symptom guidance](https://www.cdc.gov/listeria/signs-symptoms/) says to contact a healthcare provider if you ate food recalled or linked to an outbreak **and** have fever with symptoms such as fatigue or muscle aches. Tell the provider what you ate. If you feel well but have a specific concern, ask your prenatal care team for advice.
 
-**Related:** [pâté and meat spreads](/blog/pate-pregnancy/) and [premade deli salads](/blog/deli-salads-pregnancy/).
+**Related:** [pâté and meat spreads](/blog/pate-pregnancy/), [premade deli salads](/blog/deli-salads-pregnancy/), and [salami and prosciutto](/blog/salami-prosciutto-pregnancy/).
 
 **Sources:** [CDC safer food choices for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [CDC Listeria and deli foods](https://www.cdc.gov/listeria/causes/deli-ready-to-eat-foods.html), [FoodSafety.gov pregnancy guidance](https://www.foodsafety.gov/people-at-risk/pregnant-women), and [CDC Listeria symptoms](https://www.cdc.gov/listeria/signs-symptoms/). This guide is educational and does not replace prenatal care.

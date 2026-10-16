@@ -56,4 +56,6 @@ The [CDC says most people get vibriosis](https://www.cdc.gov/vibrio/about/index.
 
 No. FDA places shrimp in its lowest-mercury group, Best Choices.
 
+**Related:** [lobster during pregnancy](/blog/lobster-pregnancy/) and [salmon during pregnancy](/blog/salmon-pregnancy/).
+
 **Sources:** [FDA advice about eating fish](https://www.fda.gov/food/consumers/advice-about-eating-fish), [FDA meat, poultry, and seafood safety for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be), [FDA ready-to-eat foods for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be), [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [CDC vibriosis](https://www.cdc.gov/vibrio/about/index.html), and [CDC food-poisoning symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html). This guide is educational and does not replace prenatal care.

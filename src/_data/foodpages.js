@@ -187,6 +187,31 @@ const FOOD_SEARCH_OVERRIDES = {
   "11109": {
     title: "Can You Eat Raw Cabbage While Pregnant? | PregNut",
     description: "Yes, raw cabbage is fine in pregnancy once washed. FDA says rinse produce under running water, no soap. Nutrients per 100 g."
+  },
+  // 2026-10-16 GSC zero-click food pages (pos ~3-16), claims in food_explanations.json
+  "18326": {
+    title: "Can You Eat Pumpkin Pie While Pregnant? | PregNut",
+    description: "Yes, baked pumpkin pie is fine in pregnancy. FDA says cook egg dishes to 160°F and refrigerate leftovers within 2 hours. Nutrients per 100 g."
+  },
+  "15175": {
+    title: "Can You Eat Squid or Calamari While Pregnant? | PregNut",
+    description: "Yes, cooked squid is an FDA Best Choice for mercury: 2 to 3 four-ounce servings a week in pregnancy. Skip raw squid sushi. Nutrients per 100 g."
+  },
+  "15036": {
+    title: "Is Halibut Safe During Pregnancy? | PregNut",
+    description: "Halibut is an FDA Good Choice: 1 four-ounce serving a week in pregnancy, vs 2 to 3 for Best Choices. Cook to 145°F. Nutrients per 100 g."
+  },
+  "15035": {
+    title: "Can You Eat Smoked Haddock While Pregnant? | PregNut",
+    description: "Only in a cooked dish. CDC lists refrigerated smoked seafood as riskier in pregnancy unless cooked, e.g. in a casserole. Nutrients per 100 g."
+  },
+  "01140": {
+    title: "Are Quail Eggs Safe During Pregnancy? | PregNut",
+    description: "Yes, when fully cooked. CDC says cook eggs until the yolks and whites are firm in pregnancy. Choline, B12 and protein per 100 g."
+  },
+  "09040": {
+    title: "Raw Banana in Pregnancy: Safe? Potassium & B6 | PregNut",
+    description: "Yes. NIH lists 422 mg potassium in a medium banana; the pregnancy AI is 2,900 mg a day. FDA says wash produce before peeling. Nutrients per 100 g."
   }
 };
 
@@ -285,8 +310,24 @@ const TOPIC_GUIDES = {
   safety: { title: "Pregnancy food-safety checklist", url: "/blog/food-safety-pregnancy/" }
 };
 
+// Food-specific guides (2026-10-16 posts): shown first on the matching food pages.
+const FOOD_GUIDES = {
+  "07072": { title: "Salami and prosciutto", url: "/blog/salami-prosciutto-pregnancy/" },
+  "15237": { title: "Salmon: how much and how to cook it", url: "/blog/salmon-pregnancy/" },
+  "15247": { title: "Salmon: how much and how to cook it", url: "/blog/salmon-pregnancy/" },
+  "15086": { title: "Salmon: how much and how to cook it", url: "/blog/salmon-pregnancy/" },
+  "15084": { title: "Salmon: how much and how to cook it", url: "/blog/salmon-pregnancy/" },
+  "15148": { title: "Lobster and lobster rolls", url: "/blog/lobster-pregnancy/" },
+  "01019": { title: "Feta cheese and pasteurization", url: "/blog/feta-cheese-pregnancy/" },
+  "01004": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" },
+  "04539": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" },
+  "42192": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" },
+  "42153": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" }
+};
+
 function readingLinks(food, flags, topNutrients) {
   const links = [];
+  if (FOOD_GUIDES[food.id]) links.push(FOOD_GUIDES[food.id]);
   if (food.id === "05028" || food.id === "13327") links.push(TOPIC_GUIDES.liver);
   if (flags.isCheese) links.push(TOPIC_GUIDES.cheese);
   if (flags.isMilkOrYogurt) links.push(TOPIC_GUIDES.dairy);

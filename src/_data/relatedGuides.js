@@ -1,4 +1,24 @@
 module.exports = {
+  "/blog/salami-prosciutto-pregnancy/": [
+    { url: "/blog/deli-meat-pregnancy/", title: "Deli meat and cold cuts" },
+    { url: "/blog/pepperoni-pregnancy/", title: "Pepperoni and pizza" }
+  ],
+  "/blog/salmon-pregnancy/": [
+    { url: "/blog/low-mercury-fish-pregnancy/", title: "Lower-mercury fish choices" },
+    { url: "/blog/smoked-salmon-pregnancy/", title: "Smoked salmon and lox" }
+  ],
+  "/blog/lobster-pregnancy/": [
+    { url: "/blog/shrimp-pregnancy/", title: "Shrimp, prawns, and crab" },
+    { url: "/blog/low-mercury-fish-pregnancy/", title: "Lower-mercury fish choices" }
+  ],
+  "/blog/feta-cheese-pregnancy/": [
+    { url: "/blog/soft-cheese-pregnancy/", title: "How other soft cheeses compare" },
+    { url: "/blog/raw-milk-pregnancy/", title: "Check milk and yogurt pasteurization" }
+  ],
+  "/blog/blue-cheese-pregnancy/": [
+    { url: "/blog/soft-cheese-pregnancy/", title: "How other soft cheeses compare" },
+    { url: "/blog/ranch-dressing-pregnancy/", title: "Ranch and salad dressings" }
+  ],
   "/blog/medium-rare-steak-pregnancy/": [
     { url: "/blog/iron-foods-pregnancy/", title: "Iron-rich foods and pairings" },
     { url: "/blog/leftovers-pregnancy/", title: "Store and reheat cooked leftovers" }

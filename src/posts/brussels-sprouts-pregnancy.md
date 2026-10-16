@@ -1,7 +1,7 @@
 ---
 title: "Brussels Sprouts During Pregnancy: Raw, Cooked, and Folate"
-seoTitle: "Can You Eat Brussels Sprouts While Pregnant?"
-description: Yes, Brussels sprouts are fine in pregnancy. Why the raw-sprout warning does not apply, raw vs cooked, and how much folate and vitamin C they add.
+seoTitle: "Are Brussels Sprouts Safe and Good for Pregnancy?"
+description: "Yes. Brussels sprouts are not the raw seed sprouts CDC warns about, and NIH lists them among top folate foods (78 mcg DFE per ½ cup). Raw vs cooked."
 layout: post.njk
 permalink: /blog/brussels-sprouts-pregnancy/index.html
 author: Yuriy Stasyuk
@@ -48,6 +48,10 @@ For comparison, [NIH lists 85 mg of vitamin C a day](https://ods.od.nih.gov/fact
 Yes. The CDC's pregnancy food chart does not set different rules by trimester, so the same washing and cooking advice applies from early pregnancy on. If nausea makes strong-smelling vegetables hard to face, our [morning sickness food guide](/blog/foods-for-morning-sickness-pregnancy/) has gentler options.
 
 ## Common questions
+
+### Are Brussels sprouts good for pregnancy?
+
+Yes, as one source of food folate. The [NIH folate fact sheet](https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/) names Brussels sprouts among the foods highest in folate, at **78 mcg DFE** per ½ cup frozen and boiled, against a pregnancy recommendation of **600 mcg DFE a day**.
 
 ### Are "brussel sprouts" and Brussels sprouts the same?
 

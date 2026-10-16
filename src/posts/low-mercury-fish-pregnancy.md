@@ -84,4 +84,6 @@ No. FDA explains that mercury is distributed through fish tissue, so cooking doe
 
 FDA says a single serving is not a reason to panic; choose lower-mercury fish going forward. If you have a specific exposure concern, contact your prenatal clinician.
 
+**Related:** [salmon: how much and how to cook it](/blog/salmon-pregnancy/), [shrimp and crab](/blog/shrimp-pregnancy/), and [lobster](/blog/lobster-pregnancy/).
+
 **Sources:** [NIH calcium food table](https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/), [FDA/EPA advice about eating fish](https://www.fda.gov/food/consumers/advice-about-eating-fish), [FDA fish questions and answers](https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or), and [FDA pregnancy seafood safety](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be). This guide is educational and does not replace prenatal care.
