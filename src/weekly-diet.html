@@ -31,8 +31,11 @@ pageScripts:
 
 <article class="wk-chapter" aria-labelledby="PeriodTitle">
   <div class="wk-chapter-copy">
-    <h2 class="wk-chapter-title" id="PeriodTitle">Loading…</h2>
-    <p class="wk-chapter-summary" id="PeriodSummary"></p>
+    {# Server-render the default week (4) so crawlers and no-JS readers get a real heading; weekly-diet.js replaces it with the same text, or with the reader's own week. #}
+    {% for period in weeklyProtocol.periods %}{% if period.weeks.start <= 4 and period.weeks.end >= 4 %}
+    <h2 class="wk-chapter-title" id="PeriodTitle">{{ period.title.split("(")[0] | replace(" + ", " & ") | replace(";", ",") | trim }}</h2>
+    <p class="wk-chapter-summary" id="PeriodSummary">{{ period.summary }}</p>
+    {% endif %}{% endfor %}
     <h3 class="wk-subhead">What’s developing</h3>
     <ol class="wk-dev" id="DevList"></ol>
     <ul class="wk-notes" id="PeriodNotes" aria-label="Good to know"></ul>
