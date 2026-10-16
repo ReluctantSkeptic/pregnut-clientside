@@ -60,7 +60,7 @@ An ounce of roasted seeds contributes about **2.2 mg**, according to NIH. That i
 
 ### Does a high-zinc food ranking mean I should eat that food?
 
-No. Rankings compare nutrients, not food safety, your diet, or a suitable serving. For example, oysters can be very high in zinc, but [CDC advises avoiding raw or undercooked seafood during pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html). Check preparation guidance before choosing a food.
+No. Rankings compare nutrients, not food safety, your diet, or a suitable serving. For example, [oysters](/blog/oysters-pregnancy/) can be very high in zinc, but [CDC advises avoiding raw or undercooked seafood during pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html). Check preparation guidance before choosing a food.
 
 ### Should vegetarians take more zinc than the label recommends?
 

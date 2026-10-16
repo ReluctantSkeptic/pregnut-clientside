@@ -39,7 +39,7 @@ Ask whether the mayonnaise or aioli is **made in-house** and, if so, whether it 
 
 ## Are tuna salad, chicken salad, and potato salad OK?
 
-This is a separate question from the mayonnaise itself. The CDC lists **premade deli salads**, such as coleslaw and potato, tuna, chicken, or egg salad, as riskier choices during pregnancy, and **homemade** deli salads as the safer choice. Making tuna or egg salad at home with store-bought mayonnaise fits the safer column. Our [deli meat guide](/blog/deli-meat-pregnancy/) covers sandwich counters.
+This is a separate question from the mayonnaise itself. The CDC lists **[premade deli salads](/blog/deli-salads-pregnancy/)**, such as coleslaw and potato, tuna, chicken, or egg salad, as riskier choices during pregnancy, and **homemade** deli salads as the safer choice. Making tuna or egg salad at home with store-bought mayonnaise fits the safer column. Our [deli meat guide](/blog/deli-meat-pregnancy/) covers sandwich counters.
 
 ## What happens if I ate homemade mayo while pregnant?
 

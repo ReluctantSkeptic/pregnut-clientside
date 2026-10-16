@@ -23,7 +23,7 @@ tags: post
 
 ## Which foods are highest in iron for pregnancy?
 
-Fortified breakfast cereal, beans, lentils, tofu, cooked spinach, and lean meat are among the highest-iron everyday foods. The [NIH iron food table](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) lists these servings:
+[Fortified breakfast cereal](/blog/cereal-pregnancy/), beans, lentils, tofu, cooked spinach, and lean meat are among the highest-iron everyday foods. The [NIH iron food table](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) lists these servings:
 
 | Food | Serving | Iron |
 | --- | --- | ---: |

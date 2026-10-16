@@ -322,7 +322,8 @@ const FOOD_GUIDES = {
   "01004": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" },
   "04539": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" },
   "42192": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" },
-  "42153": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" }
+  "42153": { title: "Blue cheese and dressing", url: "/blog/blue-cheese-pregnancy/" },
+  "19296": { title: "Honey during pregnancy", url: "/blog/honey-pregnancy/" }
 };
 
 function readingLinks(food, flags, topNutrients) {
