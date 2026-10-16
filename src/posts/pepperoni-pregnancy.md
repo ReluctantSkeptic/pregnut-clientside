@@ -50,4 +50,6 @@ Tell your prenatal care team what you ate and when. For *Listeria*, the [CDC say
 
 Yes, if it gets steaming hot. Check that the slices are hot, not just warm, before eating.
 
+**Related:** [salami and prosciutto](/blog/salami-prosciutto-pregnancy/).
+
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [CDC how Listeria spreads](https://www.cdc.gov/listeria/causes/index.html), [CDC preventing Listeria](https://www.cdc.gov/listeria/prevention/index.html), [FDA ready-to-eat foods for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be), and [CDC food-poisoning symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html). This guide is educational and does not replace prenatal care.

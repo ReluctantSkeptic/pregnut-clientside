@@ -5441,29 +5441,96 @@
   },
   "15035": {
     "verdict": "Safe with precautions",
-    "explanation": "Smoked haddock is safe during pregnancy only when thoroughly cooked or heated until steaming hot. While haddock itself is an FDA Best Choice fish rich in protein and B vitamins, refrigerated smoked fish can carry Listeria monocytogenes. The FDA and CDC state that pregnant women must heat refrigerated smoked seafood to 165°F before consumption. Simmer smoked haddock in milk for a traditional fish pie or hot chowder to eliminate bacterial risks.",
-    "sources": [
+    "explanation": "Can you eat smoked haddock while pregnant? Only in a cooked dish. CDC lists refrigerated smoked seafood, usually labeled nova-style, lox, kippered, or smoked, as a riskier choice in pregnancy, and smoked fish cooked in a casserole or other cooked dish as a safer choice. FDA gives the same advice: do not eat refrigerated smoked seafood unless it is in a cooked dish, such as a casserole. Canned or shelf-stable smoked seafood is okay to eat. Haddock is on FDA's Best Choices list for mercury, which FDA advises eating 2 to 3 four-ounce servings a week from in pregnancy. This record lists 25.23 g protein and 1.6 mcg vitamin B12 per 100 g of smoked haddock in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+        "text": "Can you eat smoked haddock while pregnant? Only in a cooked dish. CDC lists refrigerated smoked seafood, usually labeled nova-style, lox, kippered, or smoked, as a riskier choice in pregnancy, and smoked fish cooked in a casserole or other cooked dish as a safer choice.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/listeria/prevention.html"
+        "text": "FDA gives the same advice: do not eat refrigerated smoked seafood unless it is in a cooked dish, such as a casserole. Canned or shelf-stable smoked seafood is okay to eat.",
+        "source": {
+          "name": "FDA: ready-to-eat foods for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "Haddock is on FDA's Best Choices list for mercury, which FDA advises eating 2 to 3 four-ounce servings a week from in pregnancy.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "This record lists 25.23 g protein and 1.6 mcg vitamin B12 per 100 g of smoked haddock in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-16",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: ready-to-eat foods for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+      },
+      {
+        "name": "FDA: advice about eating fish",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
   "15036": {
     "verdict": "Limit",
-    "explanation": "Halibut is classified by the FDA and EPA as a Good Choice fish that should be limited during pregnancy. It provides excellent protein, selenium, and vitamin D, but its predatory life cycle leads to moderate mercury accumulation. The FDA advises eating no more than one four-ounce serving of halibut per week and avoiding other fish during that same week. Always cook halibut steaks to an internal temperature of 145°F until the flesh flakes easily.",
+    "explanation": "Is halibut safe during pregnancy? Yes, in limited amounts. Halibut is on FDA's Good Choices list for mercury. FDA's pregnancy advice is 2 to 3 four-ounce servings a week from its Best Choices list, or 1 serving a week from its Good Choices list. Cook halibut to 145°F or until the flesh is opaque and separates easily with a fork, as CDC advises for fish in pregnancy. This record lists 18.56 g protein, 190 IU vitamin D, and 1.1 mcg vitamin B12 per 100 g of halibut in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Is halibut safe during pregnancy? Yes, in limited amounts. Halibut is on FDA's Good Choices list for mercury. FDA's pregnancy advice is 2 to 3 four-ounce servings a week from its Best Choices list, or 1 serving a week from its Good Choices list.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "Cook halibut to 145°F or until the flesh is opaque and separates easily with a fork, as CDC advises for fish in pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record lists 18.56 g protein, 190 IU vitamin D, and 1.1 mcg vitamin B12 per 100 g of halibut in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-16",
     "sources": [
       {
-        "name": "FDA",
+        "name": "FDA: advice about eating fish",
         "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
       },
       {
-        "name": "EPA",
-        "url": "https://www.epa.gov/choose-fish-and-shellfish-wisely"
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -6104,15 +6171,43 @@
   },
   "15175": {
     "verdict": "Recommended",
-    "explanation": "Cooked squid is recommended during pregnancy as an FDA Best Choice seafood. It supplies lean protein, vitamin B12, selenium, and copper while remaining very low in mercury. The FDA and CDC advise cooking squid thoroughly until firm and opaque rather than consuming raw squid sushi. Grill or saute calamari rings quickly with garlic and olive oil for a light, nutrient-rich dish.",
+    "explanation": "Can you eat squid while pregnant? Yes, when it is cooked. Squid is on FDA's Best Choices list for mercury, and FDA's pregnancy advice is 2 to 3 four-ounce servings a week from that list. FDA says most seafood should be cooked to an internal temperature of 145°F. CDC lists raw or undercooked fish or shellfish, including sashimi and sushi, as riskier choices in pregnancy, so choose cooked calamari over raw squid. This record lists 15.58 g protein, 0.34 g DHA, and 1.3 mcg vitamin B12 per 100 g of squid in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Can you eat squid while pregnant? Yes, when it is cooked. Squid is on FDA's Best Choices list for mercury, and FDA's pregnancy advice is 2 to 3 four-ounce servings a week from that list.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "FDA says most seafood should be cooked to an internal temperature of 145°F. CDC lists raw or undercooked fish or shellfish, including sashimi and sushi, as riskier choices in pregnancy, so choose cooked calamari over raw squid.",
+        "source": {
+          "name": "FDA: selecting and serving seafood safely",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      },
+      {
+        "text": "This record lists 15.58 g protein, 0.34 g DHA, and 1.3 mcg vitamin B12 per 100 g of squid in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-16",
     "sources": [
       {
-        "name": "FDA",
+        "name": "FDA: advice about eating fish",
         "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "FDA: selecting and serving seafood safely",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -8145,15 +8240,50 @@
   },
   "18326": {
     "verdict": "Safe with precautions",
-    "explanation": "Pumpkin pie is safe and can be a relatively nutritious dessert option during pregnancy when fully cooked. Pumpkin puree provides dietary fiber and beta-carotene, while the custard base contributes calcium and vitamin B12. The FDA recommends confirming that the pie is prepared with pasteurized dairy and eggs, and baked until the center reaches 160 degrees Fahrenheit. Refrigerate leftovers promptly and enjoy a modest slice topped with a small dollop of whipped cream.",
-    "sources": [
+    "explanation": "Can you eat pumpkin pie while pregnant? Yes, when it is baked. Pumpkin pie filling usually contains eggs, and FDA says casseroles and other dishes containing eggs should be cooked to 160°F. Skip tasting raw filling: CDC lists foods that contain raw or undercooked eggs, and raw batter, as riskier choices in pregnancy. Refrigerate leftover pie. FDA says not to leave cooked egg dishes out of the refrigerator for more than 2 hours (1 hour above 90°F), and to use leftover cooked egg dishes within 3 to 4 days. Nutrient values are per 100 g of pumpkin pie in PregNut's historical USDA-based dataset; they describe a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        "text": "Can you eat pumpkin pie while pregnant? Yes, when it is baked. Pumpkin pie filling usually contains eggs, and FDA says casseroles and other dishes containing eggs should be cooked to 160°F.",
+        "source": {
+          "name": "FDA: what you need to know about egg safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        }
       },
       {
-        "name": "USDA Dietary Guidelines",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "Skip tasting raw filling: CDC lists foods that contain raw or undercooked eggs, and raw batter, as riskier choices in pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "Refrigerate leftover pie. FDA says not to leave cooked egg dishes out of the refrigerator for more than 2 hours (1 hour above 90°F), and to use leftover cooked egg dishes within 3 to 4 days.",
+        "source": {
+          "name": "FDA: what you need to know about egg safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        }
+      },
+      {
+        "text": "Nutrient values are per 100 g of pumpkin pie in PregNut's historical USDA-based dataset; they describe a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-16",
+    "sources": [
+      {
+        "name": "FDA: what you need to know about egg safety",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      },
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -15763,15 +15893,43 @@
   },
   "01140": {
     "verdict": "Safe with precautions",
-    "explanation": "Fresh quail eggs are safe with precautions during pregnancy when cooked until the yolks and whites are entirely solid. They deliver concentrated choline, riboflavin, and vitamin B12 to support maternal nervous system and red blood cell health. Eating raw or undercooked quail eggs poses a risk of Salmonella infection during pregnancy. Boil quail eggs thoroughly for several minutes before peeling and serving in salads.",
+    "explanation": "Are quail eggs safe during pregnancy? Yes, when fully cooked. CDC's pregnancy advice does not single out quail eggs; it says to cook eggs until the yolks and whites are firm, and lists raw or undercooked (runny) eggs as riskier. FDA says to keep eggs refrigerated at 40°F or below and to cook eggs until both the yolk and the white are firm. This record lists 263.4 mg choline, 1.58 mcg vitamin B12, and 13.05 g protein per 100 g of fresh quail eggs in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Are quail eggs safe during pregnancy? Yes, when fully cooked. CDC's pregnancy advice does not single out quail eggs; it says to cook eggs until the yolks and whites are firm, and lists raw or undercooked (runny) eggs as riskier.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says to keep eggs refrigerated at 40°F or below and to cook eggs until both the yolk and the white are firm.",
+        "source": {
+          "name": "FDA: what you need to know about egg safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        }
+      },
+      {
+        "text": "This record lists 263.4 mg choline, 1.58 mcg vitamin B12, and 13.05 g protein per 100 g of fresh quail eggs in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-16",
     "sources": [
       {
-        "name": "CDC Food Safety",
+        "name": "CDC: safer food choices in pregnancy",
         "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
       },
       {
-        "name": "FDA Food Safety for Moms-to-Be",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        "name": "FDA: what you need to know about egg safety",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -17697,15 +17855,43 @@
   },
   "09040": {
     "verdict": "Recommended",
-    "explanation": "Raw bananas are strongly recommended during pregnancy as a convenient, gentle staple food. They deliver vitamin B6, which ACOG highlights as a supportive nutrient for easing morning sickness, alongside potassium and soluble fiber. Peel bananas right before eating and store at room temperature away from excessive moisture. Slice over warm oatmeal or eat plain to settle an uneasy stomach.",
-    "sources": [
+    "explanation": "Can you eat bananas while pregnant? Yes. The NIH potassium fact sheet lists 422 mg potassium in 1 medium banana, and lists an Adequate Intake of 2,900 mg a day in pregnancy for ages 19 to 50. Wash bananas under running water before peeling. FDA says to wash produce even if you do not plan to eat the skin, so dirt and bacteria are not transferred when peeling or cutting. This record describes ripe raw banana and lists 358 mg potassium and 0.36 mg vitamin B6 per 100 g in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy"
+        "text": "Can you eat bananas while pregnant? Yes. The NIH potassium fact sheet lists 422 mg potassium in 1 medium banana, and lists an Adequate Intake of 2,900 mg a day in pregnancy for ages 19 to 50.",
+        "source": {
+          "name": "NIH: potassium fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+        }
       },
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "Wash bananas under running water before peeling. FDA says to wash produce even if you do not plan to eat the skin, so dirt and bacteria are not transferred when peeling or cutting.",
+        "source": {
+          "name": "FDA: selecting and serving produce safely",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      },
+      {
+        "text": "This record describes ripe raw banana and lists 358 mg potassium and 0.36 mg vitamin B6 per 100 g in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-16",
+    "sources": [
+      {
+        "name": "NIH: potassium fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+      },
+      {
+        "name": "FDA: selecting and serving produce safely",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },

@@ -47,4 +47,6 @@ CDC lists cheeses heated to 165°F or until steaming hot as safer choices, inclu
 
 CDC's chart lists any cheese made with raw (unpasteurized) milk as riskier, without an exception for aging. Choose pasteurized, or heat it until steaming hot.
 
+**Related:** [feta cheese](/blog/feta-cheese-pregnancy/) and [blue cheese](/blog/blue-cheese-pregnancy/).
+
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [CDC preventing Listeria](https://www.cdc.gov/listeria/prevention/index.html), and [FDA dairy and eggs for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be). This guide is educational and does not replace prenatal care.
