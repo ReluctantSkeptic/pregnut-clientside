@@ -1,3 +1,14 @@
+# Security headers for every page (added 2026-10 security hardening).
+# No script/style Content-Security-Policy yet: it would need a careful allow-list for
+# Google Analytics and fonts. frame-ancestors only blocks other sites from framing pages.
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: frame-ancestors 'self'
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
 # Keep the Cloudflare Pages hosts out of search; the canonical host is pregnut.com.
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
