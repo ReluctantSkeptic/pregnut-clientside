@@ -56,7 +56,7 @@ These questions turn a label comparison into a discussion about your own care. D
 
 ### Is a prenatal with more of every nutrient better?
 
-No. More is not automatically better, and stacking products can raise the risk of excessive intake. Ask your prenatal clinician about an additional supplement before taking one.
+No. More is not automatically better, and stacking products can raise the risk of excessive intake. Protein powders can carry added vitamins and minerals too; our [protein powder label checklist](/blog/protein-powder-pregnancy/) shows how to compare one with your prenatal. Ask your prenatal clinician about an additional supplement before taking one.
 
 ### What if my gummy has no iron?
 

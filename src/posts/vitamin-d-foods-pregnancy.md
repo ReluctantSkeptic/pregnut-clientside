@@ -29,7 +29,7 @@ PregNut lists vitamin D in **IU per 100 g**, which is a consistent comparison am
 - [Soy milk with added vitamins A and D](/food/16139-soymilk-original-and-vanilla-with-added-calcium-vitamins-a-and-d/): **43 IU** in this particular database entry. Another brand may have a different amount; its label is the better source for what is in your glass.
 - [Hard-boiled egg](/food/01129-egg-hard-boiled/): **87 IU**. The 100 g value covers more than one typical egg, so do not read it as an amount per egg.
 
-Use [PregNut's food lookup](/food/) for other comparisons. Vitamin D works with [calcium from foods and supplements](/blog/calcium-without-dairy-pregnancy/) to support bone health, but the chart cannot measure your vitamin D status.
+Use [PregNut's food lookup](/food/) for other comparisons. Vitamin D works with [calcium from foods and supplements](/blog/calcium-without-dairy-pregnancy/) to support bone health, but the chart cannot measure your vitamin D status. Vitamin D stays a supporting highlight in our weekly guide through the [final weeks, 37–40](/weekly-guide/wk37-40/).
 
 ## Should I add a vitamin D supplement?
 

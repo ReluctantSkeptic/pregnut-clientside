@@ -17,7 +17,7 @@ dateModified: 2026-10-14
 ## What can I try first?
 
 - **Before getting up:** ACOG suggests dry toast or crackers if waking with an empty stomach makes nausea worse.
-- **During the day:** Try five or six small meals instead of a few large ones. A few bites of crackers, fruit, or nuts between meals may be easier than a full plate.
+- **During the day:** Try five or six small meals instead of a few large ones. A few bites of crackers, fruit, or [nuts](/blog/cashews-pregnancy/) between meals may be easier than a full plate.
 - **When flavors or smells are difficult:** The NHS suggests plain, lower-fat foods such as bread, rice, crackers, and pasta. Cold foods may be easier if cooking smells trigger nausea.
 - **When you can add more variety:** ACOG suggests including some protein with meals. If they appeal to you, try nuts, nut butter, or pasteurized yogurt alongside a food you already tolerate.
 
@@ -40,7 +40,7 @@ PregNut's [food lookup](/food/) compares nutrients per 100 grams. It cannot tell
 
 ### What foods help for morning sickness?
 
-Bland, easy-to-digest foods many people tolerate first. [ACOG](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) suggests dry toast or crackers before getting up, five or six mini meals so your stomach is never empty, and the **BRATT** pattern (bananas, rice, applesauce, toast, and tea) if those appeal to you. Protein with meals can help when you can face it. No single food works for everyone.
+Bland, easy-to-digest foods many people tolerate first. [ACOG](https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy) suggests dry toast or crackers before getting up, five or six mini meals so your stomach is never empty, and the **BRATT** pattern (bananas, rice, applesauce, toast, and tea) if those appeal to you. If you sweeten that tea with honey, our [honey guide](/blog/honey-pregnancy/) explains that CDC's honey warning is about babies under 1 year. Protein with meals can help when you can face it. No single food works for everyone.
 
 ### What foods make morning sickness worse?
 

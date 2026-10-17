@@ -32,7 +32,7 @@ PregNut's [USDA-based food data](/about/) reports these amounts **per 100 g of t
 | [Raw banana](/food/09040-bananas-raw/) | **0.36 mg** | Edible banana, without the peel. |
 | [Raw avocado](/food/09037-avocados-raw/) | **0.25 mg** | Edible avocado flesh. |
 
-These are equal-weight comparisons, **not serving recommendations**. For everyday portions, the [NIH food table](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) lists about **0.6 mg in 3 ounces of cooked sockeye salmon**, **0.4 mg in 1 cup of boiled potatoes**, and **0.4 mg in a medium banana**. Actual portions, varieties, and preparation can change the numbers. If you eat fish, use our [lower-mercury fish guide](/blog/low-mercury-fish-pregnancy/) for serving and safety context.
+These are equal-weight comparisons, **not serving recommendations**. For everyday portions, the [NIH food table](https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/) lists about **0.6 mg in 3 ounces of cooked sockeye salmon**, **0.4 mg in 1 cup of boiled potatoes**, and **0.4 mg in a medium banana**. Actual portions, varieties, and preparation can change the numbers. Vitamin B6 is also one of the nutrients our [guide to weeks 9–12](/weekly-guide/wk9-12/) highlights, alongside folate, zinc, and protein. If you eat fish, use our [lower-mercury fish guide](/blog/low-mercury-fish-pregnancy/) for serving and safety context.
 
 ## Does eating B6-rich food treat morning sickness?
 

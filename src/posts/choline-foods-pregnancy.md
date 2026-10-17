@@ -27,7 +27,7 @@ Not every prenatal contains choline, and products that include it may provide on
 
 ## Which foods can help?
 
-- **Eggs** are a practical choline food. Choose eggs cooked until the yolk and white are firm, following [CDC food safety advice for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html). See our [egg doneness and pasteurization guide](/blog/eggs-during-pregnancy/) for raw-egg dishes and sauces.
+- **Eggs** are a practical choline food. Choose eggs cooked until the yolk and white are firm, following [CDC food safety advice for pregnancy](https://www.cdc.gov/food-safety/foods/pregnant-women.html). See our [egg doneness and pasteurization guide](/blog/eggs-during-pregnancy/) for raw-egg dishes and sauces. Choline is a high-priority highlight in our [weeks 13–16 guide](/weekly-guide/wk13-16/), which starts with a fully cooked egg.
 - **Fish, poultry, meat, and dairy** can contribute choline. For fish, choose lower-mercury options and cook them thoroughly; see our [fish guide](/blog/low-mercury-fish-pregnancy/).
 - **Soybeans, beans, broccoli, [Brussels sprouts](/blog/brussels-sprouts-pregnancy/), nuts, seeds, and whole grains** can add choline across a varied diet. NIH lists these among food sources, though amounts differ substantially.
 

@@ -33,7 +33,7 @@ They may, but the evidence is thinner than for capsules. [ACOG lists ginger cand
 
 ## Is a ginger supplement safe during pregnancy?
 
-[NIH says ginger supplements during pregnancy **may be safe**](https://www.nccih.nih.gov/health/ginger), but recommends discussing any herbal supplement with a health care provider. Ginger can cause heartburn, diarrhea, or stomach discomfort, and herbs can interact with medicines. If heartburn is already a problem, see our [pregnancy heartburn meal guide](/blog/heartburn-foods-pregnancy/). Tell your prenatal care team about the specific product and any medicines you take. Do not assume that a stronger capsule is better because ginger appears in food.
+[NIH says ginger supplements during pregnancy **may be safe**](https://www.nccih.nih.gov/health/ginger), but recommends discussing any herbal supplement with a health care provider. Ginger can cause heartburn, diarrhea, or stomach discomfort, and herbs can interact with medicines. If heartburn is already a problem, see our [pregnancy heartburn meal guide](/blog/heartburn-foods-pregnancy/). Tell your prenatal care team about the specific product and any medicines you take. Do not assume that a stronger capsule is better because ginger appears in food. The same caution applies to other supplements people try in pregnancy; our [melatonin research summary](/blog/melatonin-during-pregnancy/) explains why the evidence on melatonin for sleep is still limited.
 
 PregNut's [food lookup](/food/) reports selected nutrients per 100 grams. It does **not** measure the active ingredients in ginger tea, candies, or supplements and cannot be used to choose a nausea dose.
 

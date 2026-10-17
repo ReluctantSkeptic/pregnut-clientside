@@ -38,7 +38,7 @@ The [NIH folate fact sheet](https://ods.od.nih.gov/factsheets/Folate-HealthProfe
 
 PregNut's historical USDA-based data lists these amounts per **100 g**:
 
-- [Boiled Brussels sprouts](/food/11099-brussels-sprouts-boiled/): **60 mcg DFE** folate, **62 mg** vitamin C, and **317 mg** potassium.
+- [Boiled Brussels sprouts](/food/11099-brussels-sprouts-boiled/): **60 mcg DFE** folate, **62 mg** vitamin C, and **317 mg** [potassium](/blog/potassium-foods-pregnancy/).
 - [Raw Brussels sprouts](/food/11098-brussels-sprouts-raw/): **61 mcg DFE** folate and **85 mg** vitamin C.
 
 For comparison, [NIH lists 85 mg of vitamin C a day](https://ods.od.nih.gov/factsheets/VitaminC-Consumer/) for pregnant adults. Food folate helps, but it is not the same as folic acid. The [CDC recommends 400 mcg of folic acid daily](https://www.cdc.gov/folic-acid/about/index.html) for anyone who could become pregnant, from a supplement or fortified foods. Our [folate and folic acid guide](/blog/folate-folic-acid-pregnancy/) explains the difference.

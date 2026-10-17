@@ -29,7 +29,7 @@ Start with foods you already like, then make one small change at a time:
 
 | At this meal | Try adding fiber with |
 | --- | --- |
-| Breakfast | Oatmeal or a whole-grain cereal, plus berries or a banana. |
+| Breakfast | Oatmeal or a [whole-grain cereal](/blog/cereal-pregnancy/), plus berries or a banana. |
 | Lunch | Lentils or beans in a soup, salad, or grain bowl. |
 | Snack | An apple or pear with the skin on, or a small handful of nuts if you tolerate them. |
 | Dinner | Vegetables alongside a whole grain such as brown rice or whole-wheat pasta. |
