@@ -41,3 +41,10 @@ node_modules/
 # Local tooling
 .playwright-cli/
 .worktrees/
+
+# Local secrets and Cloudflare/wrangler state (never commit)
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/

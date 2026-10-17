@@ -4,6 +4,13 @@ name: Deploy to Cloudflare Pages
 # Pull requests get a preview deployment, and the preview link is posted on the PR.
 # wrangler runs from the repo root, so ./functions (the /api/contact Pages Function)
 # is bundled automatically. Project env vars, secrets and bindings stay in Cloudflare.
+#
+# Security notes (2026-10 hardening):
+# - Jobs that use the Cloudflare token only run for pushes, manual runs, and PRs from
+#   branches in this repo. Fork PRs get no deploy (they would have no secrets anyway).
+# - The PR branch name reaches the shell only through env:, and is reduced to safe
+#   characters before it is handed to wrangler.
+# - Actions are pinned to full commit SHAs; the comment after each one is its tag.
 on:
   push:
     branches: [master]
@@ -16,17 +23,23 @@ concurrency:
 
 permissions:
   contents: read
-  deployments: write
-  pull-requests: write
 
 jobs:
   deploy:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: read
+    outputs:
+      deployment-url: ${{ steps.deploy.outputs.deployment-url }}
+      alias-url: ${{ steps.deploy.outputs.pages-deployment-alias-url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
           cache: npm
@@ -35,26 +48,53 @@ jobs:
 
       - run: npm run build
 
+      # Branch and commit for the Pages deployment. Values come in through env: (never
+      # inlined into the script) and only safe characters are passed on to wrangler.
+      - name: Resolve branch
+        id: meta
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+          REF_NAME: ${{ github.ref_name }}
+          PR_SHA: ${{ github.event.pull_request.head.sha }}
+          PUSH_SHA: ${{ github.sha }}
+        run: |
+          branch="${HEAD_REF:-$REF_NAME}"
+          branch="$(printf '%s' "$branch" | tr -c 'A-Za-z0-9._/-' '-')"
+          sha="${PR_SHA:-$PUSH_SHA}"
+          case "$sha" in *[!0-9a-f]*|'') echo "unexpected commit sha" >&2; exit 1;; esac
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
       - name: Deploy
         id: deploy
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3.15.0
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: >-
             pages deploy _site
             --project-name=pregnut-clientside
-            --branch=${{ github.head_ref || github.ref_name }}
-            --commit-hash=${{ github.event.pull_request.head.sha || github.sha }}
+            --branch=${{ steps.meta.outputs.branch }}
+            --commit-hash=${{ steps.meta.outputs.sha }}
             --commit-dirty=true
 
+  comment:
+    needs: deploy
+    if: github.event_name == 'pull_request' && needs.deploy.outputs.deployment-url != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pull-requests: write
+    steps:
       - name: Comment preview link on PR
-        if: github.event_name == 'pull_request' && steps.deploy.outputs.deployment-url != ''
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7.1.0
+        env:
+          DEPLOY_URL: ${{ needs.deploy.outputs.deployment-url }}
+          ALIAS_URL: ${{ needs.deploy.outputs.alias-url }}
         with:
           script: |
-            const url = '${{ steps.deploy.outputs.deployment-url }}';
-            const alias = '${{ steps.deploy.outputs.pages-deployment-alias-url }}';
+            const url = process.env.DEPLOY_URL;
+            const alias = process.env.ALIAS_URL;
             const body = `Preview deployed: ${url}` + (alias ? `\nBranch preview: ${alias}` : '');
             await github.rest.issues.createComment({
               owner: context.repo.owner, repo: context.repo.repo,
