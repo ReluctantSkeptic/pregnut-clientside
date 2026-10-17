@@ -66,5 +66,12 @@ module.exports = [
     ["ranch-dressing-pregnancy", "Ranch & salad dressings"],
     ["sour-cream-pregnancy", "Sour cream"],
     ["ice-cream-pregnancy", "Ice cream & soft serve"],
+    ["hard-cheese-pregnancy", "Hard cheese: cheddar & parmesan"],
+    ["deli-salads-pregnancy", "Deli salads & coleslaw"],
+    ["pate-pregnancy", "Pâté & meat spreads"],
+    ["raw-egg-foods-pregnancy", "Raw-egg foods: tiramisu & Caesar"],
+    ["cookie-dough-pregnancy", "Raw cookie dough & batter"],
+    ["cantaloupe-melon-pregnancy", "Cantaloupe & cut melon"],
+    ["honey-pregnancy", "Honey: the infant warning"],
   ]),
 ];

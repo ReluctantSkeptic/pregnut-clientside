@@ -24,7 +24,7 @@ tags: post
 
 Folate is the name for forms of this B vitamin in food. Folic acid is a form used in many supplements and fortified foods. The terms are related, but a food's folate number and a supplement's folic acid number should not be treated as interchangeable without reading the units and label. [NIH explains folate and folic acid](https://ods.od.nih.gov/factsheets/Folate-Consumer/) and the different label conventions.
 
-NIH lists **600 mcg DFE per day** as the pregnancy folate reference. That total-folate measure is different from ACOG's recommendation for **at least 400 mcg of folic acid** in a daily prenatal before and during early pregnancy. Do not compare those two numbers as if they were the same unit and form.
+NIH lists **600 mcg DFE per day** as the pregnancy folate reference. That total-folate measure is different from ACOG's recommendation for **at least 400 mcg of folic acid** in a daily prenatal before and during [early pregnancy](/weekly-guide/wk1-8/). Do not compare those two numbers as if they were the same unit and form.
 
 On a Supplement Facts panel, look for **Folate** in mcg DFE and any **folic acid** amount in parentheses. [FDA explains this label format](https://www.fda.gov/food/nutrition-facts-label/folate-and-folic-acid-nutrition-and-supplement-facts-labels). Our [prenatal label guide](/blog/prenatal-vitamin-label-pregnancy/) shows how to read those numbers alongside the serving size.
 

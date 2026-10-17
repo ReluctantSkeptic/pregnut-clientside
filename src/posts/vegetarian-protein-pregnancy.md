@@ -35,7 +35,7 @@ These are comparison amounts, **not serving recommendations**. For example, 150 
 
 ## How much should I aim for?
 
-PregNut uses **70 g per day as a comparison benchmark** in its food charts. It is not a personalized pregnancy prescription. Protein needs depend on factors including body size and pregnancy stage; ask your prenatal clinician or dietitian for an individual target if you need one. Use the [food lookup](/food/) to compare foods, then check the package label for your actual product and serving.
+PregNut uses **70 g per day as a comparison benchmark** in its food charts. It is not a personalized pregnancy prescription. Protein needs depend on factors including body size and pregnancy stage; ask your prenatal clinician or dietitian for an individual target if you need one. Protein is also a high-priority highlight in our [guide to weeks 29–32](/weekly-guide/wk29-32/), a high-growth stretch of pregnancy. Use the [food lookup](/food/) to compare foods, then check the package label for your actual product and serving.
 
 Protein is only one part of a vegetarian pregnancy diet. Our [B12 guide](/blog/vegetarian-b12-pregnancy/), [iron guide](/blog/iron-foods-pregnancy/), [choline guide](/blog/choline-foods-pregnancy/), and [zinc guide](/blog/zinc-foods-pregnancy/) cover other nutrients that need attention. Follow [CDC pregnancy food-safety advice](https://www.cdc.gov/food-safety/foods/pregnant-women.html), including using pasteurized dairy and thoroughly cooked eggs.
 

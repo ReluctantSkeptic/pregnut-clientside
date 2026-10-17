@@ -27,13 +27,13 @@ Yes, when it is made with pasteurized milk. The FDA notes that store-bought vers
 
 ## What ice cream should you avoid while pregnant?
 
-- **Homemade ice cream made with raw eggs.** FDA lists it among homemade foods to avoid. Use pasteurized eggs, or a custard base cooked to 160°F, the CDC's target for egg dishes without meat.
+- **Homemade ice cream made with raw eggs.** FDA lists it among [homemade foods to avoid](/blog/raw-egg-foods-pregnancy/). Use pasteurized eggs, or a custard base cooked to 160°F, the CDC's target for egg dishes without meat.
 - **Ice cream made from raw (unpasteurized) milk**, for example from a farm stand. The CDC lists raw-milk ice cream as a riskier choice.
 - **Recalled products.** Check the recall notice before eating ice cream from your freezer if a brand is in the news.
 
 ## Is store-bought cookie dough ice cream safe?
 
-Yes. The FDA's pregnancy page answers this directly: store-bought cookie dough ice cream is safe to eat. Raw homemade cookie dough is a different story, because the CDC lists raw cookie dough and raw batter as riskier choices.
+Yes. The FDA's pregnancy page answers this directly: store-bought cookie dough ice cream is safe to eat. [Raw homemade cookie dough](/blog/cookie-dough-pregnancy/) is a different story, because the CDC lists raw cookie dough and raw batter as riskier choices.
 
 ## Can pregnant women eat soft serve?
 

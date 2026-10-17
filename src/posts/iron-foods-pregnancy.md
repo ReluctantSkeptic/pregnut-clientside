@@ -23,7 +23,7 @@ tags: post
 
 ## Which foods are highest in iron for pregnancy?
 
-Fortified breakfast cereal, beans, lentils, tofu, cooked spinach, and lean meat are among the highest-iron everyday foods. The [NIH iron food table](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) lists these servings:
+[Fortified breakfast cereal](/blog/cereal-pregnancy/), beans, lentils, tofu, cooked spinach, and lean meat are among the highest-iron everyday foods. The [NIH iron food table](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) lists these servings:
 
 | Food | Serving | Iron |
 | --- | --- | ---: |
@@ -39,7 +39,7 @@ Fortified breakfast cereal, beans, lentils, tofu, cooked spinach, and lean meat 
 
 ## What foods contain iron?
 
-Meat and poultry provide iron that the body generally absorbs more readily. Beans, lentils, tofu, spinach, and iron-fortified cereals also contribute. The [NIH iron fact sheet](https://ods.od.nih.gov/factsheets/iron-consumer/) describes both animal and plant sources. Compare options in [PregNut's food lookup](/food/), remembering that every food chart uses **100 g** rather than a typical serving.
+Meat and poultry provide iron that the body generally absorbs more readily. Beans, lentils, tofu, spinach, and iron-fortified cereals also contribute. In our weekly guide, iron first appears as a high-priority highlight in [weeks 17–20](/weekly-guide/wk17-20/) and stays there through week 40. The [NIH iron fact sheet](https://ods.od.nih.gov/factsheets/iron-consumer/) describes both animal and plant sources. Compare options in [PregNut's food lookup](/food/), remembering that every food chart uses **100 g** rather than a typical serving.
 
 ### Three food comparisons from PregNut
 

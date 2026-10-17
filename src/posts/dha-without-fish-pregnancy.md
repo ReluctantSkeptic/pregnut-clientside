@@ -16,7 +16,7 @@ dateModified: 2026-09-26
 
 ## What if I do eat fish?
 
-The [FDA/EPA fish chart](https://www.fda.gov/food/consumers/advice-about-eating-fish) recommends **two to three adult servings a week** from its lower-mercury **Best Choices** category during pregnancy. An adult serving is **4 ounces, measured before cooking**. Salmon, sardines, shrimp, and canned light tuna are examples; the species and preparation matter. See our [lower-mercury fish guide](/blog/low-mercury-fish-pregnancy/) before using a nutrient ranking to choose seafood.
+The [FDA/EPA fish chart](https://www.fda.gov/food/consumers/advice-about-eating-fish) recommends **two to three adult servings a week** from its lower-mercury **Best Choices** category during pregnancy. An adult serving is **4 ounces, measured before cooking**. Salmon, sardines, shrimp, and canned light tuna are examples; the species and preparation matter. See our [lower-mercury fish guide](/blog/low-mercury-fish-pregnancy/) before using a nutrient ranking to choose seafood. For a worked example, our [weeks 25–28 guide](/weekly-guide/wk25-28/) compares the DHA in sardines and salmon.
 
 ## How do I compare DHA on supplement labels?
 

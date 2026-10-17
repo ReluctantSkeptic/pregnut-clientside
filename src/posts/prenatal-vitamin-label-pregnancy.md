@@ -24,7 +24,7 @@ tags: post
 ## A quick label check
 
 1. **Serving size:** Does the listed amount require one tablet, two gummies, or several capsules?
-2. **Folic acid:** Look for an amount in parentheses after **Folate**. The label lists total folate in **mcg DFE**, but the parenthetical **mcg folic acid** is the number to compare with ACOG's recommendation of at least 400 mcg of folic acid in a daily prenatal around conception and early pregnancy. If no folic acid amount appears, do not assume the DFE amount is folic acid. See our [folate and folic acid guide](/blog/folate-folic-acid-pregnancy/).
+2. **Folic acid:** Look for an amount in parentheses after **Folate**. The label lists total folate in **mcg DFE**, but the parenthetical **mcg folic acid** is the number to compare with ACOG's recommendation of at least 400 mcg of folic acid in a daily prenatal around [conception and early pregnancy](/weekly-guide/wk1-8/). If no folic acid amount appears, do not assume the DFE amount is folic acid. See our [folate and folic acid guide](/blog/folate-folic-acid-pregnancy/).
 3. **Iron:** Check whether it is present, especially in gummies. ACOG lists 27 mg per day as the pregnancy requirement; whether you need extra iron depends on your diet and blood work. See [iron food pairings](/blog/iron-foods-pregnancy/).
 4. **Iodine:** [NIH lists 220 micrograms per day](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) as the pregnancy recommended dietary allowance. Dairy, eggs, seafood, and iodized salt may contribute. Check whether the prenatal includes iodine; not every salt is iodized. See [iodine without dairy or seafood](/blog/iodine-without-dairy-pregnancy/) if you avoid those foods.
 5. **Choline:** [NIH lists 450 mg per day](https://ods.od.nih.gov/factsheets/Choline-Consumer/) as the pregnancy adequate intake. Some prenatals omit choline or contain little. See [choline food ideas](/blog/choline-foods-pregnancy/).
@@ -56,7 +56,7 @@ These questions turn a label comparison into a discussion about your own care. D
 
 ### Is a prenatal with more of every nutrient better?
 
-No. More is not automatically better, and stacking products can raise the risk of excessive intake. Ask your prenatal clinician about an additional supplement before taking one.
+No. More is not automatically better, and stacking products can raise the risk of excessive intake. Protein powders can carry added vitamins and minerals too; our [protein powder label checklist](/blog/protein-powder-pregnancy/) shows how to compare one with your prenatal. Ask your prenatal clinician about an additional supplement before taking one.
 
 ### What if my gummy has no iron?
 

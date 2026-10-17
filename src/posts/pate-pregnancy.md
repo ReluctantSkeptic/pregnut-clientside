@@ -23,7 +23,7 @@ CDC lists pâté in sealed, airtight containers that don't need to be kept refri
 
 ## What about pâté at a restaurant or deli?
 
-Pâté from a deli case or charcuterie board is typically refrigerated, which is the riskier category. Ask, or choose something else.
+Pâté from a deli case or [charcuterie board](/blog/salami-prosciutto-pregnancy/) is typically refrigerated, which is the riskier category. Ask, or choose something else.
 
 ## Does liver pâté have other concerns?
 

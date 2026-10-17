@@ -41,7 +41,7 @@ For raw fruit and peppers, [CDC advises washing produce during pregnancy](https:
 
 ## How does vitamin C fit with iron foods?
 
-Vitamin C can improve absorption of **nonheme iron**, the form in plant foods. A practical pairing is lentils or beans with washed raw red pepper. Our [iron foods guide](/blog/iron-foods-pregnancy/) compares plant iron portions and explains why a meal pairing cannot tell you the exact amount of iron absorbed. If you have diagnosed anemia, follow your clinician's treatment plan.
+Vitamin C can improve absorption of **nonheme iron**, the form in plant foods. A practical pairing is lentils or beans with washed raw red pepper. Our [iron foods guide](/blog/iron-foods-pregnancy/) compares plant iron portions and explains why a meal pairing cannot tell you the exact amount of iron absorbed. For meal ideas, the [weeks 21–24 guide](/weekly-guide/wk21-24/) builds two example meals around iron and vitamin C. If you have diagnosed anemia, follow your clinician's treatment plan.
 
 ## Common questions
 

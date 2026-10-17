@@ -18,7 +18,7 @@ dateModified: 2026-09-26
 - **Eggs** can contribute iodine if you eat them. For pregnancy food safety, follow [CDC advice to cook eggs until the whites and yolks are firm](https://www.cdc.gov/food-safety/foods/pregnant-women.html).
 - **Iodized salt** contains iodine, but sea salt, kosher salt, and salt in most processed foods usually are not iodized. Check the package. This is a label distinction, not a reason to add extra salt to meals.
 - **Seaweed** can contain iodine, but amounts vary greatly among species. Do not treat an unmeasured serving or kelp supplement as a predictable daily dose.
-- **Plant-based milk** is not automatically an iodine source. Check whether a product explicitly lists added iodine; a calcium-fortified carton does not establish its iodine content.
+- **Plant-based milk** is not automatically an iodine source. Check whether a product explicitly lists added iodine; a calcium-fortified carton does not establish its iodine content. The same label check applies to riboflavin; see our [riboflavin without dairy guide](/blog/riboflavin-without-dairy-pregnancy/).
 
 These distinctions come from the [NIH iodine fact sheets](https://ods.od.nih.gov/factsheets/Iodine-Consumer/) and [pregnancy supplement review](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/).
 
