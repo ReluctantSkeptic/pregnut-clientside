@@ -73,5 +73,10 @@ module.exports = [
     ["cookie-dough-pregnancy", "Raw cookie dough & batter"],
     ["cantaloupe-melon-pregnancy", "Cantaloupe & cut melon"],
     ["honey-pregnancy", "Honey: the infant warning"],
+    ["cream-cheese-pregnancy", "Cream cheese & cheesecake"],
+    ["cottage-cheese-pregnancy", "Cottage cheese & mozzarella"],
+    ["yogurt-pregnancy", "Yogurt: Greek, probiotic & flavored"],
+    ["tilapia-cod-pregnancy", "Tilapia & cod"],
+    ["scallops-clams-mussels-pregnancy", "Scallops, clams, mussels & ceviche"],
   ]),
 ];

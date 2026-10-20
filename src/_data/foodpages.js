@@ -212,6 +212,31 @@ const FOOD_SEARCH_OVERRIDES = {
   "09040": {
     title: "Raw Banana in Pregnancy: Safe? Potassium & B6 | PregNut",
     description: "Yes. NIH lists 422 mg potassium in a medium banana; the pregnancy AI is 2,900 mg a day. FDA says wash produce before peeling. Nutrients per 100 g."
+  },
+  // 2026-10-20 GSC safety-intent food pages (pos ~2-10, 0 clicks), claims in food_explanations.json
+  "11135": {
+    title: "Is Cauliflower Good for Pregnancy? | PregNut",
+    description: "Yes, washed cauliflower fits a pregnancy diet; CDC says washed, then cooked produce is safest. 48.2 mg vitamin C and 57 mcg DFE folate per 100 g."
+  },
+  "12147": {
+    title: "Can You Eat Pine Nuts While Pregnant? | PregNut",
+    description: "Yes. Nuts are not on CDC's list of riskier foods in pregnancy. Dried pine nuts list 5.53 mg iron and 6.45 mg zinc per 100 g, at 673 calories."
+  },
+  "11901": {
+    title: "Is Boiled Corn Good for Pregnancy? | PregNut",
+    description: "Yes, boiled sweet corn fits a pregnancy diet; CDC says washed, then cooked vegetables are safest. 252 mg potassium and 20 mcg DFE folate per 100 g."
+  },
+  "06112": {
+    title: "Is Teriyaki Sauce Safe During Pregnancy? | PregNut",
+    description: "Bottled teriyaki isn't on CDC's riskier list in pregnancy; the reason to limit it is sodium. Never reuse a raw-meat marinade. Nutrients per 100 g."
+  },
+  "11976": {
+    title: "Can You Eat Banana Peppers While Pregnant? | PregNut",
+    description: "Yes, once washed. CDC lists unwashed produce as riskier in pregnancy; FDA says rinse under running water, no soap. 82.7 mg vitamin C per 100 g."
+  },
+  "16103": {
+    title: "Can You Eat Refried Beans While Pregnant? | PregNut",
+    description: "Yes. Canned refried beans aren't on CDC's riskier list in pregnancy. Refrigerate leftovers within 2 hours and compare sodium. Nutrients per 100 g."
   }
 };
 
@@ -355,7 +380,26 @@ const FOOD_GUIDES = {
   "15140": { title: "Crab and cooked shellfish", url: "/blog/shrimp-pregnancy/" },
   "15151": { title: "Shrimp: cooking and servings", url: "/blog/shrimp-pregnancy/" },
   "04025": { title: "Store-bought mayonnaise in pregnancy", url: "/blog/mayonnaise-pregnancy/" },
-  "01178": { title: "Sour cream labels and storage", url: "/blog/sour-cream-pregnancy/" }
+  "01178": { title: "Sour cream labels and storage", url: "/blog/sour-cream-pregnancy/" },
+  "01017": { title: "Cream cheese, cheesecake, and spreads", url: "/blog/cream-cheese-pregnancy/" },
+  "18147": { title: "Cheesecake: baked vs no-bake", url: "/blog/cream-cheese-pregnancy/" },
+  "01012": { title: "Cottage cheese labels and storage", url: "/blog/cottage-cheese-pregnancy/" },
+  "01028": { title: "Mozzarella, string cheese, and cottage cheese", url: "/blog/cottage-cheese-pregnancy/" },
+  "01026": { title: "Mozzarella and other pasteurized cheeses", url: "/blog/cottage-cheese-pregnancy/" },
+  "01116": { title: "Which yogurt is safe in pregnancy?", url: "/blog/yogurt-pregnancy/" },
+  "01117": { title: "Which yogurt is safe in pregnancy?", url: "/blog/yogurt-pregnancy/" },
+  "01118": { title: "Which yogurt is safe in pregnancy?", url: "/blog/yogurt-pregnancy/" },
+  "01256": { title: "Greek vs regular yogurt in pregnancy", url: "/blog/yogurt-pregnancy/" },
+  "01287": { title: "Greek vs regular yogurt in pregnancy", url: "/blog/yogurt-pregnancy/" },
+  "01293": { title: "Greek vs regular yogurt in pregnancy", url: "/blog/yogurt-pregnancy/" },
+  "15262": { title: "Tilapia: how much and how to cook it", url: "/blog/tilapia-cod-pregnancy/" },
+  "15016": { title: "Cod: servings, cooking, and smoked cod", url: "/blog/tilapia-cod-pregnancy/" },
+  "15192": { title: "Cod: servings, cooking, and smoked cod", url: "/blog/tilapia-cod-pregnancy/" },
+  "15017": { title: "Cod: servings, cooking, and smoked cod", url: "/blog/tilapia-cod-pregnancy/" },
+  "90240": { title: "Scallops: cook until opaque and firm", url: "/blog/scallops-clams-mussels-pregnancy/" },
+  "15157": { title: "Clams: cooked vs raw", url: "/blog/scallops-clams-mussels-pregnancy/" },
+  "15160": { title: "Canned clams and clam chowder", url: "/blog/scallops-clams-mussels-pregnancy/" },
+  "15164": { title: "Mussels: cook until the shells open", url: "/blog/scallops-clams-mussels-pregnancy/" }
 };
 
 function readingLinks(food, flags, topNutrients) {
