@@ -1,4 +1,24 @@
 module.exports = {
+  "/blog/cream-cheese-pregnancy/": [
+    { url: "/blog/soft-cheese-pregnancy/", title: "How other soft cheeses compare" },
+    { url: "/blog/raw-egg-foods-pregnancy/", title: "No-bake desserts and raw eggs" }
+  ],
+  "/blog/cottage-cheese-pregnancy/": [
+    { url: "/blog/soft-cheese-pregnancy/", title: "How other soft cheeses compare" },
+    { url: "/blog/yogurt-pregnancy/", title: "Which yogurt to choose" }
+  ],
+  "/blog/yogurt-pregnancy/": [
+    { url: "/blog/raw-milk-pregnancy/", title: "Check milk and yogurt pasteurization" },
+    { url: "/blog/calcium-without-dairy-pregnancy/", title: "Compare calcium foods" }
+  ],
+  "/blog/tilapia-cod-pregnancy/": [
+    { url: "/blog/low-mercury-fish-pregnancy/", title: "Lower-mercury fish choices" },
+    { url: "/blog/salmon-pregnancy/", title: "Salmon: how much and how to cook" }
+  ],
+  "/blog/scallops-clams-mussels-pregnancy/": [
+    { url: "/blog/oysters-pregnancy/", title: "Oysters: raw vs cooked" },
+    { url: "/blog/shrimp-pregnancy/", title: "Shrimp, prawns, and crab" }
+  ],
   "/blog/salami-prosciutto-pregnancy/": [
     { url: "/blog/deli-meat-pregnancy/", title: "Deli meat and cold cuts" },
     { url: "/blog/pepperoni-pregnancy/", title: "Pepperoni and pizza" }
@@ -44,6 +64,7 @@ module.exports = {
     { url: "/blog/hot-dogs-pregnancy/", title: "How to heat hot dogs" }
   ],
   "/blog/oysters-pregnancy/": [
+    { url: "/blog/scallops-clams-mussels-pregnancy/", title: "Scallops, clams, and mussels" },
     { url: "/blog/shrimp-pregnancy/", title: "Shrimp, prawns, and crab" },
     { url: "/blog/zinc-foods-pregnancy/", title: "More zinc foods" }
   ],
@@ -76,6 +97,8 @@ module.exports = {
     { url: "/blog/raw-milk-pregnancy/", title: "Check milk and yogurt pasteurization" }
   ],
   "/blog/low-mercury-fish-pregnancy/": [
+    { url: "/blog/tilapia-cod-pregnancy/", title: "Tilapia and cod: servings and cooking" },
+    { url: "/blog/scallops-clams-mussels-pregnancy/", title: "Scallops, clams, and mussels" },
     { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" },
     { url: "/blog/choline-foods-pregnancy/", title: "Compare choline in fish and other foods" }
   ],
@@ -89,10 +112,13 @@ module.exports = {
     { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" }
   ],
   "/blog/soft-cheese-pregnancy/": [
+    { url: "/blog/cream-cheese-pregnancy/", title: "Cream cheese and cheesecake" },
+    { url: "/blog/cottage-cheese-pregnancy/", title: "Cottage cheese and mozzarella" },
     { url: "/blog/raw-milk-pregnancy/", title: "Check milk and yogurt pasteurization" },
     { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" }
   ],
   "/blog/raw-milk-pregnancy/": [
+    { url: "/blog/yogurt-pregnancy/", title: "Which yogurt to choose" },
     { url: "/blog/calcium-without-dairy-pregnancy/", title: "Compare calcium foods without dairy" },
     { url: "/blog/food-safety-pregnancy/", title: "Check the pregnancy food-safety basics" }
   ],

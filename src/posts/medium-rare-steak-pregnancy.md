@@ -1,6 +1,6 @@
 ---
 title: "Medium-Rare Steak During Pregnancy: Safe Temperatures for Beef"
-seoTitle: "Can You Eat Medium-Rare Steak While Pregnant?"
+seoTitle: "Can Pregnant Women Eat Medium-Rare Steak?"
 description: CDC advises steak at 145°F with a 3-minute rest and burgers at 160°F in pregnancy. What that means for medium-rare, medium-well, and restaurant orders.
 layout: post.njk
 permalink: /blog/medium-rare-steak-pregnancy/index.html
@@ -19,6 +19,10 @@ tags: post
 **The short answer:** During pregnancy, cook steak to at least **145°F** in the thickest part, then let it rest for **3 minutes** before cutting or eating. That is the [CDC's safer choice for whole cuts of beef](https://www.cdc.gov/food-safety/foods/pregnant-women.html), and the CDC lists raw or undercooked meat as a riskier choice. Ground beef, including burgers, needs **160°F**.
 
 <figure class="post-image post-image-compact"><img src="/resource/portions/top-foods/13930-beef-top-sirloin-steak-separable-lean-and-fat-broiled.webp" alt="Illustration of a broiled top sirloin steak" width="400" height="400" loading="lazy"><figcaption>Broiled sirloin shown for identification. Check doneness with a thermometer, not color.</figcaption></figure>
+
+## Can you eat steak while pregnant?
+
+Yes. Steak is fine during pregnancy when the thickest part reaches **145°F** and then rests for 3 minutes; [CDC lists whole cuts of beef](https://www.cdc.gov/food-safety/foods/pregnant-women.html) cooked that way as a safer choice. The thermometer reading matters more than the name of the doneness level, as the sections below explain.
 
 ## Why can't pregnant women eat rare or medium-rare steak?
 
@@ -45,6 +49,10 @@ PregNut's historical USDA-based data lists [broiled top sirloin](/food/13930-bee
 ### What if I ate a medium-rare steak while pregnant?
 
 Tell your prenatal care team, especially if you develop symptoms. The [CDC says to see a doctor if you are pregnant and have a fever with other flu-like symptoms](https://www.cdc.gov/food-safety/signs-symptoms/index.html).
+
+### How bad is medium-rare steak when pregnant?
+
+CDC does not give a risk figure for a single steak. It lists raw or undercooked meat as a riskier choice because [undercooked meat can spread *Toxoplasma*](https://www.cdc.gov/toxoplasmosis/about/index.html), and a new infection during or just before pregnancy can pass to the baby. Cooking to **145°F** with a 3-minute rest is what moves a steak into CDC's safer column.
 
 ### Can I taste the meat while cooking?
 

@@ -1,6 +1,6 @@
 ---
 title: "Hot Dogs During Pregnancy: How to Heat Them Safely"
-seoTitle: "Can You Eat Hot Dogs While Pregnant?"
+seoTitle: "Can Pregnant Women Eat Hot Dogs? Heat to 165°F"
 description: Yes, if heated to 165°F or steaming hot. Why cold hot dogs are riskier in pregnancy, how to cook them, corn dogs, and what to do if you ate one cold.
 layout: post.njk
 permalink: /blog/hot-dogs-pregnancy/index.html
@@ -46,6 +46,10 @@ The CDC's pregnancy food chart does not change by trimester. The same reheating 
 Pay attention to symptoms. For *Listeria*, the [CDC says pregnant women should call the doctor right away](https://www.cdc.gov/food-safety/signs-symptoms/index.html) if they have a fever and feel more tired and achy than usual. CDC's symptom table lists about **2 weeks** as when *Listeria* symptoms usually start, so tell your prenatal care team what you ate and when.
 
 ## Common questions
+
+### What hot dogs can you eat while pregnant?
+
+Any kind, including beef, pork, turkey, and chicken hot dogs, frankfurters, and wieners, once it is heated to **165°F or until steaming hot** right before you eat it. [CDC's chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) covers hot dogs as a group, so a brand or an "all-beef" or "uncured" label does not replace heating. The same rule covers [pepperoni](/blog/pepperoni-pregnancy/) and [salami](/blog/salami-prosciutto-pregnancy/).
 
 ### Do I need to heat turkey or chicken hot dogs?
 

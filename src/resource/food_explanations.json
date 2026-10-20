@@ -883,15 +883,43 @@
   },
   "11135": {
     "verdict": "Safe with precautions",
-    "explanation": "Raw white cauliflower is safe and wholesome during pregnancy if prepared with care. It provides dietary fiber, choline, folate, and vitamin C that support fetal brain development and maternal wellness. CDC recommends cutting the head into florets and washing each piece under clean running water to eliminate soil-borne microbes. Enjoy clean raw florets in fresh salads, or steam them lightly if raw cruciferous vegetables cause digestive bloating.",
-    "sources": [
+    "explanation": "Is cauliflower good for pregnancy? It can be part of a pregnancy diet once it is washed. CDC lists washed vegetables as a safer choice in pregnancy and says washed and then cooked vegetables are safest. Rinse florets under running water before eating or cooking; FDA does not recommend soap, detergent, or commercial produce wash, and says cooking produce thoroughly kills harmful bacteria. This record lists 48.2 mg vitamin C, 57 mcg DFE folate, and 44.3 mg choline per 100 g of raw cauliflower in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+        "text": "Is cauliflower good for pregnancy? It can be part of a pregnancy diet once it is washed. CDC lists washed vegetables as a safer choice in pregnancy and says washed and then cooked vegetables are safest.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "FDA",
+        "text": "Rinse florets under running water before eating or cooking; FDA does not recommend soap, detergent, or commercial produce wash, and says cooking produce thoroughly kills harmful bacteria.",
+        "source": {
+          "name": "FDA: selecting and serving produce safely",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      },
+      {
+        "text": "This record lists 48.2 mg vitamin C, 57 mcg DFE folate, and 44.3 mg choline per 100 g of raw cauliflower in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: selecting and serving produce safely",
         "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -3814,15 +3842,43 @@
   },
   "11901": {
     "verdict": "Recommended",
-    "explanation": "Boiled white sweet corn is highly recommended during pregnancy. It supplies energetic complex carbohydrates, dietary fiber, folate, and potassium to support maternal stamina and bowel regularity. Boiling corn on the cob or as kernels destroys any potential pathogens and makes the kernels tender and digestible. Enjoy a warm ear of boiled corn with a touch of butter alongside lean poultry or fish.",
-    "sources": [
+    "explanation": "Is boiled corn good for pregnancy? Yes, boiled sweet corn fits a pregnancy diet. CDC lists washed vegetables as a safer choice in pregnancy and says washed and then cooked vegetables are safest. FDA says cooking produce thoroughly kills harmful bacteria; rinse fresh ears under running water before cooking. This record lists 252 mg potassium, 20 mcg DFE folate, and 3.34 g protein per 100 g of boiled white sweet corn in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "Is boiled corn good for pregnancy? Yes, boiled sweet corn fits a pregnancy diet. CDC lists washed vegetables as a safer choice in pregnancy and says washed and then cooked vegetables are safest.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "text": "FDA says cooking produce thoroughly kills harmful bacteria; rinse fresh ears under running water before cooking.",
+        "source": {
+          "name": "FDA: selecting and serving produce safely",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      },
+      {
+        "text": "This record lists 252 mg potassium, 20 mcg DFE folate, and 3.34 g protein per 100 g of boiled white sweet corn in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: selecting and serving produce safely",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -4167,15 +4223,43 @@
   },
   "11976": {
     "verdict": "Safe with precautions",
-    "explanation": "Raw banana peppers are safe during pregnancy when washed properly. They deliver substantial vitamin C, vitamin B6, and potassium to bolster maternal immunity and cellular metabolism. CDC recommends washing peppers under running water to eliminate surface microbes before slicing and deseeding. Enjoy crunchy raw slices on whole-grain sandwiches, but reduce intake if spicy varieties trigger pregnancy heartburn.",
-    "sources": [
+    "explanation": "Can you eat banana peppers while pregnant? Yes, once they are washed. CDC lists unwashed fresh vegetables as a riskier choice in pregnancy and washed vegetables as a safer one. Rinse peppers under running water before slicing; FDA does not recommend soap or produce wash. This record lists 82.7 mg vitamin C and 0.35 mg vitamin B6 per 100 g of raw banana peppers in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/food-safety/foods/produce.html"
+        "text": "Can you eat banana peppers while pregnant? Yes, once they are washed. CDC lists unwashed fresh vegetables as a riskier choice in pregnancy and washed vegetables as a safer one.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "FDA",
+        "text": "Rinse peppers under running water before slicing; FDA does not recommend soap or produce wash.",
+        "source": {
+          "name": "FDA: selecting and serving produce safely",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      },
+      {
+        "text": "This record lists 82.7 mg vitamin C and 0.35 mg vitamin B6 per 100 g of raw banana peppers in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: selecting and serving produce safely",
         "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -4419,15 +4503,54 @@
   },
   "12147": {
     "verdict": "Recommended",
-    "explanation": "Dried pine nuts are recommended during pregnancy for their rich micronutrient density. They deliver plant iron, zinc, magnesium, and healthy unsaturated fatty acids to meet heightened maternal blood volume demands. Store them sealed in the freezer to safeguard against quick rancidity. Toast lightly and toss over whole-wheat pasta with basil pesto.",
-    "sources": [
+    "explanation": "Can you eat pine nuts while pregnant? Yes. Nuts are not on CDC's list of riskier foods in pregnancy. NIH lists the pregnancy RDA for iron as 27 mg a day for ages 19 to 50. NIH lists the pregnancy RDA for zinc as 11 mg a day for ages 19 and older. This record lists 5.53 mg iron, 6.45 mg zinc, 13.69 g protein, and 673 calories per 100 g of dried pine nuts in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "text": "Can you eat pine nuts while pregnant? Yes. Nuts are not on CDC's list of riskier foods in pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "USDA MyPlate",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "NIH lists the pregnancy RDA for iron as 27 mg a day for ages 19 to 50.",
+        "source": {
+          "name": "NIH: iron fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+        }
+      },
+      {
+        "text": "NIH lists the pregnancy RDA for zinc as 11 mg a day for ages 19 and older.",
+        "source": {
+          "name": "NIH: zinc fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+        }
+      },
+      {
+        "text": "This record lists 5.53 mg iron, 6.45 mg zinc, 13.69 g protein, and 673 calories per 100 g of dried pine nuts in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "NIH: iron fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      },
+      {
+        "name": "NIH: zinc fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -6115,29 +6238,85 @@
   },
   "15160": {
     "verdict": "Recommended",
-    "explanation": "Canned clams are recommended during pregnancy as a convenient and safe low-mercury seafood. They provide abundant maternal iron and vitamin B12, helping support red blood cell expansion and fetal development. Because commercial canning involves high-heat processing, canned clams are completely cooked and free from foodborne pathogens. Stir drained canned clams into hot red pasta sauce or vegetable chowder for a quick nutrient boost.",
+    "explanation": "Are canned clams safe during pregnancy? Yes. CDC lists canned fish and seafood as a safer choice in pregnancy, and clams are on FDA's Best Choices list for mercury. FDA's pregnancy advice is 2 to 3 four-ounce servings a week from its Best Choices list. This record lists 18.63 mcg vitamin B12, 2.68 mg iron, and 24.25 g protein per 100 g of canned clams in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Are canned clams safe during pregnancy? Yes. CDC lists canned fish and seafood as a safer choice in pregnancy, and clams are on FDA's Best Choices list for mercury.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA's pregnancy advice is 2 to 3 four-ounce servings a week from its Best Choices list.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "This record lists 18.63 mcg vitamin B12, 2.68 mg iron, and 24.25 g protein per 100 g of canned clams in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: advice about eating fish",
         "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
   "15164": {
     "verdict": "Safe with precautions",
-    "explanation": "Blue mussels are safe and recommended during pregnancy when thoroughly cooked. They are an FDA Best Choice shellfish delivering remarkable levels of vitamin B12, non-heme iron, and omega-3 fats. The FDA strictly warns against consuming raw mussels due to bacterial and viral contamination, requiring steaming until shells open wide. Discard any mussels that stay tightly closed after cooking to ensure food safety.",
+    "explanation": "Are mussels safe during pregnancy? Yes, when fully cooked. FDA advises pregnant women to avoid raw or undercooked shellfish, including mussels, and to cook mussels until their shells open, throwing away any that do not open. The FDA/EPA fish chart does not list mussels, so it gives no mercury rating for them. This record lists 12 mcg vitamin B12, 3.95 mg iron, and 11.9 g protein per 100 g of blue mussels in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Are mussels safe during pregnancy? Yes, when fully cooked. FDA advises pregnant women to avoid raw or undercooked shellfish, including mussels, and to cook mussels until their shells open, throwing away any that do not open.",
+        "source": {
+          "name": "FDA: meat, poultry and seafood for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "The FDA/EPA fish chart does not list mussels, so it gives no mercury rating for them.",
+        "source": {
+          "name": "FDA: advice about eating fish",
+          "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        }
+      },
+      {
+        "text": "This record lists 12 mcg vitamin B12, 3.95 mg iron, and 11.9 g protein per 100 g of blue mussels in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA",
+        "name": "FDA: meat, poultry and seafood for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "FDA: advice about eating fish",
         "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -6745,15 +6924,54 @@
   },
   "16103": {
     "verdict": "Safe with precautions",
-    "explanation": "Canned refried beans are safe during pregnancy as a convenient source of plant protein and dietary fiber. They provide potassium and iron to support fetal growth, though traditional recipes may include added lard or high sodium. Choose vegetarian, non-fat, or low-sodium canned refried beans to minimize saturated fats and sodium. Warm thoroughly and spread inside whole-wheat tortillas with diced avocado.",
-    "sources": [
+    "explanation": "Can you eat refried beans while pregnant? Yes. Canned refried beans are not on CDC's list of riskier foods in pregnancy. After opening or cooking, refrigerate leftovers within 2 hours, or within 1 hour above 90°F, as FDA advises for perishable foods in pregnancy. FDA lists beans among sodium-containing canned foods and sets the Daily Value for sodium at less than 2,300 mg a day, so compare labels for sodium per serving. This record lists 4.98 g protein, 1.44 mg iron, and 319 mg potassium per 100 g of canned refried beans in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "USDA",
-        "url": "https://www.dietaryguidelines.gov"
+        "text": "Can you eat refried beans while pregnant? Yes. Canned refried beans are not on CDC's list of riskier foods in pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "FDA",
-        "url": "https://www.fda.gov/food/food-labeling-nutrition"
+        "text": "After opening or cooking, refrigerate leftovers within 2 hours, or within 1 hour above 90°F, as FDA advises for perishable foods in pregnancy.",
+        "source": {
+          "name": "FDA: ready-to-eat foods for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "FDA lists beans among sodium-containing canned foods and sets the Daily Value for sodium at less than 2,300 mg a day, so compare labels for sodium per serving.",
+        "source": {
+          "name": "FDA: sodium in your diet",
+          "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet"
+        }
+      },
+      {
+        "text": "This record lists 4.98 g protein, 1.44 mg iron, and 319 mg potassium per 100 g of canned refried beans in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: ready-to-eat foods for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+      },
+      {
+        "name": "FDA: sodium in your diet",
+        "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -7599,15 +7817,54 @@
   },
   "18147": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercially prepared cheesecake is safe to eat during pregnancy as an occasional dessert treat. Commercial brands use pasteurized cream cheese and fully cooked egg bases, which eliminates the risk of Listeria and Salmonella. The FDA advises confirming that soft cheese ingredients are pasteurized and that the finished cake is kept refrigerated under 40 degrees Fahrenheit. Limit your portion size because cheesecake is high in saturated fat and calories.",
+    "explanation": "Can you eat cheesecake while pregnant? Baked cheesecake fits CDC's safer choices when the cream cheese is pasteurized: CDC lists egg dishes without meat cooked to 160°F, and cream cheese made with pasteurized milk, as safer choices. FDA says store-bought versions of raw-egg foods are often already cooked or pasteurized; a no-bake recipe with raw eggs counts as a raw-egg food. Refrigerate cheesecake within 2 hours, or 1 hour above 90°F. This record lists 321 calories, 5.5 g protein, and 45.9 mg choline per 100 g of commercially prepared cheesecake in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Can you eat cheesecake while pregnant? Baked cheesecake fits CDC's safer choices when the cream cheese is pasteurized: CDC lists egg dishes without meat cooked to 160°F, and cream cheese made with pasteurized milk, as safer choices.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA says store-bought versions of raw-egg foods are often already cooked or pasteurized; a no-bake recipe with raw eggs counts as a raw-egg food.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "Refrigerate cheesecake within 2 hours, or 1 hour above 90°F.",
+        "source": {
+          "name": "FDA: ready-to-eat foods for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record lists 321 calories, 5.5 g protein, and 45.9 mg choline per 100 g of commercially prepared cheesecake in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "FDA: ready-to-eat foods for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -15127,15 +15384,43 @@
   },
   "01017": {
     "verdict": "Safe with precautions",
-    "explanation": "Commercial cream cheese is safe with precautions during pregnancy when made from pasteurized milk. It delivers riboflavin and vitamin A, though it is higher in saturated fats and lower in protein than firmer cheeses. Commercial cream cheese sold in standard supermarket tubs and foil blocks is pasteurized and safe from Listeria. Spread moderately on whole-grain toast or whole-wheat bagels alongside sliced tomatoes.",
+    "explanation": "Can you eat cream cheese while pregnant? Yes, when it is made with pasteurized milk. CDC names cream cheese made with pasteurized milk as a safer choice in pregnancy. FDA notes that some cheeses are not made with pasteurized milk, especially those sold locally on farms or at local cheese stores, so check the label; keep cream cheese refrigerated at 40°F or below. This record lists 350 calories, 6.15 g protein, and 97 mg calcium per 100 g of cream cheese in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Can you eat cream cheese while pregnant? Yes, when it is made with pasteurized milk. CDC names cream cheese made with pasteurized milk as a safer choice in pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "FDA notes that some cheeses are not made with pasteurized milk, especially those sold locally on farms or at local cheese stores, so check the label; keep cream cheese refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "This record lists 350 calories, 6.15 g protein, and 97 mg calcium per 100 g of cream cheese in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "CDC Food Safety",
-        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -16528,85 +16813,319 @@
   },
   "01287": {
     "verdict": "Recommended",
-    "explanation": "Low-fat Greek yogurt is recommended during pregnancy as an outstanding source of concentrated dairy protein and calcium. It supplies double the protein of traditional yogurt, along with vitamin B12 and beneficial probiotics that promote digestive balance. Commercial Greek yogurts are made from pasteurized milk, protecting against dangerous foodborne pathogens like Listeria. Enjoy a bowl topped with fresh berries, chia seeds, and a light drizzle of honey.",
+    "explanation": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt. FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below. NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50. This record lists 9.95 g protein, 115 mg calcium, and 0.52 mcg vitamin B12 per 100 g of low-fat Greek yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt.",
+        "source": {
+          "name": "CDC: preventing Listeria",
+          "url": "https://www.cdc.gov/listeria/prevention/index.html"
+        }
+      },
+      {
+        "text": "FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50.",
+        "source": {
+          "name": "NIH: calcium fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+        }
+      },
+      {
+        "text": "This record lists 9.95 g protein, 115 mg calcium, and 0.52 mcg vitamin B12 per 100 g of low-fat Greek yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: preventing Listeria",
+        "url": "https://www.cdc.gov/listeria/prevention/index.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "NIH: calcium fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
   "01256": {
     "verdict": "Recommended",
-    "explanation": "Nonfat Greek yogurt is recommended during pregnancy as a premier lean protein food. It delivers dense amounts of calcium to support fetal skeletal formation, alongside vitamin B12 and live active cultures without saturated fat. Commercial nonfat varieties are made with pasteurized skim milk, ensuring reliable microbial safety. Mix with fresh fruit or use as a protein-rich swap for sour cream in savory recipes.",
+    "explanation": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt. FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below. NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50. This record lists 10.19 g protein, 110 mg calcium, and 0.75 mcg vitamin B12 per 100 g of nonfat Greek yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt.",
+        "source": {
+          "name": "CDC: preventing Listeria",
+          "url": "https://www.cdc.gov/listeria/prevention/index.html"
+        }
+      },
+      {
+        "text": "FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50.",
+        "source": {
+          "name": "NIH: calcium fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+        }
+      },
+      {
+        "text": "This record lists 10.19 g protein, 110 mg calcium, and 0.75 mcg vitamin B12 per 100 g of nonfat Greek yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: preventing Listeria",
+        "url": "https://www.cdc.gov/listeria/prevention/index.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "NIH: calcium fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
   "01293": {
     "verdict": "Recommended",
-    "explanation": "Whole-milk Greek yogurt is recommended during pregnancy as a satisfying, nutrient-dense dairy choice. It supplies dietary calcium, high-quality protein, and fatty acids that help with the absorption of fat-soluble vitamins. Commercial yogurts sold in stores are prepared from pasteurized milk, completely eliminating bacterial contamination risks. Portion out three-quarters of a cup and pair with sliced almonds and fresh strawberries.",
+    "explanation": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt. FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below. NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50. This record lists 9 g protein, 100 mg calcium, and 0.75 mcg vitamin B12 per 100 g of whole-milk Greek yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt.",
+        "source": {
+          "name": "CDC: preventing Listeria",
+          "url": "https://www.cdc.gov/listeria/prevention/index.html"
+        }
+      },
+      {
+        "text": "FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50.",
+        "source": {
+          "name": "NIH: calcium fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+        }
+      },
+      {
+        "text": "This record lists 9 g protein, 100 mg calcium, and 0.75 mcg vitamin B12 per 100 g of whole-milk Greek yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: preventing Listeria",
+        "url": "https://www.cdc.gov/listeria/prevention/index.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "USDA Dietary Guidelines for Americans",
-        "url": "https://www.dietaryguidelines.gov"
+        "name": "NIH: calcium fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
   "01117": {
     "verdict": "Recommended",
-    "explanation": "Low-fat plain yogurt is recommended during pregnancy as a versatile, nutrient-rich dietary staple. It provides generous calcium, vitamin B12, and riboflavin to support maternal bone health and fetal cell growth. Standard supermarket yogurt is pasteurized, making it safe from Listeria and other bacterial organisms. Add fresh fruit or blend into morning smoothies to enjoy without added refined sugars.",
+    "explanation": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt. FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below. NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50. This record lists 5.25 g protein, 183 mg calcium, and 0.56 mcg vitamin B12 per 100 g of low-fat plain yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt.",
+        "source": {
+          "name": "CDC: preventing Listeria",
+          "url": "https://www.cdc.gov/listeria/prevention/index.html"
+        }
+      },
+      {
+        "text": "FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50.",
+        "source": {
+          "name": "NIH: calcium fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+        }
+      },
+      {
+        "text": "This record lists 5.25 g protein, 183 mg calcium, and 0.56 mcg vitamin B12 per 100 g of low-fat plain yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: preventing Listeria",
+        "url": "https://www.cdc.gov/listeria/prevention/index.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "NIH: calcium fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
   "01118": {
     "verdict": "Recommended",
-    "explanation": "Skim milk plain yogurt is recommended during pregnancy as a lean, calcium-packed breakfast food. It supplies high dairy protein, vitamin B12, and calcium with zero saturated fat to nourish maternal and fetal tissues. Pasteurization of the milk base ensures full safety from harmful foodborne pathogens. Stir in sliced bananas, berries, or pumpkin seeds for a satisfying, nutrient-dense bowl.",
+    "explanation": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt. FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below. NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50. This record lists 5.73 g protein, 199 mg calcium, and 0.61 mcg vitamin B12 per 100 g of skim-milk plain yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt.",
+        "source": {
+          "name": "CDC: preventing Listeria",
+          "url": "https://www.cdc.gov/listeria/prevention/index.html"
+        }
+      },
+      {
+        "text": "FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50.",
+        "source": {
+          "name": "NIH: calcium fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+        }
+      },
+      {
+        "text": "This record lists 5.73 g protein, 199 mg calcium, and 0.61 mcg vitamin B12 per 100 g of skim-milk plain yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: preventing Listeria",
+        "url": "https://www.cdc.gov/listeria/prevention/index.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "NIH: calcium fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
   "01116": {
     "verdict": "Recommended",
-    "explanation": "Whole-milk plain yogurt is recommended during pregnancy as a creamy source of essential dairy nutrients. It provides complete protein, calcium, and vitamin B12 alongside natural milk fats that support maternal satiety. Commercially sold plain yogurt is pasteurized, ensuring safety from bacterial pathogens like Listeria monocytogenes. Layer with fresh berries and walnuts for a wholesome morning parfait.",
+    "explanation": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt. FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below. NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50. This record lists 3.47 g protein, 121 mg calcium, and 0.37 mcg vitamin B12 per 100 g of whole-milk plain yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
+      {
+        "text": "Is yogurt safe during pregnancy? Yes, when it is made with pasteurized milk. CDC lists pasteurized yogurt as the choice to make instead of raw (unpasteurized) yogurt.",
+        "source": {
+          "name": "CDC: preventing Listeria",
+          "url": "https://www.cdc.gov/listeria/prevention/index.html"
+        }
+      },
+      {
+        "text": "FDA says to check that dairy products are made with pasteurized milk and to keep them refrigerated at 40°F or below.",
+        "source": {
+          "name": "FDA: dairy and eggs for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "NIH lists the pregnancy RDA for calcium as 1,000 mg a day for ages 19 to 50.",
+        "source": {
+          "name": "NIH: calcium fact sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+        }
+      },
+      {
+        "text": "This record lists 3.47 g protein, 121 mg calcium, and 0.37 mcg vitamin B12 per 100 g of whole-milk plain yogurt in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
     "sources": [
       {
-        "name": "FDA Food Safety for Moms-to-Be",
+        "name": "CDC: preventing Listeria",
+        "url": "https://www.cdc.gov/listeria/prevention/index.html"
+      },
+      {
+        "name": "FDA: dairy and eggs for moms-to-be",
         "url": "https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be"
       },
       {
-        "name": "ACOG Nutrition During Pregnancy",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "name": "NIH: calcium fact sheet",
+        "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
@@ -20403,15 +20922,61 @@
   },
   "06112": {
     "verdict": "Limit",
-    "explanation": "Teriyaki sauce should be limited during pregnancy due to high sodium and sugar concentrations. It provides savory soy and ginger flavor, but two tablespoons can exceed half of your recommended daily sodium limit. Chronic high sodium intake increases maternal blood pressure risks. Brush a very light glaze onto thoroughly cooked poultry or salmon just before finishing.",
-    "sources": [
+    "explanation": "Is teriyaki sauce safe during pregnancy? Bottled teriyaki sauce is not on CDC's list of riskier foods in pregnancy; the reason to limit it is sodium. FDA lists soy sauce as an example of a high-sodium food, advises limiting packaged sauces, and sets the Daily Value for sodium at less than 2,300 mg a day. Check the Nutrition Facts label for sodium per serving. If you marinate raw chicken, meat, or fish in teriyaki, FDA's pregnancy advice is not to taste the uncooked marinade and not to reuse it on cooked food unless it is boiled first. Cook teriyaki chicken to 165°F, as CDC advises for poultry in pregnancy. This record lists 89 calories and 5.93 g protein per 100 g of teriyaki sauce in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+    "claims": [
       {
-        "name": "USDA Dietary Guidelines",
-        "url": "https://www.myplate.gov/life-stages/pregnancy-and-breastfeeding"
+        "text": "Is teriyaki sauce safe during pregnancy? Bottled teriyaki sauce is not on CDC's list of riskier foods in pregnancy; the reason to limit it is sodium.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
       },
       {
-        "name": "ACOG",
-        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy"
+        "text": "FDA lists soy sauce as an example of a high-sodium food, advises limiting packaged sauces, and sets the Daily Value for sodium at less than 2,300 mg a day. Check the Nutrition Facts label for sodium per serving.",
+        "source": {
+          "name": "FDA: sodium in your diet",
+          "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet"
+        }
+      },
+      {
+        "text": "If you marinate raw chicken, meat, or fish in teriyaki, FDA's pregnancy advice is not to taste the uncooked marinade and not to reuse it on cooked food unless it is boiled first.",
+        "source": {
+          "name": "FDA: meat, poultry and seafood for moms-to-be",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+        }
+      },
+      {
+        "text": "Cook teriyaki chicken to 165°F, as CDC advises for poultry in pregnancy.",
+        "source": {
+          "name": "CDC: safer food choices in pregnancy",
+          "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+        }
+      },
+      {
+        "text": "This record lists 89 calories and 5.93 g protein per 100 g of teriyaki sauce in PregNut's historical USDA-based dataset; it describes a food sample, not a suggested serving size.",
+        "source": {
+          "name": "Food data and limitations",
+          "url": "/about/#food-data-sources"
+        }
+      }
+    ],
+    "dateModified": "2026-10-20",
+    "sources": [
+      {
+        "name": "CDC: safer food choices in pregnancy",
+        "url": "https://www.cdc.gov/food-safety/foods/pregnant-women.html"
+      },
+      {
+        "name": "FDA: sodium in your diet",
+        "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet"
+      },
+      {
+        "name": "FDA: meat, poultry and seafood for moms-to-be",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be"
+      },
+      {
+        "name": "Food data and limitations",
+        "url": "/about/#food-data-sources"
       }
     ]
   },
