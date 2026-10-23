@@ -375,6 +375,50 @@
 }
 
 .viz-row .viz-thumb { grid-area: thumb; }
+.viz-row .viz-phrase { grid-area: phrase; }
+
+/* The group's top food: a photo tile with the share said in words. */
+.viz-row.is-featured {
+  margin-bottom: 6px;
+  padding: 12px;
+  grid-template-areas:
+    "thumb copy copy"
+    "thumb phrase phrase"
+    "thumb bar bar"
+    "thumb amount amount";
+  grid-template-columns: 168px minmax(0, 1fr) auto;
+  align-content: center;
+  column-gap: 20px;
+  row-gap: 4px;
+}
+
+.viz-row.is-featured .viz-thumb {
+  width: 168px;
+  height: 168px;
+  border-radius: 18px;
+  transition: transform 300ms ease;
+}
+
+.viz-row.is-featured:hover .viz-thumb {
+  transform: scale(1.03);
+}
+
+.viz-row.is-featured .viz-name {
+  font-size: 1.05rem;
+}
+
+.viz-row.is-featured .viz-phrase {
+  margin: 0 0 8px;
+  color: var(--accent-2);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 1.55rem;
+  line-height: 1.1;
+}
+
+.viz-row.is-featured .viz-amount {
+  justify-self: start;
+  padding-top: 2px;
+}
 .viz-row .viz-copy { grid-area: copy; }
 .viz-row .viz-amount { grid-area: amount; align-self: start; padding-top: 2px; }
 .viz-row .viz-value { grid-area: value; }
@@ -460,17 +504,18 @@
 /* Group cards */
 .viz-card {
   min-width: 0;
-  padding: 20px 10px 10px;
-  border: 1px solid var(--border);
-  border-radius: 18px;
+  padding: 22px 10px 10px;
+  border: 1px solid rgba(38, 48, 56, 0.08);
+  border-radius: 24px;
   background: var(--card);
+  box-shadow: 0 1px 2px rgba(38, 48, 56, 0.04), 0 8px 24px rgba(38, 48, 56, 0.05);
   scroll-margin-top: calc(var(--viz-sticky-top) + 84px);
 }
 
 .viz-card-title {
-  margin: 0 12px 8px;
+  margin: 0 12px 10px;
   font-family: "Instrument Serif", Georgia, serif;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   font-weight: 400;
   line-height: 1.1;
 }
@@ -708,7 +753,27 @@
     height: 48px;
   }
 
+  .viz-row.is-featured {
+    grid-template-columns: 112px minmax(0, 1fr) auto;
+    column-gap: 14px;
+  }
+
+  .viz-row.is-featured .viz-thumb {
+    width: 112px;
+    height: 112px;
+    border-radius: 16px;
+  }
+
+  .viz-row.is-featured .viz-phrase {
+    font-size: 1.3rem;
+  }
+
   .viz-card {
     padding: 16px 6px 6px;
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .viz-row.is-featured .viz-thumb { transition: none; }
+  .viz-row.is-featured:hover .viz-thumb { transform: none; }
 }

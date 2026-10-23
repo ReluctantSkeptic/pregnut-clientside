@@ -3,12 +3,13 @@
     <h2 class="viz-card-title">{{ group.name }}</h2>
     <ol class="viz-list">
       {% for food in group.items %}
-        <li class="viz-row">
-          {% if food.image %}<img class="viz-thumb" src="{{ food.image.src }}" alt="" width="68" height="68" loading="lazy" decoding="async">{% else %}<span class="viz-thumb" aria-hidden="true">{{ food.label | first | upper }}</span>{% endif %}
+        <li class="viz-row{% if food.featured %} is-featured{% endif %}">
+          {% if food.image %}<img class="viz-thumb" src="{{ food.image.src }}" alt=""{% if food.featured %} width="400" height="400"{% else %} width="68" height="68" loading="lazy"{% endif %} decoding="async">{% else %}<span class="viz-thumb" aria-hidden="true">{{ food.label | first | upper }}</span>{% endif %}
           <div class="viz-copy">
             <p class="viz-name"><a href="{{ food.url }}"{% if food.label != food.name %} title="{{ food.name | escape }}"{% endif %}>{{ food.label }}</a></p>
             {% if food.warning and food.warning != "0" %}<span class="caution is-safety"><button class="caution-trigger" type="button" aria-label="Safety note: {{ food.warning | escape }}: {{ (food.warningText or 'Use caution.') | escape }}" aria-expanded="false">!</button><span class="caution-popover" role="tooltip">{{ food.warning }}: {{ food.warningText or 'Use caution.' }}</span></span>{% endif %}
           </div>
+          {% if food.featured %}<p class="viz-phrase">{{ food.phrase }}</p>{% endif %}
           <span class="viz-amount" aria-hidden="true">{{ food.row.value | formatNumber }} {{ food.row.unit }}</span>
           <div class="viz-bar has-value{% if food.row.percent >= 100 %} is-full{% endif %}" role="img" aria-label="{{ food.tip | escape }}" style="--pct: {{ food.row.barPercent }}%"><span class="viz-bar-fill" aria-hidden="true"></span><span class="viz-bar-value{% if food.row.percent >= 24 %} is-inside{% endif %}" aria-hidden="true">{% if food.row.percent >= 100 %}✓ {% endif %}{{ food.row.displayPercent }}%</span></div>
         </li>

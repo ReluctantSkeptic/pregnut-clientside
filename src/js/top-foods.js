@@ -200,7 +200,8 @@
           percent: item.pct,
           imageMap: imageMap,
           tip: tip,
-          amount: amountText(fooddata, item.food, nutrientId)
+          amount: amountText(fooddata, item.food, nutrientId),
+          featured: fi === 0
         }));
       }
 
