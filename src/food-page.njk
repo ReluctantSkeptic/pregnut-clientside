@@ -13,7 +13,7 @@ eleventyComputed:
 vizStyles: true
 pageStyles:
   - /style/weekly-diet.css
-  - /style/food.css?v=20261015-no-caps
+  - /style/food.css?v=20261023-2
 ---
 
 <article class="section food-static-page">
@@ -51,8 +51,7 @@ pageStyles:
         <li class="food-chart-row">
           <span class="food-chart-name">{{ row.name }}</span>
           {% set amount = row.value | formatNumber %}<span class="food-chart-amount">{{ amount }}{% if amount != "—" %} {{ row.unit }}{% endif %}</span>
-          <span class="viz-bar{% if row.percent >= 100 %} is-full{% endif %}" style="--pct: {{ row.barPercent }}%;" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the daily pregnancy reference{% endif %}"><span class="viz-bar-fill" aria-hidden="true"></span></span>
-          <span class="viz-value" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{% if row.percent >= 100 %}<span class="viz-check">✓</span>{% endif %}{{ row.displayPercent }}%{% endif %}</span>
+          <span class="viz-bar has-value{% if row.percent >= 100 %} is-full{% endif %}" style="--pct: {{ row.barPercent }}%;" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the daily pregnancy reference{% endif %}"><span class="viz-bar-fill" aria-hidden="true"></span><span class="viz-bar-value{% if row.percent >= 24 %} is-inside{% endif %}" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{% if row.percent >= 100 %}✓ {% endif %}{{ row.displayPercent }}%{% endif %}</span></span>
         </li>
         {% endif %}
       {% endfor %}

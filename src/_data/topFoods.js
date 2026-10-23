@@ -12,13 +12,9 @@ for (const source of foodData.foods) {
   const food = pages.get(source.id);
   const row = food.nutrientRows.find((row) => row.name === nutrient);
   if (row.percent === null) continue;
-  const parts = food.name.split(",");
-  const main = parts.shift().trim();
   const item = {
     ...food,
-    main,
-    detail: parts.join(",").trim(),
-    initial: main.charAt(0).toUpperCase(),
+    label: source.label || food.name,
     row,
     tip: `${row.value} ${row.unit} in 100 g · ${row.displayPercent}% of ${row.target} reference`
   };

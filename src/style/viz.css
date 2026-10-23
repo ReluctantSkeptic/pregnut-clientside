@@ -275,6 +275,33 @@
   background: var(--viz-fill-strong);
 }
 
+/* Bars that carry their own percent */
+.viz-bar.has-value {
+  height: 24px;
+  border-radius: 7px;
+}
+
+.viz-bar-value {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--pct, 0%) + 8px);
+  display: flex;
+  align-items: center;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.viz-bar-value.is-inside {
+  left: auto;
+  right: calc(100% - var(--pct, 0%) + 8px);
+  color: #fffefb;
+}
+
 .viz-value {
   color: var(--ink);
   font-size: 0.9rem;
@@ -317,15 +344,15 @@
   list-style: none;
 }
 
-/* Value sits at the end of its bar; a fixed column keeps every bar the same length. */
+/* Name and amount on one line, the labelled bar full width beneath. */
 .viz-row {
   position: relative;
   padding: 8px 12px;
   display: grid;
   grid-template-areas:
     "thumb copy amount"
-    "thumb bar value";
-  grid-template-columns: 56px minmax(0, 1fr) 4.5rem;
+    "thumb bar bar";
+  grid-template-columns: 56px minmax(0, 1fr) auto;
   align-items: center;
   column-gap: 14px;
   row-gap: 6px;
@@ -345,7 +372,7 @@
 
 .viz-row .viz-thumb { grid-area: thumb; }
 .viz-row .viz-copy { grid-area: copy; }
-.viz-row .viz-amount { grid-area: amount; }
+.viz-row .viz-amount { grid-area: amount; align-self: start; padding-top: 2px; }
 .viz-row .viz-value { grid-area: value; }
 .viz-row .viz-bar { grid-area: bar; }
 
@@ -388,9 +415,14 @@
   line-height: 1.3;
 }
 
+/* Long names wrap to a second line rather than hiding words. */
 .viz-name a {
+  display: -webkit-box;
+  overflow: hidden;
   color: inherit;
   text-decoration: none;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .viz-name a::after {
@@ -663,7 +695,7 @@
 @media (max-width: 480px) {
   .viz-row {
     padding: 8px;
-    grid-template-columns: 48px minmax(0, 1fr) 4rem;
+    grid-template-columns: 48px minmax(0, 1fr) auto;
     column-gap: 12px;
   }
 

@@ -261,7 +261,7 @@
 .food-chart-row {
   padding: 9px 0;
   display: grid;
-  grid-template-columns: minmax(110px, 180px) 88px minmax(0, 1fr) 64px;
+  grid-template-columns: minmax(110px, 180px) 88px minmax(0, 1fr);
   align-items: center;
   gap: 16px;
   border-bottom: 1px solid rgba(38, 48, 56, 0.07);
@@ -450,10 +450,10 @@
   }
 
   .food-chart-row {
-    grid-template-columns: minmax(0, 1fr) auto 52px;
+    grid-template-columns: minmax(0, 1fr) auto;
     grid-template-areas:
-      "name amount value"
-      "bar bar bar";
+      "name amount"
+      "bar bar";
     gap: 6px 12px;
     padding: 10px 0;
   }
@@ -461,7 +461,6 @@
   .food-chart-name { grid-area: name; }
   .food-chart-amount { grid-area: amount; }
   .food-chart-row .viz-bar { grid-area: bar; }
-  .food-chart-row .viz-value { grid-area: value; }
 
   .page-food-detail .table-shell {
     overflow-x: visible;

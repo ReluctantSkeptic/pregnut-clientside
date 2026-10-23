@@ -50,17 +50,26 @@
     return n.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
   }
 
-  function bar(percent, label) {
+  // Short bars can't hold their label, so it sits just past the fill instead.
+  var INSIDE_MIN = 24;
+
+  // withValue puts the percent label on the bar itself.
+  function bar(percent, label, withValue) {
     var p = Number(percent);
     if (!isFinite(p)) p = 0;
     p = Math.max(0, p);
-    var node = el("div", "viz-bar" + (p >= 100 ? " is-full" : ""), null);
+    var node = el("div", "viz-bar" + (p >= 100 ? " is-full" : "") + (withValue ? " has-value" : ""), null);
     node.setAttribute("role", "img");
     node.setAttribute("aria-label", label || (Math.round(p) + "% of nutrient reference amount"));
     var fill = el("span", "viz-bar-fill", null);
     fill.setAttribute("aria-hidden", "true");
     node.style.setProperty("--pct", Math.min(p, 100) + "%");
     node.appendChild(fill);
+    if (withValue) {
+      var text = el("span", "viz-bar-value" + (p >= INSIDE_MIN ? " is-inside" : ""), (p >= 100 ? "✓ " : "") + Math.round(p) + "%");
+      text.setAttribute("aria-hidden", "true");
+      node.appendChild(text);
+    }
     return node;
   }
 
@@ -88,7 +97,7 @@
       img.decoding = "async";
       return img;
     }
-    var initial = splitName(food && food.name).main.charAt(0).toUpperCase();
+    var initial = foodName(food).charAt(0).toUpperCase();
     var tile = el("span", "viz-thumb", initial || "·");
     tile.setAttribute("aria-hidden", "true");
     return tile;
@@ -119,7 +128,12 @@
     return popover("is-safety", "!", "Safety note: " + msg, msg);
   }
 
-  // opts: { food, percent, imageMap, tip, amount, meta, tag }
+  // One readable line: the build's label, else the raw database name.
+  function foodName(food) {
+    return String((food && (food.label || food.name)) || "");
+  }
+
+  // opts: { food, percent, imageMap, tip, amount, tag }
   function foodRow(opts) {
     var food = opts.food;
     var row = el(opts.tag || "li", "viz-row", null);
@@ -129,10 +143,8 @@
     var name = el("p", "viz-name", null);
     var link = el("a", "", null);
     link.href = foodUrl(food);
-    var parts = splitName(food && food.name);
-    link.appendChild(document.createTextNode(parts.main));
-    var detailText = opts.meta ? (parts.detail ? parts.detail + " · " + opts.meta : opts.meta) : parts.detail;
-    if (detailText) link.appendChild(el("span", "viz-detail", detailText));
+    link.textContent = foodName(food);
+    if (food && food.label && food.label !== food.name) link.title = food.name;
     name.appendChild(link);
     copy.appendChild(name);
     var caution = safetyNote(food);
@@ -144,8 +156,7 @@
       amount.setAttribute("aria-hidden", "true");
       row.appendChild(amount);
     }
-    row.appendChild(bar(opts.percent, opts.tip));
-    row.appendChild(value(opts.percent));
+    row.appendChild(bar(opts.percent, opts.tip, true));
     return row;
   }
 
@@ -189,6 +200,7 @@
     foodUrl: foodUrl,
     slugify: slugify,
     splitName: splitName,
+    foodName: foodName,
     formatAmount: formatAmount,
     bar: bar,
     value: value,
