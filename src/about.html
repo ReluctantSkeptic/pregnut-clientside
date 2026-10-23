@@ -1,397 +1,136 @@
 ---
-title: "About: Pregnancy Nutrition Data and Sources"
-description: Learn how PregNut compares foods per 100 grams, uses pregnancy nutrient references, and separates nutrient data from food-safety advice.
+title: "About PregNut: Three Pregnancies, One Food Database"
+description: Why PregNut exists. A personal project begun in 2018 from USDA food data during my wife's first pregnancy, and grown through a second and a third.
 layout: base.njk
 permalink: /about/index.html
+bodyClass: page-about
+# Drop a square photo in src/resource/about/ and set its path here to replace the monogram.
+authorPhoto: ""
 pageStyles:
-  - /style/about.css?v=20261015-no-caps
+  - /style/about.css?v=20261023-story
+pageScripts:
+  - /js/about.js?v=20261023-story
 ---
 
-<section class="hero slim">
-  <div>
-    <h1 class="hero-title">How PregNut works.</h1>
-    <p class="hero-lede">See how we compare foods per 100 grams, where our pregnancy nutrient references come from, and what a nutrient chart cannot tell you about food safety.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="/blog/">Browse nutrition guides</a>
-      <a class="button ghost" href="/food/">Explore food comparisons</a>
-    </div>
+<header class="ab-hero">
+  <h1 class="ab-title" data-split>Three pregnancies, <em>one food database.</em></h1>
+  <div class="ab-byline">
+    {% if authorPhoto %}<img class="ab-avatar" src="{{ authorPhoto }}" alt="Yuriy Stasyuk" width="112" height="112">{% else %}<span class="ab-avatar" aria-hidden="true">Y</span>{% endif %}
+    <p><strong>Yuriy Stasyuk</strong><span>Building PregNut since 2018</span></p>
+  </div>
+</header>
+
+<section class="ab-story" aria-label="Why PregNut exists">
+  <p class="ab-lead" data-read>I am fairly confident that no grocery list in history has been cross-examined as thoroughly as ours was in 2018.</p>
+  <p data-read>That year my wife became pregnant with our first child, and I wanted to do the one useful thing a nervous husband could do: make sure the food she ate carried as much of what she and the baby needed as possible.</p>
+  <p data-read>Expectant parents are said to "nest", readying the house for someone who has not arrived yet. Mine took a less photogenic form, which I can only describe as data nesting. Instead of painting a nursery, I downloaded the government's food composition database. (USDA, if you are reading this, you deserve more fan mail than you get.)</p>
+  <p data-read>Most of the advice I found was a list. A list tells you what to eat; a comparison tells you why one food beats another. So I built the comparison, measuring every food "per 100 grams", which simply means the same weight of everything, so spinach and salmon compete on equal terms.</p>
+  <p data-read>My aim was not to out-think her doctor, nor to turn dinner into a math problem. It was to make the good choices a little easier to see.</p>
+</section>
+
+<section class="ab-chapters" aria-label="How PregNut grew">
+  <article class="ab-chapter" data-reveal>
+    <h2>2018</h2>
+    <p>The first version, built from USDA data for our first pregnancy. Rough, useful, and written for an audience of exactly two.</p>
+  </article>
+  <article class="ab-chapter" data-reveal>
+    <h2>Then a second.</h2>
+    <p>Expecting again, I came back with a longer list of questions and kept adding to it.</p>
+  </article>
+  <article class="ab-chapter" data-reveal>
+    <h2>And a third.</h2>
+    <p>Now it covers 1,272 foods, 13 nutrients and every week of pregnancy, with guides that link straight to their sources.</p>
+  </article>
+</section>
+
+<section class="ab-phones" aria-labelledby="ab-phones-title">
+  <h2 class="ab-h2" id="ab-phones-title">What it looks like now.</h2>
+  <div class="ab-phone-row">
+    <a class="ab-phone" href="/app/" data-reveal>
+      <img src="/resource/about/app-top-foods.webp" width="780" height="1560" loading="lazy" decoding="async" alt="Top Foods on a phone: iron in natural foods, led by dried spirulina at 106% of the 27 mg daily reference in 100 g">
+      <span>Rank foods by one nutrient</span>
+    </a>
+    <a class="ab-phone" href="/food/15086-salmon-sockeye-cooked-dry-heat/" data-reveal>
+      <img src="/resource/about/app-food-page.webp" width="780" height="1560" loading="lazy" decoding="async" alt="Food page for cooked sockeye salmon on a phone: 187% of daily DHA, 172% of vitamin B-12 and 112% of vitamin D in 100 g">
+      <span>See everything in 100 g of a food</span>
+    </a>
+    <a class="ab-phone" href="/weekly-diet/" data-reveal>
+      <img src="/resource/about/app-weekly-guide.webp" width="780" height="1560" loading="lazy" decoding="async" alt="Weekly Guide on a phone at week 20, second trimester, with a week slider and the Movement and senses stage">
+      <span>Follow along, week by week</span>
+    </a>
   </div>
 </section>
 
-<section class="section">
-  <div class="split">
-    <div>
-      <h2>What is PregNut?</h2>
-      <p>PregNut is a practical food lookup and planning tool for pregnancy. It shows which foods deliver more—or less—of the nutrients that matter most, using one consistent portion size so comparisons stay meaningful.</p>
-      <p>General food lists are easy to find. Understanding which specific foods help you reach a nutrient target is harder. PregNut brings that detail into one calm, approachable place while keeping the underlying evidence visible.</p>
+<section class="ab-portions" id="hundred-grams" aria-labelledby="ab-portions-title">
+  <div class="ab-portions-pin">
+    <div class="ab-portions-head">
+      <h2 class="ab-h2" id="ab-portions-title">How much is 100 grams?</h2>
+      <p>Illustrations of roughly 100 g (3.5 oz). A visual guide, not weighed photographs.</p>
     </div>
-    <div class="callout">
-      <h3>Evidence first</h3>
-      <p>Recommendations prioritize nutrients with broad consensus across trusted medical and public health sources.</p>
-    </div>
+    <ul class="ab-portion-track">
+      {% set portions = [
+        ["banana", "Banana", "About 1 medium banana, peeled", "/food/09040-bananas-raw/"],
+        ["apple", "Apple", "About half a medium apple", "/food/09003-apples-raw-with-skin/"],
+        ["blueberries", "Blueberries", "About 2/3 cup", "/food/09050-blueberries-raw/"],
+        ["broccoli", "Broccoli", "About 1 cup chopped florets", "/food/11090-broccoli-raw/"],
+        ["cooked-rice", "Cooked rice", "About 1/2 cup cooked", "/food/?q=rice"],
+        ["oatmeal", "Oatmeal", "About 1/2 cup cooked", "/food/08121-cereals-oats-regular-and-quick-unenriched-cooked-with-water-includes-boiling-and-microwaving/"],
+        ["yogurt", "Yogurt", "About 1/3 to 1/2 cup", "/food/01116-yogurt-plain-whole-milk-8-grams-protein-per-8-ounce/"],
+        ["milk", "Milk", "About 1/2 cup", "/food/?q=milk"],
+        ["eggs", "Eggs", "About 2 large eggs, without shell", "/food/01129-egg-hard-boiled/"],
+        ["lentils", "Lentils", "About 1/2 cup cooked", "/food/16070-lentils-mature-seeds-boiled/"],
+        ["spinach", "Spinach", "About 3 to 4 cups raw leaves", "/food/11457-spinach-raw/"],
+        ["almonds", "Almonds", "About 2/3 cup, a big handful", "/food/12061-nuts-almonds/"],
+        ["avocado", "Avocado", "About 2/3 of a medium avocado", "/food/09037-avocados-raw/"],
+        ["salmon", "Salmon", "A palm-sized fillet", "/food/15086-salmon-sockeye-cooked-dry-heat/"],
+        ["chicken", "Chicken", "A palm-sized portion", "/food/05064-chicken-breast-meat-only-roasted/"],
+        ["beef", "Beef", "A palm-sized portion", "/food/23220-beef-ground-unspecified-fat-content-cooked/"],
+        ["cheddar", "Cheddar cheese", "About 1 cup shredded", "/food/01009-cheese-cheddar/"],
+        ["bread", "Bread", "About 3 to 4 slices of sandwich bread", "/food/18075-bread-whole-wheat/"]
+      ] %}
+      {% for p in portions %}
+        <li class="ab-portion">
+          <img src="/resource/portions/portion-{{ p[0] }}-100g-600.webp" width="600" height="600" loading="lazy" decoding="async" alt="">
+          <a href="{{ p[3] }}">{{ p[1] }}</a>
+          <span>{{ p[2] }}</span>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
 
-<section class="section tone" id="top-foods">
-  <div class="section-header">
-    <h2>Top Foods</h2>
+<section class="ab-fine" aria-labelledby="ab-fine-title">
+  <h2 class="ab-h2" id="ab-fine-title">The fine print.</h2>
+
+  <div class="ab-fine-item" id="food-data-sources">
+    <h3>Where the numbers come from</h3>
+    <p>Food values come from a fixed snapshot of the USDA National Nutrient Database for Standard Reference (see the <a href="https://fdc.nal.usda.gov/download-datasets/">SR Legacy archive</a>). <a href="https://fdc.nal.usda.gov/about-us/">USDA's final Standard Reference release was in 2018</a>, so newer data and current product labels may differ. Names are tidied for reading; every value describes 100 grams, not a brand or a serving.</p>
   </div>
-  <div class="split">
-    <div>
-      <p>The <a href="/app/">Top Foods</a> page ranks foods by how much of one nutrient they contain in 100 grams, grouped by food category.</p>
-      <p>Pick a nutrient from the row of buttons, then switch between "Processed" (including fortified foods) and "Natural" sources. Each bar shows the share of the pregnancy reference amount in 100 grams.</p>
-      <p>Select a food to open its full nutrition page.</p>
+
+  <div class="ab-fine-item" id="nutrient-references">
+    <h3>What the percentages compare against</h3>
+    <p>Most reference amounts come from the <a href="https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/">NIH pregnancy intake table</a> for ages 19–50. Choline and potassium are adequate intakes; DHA and protein are illustrative benchmarks. Folate is shown as DFE, which differs from the folic acid on a prenatal label (<a href="/blog/folate-folic-acid-pregnancy/">folate guide</a>). The data has no iodine values (<a href="/blog/iodine-without-dairy-pregnancy/">iodine guide</a>).</p>
+    <div class="ab-table">
+      <table>
+        <caption class="sr-only">Pregnancy nutrient reference amounts</caption>
+        <thead><tr><th scope="col">Nutrient</th><th scope="col">Reference</th><th scope="col">Why it matters</th></tr></thead>
+        <tbody>
+          {% for nutrient in nutrientGuidance %}
+          <tr>
+            <th scope="row">{% if nutrient.guide %}<a href="{{ nutrient.guide }}">{{ nutrient.label }}</a>{% else %}{{ nutrient.label }}{% endif %}</th>
+            <td>{{ nutrient.amount }}</td>
+            <td>{{ nutrient.role }} <a class="ab-src" href="{{ nutrient.source }}">{% if nutrient.id == "Protein" %}ACOG{% else %}NIH{% endif %}</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
-    <div>
-      <img class="about-shot" src="/resource/about-top-foods.webp" width="390" height="620" loading="lazy" decoding="async" alt="PregNut Top Foods on a phone with Iron and Processed selected: breakfast cereals ranked by percent of the 27 mg pregnancy iron reference in 100 grams, led by Kellogg's All-Bran Complete at 230%" />
-    </div>
+  </div>
+
+  <div class="ab-fine-item" id="editorial">
+    <h3>Who writes this</h3>
+    <p>PregNut is an independent project by Yuriy Stasyuk. It is a starting point for your own research, not medical advice, and it does not replace your obstetric clinician or a registered dietitian. Some guides were drafted with AI assistance and edited before publication; each links its sources, and medical review is credited only when it has happened. Spot a wrong number or an outdated source? <a href="/contact/">Tell me</a>.</p>
   </div>
 </section>
 
-<section class="section" id="search">
-  <div class="section-header">
-    <h2>Search</h2>
-  </div>
-  <div class="split">
-    <div>
-      <p>Type a food name in the search bar at the top of any page. Choose a suggestion to open that food's nutrition page, or press Search to see every matching food.</p>
-      <p>Suggestions show a limited set of matches. If you don't see the food you want, submit the search or try a narrower name.</p>
-    </div>
-    <div>
-      <img class="about-shot" src="/resource/about-food-search.webp" width="390" height="500" loading="lazy" decoding="async" alt="PregNut mobile menu with 'lentil' typed in the food search and suggestions for boiled mature lentils and raw lentils" />
-    </div>
-  </div>
-</section>
-
-<section class="section tone" id="food-pages">
-  <div class="section-header">
-    <h2>Food pages</h2>
-  </div>
-  <div class="split">
-    <div>
-      <p>Each food page shows how 100 grams of that food compares with the site's pregnancy nutrient reference amounts, from highest to lowest.</p>
-      <p>Every food uses the same 100 gram (3.5 oz) portion, so comparisons between foods stay consistent. The <a href="#hundred-grams">portion guide</a> below shows what 100 grams looks like for common foods. Some pages also include a food-specific safety note.</p>
-    </div>
-    <div>
-      <img class="about-shot" src="/resource/about-food-detail-salmon.webp" width="390" height="740" loading="lazy" decoding="async" alt="PregNut food page for cooked sockeye salmon on a phone: 100 grams gives about 187% of daily DHA, 172% of vitamin B-12 and 112% of vitamin D needed in pregnancy" />
-    </div>
-  </div>
-</section>
-
-<section class="section" id="weekly-guide">
-  <div class="section-header">
-    <h2>Weekly Guide</h2>
-  </div>
-  <div class="split">
-    <div>
-      <p>The <a href="/weekly-diet/">Weekly Guide</a> follows pregnancy in stages. Choose your week on the timeline to see what's developing, which nutrients matter at that stage, and foods that are rich in them.</p>
-      <p>Each stage links to food pages and guides so you can read more.</p>
-    </div>
-    <div>
-      <img class="about-shot" src="/resource/about-weekly-guide.webp" width="390" height="705" loading="lazy" decoding="async" alt="PregNut Weekly Guide on a phone at week 4, with the week timeline, a photo of lentils, eggs, avocado and spinach, and the Foundations stage for weeks 1 to 8" />
-    </div>
-  </div>
-</section>
-
-<section class="section tone portion-guide" id="hundred-grams">
-  <div class="section-header">
-    <h2>How much is 100 grams?</h2>
-  </div>
-  <p class="portion-note">These illustrations show approximate 100g (3.5 oz) portions in the same overhead style. Actual volume varies by food and preparation; they are a visual guide, not weighed photographs.</p>
-
-  <div class="portion-grid" aria-label="Common 100 gram portions">
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-banana-100g.webp" srcset="/resource/portions/portion-banana-100g-600.webp 600w, /resource/portions/portion-banana-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of peeled banana" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Banana</h3>
-        <p class="portion-amount">About 1 medium banana (peeled).</p>
-        <a class="portion-link" href="/food/09040-bananas-raw/">Compare banana nutrition</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-apple-100g.webp" srcset="/resource/portions/portion-apple-100g-600.webp 600w, /resource/portions/portion-apple-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of sliced apple" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Apple</h3>
-        <p class="portion-amount">About 1/2 a medium apple.</p>
-        <a class="portion-link" href="/food/09003-apples-raw-with-skin/">Compare apple nutrition</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-blueberries-100g.webp" srcset="/resource/portions/portion-blueberries-100g-600.webp 600w, /resource/portions/portion-blueberries-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of blueberries" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Blueberries</h3>
-        <p class="portion-amount">About 2/3 cup.</p>
-        <a class="portion-link" href="/food/09050-blueberries-raw/">Compare blueberry nutrition</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-broccoli-100g.webp" srcset="/resource/portions/portion-broccoli-100g-600.webp 600w, /resource/portions/portion-broccoli-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of broccoli florets" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Broccoli</h3>
-        <p class="portion-amount">About 1 cup chopped florets.</p>
-        <a class="portion-link" href="/food/11090-broccoli-raw/">Compare broccoli nutrition</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-cooked-rice-100g.webp" srcset="/resource/portions/portion-cooked-rice-100g-600.webp 600w, /resource/portions/portion-cooked-rice-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of cooked rice" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Cooked rice</h3>
-        <p class="portion-amount">About 1/2 cup cooked.</p>
-        <a class="portion-link" href="/food/?q=rice">Compare rice nutrition</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-oatmeal-100g.webp" srcset="/resource/portions/portion-oatmeal-100g-600.webp 600w, /resource/portions/portion-oatmeal-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of cooked oatmeal" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Oatmeal</h3>
-        <p class="portion-amount">About 1/2 cup cooked.</p>
-        <a class="portion-link" href="/food/08121-cereals-oats-regular-and-quick-unenriched-cooked-with-water-includes-boiling-and-microwaving/">Compare cooked oats</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-yogurt-100g.webp" srcset="/resource/portions/portion-yogurt-100g-600.webp 600w, /resource/portions/portion-yogurt-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of plain yogurt" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Yogurt</h3>
-        <p class="portion-amount">About 1/3 to 1/2 cup.</p>
-        <a class="portion-link" href="/food/01116-yogurt-plain-whole-milk-8-grams-protein-per-8-ounce/">Compare plain yogurt</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-milk-100g.webp" srcset="/resource/portions/portion-milk-100g-600.webp 600w, /resource/portions/portion-milk-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of milk" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Milk</h3>
-        <p class="portion-amount">About 1/2 cup.</p>
-        <a class="portion-link" href="/food/?q=milk">Compare milk nutrition</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-eggs-100g.webp" srcset="/resource/portions/portion-eggs-100g-600.webp 600w, /resource/portions/portion-eggs-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of cooked eggs" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Eggs</h3>
-        <p class="portion-amount">About 2 large eggs (without shell).</p>
-        <a class="portion-link" href="/food/01129-egg-hard-boiled/">Compare cooked eggs</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-lentils-100g.webp" srcset="/resource/portions/portion-lentils-100g-600.webp 600w, /resource/portions/portion-lentils-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of cooked lentils" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Lentils</h3>
-        <p class="portion-amount">About 1/2 cup cooked.</p>
-        <a class="portion-link" href="/food/16070-lentils-mature-seeds-boiled/">Compare cooked lentils</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-spinach-100g.webp" srcset="/resource/portions/portion-spinach-100g-600.webp 600w, /resource/portions/portion-spinach-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of raw spinach leaves" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Spinach</h3>
-        <p class="portion-amount">About 3 to 4 cups raw leaves.</p>
-        <a class="portion-link" href="/food/11457-spinach-raw/">Compare raw spinach</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-almonds-100g.webp" srcset="/resource/portions/portion-almonds-100g-600.webp 600w, /resource/portions/portion-almonds-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of almonds" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Almonds</h3>
-        <p class="portion-amount">About 2/3 cup (a big handful).</p>
-        <a class="portion-link" href="/food/12061-nuts-almonds/">Compare almonds</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-avocado-100g.webp" srcset="/resource/portions/portion-avocado-100g-600.webp 600w, /resource/portions/portion-avocado-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of sliced avocado" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Avocado</h3>
-        <p class="portion-amount">About 2/3 of a medium avocado.</p>
-        <a class="portion-link" href="/food/09037-avocados-raw/">Compare avocado nutrition</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-salmon-100g.webp" srcset="/resource/portions/portion-salmon-100g-600.webp 600w, /resource/portions/portion-salmon-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of cooked salmon" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Salmon</h3>
-        <p class="portion-amount">About a palm-sized fillet (3.5 oz).</p>
-        <a class="portion-link" href="/food/15086-salmon-sockeye-cooked-dry-heat/">Compare cooked salmon</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-chicken-100g.webp" srcset="/resource/portions/portion-chicken-100g-600.webp 600w, /resource/portions/portion-chicken-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of cooked chicken breast" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Chicken</h3>
-        <p class="portion-amount">About a palm-sized portion (3.5 oz).</p>
-        <a class="portion-link" href="/food/05064-chicken-breast-meat-only-roasted/">Compare cooked chicken</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-beef-100g.webp" srcset="/resource/portions/portion-beef-100g-600.webp 600w, /resource/portions/portion-beef-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of cooked lean beef" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Beef</h3>
-        <p class="portion-amount">About a palm-sized portion (3.5 oz).</p>
-        <a class="portion-link" href="/food/23220-beef-ground-unspecified-fat-content-cooked/">Compare cooked beef</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-cheddar-100g.webp" srcset="/resource/portions/portion-cheddar-100g-600.webp 600w, /resource/portions/portion-cheddar-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of cheddar cheese" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Cheddar cheese</h3>
-        <p class="portion-amount">About 1 cup shredded.</p>
-        <a class="portion-link" href="/food/01009-cheese-cheddar/">Compare cheddar nutrition</a>
-      </div>
-    </article>
-
-    <article class="portion-card">
-      <div class="portion-media">
-        <img src="/resource/portions/portion-bread-100g.webp" srcset="/resource/portions/portion-bread-100g-600.webp 600w, /resource/portions/portion-bread-100g.webp 900w" sizes="(max-width: 640px) calc(100vw - 96px), 300px" width="900" height="900" alt="Illustration of whole-grain bread" loading="lazy" />
-        <div class="portion-badge">100g</div>
-      </div>
-      <div class="portion-body">
-        <h3 class="portion-title">Bread</h3>
-        <p class="portion-amount">About 3 to 4 slices of sandwich bread.</p>
-        <a class="portion-link" href="/food/18075-bread-whole-wheat/">Compare whole-wheat bread</a>
-      </div>
-    </article>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-header">
-    <h2>The nutrients</h2>
-  </div>
-  <div class="split">
-    <div>
-      <p>PregNut uses published nutrient targets and food-composition data to make comparisons. The targets and food amounts have different sources, and a food's nutrient score is not a medical recommendation to eat it.</p>
-      <p>The food lookup compares 13 nutrients. Iodine appears in the reference table below, but this dataset has no iodine food values; see our <a href="/blog/iodine-without-dairy-pregnancy/">iodine guide</a>. Food charts report folate as dietary folate equivalents (DFE), which are different from the folic acid amount on a prenatal label; see our <a href="/blog/folate-folic-acid-pregnancy/">folate guide</a>.</p>
-      <p>The original nutrient selection drew on pregnancy nutrition guidance and research. See the <a href="#editorial">editorial approach</a> below for how the newer guides cite their sources.</p>
-    </div>
-    <div class="nutrient-grid">
-      <span>Calcium</span>
-      <span>Choline</span>
-      <span>DHA</span>
-      <span>Folate (DFE)</span>
-      <span>Iron</span>
-      <span>Potassium</span>
-      <span>Protein</span>
-      <span>Vitamin B2 (Riboflavin)</span>
-      <span>Vitamin B6</span>
-      <span>Vitamin B12</span>
-      <span>Vitamin C</span>
-      <span>Vitamin D</span>
-      <span>Zinc</span>
-    </div>
-  </div>
-</section>
-
-<section class="section tone" id="nutrient-references">
-  <div class="section-header">
-    <h2>Nutrition reference amounts and roles.</h2>
-  </div>
-  <p>Most reference intakes below come from the <a href="https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/">NIH pregnancy intake table</a> for adults ages 19–50. Choline and potassium are adequate intakes. PregNut's DHA and protein amounts are illustrative comparison benchmarks rather than individualized targets.</p>
-  <div class="table-shell">
-    <table class="data-table">
-      <thead>
-        <tr>
-          <th scope="col">Nutrient</th>
-          <th scope="col">Reference amount</th>
-          <th scope="col">Role in pregnancy</th>
-          <th scope="col">Evidence</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for nutrient in nutrientGuidance %}
-        <tr>
-          <th scope="row">{{ nutrient.label }}</th>
-          <td>{{ nutrient.amount }}</td>
-          <td>{{ nutrient.role }}</td>
-          <td><a href="{{ nutrient.source }}">{% if nutrient.id == "Protein" %}ACOG{% else %}NIH{% endif %}</a>{% if nutrient.guide %} · <a href="{{ nutrient.guide }}">Practical guide</a>{% endif %}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-  <p class="note">These amounts are for comparison, not a meal plan. Pregnancy needs can differ by age, stage, health history, and clinician advice. A food's nutrient amount does not predict a specific health outcome.</p>
-</section>
-
-<section class="section" id="food-data-sources">
-  <div class="section-header">
-    <h2>Use as a starting point.</h2>
-  </div>
-  <p>PregNut is created with the intention to be a starting point for some of your pregnancy nutrition research. It is not meant to replace your doctor or nutritionist, nor to diagnose, cure, or treat any disease, and certainly not to be the final word on any nutrition science.</p>
-  <p>The food-composition values in this version come from static project files derived from the USDA National Nutrient Database for Standard Reference. See USDA's <a href="https://fdc.nal.usda.gov/download-datasets/">SR Legacy data archive</a> for the official dataset. The project's files do not record the exact USDA release for each row. Food names were cleaned up for readability, and values describe 100 grams rather than a specific brand or prepared portion.</p>
-  <p>This is a fixed historical snapshot, not a live USDA feed. <a href="https://fdc.nal.usda.gov/about-us/">USDA says the final Standard Reference Legacy release was in 2018</a>; newer Foundation Foods and Branded Foods data may differ. Check current product labels for packaged foods and use these charts for comparison rather than exact current-product values.</p>
-</section>
-
-<section class="section tone" id="editorial">
-  <div class="section-header">
-    <h2>How PregNut's guides are made</h2>
-  </div>
-  <p>PregNut is an independent project published by Yuriy Stasyuk, who works in the healthcare industry with a background in healthcare data analysis and reporting. That experience informs the site's food-data comparisons; it is not a substitute for prenatal clinical expertise. Article bylines identify who published each guide. A named medical review is shown only if one has actually taken place.</p>
-  <p>The food pages use the site's USDA-based data to compare nutrients in 100 grams of food. The <a href="/blog/">pregnancy nutrition guides</a> connect selected comparisons to questions readers ask, with links to the original public-health and clinical sources used for pregnancy guidance. Food-composition numbers, recommended intakes, and food-safety advice should be read as separate kinds of information.</p>
-  <p>Some guides were drafted with AI assistance and edited before publication. Source links let readers inspect the underlying guidance. The articles do not replace advice from an obstetric clinician or registered dietitian; a publication date or byline does not imply independent clinical review.</p>
-  <p>When a guide receives a material update, its updated date appears beside the publication date. Guidance can change, so check the linked source for its latest version.</p>
-  <p>Found an incorrect value, outdated source, or unclear statement? Use the <a href="/contact/">contact form</a> with the page URL and the issue so it can be checked.</p>
-</section>
+<p class="ab-sign" data-reveal>What began as one worried project is, it seems, a family tradition.<span>Yuriy</span></p>
