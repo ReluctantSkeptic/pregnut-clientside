@@ -6,87 +6,88 @@ permalink: /weekly-diet/index.html
 bodyClass: page-weekly
 vizStyles: true
 pageStyles:
-  - /style/weekly.css?v=20261015-no-caps
+  - /style/weekly.css?v=20261023-type
 pageScripts:
   - /js/viz.js?v=20261007
-  - /js/weekly-diet.js?v=20261007
+  - /js/weekly-diet.js?v=20261023-type
 ---
 
-<header class="wk-hero">
-  <h1 class="wk-title">What to eat, <em>stage by stage.</em></h1>
-  <p class="wk-lede">Choose your week to see which nutrients matter now, and the foods richest in them.</p>
-</header>
+<h1 class="wk-title">What to eat, <em>week by week.</em></h1>
 
 <section class="wk-picker" aria-label="Choose your week">
-  <div class="wk-picker-now" aria-live="polite">
-    <span class="wk-picker-label">Week</span>
-    <strong class="wk-picker-week" id="WeekNumber">–</strong>
-    <span class="wk-picker-period" id="TimelineCurrent"></span>
+  <div class="wk-picker-row">
+    <button class="wk-step" id="WeekPrev" type="button" aria-label="Previous week">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg>
+    </button>
+    <p class="wk-picker-now" aria-live="polite">
+      <span class="wk-picker-label">Week</span>
+      <strong class="wk-picker-week" id="WeekNumber">4</strong>
+      <span class="wk-picker-period" id="TimelineCurrent"></span>
+    </p>
+    <button class="wk-step" id="WeekNext" type="button" aria-label="Next week">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12M12 6v12"/></svg>
+    </button>
   </div>
-  <div class="wk-ruler">
-    <input class="wk-range" id="WeekRange" type="range" min="1" max="40" step="1" value="4" aria-label="Pregnancy week" />
-    <div class="wk-ruler-track" id="Timeline" aria-hidden="true"></div>
-  </div>
+  <label class="wk-range-wrap">
+    <span class="sr-only">Pregnancy week</span>
+    <input class="wk-range" id="WeekRange" type="range" min="1" max="40" step="1" value="4" />
+  </label>
 </section>
 
 <article class="wk-chapter" aria-labelledby="PeriodTitle">
+  <figure class="wk-chapter-art" id="ChapterArt" hidden>
+    <img id="ChapterArtImage" width="1024" height="1280" decoding="async" alt="" />
+  </figure>
   <div class="wk-chapter-copy">
     {# Server-render the default week (4) so crawlers and no-JS readers get a real heading; weekly-diet.js replaces it with the same text, or with the reader's own week. #}
     {% for period in weeklyProtocol.periods %}{% if period.weeks.start <= 4 and period.weeks.end >= 4 %}
     <h2 class="wk-chapter-title" id="PeriodTitle">{{ period.title.split("(")[0] | replace(" + ", " & ") | replace(";", ",") | trim }}</h2>
     <p class="wk-chapter-summary" id="PeriodSummary">{{ period.summary }}</p>
     {% endif %}{% endfor %}
-    <h3 class="wk-subhead">What’s developing</h3>
-    <ol class="wk-dev" id="DevList"></ol>
+    <ul class="wk-dev" id="DevList" aria-label="What’s developing"></ul>
     <ul class="wk-notes" id="PeriodNotes" aria-label="Good to know"></ul>
+    <details class="wk-sources" id="PeriodSources" hidden>
+      <summary><span>Sources</span></summary>
+      <ol id="PeriodSourceList"></ol>
+    </details>
   </div>
-  <figure class="wk-chapter-art" id="ChapterArt" hidden>
-    <img id="ChapterArtImage" width="1024" height="1280" decoding="async" alt="" />
-  </figure>
 </article>
 
 <section class="wk-block" aria-labelledby="wk-nutrients-title">
-  <header class="wk-block-head">
-    <h2 class="wk-block-title" id="wk-nutrients-title">Nutrients to prioritize</h2>
-    <p class="wk-block-note">These shape the food ranking below. Your daily needs don’t change—ask your care team about your own targets.</p>
-  </header>
+  <h2 class="wk-block-title" id="wk-nutrients-title">Nutrients to prioritize</h2>
   <ol class="wk-nutrients" id="NutrientCards"></ol>
-  <p class="wk-also" id="AlsoNutrients"></p>
 </section>
 
 <section class="wk-block" aria-labelledby="wk-foods-title">
-  <header class="wk-block-head is-split">
-    <div>
-      <h2 class="wk-block-title" id="wk-foods-title">Foods that cover this stage</h2>
-      <p class="wk-block-note">Scored per 100 g against this stage’s priorities—not a serving size or a safety check. <a href="/about/#hundred-grams">What 100 g looks like</a></p>
-    </div>
+  <div class="wk-block-head">
+    <h2 class="wk-block-title" id="wk-foods-title">Foods for this stage</h2>
     <div class="viz-segmented wk-source" id="SourceToggle" role="radiogroup" aria-label="Food source">
       <label class="viz-segment"><input type="radio" name="weekly-source" value="natural"><span>Whole foods</span></label>
       <label class="viz-segment"><input type="radio" name="weekly-source" value="processed"><span>Fortified</span></label>
     </div>
-  </header>
-  <p class="viz-summary wk-summary" id="TopFoodsSummary"></p>
+  </div>
+  <p class="wk-summary" id="TopFoodsSummary"></p>
   <div class="wk-top" id="TopFoods"></div>
 </section>
 
 <section class="wk-block" aria-labelledby="wk-by-nutrient-title">
-  <header class="wk-block-head">
-    <h2 class="wk-block-title" id="wk-by-nutrient-title">Richest sources, by nutrient</h2>
-  </header>
-  <div class="viz-chips wk-chips" id="NutrientChips" role="radiogroup" aria-label="Nutrient"></div>
-  <p class="viz-summary wk-summary" id="ByNutrientSummary"></p>
+  <h2 class="wk-block-title wk-by-title" id="wk-by-nutrient-title">
+    <span>Richest in</span>
+    <span class="wk-select"><select id="NutrientSelect" aria-label="Nutrient"></select></span>
+  </h2>
+  <p class="wk-summary" id="ByNutrientSummary"></p>
   <div class="wk-by-nutrient" id="FoodsByNutrient"></div>
-  <p class="wk-footnote">Percentages use <a href="/about/#nutrient-references">PregNut’s reference amounts</a>; DHA and protein are illustrative benchmarks. Food values come from a <a href="/about/#food-data-sources">fixed USDA snapshot</a>.</p>
+  <p class="wk-footnote">Per 100 g, against <a href="/about/#nutrient-references">PregNut’s reference amounts</a> and a <a href="/about/#food-data-sources">fixed USDA snapshot</a>. <a href="/about/#hundred-grams">What 100 g looks like</a>.</p>
 </section>
 
 <script type="application/json" id="NutrientGuides">{ {% for n in nutrientGuidance %}{% if n.guide %}{% if not loop.first %},{% endif %}"{{ n.id }}": "{{ n.guide }}"{% endif %}{% endfor %} }</script>
 
 {% set stageNames = { "wk1-8": "Foundations", "wk9-12": "Organ formation", "wk13-16": "Brain and skeleton", "wk17-20": "Movement and senses", "wk21-24": "Lungs and sleep", "wk25-28": "Readiness", "wk29-32": "Birth position", "wk33-36": "Weight gain", "wk37-40": "Full term" } %}
-<nav class="wk-stages" aria-labelledby="wk-stages-title">
-  <h2 class="wk-stages-title" id="wk-stages-title">Read each stage</h2>
+<nav class="wk-block wk-stages" aria-labelledby="wk-stages-title">
+  <h2 class="wk-block-title" id="wk-stages-title">Every stage</h2>
   <ol class="wk-stage-links">
     {% for period in weeklyProtocol.periods %}
-    <li><a href="/weekly-guide/{{ period.id }}/"><span>Weeks {{ period.weeks.start }}–{{ period.weeks.end }}</span><em>{{ stageNames[period.id] }}</em></a></li>
+    <li><a href="/weekly-guide/{{ period.id }}/"><em>{{ stageNames[period.id] }}</em><span>{{ period.weeks.start }}–{{ period.weeks.end }}</span></a></li>
     {% endfor %}
   </ol>
 </nav>
