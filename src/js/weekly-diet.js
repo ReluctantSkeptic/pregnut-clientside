@@ -8,12 +8,6 @@
   var STORAGE_KEY = "pregnut.weeklyDiet.v1";
   var GLOBAL_PREFS_KEY = "pregnut.foodPrefs.v1";
 
-  var PRIORITY_LABEL = {
-    high: "High priority",
-    medium: "Medium priority",
-    supporting: "Supporting"
-  };
-
   var PRIORITY_WEIGHT = {
     high: 1.0,
     medium: 0.6,
@@ -102,11 +96,6 @@
     saveKey(GLOBAL_PREFS_KEY, prefs);
   }
 
-  function formatWeeks(start, end) {
-    if (start === end) return "Week " + start;
-    return "Weeks " + start + "\u2013" + end;
-  }
-
   // "Movement + senses (a very active stretch)" -> "Movement & senses"
   function displayTitle(t) {
     var s = String(t || "");
@@ -119,36 +108,6 @@
     if (week <= 13) return "First trimester";
     if (week <= 27) return "Second trimester";
     return "Third trimester";
-  }
-
-  function formatWeeksNav(start, end) {
-    if (start === end) return "Week " + start;
-    return "Weeks " + start + "-" + end;
-  }
-
-  var TIMELINE_SHORT_TITLES = {
-    "wk1-8": "Foundations",
-    "wk9-12": "Organ formation",
-    "wk13-16": "Brain and skeleton",
-    "wk17-20": "Movement and senses",
-    "wk21-24": "Lungs and sleep",
-    "wk25-28": "Readiness",
-    "wk29-32": "Birth position",
-    "wk33-36": "Weight gain",
-    "wk37-40": "Full term"
-  };
-
-  function timelineShortTitle(period) {
-    if (!period) return "";
-    var id = String(period.id || "");
-    if (TIMELINE_SHORT_TITLES.hasOwnProperty(id)) return TIMELINE_SHORT_TITLES[id];
-    var s = String(period.title || "").trim();
-    if (!s) return "";
-    var idx = s.indexOf("(");
-    if (idx !== -1) s = s.slice(0, idx).trim();
-    s = s.replace(/[+;:]/g, " ");
-    var words = s.replace(/[^a-zA-Z0-9]+/g, " ").trim().split(/\s+/).filter(Boolean);
-    return words.slice(0, 2).join(" ");
   }
 
   function normalizePriority(p) {
@@ -275,86 +234,29 @@
     return amount + " in 100 g · " + Math.round(pct) + "% of " + nInfo.rda.label + " reference";
   }
 
-  function setSummary(id, lead, text, infoText) {
+  function setSummary(id, text, infoText) {
     var node = $(id);
     if (!node) return;
     clear(node);
-    node.appendChild(el("strong", "", lead));
     node.appendChild(document.createTextNode(text));
-    if (infoText) node.appendChild(V.info(infoText, "How to read this chart"));
+    if (infoText) node.appendChild(V.info(infoText, "How to read this"));
   }
 
-  var TIMELINE_ICONS = {
-    "wk1-8": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20v-8"/><path d="M12 14c-4.5 0-7-2.6-7-6 4.5 0 7 2.1 7 6Z"/><path d="M12 11c3.8 0 6-2.1 6-5-3.8 0-6 1.8-6 5Z"/></svg>',
-    "wk9-12": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.2c0 5-8.8 10.3-8.8 10.3S3.2 13.2 3.2 8.2A4.2 4.2 0 0 1 12 6.5a4.2 4.2 0 0 1 8.8 1.7Z"/><path d="M8 10h2l1.2-2.2 1.7 4.5 1.1-2.3h2"/></svg>',
-    "wk13-16": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.2 18.8a3.2 3.2 0 0 1-3.1-3.2c0-.6.2-1.2.5-1.7A3.6 3.6 0 0 1 7.2 7a3.8 3.8 0 0 1 7.1-1 3.5 3.5 0 0 1 3.5 5.4 3.8 3.8 0 0 1-2.6 6.8"/><path d="M12 5.4v13.2M8.2 9.2c1.5.1 2.6.8 3.8 2M16.2 8.8c-1.5.1-3 .8-4.2 2.2M8.8 14.3c1.3 0 2.2.5 3.2 1.5M15.8 14c-1.5 0-2.6.6-3.8 1.8"/></svg>',
-    "wk17-20": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13c2.2-4.6 4.8-4.6 7 0s4.8 4.6 7 0"/><path d="m17 7 3-3M18.5 8.5 22 8M15.5 6.5V3"/></svg>',
-    "wk21-24": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v7"/><path d="M11.8 10.5c-1.3-2.8-2.4-4.2-4-4.2C5.7 6.3 4 10.2 4 14.5c0 2.4 1.3 4 3.3 4 2.5 0 4.5-2.2 4.5-5.2Z"/><path d="M12.2 10.5c1.3-2.8 2.4-4.2 4-4.2 2.1 0 3.8 3.9 3.8 8.2 0 2.4-1.3 4-3.3 4-2.5 0-4.5-2.2-4.5-5.2Z"/></svg>',
-    "wk25-28": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7.5"/><path d="M12 8v4l2.7 1.8M12 2.5V5M21.5 12H19"/></svg>',
-    "wk29-32": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15"/><path d="m7.5 14.5 4.5 4.5 4.5-4.5"/><path d="M6 7.5a7 7 0 0 1 12 0"/></svg>',
-    "wk33-36": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V9M10 19V5M15 19v-7M20 19V3"/><path d="m4 6 4-3 4 3 4-3 4 2"/></svg>',
-    "wk37-40": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.5 5.2 5.7.8-4.1 4 .9 5.7-5-2.7-5 2.7.9-5.7-4.1-4 5.7-.8Z"/></svg>'
-  };
-
-  function buildTimelineIcon(periodId) {
-    var icon = el("span", "weekly-timeline-icon", null);
-    icon.setAttribute("aria-hidden", "true");
-    icon.innerHTML = TIMELINE_ICONS[periodId] || TIMELINE_ICONS["wk1-8"];
-    return icon;
-  }
-
-  function renderTimeline(protocol, week) {
-    var root = $("Timeline");
-    if (!root) return;
-
-    if (root.getAttribute("data-built") !== "1") {
-      clear(root);
-      for (var i = 0; i < protocol.periods.length; i++) {
-        var p = protocol.periods[i];
-        var span = p.weeks.end - p.weeks.start + 1;
-        var seg = el("div", "wk-seg", null);
-        seg.style.flexGrow = String(span);
-        seg.setAttribute("data-period-id", p.id);
-        var ticks = el("div", "wk-ticks", null);
-        for (var w = p.weeks.start; w <= p.weeks.end; w++) {
-          var tick = el("span", "wk-tick", null);
-          tick.setAttribute("data-week", String(w));
-          ticks.appendChild(tick);
-        }
-        seg.appendChild(ticks);
-        seg.appendChild(el("span", "wk-seg-weeks", p.weeks.start + "–" + p.weeks.end));
-        seg.appendChild(el("span", "wk-seg-title", timelineShortTitle(p)));
-        root.appendChild(seg);
-      }
-      root.setAttribute("data-built", "1");
-    }
-
-    var segs = root.children;
-    for (var j = 0; j < protocol.periods.length; j++) {
-      var pj = protocol.periods[j];
-      if (!segs[j]) continue;
-      segs[j].classList.toggle("is-active", week >= pj.weeks.start && week <= pj.weeks.end);
-      segs[j].classList.toggle("is-past", week > pj.weeks.end);
-    }
-    var ticksAll = root.querySelectorAll(".wk-tick");
-    for (var t = 0; t < ticksAll.length; t++) {
-      var tw = parseInt(ticksAll[t].getAttribute("data-week"), 10);
-      ticksAll[t].classList.toggle("is-current", tw === week);
-      ticksAll[t].classList.toggle("is-past", tw < week);
-    }
-
+  function renderPicker(protocol, week) {
     var range = $("WeekRange");
-    if (range && String(range.value) !== String(week)) range.value = String(week);
-    if (range) range.setAttribute("aria-valuetext", "Week " + week);
+    if (range) {
+      if (String(range.value) !== String(week)) range.value = String(week);
+      range.setAttribute("aria-valuetext", "Week " + week);
+      range.style.setProperty("--fill", ((week - MIN_WEEK) / (MAX_WEEK - MIN_WEEK) * 100).toFixed(2) + "%");
+    }
     var num = $("WeekNumber");
     if (num) num.textContent = String(week);
-    var period = getPeriodForWeek(protocol, week);
     var tCurrent = $("TimelineCurrent");
-    if (tCurrent && period) {
-      clear(tCurrent);
-      tCurrent.appendChild(el("strong", "", timelineShortTitle(period)));
-      tCurrent.appendChild(el("span", "", trimesterLabel(week)));
-    }
+    if (tCurrent) tCurrent.textContent = trimesterLabel(week);
+    var prev = $("WeekPrev");
+    var next = $("WeekNext");
+    if (prev) prev.disabled = week <= MIN_WEEK;
+    if (next) next.disabled = week >= MAX_WEEK;
   }
 
   function renderChapterArt(artdata, period) {
@@ -396,35 +298,21 @@
     }
 
     // Header
-    var label = $("PeriodLabel");
     var title = $("PeriodTitle");
     var summary = $("PeriodSummary");
-    if (label) label.textContent = formatWeeks(period.weeks.start, period.weeks.end);
     if (title) title.textContent = displayTitle(period.title);
     if (summary) summary.textContent = period.summary || "";
 
-
-
     renderChapterArt(artdata, period);
 
+    // Every source this stage cites (stage, notes, nutrients) goes into one
+    // collapsed list at the end of the chapter instead of inline badges.
     var cidx = buildCitationIndex(protocol);
-    function sourceLinks(ids) {
-      var wrap = el("span", "wk-cites", null);
+    var citedIds = [];
+    function cite(ids) {
       for (var c = 0; c < (ids || []).length; c++) {
-        var src = null;
-        for (var si = 0; si < protocol.sources.length; si++) {
-          if (protocol.sources[si].id === ids[c]) { src = protocol.sources[si]; break; }
-        }
-        if (!src || !src.url) continue;
-        var a = el("a", "wk-cite", String(cidx[ids[c]] || "?"));
-        a.href = src.url;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
-        a.title = src.label || src.id;
-        a.setAttribute("aria-label", "Source: " + (src.label || src.id));
-        wrap.appendChild(a);
+        if (citedIds.indexOf(ids[c]) === -1) citedIds.push(ids[c]);
       }
-      return wrap.firstChild ? wrap : null;
     }
 
     // Development list
@@ -438,27 +326,20 @@
     }
 
     // Notes
+    cite(period.citations);
     var notes = $("PeriodNotes");
     if (notes) {
       clear(notes);
       var ns = period.notes || [];
       for (var j = 0; j < ns.length; j++) {
         var note = typeof ns[j] === "string" ? { text: ns[j] } : ns[j];
-        var li = el("li", "", note.text || "");
-        var nc = sourceLinks(note.citations);
-        if (nc) li.appendChild(nc);
-        notes.appendChild(li);
-      }
-      var pc = sourceLinks(period.citations);
-      if (pc) {
-        var srcLine = el("li", "wk-notes-sources", "Sources for this stage ");
-        srcLine.appendChild(pc);
-        notes.appendChild(srcLine);
+        notes.appendChild(el("li", "", note.text || ""));
+        cite(note.citations);
       }
       notes.hidden = !notes.firstChild;
     }
 
-    // Prioritized nutrients; everything else is listed in one line.
+    // Prioritized nutrients, highest priority first.
     var cards = $("NutrientCards");
     if (cards) {
       clear(cards);
@@ -468,46 +349,42 @@
       }).slice().sort(function (a, b) {
         return order[normalizePriority(a.priority)] - order[normalizePriority(b.priority)];
       });
-      var pickedIds = {};
       for (var k = 0; k < picked.length; k++) {
         var n = picked[k];
-        pickedIds[n.id] = true;
-        var pri = normalizePriority(n.priority);
-        var nInfo = fooddata.nutrients[n.id] || {};
-        var row = el("li", "wk-nutrient is-" + pri, null);
-        var head = el("div", "wk-nutrient-head", null);
-        head.appendChild(el("h3", "wk-nutrient-name", n.id));
-        head.appendChild(el("span", "wk-nutrient-tag", PRIORITY_LABEL[pri] || pri));
-        row.appendChild(head);
-        var body = el("p", "wk-nutrient-why", n.why || "");
-        var cites = sourceLinks(n.citations);
-        if (cites) body.appendChild(cites);
-        row.appendChild(body);
-        var meta = el("p", "wk-nutrient-meta", null);
-        if (nInfo.rda && nInfo.rda.label) {
-          meta.appendChild(el("span", "", "Reference " + nInfo.rda.label + " a day"));
-        }
+        var row = el("li", "wk-nutrient is-" + normalizePriority(n.priority), null);
+        row.appendChild(el("h3", "wk-nutrient-name", n.id));
+        row.appendChild(el("p", "wk-nutrient-why", n.why || ""));
+        cite(n.citations);
         if (NUTRIENT_GUIDES[n.id]) {
-          var g = el("a", "", "Read the guide");
+          var g = el("a", "wk-nutrient-guide", null);
           g.href = NUTRIENT_GUIDES[n.id];
-          meta.appendChild(g);
+          g.appendChild(document.createTextNode(n.id + " guide"));
+          row.appendChild(g);
         }
-        if (meta.firstChild) row.appendChild(meta);
         cards.appendChild(row);
       }
+    }
 
-      var also = $("AlsoNutrients");
-      if (also) {
-        var rest = [];
-        for (var nid in fooddata.nutrients) {
-          if (!fooddata.nutrients.hasOwnProperty(nid) || nid === "Calories") continue;
-          if (!fooddata.nutrients[nid] || !fooddata.nutrients[nid].rda || pickedIds[nid]) continue;
-          rest.push(nid);
+    var srcBox = $("PeriodSources");
+    var srcList = $("PeriodSourceList");
+    if (srcBox && srcList) {
+      clear(srcList);
+      citedIds.sort(function (a, b) { return (cidx[a] || 0) - (cidx[b] || 0); });
+      for (var ci = 0; ci < citedIds.length; ci++) {
+        var src = null;
+        for (var si = 0; si < protocol.sources.length; si++) {
+          if (protocol.sources[si].id === citedIds[ci]) { src = protocol.sources[si]; break; }
         }
-        rest.sort(function (a, b) { return a.localeCompare(b); });
-        also.textContent = rest.length ? "Still part of a balanced day: " + rest.join(", ") + "." : "";
-        also.hidden = !rest.length;
+        if (!src || !src.url) continue;
+        var sli = el("li", "", null);
+        var sa = el("a", "", src.label || src.id);
+        sa.href = src.url;
+        sa.target = "_blank";
+        sa.rel = "noopener noreferrer";
+        sli.appendChild(sa);
+        srcList.appendChild(sli);
       }
+      srcBox.hidden = !srcList.firstChild;
     }
 
     // Compute priorities for ranking.
@@ -538,9 +415,9 @@
 
     renderFoodList(fooddata, topFoods, weighted, $("TopFoods"));
 
-    // By nutrient chips
-    var chipRoot = $("NutrientChips");
-    if (chipRoot) {
+    // Nutrient picker: this stage's priorities first, then everything else.
+    var select = $("NutrientSelect");
+    if (select) {
       var keys = [];
       for (var key in fooddata.nutrients) {
         if (!fooddata.nutrients.hasOwnProperty(key)) continue;
@@ -550,25 +427,35 @@
       }
       keys.sort(function (a, b) { return a.localeCompare(b); });
 
-      // Default: first high priority, else first in list.
-      var defaultN = null;
+      var stageKeys = [];
       for (var d = 0; d < weighted.length; d++) {
-        if (weighted[d].priority === "high") { defaultN = weighted[d].id; break; }
+        if (keys.indexOf(weighted[d].id) !== -1 && stageKeys.indexOf(weighted[d].id) === -1) stageKeys.push(weighted[d].id);
       }
-      if (!defaultN) defaultN = keys[0] || null;
+      var otherKeys = keys.filter(function (k) { return stageKeys.indexOf(k) === -1; });
 
+      var defaultN = null;
+      for (var dh = 0; dh < weighted.length; dh++) {
+        if (weighted[dh].priority === "high") { defaultN = weighted[dh].id; break; }
+      }
+      if (!defaultN) defaultN = stageKeys[0] || keys[0] || null;
       if (!(state.selectedNutrient && keys.indexOf(state.selectedNutrient) !== -1) && defaultN) {
         state.selectedNutrient = defaultN;
       }
 
-      V.chips(chipRoot, "weekly-nutrient", keys.map(function (k) {
-        return { value: k, label: k };
-      }), state.selectedNutrient, function (nutrientId) {
-        state.selectedNutrient = nutrientId;
-        renderByNutrient(fooddata, state);
-        persist(state);
-      });
-      V.revealSelected(chipRoot);
+      clear(select);
+      var groups = [["This stage", stageKeys], ["All nutrients", otherKeys]];
+      for (var gi = 0; gi < groups.length; gi++) {
+        if (!groups[gi][1].length) continue;
+        var og = document.createElement("optgroup");
+        og.label = groups[gi][0];
+        for (var oi = 0; oi < groups[gi][1].length; oi++) {
+          var opt = el("option", "", groups[gi][1][oi]);
+          opt.value = groups[gi][1][oi];
+          og.appendChild(opt);
+        }
+        select.appendChild(og);
+      }
+      select.value = state.selectedNutrient || "";
     }
 
     renderByNutrient(fooddata, state);
@@ -589,8 +476,7 @@
 
     setSummary(
       "TopFoodsSummary",
-      "Priority coverage",
-      " · match score and share of each highlighted nutrient reference in 100 g",
+      "How well 100 g covers this stage’s nutrients",
       "Each bar fills from 0–100% of the nutrient reference amount from a 100 g serving. Foods at or above the reference show a full bar and a ✓; the number shows the exact total. The match score weights this stage's highlighted nutrients, each capped at 100%."
     );
 
@@ -611,9 +497,7 @@
       var name = el("p", "viz-name", null);
       var link = el("a", "", null);
       link.href = V.foodUrl(food);
-      var parts = V.splitName(food.name);
-      link.appendChild(document.createTextNode(parts.main));
-      link.appendChild(el("span", "viz-detail", parts.detail ? parts.detail + " · " + food.group : food.group));
+      link.textContent = food.label || food.name;
       name.appendChild(link);
       copy.appendChild(name);
       var caution = V.safetyNote(food);
@@ -636,8 +520,7 @@
         var row = el("div", "weekly-mini", null);
         row.title = readingText(fooddata, food, nid, pct);
         row.appendChild(el("span", "weekly-mini-label", nid));
-        row.appendChild(V.value(pct));
-        row.appendChild(V.bar(pct, nid + ": " + readingText(fooddata, food, nid, pct)));
+        row.appendChild(V.bar(pct, nid + ": " + readingText(fooddata, food, nid, pct), 60));
         barRoot.appendChild(row);
       }
       item.appendChild(barRoot);
@@ -654,8 +537,7 @@
     var targetLabel = nInfo && nInfo.rda && nInfo.rda.label ? nInfo.rda.label : "";
     setSummary(
       "ByNutrientSummary",
-      nutrientId,
-      " · % of the " + (targetLabel ? targetLabel + " " : "") + "pregnancy reference in 100 g",
+      "% of the " + (targetLabel ? targetLabel + " " : "") + "daily reference in 100 g",
       "Ranked by the amount in 100 g. The bar ends at the full reference amount" +
         (targetLabel ? " (" + targetLabel + ")" : "") +
         "; foods at or above it show a full bar and a ✓, and the number shows the exact total."
@@ -671,8 +553,8 @@
         food: food,
         percent: pct,
         imageMap: imageMap,
-        meta: food.group,
-        tip: readingText(fooddata, food, nutrientId, pct)
+        tip: readingText(fooddata, food, nutrientId, pct),
+        amount: V.formatAmount(food.nutrients[nutrientId]) + " " + fooddata.nutrients[nutrientId].unit
       });
       if (count >= BY_NUTRIENT_VISIBLE) row.hidden = true;
       list.appendChild(row);
@@ -731,11 +613,9 @@
   }
 
   function renderError(msg) {
-    var label = $("PeriodLabel");
     var title = $("PeriodTitle");
     var summary = $("PeriodSummary");
-    if (label) label.textContent = "Error";
-    if (title) title.textContent = "Weekly Diet failed to load";
+    if (title) title.textContent = "The weekly guide failed to load";
     if (summary) summary.textContent = msg;
   }
 
@@ -773,7 +653,7 @@
       state.week = clamp(parseInt(newWeek, 10) || state.week, MIN_WEEK, MAX_WEEK);
       writeUrlWeek(state.week);
       persist(state);
-      renderTimeline(protocol, state.week);
+      renderPicker(protocol, state.week);
       var nextPeriod = getPeriodForWeek(protocol, state.week);
       if (nextPeriod !== currentPeriod) {
         currentPeriod = nextPeriod;
@@ -787,26 +667,18 @@
       range.addEventListener("input", function () { setWeek(range.value); });
     }
 
-    // Pointer scrubbing on the ruler: each week owns an equal slice of the track.
-    var track = $("Timeline");
-    if (track) {
-      var scrubbing = false;
-      var weekAt = function (ev) {
-        var r = track.getBoundingClientRect();
-        var x = clamp((ev.clientX - r.left) / r.width, 0, 0.9999);
-        return Math.floor(x * MAX_WEEK) + MIN_WEEK;
-      };
-      track.addEventListener("pointerdown", function (ev) {
-        scrubbing = true;
-        try { track.setPointerCapture(ev.pointerId); } catch (e) {}
-        setWeek(weekAt(ev));
+    var prev = $("WeekPrev");
+    var next = $("WeekNext");
+    if (prev) prev.addEventListener("click", function () { setWeek(state.week - 1); });
+    if (next) next.addEventListener("click", function () { setWeek(state.week + 1); });
+
+    var select = $("NutrientSelect");
+    if (select) {
+      select.addEventListener("change", function () {
+        state.selectedNutrient = select.value;
+        renderByNutrient(fooddata, state);
+        persist(state);
       });
-      track.addEventListener("pointermove", function (ev) {
-        if (scrubbing) setWeek(weekAt(ev));
-      });
-      var stop = function () { scrubbing = false; };
-      track.addEventListener("pointerup", stop);
-      track.addEventListener("pointercancel", stop);
     }
 
     // One global toggle remains: natural vs processed sources.
@@ -840,7 +712,7 @@
       setWeek(protocol.periods[nextIdx].weeks.start);
     });
 
-    renderTimeline(protocol, state.week);
+    renderPicker(protocol, state.week);
     renderPeriod(protocol, fooddata, state, artdata);
     writeUrlWeek(state.week);
     persist(state);

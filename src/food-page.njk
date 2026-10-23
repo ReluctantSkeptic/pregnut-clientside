@@ -13,7 +13,7 @@ eleventyComputed:
 vizStyles: true
 pageStyles:
   - /style/weekly-diet.css
-  - /style/food.css?v=20261015-no-caps
+  - /style/food.css?v=20261023-2
 ---
 
 <article class="section food-static-page">
@@ -45,15 +45,18 @@ pageStyles:
       <p class="viz-summary">{{ food.summary }}</p>
     </div>
     <ol class="food-chart" aria-label="Share of daily pregnancy reference amount per nutrient">
+      {% set trace = [] %}
       {% for row in food.chartRows %}
+        {% if row.displayPercent == 0 %}{% set trace = (trace.push(row.name), trace) %}{% else %}
         <li class="food-chart-row">
           <span class="food-chart-name">{{ row.name }}</span>
           {% set amount = row.value | formatNumber %}<span class="food-chart-amount">{{ amount }}{% if amount != "—" %} {{ row.unit }}{% endif %}</span>
-          <span class="viz-bar{% if row.percent >= 100 %} is-full{% endif %}" style="--pct: {{ row.barPercent }}%;" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the daily pregnancy reference{% endif %}"><span class="viz-bar-fill" aria-hidden="true"></span></span>
-          <span class="viz-value" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{% if row.percent >= 100 %}<span class="viz-check">✓</span>{% endif %}{{ row.displayPercent }}%{% endif %}</span>
+          <span class="viz-bar has-value{% if row.percent >= 100 %} is-full{% endif %}" style="--pct: {{ row.barPercent }}%;" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the daily pregnancy reference{% endif %}"><span class="viz-bar-fill" aria-hidden="true"></span><span class="viz-bar-value{% if row.percent >= 24 %} is-inside{% endif %}" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{% if row.percent >= 100 %}✓ {% endif %}{{ row.displayPercent }}%{% endif %}</span></span>
         </li>
+        {% endif %}
       {% endfor %}
     </ol>
+    {% if trace.length %}<p class="viz-note food-chart-note">Under 1%: {{ trace | join(", ") }}</p>{% endif %}
     <details class="viz-more food-table-details">
       <summary id="food-table-title">Show full nutrient table</summary>
       <div class="table-shell">

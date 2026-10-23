@@ -3,6 +3,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { foodLabel } = require("./food-label");
 
 const ROOT = path.join(__dirname, "..");
 
@@ -96,6 +97,7 @@ function main() {
     foodsById[id] = {
       id,
       name: r.FoodName,
+      label: foodLabel(r.FoodName),
       group: r.FoodGroup,
       natSource: Number(r.NatSource || 0),
       warning: r.Warning || "",

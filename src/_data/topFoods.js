@@ -12,13 +12,9 @@ for (const source of foodData.foods) {
   const food = pages.get(source.id);
   const row = food.nutrientRows.find((row) => row.name === nutrient);
   if (row.percent === null) continue;
-  const parts = food.name.split(",");
-  const main = parts.shift().trim();
   const item = {
     ...food,
-    main,
-    detail: parts.join(",").trim(),
-    initial: main.charAt(0).toUpperCase(),
+    label: source.label || food.name,
     row,
     tip: `${row.value} ${row.unit} in 100 g · ${row.displayPercent}% of ${row.target} reference`
   };
@@ -35,7 +31,5 @@ groups.sort((a, b) => b.items[0].row.percent - a.items[0].row.percent || a.name.
 
 module.exports = {
   nutrient, keys, groups,
-  target: foodData.nutrients[nutrient].rda.label,
-  summary: `${nutrient} · % of the ${foodData.nutrients[nutrient].rda.label} pregnancy reference in 100 g`,
-  chartHelp: `Each bar fills from 0–100% of the nutrient reference amount (${foodData.nutrients[nutrient].rda.label}). Foods at or above the reference show a full bar and a ✓; the number shows the exact total. Foods are ranked within each group by the amount in 100 g. Open a food to check its preparation and safety notes.`
+  target: foodData.nutrients[nutrient].rda.label
 };

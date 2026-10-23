@@ -275,6 +275,33 @@
   background: var(--viz-fill-strong);
 }
 
+/* Bars that carry their own percent */
+.viz-bar.has-value {
+  height: 24px;
+  border-radius: 7px;
+}
+
+.viz-bar-value {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--pct, 0%) + 8px);
+  display: flex;
+  align-items: center;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.viz-bar-value.is-inside {
+  left: auto;
+  right: calc(100% - var(--pct, 0%) + 8px);
+  color: #fffefb;
+}
+
 .viz-value {
   color: var(--ink);
   font-size: 0.9rem;
@@ -317,19 +344,24 @@
   list-style: none;
 }
 
+/* Name and amount on one line, the labelled bar full width beneath. */
 .viz-row {
   position: relative;
-  padding: 10px 12px;
+  padding: 8px 12px;
   display: grid;
   grid-template-areas:
-    "thumb copy value"
+    "thumb copy amount"
     "thumb bar bar";
-  grid-template-columns: 68px minmax(0, 1fr) auto;
+  grid-template-columns: 56px minmax(0, 1fr) auto;
   align-items: center;
-  column-gap: 16px;
-  row-gap: 8px;
+  column-gap: 14px;
+  row-gap: 6px;
   border-radius: 12px;
   transition: background 150ms ease;
+}
+
+.viz-row[hidden] {
+  display: none;
 }
 
 .viz-row:hover,
@@ -344,12 +376,21 @@
 
 .viz-row .viz-thumb { grid-area: thumb; }
 .viz-row .viz-copy { grid-area: copy; }
+.viz-row .viz-amount { grid-area: amount; align-self: start; padding-top: 2px; }
 .viz-row .viz-value { grid-area: value; }
 .viz-row .viz-bar { grid-area: bar; }
 
+.viz-amount {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
 .viz-thumb {
-  width: 68px;
-  height: 68px;
+  width: 56px;
+  height: 56px;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -378,9 +419,14 @@
   line-height: 1.3;
 }
 
+/* Long names wrap to a second line rather than hiding words. */
 .viz-name a {
+  display: -webkit-box;
+  overflow: hidden;
   color: inherit;
   text-decoration: none;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .viz-name a::after {
@@ -409,38 +455,6 @@
   position: relative;
   z-index: 1;
   flex: 0 0 auto;
-}
-
-/* Hover/focus tooltip with the absolute amount */
-.viz-tip {
-  position: absolute;
-  right: 12px;
-  bottom: calc(100% - 4px);
-  z-index: 3;
-  padding: 6px 10px;
-  border-radius: 8px;
-  color: #fffefb;
-  background: var(--ink);
-  font-size: 0.76rem;
-  font-weight: 500;
-  line-height: 1.35;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  transform: translateY(4px);
-  transition: opacity 140ms ease, transform 140ms ease;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .viz-row:hover .viz-tip {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.viz-row:focus-within .viz-tip {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 /* Group cards */
@@ -666,10 +680,15 @@
 
   .viz-toolbar {
     margin: 0 -16px;
-    padding: 10px 16px;
+    padding: 8px 16px;
     flex-direction: column;
     align-items: stretch;
-    gap: 10px;
+    gap: 8px;
+  }
+
+  .viz-chip span {
+    min-height: 36px;
+    padding: 0 14px;
   }
 
   .viz-toolbar .viz-segmented {
@@ -679,14 +698,14 @@
 
 @media (max-width: 480px) {
   .viz-row {
-    padding: 10px 8px;
-    grid-template-columns: 56px minmax(0, 1fr) auto;
+    padding: 8px;
+    grid-template-columns: 48px minmax(0, 1fr) auto;
     column-gap: 12px;
   }
 
   .viz-thumb {
-    width: 56px;
-    height: 56px;
+    width: 48px;
+    height: 48px;
   }
 
   .viz-card {
