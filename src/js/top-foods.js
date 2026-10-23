@@ -118,33 +118,18 @@
     return amount + " in 100 g · " + Math.round(pct) + "% of " + nInfo.rda.label + " reference";
   }
 
+  function amountText(fooddata, food, nutrientId) {
+    return V.formatAmount(food.nutrients[nutrientId]) + " " + fooddata.nutrients[nutrientId].unit;
+  }
+
   function renderSummary(nutrientId, targetLabel) {
     var summary = $("TopFoodsSummary");
     if (!summary) return;
     clear(summary);
     summary.appendChild(el("strong", "", nutrientId));
     summary.appendChild(document.createTextNode(
-      " · % of the " + (targetLabel ? targetLabel + " " : "") + "pregnancy reference in 100 g"
+      " in 100 g, as % of the " + (targetLabel ? targetLabel + " " : "") + "daily pregnancy reference"
     ));
-    summary.appendChild(V.info(
-      "Each bar fills from 0–100% of the nutrient reference amount" +
-        (targetLabel ? " (" + targetLabel + ")" : "") +
-        ". Foods at or above the reference show a full bar and a ✓; the number shows the exact total. " +
-        "Foods are ranked within each group by the amount in 100 g. Open a food to check its preparation and safety notes.",
-      "How to read this chart"
-    ));
-  }
-
-  function renderJumpNav(groups) {
-    var nav = $("TopFoodsJump");
-    if (!nav) return;
-    clear(nav);
-    for (var i = 0; i < groups.length; i++) {
-      var link = el("a", "", groups[i].name);
-      link.href = "#food-group-" + V.slugify(groups[i].name);
-      nav.appendChild(link);
-    }
-    nav.hidden = !groups.length;
   }
 
   function renderFoodGroupsByNutrient(fooddata, foods, nutrientId, root) {
@@ -194,7 +179,6 @@
     var nInfo = fooddata && fooddata.nutrients ? fooddata.nutrients[nutrientId] : null;
     var targetLabel = nInfo && nInfo.rda && nInfo.rda.label ? nInfo.rda.label : "";
     renderSummary(nutrientId, targetLabel);
-    renderJumpNav(groups);
 
     var grid = document.createDocumentFragment();
     var itemCount = 0;
@@ -215,7 +199,8 @@
           food: item.food,
           percent: item.pct,
           imageMap: imageMap,
-          tip: tip
+          tip: tip,
+          amount: amountText(fooddata, item.food, nutrientId)
         }));
       }
 

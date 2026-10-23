@@ -672,7 +672,8 @@
         percent: pct,
         imageMap: imageMap,
         meta: food.group,
-        tip: readingText(fooddata, food, nutrientId, pct)
+        tip: readingText(fooddata, food, nutrientId, pct),
+        amount: V.formatAmount(food.nutrients[nutrientId]) + " " + fooddata.nutrients[nutrientId].unit
       });
       if (count >= BY_NUTRIENT_VISIBLE) row.hidden = true;
       list.appendChild(row);

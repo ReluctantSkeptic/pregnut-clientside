@@ -9,9 +9,9 @@
             <p class="viz-name"><a href="{{ food.url }}">{{ food.main }}{% if food.detail %}<span class="viz-detail">{{ food.detail }}</span>{% endif %}</a></p>
             {% if food.warning and food.warning != "0" %}<span class="caution is-safety"><button class="caution-trigger" type="button" aria-label="Safety note: {{ food.warning | escape }}: {{ (food.warningText or 'Use caution.') | escape }}" aria-expanded="false">!</button><span class="caution-popover" role="tooltip">{{ food.warning }}: {{ food.warningText or 'Use caution.' }}</span></span>{% endif %}
           </div>
-          <span class="viz-value" aria-hidden="true">{% if food.row.percent >= 100 %}<span class="viz-check">✓</span>{% endif %}{{ food.row.displayPercent }}%</span>
+          <span class="viz-amount" aria-hidden="true">{{ food.row.value | formatNumber }} {{ food.row.unit }}</span>
           <div class="viz-bar{% if food.row.percent >= 100 %} is-full{% endif %}" role="img" aria-label="{{ food.tip | escape }}" style="--pct: {{ food.row.barPercent }}%"><span class="viz-bar-fill" aria-hidden="true"></span></div>
-          <span class="viz-tip" aria-hidden="true">{{ food.tip }}</span>
+          <span class="viz-value" aria-hidden="true">{% if food.row.percent >= 100 %}<span class="viz-check">✓</span>{% endif %}{{ food.row.displayPercent }}%</span>
         </li>
       {% endfor %}
     </ol>

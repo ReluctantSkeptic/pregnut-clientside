@@ -119,7 +119,7 @@
     return popover("is-safety", "!", "Safety note: " + msg, msg);
   }
 
-  // opts: { food, percent, imageMap, tip, meta, tag }
+  // opts: { food, percent, imageMap, tip, amount, meta, tag }
   function foodRow(opts) {
     var food = opts.food;
     var row = el(opts.tag || "li", "viz-row", null);
@@ -139,13 +139,13 @@
     if (caution) copy.appendChild(caution);
     row.appendChild(copy);
 
-    row.appendChild(value(opts.percent));
-    row.appendChild(bar(opts.percent, opts.tip));
-    if (opts.tip) {
-      var tip = el("span", "viz-tip", opts.tip);
-      tip.setAttribute("aria-hidden", "true");
-      row.appendChild(tip);
+    if (opts.amount) {
+      var amount = el("span", "viz-amount", opts.amount);
+      amount.setAttribute("aria-hidden", "true");
+      row.appendChild(amount);
     }
+    row.appendChild(bar(opts.percent, opts.tip));
+    row.appendChild(value(opts.percent));
     return row;
   }
 

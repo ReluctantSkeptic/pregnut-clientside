@@ -7,10 +7,10 @@ bodyClass: page-topfoods
 vizStyles: true
 pageStyles:
   - /style/weekly-diet.css
-  - /style/top-foods.css?v=20260928-viz
+  - /style/top-foods.css?v=20261023
 pageScripts:
-  - /js/viz.js?v=20260928-1
-  - /js/top-foods.js?v=20261016-h2
+  - /js/viz.js?v=20261023
+  - /js/top-foods.js?v=20261023
 ---
 
 <section class="hero slim">
@@ -32,9 +32,8 @@ pageScripts:
   </div>
 
   <div class="topfoods-head">
-    <p class="viz-summary" id="TopFoodsSummary"><strong>{{ topFoods.nutrient }}</strong> · % of the {{ topFoods.target }} pregnancy reference in 100 g<span class="caution is-info"><button class="caution-trigger" type="button" aria-label="How to read this chart" aria-expanded="false">i</button><span class="caution-popover" role="tooltip">{{ topFoods.chartHelp }}</span></span></p>
+    <p class="viz-summary" id="TopFoodsSummary"><strong>{{ topFoods.nutrient }}</strong> in 100 g, as % of the {{ topFoods.target }} daily pregnancy reference</p>
     <p class="sr-only" id="TopFoodsStatus" aria-live="polite"></p>
-    <nav class="topfoods-jump" id="TopFoodsJump" aria-label="Jump to a food category">{% for group in topFoods.groups %}<a href="#{{ group.id }}">{{ group.name }}</a>{% endfor %}</nav>
   </div>
 
   <noscript><p class="viz-note">Showing calcium in processed foods. Enable JavaScript to change filters, or <a href="/food/">browse every food</a>.</p></noscript>
