@@ -24,9 +24,29 @@
   letter-spacing: -0.03em;
 }
 
-/* Hero */
+/* Hero: headline left, portrait right (stacked on phones) */
 .ab-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr);
+  grid-template-areas: "title photo" "byline photo";
+  align-items: end;
+  column-gap: clamp(32px, 6vw, 96px);
   padding-bottom: clamp(72px, 12vw, 160px);
+}
+
+.ab-title { grid-area: title; }
+.ab-byline { grid-area: byline; }
+
+.ab-portrait {
+  grid-area: photo;
+  margin: 0;
+}
+
+.ab-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
 }
 
 .ab-title {
@@ -442,6 +462,13 @@
 @media (max-width: 860px) {
   .page-about .page { padding-top: 116px; }
   .page-about { --ab-gutter: 16px; }
+
+  .ab-hero {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "title" "byline" "photo";
+  }
+
+  .ab-portrait { margin-top: 40px; }
 
   .ab-chapters,
   .ab-fine {

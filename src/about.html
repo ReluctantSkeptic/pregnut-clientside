@@ -5,14 +5,15 @@ layout: base.njk
 permalink: /about/index.html
 bodyClass: page-about
 # Drop a square photo in src/resource/about/ and set its path here to replace the monogram.
-authorPhoto: ""
+authorPhoto: "/resource/about/yuriy-avatar.webp"
 pageStyles:
-  - /style/about.css?v=20261023-story
+  - /style/about.css?v=20261023-photo
 pageScripts:
   - /js/about.js?v=20261023-story
 ---
 
 <header class="ab-hero">
+  <figure class="ab-portrait" data-reveal><img src="/resource/about/yuriy.webp" width="800" height="1001" alt="Yuriy smiling, with his baby riding on his shoulders" fetchpriority="high"></figure>
   <h1 class="ab-title" data-split>Three pregnancies, <em>one food database.</em></h1>
   <div class="ab-byline">
     {% if authorPhoto %}<img class="ab-avatar" src="{{ authorPhoto }}" alt="Yuriy Stasyuk" width="112" height="112">{% else %}<span class="ab-avatar" aria-hidden="true">Y</span>{% endif %}
