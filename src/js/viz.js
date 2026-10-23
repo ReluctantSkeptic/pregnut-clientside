@@ -53,7 +53,8 @@
   // Short bars can't hold their label, so it sits just past the fill instead.
   var INSIDE_MIN = 24;
 
-  // withValue puts the percent label on the bar itself.
+  // withValue puts the percent label on the bar itself; a number sets the
+  // inside threshold for narrow bars.
   function bar(percent, label, withValue) {
     var p = Number(percent);
     if (!isFinite(p)) p = 0;
@@ -66,7 +67,7 @@
     node.style.setProperty("--pct", Math.min(p, 100) + "%");
     node.appendChild(fill);
     if (withValue) {
-      var text = el("span", "viz-bar-value" + (p >= INSIDE_MIN ? " is-inside" : ""), (p >= 100 ? "✓ " : "") + Math.round(p) + "%");
+      var text = el("span", "viz-bar-value" + (p >= (typeof withValue === "number" ? withValue : INSIDE_MIN) ? " is-inside" : ""), (p >= 100 ? "✓ " : "") + Math.round(p) + "%");
       text.setAttribute("aria-hidden", "true");
       node.appendChild(text);
     }

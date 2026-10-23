@@ -360,6 +360,10 @@
   transition: background 150ms ease;
 }
 
+.viz-row[hidden] {
+  display: none;
+}
+
 .viz-row:hover,
 .viz-row:focus-within {
   background: var(--viz-hover);
