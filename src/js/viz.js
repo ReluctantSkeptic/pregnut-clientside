@@ -134,11 +134,32 @@
     return String((food && (food.label || food.name)) || "");
   }
 
-  // opts: { food, percent, imageMap, tip, amount, tag }
+  // The share of a day's reference in plain words. Mirrored in src/_data/topFoods.js.
+  function dayPhrase(percent) {
+    var p = Number(percent) || 0;
+    if (p >= 100) return "Covers a full day";
+    if (p >= 67) return "Covers most of a day";
+    if (p >= 40) return "Covers about half a day";
+    if (p >= 20) return "Covers about a quarter of a day";
+    return "A small part of a day";
+  }
+
+  // opts: { food, percent, imageMap, tip, amount, tag, featured }
+  // featured shows a large photo and a plain-language line; it needs a photo
+  // and at least a fifth of the day's reference.
   function foodRow(opts) {
     var food = opts.food;
     var row = el(opts.tag || "li", "viz-row", null);
-    row.appendChild(thumb(food, opts.imageMap));
+    var photo = thumb(food, opts.imageMap);
+    // Only a genuinely strong pick earns the photo tile.
+    var featured = !!opts.featured && photo.tagName === "IMG" && Number(opts.percent) >= 20;
+    if (featured) {
+      row.className += " is-featured";
+      photo.width = 400;
+      photo.height = 400;
+      photo.loading = "eager";
+    }
+    row.appendChild(photo);
 
     var copy = el("div", "viz-copy", null);
     var name = el("p", "viz-name", null);
@@ -151,6 +172,7 @@
     var caution = safetyNote(food);
     if (caution) copy.appendChild(caution);
     row.appendChild(copy);
+    if (featured) row.appendChild(el("p", "viz-phrase", dayPhrase(opts.percent)));
 
     if (opts.amount) {
       var amount = el("span", "viz-amount", opts.amount);
@@ -202,6 +224,7 @@
     slugify: slugify,
     splitName: splitName,
     foodName: foodName,
+    dayPhrase: dayPhrase,
     formatAmount: formatAmount,
     bar: bar,
     value: value,

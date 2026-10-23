@@ -4,6 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 const { foodLabel } = require("./food-label");
+const { isUncommon } = require("./food-flags");
 
 const ROOT = path.join(__dirname, "..");
 
@@ -98,6 +99,7 @@ function main() {
       id,
       name: r.FoodName,
       label: foodLabel(r.FoodName),
+      ...(isUncommon(r.FoodName, foodLabel(r.FoodName)) ? { uncommon: 1 } : {}),
       group: r.FoodGroup,
       natSource: Number(r.NatSource || 0),
       warning: r.Warning || "",
