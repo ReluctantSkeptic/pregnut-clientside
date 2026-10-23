@@ -95,6 +95,8 @@
       var f = foods[i];
       if (!f || f.id === "01107") continue;
       if (opts && opts.excludeAvoid && String(f.warning || "").toLowerCase() === "avoid") continue;
+      // Rankings skip odd picks (dove, flours, condiments); see scripts/food-flags.js.
+      if (f.uncommon) continue;
       if (wantsNatural === true && Number(f.natSource) !== 1) continue;
       if (wantsNatural === false && Number(f.natSource) !== 0) continue;
       out.push(f);

@@ -145,12 +145,14 @@
   }
 
   // opts: { food, percent, imageMap, tip, amount, tag, featured }
-  // featured shows a large photo and a plain-language line; it needs a photo.
+  // featured shows a large photo and a plain-language line; it needs a photo
+  // and at least a fifth of the day's reference.
   function foodRow(opts) {
     var food = opts.food;
     var row = el(opts.tag || "li", "viz-row", null);
     var photo = thumb(food, opts.imageMap);
-    var featured = !!opts.featured && photo.tagName === "IMG";
+    // Only a genuinely strong pick earns the photo tile.
+    var featured = !!opts.featured && photo.tagName === "IMG" && Number(opts.percent) >= 20;
     if (featured) {
       row.className += " is-featured";
       photo.width = 400;
