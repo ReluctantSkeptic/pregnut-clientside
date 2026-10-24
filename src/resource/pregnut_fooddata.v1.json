@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "generatedAt": "2026-10-23T21:17:14.106Z",
+  "generatedAt": "2026-10-24T16:25:31.445Z",
   "nutrients": {
     "Calcium": {
       "unit": "mg",
@@ -1132,7 +1132,7 @@
     {
       "id": "16017",
       "name": "Beans, Black turtle, Mature seeds, Boiled",
-      "label": "Black turtle beans, mature seeds, boiled",
+      "label": "Black turtle beans, boiled",
       "uncommon": 1,
       "group": "Legumes and Legume Products",
       "natSource": 1,
@@ -1158,7 +1158,7 @@
     {
       "id": "16015",
       "name": "Beans, Black, Mature seeds, Boiled",
-      "label": "Black beans, mature seeds, boiled",
+      "label": "Black beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1183,7 +1183,7 @@
     {
       "id": "16316",
       "name": "Beans, Black, Mature seeds, Canned, Low sodium",
-      "label": "Black beans, mature seeds, canned, low sodium",
+      "label": "Black beans, canned, low sodium",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1233,7 +1233,7 @@
     {
       "id": "16326",
       "name": "Beans, Great northern, Mature seeds, Canned, Low sodium",
-      "label": "Great northern beans, mature seeds, canned, low sodium",
+      "label": "Great northern beans, canned, low sodium",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1258,7 +1258,7 @@
     {
       "id": "16028",
       "name": "Beans, Kidney, All types, Mature seeds, Boiled",
-      "label": "Kidney beans, mature seeds, boiled",
+      "label": "Kidney beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1283,7 +1283,7 @@
     {
       "id": "16033",
       "name": "Beans, Kidney, Red, Mature seeds, Boiled",
-      "label": "Red kidney beans, mature seeds, boiled",
+      "label": "Red kidney beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1308,7 +1308,7 @@
     {
       "id": "16034",
       "name": "Beans, Kidney, Red, Mature seeds, Canned",
-      "label": "Red kidney beans, mature seeds, canned",
+      "label": "Red kidney beans, canned",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1333,7 +1333,7 @@
     {
       "id": "11626",
       "name": "Beans, Mung, Mature seeds, Sprouted, Canned",
-      "label": "Mung beans, mature seeds, sprouted, canned",
+      "label": "Mung beans, sprouted, canned",
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "",
@@ -1358,7 +1358,7 @@
     {
       "id": "16039",
       "name": "Beans, Navy, Mature seeds, Canned",
-      "label": "Navy beans, mature seeds, canned",
+      "label": "Navy beans, canned",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1383,7 +1383,7 @@
     {
       "id": "16041",
       "name": "Beans, Pink, Mature seeds, Boiled",
-      "label": "Pink beans, mature seeds, boiled",
+      "label": "Pink beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1408,7 +1408,7 @@
     {
       "id": "16043",
       "name": "Beans, Pinto, Mature seeds, Boiled",
-      "label": "Pinto beans, mature seeds, boiled",
+      "label": "Pinto beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1433,7 +1433,7 @@
     {
       "id": "16347",
       "name": "Beans, Pinto, Mature seeds, Canned, Low sodium",
-      "label": "Pinto beans, mature seeds, canned, low sodium",
+      "label": "Pinto beans, canned, low sodium",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1608,7 +1608,7 @@
     {
       "id": "16050",
       "name": "Beans, White, Mature seeds, Boiled",
-      "label": "White beans, mature seeds, boiled",
+      "label": "White beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -1633,7 +1633,7 @@
     {
       "id": "16048",
       "name": "Beans, Yellow, Mature seeds, Boiled",
-      "label": "Yellow beans, mature seeds, boiled",
+      "label": "Yellow beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -2809,7 +2809,7 @@
     {
       "id": "16053",
       "name": "Broadbeans (fava beans), Mature seeds, Boiled",
-      "label": "Broadbeans, mature seeds, boiled",
+      "label": "Broadbeans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -9971,7 +9971,7 @@
     {
       "id": "16057",
       "name": "Chickpeas (garbanzo beans, Bengal gram), Mature seeds, Boiled",
-      "label": "Chickpeas, mature seeds, boiled",
+      "label": "Chickpeas, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -11549,7 +11549,7 @@
     {
       "id": "16063",
       "name": "Cowpeas, Common (blackeyes, Crowder, Southern), Mature seeds, Boiled",
-      "label": "Cowpeas, common, mature seeds, boiled",
+      "label": "Cowpeas, common, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -16448,7 +16448,7 @@
     {
       "id": "16070",
       "name": "Lentils, Mature seeds, Boiled",
-      "label": "Mature seeds lentils, boiled",
+      "label": "Lentils, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -16674,7 +16674,7 @@
     {
       "id": "16072",
       "name": "Lima beans, Large, Mature seeds, Boiled",
-      "label": "Lima beans, large, mature seeds, boiled",
+      "label": "Lima beans, large, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -18401,7 +18401,7 @@
     {
       "id": "16081",
       "name": "Mung beans, Mature seeds, Boiled",
-      "label": "Mung beans, mature seeds, boiled",
+      "label": "Mung beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -18426,7 +18426,7 @@
     {
       "id": "11718",
       "name": "Mung beans, Mature seeds, Sprouted, Boiled",
-      "label": "Mung beans, mature seeds, sprouted, boiled",
+      "label": "Mung beans, sprouted, boiled",
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "",
@@ -18451,7 +18451,7 @@
     {
       "id": "11043",
       "name": "Mung beans, Mature seeds, Sprouted, Raw",
-      "label": "Mung beans, mature seeds, sprouted, raw",
+      "label": "Mung beans, sprouted, raw",
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "Avoid",
@@ -18476,7 +18476,7 @@
     {
       "id": "16084",
       "name": "Mungo beans, Mature seeds, Boiled",
-      "label": "Mungo beans, mature seeds, boiled",
+      "label": "Mungo beans, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -21624,7 +21624,7 @@
     {
       "id": "16085",
       "name": "Peas, Green, Split, Mature seeds, Raw",
-      "label": "Split green peas, mature seeds, raw",
+      "label": "Split green peas, raw",
       "uncommon": 1,
       "group": "Legumes and Legume Products",
       "natSource": 1,
@@ -21675,7 +21675,7 @@
     {
       "id": "16086",
       "name": "Peas, Split, Mature seeds, Boiled",
-      "label": "Split peas, mature seeds, boiled",
+      "label": "Split peas, boiled",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -26210,7 +26210,7 @@
     {
       "id": "15084",
       "name": "Salmon, Pink, Canned, Total can contents",
-      "label": "Pink salmon, canned, total can contents",
+      "label": "Pink salmon, canned",
       "group": "Finfish and Shellfish Products",
       "natSource": 1,
       "warning": "Caution",
@@ -28660,7 +28660,7 @@
     {
       "id": "11453",
       "name": "Soybeans, Mature seeds, Sprouted, Steamed",
-      "label": "Soybeans, mature seeds, sprouted, steamed",
+      "label": "Soybeans, sprouted, steamed",
       "group": "Vegetables and Vegetable Products",
       "natSource": 1,
       "warning": "",
@@ -30063,7 +30063,7 @@
     {
       "id": "16127",
       "name": "Tofu, Soft, Prepared with calcium sulfate and magnesium chloride (nigari)",
-      "label": "Tofu, soft, prepared with calcium sulfate and magnesium chloride",
+      "label": "Tofu, soft",
       "group": "Legumes and Legume Products",
       "natSource": 1,
       "warning": "",
@@ -30439,7 +30439,6 @@
       "id": "18970",
       "name": "Tortillas, Flour, Shelf stable",
       "label": "Flour tortillas",
-      "uncommon": 1,
       "group": "Baked Products",
       "natSource": 0,
       "warning": "",

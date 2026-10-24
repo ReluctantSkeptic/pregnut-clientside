@@ -53,7 +53,7 @@ const NOISE = [
   /^(dry|moist) heat$/i, /^year round average$/i, /^(with|without) salt( added)?$/i,
   /^(salted|unsalted)$/i, /^ready-to-(eat|drink|serve)\.?$/i, /^prepared$/i,
   /^(fortified|ortified|enriched) with\b/i, /\bms \d/i, /^(b\d+|mg|ca|potas|d2|g)$/i,
-  /^\d+(\.\d+)?%?$/, /\bgrams? protein per\b/i, /^fluid$/i, /^(us|usda) /i, /^shelf stable$/i, /^from roasted\b/i, /^(frozen|refrigerated) or shelf/i
+  /^\d+(\.\d+)?%?$/, /\bgrams? protein per\b/i, /^fluid$/i, /^(us|usda) /i, /^shelf stable$/i, /^mature seeds$/i, /^prepared with calcium/i, /^total can contents$/i, /^from roasted\b/i, /^(frozen|refrigerated) or shelf/i
 ];
 
 // Words that keep a capital mid-name.
@@ -104,7 +104,7 @@ function foodLabel(name) {
     .filter((p) => !NOISE.some((re) => re.test(p)));
   const headKey = head.toLowerCase();
   const stem = headKey.replace(/s$/, "");
-  const STATE = /^(raw|cooked|boiled|canned|dried|frozen|baked|fried|roasted|steamed|prepared|dry|fresh|unprepared|mature|immature|ripe|uncooked|homemade|home-prepared|home prepared|commercial)$/i;
+  const STATE = /^(raw|cooked|boiled|canned|dried|frozen|baked|fried|roasted|steamed|prepared|dry|fresh|unprepared|mature|immature|mature seeds|immature seeds|ripe|uncooked|homemade|home-prepared|home prepared|commercial)$/i;
   let meatCut = false;
 
   // "Milk, Buttermilk" -> "Buttermilk"; "Cookies, Brownies" -> "Brownies"; "Soup, Chicken broth" -> "Chicken broth".

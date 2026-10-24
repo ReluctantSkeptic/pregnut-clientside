@@ -162,11 +162,11 @@
 }
 
 .viz-chip span {
-  min-height: 40px;
-  padding: 0 16px;
+  min-height: 42px;
+  padding: 0 18px;
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-strong);
   border-radius: 999px;
   color: var(--ink);
   background: var(--card);
@@ -181,9 +181,9 @@
 }
 
 .viz-chip input:checked + span {
-  border-color: var(--accent-2);
+  border-color: var(--ink);
   color: #fffefb;
-  background: var(--accent-2);
+  background: var(--ink);
 }
 
 .viz-chip input:focus-visible + span,
@@ -220,10 +220,9 @@
 }
 
 .viz-segment input:checked + span {
-  color: var(--ink);
-  background: var(--card);
-  box-shadow: 0 1px 2px rgba(38, 48, 56, 0.08), 0 3px 10px rgba(38, 48, 56, 0.06);
-  font-weight: 600;
+  color: #fffefb;
+  background: var(--ink);
+  font-weight: 500;
 }
 
 .viz-controls-row {
@@ -369,6 +368,11 @@
   background: var(--viz-hover);
 }
 
+.viz-row.is-featured:hover,
+.viz-row.is-featured:focus-within {
+  background: #f1eee6;
+}
+
 .viz-row:has(.viz-name a:focus-visible) {
   outline: 2px solid var(--accent-2);
   outline-offset: -2px;
@@ -379,8 +383,10 @@
 
 /* The group's top food: a photo tile with the share said in words. */
 .viz-row.is-featured {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   padding: 12px;
+  border-radius: 22px;
+  background: #f6f4ee;
   grid-template-areas:
     "thumb copy copy"
     "thumb phrase phrase"
@@ -438,7 +444,7 @@
   display: grid;
   place-items: center;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 14px;
   color: var(--accent-2);
   background: var(--viz-track);
   font-family: "Instrument Serif", Georgia, serif;
@@ -505,10 +511,10 @@
 .viz-card {
   min-width: 0;
   padding: 22px 10px 10px;
-  border: 1px solid rgba(38, 48, 56, 0.08);
-  border-radius: 24px;
+  border: 0;
+  border-radius: 28px;
   background: var(--card);
-  box-shadow: 0 1px 2px rgba(38, 48, 56, 0.04), 0 8px 24px rgba(38, 48, 56, 0.05);
+  box-shadow: 0 1px 2px rgba(38, 48, 56, 0.04), 0 10px 30px rgba(38, 48, 56, 0.06);
   scroll-margin-top: calc(var(--viz-sticky-top) + 84px);
 }
 
