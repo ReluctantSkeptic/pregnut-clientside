@@ -1,64 +1,57 @@
-/* Daily Fit calculator. Mobile first: search, then your fit, then meals.
-   On desktop the fit panel sits beside the meals and stays in view. */
+/* Daily Fit calculator: soft white cards on cream, tinted stat cards,
+   meal tabs, a photo card per meal and its foods. Mobile first; on desktop
+   the stat cards become a grid and the meal photo sits beside its foods. */
 
-.page-dailyfit .page {
-  padding-top: 132px;
+.page-dailyfit {
+  --df-green: var(--accent-soft);
+  --df-peach: #f6e6d6;
+  --df-soft: #f6f4ee;
+  --df-radius: 28px;
+  --df-shadow: 0 1px 2px rgba(38, 48, 56, 0.04), 0 10px 30px rgba(38, 48, 56, 0.06);
 }
 
-.df-hero,
+.page-dailyfit .page {
+  padding-top: 124px;
+}
+
 .df-app,
 .df-faq {
   width: min(100%, var(--max));
   margin-inline: auto;
 }
 
-/* Hero */
-.df-hero {
-  margin-bottom: 32px;
+.df-app {
+  display: grid;
+  gap: 28px;
+}
+
+/* Greeting, title, search */
+.df-hello {
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-size: 1.05rem;
 }
 
 .df-title {
-  max-width: 12ch;
-  margin: 0 0 14px;
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: clamp(3rem, 7.5vw, 5.6rem);
+  max-width: 15ch;
+  margin: 0 0 22px;
+  font-family: "Geist", "Segoe UI", sans-serif;
+  font-size: clamp(2.1rem, 5.2vw, 3.6rem);
   font-weight: 400;
-  line-height: 0.95;
-  letter-spacing: -0.04em;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
 }
 
-.df-title em {
-  color: var(--accent-2);
-}
-
-.df-lede {
-  margin: 0;
-  color: var(--muted);
-  font-size: 1.08rem;
-}
-
-/* Layout */
-.df-app {
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
-  align-items: start;
-  gap: 32px;
-}
-
-.df-main {
-  min-width: 0;
-}
-
-/* Search */
 .df-search {
   position: relative;
   z-index: 20;
+  max-width: 640px;
 }
 
 .df-search-icon {
   position: absolute;
   top: 50%;
-  left: 20px;
+  left: 22px;
   width: 22px;
   height: 22px;
   color: var(--muted);
@@ -68,15 +61,15 @@
 
 .df-search input {
   width: 100%;
-  height: 64px;
-  padding: 0 20px 0 54px;
-  border: 1px solid var(--border-strong);
+  height: 62px;
+  padding: 0 22px 0 56px;
+  border: 0;
   border-radius: 999px;
   color: var(--ink);
   background: var(--card);
-  box-shadow: 0 8px 24px rgba(38, 48, 56, 0.06);
+  box-shadow: var(--df-shadow);
   font: inherit;
-  font-size: 1.05rem;
+  font-size: 1.02rem;
   -webkit-appearance: none;
   appearance: none;
 }
@@ -87,8 +80,7 @@
 
 .df-search input:focus {
   outline: none;
-  border-color: var(--accent-2);
-  box-shadow: 0 0 0 3px var(--accent-soft), 0 8px 24px rgba(38, 48, 56, 0.06);
+  box-shadow: 0 0 0 2px var(--accent-2), var(--df-shadow);
 }
 
 .df-results {
@@ -101,31 +93,30 @@
   max-height: min(440px, 60vh);
   overflow-y: auto;
   list-style: none;
-  border: 1px solid var(--border);
-  border-radius: 22px;
+  border-radius: 24px;
   background: var(--card);
-  box-shadow: 0 18px 48px rgba(38, 48, 56, 0.16);
+  box-shadow: 0 20px 50px rgba(38, 48, 56, 0.16);
 }
 
 .df-result {
-  padding: 8px 10px;
+  padding: 8px;
   display: flex;
   align-items: center;
   gap: 14px;
-  border-radius: 14px;
+  border-radius: 18px;
   cursor: pointer;
 }
 
 .df-result.is-active,
 .df-result:hover {
-  background: var(--bg);
+  background: var(--df-soft);
 }
 
 .df-result-photo {
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
   flex: 0 0 auto;
-  border-radius: 12px;
+  border-radius: 16px;
   object-fit: cover;
   background: var(--bg-2);
 }
@@ -137,7 +128,7 @@
 }
 
 .df-result-name {
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.3;
 }
 
@@ -164,7 +155,6 @@
   background: #f6dede;
 }
 
-/* Photo placeholder for foods without a picture */
 .is-empty {
   display: grid;
   place-items: center;
@@ -173,9 +163,8 @@
   font-size: 1.4rem;
 }
 
-/* Actions */
 .df-actions {
-  margin: 16px 0 28px;
+  margin-top: 14px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -183,19 +172,19 @@
 }
 
 .df-design-btn {
-  min-height: 48px;
-  padding: 0 22px;
+  min-height: 50px;
+  padding: 0 24px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
   border: 0;
   border-radius: 999px;
   color: #fffefb;
-  background: var(--accent-2);
+  background: var(--ink);
   font: inherit;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
-  transition: transform 160ms ease, background 160ms ease;
+  transition: transform 160ms ease;
 }
 
 .df-design-btn svg {
@@ -203,16 +192,13 @@
   height: 18px;
 }
 
-.df-design-btn:hover {
-  background: var(--accent);
-}
-
 .df-design-btn:active {
   transform: scale(0.98);
 }
 
 .df-link-btn,
-.df-text-btn {
+.df-text-btn,
+.df-skip {
   min-height: 44px;
   padding: 0 4px;
   border: 0;
@@ -220,137 +206,461 @@
   background: none;
   font: inherit;
   font-weight: 500;
-  text-decoration: underline;
-  text-decoration-color: var(--border-strong);
-  text-underline-offset: 4px;
   cursor: pointer;
 }
 
-.df-link-btn:hover,
-.df-text-btn:hover {
-  text-decoration-color: currentColor;
+.df-link-btn {
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 4px;
 }
 
-:where(.df-design-btn, .df-link-btn, .df-text-btn, .df-primary, .df-step, .df-meal-add, .df-item-open, .df-item-remove, .df-ring-btn, .df-helper, .df-low-chip, .df-dock button):focus-visible {
+.df-skip {
+  color: var(--muted);
+}
+
+:where(.df-design-btn, .df-link-btn, .df-text-btn, .df-skip, .df-primary, .df-step, .df-tab, .df-hero-add, .df-round-btn, .df-item-open, .df-item-remove, .df-card-btn, .df-dock button):focus-visible {
   outline: 2px solid var(--accent-2);
   outline-offset: 3px;
 }
 
-/* Meals */
-.df-meals {
-  display: grid;
-  gap: 14px;
+/* Today: tinted stat cards */
+.df-fit {
+  min-width: 0;
+  scroll-margin-top: 90px;
 }
 
-.df-meal {
-  padding: 18px 18px 12px;
-  border: 1px solid rgba(38, 48, 56, 0.08);
-  border-radius: 24px;
-  background: var(--card);
-  box-shadow: 0 1px 2px rgba(38, 48, 56, 0.04), 0 8px 24px rgba(38, 48, 56, 0.04);
-}
-
-.df-meal-head {
+.df-fit-head {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   justify-content: space-between;
   gap: 12px;
 }
 
-.df-meal-title {
+.df-fit-head h2 {
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: 1.7rem;
-  font-weight: 400;
-  line-height: 1.1;
+  font-family: "Geist", "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
 }
 
-.df-meal-plan {
-  margin: 2px 0 0;
-  color: var(--accent-2);
-  font-size: 0.92rem;
+.df-count {
+  margin: 0;
+  color: var(--muted);
 }
 
-.df-meal-gains {
-  margin: 6px 0 0;
-  color: var(--accent-2);
-  font-size: 0.84rem;
-  font-weight: 600;
+.df-count strong {
+  color: var(--ink);
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
-.df-stack {
-  margin-top: 4px;
+.df-mood {
+  margin: 4px 0 16px;
+  color: var(--muted);
+}
+
+.df-cards {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  gap: 12px;
+  list-style: none;
+}
+
+.df-card-btn {
+  width: 100%;
+  min-height: 150px;
+  padding: 18px;
   display: flex;
+  flex-direction: column;
+  border: 0;
+  border-radius: 24px;
+  color: var(--ink);
+  background: var(--card);
+  box-shadow: var(--df-shadow);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 180ms ease;
+}
+
+.df-card-btn:hover {
+  transform: translateY(-2px);
+}
+
+.is-covered .df-card-btn {
+  background: var(--df-green);
+  box-shadow: none;
+}
+
+.is-close .df-card-btn {
+  background: var(--df-peach);
+  box-shadow: none;
+}
+
+.df-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.df-card-name {
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.df-mini-ring {
+  width: 24px;
+  height: 24px;
   flex: 0 0 auto;
+  transform: rotate(-90deg);
 }
 
-.df-stack-photo {
-  width: 40px;
-  height: 40px;
-  border: 2px solid var(--card);
-  border-radius: 50%;
-  object-fit: cover;
-  background: var(--bg-2);
-  font-size: 1rem;
+.df-mini-ring circle {
+  fill: none;
+  stroke: rgba(38, 48, 56, 0.12);
+  stroke-width: 3;
 }
 
-.df-stack-photo + .df-stack-photo {
-  margin-left: -12px;
+.df-mini-ring .df-mini-fill {
+  stroke: var(--accent-2);
+  stroke-linecap: round;
+  transition: stroke-dashoffset 600ms cubic-bezier(0.2, 0.7, 0.1, 1);
 }
 
-.df-meal-titles {
-  flex: 1 1 auto;
+.is-low .df-mini-ring .df-mini-fill {
+  stroke: #c9a27a;
+}
+
+.df-card-label {
+  margin-top: auto;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.df-card-value {
+  margin-top: 2px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.df-card-value small {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Meal tabs */
+.df-plate {
   min-width: 0;
 }
 
-.df-meal-add {
-  min-height: 40px;
-  padding: 0 16px;
+.df-tabs {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.df-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.df-tab {
+  min-height: 48px;
+  padding: 0 22px;
   flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   border: 1px solid var(--border-strong);
   border-radius: 999px;
   color: var(--ink);
-  background: var(--card);
+  background: transparent;
   font: inherit;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 1rem;
   cursor: pointer;
 }
 
-.df-meal-add::before {
-  content: "+ ";
-}
-
-.df-meal-add:hover {
+.df-tab[aria-selected="true"] {
   border-color: var(--ink);
+  color: #fffefb;
+  background: var(--ink);
 }
 
-.df-meal-empty {
-  margin: 8px 0 6px;
-  color: var(--muted);
+.df-tab-count {
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--df-green);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.df-meal-view {
+  display: grid;
+  gap: 14px;
+}
+
+.df-meal-main {
+  min-width: 0;
+  padding: 8px 8px 0;
+  border-radius: var(--df-radius);
+  background: var(--card);
+  box-shadow: var(--df-shadow);
+}
+
+/* Meal photo card */
+.df-hero-card {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 24px;
+  background: var(--bg-2);
+}
+
+.df-hero-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.df-hero-card.is-empty .df-hero-photo {
+  opacity: 0.55;
+  filter: saturate(0.85);
+}
+
+.df-hero-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(38, 48, 56, 0) 30%, rgba(38, 48, 56, 0.82) 100%);
+  pointer-events: none;
+}
+
+/* Smaller photos sit on a plate over a soft tint */
+.df-hero-card.is-plate {
+  background: var(--df-peach);
+}
+
+.df-hero-card.is-plate::after {
+  display: none;
+}
+
+.df-hero-plate {
+  position: absolute;
+  top: 7%;
+  right: -4%;
+  width: min(62%, 300px);
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 18px 40px rgba(38, 48, 56, 0.18);
+}
+
+.df-hero-plate.is-empty {
+  background: var(--card);
+  font-size: 4rem;
+}
+
+.df-hero-card.is-plate .df-hero-copy {
+  right: 96px;
+  color: var(--ink);
+  text-shadow: none;
+}
+
+.df-hero-card.is-empty::after {
+  background: linear-gradient(180deg, rgba(243, 240, 232, 0) 30%, rgba(243, 240, 232, 0.92) 100%);
+}
+
+.df-hero-copy {
+  position: absolute;
+  left: 20px;
+  right: 88px;
+  bottom: 18px;
+  z-index: 1;
+  color: #fffefb;
+  text-shadow: 0 1px 12px rgba(38, 48, 56, 0.35);
+}
+
+.df-hero-card.is-empty .df-hero-copy {
+  color: var(--ink);
+  text-shadow: none;
+}
+
+.df-hero-copy h3,
+.df-hero-copy p {
+  color: inherit;
+}
+
+.df-hero-copy h3 {
+  margin: 0;
+  font-family: "Geist", "Segoe UI", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.df-hero-copy p {
+  margin: 4px 0 0;
   font-size: 0.92rem;
+  opacity: 0.85;
+}
+
+.df-hero-add {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 1;
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: var(--ink);
+  background: #fffefb;
+  box-shadow: 0 8px 20px rgba(38, 48, 56, 0.18);
+  cursor: pointer;
+}
+
+.df-hero-add svg,
+.df-round-btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* Three stats under the photo */
+.df-stats {
+  margin: 0;
+  padding: 18px 12px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  list-style: none;
+}
+
+.df-stat {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  text-align: center;
+}
+
+.df-stat::after {
+  content: "";
+  width: 56px;
+  height: 7px;
+  margin-top: 8px;
+  border-radius: 999px;
+  background: var(--df-green);
+}
+
+.df-stat.is-ink::after { background: var(--bg-2); }
+.df-stat.is-peach::after { background: var(--df-peach); }
+
+.df-stat-value {
+  font-size: 1.7rem;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.df-stat-value small {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.df-stat-name {
+  overflow: hidden;
+  max-width: 100%;
+  color: var(--muted);
+  font-size: 0.86rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Foods in the meal */
+.df-foods {
+  min-width: 0;
+  padding: 22px 16px 16px;
+  border-radius: var(--df-radius);
+  background: var(--card);
+  box-shadow: var(--df-shadow);
+}
+
+.df-foods-head {
+  margin: 0 4px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.df-foods-head h3 {
+  margin: 0;
+  font-family: "Geist", "Segoe UI", sans-serif;
+  font-size: 1.45rem;
+  font-weight: 400;
+}
+
+.df-foods-head p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.df-round-btn {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: var(--ink);
+  background: var(--df-soft);
+  cursor: pointer;
 }
 
 .df-items {
-  margin: 10px 0 0;
+  margin: 0;
   padding: 0;
+  display: grid;
+  gap: 10px;
   list-style: none;
 }
 
 .df-item {
   display: flex;
   align-items: center;
-  border-top: 1px solid rgba(38, 48, 56, 0.07);
+  border-radius: 22px;
+  background: var(--df-soft);
 }
 
 .df-item-open {
   min-width: 0;
   flex: 1 1 auto;
-  padding: 10px 0;
+  padding: 10px;
   display: flex;
   align-items: center;
   gap: 14px;
   border: 0;
+  border-radius: 22px;
   color: inherit;
   background: none;
   font: inherit;
@@ -358,353 +668,72 @@
   cursor: pointer;
 }
 
-.df-item-photo {
-  width: 52px;
-  height: 52px;
+.df-item-pic {
+  width: 64px;
+  height: 64px;
   flex: 0 0 auto;
+  padding: 4px;
+  border-radius: 18px;
+  background: var(--card);
+}
+
+.df-item-photo {
+  width: 100%;
+  height: 100%;
   border-radius: 14px;
   object-fit: cover;
-  background: var(--bg-2);
 }
 
 .df-item-copy {
   min-width: 0;
   display: grid;
-  gap: 2px;
+  gap: 3px;
 }
 
 .df-item-name {
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.3;
 }
 
 .df-item-amount {
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: 0.86rem;
+  line-height: 1.4;
 }
 
-.df-item-remove {
+.df-item-remove,
+.df-item-plus {
   width: 44px;
   height: 44px;
+  margin-right: 6px;
   flex: 0 0 auto;
+  display: grid;
+  place-items: center;
   border: 0;
   border-radius: 50%;
   color: var(--muted);
   background: none;
   font-size: 1.5rem;
   line-height: 1;
+}
+
+.df-item-remove {
   cursor: pointer;
 }
 
 .df-item-remove:hover {
   color: var(--ink);
-  background: var(--bg);
-}
-
-/* Daily fit panel */
-.df-fit {
-  position: sticky;
-  top: 96px;
-  padding: 24px;
-  border: 1px solid rgba(38, 48, 56, 0.08);
-  border-radius: 28px;
   background: var(--card);
-  box-shadow: 0 1px 2px rgba(38, 48, 56, 0.04), 0 12px 32px rgba(38, 48, 56, 0.06);
-  scroll-margin-top: 90px;
 }
 
-/* Summary: one big number you can read at a glance */
-.df-summary {
-  margin-bottom: 18px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border-radius: 24px;
-  background: var(--accent-soft);
-}
-
-.df-big-ring {
-  position: relative;
-  width: 120px;
-  height: 120px;
-  flex: 0 0 auto;
-}
-
-.df-big-ring svg {
-  width: 100%;
-  height: 100%;
-  transform: rotate(-90deg);
-}
-
-.df-big-ring circle {
-  fill: none;
-  stroke-width: 10;
-}
-
-.df-big-track {
-  stroke: rgba(255, 254, 251, 0.75);
-}
-
-.df-big-fill {
-  stroke: var(--accent-2);
-  stroke-linecap: round;
-  transition: stroke-dashoffset 700ms cubic-bezier(0.2, 0.7, 0.1, 1);
-}
-
-.df-big-num {
-  position: absolute;
-  inset: 0;
-  margin: 0;
-  display: grid;
-  place-content: center;
-  text-align: center;
-  line-height: 1;
-}
-
-.df-big-num strong {
+.df-item-plus {
   color: var(--accent-2);
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: 3rem;
-  font-weight: 400;
-}
-
-.df-big-num span {
-  margin-top: 2px;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-
-.df-summary-copy {
-  min-width: 0;
-}
-
-.df-summary-copy h2 {
-  margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.05;
-}
-
-.df-mood {
-  margin: 6px 0 0;
-  color: var(--ink);
-  font-size: 0.95rem;
-  line-height: 1.45;
-}
-
-.df-low {
-  margin: 10px 0 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  list-style: none;
-}
-
-.df-low-chip {
-  min-height: 32px;
-  padding: 0 12px;
-  border: 0;
-  border-radius: 999px;
-  color: var(--viz-peach-ink, #7a4a22);
-  background: var(--card);
-  font: inherit;
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.df-low-chip:hover {
-  background: #fdf3ea;
-}
-
-.df-nutrients {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
-  gap: 8px;
-  list-style: none;
-}
-
-.df-ring-btn {
-  position: relative;
-  width: 100%;
-  padding: 8px 4px 10px;
-  display: grid;
-  justify-items: center;
-  gap: 6px;
-  border: 0;
-  border-radius: 16px;
-  color: var(--ink);
-  background: none;
-  font: inherit;
-  cursor: pointer;
-}
-
-/* Tiles tint by status: soft green covered, cream on the way, peach low */
-.df-ring-btn {
-  background: var(--bg);
-  transition: transform 160ms ease, box-shadow 160ms ease;
-}
-
-.is-covered .df-ring-btn {
-  background: var(--accent-soft);
-}
-
-.is-low .df-ring-btn {
-  background: #fbf1e7;
-}
-
-.df-ring-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(38, 48, 56, 0.08);
-}
-
-.df-ring-btn[aria-expanded="true"] {
-  box-shadow: inset 0 0 0 2px var(--accent-2);
-}
-
-.df-ring {
-  width: 60px;
-  height: 60px;
-  transform: rotate(-90deg);
-}
-
-.df-ring circle {
-  fill: none;
-  stroke-width: 6;
-}
-
-.df-ring-track {
-  stroke: rgba(255, 254, 251, 0.9);
-}
-
-.df-ring-fill {
-  stroke: var(--accent);
-  stroke-linecap: round;
-  transition: stroke-dashoffset 600ms cubic-bezier(0.2, 0.7, 0.1, 1);
-}
-
-.is-covered .df-ring-fill {
-  stroke: var(--accent-2);
-}
-
-.is-low .df-ring-fill {
-  stroke: #c9a27a;
-}
-
-.df-ring-value {
-  position: absolute;
-  top: 8px;
-  left: 50%;
-  width: 60px;
-  height: 60px;
-  display: grid;
-  place-items: center;
-  font-size: 0.82rem;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  transform: translateX(-50%);
-}
-
-.is-covered .df-ring-value {
-  color: var(--accent-2);
-  font-size: 1.15rem;
-}
-
-.df-ring-name {
-  font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: center;
-}
-
-/* Nutrient detail */
-.df-detail {
-  margin-top: 14px;
-  padding: 18px;
-  border-radius: 20px;
-  background: var(--bg);
-}
-
-.df-detail-head h3 {
-  margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-}
-
-.df-detail-head p,
-.df-detail-from {
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-
-.df-helpers {
-  margin: 8px 0 0;
-  padding: 0;
-  display: grid;
-  gap: 6px;
-  list-style: none;
-}
-
-.df-helper {
-  width: 100%;
-  padding: 6px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  border: 0;
-  border-radius: 14px;
-  color: inherit;
-  background: var(--card);
-  font: inherit;
-  text-align: left;
-  cursor: pointer;
-}
-
-.df-helper:hover {
-  box-shadow: 0 4px 14px rgba(38, 48, 56, 0.08);
-}
-
-.df-helper-photo {
-  width: 44px;
-  height: 44px;
-  flex: 0 0 auto;
-  border-radius: 10px;
-  object-fit: cover;
-  background: var(--bg-2);
-}
-
-.df-helper-copy {
-  display: grid;
-}
-
-.df-helper-name {
-  font-weight: 600;
-  font-size: 0.94rem;
-}
-
-.df-helper-gain {
-  color: var(--accent-2);
-  font-size: 0.85rem;
-}
-
-.df-detail-link {
-  margin-top: 12px;
-  display: inline-block;
-  color: var(--ink);
-  font-size: 0.9rem;
-  text-decoration-color: var(--border-strong);
-  text-underline-offset: 3px;
+  pointer-events: none;
 }
 
 .df-note {
-  margin: 18px 0 0;
+  max-width: 64ch;
+  margin: 0;
   color: var(--muted);
   font-size: 0.86rem;
   line-height: 1.6;
@@ -715,13 +744,14 @@
   text-underline-offset: 3px;
 }
 
-/* Sheets (amount and design) */
+/* Sheets */
 .df-sheet {
   width: min(520px, calc(100vw - 32px));
-  max-height: calc(100vh - 48px);
+  max-height: calc(100vh - 40px);
   padding: 0;
+  overflow: auto;
   border: 0;
-  border-radius: 28px;
+  border-radius: 32px;
   color: var(--ink);
   background: var(--card);
   box-shadow: 0 24px 64px rgba(38, 48, 56, 0.25);
@@ -733,54 +763,154 @@
 }
 
 .df-sheet-body {
-  padding: 26px;
+  padding: 24px;
 }
 
 .df-sheet h2 {
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: "Geist", "Segoe UI", sans-serif;
   font-size: 1.9rem;
   font-weight: 400;
   line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
-.df-sheet-food {
-  margin-bottom: 20px;
+.df-sheet-top {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.df-sub {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+/* Amount sheet: a peach band with the photo, like a recipe card */
+.df-sheet-band {
+  position: relative;
+  min-height: 250px;
+  padding: 22px 22px 24px;
+  overflow: hidden;
+  border-radius: 32px 32px 28px 28px;
+  background: var(--df-peach);
+}
+
+.df-sheet-band > .df-round-btn {
+  position: relative;
+  z-index: 1;
+  background: #fffefb;
+}
+
+.df-sheet-band.is-plain {
+  min-height: 0;
+}
+
+.df-sheet-band.is-plain h2,
+.df-sheet-band.is-plain .df-gains {
+  max-width: none;
+}
+
+.df-sheet-photo[hidden] {
+  display: none;
+}
+
+.df-sheet-band h2 {
+  position: relative;
+  z-index: 1;
+  max-width: 55%;
+  margin-top: 18px;
+  font-size: 1.7rem;
 }
 
 .df-sheet-photo {
-  flex: 0 0 auto;
+  position: absolute;
+  top: 18px;
+  right: -36px;
+  width: 220px;
+  height: 220px;
 }
 
 .df-sheet-img {
   display: block;
-  width: 84px;
-  height: 84px;
-  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
   object-fit: cover;
-  background: var(--bg-2);
+  box-shadow: 0 18px 40px rgba(38, 48, 56, 0.18);
+}
+
+.df-sheet-img.is-empty {
+  background: var(--card);
+  font-size: 4rem;
+}
+
+.df-gains {
+  position: relative;
+  z-index: 1;
+  max-width: 55%;
+  margin: 16px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  list-style: none;
+}
+
+.df-gain {
+  padding-left: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 8px;
+  border-left: 4px solid var(--accent-2);
+  border-radius: 2px;
+}
+
+.df-gain:nth-child(2) { border-left-color: var(--accent); }
+.df-gain:nth-child(3) { border-left-color: #c9a27a; }
+
+.df-gain-value {
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.df-gain-value small {
+  font-size: 0.9rem;
+}
+
+.df-gain-name {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.df-gain.is-quiet {
+  border-left-color: var(--border-strong);
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .df-sheet-warning {
-  margin: 6px 0 0;
+  margin: 0 0 6px;
+  padding: 12px 14px;
+  border-radius: 16px;
   color: var(--viz-peach-ink, #7a4a22);
+  background: #fbf1e7;
   font-size: 0.86rem;
   line-height: 1.45;
 }
 
 .df-sheet-warning.is-avoid {
   color: #8a2f2f;
+  background: #f9e6e6;
 }
 
 .df-label {
-  margin: 18px 0 8px;
+  margin: 18px 0 10px;
   display: block;
   color: var(--muted);
   font-size: 0.84rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .df-stepper {
@@ -790,36 +920,36 @@
 }
 
 .df-step {
-  width: 52px;
-  height: 52px;
-  border: 1px solid var(--border-strong);
+  width: 54px;
+  height: 54px;
+  border: 0;
   border-radius: 50%;
   color: var(--ink);
-  background: var(--card);
+  background: var(--df-soft);
   font-size: 1.5rem;
   line-height: 1;
   cursor: pointer;
 }
 
-.df-step:hover {
-  border-color: var(--ink);
-}
-
 .df-stepper output {
-  min-width: 2.5ch;
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: 2.6rem;
-  line-height: 1;
+  min-width: 2.2ch;
+  font-size: 2.4rem;
+  letter-spacing: -0.02em;
   text-align: center;
 }
 
+.df-grams {
+  margin-left: auto;
+  color: var(--muted);
+}
+
 .df-grams-input {
-  width: 120px;
-  height: 52px;
-  margin-top: 10px;
+  width: 110px;
+  height: 54px;
   padding: 0 14px;
-  border: 1px solid var(--border-strong);
-  border-radius: 14px;
+  border: 0;
+  border-radius: 16px;
+  background: var(--df-soft);
   font: inherit;
   font-size: 1.2rem;
 }
@@ -844,73 +974,109 @@
 }
 
 .df-pill span {
-  min-height: 40px;
-  padding: 0 16px;
+  min-height: 44px;
+  padding: 0 18px;
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-strong);
   border-radius: 999px;
   background: var(--card);
-  font-size: 0.92rem;
-  font-weight: 500;
+  font-size: 0.94rem;
   white-space: nowrap;
 }
 
 .df-pill input:checked + span {
-  border-color: var(--accent-2);
+  border-color: var(--ink);
   color: #fffefb;
-  background: var(--accent-2);
+  background: var(--ink);
 }
 
-.df-pill input:focus-visible + span {
+.df-pill input:focus-visible + span,
+.df-tile input:focus-visible + span {
   outline: 2px solid var(--accent-2);
   outline-offset: 2px;
 }
 
-.df-grams {
-  margin: 10px 0 0;
-  color: var(--muted);
-  font-size: 0.9rem;
+.df-pills-even {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.df-grams:empty {
-  display: none;
-}
-
-.df-gains {
-  margin: 14px 0 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  list-style: none;
-}
-
-.df-gain {
-  padding: 6px 12px;
-  border-radius: 999px;
-  color: var(--accent-2);
-  background: var(--accent-soft);
-  font-size: 0.88rem;
-  font-weight: 600;
-}
-
-.df-gain.is-quiet {
-  color: var(--muted);
-  background: var(--bg);
-  font-weight: 500;
-}
-
-.df-range {
+.df-pills-even .df-pill span {
   width: 100%;
-  accent-color: var(--accent-2);
+  justify-content: center;
 }
 
-.df-range-labels {
-  display: flex;
-  justify-content: space-between;
-  color: var(--muted);
-  font-size: 0.82rem;
+.df-primary {
+  width: 100%;
+  min-height: 64px;
+  margin-top: 26px;
+  border: 0;
+  border-radius: 999px;
+  color: #fffefb;
+  background: var(--ink);
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.df-primary:active {
+  transform: scale(0.99);
+}
+
+#DfRemove {
+  width: 100%;
+  margin-top: 8px;
+  color: #8a2f2f;
+}
+
+/* Design my day: photo tiles */
+.df-tiles {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.df-tile {
+  position: relative;
+}
+
+.df-tile input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.df-tile span {
+  min-height: 116px;
+  padding: 12px 8px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 8px;
+  border: 1.5px solid transparent;
+  border-radius: 22px;
+  background: var(--df-soft);
+  font-size: 0.9rem;
+  text-align: center;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.df-tile img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.df-tile input:checked + span {
+  border-color: var(--accent-2);
+  background: var(--df-green);
+  font-weight: 600;
 }
 
 .df-sheet-hint {
@@ -919,43 +1085,49 @@
   font-size: 0.88rem;
 }
 
-.df-sheet-actions {
-  margin-top: 26px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 14px;
-}
-
-#DfRemove {
-  margin-right: auto;
-  color: #8a2f2f;
-}
-
-.df-primary {
-  min-height: 52px;
-  padding: 0 26px;
-  border: 0;
+/* Nutrient sheet */
+.df-meter {
+  height: 10px;
+  margin: 16px 0 6px;
+  overflow: hidden;
   border-radius: 999px;
-  color: #fffefb;
+  background: var(--df-soft);
+}
+
+.df-meter span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
   background: var(--accent-2);
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
 }
 
-.df-primary:hover {
-  background: var(--accent);
+.df-meter.is-low span,
+.df-meter.is-close span {
+  background: #c9a27a;
 }
 
-/* Toast and mobile peek */
+.df-detail-from {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.df-detail-link {
+  margin-top: 16px;
+  display: inline-block;
+  color: var(--ink);
+  font-size: 0.92rem;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 3px;
+}
+
+/* Toast and phone dock */
 .df-toast {
   position: fixed;
   left: 50%;
   bottom: 24px;
   z-index: 60;
   max-width: calc(100vw - 32px);
-  padding: 12px 12px 12px 20px;
+  padding: 10px 10px 10px 20px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -983,7 +1155,6 @@
   cursor: pointer;
 }
 
-/* Phone dock: score and the main action, always in reach */
 .df-dock {
   position: fixed;
   left: 50%;
@@ -1005,30 +1176,29 @@
 }
 
 .df-dock button {
-  min-height: 48px;
+  min-height: 50px;
   border: 0;
   border-radius: 999px;
   font: inherit;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 
 .df-dock-score {
   flex: 1 1 auto;
   padding: 0 18px;
-  color: #fffefb;
+  color: rgba(255, 254, 251, 0.75);
   background: none;
   text-align: left;
 }
 
 .df-dock-score span {
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: 1.25rem;
-  font-weight: 400;
+  color: #fffefb;
+  font-size: 1.15rem;
 }
 
 .df-dock-add {
-  padding: 0 22px;
+  padding: 0 24px;
   color: var(--ink);
   background: #fffefb;
 }
@@ -1038,7 +1208,7 @@
 }
 
 .df-dock:not([hidden]) ~ .df-toast {
-  bottom: calc(84px + env(safe-area-inset-bottom));
+  bottom: calc(86px + env(safe-area-inset-bottom));
 }
 
 /* FAQ */
@@ -1050,9 +1220,10 @@
 
 .df-faq h2 {
   margin: 0 0 16px;
-  font-family: "Instrument Serif", Georgia, serif;
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-family: "Geist", "Segoe UI", sans-serif;
+  font-size: clamp(1.8rem, 3.6vw, 2.4rem);
   font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 .df-faq details {
@@ -1065,7 +1236,7 @@
 
 .df-faq summary {
   padding: 18px 0;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -1080,90 +1251,91 @@
   text-underline-offset: 3px;
 }
 
-@media (max-width: 960px) {
-  .df-app {
-    grid-template-columns: minmax(0, 1fr);
+/* Desktop: the photo card sits beside its foods */
+@media (min-width: 900px) {
+  .df-meal-view {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
   }
 
-  .df-main {
-    display: contents;
+  .df-cards {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
-
-  .df-search { order: 1; }
-  .df-actions { order: 2; margin-bottom: 8px; }
-  .df-fit { order: 3; position: static; }
-  .df-meals { order: 4; }
 }
 
+/* Phones: cards swipe sideways, sheets rise from the bottom */
 @media (max-width: 640px) {
   .page-dailyfit .page {
-    padding-top: 112px;
+    padding-top: 106px;
   }
 
-  .df-fit {
-    padding: 18px 12px;
-    border-radius: 24px;
+  .df-app {
+    gap: 24px;
   }
 
-  .df-nutrients {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 6px;
+  .df-cards {
+    margin: 0 -16px;
+    padding: 4px 16px 14px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
   }
 
-  .df-stack {
+  .df-cards::-webkit-scrollbar {
     display: none;
   }
 
-  .df-summary {
-    padding: 16px;
-    gap: 14px;
+  .df-card {
+    flex: 0 0 42%;
+    scroll-snap-align: start;
   }
 
-  .df-big-ring {
-    width: 96px;
-    height: 96px;
+  .df-card-btn {
+    min-height: 140px;
   }
 
-  .df-big-num strong {
-    font-size: 2.4rem;
+  .df-tabs {
+    margin: 0 -16px 14px;
+    padding: 0 16px;
   }
 
-  .df-summary-copy h2 {
-    font-size: 1.5rem;
+  .df-tab {
+    padding: 0 20px;
   }
 
-  .df-ring,
-  .df-ring-value {
-    width: 54px;
-    height: 54px;
-  }
-
-  .df-ring-name {
-    font-size: 0.74rem;
-  }
-
-  /* Sheets rise from the bottom on phones */
   .df-sheet {
     width: 100vw;
     max-width: 100vw;
+    max-height: calc(100vh - 24px);
     margin: auto 0 0;
-    border-radius: 28px 28px 0 0;
+    border-radius: 32px 32px 0 0;
   }
 
   .df-sheet-body {
-    padding: 22px 18px calc(22px + env(safe-area-inset-bottom));
+    padding: 20px 18px calc(20px + env(safe-area-inset-bottom));
+  }
+
+  .df-sheet-photo {
+    width: 190px;
+    height: 190px;
+    right: -44px;
+  }
+
+  .df-tiles {
+    gap: 8px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .df-ring-fill,
-  .df-big-fill,
+  .df-mini-ring .df-mini-fill,
+  .df-card-btn,
   .df-design-btn,
-  .df-ring-btn {
+  .df-tile span {
     transition: none;
   }
 
-  .df-ring-btn:hover {
+  .df-card-btn:hover {
     transform: none;
   }
 }

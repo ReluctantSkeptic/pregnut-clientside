@@ -7,19 +7,27 @@
   var DATA_URL = "/resource/daily-fit.v1.json";
   var STORE_KEY = "pregnut.dailyFit.v1";
   var SLOTS = [["breakfast", "Breakfast"], ["lunch", "Lunch"], ["snack", "Snack"], ["dinner", "Dinner"]];
+  // Shown while a meal is empty.
+  var SLOT_PHOTOS = {
+    breakfast: "/resource/portions/portion-oatmeal-100g.webp",
+    lunch: "/resource/portions/portion-lentils-100g.webp",
+    snack: "/resource/portions/portion-almonds-100g.webp",
+    dinner: "/resource/portions/portion-salmon-100g.webp"
+  };
   var STEPS = [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10];
   // Eggs, slices and bananas count in whole numbers (and a half).
   var COUNT_STEPS = [0.5, 1, 2, 3, 4, 5, 6, 8, 10];
   var MEASURE = /cup|tbsp|tsp|\boz\b|handful|portion|scoop|serving|container|order|plate|bowl|worth/;
   var FRACTIONS = { 0.125: "⅛", 0.25: "¼", 0.5: "½", 0.75: "¾", 1.5: "1½", 2.5: "2½" };
   var GRAMS = -1;
+  var CALORIES = 13; // index of calories in each food's values
 
   var data = null;
   var byId = {};
   var index = [];
   var state = loadState();
+  var tab = guessSlot();
   var sheet = null; // the item being added or edited
-  var openNutrient = -1;
   var undoState = null;
   var toastTimer = 0;
 
@@ -60,7 +68,7 @@
 
   function snapshot() { return JSON.parse(JSON.stringify(state)); }
 
-  // food: [id, label, image, level, warningText, values, portions, rank, alias]
+  // food: [id, label, image, level, warningText, values, portions, rank, alias, largeImage]
   function food(id) { return byId[id]; }
 
   function grams(item) {
@@ -82,11 +90,31 @@
     return total;
   }
 
+  function calories(items) {
+    return items.reduce(function (sum, item) {
+      var f = food(item.id);
+      return f ? sum + f[5][CALORIES] * grams(item) / 100 : sum;
+    }, 0);
+  }
+
   function percent(i, amount) { return amount / data.nutrients[i].target * 100; }
+
+  function ranked(items, count) {
+    return amounts(items).map(function (a, i) { return { i: i, p: percent(i, a) }; })
+      .filter(function (x) { return x.p >= 1; })
+      .sort(function (a, b) { return b.p - a.p; })
+      .slice(0, count);
+  }
 
   function fmtQty(q) {
     if (FRACTIONS[q]) return FRACTIONS[q];
     return String(Math.round(q * 100) / 100);
+  }
+
+  function fmtAmount(n) {
+    if (n >= 100) return String(Math.round(n));
+    if (n >= 10) return String(Math.round(n));
+    return String(Math.round(n * 10) / 10);
   }
 
   // "cup (8 fl oz)" -> "cups (8 fl oz)", "medium banana" -> "medium bananas"
@@ -105,12 +133,16 @@
     return head + tail;
   }
 
+  function portionText(f, u, q) {
+    var name = (f[6][u] || f[6][0])[0];
+    return fmtQty(q) + " " + (q > 1 ? plural(name) : name);
+  }
+
   function amountText(item) {
     var f = food(item.id);
     var g = Math.round(grams(item));
     if (item.u === GRAMS) return g + " g";
-    var name = (f[6][item.u] || f[6][0])[0];
-    return fmtQty(item.q) + " " + (item.q > 1 ? plural(name) : name) + " · " + g + " g";
+    return portionText(f, item.u, item.q) + " · " + g + " g";
   }
 
   // "Vitamin B12" -> "vitamin B12", "Iron" -> "iron", "DHA" stays.
@@ -119,6 +151,8 @@
     if (/^Vitamin /.test(name)) return "vitamin " + name.slice(8);
     return name.toLowerCase();
   }
+
+  function shortName(f) { return f[1].split(",")[0]; }
 
   function slotName(slot) {
     for (var i = 0; i < SLOTS.length; i++) if (SLOTS[i][0] === slot) return SLOTS[i][1];
@@ -133,13 +167,14 @@
     return "dinner";
   }
 
-  function thumb(f, className) {
-    if (f[2]) {
+  function photo(f, className, large) {
+    var src = large && f[9] ? f[9] : f[2];
+    if (src) {
       var img = el("img", className);
-      img.src = f[2];
+      img.src = src;
       img.alt = "";
-      img.width = 400;
-      img.height = 400;
+      img.width = large && f[9] ? 900 : 400;
+      img.height = img.width;
       img.loading = "lazy";
       img.decoding = "async";
       return img;
@@ -147,6 +182,19 @@
     var tile = el("span", className + " is-empty", f[1].charAt(0).toUpperCase());
     tile.setAttribute("aria-hidden", "true");
     return tile;
+  }
+
+  function openDialog(dialog) {
+    if (dialog.showModal) dialog.showModal(); else dialog.setAttribute("open", "");
+  }
+
+  function closeDialog(dialog) {
+    if (dialog.close) dialog.close(); else dialog.removeAttribute("open");
+  }
+
+  // Close a sheet by tapping the dimmed backdrop.
+  function closeOnBackdrop(dialog) {
+    dialog.addEventListener("click", function (ev) { if (ev.target === dialog) closeDialog(dialog); });
   }
 
   // Search ----------------------------------------------------------------
@@ -189,6 +237,7 @@
 
   var results = [];
   var active = -1;
+  var pendingSlot = null;
 
   function renderResults() {
     var list = $("DfResults");
@@ -210,11 +259,10 @@
       li.id = "DfResult" + i;
       li.setAttribute("role", "option");
       li.setAttribute("aria-selected", i === active ? "true" : "false");
-      li.appendChild(thumb(f, "df-result-photo"));
+      li.appendChild(photo(f, "df-result-photo"));
       var copy = el("span", "df-result-copy");
       copy.appendChild(el("span", "df-result-name", f[1]));
-      var unit = f[6][0];
-      copy.appendChild(el("span", "df-result-meta", fmtQty(unit[2] || 1) + " " + ((unit[2] || 1) > 1 ? plural(unit[0]) : unit[0])));
+      copy.appendChild(el("span", "df-result-meta", portionText(f, 0, f[6][0][2] || 1)));
       li.appendChild(copy);
       if (f[3] === 2) li.appendChild(el("span", "df-tag is-avoid", "Avoid"));
       li.addEventListener("mousedown", function (ev) { ev.preventDefault(); });
@@ -233,11 +281,16 @@
     results = [];
     active = -1;
     renderResults();
-    openAmount({ id: f[0], u: 0, q: f[6][0][2] || 1, slot: pendingSlot || guessSlot() }, -1);
+    openAmount({ id: f[0], u: 0, q: f[6][0][2] || 1, slot: pendingSlot || tab }, -1);
     pendingSlot = null;
   }
 
-  var pendingSlot = null;
+  function focusSearch(slot) {
+    pendingSlot = slot || null;
+    var input = $("DfSearch");
+    input.scrollIntoView({ block: "center", behavior: "smooth" });
+    input.focus({ preventScroll: true });
+  }
 
   function wireSearch() {
     var input = $("DfSearch");
@@ -264,9 +317,11 @@
     var f = food(item.id);
     if (!f) return;
     sheet = { item: { id: item.id, u: item.u, q: item.q, slot: item.slot }, edit: editIndex };
-    var photo = $("DfAmountPhoto");
-    clear(photo);
-    photo.appendChild(thumb(f, "df-sheet-img"));
+    var holder = $("DfAmountPhoto");
+    clear(holder);
+    holder.hidden = !f[9] && !f[2];
+    if (!holder.hidden) holder.appendChild(photo(f, "df-sheet-img", true));
+    holder.parentNode.classList.toggle("is-plain", holder.hidden);
     $("DfAmountName").textContent = f[1];
     var warn = $("DfAmountWarning");
     warn.hidden = !f[3];
@@ -274,8 +329,7 @@
     warn.textContent = f[3] === 2 ? "Pregnancy guidance says to avoid this. " + f[4] : f[4];
     $("DfRemove").hidden = editIndex < 0;
     renderSheet();
-    var dialog = $("DfAmount");
-    if (dialog.showModal) dialog.showModal(); else dialog.setAttribute("open", "");
+    openDialog($("DfAmount"));
     $("DfConfirm").focus();
   }
 
@@ -307,8 +361,7 @@
     $("DfGramsInput").hidden = !inGrams;
     if (inGrams) $("DfGramsInput").value = item.q;
     else $("DfQty").textContent = fmtQty(item.q);
-    $("DfGrams").textContent = inGrams ? "" : "About " + Math.round(grams(item)) + " g";
-
+    $("DfGrams").textContent = inGrams ? "" : Math.round(grams(item)) + " g";
     renderGains();
 
     var slots = $("DfSlots");
@@ -327,6 +380,22 @@
     $("DfConfirm").textContent = sheet.edit >= 0 ? "Save" : "Add to " + slotName(item.slot).toLowerCase();
   }
 
+  // What this amount adds, as tall stat bars; kept separate so typing grams isn't interrupted.
+  function renderGains() {
+    var gains = $("DfGains");
+    clear(gains);
+    var top = ranked([sheet.item], 3);
+    if (!top.length) { gains.appendChild(el("li", "df-gain is-quiet", "Small amounts of these nutrients")); return; }
+    top.forEach(function (x) {
+      var li = el("li", "df-gain");
+      var value = el("span", "df-gain-value", "+" + Math.round(x.p));
+      value.appendChild(el("small", "", "%"));
+      li.appendChild(value);
+      li.appendChild(el("span", "df-gain-name", data.nutrients[x.i].name));
+      gains.appendChild(li);
+    });
+  }
+
   function step(dir) {
     var item = sheet.item;
     if (item.u === GRAMS) {
@@ -342,23 +411,21 @@
     renderSheet();
   }
 
-  function closeSheet(dialog) {
-    if (dialog.close) dialog.close(); else dialog.removeAttribute("open");
-  }
-
   function wireSheet() {
+    var dialog = $("DfAmount");
+    closeOnBackdrop(dialog);
     $("DfLess").addEventListener("click", function () { step(-1); });
     $("DfMore").addEventListener("click", function () { step(1); });
     $("DfGramsInput").addEventListener("input", function () {
       var v = Number($("DfGramsInput").value);
       if (v > 0) { sheet.item.q = v; renderGains(); }
     });
-    $("DfCancel").addEventListener("click", function () { closeSheet($("DfAmount")); });
+    $("DfCancel").addEventListener("click", function () { closeDialog(dialog); });
     $("DfRemove").addEventListener("click", function () {
-      undoable("Removed " + food(sheet.item.id)[1]);
+      undoable("Removed " + shortName(food(sheet.item.id)));
       state.items.splice(sheet.edit, 1);
       commit();
-      closeSheet($("DfAmount"));
+      closeDialog(dialog);
     });
     $("DfAmountForm").addEventListener("submit", function (ev) {
       ev.preventDefault();
@@ -366,112 +433,172 @@
       if (sheet.edit >= 0) {
         state.items[sheet.edit] = item;
       } else {
-        undoable("Added " + food(item.id)[1] + " to " + slotName(item.slot).toLowerCase());
+        undoable("Added " + shortName(food(item.id)) + " to " + slotName(item.slot).toLowerCase());
         state.items.push(item);
       }
+      tab = item.slot;
       commit();
-      closeSheet($("DfAmount"));
+      closeDialog(dialog);
     });
   }
 
-  // What this amount adds; kept separate so typing grams isn't interrupted.
-  function renderGains() {
-    var gains = $("DfGains");
-    clear(gains);
-    var ranked = amounts([sheet.item]).map(function (a, i) { return { i: i, p: percent(i, a) }; })
-      .filter(function (x) { return x.p >= 1; })
-      .sort(function (a, b) { return b.p - a.p; })
-      .slice(0, 3);
-    if (!ranked.length) gains.appendChild(el("li", "df-gain is-quiet", "Small amounts of these nutrients"));
-    ranked.forEach(function (x) {
-      gains.appendChild(el("li", "df-gain", "+" + Math.round(x.p) + "% " + inSentence(data.nutrients[x.i].name)));
-    });
+  // Meals: tabs, a photo card for the chosen meal, and its foods ------------
+
+  function mealItems(slot) {
+    return state.items.filter(function (item) { return item.slot === slot && food(item.id); });
   }
 
-  // Meals -----------------------------------------------------------------
-
-  function renderMeals() {
-    var root = $("DfMeals");
+  function renderTabs() {
+    var root = $("DfTabs");
     clear(root);
     SLOTS.forEach(function (s) {
-      var section = el("section", "df-meal");
-      section.setAttribute("aria-label", s[1]);
-      var head = el("div", "df-meal-head");
-      var titles = el("div", "df-meal-titles");
-      titles.appendChild(el("h2", "df-meal-title", s[1]));
-      if (state.plan[s[0]]) titles.appendChild(el("p", "df-meal-plan", state.plan[s[0]]));
-      var mealItems = state.items.filter(function (item) { return item.slot === s[0] && food(item.id); });
-      if (mealItems.length) {
-        var best = amounts(mealItems).map(function (a, i) { return { i: i, p: percent(i, a) }; })
-          .sort(function (a, b) { return b.p - a.p; }).slice(0, 2)
-          .filter(function (x) { return x.p >= 5; });
-        if (best.length) {
-          titles.appendChild(el("p", "df-meal-gains", best.map(function (x) {
-            return "+" + Math.round(x.p) + "% " + inSentence(data.nutrients[x.i].name);
-          }).join(" · ")));
-        }
-        var stack = el("span", "df-stack");
-        stack.setAttribute("aria-hidden", "true");
-        mealItems.slice(0, 3).forEach(function (item) { stack.appendChild(thumb(food(item.id), "df-stack-photo")); });
-        head.appendChild(stack);
-      }
-      head.appendChild(titles);
-      var add = el("button", "df-meal-add", "Add");
-      add.type = "button";
-      add.setAttribute("aria-label", "Add a food to " + s[1].toLowerCase());
-      add.addEventListener("click", function () {
-        pendingSlot = s[0];
-        var input = $("DfSearch");
-        input.focus();
-        input.scrollIntoView({ block: "center", behavior: "smooth" });
-      });
-      head.appendChild(add);
-      section.appendChild(head);
-
-      var list = el("ul", "df-items");
-      state.items.forEach(function (item, i) {
-        if (item.slot !== s[0]) return;
-        var f = food(item.id);
-        if (!f) return;
-        var li = el("li", "df-item");
-        var open = el("button", "df-item-open");
-        open.type = "button";
-        open.setAttribute("aria-label", "Change amount of " + f[1]);
-        open.appendChild(thumb(f, "df-item-photo"));
-        var copy = el("span", "df-item-copy");
-        copy.appendChild(el("span", "df-item-name", f[1]));
-        copy.appendChild(el("span", "df-item-amount", amountText(item)));
-        open.appendChild(copy);
-        open.addEventListener("click", function () { openAmount(item, i); });
-        li.appendChild(open);
-        var remove = el("button", "df-item-remove", "×");
-        remove.type = "button";
-        remove.setAttribute("aria-label", "Remove " + f[1]);
-        remove.addEventListener("click", function () {
-          undoable("Removed " + f[1]);
-          state.items.splice(i, 1);
-          commit();
-        });
-        li.appendChild(remove);
-        list.appendChild(li);
-      });
-      if (!list.children.length) section.appendChild(el("p", "df-meal-empty", "Nothing yet"));
-      else section.appendChild(list);
-      root.appendChild(section);
+      var count = mealItems(s[0]).length;
+      var btn = el("button", "df-tab", s[1]);
+      btn.type = "button";
+      btn.setAttribute("role", "tab");
+      btn.setAttribute("aria-selected", tab === s[0] ? "true" : "false");
+      if (count) btn.appendChild(el("span", "df-tab-count", count));
+      btn.addEventListener("click", function () { tab = s[0]; renderMeals(); });
+      root.appendChild(btn);
     });
-    var any = state.items.length > 0;
-    $("DfClear").hidden = !any;
+  }
+
+  function heroCard(items) {
+    var card = el("div", "df-hero-card" + (items.length ? "" : " is-empty"));
+    // The biggest food with a photo leads; drinks only if nothing else has one.
+    var main = null;
+    items.forEach(function (item) {
+      var f = food(item.id);
+      if (!f[9] && !f[2]) return;
+      var drink = /fl oz/.test((f[6][item.u] || f[6][0])[0]);
+      var score = grams(item) - (drink ? 10000 : 0);
+      if (!main || score > main.score) main = { item: item, score: score };
+    });
+    var lead = main ? food(main.item.id) : null;
+    if (lead && lead[9]) {
+      card.appendChild(photo(lead, "df-hero-photo", true));
+    } else if (lead) {
+      // Small photos sit on a plate instead of being stretched.
+      card.className += " is-plate";
+      card.appendChild(photo(lead, "df-hero-plate"));
+    } else {
+      var img = el("img", "df-hero-photo");
+      img.src = SLOT_PHOTOS[tab];
+      img.alt = "";
+      img.width = 900;
+      img.height = 900;
+      card.appendChild(img);
+    }
+    var copy = el("div", "df-hero-copy");
+    if (items.length) {
+      copy.appendChild(el("h3", "", state.plan[tab] || "Your " + slotName(tab).toLowerCase()));
+      copy.appendChild(el("p", "", items.length + (items.length === 1 ? " food" : " foods") + " · " + Math.round(calories(items)) + " kcal"));
+    } else {
+      copy.appendChild(el("h3", "", "Nothing for " + slotName(tab).toLowerCase() + " yet"));
+      copy.appendChild(el("p", "", "Search a food, or let us design your day."));
+    }
+    card.appendChild(copy);
+    var add = el("button", "df-hero-add");
+    add.type = "button";
+    add.setAttribute("aria-label", "Add a food to " + slotName(tab).toLowerCase());
+    add.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
+    add.addEventListener("click", function () { focusSearch(tab); });
+    card.appendChild(add);
+    return card;
+  }
+
+  function mealStats(items) {
+    var stats = el("ul", "df-stats");
+    var protein = 0;
+    data.nutrients.forEach(function (n, i) { if (n.name === "Protein") protein = amounts(items)[i]; });
+    var best = ranked(items, 1)[0];
+    var rows = [
+      [String(Math.round(calories(items))), "", "Calories", "is-ink"],
+      [fmtAmount(protein), "g", "Protein", "is-green"],
+      best ? [String(Math.round(best.p)), "%", data.nutrients[best.i].name, "is-peach"] : ["0", "%", "Nutrients", "is-peach"]
+    ];
+    rows.forEach(function (r) {
+      var li = el("li", "df-stat " + r[3]);
+      var v = el("span", "df-stat-value", r[0]);
+      if (r[1]) v.appendChild(el("small", "", r[1]));
+      li.appendChild(v);
+      li.appendChild(el("span", "df-stat-name", r[2]));
+      stats.appendChild(li);
+    });
+    return stats;
+  }
+
+  function ingredientList(items) {
+    var box = el("div", "df-foods");
+    var head = el("div", "df-foods-head");
+    var titles = el("div");
+    titles.appendChild(el("h3", "", "Foods"));
+    titles.appendChild(el("p", "", items.length ? items.length + (items.length === 1 ? " food" : " foods") + " in " + slotName(tab).toLowerCase() : "Add what you ate"));
+    head.appendChild(titles);
+    var add = el("button", "df-round-btn");
+    add.type = "button";
+    add.setAttribute("aria-label", "Add a food to " + slotName(tab).toLowerCase());
+    add.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+    add.addEventListener("click", function () { focusSearch(tab); });
+    head.appendChild(add);
+    box.appendChild(head);
+
+    var list = el("ul", "df-items");
+    state.items.forEach(function (item, i) {
+      if (item.slot !== tab) return;
+      var f = food(item.id);
+      if (!f) return;
+      var li = el("li", "df-item");
+      var open = el("button", "df-item-open");
+      open.type = "button";
+      open.setAttribute("aria-label", "Change amount of " + f[1]);
+      var pic = el("span", "df-item-pic");
+      pic.appendChild(photo(f, "df-item-photo"));
+      open.appendChild(pic);
+      var copy = el("span", "df-item-copy");
+      copy.appendChild(el("span", "df-item-name", f[1]));
+      var top = ranked([item], 1)[0];
+      copy.appendChild(el("span", "df-item-amount", amountText(item) + (top && top.p >= 5 ? " · +" + Math.round(top.p) + "% " + inSentence(data.nutrients[top.i].name) : "")));
+      open.appendChild(copy);
+      open.addEventListener("click", function () { openAmount(item, i); });
+      li.appendChild(open);
+      var remove = el("button", "df-item-remove", "×");
+      remove.type = "button";
+      remove.setAttribute("aria-label", "Remove " + f[1]);
+      remove.addEventListener("click", function () {
+        undoable("Removed " + shortName(f));
+        state.items.splice(i, 1);
+        commit();
+      });
+      li.appendChild(remove);
+      list.appendChild(li);
+    });
+    if (list.children.length) box.appendChild(list);
+    return box;
+  }
+
+  function renderMeals() {
+    renderTabs();
+    var root = $("DfMeals");
+    clear(root);
+    var items = mealItems(tab);
+    var left = el("div", "df-meal-main");
+    left.appendChild(heroCard(items));
+    left.appendChild(mealStats(items));
+    root.appendChild(left);
+    root.appendChild(ingredientList(items));
+    $("DfClear").hidden = !state.items.length;
     $("DfShuffle").hidden = !Object.keys(state.plan).length;
   }
 
-  // Daily fit -------------------------------------------------------------
+  // Nutrient cards ----------------------------------------------------------
 
-  var RING = 2 * Math.PI * 26;
+  var RING = 2 * Math.PI * 9;
 
   function status(p) {
-    if (p >= 100) return ["is-covered", "Covered"];
-    if (p >= 50) return ["is-close", "Getting there"];
-    return [p > 0 ? "is-low" : "is-none", p > 0 ? "Low" : "Not yet"];
+    if (p >= 100) return "is-covered";
+    if (p >= 50) return "is-close";
+    return p > 0 ? "is-low" : "is-none";
   }
 
   function renderFit() {
@@ -482,131 +609,106 @@
     data.nutrients.forEach(function (n, i) {
       var p = percent(i, totals[i]);
       if (p >= 100) covered++;
-      var st = status(p);
-      var li = el("li", "df-nutrient " + st[0]);
-      var btn = el("button", "df-ring-btn");
+      var li = el("li", "df-card " + status(p));
+      var btn = el("button", "df-card-btn");
       btn.type = "button";
-      btn.setAttribute("aria-expanded", openNutrient === i ? "true" : "false");
-      btn.setAttribute("aria-label", n.name + ": " + Math.round(p) + "% of the daily pregnancy reference. " + st[1] + ".");
-      var svgNS = "http://www.w3.org/2000/svg";
-      var svg = document.createElementNS(svgNS, "svg");
-      svg.setAttribute("viewBox", "0 0 60 60");
-      svg.setAttribute("class", "df-ring");
-      svg.setAttribute("aria-hidden", "true");
-      var track = document.createElementNS(svgNS, "circle");
-      track.setAttribute("class", "df-ring-track");
-      var fill = document.createElementNS(svgNS, "circle");
-      fill.setAttribute("class", "df-ring-fill");
-      [track, fill].forEach(function (c) { c.setAttribute("cx", "30"); c.setAttribute("cy", "30"); c.setAttribute("r", "26"); });
-      fill.setAttribute("stroke-dasharray", RING.toFixed(1));
-      fill.setAttribute("stroke-dashoffset", (RING * (1 - Math.min(p, 100) / 100)).toFixed(1));
-      svg.appendChild(track);
-      svg.appendChild(fill);
-      btn.appendChild(svg);
-      btn.appendChild(el("span", "df-ring-value", p >= 100 ? "✓" : Math.round(p) + "%"));
-      btn.appendChild(el("span", "df-ring-name", n.name));
-      btn.addEventListener("click", function () {
-        openNutrient = openNutrient === i ? -1 : i;
-        renderFit();
-      });
+      btn.setAttribute("aria-label", n.name + ": " + Math.round(p) + "% of the daily pregnancy reference. Show foods.");
+      var top = el("span", "df-card-top");
+      top.appendChild(el("span", "df-card-name", n.name));
+      top.insertAdjacentHTML("beforeend", '<svg class="df-mini-ring" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle class="df-mini-fill" cx="12" cy="12" r="9" stroke-dasharray="' +
+        RING.toFixed(1) + '" stroke-dashoffset="' + (RING * (1 - Math.min(p, 100) / 100)).toFixed(1) + '"/></svg>');
+      btn.appendChild(top);
+      btn.appendChild(el("span", "df-card-label", fmtAmount(totals[i]) + " of " + n.target + " " + n.unit));
+      var value = el("span", "df-card-value", p >= 100 ? "✓ " + Math.round(p) : String(Math.round(p)));
+      value.appendChild(el("small", "", "%"));
+      btn.appendChild(value);
+      btn.addEventListener("click", function () { openNutrient(i); });
       li.appendChild(btn);
       list.appendChild(li);
     });
     $("DfCovered").textContent = covered;
     $("DfDockText").textContent = covered + " of 13";
-    renderSummary(totals, covered);
-    renderDetail(totals);
+    renderMood(totals, covered);
   }
 
-  var BIG_RING = 2 * Math.PI * 52;
-
-  // One glanceable number, an encouraging line, and the nutrients to look at next.
-  function renderSummary(totals, covered) {
-    var pcts = totals.map(function (a, i) { return percent(i, a); });
-    var overall = pcts.reduce(function (sum, p) { return sum + Math.min(100, p); }, 0) / pcts.length;
-    var fill = $("DfBigFill");
-    fill.setAttribute("stroke-dasharray", BIG_RING.toFixed(1));
-    fill.setAttribute("stroke-dashoffset", (BIG_RING * (1 - overall / 100)).toFixed(1));
-
-    var low = pcts.map(function (p, i) { return { i: i, p: p }; })
+  function renderMood(totals, covered) {
+    var low = totals.map(function (a, i) { return { i: i, p: percent(i, a) }; })
       .filter(function (x) { return x.p < 100; })
       .sort(function (a, b) { return a.p - b.p; });
     var lowest = low.length ? inSentence(data.nutrients[low[0].i].name) : "";
     var mood;
-    if (!state.items.length) mood = "Add your first food, or let us plan the day for you.";
-    else if (covered === pcts.length) mood = "Every nutrient covered. What a day.";
+    if (!state.items.length) mood = "Add what you ate and watch your nutrients fill up.";
+    else if (covered === totals.length) mood = "Every nutrient covered. What a day.";
     else if (covered >= 10) mood = "Almost there. A little more " + lowest + " would round it out.";
     else if (covered >= 5) mood = "Good progress. " + lowest.charAt(0).toUpperCase() + lowest.slice(1) + " could use a boost.";
     else mood = "A good start. Keep going.";
     $("DfMood").textContent = mood;
-
-    var chips = $("DfLow");
-    clear(chips);
-    if (!state.items.length) return;
-    low.slice(0, 3).forEach(function (x) {
-      var li = el("li");
-      var btn = el("button", "df-low-chip", data.nutrients[x.i].name + " " + Math.round(x.p) + "%");
-      btn.type = "button";
-      btn.setAttribute("aria-label", "Show foods for " + data.nutrients[x.i].name);
-      btn.addEventListener("click", function () {
-        openNutrient = x.i;
-        renderFit();
-        $("DfDetail").scrollIntoView({ block: "nearest", behavior: "smooth" });
-      });
-      li.appendChild(btn);
-      chips.appendChild(li);
-    });
   }
 
-  function renderDetail(totals) {
-    var box = $("DfDetail");
-    clear(box);
-    if (openNutrient < 0) { box.hidden = true; return; }
-    var i = openNutrient;
+  // Tapping a card opens a sheet: where it stands, what fed it, what would help.
+  function openNutrient(i) {
+    var totals = amounts(state.items);
     var n = data.nutrients[i];
     var p = percent(i, totals[i]);
-    var head = el("div", "df-detail-head");
-    head.appendChild(el("h3", "", n.name));
-    var amount = Math.round(totals[i] * 10) / 10;
-    head.appendChild(el("p", "", amount + " of " + n.target + " " + n.unit + (p >= 100 ? " · covered" : " · " + Math.max(1, Math.round(100 - p)) + "% to go")));
-    box.appendChild(head);
+    var body = $("DfNutrientBody");
+    clear(body);
+
+    var top = el("div", "df-sheet-top");
+    top.appendChild(el("h2", "", n.name));
+    var close = el("button", "df-skip", "Close");
+    close.type = "button";
+    close.addEventListener("click", function () { closeDialog($("DfNutrientSheet")); });
+    top.appendChild(close);
+    body.appendChild(top);
+    body.appendChild(el("p", "df-sub", fmtAmount(totals[i]) + " of " + n.target + " " + n.unit + (p >= 100 ? " · covered for today" : " · " + Math.max(1, Math.round(100 - p)) + "% to go")));
+    var meter = el("div", "df-meter " + status(p));
+    var bar = el("span");
+    bar.style.width = Math.min(100, p) + "%";
+    meter.appendChild(bar);
+    body.appendChild(meter);
 
     var from = state.items.map(function (item) {
       var f = food(item.id);
       return { f: f, p: percent(i, f[5][i] * grams(item) / 100) };
     }).filter(function (x) { return x.p >= 1; }).sort(function (a, b) { return b.p - a.p; }).slice(0, 3);
     if (from.length) {
-      box.appendChild(el("p", "df-detail-from", "Mostly from " + from.map(function (x) { return x.f[1].split(",")[0].toLowerCase(); }).join(", ") + "."));
+      body.appendChild(el("p", "df-detail-from", "Mostly from " + from.map(function (x) { return shortName(x.f).toLowerCase(); }).join(", ") + "."));
     }
 
     if (p < 100) {
-      box.appendChild(el("p", "df-label", "Foods that help"));
-      var helpers = el("ul", "df-helpers");
+      body.appendChild(el("p", "df-label", "Foods that help"));
+      var helpers = el("ul", "df-items");
       data.helpers[i].forEach(function (id) {
         var f = food(id);
         if (!f) return;
         var unit = f[6][0];
         var q = unit[2] || 1;
         var gain = percent(i, f[5][i] * unit[1] * q / 100);
-        var li = el("li");
-        var btn = el("button", "df-helper");
+        var li = el("li", "df-item");
+        var btn = el("button", "df-item-open");
         btn.type = "button";
-        btn.appendChild(thumb(f, "df-helper-photo"));
-        var copy = el("span", "df-helper-copy");
-        copy.appendChild(el("span", "df-helper-name", f[1].split(",")[0]));
-        copy.appendChild(el("span", "df-helper-gain", "+" + Math.round(gain) + "% in " + fmtQty(q) + " " + (q > 1 ? plural(unit[0]) : unit[0])));
-        btn.appendChild(copy);
         btn.setAttribute("aria-label", "Add " + f[1]);
-        btn.addEventListener("click", function () { openAmount({ id: id, u: 0, q: q, slot: guessSlot() }, -1); });
+        var pic = el("span", "df-item-pic");
+        pic.appendChild(photo(f, "df-item-photo"));
+        btn.appendChild(pic);
+        var copy = el("span", "df-item-copy");
+        copy.appendChild(el("span", "df-item-name", shortName(f)));
+        copy.appendChild(el("span", "df-item-amount", "+" + Math.round(gain) + "% in " + portionText(f, 0, q)));
+        btn.appendChild(copy);
+        btn.addEventListener("click", function () {
+          closeDialog($("DfNutrientSheet"));
+          openAmount({ id: id, u: 0, q: q, slot: tab }, -1);
+        });
         li.appendChild(btn);
+        li.appendChild(el("span", "df-item-plus", "+"));
         helpers.appendChild(li);
       });
-      box.appendChild(helpers);
+      body.appendChild(helpers);
     }
     var more = el("a", "df-detail-link", "Why " + inSentence(n.name) + " matters in pregnancy");
     more.href = n.guide;
-    box.appendChild(more);
-    box.hidden = false;
+    body.appendChild(more);
+    openDialog($("DfNutrientSheet"));
   }
 
   // Design my day ---------------------------------------------------------
@@ -620,7 +722,7 @@
     return meal[5] <= prep;
   }
 
-  function mealItems(meal, slot) {
+  function planItems(meal, slot) {
     return meal[6].map(function (it) { return { id: it[0], q: it[1], u: it[2] || 0, slot: slot }; });
   }
 
@@ -648,7 +750,7 @@
       });
       if (pick.some(function (m) { return !m; })) continue;
       var items = [];
-      pick.forEach(function (m, k) { items = items.concat(mealItems(m, SLOTS[k][0])); });
+      pick.forEach(function (m, k) { items = items.concat(planItems(m, SLOTS[k][0])); });
       var totals = amounts(items);
       var score = totals.reduce(function (sum, a, i) { return sum + Math.min(100, percent(i, a)); }, 0) + Math.random() * 40;
       if (score > bestScore) { bestScore = score; best = { pick: pick, items: items }; }
@@ -668,38 +770,36 @@
   function wireDesign() {
     var dialog = $("DfDesign");
     var form = $("DfDesignForm");
-    var prep = $("DfPrep");
-    var prepWords = ["", "Minimal", "Some", "Happy to cook"];
-    prep.addEventListener("input", function () { prep.setAttribute("aria-valuetext", prepWords[prep.value]); });
+    closeOnBackdrop(dialog);
     $("DfDesignOpen").addEventListener("click", function () {
       var p = state.prefs;
       form.querySelector("input[name=style][value=" + p.style + "]").checked = true;
       form.elements.df.checked = !!p.df;
       form.elements.gf.checked = !!p.gf;
-      prep.value = p.prep;
-      prep.setAttribute("aria-valuetext", prepWords[p.prep]);
+      form.querySelector("input[name=prep][value='" + p.prep + "']").checked = true;
       $("DfDesignHint").hidden = !state.items.length;
-      if (dialog.showModal) dialog.showModal(); else dialog.setAttribute("open", "");
+      openDialog(dialog);
     });
     $("DfDesignOpen").disabled = false;
-    $("DfDesignCancel").addEventListener("click", function () { closeSheet(dialog); });
+    $("DfDesignCancel").addEventListener("click", function () { closeDialog(dialog); });
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       state.prefs = {
         style: form.querySelector("input[name=style]:checked").value,
         df: form.elements.df.checked,
         gf: form.elements.gf.checked,
-        prep: Number(prep.value)
+        prep: Number(form.querySelector("input[name=prep]:checked").value)
       };
       if (state.items.length) undoable("Planned a new day");
       applyPlan(null);
-      closeSheet(dialog);
-      $("DfMeals").scrollIntoView({ block: "start", behavior: "smooth" });
+      tab = "breakfast";
+      renderMeals();
+      closeDialog(dialog);
+      $("DfFit").scrollIntoView({ block: "start", behavior: "smooth" });
     });
     $("DfShuffle").addEventListener("click", function () {
       undoable("Shuffled your day");
-      var current = SLOTS.map(function (s) { return state.plan[s[0]]; });
-      applyPlan(current);
+      applyPlan(SLOTS.map(function (s) { return state.plan[s[0]]; }));
     });
     $("DfClear").addEventListener("click", function () {
       undoable("Cleared today");
@@ -709,7 +809,7 @@
     });
   }
 
-  // Undo toast and peek bar -------------------------------------------------
+  // Undo toast and phone dock ---------------------------------------------
 
   function undoable(message) {
     undoState = snapshot();
@@ -736,15 +836,16 @@
     $("DfDockScore").addEventListener("click", function () {
       $("DfFit").scrollIntoView({ block: "start", behavior: "smooth" });
     });
-    $("DfDockAdd").addEventListener("click", function () {
-      var input = $("DfSearch");
-      input.scrollIntoView({ block: "center", behavior: "smooth" });
-      input.focus({ preventScroll: true });
-    });
+    $("DfDockAdd").addEventListener("click", function () { focusSearch(null); });
     if (!("IntersectionObserver" in window)) return;
     new IntersectionObserver(function (entries) {
       dock.hidden = entries[0].isIntersecting || window.matchMedia("(min-width: 961px)").matches;
     }).observe($("DfSearch"));
+  }
+
+  function greet() {
+    var h = new Date().getHours();
+    $("DfHello").textContent = h < 12 ? "Good morning," : h < 17 ? "Good afternoon," : "Good evening,";
   }
 
   function commit() {
@@ -757,6 +858,8 @@
     data = json;
     data.foods.forEach(function (f) { byId[f[0]] = f; });
     state.items = state.items.filter(function (item) { return byId[item.id]; });
+    closeOnBackdrop($("DfNutrientSheet"));
+    greet();
     buildIndex();
     wireSearch();
     wireSheet();

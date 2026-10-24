@@ -48,8 +48,12 @@ const PORTION_PHOTOS = {
   bread: ["18075", "18064"], banana: ["09040"], apple: ["09003", "09004"], blueberries: ["09050"]
 };
 const portionPhoto = new Map();
+const largePhoto = new Map();
 for (const [name, ids] of Object.entries(PORTION_PHOTOS)) {
-  for (const id of ids) portionPhoto.set(id, `/resource/portions/portion-${name}-100g-600.webp`);
+  for (const id of ids) {
+    portionPhoto.set(id, `/resource/portions/portion-${name}-100g-600.webp`);
+    largePhoto.set(id, `/resource/portions/portion-${name}-100g.webp`);
+  }
 }
 
 const WHOLE_GROUPS = new Set([
@@ -90,7 +94,8 @@ module.exports = class DailyFitData {
       // Search rank: staples used in meals first, then foods with photos.
       const rank = (mealIds.has(food.id) ? 2 : 0) + (image ? 1 : 0) - (TREAT_GROUPS.has(food.group) ? 2 : 0) -
         (food.uncommon ? 3 : 0) - (level === 2 ? 2 : 0);
-      foods.push([food.id, label, image, level, level ? food.warningText || "" : "", values, portions, rank, ALIASES[food.id] || ""]);
+      foods.push([food.id, label, image, level, level ? food.warningText || "" : "", values, portions, rank,
+        ALIASES[food.id] || "", largePhoto.get(food.id) || ""]);
       if (mealIds.has(food.id) && level < 2 && WHOLE_GROUPS.has(food.group)) helperPool.push({ food, portions, values });
     }
 
