@@ -5,9 +5,9 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20261015-no-caps
+  - /style/home.css?v=20261024-type
 pageScripts:
-  - /js/home.js?v=20261014-transparent-art
+  - /js/home.js?v=20261024-deck
 ---
 
 <section class="home-hero" aria-label="Hero">
@@ -17,7 +17,7 @@ pageScripts:
     <p class="home-hero-lede">Clear, source-linked food guidance for every stage of pregnancy.</p>
     <div class="home-actions">
       <a class="home-action is-primary" href="/weekly-diet/">See your weekly guide</a>
-      <a class="home-action is-secondary" href="/app/">Explore top foods</a>
+      <a class="home-action is-secondary" href="/pregnancy-nutrition-calculator/">Check today's nutrients</a>
     </div>
   </div>
   <figure class="home-food-gallery" aria-label="Everyday foods to explore">
@@ -35,7 +35,7 @@ pageScripts:
     <figcaption aria-hidden="true"><span>Leafy greens</span><span>Berries</span><span>Avocado</span><span>Lentils</span><span>Salmon</span><span>Sweet potato</span><span>Eggs</span><span>Broccoli</span><span>Greek yogurt</span></figcaption>
   </figure>
 </section>
-<a class="home-mobile-cta" href="/weekly-diet/">See your weekly guide</a>
+<a class="home-mobile-cta" id="HomeMobileCta" href="/weekly-diet/">See your weekly guide</a>
 
 <section class="section home-slab is-tone" id="home-explore" aria-label="How to use PregNut">
   <div class="home-slab-shell">
@@ -66,6 +66,23 @@ pageScripts:
           </p>
         </div>
       </section>
+
+      <article class="home-dailyfit" aria-labelledby="home-dailyfit-title">
+        <div class="home-dailyfit-copy">
+          <h3 class="home-lede" id="home-dailyfit-title">Daily Fit</h3>
+          <p class="home-feature-text">Add what you ate in cups, slices or servings and watch 13 pregnancy nutrients fill up. Or let it plan a day of easy meals.</p>
+          <a class="home-feature-cta is-dark" href="/pregnancy-nutrition-calculator/">Check today's nutrients</a>
+        </div>
+        <div class="home-dailyfit-preview" aria-hidden="true">
+          <div class="home-df-tabs"><span class="is-on">Breakfast</span><span>Lunch</span><span>Snack</span><span>Dinner</span></div>
+          <div class="home-df-cards">
+            <div class="home-df-card is-covered"><span>Folate</span><small>820 of 600 mcg</small><strong>✓ 137<i>%</i></strong></div>
+            <div class="home-df-card is-close"><span>Iron</span><small>17 of 27 mg</small><strong>64<i>%</i></strong></div>
+            <div class="home-df-card is-covered"><span>Choline</span><small>475 of 450 mg</small><strong>✓ 106<i>%</i></strong></div>
+            <div class="home-df-card"><span>DHA</span><small>0.1 of 0.3 g</small><strong>33<i>%</i></strong></div>
+          </div>
+        </div>
+      </article>
 
       <div class="home-use-grid" aria-label="Feature highlights">
         <article class="home-feature" data-kind="topfoods">
@@ -141,12 +158,12 @@ pageScripts:
     <p class="home-slab-desc">Food safety: <a href="/blog/food-safety-pregnancy/">what to check before you eat</a> · <a href="/blog/eggs-during-pregnancy/">eggs</a> · <a href="/blog/sprouts-during-pregnancy/">sprouts</a> · <a href="/blog/deli-meat-pregnancy/">deli meat</a> · <a href="/blog/soft-cheese-pregnancy/">soft cheese</a> · <a href="/blog/juice-pasteurization-pregnancy/">juice</a> · <a href="/blog/caffeine-coffee-tea-pregnancy/">caffeine</a> · <a href="/blog/foods-for-morning-sickness-pregnancy/">morning sickness</a></p>
   </div>
   <div id="NeedsDeck" aria-label="Nutrient reference amounts and roles">
-    {% for group in nutrientGuidance | batch(4) %}
-    <section class="nutrient-stack-section" aria-label="Nutrient cards {{ loop.index }}">
+    {% set group = nutrientGuidance %}
+    <section class="nutrient-stack-section" style="--n: {{ group.length }}" aria-label="Nutrient cards">
       <div class="nutrient-stack-sticky">
         <div class="nutrient-stack-layout">
           <div class="nutrient-stack-context">
-            <ol class="nutrient-stack-titles" aria-label="Nutrients in this stack">
+            <ol class="nutrient-stack-titles" aria-label="Nutrients">
               {% for nutrient in group %}
               <li data-stack-link="{{ loop.index0 }}">{{ nutrient.label }}</li>
               {% endfor %}
@@ -169,6 +186,13 @@ pageScripts:
         </div>
       </div>
     </section>
-    {% endfor %}
+  </div>
+</section>
+<section class="home-closer" aria-labelledby="home-closer-title">
+  <h2 class="home-closer-title" id="home-closer-title">Start with <em>today.</em></h2>
+  <p>Check what you've eaten so far, or see what matters this week.</p>
+  <div class="home-actions">
+    <a class="home-action is-primary" href="/pregnancy-nutrition-calculator/">Check today's nutrients</a>
+    <a class="home-action is-secondary" href="/weekly-diet/">See your weekly guide</a>
   </div>
 </section>

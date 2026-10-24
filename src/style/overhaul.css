@@ -161,7 +161,7 @@
 
 .weekly-timeline-label {
   color: #727a77;
-  font-family: "Geist", "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.66rem;
   font-weight: 600;
   line-height: 1.2;
@@ -173,7 +173,7 @@
   max-width: 100%;
   overflow: hidden;
   color: #4f5955;
-  font-family: "Geist", "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.73rem;
   font-weight: 600;
   line-height: 1.22;

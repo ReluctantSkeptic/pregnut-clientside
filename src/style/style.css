@@ -1,29 +1,39 @@
 @font-face {
-  font-family: "Geist";
+  font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: 400 700;
+  font-weight: 300 700;
   font-display: swap;
-  src: url("/style/fonts/geist-latin.woff2") format("woff2");
+  src: url("/style/fonts/space-grotesk-latin.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Instrument Serif";
+  font-family: "Junicode";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300 450;
   font-display: swap;
-  src: url("/style/fonts/instrument-serif-latin.woff2") format("woff2");
+  src: url("/style/fonts/junicode-regular-latin.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Instrument Serif";
+  font-family: "Junicode";
+  font-style: normal;
+  font-weight: 451 800;
+  font-display: swap;
+  src: url("/style/fonts/junicode-medium-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Junicode";
   font-style: italic;
-  font-weight: 400;
+  font-weight: 300 800;
   font-display: swap;
-  src: url("/style/fonts/instrument-serif-italic-latin.woff2") format("woff2");
+  src: url("/style/fonts/junicode-italic-latin.woff2") format("woff2");
 }
 
 :root {
   color-scheme: light;
+  --font-serif: "Junicode", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  --font-sans: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
   --bg: #f3f0e8;
   --bg-2: #e9e5da;
   --surface: #fbfaf6;
@@ -54,6 +64,7 @@ html {
 }
 
 body {
+  font-variant-numeric: lining-nums;
   min-height: 100vh;
   margin: 0;
   display: flex;
@@ -61,7 +72,7 @@ body {
   overflow-x: hidden;
   color: var(--ink);
   background: var(--bg);
-  font-family: "Geist", "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -104,7 +115,7 @@ h2,
 h3 {
   margin: 0 0 16px;
   color: var(--ink);
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--font-serif);
   font-weight: 400;
   line-height: 1.02;
   letter-spacing: -0.025em;
@@ -209,7 +220,7 @@ p {
 }
 
 .nav-pill-brand {
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 1.35rem;
 }
 
@@ -227,7 +238,7 @@ p {
 }
 
 .brand-name {
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 1.45rem;
   line-height: 1;
 }
@@ -388,7 +399,7 @@ p {
   max-width: 900px;
   margin-bottom: 20px;
   font-size: clamp(3.8rem, 8vw, 7.8rem);
-  line-height: 0.94;
+  line-height: 1;
   letter-spacing: -0.045em;
 }
 
@@ -518,7 +529,7 @@ p {
 .footer-name {
   margin: 0 0 4px;
   color: #fff;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 2rem;
   line-height: 1;
 }
