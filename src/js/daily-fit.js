@@ -7,11 +7,11 @@
   var DATA_URL = "/resource/daily-fit.v1.json";
   var STORE_KEY = "pregnut.dailyFit.v1";
   var SLOTS = [["breakfast", "Breakfast"], ["lunch", "Lunch"], ["snack", "Snack"], ["dinner", "Dinner"]];
-  var STEPS = [0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10];
+  var STEPS = [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10];
   // Eggs, slices and bananas count in whole numbers (and a half).
   var COUNT_STEPS = [0.5, 1, 2, 3, 4, 5, 6, 8, 10];
   var MEASURE = /cup|tbsp|tsp|\boz\b|handful|portion|scoop|serving|container|order|plate|bowl|worth/;
-  var FRACTIONS = { 0.25: "¼", 0.5: "½", 0.75: "¾", 1.5: "1½", 2.5: "2½" };
+  var FRACTIONS = { 0.125: "⅛", 0.25: "¼", 0.5: "½", 0.75: "¾", 1.5: "1½", 2.5: "2½" };
   var GRAMS = -1;
 
   var data = null;
@@ -400,6 +400,21 @@
       var titles = el("div", "df-meal-titles");
       titles.appendChild(el("h2", "df-meal-title", s[1]));
       if (state.plan[s[0]]) titles.appendChild(el("p", "df-meal-plan", state.plan[s[0]]));
+      var mealItems = state.items.filter(function (item) { return item.slot === s[0] && food(item.id); });
+      if (mealItems.length) {
+        var best = amounts(mealItems).map(function (a, i) { return { i: i, p: percent(i, a) }; })
+          .sort(function (a, b) { return b.p - a.p; }).slice(0, 2)
+          .filter(function (x) { return x.p >= 5; });
+        if (best.length) {
+          titles.appendChild(el("p", "df-meal-gains", best.map(function (x) {
+            return "+" + Math.round(x.p) + "% " + inSentence(data.nutrients[x.i].name);
+          }).join(" · ")));
+        }
+        var stack = el("span", "df-stack");
+        stack.setAttribute("aria-hidden", "true");
+        mealItems.slice(0, 3).forEach(function (item) { stack.appendChild(thumb(food(item.id), "df-stack-photo")); });
+        head.appendChild(stack);
+      }
       head.appendChild(titles);
       var add = el("button", "df-meal-add", "Add");
       add.type = "button";
@@ -456,7 +471,7 @@
   function status(p) {
     if (p >= 100) return ["is-covered", "Covered"];
     if (p >= 50) return ["is-close", "Getting there"];
-    return ["is-low", p > 0 ? "Low" : "Not yet"];
+    return [p > 0 ? "is-low" : "is-none", p > 0 ? "Low" : "Not yet"];
   }
 
   function renderFit() {
@@ -498,8 +513,49 @@
       list.appendChild(li);
     });
     $("DfCovered").textContent = covered;
-    $("DfPeekText").textContent = covered + " of 13 covered";
+    $("DfDockText").textContent = covered + " of 13";
+    renderSummary(totals, covered);
     renderDetail(totals);
+  }
+
+  var BIG_RING = 2 * Math.PI * 52;
+
+  // One glanceable number, an encouraging line, and the nutrients to look at next.
+  function renderSummary(totals, covered) {
+    var pcts = totals.map(function (a, i) { return percent(i, a); });
+    var overall = pcts.reduce(function (sum, p) { return sum + Math.min(100, p); }, 0) / pcts.length;
+    var fill = $("DfBigFill");
+    fill.setAttribute("stroke-dasharray", BIG_RING.toFixed(1));
+    fill.setAttribute("stroke-dashoffset", (BIG_RING * (1 - overall / 100)).toFixed(1));
+
+    var low = pcts.map(function (p, i) { return { i: i, p: p }; })
+      .filter(function (x) { return x.p < 100; })
+      .sort(function (a, b) { return a.p - b.p; });
+    var lowest = low.length ? inSentence(data.nutrients[low[0].i].name) : "";
+    var mood;
+    if (!state.items.length) mood = "Add your first food, or let us plan the day for you.";
+    else if (covered === pcts.length) mood = "Every nutrient covered. What a day.";
+    else if (covered >= 10) mood = "Almost there. A little more " + lowest + " would round it out.";
+    else if (covered >= 5) mood = "Good progress. " + lowest.charAt(0).toUpperCase() + lowest.slice(1) + " could use a boost.";
+    else mood = "A good start. Keep going.";
+    $("DfMood").textContent = mood;
+
+    var chips = $("DfLow");
+    clear(chips);
+    if (!state.items.length) return;
+    low.slice(0, 3).forEach(function (x) {
+      var li = el("li");
+      var btn = el("button", "df-low-chip", data.nutrients[x.i].name + " " + Math.round(x.p) + "%");
+      btn.type = "button";
+      btn.setAttribute("aria-label", "Show foods for " + data.nutrients[x.i].name);
+      btn.addEventListener("click", function () {
+        openNutrient = x.i;
+        renderFit();
+        $("DfDetail").scrollIntoView({ block: "nearest", behavior: "smooth" });
+      });
+      li.appendChild(btn);
+      chips.appendChild(li);
+    });
   }
 
   function renderDetail(totals) {
@@ -674,14 +730,21 @@
     });
   }
 
-  function wirePeek() {
-    var peek = $("DfPeek");
-    var fit = $("DfFit");
-    peek.addEventListener("click", function () { fit.scrollIntoView({ block: "start", behavior: "smooth" }); });
+  // Phones get a bottom dock once the search bar scrolls away.
+  function wireDock() {
+    var dock = $("DfDock");
+    $("DfDockScore").addEventListener("click", function () {
+      $("DfFit").scrollIntoView({ block: "start", behavior: "smooth" });
+    });
+    $("DfDockAdd").addEventListener("click", function () {
+      var input = $("DfSearch");
+      input.scrollIntoView({ block: "center", behavior: "smooth" });
+      input.focus({ preventScroll: true });
+    });
     if (!("IntersectionObserver" in window)) return;
     new IntersectionObserver(function (entries) {
-      peek.hidden = entries[0].isIntersecting || window.matchMedia("(min-width: 961px)").matches;
-    }).observe(fit);
+      dock.hidden = entries[0].isIntersecting || window.matchMedia("(min-width: 961px)").matches;
+    }).observe($("DfSearch"));
   }
 
   function commit() {
@@ -699,7 +762,7 @@
     wireSheet();
     wireDesign();
     wireToast();
-    wirePeek();
+    wireDock();
     commit();
   }
 

@@ -5,9 +5,9 @@ layout: base.njk
 permalink: /pregnancy-nutrition-calculator/index.html
 bodyClass: page-dailyfit
 pageStyles:
-  - /style/daily-fit.css?v=20261024
+  - /style/daily-fit.css?v=20261024-ui
 pageScripts:
-  - /js/daily-fit.js?v=20261024
+  - /js/daily-fit.js?v=20261024-ui
 ---
 
 <header class="df-hero">
@@ -32,9 +32,16 @@ pageScripts:
   </div>
 
   <aside class="df-fit" id="DfFit" aria-labelledby="DfFitTitle">
-    <div class="df-fit-head">
-      <h2 id="DfFitTitle">Your daily fit</h2>
-      <p class="df-score"><strong id="DfCovered">0</strong> of 13 covered</p>
+    <div class="df-summary">
+      <div class="df-big-ring">
+        <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="df-big-track" cx="60" cy="60" r="52"/><circle class="df-big-fill" id="DfBigFill" cx="60" cy="60" r="52"/></svg>
+        <p class="df-big-num"><strong id="DfCovered">0</strong><span>of 13</span></p>
+      </div>
+      <div class="df-summary-copy">
+        <h2 id="DfFitTitle">Your daily fit</h2>
+        <p class="df-mood" id="DfMood"></p>
+        <ul class="df-low" id="DfLow" aria-label="Lowest today"></ul>
+      </div>
     </div>
     <ul class="df-nutrients" id="DfNutrients"></ul>
     <div class="df-detail" id="DfDetail" hidden></div>
@@ -42,7 +49,10 @@ pageScripts:
   </aside>
 </div>
 
-<button class="df-peek" id="DfPeek" type="button" hidden><span id="DfPeekText">0 of 13 covered</span></button>
+<div class="df-dock" id="DfDock" hidden>
+  <button class="df-dock-score" id="DfDockScore" type="button"><span id="DfDockText">0 of 13</span> covered</button>
+  <button class="df-dock-add" id="DfDockAdd" type="button">Add food</button>
+</div>
 
 <dialog class="df-sheet" id="DfAmount" aria-labelledby="DfAmountName">
   <form method="dialog" class="df-sheet-body" id="DfAmountForm">

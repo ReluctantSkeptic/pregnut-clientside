@@ -42,13 +42,13 @@ const RULES = [
   R(/dressing|mayonnaise/, [["tbsp", 15, 2]]),
   R(/^oil\b|\boil$|oil, |^fat\b|lard|shortening|tallow|grease/, [["tbsp", 14], ["tsp", 5]]),
   R(/peanut butter|almond butter|cashew butter|sesame butter|tahini|nut butter|hazelnut spread/, [["tbsp", 16, 2]]),
-  R(/hummus|dip\b/, [["tbsp", 15, 2], ["¼ cup", 62]]),
+  R(/hummus|dip\b/, [["tbsp", 15, 2], ["cup", 248, 0.25]]),
   R(/honey|syrup|molasses|jam|jelly|preserves|marmalade|agave|sugar/, [["tbsp", 20], ["tsp", 7]]),
   R(/applesauce/, [["cup", 244, 0.5]]),
   R(/dulce de leche/, [["tbsp", 19, 2]]),
-  R(/croutons/, [["¼ cup", 10]]),
+  R(/croutons/, [["cup", 40, 0.25]]),
   R(/phyllo/, [["sheet", 19, 2]]),
-  R(/salsa|sauce|ketchup|mustard|gravy|relish|vinegar/, [["tbsp", 16, 2], ["¼ cup", 62]]),
+  R(/salsa|sauce|ketchup|mustard|gravy|relish|vinegar/, [["tbsp", 16, 2], ["cup", 250, 0.25]]),
 
   // Breads and bakery
   R(/bagel(?! chips)/, [["bagel", 100]]),
@@ -75,7 +75,7 @@ const RULES = [
   // Breakfast cereals
   R(/oats?\b.*(cooked|prepared)|oatmeal, |cream of (wheat|rice).*cooked|grits.*cooked/, [["cup cooked", 234]]),
   R(/granola|muesli|alpen/, [["cup", 55, 0.5]]),
-  R(/wheat germ|oat bran/, [["tbsp", 7, 2], ["¼ cup", 28]]),
+  R(/wheat germ|oat bran/, [["tbsp", 7, 2], ["cup", 112, 0.25]]),
   R(/./, [["bowl (1 cup)", 30]], "Breakfast Cereals"),
 
   // Grains, pasta, rice
@@ -117,7 +117,7 @@ const RULES = [
   R(/./, [["slice", 28, 2]], "Sausages and Luncheon Meats"),
 
   // Fruits
-  R(/dried|dehydrated|raisins|prunes|dates|currants/, [["¼ cup", 40]], "Fruits and Fruit Juices"),
+  R(/dried|dehydrated|raisins|prunes|dates|currants/, [["cup", 160, 0.25]], "Fruits and Fruit Juices"),
   R(/banana/, [["medium banana", 118]], FRUIT),
   R(/apples?\b/, [["medium apple", 182]], FRUIT),
   R(/oranges?\b/, [["medium orange", 140]], FRUIT),
@@ -136,7 +136,7 @@ const RULES = [
   R(/grapes/, [["cup", 151]], FRUIT),
   R(/cherries/, [["cup", 154]], FRUIT),
   R(/mango|papaya|pineapple|melon|cantaloupe|honeydew|watermelon|guava|lychee|litchi/, [["cup chunks", 160]], FRUIT),
-  R(/pomegranate/, [["½ cup seeds", 87]], FRUIT),
+  R(/pomegranate/, [["cup seeds", 174, 0.5]], FRUIT),
   R(/lemon|lime/, [["wedge", 8, 2]], FRUIT),
   R(/olives/, [["olive", 4, 5]], FRUIT),
   R(/./, [["cup", 150]], "Fruits and Fruit Juices"),
