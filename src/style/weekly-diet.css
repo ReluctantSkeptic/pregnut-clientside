@@ -645,7 +645,7 @@
 
 .weekly-food-match strong {
   color: var(--accent-2);
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 2rem;
   font-weight: 400;
   font-variant-numeric: tabular-nums;
@@ -700,7 +700,7 @@
   border-radius: 999px;
   color: var(--ink);
   background: transparent;
-  font: 600 0.88rem/1 "Geist", "Segoe UI", sans-serif;
+  font: 600 0.88rem/1 var(--font-sans);
   cursor: pointer;
 }
 

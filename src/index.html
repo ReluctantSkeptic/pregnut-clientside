@@ -5,9 +5,9 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20261024-polish
+  - /style/home.css?v=20261024-type
 pageScripts:
-  - /js/home.js?v=20261024-polish
+  - /js/home.js?v=20261024-deck
 ---
 
 <section class="home-hero" aria-label="Hero">
@@ -158,12 +158,12 @@ pageScripts:
     <p class="home-slab-desc">Food safety: <a href="/blog/food-safety-pregnancy/">what to check before you eat</a> · <a href="/blog/eggs-during-pregnancy/">eggs</a> · <a href="/blog/sprouts-during-pregnancy/">sprouts</a> · <a href="/blog/deli-meat-pregnancy/">deli meat</a> · <a href="/blog/soft-cheese-pregnancy/">soft cheese</a> · <a href="/blog/juice-pasteurization-pregnancy/">juice</a> · <a href="/blog/caffeine-coffee-tea-pregnancy/">caffeine</a> · <a href="/blog/foods-for-morning-sickness-pregnancy/">morning sickness</a></p>
   </div>
   <div id="NeedsDeck" aria-label="Nutrient reference amounts and roles">
-    {% for group in nutrientGuidance | batch(4) %}
-    <section class="nutrient-stack-section" style="--n: {{ group.length }}" aria-label="Nutrient cards {{ loop.index }}">
+    {% set group = nutrientGuidance %}
+    <section class="nutrient-stack-section" style="--n: {{ group.length }}" aria-label="Nutrient cards">
       <div class="nutrient-stack-sticky">
         <div class="nutrient-stack-layout">
           <div class="nutrient-stack-context">
-            <ol class="nutrient-stack-titles" aria-label="Nutrients in this stack">
+            <ol class="nutrient-stack-titles" aria-label="Nutrients">
               {% for nutrient in group %}
               <li data-stack-link="{{ loop.index0 }}">{{ nutrient.label }}</li>
               {% endfor %}
@@ -186,7 +186,6 @@ pageScripts:
         </div>
       </div>
     </section>
-    {% endfor %}
   </div>
 </section>
 <section class="home-closer" aria-labelledby="home-closer-title">

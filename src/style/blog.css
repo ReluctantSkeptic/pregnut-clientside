@@ -21,7 +21,7 @@
   margin-bottom: 25px;
   color: #f7f4ea;
   font-size: clamp(3.75rem, 5.9vw, 6rem);
-  line-height: .99;
+  line-height: 1.02;
   letter-spacing: -.035em;
   text-wrap: balance;
 }
@@ -82,7 +82,7 @@
   max-width: 620px;
   margin: 0;
   font-size: clamp(3.6rem, 6vw, 6rem);
-  line-height: .99;
+  line-height: 1.02;
   letter-spacing: -.035em;
 }
 .blog-library-heading p {

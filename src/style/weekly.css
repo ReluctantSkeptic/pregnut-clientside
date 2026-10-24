@@ -4,7 +4,7 @@
 .page-weekly {
   --wk-max: 1120px;
   --wk-hair: rgba(38, 48, 56, 0.12);
-  --wk-serif: "Instrument Serif", Georgia, serif;
+  --wk-serif: var(--font-serif);
   --wk-gap: clamp(96px, 12vw, 168px);
 }
 
@@ -269,7 +269,7 @@
 }
 .wk-select select:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
 .wk-select option,
-.wk-select optgroup { color: var(--ink); font: 400 1rem "Geist", "Segoe UI", sans-serif; }
+.wk-select optgroup { color: var(--ink); font: 400 1rem var(--font-sans); }
 
 .wk-by-nutrient .viz-list { margin: 0 -12px; }
 .weekly-show-more {
@@ -280,7 +280,7 @@
   border-radius: 999px;
   color: var(--ink);
   background: transparent;
-  font: 600 0.92rem/1 "Geist", "Segoe UI", sans-serif;
+  font: 600 0.92rem/1 var(--font-sans);
   cursor: pointer;
   transition: background-color 160ms ease, border-color 160ms ease;
 }

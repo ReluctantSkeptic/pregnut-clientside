@@ -102,12 +102,15 @@
     var cards = document.querySelectorAll("[data-need-card]");
     if (!cards || !cards.length) return;
 
-    // RealFood reference: sequential 20% scroll segments, bottom-origin rotation,
-    // and a mass-1 spring with stiffness 400 / damping 25 for the 1.03 hover scale.
+    // One deck, one motion: every card rises over the same equal slice of the
+    // scroll and settles in the same spot; cards underneath step back by the
+    // same amount per card on top, so the pile always reads the same way.
     var reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
     var portrait = window.matchMedia("(max-width: 800px)");
     var finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
-    var poses = [[12, -20, -5], [-10, -28, 4], [8, -36, -3], [-6, -44, 2]];
+    var DEPTH = 3;
+    var STEP_Y = 16;
+    var STEP_SCALE = .045;
     var stacks = Array.from(document.querySelectorAll(".nutrient-stack-section"), function (section) {
       var items = Array.from(section.querySelectorAll(".need-card"));
       var state = { section: section, items: items, scales: items.map(function () { return 1; }), velocities: items.map(function () { return 0; }), hover: -1, progress: null, titles: section.querySelectorAll("[data-stack-link]") };
@@ -117,30 +120,44 @@
         card.addEventListener("focusin", function () { state.hover = i; requestTick(); });
         card.addEventListener("focusout", function () { state.hover = -1; requestTick(); });
       });
-      section.querySelectorAll("[data-stack-link]").forEach(function (link, i) {
-        link.addEventListener("pointerenter", function () { if (finePointer.matches) { state.hover = i; requestTick(); } });
-        link.addEventListener("pointerleave", function () { state.hover = -1; requestTick(); });
-      });
       return state;
     });
     var frame = 0;
     var lastTime = 0;
     function clamp(value) { return Math.max(0, Math.min(1, value)); }
+    function ease(t) { return t * t * (3 - 2 * t); }
     function render(time) {
       frame = 0;
       var dt = Math.min((time - lastTime) / 1000 || 1 / 60, 1 / 30);
       lastTime = time;
       var moving = false;
       stacks.forEach(function (state) {
-        var rect = state.section.getBoundingClientRect();
-        var targetProgress = clamp((window.innerHeight - rect.top) / rect.height);
-        if (state.progress === null || reduced.matches || portrait.matches) state.progress = targetProgress;
-        state.progress += (targetProgress - state.progress) * (1 - Math.exp(-dt / .075));
-        if (Math.abs(targetProgress - state.progress) > .0001) moving = true;
-        else state.progress = targetProgress;
-        var progress = state.progress;
-        var segment = .8 / state.items.length;
-        var active = Math.min(state.items.length - 1, Math.max(0, Math.floor(progress / segment)));
+        var count = state.items.length;
+        var phases;
+        var active;
+        if (portrait.matches) {
+          // Phone: cards are sticky in CSS; a card's phase is how far the
+          // next one has slid over it.
+          phases = state.items.map(function (card) {
+            var rect = card.getBoundingClientRect();
+            return ease(clamp((window.innerHeight - rect.top) / (window.innerHeight * .6)));
+          });
+        } else {
+          var rect = state.section.getBoundingClientRect();
+          var targetProgress = clamp(-rect.top / Math.max(1, rect.height - window.innerHeight));
+          if (state.progress === null || reduced.matches) state.progress = targetProgress;
+          state.progress += (targetProgress - state.progress) * (1 - Math.exp(-dt / .075));
+          if (Math.abs(targetProgress - state.progress) > .0001) moving = true;
+          else state.progress = targetProgress;
+          // The first card is already in place; the rest share the scroll
+          // equally, leaving a short hold on the last card.
+          var segment = .92 / Math.max(1, count - 1);
+          phases = state.items.map(function (card, i) {
+            return i === 0 ? 1 : ease(clamp((state.progress - (i - 1) * segment) / segment));
+          });
+        }
+        active = 0;
+        phases.forEach(function (phase, i) { if (phase > .5) active = i; });
         state.titles.forEach(function (title, i) {
           title.classList.toggle("is-current", i === active);
           if (i === active) title.setAttribute("aria-current", "step");
@@ -156,16 +173,22 @@
           else moving = true;
           state.scales[i] = scale;
           state.velocities[i] = velocity;
-          if (reduced.matches) { card.style.transform = "none"; return; }
+          if (reduced.matches) { card.style.transform = "none"; card.style.opacity = ""; card.style.visibility = ""; return; }
+          // How many cards (fractionally) sit on top of this one.
+          var depth = 0;
+          for (var j = i + 1; j < count; j++) depth += phases[j];
+          var back = Math.min(depth, DEPTH);
+          var fade = clamp(DEPTH + 1 - depth);
           if (portrait.matches) {
-            card.style.transform = "scale(" + (1 - progress * (.12 - i * .03)).toFixed(5) + ")";
-          } else {
-            var phase = clamp((progress - i * segment) / segment);
-            phase = phase * phase * (3 - 2 * phase);
-            var pose = poses[i];
-            var y = 600 * (1 - phase) + pose[1] * phase;
-            card.style.transform = "translate(" + (pose[0] * phase).toFixed(3) + "px," + y.toFixed(3) + "px) rotate(" + (pose[2] * phase).toFixed(3) + "deg) scale(" + scale.toFixed(5) + ")";
+            card.style.transform = "translateY(" + (-back * STEP_Y * .5).toFixed(3) + "px) scale(" + (1 - back * STEP_SCALE * .6).toFixed(5) + ")";
+            card.style.opacity = fade.toFixed(3);
+            card.style.visibility = "";
+            return;
           }
+          var rise = (1 - phases[i]) * 110;
+          card.style.transform = "translateY(calc(" + rise.toFixed(3) + "vh - " + (back * STEP_Y).toFixed(3) + "px)) scale(" + ((1 - back * STEP_SCALE) * scale).toFixed(5) + ")";
+          card.style.opacity = fade.toFixed(3);
+          card.style.visibility = phases[i] > 0 && fade > 0 ? "visible" : "hidden";
         });
       });
       if (moving) requestTick();

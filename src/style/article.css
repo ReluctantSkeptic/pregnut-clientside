@@ -65,7 +65,7 @@
   content: "\201C";
   align-self: start;
   color: #e8b998;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 8rem;
   line-height: .68;
 }
@@ -77,7 +77,7 @@
   max-width: 32ch;
   margin: 0;
   color: #f8f5ed;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--font-serif);
   font-size: clamp(2rem, 3.3vw, 3.15rem);
   font-weight: 400;
   line-height: 1.15;
