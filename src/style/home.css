@@ -1057,3 +1057,103 @@ h3.home-lede {
   .nutrient-stack .need-card { position: relative; top: auto; }
   .nutrient-stack-titles li { transform: none; transition: none; }
 }
+
+/* 2026-10 polish: stronger hero, Daily Fit feature, calmer stack pacing,
+   and a sticky phone CTA that only shows when it's useful. */
+
+/* Hero */
+.home-title { font-size: clamp(3.2rem, 6.6vw, 6.6rem); line-height: 1; letter-spacing: -.04em; margin-bottom: 20px; }
+.home-hero-lede { font-size: clamp(1.05rem, 1.3vw, 1.2rem); color: var(--muted); }
+.home-actions { margin-top: 30px; }
+.home-action { min-height: 54px; padding-inline: 26px; font-size: .98rem; }
+.home-action.is-secondary { background: var(--card); border-color: var(--border-strong); }
+
+/* Daily Fit feature: copy beside a small preview in the calculator's style */
+.home-dailyfit {
+  display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; gap: clamp(24px, 4vw, 56px);
+  padding: clamp(26px, 4vw, 48px); border-radius: 28px; background: var(--card);
+  box-shadow: 0 1px 2px rgba(38, 48, 56, .04), 0 10px 30px rgba(38, 48, 56, .06);
+}
+.home-dailyfit .home-feature-text { max-width: 38ch; }
+.home-feature-cta.is-dark { border-color: var(--ink); color: #fffefb; background: var(--ink); }
+.home-feature-cta.is-dark:hover { color: #fffefb; }
+.home-dailyfit-preview { display: grid; gap: 14px; }
+.home-df-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+.home-df-tabs span { padding: 9px 16px; border: 1px solid var(--border-strong); border-radius: 999px; font-size: .86rem; }
+.home-df-tabs .is-on { border-color: var(--ink); color: #fffefb; background: var(--ink); }
+.home-df-cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.home-df-card {
+  min-height: 132px; padding: 14px; display: flex; flex-direction: column; border-radius: 20px;
+  background: var(--bg); font-size: .9rem; font-weight: 500;
+}
+.home-df-card.is-covered { background: var(--accent-soft); }
+.home-df-card.is-close { background: #f6e6d6; }
+.home-df-card small { margin-top: auto; color: var(--muted); font-size: .7rem; font-weight: 400; white-space: nowrap; }
+.home-df-card strong { font-size: 1.45rem; font-weight: 400; letter-spacing: -.02em; }
+.home-df-card i { color: var(--muted); font-size: .8rem; font-style: normal; }
+@media (max-width: 900px) {
+  .home-dailyfit { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .home-df-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Feature cards: borderless and soft, like the rest of the tools */
+.home-feature { border: 0; border-radius: 28px; }
+
+/* Nutrient stack: each group scrolls only as long as its cards need */
+.nutrient-stack-section { height: calc(100vh + var(--n, 4) * 42vh); }
+.nutrient-stack .need-card { width: min(80%, 400px); }
+@media (max-width: 800px) {
+  .nutrient-stack-section { height: auto; padding-bottom: 24px; }
+  .nutrient-stack-docs { padding-bottom: 96px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nutrient-stack-section { height: auto; }
+}
+
+/* Phones */
+@media (max-width: 700px) {
+  .home-title { font-size: clamp(2.8rem, 12vw, 3.6rem); }
+  .home-action { min-height: 50px; padding-inline: 20px; font-size: .92rem; }
+  /* The food row becomes a swipeable strip at a readable size */
+  .home-food-gallery { margin: 22px -16px 0; overflow-x: auto; scrollbar-width: none; overscroll-behavior-x: contain;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 16px, #000 calc(100% - 28px), transparent);
+            mask-image: linear-gradient(90deg, transparent, #000 16px, #000 calc(100% - 28px), transparent); }
+  .home-food-gallery::-webkit-scrollbar { display: none; }
+  .home-gallery-stage { width: 220%; margin-left: 8px; }
+}
+@media (max-width: 600px) {
+  .home-mobile-cta.is-managed { transform: translateY(calc(100% + 32px)); opacity: 0; pointer-events: none;
+    transition: transform 320ms cubic-bezier(.2,.7,.2,1), opacity 220ms ease; }
+  .home-mobile-cta.is-managed.is-visible { transform: none; opacity: 1; pointer-events: auto; }
+  .page-home .footer-shell { padding-bottom: calc(32px + env(safe-area-inset-bottom)); }
+}
+
+/* Daily Fit card takes the warm tint of its sibling feature cards */
+.home-dailyfit { background: #f0ede4; box-shadow: none; }
+.home-dailyfit .home-df-card:not(.is-covered):not(.is-close) { background: var(--card); }
+
+/* Closing band: ends the page on the two main actions instead of empty space */
+.home-closer {
+  position: relative; z-index: 2;
+  width: min(100%, var(--max)); margin: clamp(24px, 4vw, 48px) auto 0;
+  padding: clamp(56px, 8vw, 104px) 24px; border-radius: 32px; text-align: center;
+  background: var(--accent-soft);
+}
+.home-closer-title {
+  margin: 0 0 14px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400;
+  font-size: clamp(2.8rem, 6vw, 5.2rem); line-height: 1; letter-spacing: -.035em;
+}
+.home-closer-title em { color: var(--accent-2); }
+.home-closer p { max-width: 46ch; margin: 0 auto; color: var(--muted); font-size: 1.05rem; }
+.home-closer .home-actions { display: flex; flex-wrap: wrap; justify-content: center; }
+.home-closer .home-action { display: inline-flex; align-items: center; justify-content: center; }
+@media (min-width: 801px) {
+  /* The last stack hands over to the closer without a dead screen */
+  .nutrient-stack-section:last-child { margin-bottom: -22vh; }
+}
+@media (max-width: 600px) {
+  .home-closer { margin-inline: 0; padding: 48px 20px; border-radius: 28px; }
+  .home-closer .home-actions { flex-direction: column; align-items: stretch; }
+}

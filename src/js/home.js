@@ -77,6 +77,28 @@
       });
     })();
 
+    // Phones: the sticky CTA appears once the hero buttons scroll away and
+    // steps aside for the closing band and footer.
+    (function initMobileCta() {
+      var cta = document.getElementById("HomeMobileCta");
+      var actions = document.querySelector(".home-actions");
+      var endings = document.querySelectorAll(".home-closer, .site-footer");
+      if (!cta || !actions || !("IntersectionObserver" in window)) return;
+      var heroVisible = true;
+      var endVisible = new Set();
+      function update() { cta.classList.toggle("is-visible", !heroVisible && !endVisible.size); }
+      new IntersectionObserver(function (entries) { heroVisible = entries[0].isIntersecting; update(); }).observe(actions);
+      // The closing band and footer carry their own buttons.
+      var endObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) endVisible.add(entry.target); else endVisible.delete(entry.target);
+        });
+        update();
+      });
+      endings.forEach(function (node) { endObserver.observe(node); });
+      cta.classList.add("is-managed");
+    })();
+
     var cards = document.querySelectorAll("[data-need-card]");
     if (!cards || !cards.length) return;
 
