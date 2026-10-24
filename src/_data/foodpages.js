@@ -541,6 +541,19 @@ for (const groupFoods of itemsByGroup.values()) {
   });
 }
 
+// Link experiment: add each treated food to "Similar foods" on the indexed peers listed for it.
+const linkExperiment = require("./linkexperiment.json");
+const itemById = new Map(listedItems.map((food) => [food.id, food]));
+for (const [treatedId, peerIds] of Object.entries(linkExperiment.treated)) {
+  const target = itemById.get(treatedId);
+  if (!target) continue;
+  for (const peerId of peerIds) {
+    const peer = itemById.get(peerId);
+    if (!peer || peer.relatedFoods.some((r) => r.id === treatedId)) continue;
+    peer.relatedFoods.push({ id: target.id, name: target.pageName, url: target.url });
+  }
+}
+
 const groups = [...itemsByGroup.entries()]
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([name, foods]) => ({
