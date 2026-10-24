@@ -1,0 +1,122 @@
+---
+title: "Pregnancy Nutrition Calculator: Check Today's Nutrients"
+description: "Free pregnancy nutrition calculator. Add what you ate in cups, slices or servings and see if you hit your daily folate, iron, choline, DHA, calcium and protein. Or let it plan a day of easy meals."
+layout: base.njk
+permalink: /pregnancy-nutrition-calculator/index.html
+bodyClass: page-dailyfit
+pageStyles:
+  - /style/daily-fit.css?v=20261024
+pageScripts:
+  - /js/daily-fit.js?v=20261024
+---
+
+<header class="df-hero">
+  <h1 class="df-title">Are you getting enough <em>today?</em></h1>
+  <p class="df-lede">Add what you ate. Watch 13 pregnancy nutrients fill up.</p>
+</header>
+
+<div class="df-app" id="DailyFit">
+  <div class="df-main">
+    <div class="df-search">
+      <label class="sr-only" for="DfSearch">Add a food</label>
+      <svg class="df-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="DfSearch" type="search" placeholder="Add a food, like eggs or spinach" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="DfResults" aria-autocomplete="list" disabled>
+      <ul class="df-results" id="DfResults" role="listbox" aria-label="Matching foods" hidden></ul>
+    </div>
+    <div class="df-actions">
+      <button class="df-design-btn" type="button" id="DfDesignOpen" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 4.9L19 9.6l-4.2 3.2 1.5 5.2L12 15l-4.3 3 1.5-5.2L5 9.6l5.2-1.7z" fill="currentColor"/></svg>Design my day for me</button>
+      <button class="df-link-btn" type="button" id="DfShuffle" hidden>Shuffle</button>
+      <button class="df-link-btn" type="button" id="DfClear" hidden>Start over</button>
+    </div>
+    <div class="df-meals" id="DfMeals" aria-live="polite"></div>
+  </div>
+
+  <aside class="df-fit" id="DfFit" aria-labelledby="DfFitTitle">
+    <div class="df-fit-head">
+      <h2 id="DfFitTitle">Your daily fit</h2>
+      <p class="df-score"><strong id="DfCovered">0</strong> of 13 covered</p>
+    </div>
+    <ul class="df-nutrients" id="DfNutrients"></ul>
+    <div class="df-detail" id="DfDetail" hidden></div>
+    <p class="df-note">Folate, iron, DHA and vitamin D are hard to reach with food alone; that's what a prenatal vitamin is for. <a href="/blog/prenatal-vitamin-label-pregnancy/">How to read your label</a>.</p>
+  </aside>
+</div>
+
+<button class="df-peek" id="DfPeek" type="button" hidden><span id="DfPeekText">0 of 13 covered</span></button>
+
+<dialog class="df-sheet" id="DfAmount" aria-labelledby="DfAmountName">
+  <form method="dialog" class="df-sheet-body" id="DfAmountForm">
+    <div class="df-sheet-food">
+      <span class="df-sheet-photo" id="DfAmountPhoto"></span>
+      <div>
+        <h2 id="DfAmountName"></h2>
+        <p class="df-sheet-warning" id="DfAmountWarning" hidden></p>
+      </div>
+    </div>
+    <p class="df-label">How much?</p>
+    <div class="df-stepper">
+      <button type="button" class="df-step" id="DfLess" aria-label="Less">−</button>
+      <output id="DfQty" aria-live="polite">1</output>
+      <button type="button" class="df-step" id="DfMore" aria-label="More">+</button>
+    </div>
+    <input class="df-grams-input" id="DfGramsInput" type="number" min="1" max="2000" step="5" inputmode="numeric" aria-label="Grams" hidden>
+    <div class="df-pills" id="DfUnits" role="radiogroup" aria-label="Portion"></div>
+    <p class="df-grams" id="DfGrams"></p>
+    <ul class="df-gains" id="DfGains" aria-label="What this adds"></ul>
+    <p class="df-label">For</p>
+    <div class="df-pills" id="DfSlots" role="radiogroup" aria-label="Meal"></div>
+    <div class="df-sheet-actions">
+      <button type="button" class="df-text-btn" id="DfRemove" hidden>Remove</button>
+      <button type="button" class="df-text-btn" id="DfCancel">Cancel</button>
+      <button type="submit" class="df-primary" id="DfConfirm">Add</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog class="df-sheet" id="DfDesign" aria-labelledby="DfDesignTitle">
+  <form method="dialog" class="df-sheet-body" id="DfDesignForm">
+    <h2 id="DfDesignTitle">Design my day</h2>
+    <p class="df-label">I eat</p>
+    <div class="df-pills" role="radiogroup" aria-label="Eating style">
+      <label class="df-pill"><input type="radio" name="style" value="all" checked><span>Everything</span></label>
+      <label class="df-pill"><input type="radio" name="style" value="vegetarian"><span>Vegetarian</span></label>
+      <label class="df-pill"><input type="radio" name="style" value="vegan"><span>Vegan</span></label>
+    </div>
+    <div class="df-pills">
+      <label class="df-pill"><input type="checkbox" name="df"><span>Dairy-free</span></label>
+      <label class="df-pill"><input type="checkbox" name="gf"><span>Gluten-free</span></label>
+    </div>
+    <label class="df-label" for="DfPrep">Time to cook</label>
+    <input class="df-range" id="DfPrep" name="prep" type="range" min="1" max="3" step="1" value="2" aria-valuetext="Some">
+    <div class="df-range-labels" aria-hidden="true"><span>Minimal</span><span>Some</span><span>Happy to cook</span></div>
+    <p class="df-sheet-hint" id="DfDesignHint" hidden>This replaces what's on today's list.</p>
+    <div class="df-sheet-actions">
+      <button type="button" class="df-text-btn" id="DfDesignCancel">Cancel</button>
+      <button type="submit" class="df-primary">Plan my day</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="df-toast" id="DfToast" role="status" hidden><span id="DfToastText"></span><button type="button" id="DfUndo">Undo</button></div>
+
+<section class="df-faq" aria-labelledby="DfFaqTitle">
+  <h2 id="DfFaqTitle">Good to know</h2>
+  <details>
+    <summary>Where do the targets come from?</summary>
+    <p>Each ring fills toward the pregnancy reference amount the rest of PregNut uses, mostly from the <a href="https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/">NIH pregnancy intake table</a> for ages 19–50. See the <a href="/about/#nutrient-references">full table</a>. Your clinician may set different goals for you.</p>
+  </details>
+  <details>
+    <summary>How are cups and slices turned into grams?</summary>
+    <p>Each food has everyday portions based on USDA household measures, like 1 large egg (50 g) or 1 cup of cooked lentils (172 g). The nutrients come from PregNut's <a href="/about/#food-data-sources">USDA-based food data</a>. Brands and recipes vary, so treat the result as a close estimate.</p>
+  </details>
+  <details>
+    <summary>Is my food list saved?</summary>
+    <p>Only in this browser on this device. Nothing is sent to us, and there's no account.</p>
+  </details>
+  <details>
+    <summary>Can I get everything from food alone?</summary>
+    <p>Many people can't, especially folate, iron, DHA and vitamin D. That's why prenatal vitamins exist, and why the planned days are a starting point rather than a prescription. Ask your prenatal care team what's right for you.</p>
+  </details>
+</section>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"PregNut Daily Fit","url":"{{ site.url }}/pregnancy-nutrition-calculator/","applicationCategory":"HealthApplication","operatingSystem":"Any","description":"A free pregnancy nutrition calculator that checks daily folate, iron, choline, DHA, calcium, protein and more against pregnancy reference amounts.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>

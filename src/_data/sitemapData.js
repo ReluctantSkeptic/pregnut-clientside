@@ -26,6 +26,7 @@ const paths = [
   "/blog/",
   "/contact/",
   "/food/",
+  "/pregnancy-nutrition-calculator/",
   "/privacy/",
   "/terms/",
   "/weekly-diet/",

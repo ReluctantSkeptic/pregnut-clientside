@@ -6,7 +6,7 @@ const UNCOMMON = [
   // Unusual animals and their eggs
   /\b(dove|quail|pheasant|squab|ostrich|emu|goose|deer|venison|moose|elk|caribou|bear|beaver|squirrel|rabbit|boar|frog|caviar|roe)\b/i, /\bturtle\b(?! beans)/i, /egg, duck/i,
   // Ingredients rather than foods
-  /^(?!.*\b(bread|pasta|made with)\b).*\bflour\b/i, /protein isolate/i, /\bwhey\b.*\bdried\b|\bdried\b.*\bwhey\b/i, /egg substitute/i,
+  /^(?!.*\b(bread|pasta|made with|tortillas?)\b).*\bflour\b/i, /protein isolate/i, /\bwhey\b.*\bdried\b|\bdried\b.*\bwhey\b/i, /egg substitute/i,
   /gelatins?, dry powder/i, /baking chocolate|chocolate, baking/i, /cocoa, dry powder/i,
   /butter replacement/i, /dry mix/i, /tapioca, pearl/i, /\bunprepared\b/i,
   /^(spaghetti|pasta|noodles|macaroni|vermicelli)\b.*\bdry\b/i, /^cereals?,.*\bdry$/i,
