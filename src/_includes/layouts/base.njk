@@ -44,7 +44,10 @@
     <meta name="description" content="{{ pageDescription | escape }}">
     <meta name="author" content="{{ (author or site.author) | escape }}">
     <meta name="theme-color" content="#f3f0e8">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" href="/favicon.ico?v=20261023-simple" sizes="16x16 32x32 48x48">
+    <link rel="icon" type="image/png" href="/resource/brand/favicon-32.png?v=20261023-simple" sizes="32x32">
+    <link rel="icon" type="image/png" href="/resource/brand/favicon-48.png?v=20261023-simple" sizes="48x48">
+    <link rel="apple-touch-icon" href="/resource/brand/apple-touch-icon.png?v=20261023-simple" sizes="180x180">
     {% if noindex or (food and (food.topNutrients.length < 3 or food.isHumanMilk)) %}<meta name="robots" content="noindex">{% elif pageSchemaType == "Article" and socialImageWidth >= 1200 %}<meta name="robots" content="max-image-preview:large">{% endif %}
     <meta property="og:type" content="{{ ogType or 'website' }}">
     <meta property="og:site_name" content="{{ site.name }}">
@@ -142,7 +145,7 @@
     <link rel="preload" href="/style/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/style/fonts/instrument-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
     {% if page.url == "/" %}<link rel="preload" href="/style/fonts/instrument-serif-italic-latin.woff2" as="font" type="font/woff2" crossorigin>{% endif %}
-    <link rel="stylesheet" href="/style/style.css?v=20261015-no-caps">
+    <link rel="stylesheet" href="/style/style.css?v=20261023-acorn">
     {% if pageStyles %}
       {% for href in pageStyles %}
         <link rel="stylesheet" href="{{ href }}">
