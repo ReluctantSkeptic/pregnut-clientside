@@ -1628,73 +1628,97 @@
           "id": "28337",
           "name": "Bread, Gluten-free, White, Made with rice flour, Corn starch, And/or tapioca",
           "file": "28337-bread-gluten-free-white-made-with-rice-flour-corn-starch-and-or-tapioca.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a single thick slice of gluten-free white sandwich bread made with rice flour and tapioca, pale ivory crumb with a fine slightly dense texture, gently rounded top and light golden crust. Show the entire slice in a subtle three-quarter view, tilted just enough to see the side crumb. Center it, softly illuminated from upper left, natural restrained color, crisp appetizing detail. No background, no shadow beyond a faint contact shadow, no plate, no props, no packaging, no text. Genuine transparent background with the bread isolated. This should look like a realistic food photograph cutout, not illustration or 3D render.",
+          "generatedSource": "exec-c93956fb-049d-4577-8aed-2db6ea22b49c.png"
         },
         {
           "id": "18033",
           "name": "Bread, Italian",
           "file": "18033-bread-italian.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one small loaf of classic Italian bread, golden crisp tapered crust with a few authentic diagonal scoring cuts and an airy pale interior visible at one broken end. Three-quarter view, whole loaf centered and fully visible, softly illuminated from upper left, natural restrained color and crisp appetizing realistic photographic detail. No background, no plate, no shadow beyond a very faint contact shadow, no props, no packaging, no text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-d5590e3d-b3ff-4f22-aead-ba99c7ae97eb.png"
         },
         {
           "id": "28397",
           "name": "Bread, Multi-grain (includes whole-grain)",
           "file": "28397-bread-multi-grain-includes-whole-grain.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a rustic slice of multigrain whole-grain sandwich bread, medium brown crust and crumb clearly studded with visible oats, flax and sunflower seeds, natural uneven grain texture. Show the full slice in a slight three-quarter angle, centered with clear space around it. Soft upper-left light, realistic restrained color, crisp appetizing food-photo detail. No background, no plate, no props, no text, no more than one slice. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-2da85e6a-a578-4651-b490-85431f72e893.png"
         },
         {
           "id": "28287",
           "name": "Bread, Naan, Whole wheat, Refrigerated",
           "file": "28287-bread-naan-whole-wheat-refrigerated.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one soft whole-wheat naan flatbread, oval and gently blistered, warm tan with subtle dark toasted spots and a lightly flour-dusted surface, slightly puffed uneven edge. Display the whole bread in a slight three-quarter overhead view, centered with margin around it. Soft upper-left light, natural color, realistic food-photo detail. No background, no plate, no props, no text, no garnish. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-ce90a073-d931-4fff-96c9-56f592b04671.png"
         },
         {
           "id": "18037",
           "name": "Bread, Oat bran",
           "file": "18037-bread-oat-bran.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one thick slice of oat-bran sandwich bread, medium golden-brown crust and hearty beige crumb with a subtle oat-speckled texture, sliced straight across. Show the full slice in a gentle three-quarter view, centered with margin around it. Soft upper-left light, natural restrained colors, realistic appetizing food photograph. No background, no plate, no props, no text, no more than one slice. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-920ac10a-37f6-4af2-8f0c-56d58a12c62c.png"
         },
         {
           "id": "18060",
           "name": "Bread, Rye",
           "file": "18060-bread-rye.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one hearty slice of dark rye bread, deep brown crust, dense warm cocoa-brown crumb with subtle rye grain texture and a few small caraway flecks, no seeds clustered on top. Show the complete slice in a gentle three-quarter view, centered with generous margin. Soft upper-left light, realistic restrained colors, appetizing food photography. No background, no plate, no props, no text, no more than one slice. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-98f43561-03f8-4a12-8066-71768e052734.png"
         },
         {
           "id": "18064",
           "name": "Bread, Wheat",
           "file": "18064-bread-wheat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one classic slice of wheat sandwich bread, medium golden-brown crust and light tan crumb with fine even whole-wheat flecks, distinct from white bread and dark rye. Show the complete slice in a slight three-quarter view, centered with clear margin. Soft upper-left light, realistic natural color and appetizing food photography. No background, no plate, no props, no text, no more than one slice. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-12732b3a-dc18-4da0-81e9-6cae4764ae24.png"
         },
         {
           "id": "18069",
           "name": "Bread, White",
           "file": "18069-bread-white.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one slice of classic soft white sandwich bread, very pale cream crumb with fine even texture, delicate light golden crust and gently rounded top corners, distinct from wheat and gluten-free bread. Full slice in a gentle three-quarter view, centered with space around it. Soft upper-left light, natural restrained color, crisp realistic food-photo detail. No background, no plate, no props, no text, no more than one slice. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-f1333f36-1ab2-470c-b8d6-cdf1c08966f6.png"
         },
         {
           "id": "09059",
           "name": "Breadfruit, Raw",
           "file": "09059-breadfruit-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one whole raw breadfruit, roughly spherical but irregular, vivid muted green skin covered in small polygonal bumps, with a short stem, true natural breadfruit appearance. Three-quarter view showing the entire fruit, centered with clear margin. Soft upper-left light, natural restrained colors, realistic botanical food photography. No background, no plate, no leaves, no props, no text. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-6ac4a213-8e67-411a-af0c-4f1af5183645.png"
         },
         {
           "id": "21520",
           "name": "Breadstick, Soft, Prepared with garlic and parmesan cheese",
           "file": "21520-breadstick-soft-prepared-with-garlic-and-parmesan-cheese.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a single soft garlic-parmesan breadstick, short and thick, gently tapered, golden baked crust with visible fine grated parmesan, a few tiny parsley flecks, slight buttery sheen; not a hard pretzel or long thin crisp stick. Show the complete breadstick on a subtle diagonal, centered with clear margins. Soft upper-left light, realistic appetizing food photography. No background, no plate, no props, no text, no extra food. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-1809fc06-a1ab-4a54-8dac-e25838d0aa0f.png"
         },
         {
           "id": "16053",
           "name": "Broadbeans (fava beans), Mature seeds, Boiled",
           "file": "16053-broadbeans-fava-beans-mature-seeds-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small neat serving of cooked mature fava beans, shelled, several plump broad olive-green beans with pale centers and slight wrinkles, moist but not sauced, loosely arranged as a low mound. Centered, close food-photo view with clear margin. Soft upper-left light, natural muted green color, realistic appetizing detail. Use a simple small white shallow bowl because the cooked beans are soft. No background, no garnish, no utensils, no text. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-d5ff3b7a-28d6-4532-8c4f-241ca8fadccb.png"
         },
         {
           "id": "11097",
           "name": "Broccoli raab, Cooked",
           "file": "11097-broccoli-raab-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one small serving of cooked broccoli raab (rapini), leafy greens with slender stems and a few tiny broccoli-like buds, tender wilted leaves, lightly glossy from cooking, naturally tangled as a modest mound. Correctly show leafy broccoli raab, not broccoli florets or Chinese broccoli. Centered, close food-photo view with clear margins. Soft upper-left light, natural dark green color, realistic appetizing detail. On a simple small white shallow dish to support the cooked leaves. No background, no garnish, no utensils, no text. Genuine transparent background. Match a realistic home-page food cutout.",
+          "generatedSource": "exec-cce4d874-9e20-4692-8c44-d20e8cb5b9d3.png"
         }
       ]
     },
