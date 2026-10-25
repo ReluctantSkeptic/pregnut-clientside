@@ -1325,73 +1325,97 @@
           "id": "11052",
           "name": "Beans, Snap, Green, Raw",
           "file": "11052-beans-snap-green-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained fresh green color. Subject: a loose small cluster of raw green string beans (common snap beans), slim cylindrical smooth pods with rounded tips and subtle lengthwise seams, naturally crossed in a low pile. Make them clearly look like ordinary slender green beans, not sugar snap peas: no broad flat pods, no prominent bulging peas inside. No plate or bowl. Entire subject centered and fully contained on a square canvas with generous transparent margins, filling about 70%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-3f6fb899-7c47-41d4-943f-c4d9222eeaff.png"
         },
         {
           "id": "11724",
           "name": "Beans, Snap, Yellow, Boiled",
           "file": "11724-beans-snap-yellow-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A modest loose serving of boiled yellow snap (wax) beans: tender whole golden-yellow bean pods with slight natural bends and a few cut ends, gently glossy from cooking, arranged on one small simple ivory ceramic plate. No garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-aba00434-0e5b-4567-bb3e-a9e55502e7df.png"
         },
         {
           "id": "11932",
           "name": "Beans, Snap, Yellow, Canned",
           "file": "11932-beans-snap-yellow-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A modest serving of canned yellow wax beans: soft pale-golden whole pods and a few short lengths, lightly moist and drained with a trace of clear canning liquid, in one small shallow ivory ceramic bowl. No garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-9e513100-ce2c-4b78-974c-e30fecb75074.png"
         },
         {
           "id": "16050",
           "name": "Beans, White, Mature seeds, Boiled",
           "file": "16050-beans-white-mature-seeds-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A modest serving of boiled white mature beans: plump smooth off-white oval beans with a few naturally split skins, lightly moist, in one small shallow ivory ceramic bowl. No garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-ea2a230d-78ca-4bc3-b9c8-68e9ffb8d791.png"
         },
         {
           "id": "16048",
           "name": "Beans, Yellow, Mature seeds, Boiled",
           "file": "16048-beans-yellow-mature-seeds-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A modest serving of boiled mature yellow beans: plump oval seeds in soft buttery yellow and pale cream tones, smooth natural skins and a few split seams, lightly moist in one small shallow ivory ceramic bowl. No garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-de655819-7436-4573-819e-b1db3ed3b2fe.png"
         },
         {
           "id": "19002",
           "name": "Beef jerky, Chopped and formed",
           "file": "19002-beef-jerky-chopped-and-formed.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A small appetizing pile of chopped-and-formed beef jerky strips: several narrow irregular dark mahogany-red strips, dry-chewy fibrous meat texture with subtle natural edges and a restrained sheen, arranged directly with no plate, sauce or garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-197d8440-6865-40da-8226-598bd36fff9f.png"
         },
         {
           "id": "07956",
           "name": "Beef sausage, Cooked",
           "file": "07956-beef-sausage-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A small serving of cooked all-beef sausage: three short plump browned sausage links with taut natural casing, rich mahogany sear and realistic textured beef surface, one link cut cleanly at the end to reveal the cooked ground-beef interior. Arrange directly with no plate, sauce or garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-d5feba33-70d4-436c-a42a-155a7adcb355.png"
         },
         {
           "id": "13804",
           "name": "Beef, Brisket, Whole, Separable lean and fat, braised",
           "file": "13804-beef-brisket-whole-separable-lean-and-fat-braised.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A modest portion of braised beef brisket: one thick tender slice with visible natural lean meat grain and a narrow softened layer of rendered fat, deep brown braised exterior, moist but intact and not sauced. No plate, sauce or garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-cf92072c-a6f0-40a0-8a88-4dfb3fda509f.png"
         },
         {
           "id": "13347",
           "name": "Beef, Corned beef, Brisket, Cooked",
           "file": "13347-beef-corned-beef-brisket-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A modest portion of cooked corned-beef brisket, several neat thin slices stacked loosely, distinctive rosy pink cured interior and pepper-speckled brown edge, moist fine-grained beef. No bread, plate, sauce or garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-d12e6c04-433f-4998-8f3d-fef22cffb011.png"
         },
         {
           "id": "13317",
           "name": "Beef, Ground, Patties, Broiled",
           "file": "13317-beef-ground-patties-broiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: One plain broiled ground-beef patty, thick round shape with browned unevenly seared edges and visible coarse ground-meat texture across its cut side, juicy but not sauced. No bun, cheese, plate or garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-deb97f33-2032-4a3e-95bc-435c1cfd16c7.png"
         },
         {
           "id": "13327",
           "name": "Beef, Liver, Cooked",
           "file": "13327-beef-liver-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A small serving of cooked beef liver: three irregular tender slices, dark mahogany seared edges and warm medium-brown smooth fine-grained interior, a faint natural cooking sheen. No plate, sauce, onion or garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-2889427e-a3fe-485d-a189-0b3ba4a30d4b.png"
         },
         {
           "id": "13355",
           "name": "Beef, Pastrami",
           "file": "13355-beef-pastrami.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A small serving of beef pastrami, several thin folded deli slices in a low stack with a rosy pink interior and a bold dark peppercorn-coated outer edge, realistic cured beef texture. No bread, plate, sauce or garnish. Entire subject centered fully contained on a square canvas with transparent margins, filling about 78%. Clean realistic edges. Genuine transparent RGBA background. No backdrop, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration, extra objects, or crop at edges.",
+          "generatedSource": "exec-538e090d-5ab2-45c8-a810-b8c5511cb163.png"
         }
       ]
     },
