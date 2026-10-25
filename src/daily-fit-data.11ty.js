@@ -113,11 +113,12 @@ module.exports = class DailyFitData {
       const warning = String(food.warning || "").toLowerCase();
       const level = warning === "avoid" ? 2 : warning && warning !== "0" ? 1 : 0;
       const image = foodImages.get(String(food.id)) || portionPhoto.get(food.id) || "";
+      const largeImage = regeneratedCutouts.has(path.basename(image)) ? "" : largePhoto.get(food.id) || "";
       // Search rank: staples used in meals first, then foods with photos.
       const rank = (mealIds.has(food.id) ? 2 : 0) + (image ? 1 : 0) - (TREAT_GROUPS.has(food.group) ? 2 : 0) -
         (food.uncommon ? 3 : 0) - (level === 2 ? 2 : 0);
       foods.push([food.id, label, image, level, level ? food.warningText || "" : "", values, portions, rank,
-        ALIASES[food.id] || "", largePhoto.get(food.id) || "", cutout(image) || cutout(BORROWED_CUTOUTS[food.id])]);
+        ALIASES[food.id] || "", largeImage, cutout(image) || cutout(BORROWED_CUTOUTS[food.id])]);
       if (mealIds.has(food.id) && level < 2 && WHOLE_GROUPS.has(food.group)) helperPool.push({ food, portions, values });
     }
 
