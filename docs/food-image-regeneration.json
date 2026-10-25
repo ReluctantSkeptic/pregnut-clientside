@@ -2032,73 +2032,97 @@
           "id": "14145",
           "name": "Carbonated beverage, Sprite, Lemon-lime, Without caffeine",
           "file": "14145-carbonated-beverage-sprite-lemon-lime-without-caffeine.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one clear short tumbler filled with bright sparkling lemon-lime soda, very pale green tint, fine carbonation bubbles and a delicate fizz line at the surface; subtle fresh citrus character without any slices. Realistic transparent glass with clean rim and refraction. Centered with clear margins, soft upper-left light, realistic beverage photography. No logo, label, ice, straw, background or text. Genuine transparent background.",
+          "generatedSource": "exec-f2557090-29ab-4a9a-9481-03630cac39a6.png"
         },
         {
           "id": "14148",
           "name": "Carbonated, Cola, Regular",
           "file": "14148-carbonated-cola-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one clear short tumbler filled with regular cola, deep warm brown amber soda, tiny rising carbonation bubbles and a thin natural fizz at the top, realistic transparent glass and soft refraction. Centered with clear margins, soft upper-left light, natural color and realistic beverage photography. No logo, label, ice, straw, background or text. Genuine transparent background.",
+          "generatedSource": "exec-ea8b763b-993d-4206-ac0d-bb6959f850ef.png"
         },
         {
           "id": "16055",
           "name": "Carob flour",
           "file": "16055-carob-flour.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small neat heap of fine dark warm-brown carob flour, velvety powder texture with a little scattered flour dust, on a small plain white shallow dish. Centered close food-photo view with clear margin, soft upper-left light, natural cocoa-like brown color. No bag, spoon, text or background. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-e6778e9c-18e9-453c-aa37-b9b3ecc27cd2.png"
         },
         {
           "id": "15008",
           "name": "Carp",
           "file": "15008-carp.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one whole fresh raw carp fish, silvery olive-gray scales with dark-edged pattern, rounded body, visible dorsal and tail fins and small barbels near mouth, realistic recognizable freshwater carp. Show full fish in side three-quarter profile, horizontally centered with generous clear margin, softly illuminated from upper left with natural sheen. No ice, no herbs, no plate, no background, no text. Genuine transparent background. Match realistic food-photo style.",
+          "generatedSource": "exec-8fb352d2-bc55-47b7-b505-78de5832f0da.png"
         },
         {
           "id": "11655",
           "name": "Carrot juice, Canned",
           "file": "11655-carrot-juice-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one clear glass filled with opaque vivid orange carrot juice, smooth liquid surface, beside a small plain unbranded silver beverage can with no writing, suggesting canned juice. Center both items in a slight three-quarter view with clear margin, soft upper-left light and realistic beverage photography. No straw, no garnish, no text, no background. Genuine transparent background.",
+          "generatedSource": "exec-5bc5e709-96c4-4a1e-b474-45b3f11a0053.png"
         },
         {
           "id": "11125",
           "name": "Carrots, Boiled",
           "file": "11125-carrots-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of boiled carrot coins and short carrot batons, tender orange pieces with softly rounded cut edges and a faint moist sheen, loosely arranged on a small plain white shallow plate. Centered close food-photo view with clear margin, soft upper-left light, natural bright orange, realistic appetizing detail. No garnish, no utensils, no background, no text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-2a5190f5-0ddf-488e-bc2b-c3dc09012613.png"
         },
         {
           "id": "11128",
           "name": "Carrots, Canned",
           "file": "11128-carrots-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of canned carrots, uniform soft orange coin slices and short pieces with smooth edges and a slight briny sheen, drained and arranged in a low mound on a small plain white shallow plate, clearly canned and very tender. Centered with clear margins, soft upper-left light, natural orange color, realistic food photography. No can, garnish, utensils, background or text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-a97e5f2b-fc67-4173-a8ea-7df8e0172169.png"
         },
         {
           "id": "11134",
           "name": "Cassava, Raw",
           "file": "11134-cassava-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one whole raw cassava (yuca) root with rough brown bark-like skin, plus one short cut segment in front revealing its crisp dense white starchy interior. Show the tapered tuber fully in three-quarter view, centered with clear margins, soft upper-left light, realistic botanical food photography, natural earthy color. No leaves, no plate, no props, no background, no text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-8bef2681-d525-448b-b2f1-8a17911a9885.png"
         },
         {
           "id": "15235",
           "name": "Catfish, Channel, Farmed, Cooked, Dry heat",
           "file": "15235-catfish-channel-farmed-cooked-dry-heat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one cooked channel catfish fillet prepared with dry heat, skinless thick tapered fillet with a gently browned golden surface and visible white flaky flesh at one cut edge, lightly seared but not breaded. Centered on a small plain white shallow plate because the cooked fish is tender, three-quarter view with clear margins, soft upper-left light, realistic appetizing food photography. No lemon, herbs, sauce, utensils, background or text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-1726e40d-4126-4ed9-99fb-27cc6b76499d.png"
         },
         {
           "id": "11935",
           "name": "Catsup",
           "file": "11935-catsup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of thick glossy red tomato catsup (ketchup), smooth dark red mound with one natural curved peak, in a tiny plain white ramekin. Centered close food-photo view with clear margin, soft upper-left light, realistic tomato-red color. No fries, no spoon, no label, no text, no background. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-fe248604-1e48-4d55-ad6b-0a8f587793f7.png"
         },
         {
           "id": "11136",
           "name": "Cauliflower, Boiled",
           "file": "11136-cauliflower-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a modest serving of boiled white cauliflower florets, tender ivory branching heads with short pale stems, slightly moist surface, loosely arranged on a small plain white shallow plate. Centered with clear margins, soft upper-left light, natural creamy white color, realistic appetizing food photography. No garnish, sauce, utensils, background, or text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-d012dddc-f7c5-46f9-a0c7-1428bda0fcfe.png"
         },
         {
           "id": "11967",
           "name": "Cauliflower, Green, Cooked",
           "file": "11967-cauliflower-green-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of cooked green cauliflower, several tender pale-green cauliflower florets with branching curds and short stems, gently glossy from cooking and clearly cauliflower rather than broccoli. Arrange on a small plain white shallow plate because it is cooked and moist. Centered with clear margins, soft upper-left light, natural muted green color, realistic food photography. No garnish, sauce, utensils, background or text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-2deefc8b-79d6-41ac-9144-ec97148db534.png"
         }
       ]
     },
