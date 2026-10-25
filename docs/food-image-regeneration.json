@@ -2133,73 +2133,97 @@
           "id": "11965",
           "name": "Cauliflower, Green, Raw",
           "file": "11965-cauliflower-green-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one small whole raw green cauliflower head, compact pale chartreuse-green branching curds surrounded by a few crisp dark-green leaves, cut stem visible, clearly a cauliflower head rather than broccoli. Three-quarter view, centered with generous clear margins, soft upper-left light, fresh natural color and realistic botanical food photography. No plate, no props, no background, no text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-4f71c49b-c77e-402d-8006-32bfc4ba2eb3.png"
         },
         {
           "id": "11135",
           "name": "Cauliflower, Raw",
           "file": "11135-cauliflower-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one compact fresh raw white cauliflower head, creamy ivory branching florets with a few green leaves and a visible trimmed stem, one small cut showing dense crisp curds. Centered in a slight three-quarter view with clear margins, soft upper-left light, natural white and green colors, realistic botanical food photography. No plate, no props, no background, no text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-f4b398e1-46e9-4487-b2e4-236061a13eb3.png"
         },
         {
           "id": "15012",
           "name": "Caviar, Black and red, Granular",
           "file": "15012-caviar-black-and-red-granular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: two small neat portions of granular caviar, glossy tiny black roe and ruby-red roe displayed separately side by side in a small plain white divided dish, individual round eggs sharply visible, elegant minimal composition. Centered with clear margins, soft upper-left light, realistic natural sheen and food photography. No crackers, no garnish, no spoon, no background, no text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-c0e84cda-2ec7-4074-bb92-21f638b6af45.png"
         },
         {
           "id": "11141",
           "name": "Celeriac, Raw",
           "file": "11141-celeriac-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: one raw celeriac root (celery root), round irregular knobby beige-brown root with thin root scars and short trimmed rootlets, one cut face beside it showing firm pale ivory interior, distinctly a root rather than a smooth turnip. Centered in three-quarter view with clear margins, soft upper-left light, realistic botanical food photography. No leaves, no plate, no props, no background, no text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-29d73026-3534-44d2-bb40-93c5a86fe29b.png"
         },
         {
           "id": "11144",
           "name": "Celery, Boiled",
           "file": "11144-celery-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of boiled celery, tender pale green celery stalk pieces cut on a diagonal, some translucent soft edges and faint moisture, loosely arranged on a small plain white shallow plate. Centered with clear margins, soft upper-left light, natural color and realistic close food photography. No leaves, garnish, utensils, background or text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-1ed9e36b-211b-46aa-8212-cfbfbbced62d.png"
         },
         {
           "id": "11143",
           "name": "Celery, Raw",
           "file": "11143-celery-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a fresh bunch of raw celery, several crisp pale-green stalks fanning upward from a compact base with leafy dark green tops, clean natural ribs and slight fresh sheen. Show the entire bunch centered with clear margins, soft upper-left light, lifelike fresh green color, realistic botanical food photography. No plate, no dip, no background, no text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-cb817b20-5e2c-4cd1-ace1-2aa85ac967a2.png"
         },
         {
           "id": "08054",
           "name": "Cereal, 100% natural granola, Oats, Wheat and honey",
           "file": "08054-cereal-100-natural-granola-oats-wheat-and-honey.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of natural granola made with rolled oats, wheat flakes and honey, golden oat clusters with a few pale wheat flakes and tiny seeds, lightly bound with honey but dry and crisp, in a simple small white ceramic bowl. No milk, fruit, branding or package. Centered three-quarter overhead view with clear margins, soft upper-left light, realistic natural color and food photography. No background or text. Genuine transparent background. Match the realistic home-page food cutout style.",
+          "generatedSource": "exec-83a9f9b6-0bbb-4375-9019-f48ca6ffab6a.png"
         },
         {
           "id": "08579",
           "name": "Cereal, 25% less sugar cinnamon toast crunch",
           "file": "08579-cereal-25-less-sugar-cinnamon-toast-crunch.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of cinnamon-toast breakfast cereal, crisp flat square pieces in warm golden brown with clearly visible cinnamon-sugar dusting and subtle grid marks, in a small plain white ceramic bowl, no milk. Unbranded generic cereal. Centered three-quarter overhead view with clear margins, soft upper-left light, realistic appetizing food photography. No package, logo, background or text. Genuine transparent background.",
+          "generatedSource": "exec-32a1109d-f8aa-473c-8f80-d49abd629c4f.png"
         },
         {
           "id": "08586",
           "name": "Cereal, 25% less sugar trix",
           "file": "08586-cereal-25-less-sugar-trix.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of colorful round fruit-flavored breakfast cereal balls, distinct small puffed spheres in bright red, orange, yellow, green and purple, in a plain white ceramic bowl, no milk. Generic unbranded cereal, no shapes other than little spheres. Centered three-quarter overhead view with clear margins, soft upper-left light, realistic crisp food photography. No package, logo, background or text. Genuine transparent background.",
+          "generatedSource": "exec-13c54b96-55d9-4783-abde-39b825340314.png"
         },
         {
           "id": "43218",
           "name": "Cereal, Alpen",
           "file": "43218-cereal-alpen.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of Alpen-style muesli, natural mix of pale rolled oats, wheat flakes, a few raisins and small nut slivers, dry and uncoated, in a simple small white ceramic bowl, no milk. Clearly traditional muesli rather than granola clusters. Centered three-quarter overhead view with clear margins, soft upper-left light, realistic natural food photography. No package, logo, background or text. Genuine transparent background.",
+          "generatedSource": "exec-ea9d600c-2870-4593-bfca-c1dff31ff590.png"
         },
         {
           "id": "08002",
           "name": "Cereal, Alpha-bits",
           "file": "08002-cereal-alpha-bits.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small white ceramic bowl filled with tiny pale golden toasted cereal pieces shaped as individual block letters. Clearly visible loose A, B, C, E, F and O letter-shaped cereal pieces on the top layer, chunky puffed grain texture, each character is a separate three-dimensional cereal piece with a hole only where that letter naturally has one. This must visibly read as alphabet cereal: do not make rings, O-shaped loops, hoops, or round cereal. Three-quarter overhead close food photograph, centered with clear margins, soft upper-left light, realistic crisp cereal detail. No milk, no box, no logo, no printed typography, no background. Genuine transparent background.",
+          "generatedSource": "exec-c694f166-1bf5-4495-8c8c-dce0fdf524e7.png"
         },
         {
           "id": "08263",
           "name": "Cereal, Apple cinnamon cheerios",
           "file": "08263-cereal-apple-cinnamon-cheerios.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of apple-cinnamon toasted oat ring cereal, tiny golden brown ring-shaped pieces with fine cinnamon dusting and a few minuscule dried apple flecks, in a small plain white ceramic bowl, no milk. Clearly distinct small rings, generic unbranded cereal. Centered three-quarter overhead view with clear margin, soft upper-left light, realistic appetizing food photography. No package, logo, background or text. Genuine transparent background.",
+          "generatedSource": "exec-1444dd28-3c73-469d-ae24-de74531bf7c9.png"
         }
       ]
     },
