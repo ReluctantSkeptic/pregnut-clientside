@@ -719,73 +719,97 @@
           "id": "01130",
           "name": "Egg, Omelet",
           "file": "01130-egg-omelet.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: One plain folded egg omelet, fully cooked golden yellow eggs with light brown patches, on one simple small ivory ceramic plate, no filling, toppings, garnish or utensils. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-1a5ffc67-6cc6-4d33-9d7e-b2f971058572.png"
         },
         {
           "id": "09132",
           "name": "Grapes, Red or green (european type, Raw",
           "file": "09132-grapes-red-or-green-european-type-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A compact small bunch of fresh raw European table grapes, natural red-purple grapes attached to slender brown-green stems, no leaves or plate. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-bb4b05e5-c153-46a6-b466-97f72dde9ad3.png"
         },
         {
           "id": "36041",
           "name": "Italian, Lasagna with meat",
           "file": "36041-italian-lasagna-with-meat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: One rectangular serving of meat lasagna on one simple small ivory ceramic plate, visible layers of pasta, cooked ground meat, red tomato sauce and melted cheese, no garnish or utensils. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-4ccb81be-bd1a-457a-9640-7239d21ca7d8.png"
         },
         {
           "id": "19297",
           "name": "Jams and preserves",
           "file": "19297-jams-and-preserves.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A modest serving of red fruit jam or preserves in one small simple ivory ceramic bowl, thick glossy red fruit spread with a few small fruit pieces, no jar, label, spoon or toast. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-d30316fd-7953-4757-88f6-f82c474de4ba.png"
         },
         {
           "id": "01305",
           "name": "Milk, Chocolate, Lowfat, Reduced sugar",
           "file": "01305-milk-chocolate-lowfat-reduced-sugar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: Plain lowfat reduced-sugar chocolate milk in one short clear simple drinking glass, smooth light chocolate brown liquid, no packaging, label, straw, whipped cream or props. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-caa88d38-0325-4107-b9c7-82418f7b3987.png"
         },
         {
           "id": "12585",
           "name": "Nuts, Cashew nuts, Dry roasted",
           "file": "12585-nuts-cashew-nuts-dry-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A compact natural handful of shelled dry-roasted cashew nuts, warm pale golden curved crescent kernels, no shells, bowl, salt crystals or other food. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-a2b13beb-c442-4f0f-97d2-480272d96833.png"
         },
         {
           "id": "20125",
           "name": "Pasta, Whole-wheat, Cooked",
           "file": "20125-pasta-whole-wheat-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: Plain cooked whole-wheat pasta, a compact serving of tan-brown whole-grain penne in one small simple ivory ceramic bowl, no sauce, garnish or utensils. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-bc3b6ff0-5aaf-49cc-9159-674bfea13542.png"
         },
         {
           "id": "09236",
           "name": "Peaches, Yellow, Raw",
           "file": "09236-peaches-yellow-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: One whole fresh ripe yellow peach with fuzzy golden-red skin beside one clean peach half showing golden yellow flesh and brown stone, compact arrangement, no leaves or plate. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-f7144492-273a-4463-ac06-f2c6f791066c.png"
         },
         {
           "id": "09266",
           "name": "Pineapple, Raw, All varieties",
           "file": "09266-pineapple-raw-all-varieties.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: A compact serving of fresh raw yellow pineapple: one triangular pineapple wedge with textured rind and three neat golden pineapple chunks, no crown, leaves or plate. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-4316d7bc-1168-4c2b-9fc0-89178aa62d06.png"
         },
         {
           "id": "21299",
           "name": "Pizza, Cheese topping, Regular crust",
           "file": "21299-pizza-cheese-topping-regular-crust.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: One triangular slice of plain cheese pizza with regular crust, golden bread crust, red tomato sauce and melted lightly browned mozzarella, no pepperoni, vegetables, garnish or plate. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-d031c87c-a276-4c55-8121-ea986ddf85c5.png"
         },
         {
           "id": "10026",
           "name": "Pork, Loin, Whole, Separable lean only, Broiled",
           "file": "10026-pork-loin-whole-separable-lean-only-broiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: One plain broiled boneless lean pork loin portion, naturally browned exterior, two slices showing fully cooked pale interior, no visible fat cap, sauce, garnish or plate. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-ca7c4e93-a7c4-4a22-8a13-745706336a87.png"
         },
         {
           "id": "11657",
           "name": "Potatoes, Mashed, Home-prepared, Whole milk added",
           "file": "11657-potatoes-mashed-home-prepared-whole-milk-added.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Generate one NEW realistic food catalog cutout in PregNut's home-page photographic style: natural realistic food texture, soft upper-left studio light, slightly elevated near-overhead view, restrained natural colors. Subject: Home-prepared mashed potatoes made with whole milk, soft fluffy ivory mashed potatoes with modest natural spoon ridges in one small simple ivory ceramic bowl, no butter pat, gravy, garnish or utensils. Entire subject centered fully contained on a square canvas with equal transparent margins, filling about 78%. Genuine transparent RGBA background, clean alpha edges. No background, floor, external shadow, scattered specks, checkerboard, text, logo, packaging, illustration or felt.",
+          "generatedSource": "exec-e0ac9306-5e25-4691-8548-f66530696598.png"
         }
       ]
     },
