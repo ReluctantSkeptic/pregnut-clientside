@@ -12,9 +12,9 @@
 }
 
 .tf-title {
-  max-width: 14ch;
-  margin: var(--s-6) 0 var(--s-6);
-  font-size: var(--fs-2xl);
+  max-width: 19ch;
+  margin: var(--s-5) 0;
+  font-size: clamp(2.4rem, 4.6vw, 3.9rem);
   line-height: 1.02;
 }
 
@@ -254,6 +254,56 @@
 .tf-source a {
   color: inherit;
   text-underline-offset: 3px;
+}
+
+/* Below desktop the side column dissolves: guide and source follow the list */
+@media (max-width: 1099px) {
+  .tf {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tf-side {
+    display: contents;
+  }
+
+  .tf-list {
+    order: 1;
+  }
+
+  .tf-guide,
+  .tf-source {
+    order: 2;
+  }
+}
+
+/* Desktop: title and controls stay put on the left, the ranking fills the right */
+@media (min-width: 1100px) {
+  .tf {
+    width: min(100%, var(--max));
+    display: grid;
+    grid-template-columns: minmax(320px, 380px) minmax(0, 1fr);
+    column-gap: var(--s-8);
+    align-items: start;
+  }
+
+  .tf-side {
+    position: sticky;
+    top: var(--s-9);
+  }
+
+  .tf-title {
+    margin-top: 0;
+    font-size: var(--fs-xl);
+  }
+
+  .tf-list {
+    border-top: 0;
+  }
+
+  .tf-row:first-child {
+    padding-top: 0;
+  }
 }
 
 /* Switching nutrients: rows rise in one after another */

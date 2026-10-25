@@ -5,12 +5,13 @@ layout: base.njk
 permalink: /app/index.html
 bodyClass: page-topfoods
 pageStyles:
-  - /style/top-foods.css?v=20261025-lean
+  - /style/top-foods.css?v=20261025-fold
 pageScripts:
   - /js/top-foods.js?v=20261025-lean
 ---
 
 <section class="tf" aria-labelledby="TopFoodsTitle">
+  <div class="tf-side">
   <h1 class="tf-title" id="TopFoodsTitle">The best foods for each pregnancy nutrient</h1>
 
   <div class="tf-controls" id="TopFoodsControls">
@@ -24,9 +25,11 @@ pageScripts:
   </div>
 
   <p class="tf-basis" id="TopFoodsBasis">One typical serving, as % of the daily pregnancy reference for <strong>{{ topFoods.initial.sentence }}</strong> ({{ topFoods.initial.target }}).</p>
+  <p class="tf-guide"><a id="TopFoodsGuide" href="{{ topFoods.initial.guide }}">Why {{ topFoods.initial.sentence }} matters in pregnancy</a></p>
+  <p class="tf-source">Servings follow FDA reference amounts. Nutrient values come from PregNut's <a href="/about/#food-data-sources">USDA-based food data</a>.</p>
+  </div>
+
   <ol class="tf-list" id="FoodsByNutrient" aria-labelledby="TopFoodsBasis">{% include "components/top-foods-initial.njk" %}</ol>
   <p class="sr-only" id="TopFoodsStatus" aria-live="polite"></p>
 
-  <p class="tf-guide"><a id="TopFoodsGuide" href="{{ topFoods.initial.guide }}">Why {{ topFoods.initial.sentence }} matters in pregnancy</a></p>
-  <p class="tf-source">Servings follow FDA reference amounts. Nutrient values come from PregNut's <a href="/about/#food-data-sources">USDA-based food data</a>.</p>
 </section>
