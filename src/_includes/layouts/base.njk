@@ -142,17 +142,16 @@
     {% if pageSchemaType == "Article" and dateModified %}<meta property="article:modified_time" content="{{ dateModified | isoDate }}">{% endif %}
     {% set documentTitle = seoTitle or pageTitle %}
     <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name or (documentTitle + " | " + site.name) | length > 60 %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
-    <link rel="preload" href="/style/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/style/fonts/junicode-regular-latin.woff2" as="font" type="font/woff2" crossorigin>
-    {% if page.url == "/" %}<link rel="preload" href="/style/fonts/junicode-italic-latin.woff2" as="font" type="font/woff2" crossorigin>{% endif %}
-    <link rel="stylesheet" href="/style/style.css?v=20261024-type">
+    <link rel="preload" href="/style/fonts/funnel-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/style/fonts/gloock-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/style/style.css?v=20261025-gloock">
     {% if pageStyles %}
       {% for href in pageStyles %}
         <link rel="stylesheet" href="{{ href }}">
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/style/overhaul.css?v=20261024-type">
-    {% if vizStyles %}<link rel="stylesheet" href="/style/viz.css?v=20261024-type">{% endif %}
+    <link rel="stylesheet" href="/style/overhaul.css?v=20261025-gloock">
+    {% if vizStyles %}<link rel="stylesheet" href="/style/viz.css?v=20261025-gloock">{% endif %}
   </head>
   <body{% if bodyClass or vizStyles %} class="{{ bodyClass }}{% if vizStyles %} viz-page{% endif %}"{% endif %}>
     {% include "components/navbar.njk" %}

@@ -22,7 +22,7 @@
 .wk-title {
   margin-block: 0 clamp(40px, 6vw, 72px);
   font: 400 clamp(3.2rem, 9vw, 7.75rem)/0.92 var(--wk-serif);
-  letter-spacing: -0.045em;
+  letter-spacing: -0.01em;
 }
 .wk-title em { display: block; color: var(--accent); font-style: italic; }
 
@@ -62,7 +62,7 @@
   min-width: 2ch;
   color: var(--ink);
   font: 400 2.6rem/0.9 var(--wk-serif);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
   font-variant-numeric: tabular-nums;
 }
 .wk-picker-period { grid-column: 1 / -1; margin-top: 6px; color: var(--muted); font-size: 0.8rem; }
@@ -141,7 +141,7 @@
 .wk-chapter-title {
   margin: 0 0 24px;
   font: 400 clamp(2.8rem, 6vw, 5.25rem)/0.95 var(--wk-serif);
-  letter-spacing: -0.035em;
+  letter-spacing: -0.01em;
 }
 .wk-chapter-summary { max-width: 34ch; margin: 0 0 40px; color: var(--ink); font-size: clamp(1.15rem, 1.6vw, 1.35rem); line-height: 1.5; }
 .wk-dev { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--wk-hair); }
@@ -183,7 +183,7 @@
 .wk-block { margin-top: var(--wk-gap); padding-top: 28px; border-top: 1px solid var(--wk-hair); }
 .wk-block-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 40px; margin-bottom: 16px; }
 .wk-block-head .wk-block-title { margin-bottom: 0; }
-.wk-block-title { margin: 0 0 32px; font: 400 clamp(2.4rem, 4.6vw, 4rem)/1 var(--wk-serif); letter-spacing: -0.03em; }
+.wk-block-title { margin: 0 0 32px; font: 400 clamp(2.4rem, 4.6vw, 4rem)/1 var(--wk-serif); letter-spacing: -0.01em; }
 .wk-source { flex: none; }
 .page-weekly .wk-summary { display: flex; align-items: center; gap: 8px; margin: 0 0 20px; color: var(--muted); font-size: 0.95rem; line-height: 1.5; }
 .wk-footnote { max-width: 64ch; margin: 28px 0 0; color: var(--muted); font-size: 0.86rem; line-height: 1.6; }
@@ -199,7 +199,7 @@
   column-gap: 56px;
 }
 .wk-nutrient { display: flex; flex-direction: column; align-items: flex-start; padding: 24px 0 32px; border-top: 1px solid var(--wk-hair); }
-.wk-nutrient-name { margin: 0 0 10px; font: 400 2.1rem/1.05 var(--wk-serif); letter-spacing: -0.02em; }
+.wk-nutrient-name { margin: 0 0 10px; font: 400 2.1rem/1.05 var(--wk-serif); letter-spacing: -0.01em; }
 .wk-nutrient-why { max-width: 42ch; margin: 0; color: var(--ink); font-size: 1.04rem; line-height: 1.6; }
 .wk-nutrient-guide {
   display: inline-flex;
@@ -249,7 +249,7 @@
   color: var(--accent);
   background: transparent;
   font: italic 400 1em/1.05 var(--wk-serif);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   cursor: pointer;
   field-sizing: content;
   -webkit-appearance: none;

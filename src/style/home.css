@@ -26,7 +26,7 @@
   margin: 0 0 28px;
   font-size: clamp(4.5rem, 7.3vw, 7.7rem);
   line-height: 0.96;
-  letter-spacing: -0.052em;
+  letter-spacing: -0.01em;
 }
 
 .home-title em {
@@ -231,7 +231,7 @@
   font-size: clamp(2.7rem, 5.8vw, 5.2rem);
   font-weight: 400;
   line-height: 0.98;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.01em;
 }
 
 h3.home-lede {
@@ -910,7 +910,7 @@ h3.home-lede {
 .page-home .page { padding-top: 112px; }
 .home-hero { display: block; min-height: 0; margin-bottom: 64px; text-align: center; }
 .home-hero-copy { padding: 36px 0 0; }
-.home-title { max-width: none; margin: 0 auto 24px; font-size: clamp(3rem, 5.3vw, 5rem); line-height: 1.08; letter-spacing: -.035em; }
+.home-title { max-width: none; margin: 0 auto 24px; font-size: clamp(3rem, 5.3vw, 5rem); line-height: 1.08; letter-spacing: -0.01em; }
 .home-title em { white-space: nowrap; }
 .home-hero-lede { max-width: 68ch; margin: 0 auto; font-size: 1.08rem; line-height: 1.7; }
 .home-actions { justify-content: center; gap: 12px; margin-top: 26px; }
@@ -1062,7 +1062,7 @@ h3.home-lede {
    and a sticky phone CTA that only shows when it's useful. */
 
 /* Hero */
-.home-title { font-size: clamp(3.2rem, 6.6vw, 6.6rem); line-height: 1; letter-spacing: -.04em; margin-bottom: 20px; }
+.home-title { font-size: clamp(3.2rem, 6.6vw, 6.6rem); line-height: 1; letter-spacing: -0.01em; margin-bottom: 20px; }
 .home-hero-lede { font-size: clamp(1.05rem, 1.3vw, 1.2rem); color: var(--muted); }
 .home-actions { margin-top: 30px; }
 .home-action { min-height: 54px; padding-inline: 26px; font-size: .98rem; }
@@ -1089,7 +1089,7 @@ h3.home-lede {
 .home-df-card.is-covered { background: var(--accent-soft); }
 .home-df-card.is-close { background: #f6e6d6; }
 .home-df-card small { margin-top: auto; color: var(--muted); font-size: .7rem; font-weight: 400; white-space: nowrap; }
-.home-df-card strong { font-size: 1.45rem; font-weight: 400; letter-spacing: -.02em; }
+.home-df-card strong { font-size: 1.45rem; font-weight: 400; letter-spacing: -0.01em; }
 .home-df-card i { color: var(--muted); font-size: .8rem; font-style: normal; }
 @media (max-width: 900px) {
   .home-dailyfit { grid-template-columns: 1fr; }
@@ -1154,7 +1154,7 @@ h3.home-lede {
 }
 .home-closer-title {
   margin: 0 0 14px; font-family: var(--font-serif); font-weight: 400;
-  font-size: clamp(2.8rem, 6vw, 5.2rem); line-height: 1; letter-spacing: -.035em;
+  font-size: clamp(2.8rem, 6vw, 5.2rem); line-height: 1; letter-spacing: -0.01em;
 }
 .home-closer-title em { color: var(--accent-2); }
 .home-closer p { max-width: 46ch; margin: 0 auto; color: var(--muted); font-size: 1.05rem; }

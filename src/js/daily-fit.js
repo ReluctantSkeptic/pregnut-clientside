@@ -68,7 +68,7 @@
 
   function snapshot() { return JSON.parse(JSON.stringify(state)); }
 
-  // food: [id, label, image, level, warningText, values, portions, rank, alias, largeImage]
+  // food: [id, label, image, level, warningText, values, portions, rank, alias, largeImage, cutout]
   function food(id) { return byId[id]; }
 
   function grams(item) {
@@ -448,17 +448,8 @@
     return state.items.filter(function (item) { return item.slot === slot && food(item.id); });
   }
 
-  // The biggest food with a photo stands for the meal; drinks only if nothing else has one.
-  function leadPhoto(items, slot) {
-    var main = null;
-    items.forEach(function (item) {
-      var f = food(item.id);
-      if (!f[2] && !f[9]) return;
-      var drink = /fl oz/.test((f[6][item.u] || f[6][0])[0]);
-      var score = grams(item) - (drink ? 10000 : 0);
-      if (!main || score > main.score) main = { f: f, score: score };
-    });
-    if (main) return photo(main.f, "df-meal-photo");
+  // An empty meal shows a faded photo of a typical dish.
+  function idlePhoto(slot) {
     var img = el("img", "df-meal-photo is-idle");
     img.src = SLOT_PHOTOS[slot];
     img.alt = "";
@@ -466,6 +457,60 @@
     img.height = 400;
     img.loading = "lazy";
     return img;
+  }
+
+  // Each food in a meal is a cut-out on its own little card. The cards
+  // overlap by half; touching or hovering one bounces it to the top.
+  var TILTS = [-5, 4, -2, 5, -4, 2];
+
+  function stackCard(f, i) {
+    var card = el("span", "df-stack-card");
+    card.style.setProperty("--r", TILTS[i % TILTS.length] + "deg");
+    card.style.zIndex = i + 1;
+    if (f[10]) {
+      var img = el("img", "df-stack-cut");
+      img.src = f[10];
+      img.alt = "";
+      img.width = 200;
+      img.height = 200;
+      img.loading = "lazy";
+      img.decoding = "async";
+      card.appendChild(img);
+    } else {
+      card.classList.add("is-photo");
+      card.appendChild(photo(f, "df-stack-photo"));
+    }
+    return card;
+  }
+
+  function raise(stack, card) {
+    var top = 0;
+    Array.prototype.forEach.call(stack.children, function (c) {
+      top = Math.max(top, Number(c.style.zIndex) || 0);
+      if (c !== card) c.classList.remove("is-top");
+    });
+    card.style.zIndex = top + 1;
+    card.classList.remove("is-top");
+    void card.offsetWidth; // restart the bounce
+    card.classList.add("is-top");
+  }
+
+  function foodStack(items) {
+    var stack = el("div", "df-stack");
+    stack.setAttribute("aria-hidden", "true");
+    var seen = {};
+    items.forEach(function (item) {
+      var f = food(item.id);
+      // Foods with no picture at all stay out of the stack; they're in the list.
+      if (seen[item.id] || (!f[10] && !f[2])) return;
+      seen[item.id] = 1;
+      stack.appendChild(stackCard(f, stack.children.length));
+    });
+    Array.prototype.forEach.call(stack.children, function (card) {
+      card.addEventListener("pointerenter", function (ev) { if (ev.pointerType === "mouse") raise(stack, card); });
+      card.addEventListener("pointerdown", function () { raise(stack, card); });
+    });
+    return stack;
   }
 
   function plusIcon() {
@@ -512,7 +557,7 @@
       var li = el("li", "df-meal" + (items.length ? "" : " is-blank") + (isOpen ? " is-open" : ""));
       var head = el("button", "df-meal-head");
       head.type = "button";
-      head.appendChild(leadPhoto(items, slot));
+      if (!items.length) head.appendChild(idlePhoto(slot));
       var copy = el("span", "df-meal-copy");
       copy.appendChild(el("span", "df-meal-name", s[1]));
       copy.appendChild(el("span", "df-meal-sub", items.length ? state.plan[slot] || items.map(function (it) { return shortName(food(it.id)); }).join(", ") : "Add " + s[1].toLowerCase()));
@@ -530,6 +575,8 @@
       li.appendChild(head);
 
       if (items.length) {
+        var stack = foodStack(items);
+        if (stack.children.length) li.appendChild(stack);
         var stats = el("ul", "df-meal-stats");
         ranked(items, 3).forEach(function (x) {
           var stat = el("li", "");

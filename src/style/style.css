@@ -1,39 +1,50 @@
 @font-face {
-  font-family: "Space Grotesk";
+  font-family: "Funnel Sans";
   font-style: normal;
-  font-weight: 300 700;
+  font-weight: 300 800;
   font-display: swap;
-  src: url("/style/fonts/space-grotesk-latin.woff2") format("woff2");
+  src: url("/style/fonts/funnel-sans-latin.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Junicode";
-  font-style: normal;
-  font-weight: 300 450;
-  font-display: swap;
-  src: url("/style/fonts/junicode-regular-latin.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Junicode";
-  font-style: normal;
-  font-weight: 451 800;
-  font-display: swap;
-  src: url("/style/fonts/junicode-medium-latin.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Junicode";
+  font-family: "Funnel Sans";
   font-style: italic;
   font-weight: 300 800;
   font-display: swap;
-  src: url("/style/fonts/junicode-italic-latin.woff2") format("woff2");
+  src: url("/style/fonts/funnel-sans-italic-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Funnel Display";
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url("/style/fonts/funnel-display-latin.woff2") format("woff2");
+}
+
+/* Gloock has one cut. Italic and bold map to it so browsers never fake a
+   slant or a bold; emphasis in headings is carried by color instead. */
+@font-face {
+  font-family: "Gloock";
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url("/style/fonts/gloock-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gloock";
+  font-style: italic;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url("/style/fonts/gloock-latin.woff2") format("woff2");
 }
 
 :root {
   color-scheme: light;
-  --font-serif: "Junicode", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  --font-sans: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Gloock", "Didot", "Bodoni 72", "Palatino Linotype", serif;
+  --font-sans: "Funnel Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Funnel Display", "Funnel Sans", system-ui, sans-serif;
   --bg: #f3f0e8;
   --bg-2: #e9e5da;
   --surface: #fbfaf6;
@@ -118,7 +129,7 @@ h3 {
   font-family: var(--font-serif);
   font-weight: 400;
   line-height: 1.02;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
 }
 
 p {
@@ -400,7 +411,7 @@ p {
   margin-bottom: 20px;
   font-size: clamp(3.8rem, 8vw, 7.8rem);
   line-height: 1;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.01em;
 }
 
 .hero-lede {

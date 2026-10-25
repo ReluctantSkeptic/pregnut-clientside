@@ -310,7 +310,7 @@
   font-size: 1.9rem;
   font-weight: 400;
   line-height: 1.1;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .df-sheet-top {
@@ -410,7 +410,7 @@
 
 .df-gain-value {
   font-size: 1.5rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .df-gain-value small {
@@ -472,7 +472,7 @@
 .df-stepper output {
   min-width: 2.2ch;
   font-size: 2.4rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   text-align: center;
 }
 
@@ -706,7 +706,7 @@
   font-family: var(--font-sans);
   font-size: clamp(1.8rem, 3.6vw, 2.4rem);
   font-weight: 400;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .df-faq details {
@@ -861,7 +861,7 @@
   font-size: clamp(2.6rem, 9vw, 3.2rem);
   font-weight: 500;
   line-height: 1.05;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
   font-variant-numeric: tabular-nums;
 }
 
@@ -937,7 +937,7 @@
   width: 100%;
   padding: 4px;
   display: grid;
-  grid-template-columns: 56px minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 14px;
   border: 0;
@@ -947,6 +947,10 @@
   font: inherit;
   text-align: left;
   cursor: pointer;
+}
+
+.df-meal.is-blank .df-meal-head {
+  grid-template-columns: 56px minmax(0, 1fr) auto;
 }
 
 .df-meal-photo {
@@ -985,7 +989,7 @@
   padding-right: 6px;
   font-size: 1.55rem;
   font-weight: 500;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   font-variant-numeric: tabular-nums;
 }
 
@@ -1008,6 +1012,68 @@
 .df-meal-plus svg {
   width: 20px;
   height: 20px;
+}
+
+/* Stacked cut-out cards, half overlapping */
+.df-stack {
+  margin: 8px 0 2px;
+  padding: 10px 4px 6px;
+  display: flex;
+  align-items: center;
+}
+
+.df-stack-card {
+  position: relative;
+  width: 82px;
+  height: 82px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border: 3px solid var(--card);
+  border-radius: 24px;
+  background: var(--df-soft);
+  box-shadow: 0 6px 16px rgba(38, 48, 56, 0.12);
+  transform: rotate(var(--r, 0deg));
+  transition: transform 420ms cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 300ms ease;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.df-stack-card + .df-stack-card {
+  margin-left: -41px;
+}
+
+.df-stack-cut {
+  width: 88%;
+  height: 88%;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 6px rgba(38, 48, 56, 0.18));
+  pointer-events: none;
+}
+
+.df-stack-card.is-photo {
+  padding: 6px;
+}
+
+.df-stack-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.df-stack-card.is-top {
+  box-shadow: 0 16px 30px rgba(38, 48, 56, 0.2);
+  animation: df-bounce 560ms cubic-bezier(0.3, 0.7, 0.4, 1) both;
+}
+
+@keyframes df-bounce {
+  0% { transform: rotate(var(--r, 0deg)); }
+  35% { transform: translateY(-16px) rotate(0deg) scale(1.08); }
+  60% { transform: translateY(2px) rotate(0deg) scale(0.98); }
+  80% { transform: translateY(-6px) rotate(0deg) scale(1.03); }
+  100% { transform: translateY(-4px) rotate(0deg) scale(1.02); }
 }
 
 .df-meal-stats {
@@ -1156,6 +1222,12 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .df-stack-card.is-top {
+    animation: none;
+    transform: translateY(-4px);
+  }
+
+  .df-stack-card,
   .df-seg-base,
   .df-seg text,
   .df-tile span {
@@ -1167,4 +1239,15 @@
   width: min(100%, 1040px);
   max-width: none;
   margin-inline: auto;
+}
+
+/* Numbers and app headings use the display cut of Funnel */
+.df-gauge-value,
+.df-meal-kcal,
+.df-meal-stat-value,
+.df-sheet h2,
+.df-stepper output,
+.df-gain-value,
+.df-faq h2 {
+  font-family: var(--font-display);
 }

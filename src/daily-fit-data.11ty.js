@@ -4,6 +4,8 @@
 
 const foodData = require("./resource/pregnut_fooddata.v1.json");
 const foodImages = require("./_data/foodimages.js");
+const fs = require("fs");
+const path = require("path");
 const meals = require("./_data/dailyFitMeals.js");
 const { foodPortions } = require("../scripts/food-portions.js");
 
@@ -70,6 +72,22 @@ function kind(id) {
   return word.replace(/(es|s)$/, "");
 }
 
+// Background-free versions of the food photos, used for the meal stacks.
+const CUTOUT_DIR = path.join(__dirname, "resource/portions/cutouts");
+const cutouts = new Set(fs.existsSync(CUTOUT_DIR) ? fs.readdirSync(CUTOUT_DIR) : []);
+function cutout(image) {
+  const name = path.basename(image || "");
+  return name && cutouts.has(name) ? `/resource/portions/cutouts/${name}` : "";
+}
+
+// Foods without a photo of their own that look the same as one that has.
+const BORROWED_CUTOUTS = {
+  "11458": "11457-spinach-raw.webp", "09298": "09297-raisins-golden-seedless.webp",
+  "19297": "19920-jams-preserves-marmalades-sweetened-with-fruit-juice.webp",
+  "11674": "11364-potatoes-baked-skin.webp", "11091": "11090-broccoli-raw.webp",
+  "08029": "08028-cereal-kellogg-s-all-bran-complete-wheat-flakes.webp"
+};
+
 function round(n) {
   return Math.round(n * 1000) / 1000;
 }
@@ -95,7 +113,7 @@ module.exports = class DailyFitData {
       const rank = (mealIds.has(food.id) ? 2 : 0) + (image ? 1 : 0) - (TREAT_GROUPS.has(food.group) ? 2 : 0) -
         (food.uncommon ? 3 : 0) - (level === 2 ? 2 : 0);
       foods.push([food.id, label, image, level, level ? food.warningText || "" : "", values, portions, rank,
-        ALIASES[food.id] || "", largePhoto.get(food.id) || ""]);
+        ALIASES[food.id] || "", largePhoto.get(food.id) || "", cutout(image) || cutout(BORROWED_CUTOUTS[food.id])]);
       if (mealIds.has(food.id) && level < 2 && WHOLE_GROUPS.has(food.group)) helperPool.push({ food, portions, values });
     }
 
