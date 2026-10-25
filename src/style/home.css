@@ -281,7 +281,7 @@
 
 .home-tool-arc-value {
   fill: var(--ink);
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
   font-size: 46px;
   font-weight: 500;
 }
@@ -317,6 +317,7 @@
 
 .home-tool-row i {
   position: relative;
+  font-style: normal;
   height: 8px;
   overflow: hidden;
   border-radius: var(--r-pill);
@@ -346,6 +347,7 @@
 
 .home-tool-weeks i {
   flex: var(--w, 1);
+  font-style: normal;
   height: 6px;
   border-radius: var(--r-pill);
   background: var(--bg-2);
@@ -510,7 +512,7 @@
 .need-card-cover-amount {
   color: inherit;
   white-space: nowrap;
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
   font-size: var(--fs-xl);
   font-weight: 500;
   font-variant-numeric: tabular-nums;

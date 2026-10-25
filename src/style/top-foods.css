@@ -1,162 +1,393 @@
-/* Top Foods page layout. Shared chart components live in viz.css. */
+/* Top Foods: one ranked list per nutrient. A big serif rank, the food cut
+   out of its photo, the serving it was measured in, and a bar to the daily
+   reference. Sizes, spacing, radii and motion come from style.css tokens. */
 
-.page-topfoods {
+.page-topfoods .page {
+  padding-top: var(--s-9);
+}
+
+.tf {
+  width: min(100%, 880px);
+  margin: 0 auto var(--s-9);
+}
+
+.tf-title {
+  max-width: 14ch;
+  margin: var(--s-6) 0 var(--s-6);
+  font-size: var(--fs-2xl);
+  line-height: 1.02;
+}
+
+/* Controls: nutrient chips, then a two-way switch */
+.tf-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-3) var(--s-5);
+}
+
+.tf-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+}
+
+.tf-chip,
+.tf-toggle label {
   position: relative;
 }
 
-.page-topfoods .hero {
-  margin-bottom: 36px;
-}
-
-.topfoods-head {
-  margin: 18px 0 16px;
-}
-
-.topfoods-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
-  gap: 16px;
-}
-
-.topfoods-grid:empty {
-  display: none;
-}
-
-.topfoods-footnote {
-  margin-top: 22px;
-}
-
-/* Familiar food examples */
-.topfoods-examples,
-.topfoods-guides-section {
-  margin-top: clamp(56px, 8vw, 88px);
-}
-
-.topfoods-examples .viz-note,
-.topfoods-guides .viz-note {
-  margin-top: 10px;
-}
-
-.topfoods-example-grid {
-  margin: 24px 0 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 20px;
-  list-style: none;
-}
-
-.topfoods-example {
-  position: relative;
-  min-width: 0;
-}
-
-.topfoods-example img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
-  margin-bottom: 12px;
-  border-radius: 16px;
-  background: var(--viz-track);
-  object-fit: cover;
-  transition: transform 220ms ease;
-}
-
-.topfoods-example a {
-  color: var(--ink);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.topfoods-example a::after {
-  content: "";
+.tf-chip input,
+.tf-toggle input {
   position: absolute;
   inset: 0;
-  border-radius: 16px;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
 }
 
-.topfoods-example a:focus-visible {
-  outline: none;
+.tf-chip span {
+  min-height: 44px;
+  padding: 0 var(--s-4);
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-pill);
+  background: var(--card);
+  font-size: var(--fs-sm);
+  white-space: nowrap;
+  transition: background var(--dur-1) ease, color var(--dur-1) ease, border-color var(--dur-1) ease;
 }
 
-.topfoods-example:has(a:focus-visible) img {
-  outline: 2px solid var(--accent-2);
-  outline-offset: 3px;
+.tf-chip input:checked + span {
+  border-color: var(--ink);
+  color: #fffefb;
+  background: var(--ink);
 }
 
-.topfoods-example:hover img {
-  transform: scale(1.02);
+.tf-toggle {
+  padding: var(--s-1);
+  display: inline-flex;
+  border-radius: var(--r-pill);
+  background: var(--bg-2);
 }
 
-.topfoods-example p {
-  margin: 2px 0 0;
+.tf-toggle span {
+  min-height: 36px;
+  padding: 0 var(--s-4);
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--r-pill);
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: var(--fs-sm);
+  white-space: nowrap;
 }
 
-.topfoods-example-ph {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  aspect-ratio: 1;
-  margin-bottom: 12px;
-  border-radius: 16px;
-  color: var(--accent-2);
-  background: var(--viz-track);
-  font-family: var(--font-serif);
-  font-size: clamp(1.4rem, 2.6vw, 2rem);
-  font-style: italic;
-  text-align: center;
-  padding: 12px;
+.tf-toggle input:checked + span {
+  color: var(--ink);
+  background: var(--card);
+  box-shadow: 0 1px 2px rgba(38, 48, 56, 0.08);
 }
 
-.topfoods-example:hover .topfoods-example-ph {
-  transform: scale(1.02);
+.tf-chip input:focus-visible + span,
+.tf-toggle input:focus-visible + span {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
 }
 
-.topfoods-example-ph {
-  transition: transform 220ms ease;
+.tf-basis {
+  margin: var(--s-6) 0 var(--s-2);
+  color: var(--muted);
+  font-size: var(--fs-sm);
 }
 
-.topfoods-example-amount {
+.tf-basis strong {
   color: var(--ink);
   font-weight: 600;
+}
+
+/* The list */
+.tf-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--border);
+}
+
+.tf-row {
+  padding: var(--s-4) 0;
+  display: grid;
+  grid-template-columns: 56px 76px minmax(0, 1fr) auto auto;
+  grid-template-areas:
+    "rank pic copy note pct"
+    "rank pic bar bar bar";
+  align-items: center;
+  column-gap: var(--s-4);
+  row-gap: var(--s-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.tf-rank {
+  grid-area: rank;
+  color: var(--muted);
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  line-height: 1;
+  text-align: center;
+  font-variant-numeric: lining-nums;
+}
+
+.tf-row:first-child .tf-rank {
+  color: var(--accent);
+}
+
+.tf-pic {
+  grid-area: pic;
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 8px rgba(38, 48, 56, 0.14));
+  transition: transform var(--dur-2) var(--ease-spring);
+}
+
+.tf-row:hover .tf-pic {
+  transform: translateY(-3px) rotate(-3deg) scale(1.06);
+}
+
+.tf-pic.is-letter {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--accent-2);
+  background: var(--bg-2);
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  filter: none;
+}
+
+.tf-copy {
+  grid-area: copy;
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.tf-name {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: var(--fs-md);
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tf-name:hover {
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.tf-serving {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.tf-row > .caution {
+  grid-area: note;
+}
+
+.tf-pct {
+  grid-area: pct;
+  min-width: 3.4ch;
+  font-family: var(--font-sans);
+  font-size: var(--fs-lg);
+  font-weight: 500;
+  text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-.topfoods-iodine {
-  margin-top: 18px;
+.tf-pct small {
+  color: var(--muted);
+  font-size: 0.6em;
+}
+
+.tf-bar {
+  grid-area: bar;
+  height: 6px;
+  overflow: hidden;
+  border-radius: var(--r-pill);
+  background: var(--bg-2);
+}
+
+.tf-bar i {
+  display: block;
+  font-style: normal;
+  width: var(--p, 0%);
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+}
+
+.tf-guide {
+  margin: var(--s-6) 0 var(--s-2);
+  font-size: var(--fs-md);
+}
+
+.tf-guide a {
+  color: var(--accent-2);
+  font-weight: 500;
+  text-underline-offset: 4px;
+}
+
+.tf-guide a::after {
+  content: " →";
+}
+
+.tf-source {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+.tf-source a {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+
+/* Switching nutrients: rows rise in one after another */
+@media (prefers-reduced-motion: no-preference) {
+  .tf-list.is-fresh .tf-row {
+    animation: tf-rise var(--dur-3) var(--ease-out) both;
+    animation-delay: calc(var(--n, 0) * 35ms);
+  }
+
+  .tf-list.is-fresh .tf-bar i {
+    animation: tf-grow 700ms var(--ease-out) both;
+    animation-delay: calc(120ms + var(--n, 0) * 35ms);
+  }
+}
+
+@keyframes tf-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes tf-grow {
+  from { width: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .topfoods-example img {
+  .tf-pic,
+  .tf-chip span {
     transition: none;
   }
+}
 
-  .topfoods-example:hover img {
-    transform: none;
+/* Phones: chips scroll sideways in one line */
+@media (max-width: 700px) {
+  .page-topfoods .page {
+    padding-top: var(--s-9);
+  }
+
+  .tf-title {
+    margin-top: var(--s-4);
+  }
+
+  .tf-controls {
+    gap: var(--s-3);
+  }
+
+  .tf-chips {
+    margin: 0 calc(-1 * var(--s-4));
+    padding: 0 var(--s-4) var(--s-1);
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-padding-inline: var(--s-4);
+  }
+
+  .tf-chips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tf-row {
+    grid-template-columns: 28px 56px minmax(0, 1fr) auto auto;
+    column-gap: var(--s-3);
+  }
+
+  .tf-rank {
+    font-size: var(--fs-lg);
+  }
+
+  .tf-pic {
+    width: 56px;
+    height: 56px;
+  }
+
+  .tf-name {
+    font-size: var(--fs-base);
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
 }
 
-@media (max-width: 860px) {
-  .topfoods-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .topfoods-example-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
-  }
+/* Safety notes: the same popover as the rest of the site (caution.js) */
+.caution {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
-@media (max-width: 640px) {
-  .page-topfoods .hero {
-    margin-bottom: 24px;
-  }
+.caution-trigger {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: #7a4a22;
+  background: #f6e6d6;
+  font: 700 var(--fs-xs) / 1 var(--font-sans);
+  cursor: pointer;
+}
 
-  .page-topfoods .hero-title {
-    font-size: clamp(3.1rem, 15vw, 4.3rem);
-  }
+.caution-trigger:hover,
+.caution-trigger[aria-expanded="true"] {
+  background: #efd6bf;
+}
+
+.caution-trigger:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+}
+
+.caution-popover {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 1000;
+  width: min(320px, calc(100vw - 24px));
+  padding: var(--s-3) var(--s-4);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  color: var(--ink);
+  background: var(--card);
+  box-shadow: 0 12px 32px rgba(38, 48, 56, 0.14);
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity var(--dur-1) ease, transform var(--dur-1) ease, visibility var(--dur-1) ease;
+}
+
+.caution-popover[data-open="1"] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
 }
