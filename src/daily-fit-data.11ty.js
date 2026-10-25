@@ -75,8 +75,12 @@ function kind(id) {
 // Background-free versions of the food photos, used for the meal stacks.
 const CUTOUT_DIR = path.join(__dirname, "resource/portions/cutouts");
 const cutouts = new Set(fs.existsSync(CUTOUT_DIR) ? fs.readdirSync(CUTOUT_DIR) : []);
+// Completed replacements already have alpha; share the same optimized asset.
+const regeneratedCutouts = new Set(require("../docs/food-image-regeneration.json").batches
+  .flatMap((batch) => batch.foods.filter((food) => food.status === "complete").map((food) => food.file)));
 function cutout(image) {
   const name = path.basename(image || "");
+  if (regeneratedCutouts.has(name)) return `/resource/portions/top-foods/${name}`;
   return name && cutouts.has(name) ? `/resource/portions/cutouts/${name}` : "";
 }
 
