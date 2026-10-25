@@ -28,7 +28,7 @@
   margin-bottom: 28px;
   font-size: clamp(3.1rem, 5.5vw, 5.3rem);
   line-height: 1.025;
-  letter-spacing: -.032em;
+  letter-spacing: -0.01em;
   text-wrap: balance;
 }
 .magazine-post .post-dek {

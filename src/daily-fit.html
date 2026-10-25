@@ -5,49 +5,39 @@ layout: base.njk
 permalink: /pregnancy-nutrition-calculator/index.html
 bodyClass: page-dailyfit
 pageStyles:
-  - /style/daily-fit.css?v=20261024-type
+  - /style/daily-fit.css?v=20261025-gloock
 pageScripts:
-  - /js/daily-fit.js?v=20261024-look
+  - /js/daily-fit.js?v=20261025-stack
 ---
 
 <div class="df-app" id="DailyFit">
-  <header class="df-top">
-    <p class="df-hello" id="DfHello">Hello,</p>
-    <h1 class="df-title">Complete your daily pregnancy nutrition</h1>
+  <section class="df-dash" aria-labelledby="DfTitle">
+    <div class="df-bar">
+      <button class="df-icon-btn" type="button" id="DfClear" aria-label="Start today over" title="Start over" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <h1 class="df-title" id="DfTitle">Pregnancy nutrition calculator</h1>
+      <button class="df-icon-btn" type="button" id="DfDesignOpen" aria-label="Plan my day" title="Plan my day" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 4.9L19 9.6l-4.2 3.2 1.5 5.2L12 15l-4.3 3 1.5-5.2L5 9.6l5.2-1.7z" fill="currentColor"/></svg></button>
+    </div>
+    <div class="df-gauge" id="DfGauge">
+      <svg class="df-arc" id="DfArc" viewBox="0 0 320 200" role="group" aria-label="Today's 13 pregnancy nutrients"></svg>
+      <div class="df-gauge-center" aria-live="polite">
+        <p class="df-gauge-kicker" id="DfKicker"></p>
+        <p class="df-gauge-value" id="DfValue">0<small> of 13</small></p>
+        <p class="df-gauge-label" id="DfLabel">nutrients met</p>
+      </div>
+    </div>
     <div class="df-search">
       <label class="sr-only" for="DfSearch">Add a food</label>
-      <svg class="df-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      <input id="DfSearch" type="search" placeholder="Add a food, like eggs or spinach" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="DfResults" aria-autocomplete="list" disabled>
+      <svg class="df-search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="DfSearch" type="search" placeholder="Add a food" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="DfResults" aria-autocomplete="list" disabled>
       <ul class="df-results" id="DfResults" role="listbox" aria-label="Matching foods" hidden></ul>
     </div>
-    <div class="df-actions">
-      <button class="df-design-btn" type="button" id="DfDesignOpen" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 4.9L19 9.6l-4.2 3.2 1.5 5.2L12 15l-4.3 3 1.5-5.2L5 9.6l5.2-1.7z" fill="currentColor"/></svg>Design my day</button>
-      <button class="df-link-btn" type="button" id="DfShuffle" hidden>Shuffle</button>
-      <button class="df-link-btn" type="button" id="DfClear" hidden>Start over</button>
-    </div>
-  </header>
-
-  <section class="df-fit" id="DfFit" aria-labelledby="DfFitTitle">
-    <div class="df-fit-head">
-      <h2 id="DfFitTitle">Today</h2>
-      <p class="df-count"><strong id="DfCovered">0</strong> of 13 covered</p>
-    </div>
-    <p class="df-mood" id="DfMood"></p>
-    <ul class="df-cards" id="DfNutrients"></ul>
+    <p class="df-or" id="DfOr" hidden>or <button type="button" id="DfPlanLink">plan a day for me</button></p>
   </section>
 
-  <section class="df-plate" aria-label="Meals">
-    <div class="df-tabs" id="DfTabs" role="tablist" aria-label="Meals"></div>
-    <div class="df-meal-view" id="DfMeals" role="tabpanel" aria-live="polite"></div>
-  </section>
-
-  <p class="df-note">Folate, iron, DHA and vitamin D are hard to reach with food alone; that's what a prenatal vitamin is for. <a href="/blog/prenatal-vitamin-label-pregnancy/">How to read your label</a>.</p>
+  <ul class="df-meals" id="DfMeals" aria-label="Meals"></ul>
 </div>
 
-<div class="df-dock" id="DfDock" hidden>
-  <button class="df-dock-score" id="DfDockScore" type="button"><span id="DfDockText">0 of 13</span> covered</button>
-  <button class="df-dock-add" id="DfDockAdd" type="button">Add food</button>
-</div>
+<button class="df-fab" id="DfFab" type="button" aria-label="Add a food" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
 
 <dialog class="df-sheet" id="DfAmount" aria-labelledby="DfAmountName">
   <form method="dialog" id="DfAmountForm">
@@ -96,7 +86,6 @@ pageScripts:
       <label class="df-pill"><input type="radio" name="prep" value="2" checked><span>Some</span></label>
       <label class="df-pill"><input type="radio" name="prep" value="3"><span>Happy to cook</span></label>
     </div>
-    <p class="df-sheet-hint" id="DfDesignHint" hidden>This replaces what's on today's list.</p>
     <button type="submit" class="df-primary">Plan my day</button>
   </form>
 </dialog>
