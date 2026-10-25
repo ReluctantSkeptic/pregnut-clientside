@@ -5,9 +5,9 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20261025-gloock
+  - /style/home.css?v=20261025-system
 pageScripts:
-  - /js/home.js?v=20261024-deck
+  - /js/home.js?v=20261025-system
 ---
 
 <section class="home-hero" aria-label="Hero">
@@ -37,125 +37,56 @@ pageScripts:
 </section>
 <a class="home-mobile-cta" id="HomeMobileCta" href="/weekly-diet/">See your weekly guide</a>
 
-<section class="section home-slab is-tone" id="home-explore" aria-label="How to use PregNut">
-  <div class="home-slab-shell">
-    <div class="home-slab-head is-intro">
-      <h2 class="home-lede">Start with your week—or what’s on your plate.</h2>
-    </div>
-    <div class="home-use" aria-label="Explore features">
-      <section class="home-search-stage" aria-label="Search foods">
-        <div class="home-search-stage-inner">
-          <h3 class="home-lede">Search</h3>
-          <form class="home-search-form" action="/food/" method="get" autocomplete="off">
-            <label class="sr-only" for="HomeFoodSearchInput">Search a food</label>
-            <input
-              id="HomeFoodSearchInput"
-              name="q"
-              class="home-search-input"
-              aria-describedby="HomeFoodSearchStatus"
-              type="text"
-              inputmode="search"
-              placeholder="Start typing: salmon, lentils, spinach..."
-            />
-            <button class="home-search-submit" type="submit">Search</button>
-          </form>
-          <p class="home-search-status" id="HomeFoodSearchStatus" role="status" hidden></p>
+<section class="home-tools" id="home-explore" aria-label="Tools">
+  <form class="home-search" action="/food/" method="get" autocomplete="off" role="search">
+    <label class="sr-only" for="HomeFoodSearchInput">Search a food</label>
+    <svg class="home-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <input id="HomeFoodSearchInput" name="q" class="home-search-input" aria-describedby="HomeFoodSearchStatus" type="text" inputmode="search" placeholder="Search a food, like salmon or lentils">
+    <button class="home-search-submit" type="submit">Search</button>
+    <p class="home-search-status" id="HomeFoodSearchStatus" role="status" hidden></p>
+  </form>
 
-          <p class="home-search-hint">
-            Every value is per 100 g. <a href="/about/#hundred-grams">See what 100 g looks like</a>.
-          </p>
-        </div>
-      </section>
+  <div class="home-tool-grid">
+    <a class="home-tool is-dailyfit" href="/pregnancy-nutrition-calculator/">
+      <h2 class="home-tool-title">Daily Fit</h2>
+      <p class="home-tool-text">Add what you ate and watch 13 nutrients fill up.</p>
+      <svg class="home-tool-arc" viewBox="0 0 320 200" aria-hidden="true">
+        {% set fills = [1, 0.9, 1, 0.55, 0.35, 0.8, 1, 1, 0.6, 1, 0.75, 0.5, 0.3] %}
+        {% set colors = ["#2f6b5a", "#3f7d63", "#5b8f5e", "#7ea25a", "#a9b25a", "#d3b45a", "#e8a65a", "#ee955e", "#ef8566", "#e57770", "#d46f7d", "#b86c8a", "#946a94"] %}
+        {% for f in fills %}{% set angle = -100 + (200 / 13) * (loop.index0 + 0.5) %}
+        <g transform="translate(160 170) rotate({{ angle }})"><rect x="-13" y="-154" width="26" height="44" rx="10" fill="#ece8de"/><rect x="-13" y="-154" width="26" height="44" rx="10" fill="{{ colors[loop.index0] }}" fill-opacity="{{ f }}"/></g>
+        {% endfor %}
+        <text x="160" y="150" text-anchor="middle" class="home-tool-arc-value">9<tspan class="home-tool-arc-of"> of 13</tspan></text>
+      </svg>
+    </a>
 
-      <article class="home-dailyfit" aria-labelledby="home-dailyfit-title">
-        <div class="home-dailyfit-copy">
-          <h3 class="home-lede" id="home-dailyfit-title">Daily Fit</h3>
-          <p class="home-feature-text">Add what you ate in cups, slices or servings and watch 13 pregnancy nutrients fill up. Or let it plan a day of easy meals.</p>
-          <a class="home-feature-cta is-dark" href="/pregnancy-nutrition-calculator/">Check today's nutrients</a>
-        </div>
-        <div class="home-dailyfit-preview" aria-hidden="true">
-          <div class="home-df-tabs"><span class="is-on">Breakfast</span><span>Lunch</span><span>Snack</span><span>Dinner</span></div>
-          <div class="home-df-cards">
-            <div class="home-df-card is-covered"><span>Folate</span><small>820 of 600 mcg</small><strong>✓ 137<i>%</i></strong></div>
-            <div class="home-df-card is-close"><span>Iron</span><small>17 of 27 mg</small><strong>64<i>%</i></strong></div>
-            <div class="home-df-card is-covered"><span>Choline</span><small>475 of 450 mg</small><strong>✓ 106<i>%</i></strong></div>
-            <div class="home-df-card"><span>DHA</span><small>0.1 of 0.3 g</small><strong>33<i>%</i></strong></div>
-          </div>
-        </div>
-      </article>
-
-      <div class="home-use-grid" aria-label="Feature highlights">
-        <article class="home-feature" data-kind="topfoods">
-          <div class="home-feature-head">
-            <h3 class="home-lede">Top Foods</h3>
-          </div>
-          <p class="home-feature-text">Rank foods by any nutrient, from whole foods or fortified ones.</p>
-          <a class="home-feature-cta" href="/app/">Open Top Foods</a>
-          <div class="home-feature-media" aria-hidden="true">
-            <div class="home-preview-phone">
-              <div class="home-preview-topbar">
-                <span class="home-preview-app">Top Foods</span>
-                <span class="home-preview-pill">Choline</span>
-              </div>
-              <div class="home-preview-body">
-                <p class="home-preview-caption">Food examples · per 100g</p>
-                <div class="home-preview-rows">
-                  {% for row in homePreview.topRows %}
-                  <div class="home-preview-row" style="--p: {{ row.fill }}">
-                    <span class="home-preview-label">{{ row.label }}</span>
-                    <span class="home-preview-bar"></span>
-                    <span class="home-preview-value">{{ row.value }}</span>
-                  </div>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="home-feature" data-kind="weekly">
-          <div class="home-feature-head">
-            <h3 class="home-lede">Weekly Guide</h3>
-          </div>
-          <p class="home-feature-text">See which nutrients matter at your stage, and the foods richest in them.</p>
-          <a class="home-feature-cta" href="/weekly-diet/">Open Weekly Guide</a>
-          <div class="home-feature-media" aria-hidden="true">
-            <div class="home-preview-phone">
-              <div class="home-preview-topbar">
-                <span class="home-preview-app">Weekly Guide</span>
-                <span class="home-preview-pill">{{ homePreview.weekLabel }}</span>
-              </div>
-              <div class="home-preview-body">
-                <p class="home-preview-caption">{{ homePreview.periodLabel }}</p>
-                <div class="home-preview-timeline" aria-hidden="true">
-                  {% for segment in homePreview.periods %}
-                  <div class="home-preview-seg{% if segment.active %} is-active{% endif %}" style="--w: {{ segment.width }}"></div>
-                  {% endfor %}
-                </div>
-                <div class="home-preview-rows is-compact">
-                  {% for row in homePreview.weeklyRows %}
-                  <div class="home-preview-row" style="--p: {{ row.fill }}">
-                    <span class="home-preview-label">{{ row.label }}</span>
-                    <span class="home-preview-bar"></span>
-                    <span class="home-preview-value">{{ row.value }}</span>
-                  </div>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
+    <a class="home-tool is-topfoods" href="/app/">
+      <h2 class="home-tool-title">Top Foods</h2>
+      <p class="home-tool-text">The best everyday sources of each nutrient.</p>
+      <div class="home-tool-rows" aria-hidden="true">
+        {% for row in homePreview.topRows %}
+        <div class="home-tool-row" style="--p: {{ row.fill }}"><span>{{ row.label }}</span><i></i><b>{{ row.value }}</b></div>
+        {% endfor %}
       </div>
-    </div>
+    </a>
+
+    <a class="home-tool is-weekly" href="/weekly-diet/">
+      <h2 class="home-tool-title">Weekly Guide</h2>
+      <p class="home-tool-text">What matters this week, and where to get it.</p>
+      <div class="home-tool-rows" aria-hidden="true">
+        <div class="home-tool-weeks">{% for segment in homePreview.periods %}<i class="{% if segment.active %}is-on{% endif %}" style="--w: {{ segment.width }}"></i>{% endfor %}</div>
+        {% for row in homePreview.weeklyRows %}
+        <div class="home-tool-row" style="--p: {{ row.fill }}"><span>{{ row.label }}</span><i></i><b>{{ row.value }}</b></div>
+        {% endfor %}
+      </div>
+    </a>
   </div>
 </section>
 
-
-<section class="section nutrient-library" aria-labelledby="nutrient-library-title">
-  <div class="home-slab-head">
-    <h2 class="home-lede" id="nutrient-library-title">What nutrients are important during pregnancy?</h2>
-    <p class="home-slab-desc">Daily reference amounts for pregnancy, mostly from the NIH. Your care team can tailor them to you. <a href="/blog/">Browse all guides</a></p>
-    <p class="home-slab-desc">Food safety: <a href="/blog/food-safety-pregnancy/">what to check before you eat</a> · <a href="/blog/eggs-during-pregnancy/">eggs</a> · <a href="/blog/sprouts-during-pregnancy/">sprouts</a> · <a href="/blog/deli-meat-pregnancy/">deli meat</a> · <a href="/blog/soft-cheese-pregnancy/">soft cheese</a> · <a href="/blog/juice-pasteurization-pregnancy/">juice</a> · <a href="/blog/caffeine-coffee-tea-pregnancy/">caffeine</a> · <a href="/blog/foods-for-morning-sickness-pregnancy/">morning sickness</a></p>
+<section class="nutrient-library" aria-labelledby="nutrient-library-title">
+  <div class="nutrient-library-head">
+    <h2 class="nutrient-library-title" id="nutrient-library-title">What nutrients are important during pregnancy?</h2>
+    <p class="nutrient-library-desc">Daily reference amounts for pregnancy, mostly from the NIH. Your care team can tailor them to you.</p>
   </div>
   <div id="NeedsDeck" aria-label="Nutrient reference amounts and roles">
     {% set group = nutrientGuidance %}
@@ -172,10 +103,10 @@ pageScripts:
           <div class="nutrient-stack">
             <div class="nutrient-stack-docs">
               {% for nutrient in group %}
-              <article class="need-card" data-need-card data-nutrient="{{ nutrient.id }}" style="--i: {{ loop.index0 }}" tabindex="0" aria-label="{{ nutrient.label }} nutrient card">
+              <article class="need-card" data-need-card data-nutrient="{{ nutrient.id }}" style="--i: {{ loop.index0 }}">
                 <div class="need-paper">
                   <h3 class="need-card-nutrient">{{ nutrient.label }}</h3>
-                  <div class="need-card-cover"><img class="need-card-icon" src="{{ nutrient.artwork }}" width="256" height="256" alt="" loading="lazy" decoding="async"><span class="need-card-cover-label">Reference amount</span><strong class="need-card-cover-amount">{{ nutrient.amount }}</strong></div>
+                  <div class="need-card-cover"><img class="need-card-icon" src="{{ nutrient.artwork }}" width="256" height="256" alt="" loading="lazy" decoding="async"><strong class="need-card-cover-amount">{{ nutrient.amount }}</strong></div>
                   <p class="need-card-text">{{ nutrient.role }}</p>
                   <div class="need-card-evidence"><a href="{{ nutrient.guide or nutrient.source }}">Read the guide <span aria-hidden="true">↗</span></a></div>
                 </div>
@@ -190,7 +121,6 @@ pageScripts:
 </section>
 <section class="home-closer" aria-labelledby="home-closer-title">
   <h2 class="home-closer-title" id="home-closer-title">Start with <em>today.</em></h2>
-  <p>Check what you've eaten so far, or see what matters this week.</p>
   <div class="home-actions">
     <a class="home-action is-primary" href="/pregnancy-nutrition-calculator/">Check today's nutrients</a>
     <a class="home-action is-secondary" href="/weekly-diet/">See your weekly guide</a>
