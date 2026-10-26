@@ -5668,73 +5668,97 @@
           "id": "18271",
           "name": "Ice cream cones, Cake or wafer-type",
           "file": "18271-ice-cream-cones-cake-or-wafer-type.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: two empty cake-style wafer ice cream cones, flat-bottomed cup-shaped cones with delicate golden-brown baked wafer texture and a subtle grid pattern, one upright and one slightly tilted to show the open top, clean unfilled cones, centered, soft upper-left studio light, subtle realistic contact shadow only, no ice cream, no wrapper, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, cones fully visible and filling about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-fbf15289-4f7f-420b-bf16-766ca1ab2389.png"
         },
         {
           "id": "18272",
           "name": "Ice cream cones, Sugar, Rolled-type",
           "file": "18272-ice-cream-cones-sugar-rolled-type.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: two empty rolled sugar ice cream cones, crisp pointed cones with a golden caramel-brown color and fine diamond waffle pattern, one upright and one leaning beside it, clean unfilled cones, centered, soft upper-left studio light, subtle realistic contact shadow only, no ice cream, no wrapper, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, cones fully visible and filling about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-20a56e72-8938-4ee3-80bc-49d99976c224.png"
         },
         {
           "id": "01239",
           "name": "Ice cream cookie sandwich",
           "file": "01239-ice-cream-cookie-sandwich.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one round ice cream cookie sandwich, thick creamy vanilla ice cream between two large golden-brown chocolate-chip cookies, cookie edges clearly textured with visible chips, one small cut wedge beside it revealing the vanilla center, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no plate, no wrapper, no napkin, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, sandwich fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-7792fa82-b233-4191-926e-b488c74c42bc.png"
         },
         {
           "id": "01238",
           "name": "Ice cream sandwich",
           "file": "01238-ice-cream-sandwich.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one classic rectangular ice cream sandwich, thick white vanilla ice cream neatly layered between two dark chocolate wafer biscuits with a subtle dotted waffle pattern, one small cut piece beside it showing the clean layers, crisp edges and realistic frozen texture, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no plate, no wrapper, no napkin, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, sandwich fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-bfb720f8-8c7d-44c9-9008-4145c0a29823.png"
         },
         {
           "id": "01301",
           "name": "Ice cream sundae cone",
           "file": "01301-ice-cream-sundae-cone.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one small vanilla ice cream sundae cone, crisp golden sugar cone filled with vanilla ice cream and topped with a rounded scoop, a light ribbon of chocolate sauce and a few colorful tiny sprinkles, neat appetizing classic treat, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no brand, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, whole cone visible with generous transparent padding.",
+          "generatedSource": "exec-bf878639-afd5-400e-be70-75103d830267.png"
         },
         {
           "id": "01237",
           "name": "Ice cream, Bar or stick, Chocolate covered",
           "file": "01237-ice-cream-bar-or-stick-chocolate-covered.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one plain chocolate-covered ice cream bar on a short wooden stick, smooth thin milk-chocolate shell with a small neat bite revealing creamy white vanilla ice cream inside, no nuts or toppings, realistic frozen texture, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no brand, no logo, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, whole bar and stick visible with generous transparent padding.",
+          "generatedSource": "exec-3b8b0329-34a1-4bc7-9169-fd38d2720731.png"
         },
         {
           "id": "01263",
           "name": "Ice cream, Light, Soft serve, Chocolate",
           "file": "01263-ice-cream-light-soft-serve-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one small portion of light chocolate soft-serve ice cream in a simple short white paper cup, a smooth airy cocoa-brown soft-serve swirl rising above the rim with a neat pointed peak, subtle realistic frozen sheen, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no spoon, no toppings, no logo, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, whole cup visible with generous transparent padding.",
+          "generatedSource": "exec-90f374f9-fafe-4831-bf1b-df445c55bc9b.png"
         },
         {
           "id": "01306",
           "name": "Ice cream, Lowfat, No sugar added, Cone, Added peanuts and chocolate sauce",
           "file": "01306-ice-cream-lowfat-no-sugar-added-cone-added-peanuts-and-chocolate-sauce.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one small sugar cone filled with light vanilla ice cream, topped with a modest scoop and a drizzle of chocolate sauce plus a few chopped peanuts, a bit of sauce at the rim, clearly showing the cone, peanuts, and chocolate topping, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no brand, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, entire cone visible with generous transparent padding.",
+          "generatedSource": "exec-d3015444-2241-45c3-828c-2795d76a8c1a.png"
         },
         {
           "id": "01236",
           "name": "Ice cream, Soft serve, Chocolate",
           "file": "01236-ice-cream-soft-serve-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one tall swirl of rich chocolate soft-serve ice cream served in a small crisp golden cake cone, smooth cocoa-brown soft-serve spiraled into a pointed peak above the cone rim, delicate frozen sheen, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no cup, no sprinkles, no sauce, no spoon, no wrapper, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, whole cone visible with generous transparent padding.",
+          "generatedSource": "exec-62ad705c-921a-4d86-8963-7d809a7ebe7e.png"
         },
         {
           "id": "19270",
           "name": "Ice creams, Chocolate",
           "file": "19270-ice-creams-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: two rounded scoops of deep chocolate ice cream in a small plain clear glass dessert bowl, dense creamy cocoa-brown surface with natural scoop ridges and a few tiny chocolate flecks, no toppings, compact portion, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no spoon, no wafer, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-cdd30d2b-cc78-4605-94ac-ec81dee2b0b5.png"
         },
         {
           "id": "19095",
           "name": "Ice creams, Vanilla",
           "file": "19095-ice-creams-vanilla.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: two rounded scoops of vanilla ice cream in a small plain clear glass dessert bowl, creamy ivory color with subtle real vanilla bean specks and natural scoop ridges, no toppings, compact portion, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no spoon, no wafer, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-5907bd9e-d72f-4463-86d9-df8e1b20531b.png"
         },
         {
           "id": "42117",
           "name": "Imitation cheese, American or cheddar, Low cholesterol",
           "file": "42117-imitation-cheese-american-or-cheddar-low-cholesterol.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a short neat stack of three smooth orange American-cheddar imitation cheese slices, square slices with softly rounded corners and a slightly glossy processed-cheese surface, one upper corner gently folded to reveal the thin slice layers, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no packaging, no label, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, cheese stack fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-2ddb1410-9403-458e-86f3-caf6b53c559f.png"
         }
       ]
     },
