@@ -401,7 +401,6 @@
 .viz-row.is-featured .viz-thumb {
   width: 168px;
   height: 168px;
-  border-radius: 18px;
   transition: transform 300ms ease;
 }
 
@@ -443,14 +442,19 @@
   height: 56px;
   display: grid;
   place-items: center;
-  overflow: hidden;
-  border-radius: 14px;
+  border-radius: 50%;
   color: var(--accent-2);
   background: var(--viz-track);
   font-family: var(--font-serif);
   font-size: 1.5rem;
   line-height: 1;
-  object-fit: cover;
+}
+
+img.viz-thumb {
+  border-radius: 0;
+  background: none;
+  object-fit: contain;
+  filter: var(--cutout-shadow);
 }
 
 .viz-copy {

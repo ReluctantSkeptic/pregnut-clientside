@@ -846,3 +846,7 @@
     padding-bottom: 0;
   }
 }
+
+.home-search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}

@@ -1,25 +1,26 @@
 <header class="site-header">
     <nav class="nav-shell" aria-label="Primary">
+        <a class="brand" href="/">
+            <img class="brand-mark" src="/resource/brand/pregnut-icon.webp?v=20261023-simple" width="38" height="38" alt="" aria-hidden="true">
+            <span class="brand-copy">
+                <span class="brand-name">PregNut</span>
+                <span class="brand-tagline">Pregnancy nutrition, decoded</span>
+            </span>
+        </a>
+
         <details class="nav-collapse" id="NavCollapse">
             <summary class="nav-pill" aria-expanded="false">
-                <span class="nav-pill-brand"><img class="brand-mark" src="/resource/brand/pregnut-icon.webp?v=20261023-simple" width="38" height="38" alt="" aria-hidden="true">PregNut</span>
-                <span class="nav-pill-menu">
-                    <span class="nav-pill-menu-text">Menu</span>
-                    <span class="nav-pill-burger">
-                        <span class="nav-pill-burger-line"></span>
-                        <span class="nav-pill-burger-line"></span>
-                    </span>
+                <span class="nav-pill-menu-text">Menu</span>
+                <span class="nav-pill-burger" aria-hidden="true">
+                    <span class="nav-pill-burger-line"></span>
+                    <span class="nav-pill-burger-line"></span>
                 </span>
             </summary>
-
             <div class="nav-panel">
-                <a class="brand" href="/">
-                    <img class="brand-mark" src="/resource/brand/pregnut-icon.webp?v=20261023-simple" width="38" height="38" alt="" aria-hidden="true">
-                    <span class="brand-copy">
-                        <span class="brand-name">PregNut</span>
-                        <span class="brand-tagline">Pregnancy nutrition, decoded</span>
-                    </span>
-                </a>
+                <button class="nav-panel-search" type="button" data-search-open>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    Search a food
+                </button>
                 <div class="nav-links">
                     <a class="nav-link{% if page.url == '/' %} is-active{% endif %}" href="/">Home</a>
                     <a class="nav-link{% if page.url == '/about/' %} is-active{% endif %}" href="/about/">About</a>
@@ -28,16 +29,17 @@
                     <a class="nav-link{% if page.url == '/weekly-diet/' or '/weekly-diet/' in page.url %} is-active{% endif %}" href="/weekly-diet/">Weekly Guide</a>
                     <a class="nav-link{% if page.url == '/blog/' or '/blog/' in page.url or '/posts/' in page.url %} is-active{% endif %}" href="/blog/">Blog</a>
                 </div>
-                <div class="nav-search">
-                    <label class="sr-only" for="FoodFinderInput">Search Food</label>
-                    <input id="FoodFinderInput" class="nav-input" type="text" placeholder="Search a food" aria-describedby="FoodFinderStatus">
-                    <button id="FoodFinderSearchButton" class="nav-button" type="button">Search</button>
-                    <span id="FoodFinderStatus" class="nav-search-status" role="status" hidden></span>
-                </div>
             </div>
         </details>
+
+        <form class="nav-search" action="/food/" method="get" role="search">
+            <label class="sr-only" for="FoodFinderInput">Search a food</label>
+            <svg class="nav-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <input id="FoodFinderInput" class="nav-input" name="q" type="search" placeholder="Search a food" data-food-search>
+        </form>
+
+        <button class="nav-search-open" type="button" data-search-open aria-label="Search a food">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
     </nav>
 </header>
-
-
- 

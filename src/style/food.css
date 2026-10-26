@@ -36,8 +36,8 @@
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 20px;
-  border: 1px solid var(--border);
+  object-fit: contain;
+  filter: var(--cutout-shadow);
 }
 
 .food-detail-image figcaption {
@@ -311,15 +311,59 @@
   list-style: none;
 }
 
-.related-food-list,
-.food-directory-results {
+.related-food-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px 24px;
 }
 
+.food-directory-results {
+  margin-top: var(--s-2);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--s-1) var(--s-5);
+}
+
+.food-directory-results .food-result-link {
+  min-height: 64px;
+  padding: var(--s-2) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.food-directory-results .food-result-link:hover .food-result-name {
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.food-result-pic {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+  object-fit: contain;
+  filter: var(--cutout-shadow);
+}
+
+.food-result-pic.is-letter {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--accent-2);
+  background: var(--bg-2);
+  font-family: var(--font-serif);
+  filter: none;
+}
+
+.food-result-name {
+  font-weight: 500;
+  line-height: 1.3;
+}
+
 .related-food-list a,
-.food-directory-results a,
 .food-group-links a {
   color: var(--accent-2);
   text-decoration: underline;
@@ -328,6 +372,7 @@
 }
 
 .food-directory-form {
+  position: relative;
   display: flex;
   gap: 10px;
   margin-top: 18px;
@@ -343,15 +388,6 @@
   background: #fff;
   color: var(--food-ink);
   font: inherit;
-}
-
-.food-directory-form .easy-autocomplete {
-  min-width: 0;
-  flex: 1;
-}
-
-.food-directory-form .easy-autocomplete .food-directory-input {
-  width: 100%;
 }
 
 .food-directory-input:focus {

@@ -174,9 +174,8 @@
   width: 100%;
   height: auto;
   aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 28px;
-  background: #ece8de;
+  object-fit: contain;
+  filter: var(--cutout-shadow);
 }
 
 /* Blocks */
@@ -332,7 +331,7 @@
   .wk-picker-period { text-align: center; }
   .wk-range { height: 40px; }
   .wk-chapter { padding-top: 40px; }
-  .wk-chapter-art img { border-radius: 22px; }
+  .wk-chapter-art img { border-radius: 0; }
   .wk-chapter-summary { margin-bottom: 28px; }
   .wk-block-head { align-items: flex-start; }
   .weekly-food-head { grid-template-columns: 56px minmax(0, 1fr) auto; gap: 12px; }

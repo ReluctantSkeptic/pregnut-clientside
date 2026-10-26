@@ -5,9 +5,9 @@ layout: base.njk
 schemaType: WebSite
 bodyClass: page-home
 pageStyles:
-  - /style/home.css?v=20261025-lean
+  - /style/home.css?v=20261026-search
 pageScripts:
-  - /js/home.js?v=20261025-system
+  - /js/home.js?v=20261026-search
 ---
 
 <section class="home-hero" aria-label="Hero">
@@ -41,9 +41,8 @@ pageScripts:
   <form class="home-search" action="/food/" method="get" autocomplete="off" role="search">
     <label class="sr-only" for="HomeFoodSearchInput">Search a food</label>
     <svg class="home-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-    <input id="HomeFoodSearchInput" name="q" class="home-search-input" aria-describedby="HomeFoodSearchStatus" type="text" inputmode="search" placeholder="Search a food, like salmon or lentils">
+    <input id="HomeFoodSearchInput" name="q" class="home-search-input" type="search" placeholder="Search a food, like salmon or lentils" data-food-search>
     <button class="home-search-submit" type="submit">Search</button>
-    <p class="home-search-status" id="HomeFoodSearchStatus" role="status" hidden></p>
   </form>
 
   <div class="home-tool-grid">
