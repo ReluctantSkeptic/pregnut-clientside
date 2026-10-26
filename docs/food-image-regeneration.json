@@ -3951,73 +3951,97 @@
           "id": "05028",
           "name": "Chicken, Liver, Cooked",
           "file": "05028-chicken-liver-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of cooked chicken liver. Subject: several tender dark reddish-brown chicken liver pieces, gently pan-cooked with a lightly browned exterior and moist smooth cut faces, natural irregular lobes, no garnish. Use a small plain white ceramic plate to keep the serving neat. Composition: centered three-quarter overhead food photograph, plate and liver fully visible, generous transparent margins. Lighting: soft upper-left studio light, natural subdued sheen and delicate plate shadow. Background: genuine transparent alpha. No onions, herbs, sauce, table, text, watermark, or border.",
+          "generatedSource": "exec-eb815eea-6bfc-4343-a732-4066099219ee.png"
         },
         {
           "id": "05009",
           "name": "Chicken, Meat and skin, Roasted",
           "file": "05009-chicken-meat-and-skin-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one roasted chicken leg quarter with meat and skin. Subject: a substantial drumstick attached to thigh, fully cooked with golden-brown crisped skin over juicy opaque meat, a clean cut end showing the interior, natural roast markings. Composition: centered three-quarter overhead food photograph, whole leg quarter fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No bone pile, gravy, herbs, vegetables, table, text, watermark, or border.",
+          "generatedSource": "exec-771cdab3-7741-46b2-b570-7b767bcdf7d7.png"
         },
         {
           "id": "43128",
           "name": "Chicken, Meatless",
           "file": "43128-chicken-meatless.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of plain cooked meatless chicken-style protein. Subject: several pale golden plant-based chicken strips with a tender fibrous interior and lightly seared outer surface, clearly meatless but resembling simple unbreaded chicken-style pieces; no coating, no sauce. Composition: centered three-quarter overhead food photograph, pieces fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No breading, meat, bun, vegetables, herbs, packaging, table, text, watermark, or border.",
+          "generatedSource": "exec-af62199a-5181-4de6-84bf-09c2149fded3.png"
         },
         {
           "id": "43410",
           "name": "Chicken, Meatless, Breaded, Fried",
           "file": "43410-chicken-meatless-breaded-fried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of fried breaded meatless chicken-style pieces. Subject: three crispy golden-brown plant-based chicken tenders with crunchy breading and a pale fibrous meatless interior visible on one cut end; appetizing fried texture, clearly meatless and breaded. Composition: centered three-quarter overhead food photograph, all pieces fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No actual meat, sauce, fries, garnish, table, text, watermark, or border.",
+          "generatedSource": "exec-47d2582c-f591-48e6-8187-c13077e563dd.png"
         },
         {
           "id": "05103",
           "name": "Chicken, Wing, Meat and skin, Roasted",
           "file": "05103-chicken-wing-meat-and-skin-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: two roasted chicken wings with meat and skin. Subject: fully cooked whole chicken wing sections with glossy golden-brown roasted skin, crisped edges and natural visible joints, meaty and savory, no breading. Composition: centered three-quarter overhead food photograph, wings fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint natural contact shadow. Background: genuine transparent alpha. No sauce, celery, dip, herbs, table, text, watermark, or border.",
+          "generatedSource": "exec-2747f9ba-e389-4e0a-9516-bff896719b53.png"
         },
         {
           "id": "11152",
           "name": "Chicory greens, Raw",
           "file": "11152-chicory-greens-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small fresh bunch of raw chicory greens. Subject: several crisp elongated dark-green chicory leaves with pale central ribs and gently wavy edges, natural leafy texture, washed and fresh with no droplets. Composition: centered three-quarter overhead food photograph, leaves fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle natural shadow. Background: genuine transparent alpha. No flowers, roots, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-9e5987fb-16ed-4857-b5be-5e3ae294c0a0.png"
         },
         {
           "id": "16059",
           "name": "Chili with beans, Canned",
           "file": "16059-chili-with-beans-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of canned chili with beans in a plain white ceramic bowl. Subject: thick red tomato-chili sauce with clearly visible reddish-brown kidney beans and small ground-beef crumbles, hearty smooth simmered texture, modest serving. Composition: centered three-quarter overhead food photograph, bowl and chili fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate shadow beneath bowl. Background: genuine transparent alpha. No can, label, cheese, sour cream, tortilla, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-36b725ee-8fc5-4c05-a3b6-e7474897b066.png"
         },
         {
           "id": "36603",
           "name": "Chinese, Beef and vegetables",
           "file": "36603-chinese-beef-and-vegetables.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of Chinese-style beef and mixed vegetables. Subject: tender browned strips of beef with crisp broccoli florets, red bell pepper, carrot and snow peas lightly coated in glossy savory stir-fry sauce, varied vegetables clearly visible. Present in a small plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and serving fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate bowl shadow. Background: genuine transparent alpha. No rice, noodles, extra garnish, takeout box, chopsticks, table, text, watermark, or border.",
+          "generatedSource": "exec-ca5a5b99-f592-4a1b-ba04-622fef13605b.png"
         },
         {
           "id": "36602",
           "name": "Chinese, Fried rice, Without meat",
           "file": "36602-chinese-fried-rice-without-meat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of Chinese vegetable fried rice without meat. Subject: separate lightly browned rice grains with small diced carrot, green peas, corn and scallion, gently stir-fried and lightly glossy, no meat or seafood. Present in a simple small white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and rice fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No chicken, shrimp, sausage, egg, takeout box, chopsticks, table, text, watermark, or border.",
+          "generatedSource": "exec-e808d28b-fdd6-4942-b514-5d0723285332.png"
         },
         {
           "id": "36618",
           "name": "Chinese, General tso's chicken",
           "file": "36618-chinese-general-tso-s-chicken.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of General Tso's chicken. Subject: irregular bite-size battered chicken pieces fried crisp and coated in a dark mahogany-red sweet-spicy glaze, glossy and slightly sticky, with a few sesame seeds and thin scallion pieces; clearly darker glaze than orange chicken. Present in a plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and chicken fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate bowl shadow. Background: genuine transparent alpha. No rice, broccoli, takeout box, chopsticks, table, text, watermark, or border.",
+          "generatedSource": "exec-0a4397bb-6efd-4c03-9b11-b8dd6375d1d1.png"
         },
         {
           "id": "36619",
           "name": "Chinese, Kung pao chicken",
           "file": "36619-chinese-kung-pao-chicken.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of Kung Pao chicken. Subject: browned chicken cubes stir-fried with roasted whole peanuts, red dried chili pieces, and small green bell pepper pieces in a glossy reddish-brown sauce; make peanuts and chilies prominent for easy recognition. Present in a plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and food fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No rice, cashews, sesame-heavy coating, takeout box, chopsticks, table, text, watermark, or border.",
+          "generatedSource": "exec-209fb6a5-ac63-42db-92e1-45e0685f009d.png"
         },
         {
           "id": "36629",
           "name": "Chinese, Orange chicken",
           "file": "36629-chinese-orange-chicken.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of Chinese orange chicken. Subject: bite-size crisp battered chicken pieces with a bright amber-orange citrus glaze, glossy and lightly translucent, subtle fine orange-zest flecks and a few scallion slivers; clearly brighter and more citrus-colored than dark General Tso's chicken. Present in a plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and chicken fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate bowl shadow. Background: genuine transparent alpha. No rice, orange slices, broccoli, takeout box, chopsticks, table, text, watermark, or border.",
+          "generatedSource": "exec-a5921925-2eef-418c-88da-717f35ec307d.png"
         }
       ]
     },
