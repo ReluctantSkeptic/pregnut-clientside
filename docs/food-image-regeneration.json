@@ -6173,73 +6173,97 @@
           "id": "09436",
           "name": "Mango nectar, Canned",
           "file": "09436-mango-nectar-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small clear glass tumbler filled with canned mango nectar, rich golden-orange opaque smooth juice, glossy surface with a few tiny natural bubbles, no garnish, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no straw, no fruit, no label, no bottle, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-210556e9-748c-4417-ba11-ee850a496ad7.png"
         },
         {
           "id": "09178",
           "name": "Mango, Dried, Sweetened",
           "file": "09178-mango-dried-sweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small loose stack of sweetened dried mango slices, vivid warm golden-orange flexible fruit strips with slightly curled natural edges, lightly sugared matte sheen and chewy texture, a few overlapping pieces arranged neatly, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no fresh mango, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, fruit fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-a7d01ae4-11e9-4af3-9057-a10ba14ac16b.png"
         },
         {
           "id": "09328",
           "name": "Maraschino cherries, Canned",
           "file": "09328-maraschino-cherries-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of bright red maraschino cherries from a can, glossy stemless cherries with translucent ruby-red syrup pooled lightly around them in a tiny clear glass dessert bowl, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no stems, no garnish, no jar, no label, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-633d91a7-b444-4f36-8872-b70f41d18d69.png"
         },
         {
           "id": "04610",
           "name": "Margarine, Regular, 80% fat, Composite, Stick",
           "file": "04610-margarine-regular-80-fat-composite-stick.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one unwrapped regular stick of pale golden-yellow margarine, clean rectangular block with shallow paper-wrapper fold impressions along the sides and one small slice cut from the end to show the smooth spreadable interior, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no knife, no bread, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, stick fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-f49056da-b01f-4f9b-98a9-00d10e75fef6.png"
         },
         {
           "id": "04611",
           "name": "Margarine, Regular, 80% fat, Composite, Tub",
           "file": "04611-margarine-regular-80-fat-composite-tub.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small plain white ceramic ramekin holding regular 80% fat margarine, rich pale golden-yellow smooth spread with soft curved scoop marks across the top and a creamy dense texture, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no knife, no bread, no label, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, ramekin fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-e3ca9faf-33e5-4217-a509-fe9595f594af.png"
         },
         {
           "id": "04633",
           "name": "Margarine-like, Vegetable oil spread, 20% fat",
           "file": "04633-margarine-like-vegetable-oil-spread-20-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of light 20% fat vegetable-oil spread, very pale buttery-yellow airy whipped spread with a soft smooth mound and delicate spreadable ridges, inside a small clear glass ramekin, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no knife, no bread, no label, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, ramekin fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-b6ca0550-b81c-4a5c-afb9-c23588f56cd2.png"
         },
         {
           "id": "04612",
           "name": "Margarine-like, Vegetable oil spread, 60% fat, Stick",
           "file": "04612-margarine-like-vegetable-oil-spread-60-fat-stick.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one unwrapped stick of 60% fat vegetable-oil spread, neat short rectangular pale yellow block with soft clean cut edges and one thin slice leaning gently against the front, realistic spreadable satin surface, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no knife, no bread, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, stick fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-5a83d770-200d-435f-a545-10761e0645c6.png"
         },
         {
           "id": "04631",
           "name": "Margarine-like, Vegetable oil spread, Fat-free, Tub",
           "file": "04631-margarine-like-vegetable-oil-spread-fat-free-tub.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one small plain white unbranded tub of fat-free vegetable-oil spread, open top showing a smooth very pale yellow airy spread with soft shallow ridges, simple clean cylindrical food container with no lettering, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no lid, no knife, no bread, no label, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, tub fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-34153eef-39e2-4103-87eb-5883f8cd916a.png"
         },
         {
           "id": "42256",
           "name": "Margarine-like, Vegetable oil spread, Stick or tub, Sweetened",
           "file": "42256-margarine-like-vegetable-oil-spread-stick-or-tub-sweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of sweetened vegetable-oil spread, soft pale golden-yellow creamy spread with a slightly glossy smooth surface and gentle decorative swoops, presented in a small shallow white ceramic dish, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no fruit, no knife, no bread, no label, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, dish fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-84eec44f-9320-462f-80d1-dccb59fb6313.png"
         },
         {
           "id": "19303",
           "name": "Marmalade, Orange",
           "file": "19303-marmalade-orange.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small portion of orange marmalade preserve, translucent amber-orange glossy gel with clearly visible thin strips of orange peel, served in a tiny clear glass bowl, smooth mounded surface with a little syrup glint, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no toast, no spoon, no jar, no label, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-cfe8674b-d6b5-4250-8ec3-9c38ee373d32.png"
         },
         {
           "id": "19159",
           "name": "Mars snackfood us, 3 musketeers bar",
           "file": "19159-mars-snackfood-us-3-musketeers-bar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated confection cutout for a nutrition app: one unwrapped airy chocolate-coated nougat bar, long rectangular milk-chocolate shell with one clean cross-section cut showing a light fluffy whipped white nougat center, delicate realistic chocolate sheen, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no logo, no plate, no crumbs, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bar fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-101165c3-56ba-469e-9a95-4c6e113f9012.png"
         },
         {
           "id": "19141",
           "name": "Mars snackfood us, M&m's milk chocolate candies",
           "file": "19141-mars-snackfood-us-m-m-s-milk-chocolate-candies.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated confection cutout for a nutrition app: a small neat handful of colorful candy-coated milk chocolate pieces, smooth glossy rounded button shapes in red, yellow, green, blue, orange and brown, with a few pieces broken open to show milk chocolate centers, no letter imprint, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no bowl, no plate, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, candies fill about 60% of frame with generous transparent padding.",
+          "generatedSource": "exec-b3fcf837-adb5-49b9-825b-6cfeaa1ccb54.png"
         }
       ]
     },
