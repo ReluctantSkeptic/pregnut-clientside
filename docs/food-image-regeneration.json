@@ -5567,73 +5567,97 @@
           "id": "15036",
           "name": "Halibut, Atlantic and pacific",
           "file": "15036-halibut-atlantic-and-pacific.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one raw Atlantic-Pacific halibut fillet, thick broad skinless pearly-white fish portion with subtle translucent flesh grain and a natural tapered end, clean fresh uncooked appearance, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no lemon, no seasoning, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, fillet fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-34311a70-83c6-41f0-8722-432b5bffae1c.png"
         },
         {
           "id": "21108",
           "name": "Hamburger; single, Regular patty; with condiments",
           "file": "21108-hamburger-single-regular-patty-with-condiments.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one single regular beef hamburger with condiments, soft golden sesame-free bun, one browned beef patty, a crisp leaf of lettuce, one tomato slice, a little ketchup and mustard visible, neatly assembled but not oversized, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no cheese, no fries, no plate, no wrapper, no table, no background, true transparent background, no text, no logo, no extra objects. Square 1:1 composition, burger fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-401fb5b9-846b-4c1f-a478-dd0e5d11c1c2.png"
         },
         {
           "id": "43392",
           "name": "Hearts of palm, Raw",
           "file": "43392-hearts-of-palm-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: several fresh raw hearts-of-palm stalk sections, tender ivory cylindrical cores with clean cut ends and a subtle pale green outer edge on one piece, arranged simply in a small compact cluster, moist delicate vegetable texture, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no can, no leaves, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, vegetable fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-e2c99443-2de4-471b-8761-64103886f831.png"
         },
         {
           "id": "15040",
           "name": "Herring, Atlantic, Cooked, Dry heat",
           "file": "15040-herring-atlantic-cooked-dry-heat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one small Atlantic herring cooked with dry heat, whole fish with head and tail intact, slender silver skin turned golden and lightly seared with a few natural grill marks, opaque flaky flesh subtly visible near the belly, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no lemon, no sauce, no herbs, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, fish fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-20f87e09-37ed-4503-ae7f-8f6f0f3ab31b.png"
         },
         {
           "id": "19136",
           "name": "Hershey's skor toffee bar",
           "file": "19136-hershey-s-skor-toffee-bar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated confectionery cutout for a nutrition app: one thin milk-chocolate-covered crunchy toffee bar with a clean broken end showing a golden brittle butter-toffee center beneath a smooth chocolate shell, one small broken shard beside the bar, realistic glossy chocolate and crisp toffee texture, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no logo, no lettering, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, candy fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-1986e557-71ed-4e6e-bc22-226a3a6cb437.png"
         },
         {
           "id": "19249",
           "name": "Hershey, Reesesticks crispy wafers, Peanut butter, Milk chocolate",
           "file": "19249-hershey-reesesticks-crispy-wafers-peanut-butter-milk-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated confectionery cutout for a nutrition app: one milk-chocolate-covered crispy peanut-butter wafer bar, a rectangular bar with one cut piece showing distinct thin crisp wafer layers and creamy tan peanut-butter filling under the chocolate coating, natural appetizing chocolate brown, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no brand, no logo, no lettering, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, candy fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-dc939404-442a-4ccd-923c-6eee46078b38.png"
         },
         {
           "id": "19923",
           "name": "Hersheys, Payday bar",
           "file": "19923-hersheys-payday-bar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated confectionery cutout for a nutrition app: one peanut-coated caramel candy bar, elongated chewy caramel center densely covered in whole roasted peanuts, one clean cut end reveals the amber caramel interior, no chocolate coating, realistic crunchy peanut texture, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no brand, no lettering, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, candy fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-2c56d68d-0349-4e88-9507-b2c59dfd22f6.png"
         },
         {
           "id": "14065",
           "name": "Hi-c flashin' fruit punch",
           "file": "14065-hi-c-flashin-fruit-punch.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one serving of bright red fruit-punch drink in a plain clear straight-sided tumbler, translucent vivid ruby-red liquid with a smooth still surface, no pulp, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bottle, no carton, no label, no straw, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-1e7fa4df-8897-4754-8031-8f0139715aa8.png"
         },
         {
           "id": "19296",
           "name": "Honey",
           "file": "19296-honey.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one small round clear glass bowl filled with thick golden honey, viewed at a slight three-quarter angle, rich warm translucent amber highlights, smooth gently mounded honey surface with a tiny natural drip just inside the bowl rim, realistic viscous texture, centered and fully visible with ample space on every side, soft upper-left studio light, subtle realistic contact shadow only, no dipper, no spoon, no label, no flowers, no bread, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl occupies about 60% of frame.",
+          "generatedSource": "exec-080d6762-1930-425d-8424-9d74fdb9b65a.png"
         },
         {
           "id": "21129",
           "name": "Hush puppies",
           "file": "21129-hush-puppies.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: four small Southern hush puppies, irregular round cornmeal fritters with crisp deeply golden-brown surfaces and a few darker fried ridges, arranged in a compact natural cluster, tender cornmeal crumb subtly visible on one broken piece, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no plate, no sauce, no napkin, no basket, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, food fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-b63def64-b544-4c99-9749-1d571a7dd315.png"
         },
         {
           "id": "01300",
           "name": "Ice cream bar, Covered with chocolate and nuts",
           "file": "01300-ice-cream-bar-covered-with-chocolate-and-nuts.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one vanilla ice cream bar on a short plain wooden stick, coated in smooth milk chocolate and generously studded with small chopped roasted nuts, one small bite missing to reveal creamy white vanilla ice cream beneath the chocolate shell, appetizing realistic texture, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no brand, no logo, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, entire bar and stick visible with generous transparent padding.",
+          "generatedSource": "exec-a3f26f00-7511-48d7-b5c0-e8dbdc69aaf9.png"
         },
         {
           "id": "01240",
           "name": "Ice cream cone, Chocolate covered, With nuts, Flavors other than chocolate",
           "file": "01240-ice-cream-cone-chocolate-covered-with-nuts-flavors-other-than-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated dessert cutout for a nutrition app: one crisp golden waffle cone holding a rounded scoop of vanilla ice cream, the scoop is dipped and coated in dark milk chocolate with chopped roasted nuts, vanilla ice cream visibly peeks through at the top above the chocolate-dipped portion, cone clearly visible beneath, appetizing realistic texture, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no brand, no logo, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, whole cone visible with generous transparent padding.",
+          "generatedSource": "exec-32a913d8-6da6-4c95-b48e-d842682580ca.png"
         }
       ]
     },
