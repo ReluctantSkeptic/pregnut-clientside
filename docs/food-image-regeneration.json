@@ -2436,73 +2436,97 @@
           "id": "08017",
           "name": "Cereal, Cookie crisp",
           "file": "08017-cereal-cookie-crisp.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of tiny round chocolate-chip cookie cereal pieces, miniature golden-brown baked cookies with clearly visible dark chocolate chips and crisp crumbly edges, in a plain white ceramic bowl, no milk. Each piece should read as a tiny cookie, not a plain cereal ring or ball. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic dry texture. No package, logo, branding, text or background. Genuine transparent background.",
+          "generatedSource": "exec-0de6e3c6-c6d3-49bb-99bd-dca2f537d7c7.png"
         },
         {
           "id": "08083",
           "name": "Cereal, Corn bursts",
           "file": "08083-cereal-corn-bursts.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of plain puffed corn cereal, many little airy golden-yellow corn puffs with irregular rounded pillow shapes and lightly dimpled matte surfaces, in a simple white ceramic bowl, no milk. Clearly puffed corn pieces rather than flakes, rings or chocolate. Centered three-quarter overhead view with clear margins, soft upper-left studio light, realistic crisp texture. No package, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-fabe2964-14a8-4825-9fa8-cb4c2631671c.png"
         },
         {
           "id": "08019",
           "name": "Cereal, Corn chex",
           "file": "08019-cereal-corn-chex.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of classic corn square-grid cereal, thin crisp golden corn squares with a clearly visible regular woven lattice pattern and light toasted color, in a plain white ceramic bowl, no milk. Every piece is a crisp square grid, not a puff or pillow. Centered three-quarter overhead food photo, clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-2f4c97bc-c31b-4356-a99f-c13660edc3fd.png"
         },
         {
           "id": "08270",
           "name": "Cereal, Count chocula",
           "file": "08270-cereal-count-chocula.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of chocolate-flavored breakfast cereal in a plain white bowl, dark cocoa crunchy puffs mixed with a few distinct small white marshmallow pieces shaped like moons and stars. Keep the cocoa pieces and marshmallows separate, dry and crisp, no milk. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic cereal texture. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-bec2e8ae-a74e-444d-958c-454848957977.png"
         },
         {
           "id": "08582",
           "name": "Cereal, Dora the explorer",
           "file": "08582-cereal-dora-the-explorer.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of colorful children's breakfast cereal, small toasted grain pieces in bright yellow, orange, red and purple simple star and flower shapes mixed with a few pastel marshmallow bits, in a plain white ceramic bowl, no milk. Clearly separate each crunchy cereal piece, cheerful natural food photography without any character figures. Centered three-quarter overhead view with clear margins, soft upper-left light. No box, logos, text or background. Genuine transparent background.",
+          "generatedSource": "exec-95d6cf2b-f2f4-4075-8538-8933b2098362.png"
         },
         {
           "id": "43241",
           "name": "Cereal, Familia",
           "file": "43241-cereal-familia.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of traditional dry Swiss muesli in a plain white ceramic bowl, loose pale rolled oats and wheat flakes mixed with a few raisins, thin almond slivers and tiny seeds, dry and uncoated, no milk or fresh fruit. Clearly a natural loose flake-and-fruit mix, not granola clusters. Centered three-quarter overhead food photo with clear margins, soft upper-left light, realistic natural ingredients. No package, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-2f8011f2-3fd1-4012-8196-87f235f901ed.png"
         },
         {
           "id": "08290",
           "name": "Cereal, Fiber 7 flakes",
           "file": "08290-cereal-fiber-7-flakes.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of high-fiber seven-grain breakfast flakes, thin irregular crisp flakes in varied natural wheat and bran browns with visible grain texture and a few tiny seed flecks, in a plain white ceramic bowl, no milk. Loose delicate flakes rather than bran twigs or granola clusters. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic dry texture. No package, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-00ebf395-7521-47a4-b359-8e06f7438e4e.png"
         },
         {
           "id": "08244",
           "name": "Cereal, Fiber one bran cereal",
           "file": "08244-cereal-fiber-one-bran-cereal.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of high-fiber bran cereal, many tiny short tan bran-fiber sticks and crisp bran flakes with fine fibrous texture, in a plain white ceramic bowl, no milk. Emphasize bran twigs and flakes, not oat clusters, fruit or granola. Centered three-quarter overhead view, clear margins, soft upper-left studio light, realistic cereal photography. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-b7328f78-dd9f-400a-b4f5-2f210fbd58fa.png"
         },
         {
           "id": "08596",
           "name": "Cereal, Fiber one, Caramel delight",
           "file": "08596-cereal-fiber-one-caramel-delight.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of crunchy caramel-flavored high-fiber breakfast cereal, crisp small toasted oat squares and curled pieces with a light glossy amber caramel coating and a few visible caramelized oat bits, in a plain white ceramic bowl, no milk. Clearly dry cereal, not a dessert or candy. Centered three-quarter overhead close photo with clear margins, soft upper-left light, realistic texture. No package, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-fa9f957b-6a40-45bf-b6eb-e95b1fe2d533.png"
         },
         {
           "id": "08598",
           "name": "Cereal, Fiber one, Honey clusters",
           "file": "08598-cereal-fiber-one-honey-clusters.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of high-fiber cereal with honey oat clusters, crisp tan bran flakes mixed with several golden crunchy oat clusters lightly glazed with honey, in a plain white ceramic bowl, no milk. Keep the bran flakes and distinct clusters visible, dry cereal only. Centered three-quarter overhead food photo with clear margins, soft upper-left studio light, realistic natural texture. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-39f07195-c570-4701-bd0f-05ccae6fe65c.png"
         },
         {
           "id": "08599",
           "name": "Cereal, Fiber one, Raisin bran clusters",
           "file": "08599-cereal-fiber-one-raisin-bran-clusters.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of raisin-bran cluster cereal, crisp thin tan bran flakes with several golden oat clusters and scattered plump dark raisins, all dry in a plain white ceramic bowl, no milk. Clearly distinguish bran flakes, clusters and raisins. Centered three-quarter overhead photo with clear margins, soft upper-left light, realistic natural food detail. No package, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-9f342012-ea3c-42cb-bb7a-9992451d23d9.png"
         },
         {
           "id": "08268",
           "name": "Cereal, Frankenberry",
           "file": "08268-cereal-frankenberry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of strawberry-flavored pink breakfast cereal, bright strawberry-pink irregular crunchy puff pieces mixed with a few small pastel marshmallow shapes in white, pale blue and yellow, in a plain white ceramic bowl, no milk. Clearly cereal puffs and marshmallows, not fresh berries or rings. Centered three-quarter overhead food photo with clear margins, soft upper-left light, realistic crisp texture. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-8be1b514-dbe8-4f25-ba0e-c697fda20a50.png"
         }
       ]
     },
