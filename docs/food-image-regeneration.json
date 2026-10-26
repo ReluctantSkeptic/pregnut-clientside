@@ -3850,73 +3850,97 @@
           "id": "09066",
           "name": "Cherries, Sour, Red, Canned, in syrup",
           "file": "09066-cherries-sour-red-canned-in-syrup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of canned sour red cherries in syrup. Subject: glossy deep-red sour cherries, visibly softened by canning, with a few cherries and translucent ruby syrup in a simple small white ceramic bowl; no stems and no pits visible. Keep the syrup contained in the bowl. Composition: centered three-quarter overhead food photograph, bowl fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate natural shadow under bowl. Background: genuine transparent alpha. No can, label, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-6f6ac909-60eb-4caf-9320-89bcd852a1e8.png"
         },
         {
           "id": "09063",
           "name": "Cherries, Sour, Red, Raw",
           "file": "09063-cherries-sour-red-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a compact handful of fresh raw sour red cherries. Subject: small bright-to-deep red tart cherries, round fruit with thin green-brown stems and subtle natural highlights, slightly smaller and lighter than sweet cherries; a few individual fruits grouped together. Composition: centered three-quarter overhead food photograph, cherries fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No leaves, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-c5d3bdf0-bace-4695-b7d8-043ebfe49f66.png"
         },
         {
           "id": "09074",
           "name": "Cherries, Sweet, Canned, Pitted, in syrup",
           "file": "09074-cherries-sweet-canned-pitted-in-syrup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of canned sweet pitted cherries in syrup. Subject: large dark-red sweet cherries, visibly pitted and softened, glistening in a modest amount of translucent red syrup contained in a small plain white ceramic bowl; no stems and no pits. Composition: centered three-quarter overhead food photograph, bowl fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint natural shadow beneath the bowl. Background: genuine transparent alpha. No can, label, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-45c77c24-59a6-484b-8a4b-66f3f9ee5ab5.png"
         },
         {
           "id": "09070",
           "name": "Cherries, Sweet, Raw",
           "file": "09070-cherries-sweet-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a compact cluster of fresh raw sweet cherries. Subject: plump large heart-shaped cherries in deep garnet red with a few rich mahogany highlights and slender green-brown stems, taut glossy natural skins; clearly fresh, whole and unpitted. Composition: centered three-quarter overhead food photograph, fruit fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle natural contact shadow. Background: genuine transparent alpha. No leaves, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-337aaa68-4090-463b-9fc2-962bb52dd246.png"
         },
         {
           "id": "09044",
           "name": "Cherries, Tart, Dried, Sweetened",
           "file": "09044-cherries-tart-dried-sweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small loose handful of dried sweetened tart cherries. Subject: deep burgundy-red dried cherries, small plump wrinkled fruit with a lightly sugared sheen and chewy leathery texture, several overlapping naturally; no stem or pits. Composition: centered three-quarter overhead food photograph, all fruit fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No bowl, spoon, table, package, text, watermark, or border.",
+          "generatedSource": "exec-402ff449-e8d7-429b-9d22-9e4090890c7a.png"
         },
         {
           "id": "19163",
           "name": "Chewing gum",
           "file": "19163-chewing-gum.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small grouping of ordinary chewing gum pieces. Subject: several neat rectangular sticks of pale pink chewing gum with smooth matte surfaces, one stick broken cleanly to show its uniform soft interior; simple unbranded gum, clearly gum and not candy. Composition: centered three-quarter overhead food photograph, all pieces fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No wrapper, package, logo, table, text, watermark, or border.",
+          "generatedSource": "exec-2705e705-7042-4385-87b2-706e64d6d58d.png"
         },
         {
           "id": "43060",
           "name": "Chewing gum, Sugarless",
           "file": "43060-chewing-gum-sugarless.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small grouping of sugarless chewing gum pieces. Subject: several smooth white-to-pale mint green compressed gum pellets, short rounded rectangles, one cut piece showing dense uniform interior; clearly distinct from pink gum sticks and from hard candy. Composition: centered three-quarter overhead food photograph, all pieces fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No wrapper, package, brand, table, text, watermark, or border.",
+          "generatedSource": "exec-4b18212d-3355-4831-9588-43ba75cd003d.png"
         },
         {
           "id": "05327",
           "name": "Chicken breast tenders, Breaded, Uncooked",
           "file": "05327-chicken-breast-tenders-breaded-uncooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few uncooked frozen breaded chicken breast tenders. Subject: pale raw chicken tender strips fully coated in fine dry light-golden breadcrumbs but not fried, not browned, and not cooked, with natural irregular strip shapes and clearly visible crumb texture; arrange three separate strips. Composition: centered three-quarter overhead food photograph, tenders fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, gentle contact shadow. Background: genuine transparent alpha. No package, pan, sauce, cooked crust, garnish, text, watermark, or border.",
+          "generatedSource": "exec-906fe04a-60a5-40e8-97bf-3e4395561d26.png"
         },
         {
           "id": "05324",
           "name": "Chicken patty, Frozen, Cooked",
           "file": "05324-chicken-patty-frozen-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one cooked frozen chicken patty, shown as a fully cooked breaded patty. Subject: single round flattened chicken patty, evenly golden-brown crisp breading, a small cut wedge resting beside it to show opaque white cooked chicken interior; fully cooked, not raw. Composition: centered three-quarter overhead food photograph, whole patty and cut piece fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No bun, sandwich toppings, sauce, fries, package, text, watermark, or border.",
+          "generatedSource": "exec-cbd91035-5fb7-458e-9009-3752127768d3.png"
         },
         {
           "id": "21401",
           "name": "Chicken tenders",
           "file": "21401-chicken-tenders.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few cooked breaded chicken tenders. Subject: three irregular elongated chicken breast strips with crisp golden-brown fried breading, opaque cooked interior visible at one broken end, clearly cooked and ready to eat. Composition: centered three-quarter overhead food photograph, all strips fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, natural texture and subtle contact shadow. Background: genuine transparent alpha. No uncooked pale breadcrumbs, dipping sauce, fries, garnish, table, text, watermark, or border.",
+          "generatedSource": "exec-bc7914cf-2b28-49ca-82c0-f7b1f0fbe703.png"
         },
         {
           "id": "05060",
           "name": "Chicken, Breast, Meat and skin, Roasted",
           "file": "05060-chicken-breast-meat-and-skin-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one roasted chicken breast with its skin. Subject: a plump boneless chicken breast with golden roasted skin attached over the top, lightly browned and savory-looking, a neat slice at one end showing moist opaque white meat; no bone. Composition: centered three-quarter overhead food photograph, chicken fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No herbs, lemon, gravy, vegetables, table, text, watermark, or border.",
+          "generatedSource": "exec-3d58c533-b614-4ab6-b359-a5d3bf45b233.png"
         },
         {
           "id": "05277",
           "name": "Chicken, Canned, Meat only, With broth",
           "file": "05277-chicken-canned-meat-only-with-broth.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of canned chicken breast meat with broth in a plain white ceramic bowl. Subject: pale beige tender chunks and short shreds of fully cooked chicken breast, moist with a small amount of clear golden broth, plainly recognizable as canned chicken meat and broth. Composition: centered three-quarter overhead food photograph, bowl and chicken fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint natural shadow under bowl. Background: genuine transparent alpha. No can, label, herbs, soup vegetables, table, text, watermark, or border.",
+          "generatedSource": "exec-81a317f5-5fe1-4c65-aee5-f6bc72bacaee.png"
         }
       ]
     },
