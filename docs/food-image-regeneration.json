@@ -6274,13 +6274,17 @@
           "id": "19115",
           "name": "Mars snackfood us, Mars almond bar",
           "file": "19115-mars-almond-bar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated confection cutout for a nutrition app: one unwrapped milk-chocolate-coated almond nougat bar, rectangular chewy bar with a few whole toasted almonds visible along the top, one short cut section showing pale nougat and a thin caramel layer, realistic glossy chocolate texture, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no logo, no plate, no crumbs, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bar fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-6eb89aa6-ffd5-45d0-84fc-05664aa6a13d.png"
         },
         {
           "id": "19135",
           "name": "Mars snackfood us, Milky way bar",
           "file": "19135-mars-snackfood-us-milky-way-bar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated confection cutout for a nutrition app: one unwrapped milk-chocolate candy bar with soft pale nougat and a distinct golden caramel layer, long smooth rectangular bar with one clean cut end revealing the creamy white nougat and caramel cross-section, delicate milk chocolate sheen, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no logo, no plate, no crumbs, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bar fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-1578a615-cef8-44ea-9b1d-53156b48ee46.png"
         },
         {
           "id": "42196",
