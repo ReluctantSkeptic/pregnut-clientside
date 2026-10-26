@@ -4254,73 +4254,97 @@
           "id": "14202",
           "name": "Coffee, Brewed, Espresso, Decaffeinated",
           "file": "14202-coffee-brewed-espresso-decaffeinated.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one shot of decaffeinated espresso in a petite demitasse. Subject: very dark concentrated espresso with a rich caramel crema cap in a small white porcelain demitasse, realistic crema and no milk or sugar; indistinguishable visually from regular espresso, no label. Composition: centered three-quarter view, cup fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate cup shadow. Background: genuine transparent alpha. No beans, grounds, saucer, spoon, package, table, text, watermark, or border.",
+          "generatedSource": "exec-19886827-619c-46e5-932a-9ff541cf1fda.png"
         },
         {
           "id": "14224",
           "name": "Coffee, Instant, Mocha, Sweetened",
           "file": "14224-coffee-instant-mocha-sweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one mug of sweetened instant mocha drink. Subject: warm medium cocoa-brown coffee-and-chocolate drink in a simple white ceramic mug, smooth surface with a soft light-tan milk foam cap and a faint cocoa dusting; clearly a prepared sweet mocha, lighter and creamier than black coffee. Composition: centered three-quarter view, entire mug fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle cup shadow. Background: genuine transparent alpha. No whipped cream, marshmallows, beans, package, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-74284085-a2d0-4696-ad1b-87fac5c62d79.png"
         },
         {
           "id": "18108",
           "name": "Coffeecake, Cinnamon with crumb topping, Dry mix, Prepared",
           "file": "18108-coffeecake-cinnamon-with-crumb-topping-dry-mix-prepared.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a slice of prepared cinnamon coffee cake with crumb topping. Subject: one generous square slice of tender golden cinnamon cake, clearly layered cinnamon swirl and abundant buttery streusel crumb topping, moist interior visible along one side; no frosting. Composition: centered three-quarter overhead food photograph, entire slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No dry mix box, cup of coffee, icing, fruit, fork, table, text, watermark, or border.",
+          "generatedSource": "exec-ae8cae10-8245-449d-b8fc-c528ed25a381.png"
         },
         {
           "id": "11162",
           "name": "Collards, Boiled",
           "file": "11162-collards-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of boiled collard greens. Subject: dark-green broad collard leaves, gently boiled until tender and softly wilted, loosely folded with a few pale cut stems, moist natural cooked sheen. Present in a plain small white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and greens fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No bacon, broth pool, vinegar, onions, garnish, table, text, watermark, or border.",
+          "generatedSource": "exec-419b671d-6400-49ba-a9cc-d2ec0fa950a8.png"
         },
         {
           "id": "11161",
           "name": "Collards, Raw",
           "file": "11161-collards-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small bunch of fresh raw collard greens. Subject: several large broad dark-green collard leaves with prominent pale ribs and slightly wavy edges, crisp fresh surface, stems neatly gathered, no droplets. Composition: centered three-quarter overhead food photograph, leaves fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle natural shadow. Background: genuine transparent alpha. No cooked wilted greens, other herbs, flowers, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-bf6786f2-3b17-44c1-9dd6-85701e9f4fbc.png"
         },
         {
           "id": "28291",
           "name": "Cookies, Animal, With frosting or icing",
           "file": "28291-cookies-animal-with-frosting-or-icing.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several small animal-shaped cookies with frosting or icing. Subject: crisp golden animal crackers in recognizable giraffe, elephant and bear silhouettes, some dipped in pastel pink and white icing with a few tiny colorful sugar sprinkles, playful but realistic baked texture. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No package, brand, toys, table, text, watermark, or border.",
+          "generatedSource": "exec-8c122336-704e-4ae2-8738-01697c9ccd41.png"
         },
         {
           "id": "18151",
           "name": "Cookies, Brownies",
           "file": "18151-cookies-brownies.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few rich chocolate brownie squares. Subject: dense dark cocoa-brown brownies with a moist fudgy interior and delicate crackly top, one square cut open to show the soft center, clean baked edges. Composition: centered three-quarter overhead food photograph, pieces fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No frosting, nuts, ice cream, crumbs, pan, table, text, watermark, or border.",
+          "generatedSource": "exec-647f915e-64ef-40dd-a243-ae1a66b4b88c.png"
         },
         {
           "id": "18158",
           "name": "Cookies, Chocolate chip, Regular, Lower fat",
           "file": "18158-cookies-chocolate-chip-regular-lower-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: two thin crisp lower-fat chocolate chip cookies. Subject: small golden-brown round cookies with a slightly flatter, lighter, crisp-baked appearance and modest scattered dark chocolate chips, one broken piece showing a dry crisp crumb; avoid an oversized buttery look. Composition: centered three-quarter overhead food photograph, all cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No package, label, milk glass, table, text, watermark, or border.",
+          "generatedSource": "exec-8abbf193-6c34-43cb-8199-34ced57337aa.png"
         },
         {
           "id": "18166",
           "name": "Cookies, Chocolate sandwich, With creme filling, Regular",
           "file": "18166-cookies-chocolate-sandwich-with-creme-filling-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: three regular chocolate sandwich cookies with creme filling. Subject: classic round nearly-black chocolate wafer cookies with embossed geometric pattern, one whole and two gently stacked, one split apart to expose a thick clean white creme center; generic unbranded cookies. Composition: centered three-quarter overhead food photograph, all cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No recognizable brand name or logos, package, milk, crumbs, table, text, watermark, or border.",
+          "generatedSource": "exec-1c83fc30-d825-4bd8-9565-d058f904b026.png"
         },
         {
           "id": "28309",
           "name": "Cookies, Coconut macaroon",
           "file": "28309-cookies-coconut-macaroon.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several coconut macaroon cookies. Subject: three rounded mounds of sweet shredded coconut baked to lightly toasted golden edges with soft ivory centers, fibrous coconut strands clearly visible, one split to reveal its moist interior. Composition: centered three-quarter overhead food photograph, macaroons fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No chocolate dip, almond, wrapper, package, table, text, watermark, or border.",
+          "generatedSource": "exec-d6402e6b-6b8c-4b91-b878-61c98d019b4e.png"
         },
         {
           "id": "18170",
           "name": "Cookies, Fig bars",
           "file": "18170-cookies-fig-bars.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few rectangular fig-filled cookie bars. Subject: golden shortbread-style rectangular bars with a visible dense deep-purple-brown fig filling, one cut in half to show the cross-section and delicate crumbly crust; lightly ridged baked top. Composition: centered three-quarter overhead food photograph, bars fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No fresh figs, icing, package, crumbs scattered around, table, text, watermark, or border.",
+          "generatedSource": "exec-27eb4570-363e-457a-8755-f8e52dca1a0c.png"
         },
         {
           "id": "18172",
           "name": "Cookies, Gingersnaps",
           "file": "18172-cookies-gingersnaps.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several crisp ginger snap cookies. Subject: thin round deep golden-brown spiced cookies with characteristic fine crackled tops and slightly dark crisp edges, a few stacked and one broken to show a dry crunchy crumb. Composition: centered three-quarter overhead food photograph, all cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No ginger root, frosting, sugar coating, package, table, text, watermark, or border.",
+          "generatedSource": "exec-0d620138-b417-45bb-95e7-9929a41fe624.png"
         }
       ]
     },
