@@ -3749,73 +3749,97 @@
           "id": "01026",
           "name": "Cheese, Mozzarella, Whole milk",
           "file": "01026-cheese-mozzarella-whole-milk.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: fresh whole-milk mozzarella shown as a small round ball with one thick slice. Subject: bright porcelain-white soft mozzarella with smooth moist surface and dense tender interior, a clean circular cut face and slightly milky sheen. Composition: centered three-quarter overhead food photograph, ball and slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint natural contact shadow. Background: genuine transparent alpha. No water puddle, tomato, basil, table, package, text, watermark, or border.",
+          "generatedSource": "exec-a3a616d0-6e44-4cfc-a5b5-9a909e413adb.png"
         },
         {
           "id": "01030",
           "name": "Cheese, Muenster",
           "file": "01030-cheese-muenster.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small block of Muenster cheese with a cut slice. Subject: smooth ivory semi-soft cheese with the characteristic thin orange-red washed rind around the outer edge, firm creamy interior with few holes, block and slice neatly arranged. Composition: centered three-quarter overhead food photograph, cheese fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, knife, package, label, text, watermark, or border.",
+          "generatedSource": "exec-38facfd0-b659-45f4-b2dd-d4cf35838a4f.png"
         },
         {
           "id": "01043",
           "name": "Cheese, Pasteurized process, Pimento",
           "file": "01043-cheese-pasteurized-process-pimento.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of pimento cheese spread in a plain white ceramic bowl. Subject: thick creamy pale-orange cheese spread with visible tiny red pimento pepper pieces and fine shredded cheese, gently swirled surface, smooth and spoonable. Composition: centered three-quarter overhead food photograph, bowl and spread fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint shadow beneath bowl. Background: genuine transparent alpha. No crackers, celery, bread, package, label, text, utensil, watermark, or border.",
+          "generatedSource": "exec-527dca64-0c67-43fe-a4c3-019c7592e907.png"
         },
         {
           "id": "01044",
           "name": "Cheese, Pasteurized process, Swiss",
           "file": "01044-cheese-pasteurized-process-swiss.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few slices of processed Swiss cheese. Subject: smooth pale-yellow square slices with several neat medium-sized round holes distributed through the cheese, flexible even texture and clean edges, stacked slightly offset. Composition: centered three-quarter overhead food photograph, slices fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No wrapper, package, table, brand, text, watermark, or border.",
+          "generatedSource": "exec-a17be67a-f430-41c4-80db-733e406ccba6.png"
         },
         {
           "id": "01034",
           "name": "Cheese, Port de salut",
           "file": "01034-cheese-port-de-salut.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small Port de Salut cheese wheel with one wedge cut away. Subject: petite round semi-soft cheese with a distinctive smooth orange-red washed rind, pale ivory-yellow creamy interior and gently yielding cut face, simple traditional wheel shape. Composition: centered three-quarter overhead food photograph, wheel and wedge fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, label, package, knife, text, watermark, or border.",
+          "generatedSource": "exec-cd992b31-d0fe-4eaa-9123-74245d78da3c.png"
         },
         {
           "id": "01035",
           "name": "Cheese, Provolone",
           "file": "01035-cheese-provolone.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a piece of provolone cheese with several slices. Subject: pale ivory semi-firm cheese in a short rounded cylinder, clean circular slices stacked beside it, smooth dense interior with only a few tiny natural holes, mild and slightly glossy cut surface. Composition: centered three-quarter overhead food photograph, cheese fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, knife, package, label, text, watermark, or border.",
+          "generatedSource": "exec-c3920ae3-11d0-4342-88ed-f8054871c9e2.png"
         },
         {
           "id": "01036",
           "name": "Cheese, Ricotta, Whole milk",
           "file": "01036-cheese-ricotta-whole-milk.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of whole-milk ricotta cheese in a plain white ceramic bowl. Subject: soft bright-white ricotta with delicate small curds, creamy moist texture, gently mounded surface and a softly scooped edge, thick and spoonable. Composition: centered three-quarter overhead food photograph, bowl and ricotta fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, herbs, honey, pasta, package, spoon, label, watermark, or border.",
+          "generatedSource": "exec-7fccd39c-30ce-4e0e-86ef-64f31236d2e6.png"
         },
         {
           "id": "01038",
           "name": "Cheese, Romano",
           "file": "01038-cheese-romano.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a wedge of aged Romano cheese with a few fine curls of grated cheese beside it. Subject: firm pale straw-colored sheep's milk cheese, dense dry interior with tiny salt crystals and a hard natural rind, a compact wedge and delicate grated strands, clearly aged and hard. Composition: centered three-quarter overhead food photograph, cheese and curls fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, pasta, sauce, grater, package, label, text, watermark, or border.",
+          "generatedSource": "exec-1e078e44-be8c-4ffd-b105-5719313198bb.png"
         },
         {
           "id": "01040",
           "name": "Cheese, Swiss",
           "file": "01040-cheese-swiss.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a compact wedge of natural Swiss cheese with a short slice beside it. Subject: pale golden-yellow firm cheese, smooth cut faces with multiple large round and oval holes (Swiss eyes) distributed through the interior, thin natural rind along the back edge, appetizing but accurate. Composition: centered three-quarter overhead food photograph, wedge and slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, grapes, knife, package, text, watermark, or border.",
+          "generatedSource": "exec-44f8b1ae-edb8-47ba-9a37-7394c9769192.png"
         },
         {
           "id": "21399",
           "name": "Cheeseburger; double, Large patty; with condiments, Vegetables and mayonnaise",
           "file": "21399-cheeseburger-double-large-patty-with-condiments-vegetables-and-mayonnaise.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one large double cheeseburger with a sesame-seed bun, clearly showing two thick grilled beef patties. Subject: stacked burger with two separate beef patties, melted cheese between and on the patties, crisp green lettuce, red tomato, pickle slices, a little onion, and a modest layer of mayonnaise; golden toasted bun with sesame seeds. Make the two beef layers visibly distinct and substantial. Composition: centered three-quarter view, burger fully visible, generous transparent margins; a small plain white plate is acceptable if needed to ground the burger. Lighting: soft upper-left studio light, natural appetizing texture and faint contact shadow. Background: genuine transparent alpha. No fries, drink, wrapper, restaurant branding, extra food, text, watermark, or border.",
+          "generatedSource": "exec-8403f45a-be21-405a-98a6-93db2d68740a.png"
         },
         {
           "id": "21397",
           "name": "Cheeseburger; single, Large patty; with condiments, Vegetables and mayonnaise",
           "file": "21397-cheeseburger-single-large-patty-with-condiments-vegetables-and-mayonnaise.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one large single-patty cheeseburger with a sesame-seed bun and exactly one thick grilled beef patty. Subject: one substantial beef layer only, one slice of melted cheese, crisp green lettuce, red tomato, pickle slices, a little onion, and a modest layer of mayonnaise; golden toasted sesame bun. Keep the single patty clearly visible and do not add a second patty. Composition: centered three-quarter view, burger fully visible, generous transparent margins; a small plain white plate is acceptable if needed to ground the burger. Lighting: soft upper-left studio light, natural appetizing texture and faint contact shadow. Background: genuine transparent alpha. No fries, drink, wrapper, restaurant branding, extra food, text, watermark, or border.",
+          "generatedSource": "exec-adbd27da-c612-4351-a192-ea8437c3160d.png"
         },
         {
           "id": "18147",
           "name": "Cheesecake commercially prepared",
           "file": "18147-cheesecake-commercially-prepared.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one classic plain cheesecake slice on a simple white ceramic dessert plate. Subject: neat triangular slice of commercially prepared New York-style cheesecake, smooth pale ivory dense creamy filling, straight clean cut faces, golden-brown crumb crust along the bottom and lightly browned top edge, no toppings. Composition: centered three-quarter overhead food photograph, entire slice and plate fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate realistic shadow beneath plate. Background: genuine transparent alpha. No berries, sauce, whipped cream, crumbs outside plate, fork, table, package, label, text, watermark, or border.",
+          "generatedSource": "exec-5d23e59e-8604-4d1e-a92a-5140db95cf78.png"
         }
       ]
     },
