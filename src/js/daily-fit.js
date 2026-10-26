@@ -873,21 +873,33 @@
     return (DIETS[prefs.diet] || DIETS.everything)(meal) && meal[5] <= prep;
   }
 
-  function planItems(meal, slot) {
-    return meal[6].map(function (it) { return { id: it[0], q: it[1], u: it[2] || 0, slot: slot }; });
+  // A larger portion scales every food; countable foods (eggs, slices,
+  // bananas) round to the nearest half so amounts stay sensible.
+  function planItems(meal, slot, scale) {
+    return meal[6].map(function (it) {
+      var q = it[1] * (scale || 1);
+      var f = food(it[0]);
+      var unit = f ? (f[6][it[2] || 0] || f[6][0])[0] : "";
+      if (scale > 1) q = MEASURE.test(unit) ? Math.round(q * 4) / 4 : Math.round(q * 2) / 2;
+      return { id: it[0], q: q, u: it[2] || 0, slot: slot };
+    });
   }
 
   // What each meal brings, worked out once per plan.
-  function mealFacts(meal) {
-    var items = planItems(meal, meal[0]);
+  function mealFacts(meal, scale) {
+    var items = planItems(meal, meal[0], scale);
     return {
       meal: meal,
+      scale: scale || 1,
       totals: amounts(items),
       kcal: calories(items),
       ids: items.map(function (it) { return it.id; }),
       fish: meal[2] === "fish"
     };
   }
+
+  // The optional second snack can also be left out.
+  var NO_MEAL = { meal: null, scale: 1, totals: [], kcal: 0, ids: [], fish: false };
 
   // A day scores for coverage (the five hardest nutrients count more), for
   // each nutrient fully met, and loses points for calories outside a
@@ -897,7 +909,7 @@
     var score = 0;
     for (var i = 0; i < data.nutrients.length; i++) {
       var total = 0;
-      for (var k = 0; k < day.length; k++) total += day[k].totals[i];
+      for (var k = 0; k < day.length; k++) total += day[k].totals[i] || 0;
       var p = percent(i, total);
       score += Math.min(100, p) * (i < 5 ? 1.5 : 1);
       if (p >= 100) score += 15;
@@ -906,22 +918,26 @@
     var seen = {};
     var fish = 0;
     day.forEach(function (f) {
+      if (!f.meal) return;
       kcal += f.kcal;
       if (f.fish) fish++;
-      if (avoid && avoid.indexOf(f.meal[1]) !== -1) score -= 40;
+      var name = f.meal[1].toLowerCase();
+      if (avoid && avoid.some(function (a) { return a && a.toLowerCase().indexOf(name) !== -1; })) score -= 40;
       f.ids.forEach(function (id) {
         if (seen[id]) score -= 25;
         seen[id] = 1;
       });
     });
-    if (kcal < 1800) score -= (1800 - kcal) / 8;
-    if (kcal > 2600) score -= (kcal - 2600) / 8;
+    // Pregnancy days run about 1,900 to 2,700 kcal (more in later trimesters).
+    if (kcal < 1900) score -= (1900 - kcal) / 4;
+    if (kcal > 2700) score -= (kcal - 2700) / 4;
     if (fish > 1) score -= 80 * (fish - 1);
     return score;
   }
 
   // Random starts, each improved one meal at a time until nothing helps; then
   // a random pick among the near-best days, so plans vary but stay strong.
+  // Main meals can come as a larger portion, and a second snack is optional.
   function planDay(prefs, avoid) {
     var pools = SLOTS.map(function (s) {
       var prep = prefs.prep;
@@ -931,9 +947,16 @@
         if (pool.length >= 2) break;
         prep++;
       }
-      return pool.map(mealFacts);
+      var facts = [];
+      pool.forEach(function (m) {
+        facts.push(mealFacts(m, 1));
+        if (s[0] !== "snack") facts.push(mealFacts(m, 1.5));
+      });
+      return facts;
     });
     if (pools.some(function (pool) { return !pool.length; })) return null;
+    var snackIndex = SLOTS.map(function (s) { return s[0]; }).indexOf("snack");
+    pools.push([NO_MEAL].concat(pools[snackIndex]));
 
     var results = [];
     for (var start = 0; start < 24; start++) {
@@ -958,16 +981,21 @@
     var good = results.filter(function (r) { return r.score >= results[0].score * 0.97; });
     var chosen = good[Math.floor(Math.random() * good.length)];
     var items = [];
-    chosen.day.forEach(function (f, k) { items = items.concat(planItems(f.meal, SLOTS[k][0])); });
-    return { pick: chosen.day.map(function (f) { return f.meal; }), items: items };
+    var names = {};
+    chosen.day.forEach(function (f, k) {
+      if (!f.meal) return;
+      var slot = k < SLOTS.length ? SLOTS[k][0] : "snack";
+      items = items.concat(planItems(f.meal, slot, f.scale));
+      names[slot] = names[slot] ? names[slot] + ", then " + f.meal[1].charAt(0).toLowerCase() + f.meal[1].slice(1) : f.meal[1];
+    });
+    return { names: names, items: items };
   }
 
   function applyPlan(avoid) {
     var plan = planDay(state.prefs, avoid);
     if (!plan) return;
     state.items = plan.items;
-    state.plan = {};
-    plan.pick.forEach(function (m, k) { state.plan[SLOTS[k][0]] = m[1]; });
+    state.plan = plan.names;
     commit();
   }
 

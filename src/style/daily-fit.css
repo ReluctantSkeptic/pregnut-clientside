@@ -1277,6 +1277,11 @@ img.df-item-photo {
     z-index: 300;
   }
 
+  /* The sheet is the whole screen: the site header steps away */
+  .df-searching .site-header {
+    visibility: hidden;
+  }
+
   .df-searching .df-search {
     position: fixed;
     z-index: 200;
@@ -1339,4 +1344,8 @@ img.df-item-photo {
   .df-searching .df-toast {
     display: none;
   }
+}
+
+.df-tile input {
+  z-index: 1;
 }
