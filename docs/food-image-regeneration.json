@@ -2941,73 +2941,97 @@
           "id": "08071",
           "name": "Cereal, Kellogg's honey smacks",
           "file": "08071-cereal-kellogg-s-honey-smacks.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-coated puffed wheat cereal in a plain white ceramic bowl, no milk. Show many plump irregular wheat puffs with airy pores and a rich golden honey glaze, lightly crisp and glossy. Clearly puffed wheat pieces, not rings or flakes. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-f15d1fbd-81df-40d9-ae99-9559c5589434.png"
         },
         {
           "id": "08284",
           "name": "Cereal, Kellogg's low fat granola with raisins",
           "file": "08284-cereal-kellogg-s-low-fat-granola-with-raisins.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of low-fat raisin granola in a plain white ceramic bowl, no milk. Show toasted rolled oats, crisp golden wheat pieces and a moderate number of plump dark raisins, in dry loose clusters with a lightly toasted texture. Clearly granola with raisins, no nuts. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-d138a7ff-db88-4d97-b6d6-542dc1bc8c82.png"
         },
         {
           "id": "08189",
           "name": "Cereal, Kellogg's low fat granola without raisins",
           "file": "08189-cereal-kellogg-s-low-fat-granola-without-raisins.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of low-fat granola without raisins in a plain white ceramic bowl, no milk. Show toasted rolled oats and crisp golden wheat pieces gathered in loose dry clusters, with no raisins, fruit or nuts. Clearly plain oat-and-wheat granola, not cereal flakes alone. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-5a56874c-52c1-4b91-8167-9ce95de1a743.png"
         },
         {
           "id": "08376",
           "name": "Cereal, Kellogg's marshmallow froot loops",
           "file": "08376-cereal-kellogg-s-marshmallow-froot-loops.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of marshmallow fruit-loop breakfast cereal in a plain white ceramic bowl, no milk. Show distinct O-shaped cereal loops in vivid red, orange, yellow, green, blue and purple mixed with small pastel marshmallow pieces. Crisp, lightly sugared surfaces, clear colorful ring shapes. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-e60f2926-e594-4a59-82ba-56775143a6cb.png"
         },
         {
           "id": "08286",
           "name": "Cereal, Kellogg's mueslix",
           "file": "08286-cereal-kellogg-s-mueslix.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of mueslix breakfast cereal in a plain white ceramic bowl, no milk. Show a hearty dry mix of rolled oats, crisp wheat flakes and toasted grain clusters with dark raisins, golden dried fruit pieces and a few almond slivers. Clearly a mixed cereal, not a single uniform flake. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-d3b2a64f-9684-41e2-82bc-4633e4d8c8ef.png"
         },
         {
           "id": "08058",
           "name": "Cereal, Kellogg's product 19",
           "file": "08058-cereal-kellogg-s-product-19.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of classic multigrain flake breakfast cereal in a plain white ceramic bowl, no milk. Show thin irregular crisp flakes made from corn, wheat and oats, toasted warm golden tan with subtle brown edges and dry light texture. Clearly overlapping grain flakes, not rings, puffs or granola clusters. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-9a4867c2-3224-405c-a358-00cec9eb23e7.png"
         },
         {
           "id": "08060",
           "name": "Cereal, Kellogg's raisin bran",
           "file": "08060-cereal-kellogg-s-raisin-bran.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of raisin bran cereal in a plain white ceramic bowl, no milk. Show many thin toasted medium-brown wheat bran flakes mixed with plump dark raisins; the rough bran flakes remain clearly visible around the fruit. Dry crisp cereal, not granola clusters. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-0f036c5f-3c60-4815-9051-0365f10f3c8b.png"
         },
         {
           "id": "08065",
           "name": "Cereal, Kellogg's rice krispies",
           "file": "08065-cereal-kellogg-s-rice-krispies.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of plain crisped-rice breakfast cereal in a plain white ceramic bowl, no milk. Show many tiny ivory to pale-golden puffed rice grains with delicate airy bubbles, lightly crisp and dry. Clearly small rice puffs, not flakes or large marshmallow-bound squares. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-868bcd6e-0129-4837-b1c6-54dcee74b3dd.png"
         },
         {
           "id": "08288",
           "name": "Cereal, Kellogg's rice krispies treats cereal",
           "file": "08288-cereal-kellogg-s-rice-krispies-treats-cereal.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of marshmallow rice cereal treats in a plain white ceramic bowl, no milk. Show many bite-size square and pillow-shaped crisped-rice pieces lightly bound with soft white marshmallow, with distinct puffed rice texture and a few visible marshmallow spots. Clearly sweet cereal squares, not plain loose rice puffs. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-5dccf76d-4a39-4a88-b37d-55ea606b5f41.png"
         },
         {
           "id": "08318",
           "name": "Cereal, Kellogg's smart start strong heart antioxidants cereal",
           "file": "08318-cereal-kellogg-s-smart-start-strong-heart-antioxidants-cereal.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of toasted whole-grain breakfast cereal in a plain white ceramic bowl, no milk. Show crisp golden oat and wheat flakes with small toasted whole-grain clusters, lightly sweetened and dry, without fruit or nuts. Clearly a mixed flake-and-cluster cereal. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-85ccb7fa-9e4c-444a-b831-7308d53c21c6.png"
         },
         {
           "id": "08067",
           "name": "Cereal, Kellogg's special k",
           "file": "08067-cereal-kelloggs-special-k.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of classic Special K style breakfast cereal in a plain white ceramic bowl, no milk. Show many thin, delicate irregular wheat-and-rice flakes in pale golden cream with lightly toasted edges and crisp dry texture. Clearly thin flakes, no fruit, nuts or clusters. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-ea0a797b-29f8-40a2-8536-f0c9f583f1cc.png"
         },
         {
           "id": "08603",
           "name": "Cereal, Kellogg's special k blueberry",
           "file": "08603-cereal-kellogg-s-special-k-blueberry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of blueberry breakfast cereal in a plain white ceramic bowl, no milk. Show many thin delicate pale-golden wheat-and-rice flakes mixed with a few deep-blue dried blueberries, keeping the flakes crisp and visibly distinct. No milk or extra fruit. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-f2f923d6-8044-4112-baec-9a769db45cfc.png"
         }
       ]
     },
