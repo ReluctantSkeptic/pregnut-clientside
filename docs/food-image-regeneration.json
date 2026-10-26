@@ -3446,73 +3446,97 @@
           "id": "08435",
           "name": "Cereal, Uncle sam cereal",
           "file": "08435-cereal-uncle-sam-cereal.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of toasted whole-grain wheat cereal in a plain white ceramic bowl, no milk. Subject: thin crisp brown wheat flakes mixed with visible dark flax seeds, hearty irregular flakes and toasted grain texture, dry and natural. Composition: centered three-quarter overhead food photograph, bowl and cereal fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint natural contact shadow. Background: genuine transparent alpha. No table, package, brand, logo, text, utensils, watermark, or border.",
+          "generatedSource": "exec-b278d1d8-1500-4ac8-9ca6-f8a3a089d904.png"
         },
         {
           "id": "08305",
           "name": "Cereal, Waffle crisp",
           "file": "08305-cereal-waffle-crisp.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of sweet crisp waffle-shaped breakfast cereal in a plain white ceramic bowl, no milk. Subject: miniature square golden-brown waffle pieces with a sharp raised grid pattern, light maple-colored glaze, crisp porous edges, visibly waffle-like rather than ordinary square cereal. Composition: centered three-quarter overhead food photograph, bowl and pieces fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint shadow beneath bowl. Background: genuine transparent alpha. No table, packaging, logos, text, utensils, watermark, or border.",
+          "generatedSource": "exec-2a8f4f88-7a7b-4b19-8988-71c7ad9de674.png"
         },
         {
           "id": "42237",
           "name": "Cereal, Weetabix whole grain cereal",
           "file": "42237-cereal-weetabix-whole-grain-cereal.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: two compact whole-grain wheat biscuits served dry in a plain white ceramic bowl. Subject: tan rectangular compressed wheat biscuits with a fine delicate pressed pattern and gently crumbly edges, stacked slightly offset to show biscuit thickness and texture, recognizable as whole-grain breakfast biscuits without branding. Composition: centered three-quarter overhead food photograph, bowl and cereal fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, package, logo, text, utensils, watermark, or border.",
+          "generatedSource": "exec-be19c510-598b-47a4-b030-9ee75c8a247e.png"
         },
         {
           "id": "08082",
           "name": "Cereal, Wheat chex",
           "file": "08082-cereal-wheat-chex.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of crisp square wheat cereal pillows in a plain white ceramic bowl, no milk. Subject: golden-brown whole-wheat square pillows with deep crosshatched grid impressions on each face, slightly darker and more toasted than pale rice cereal, dry and crunchy. Composition: centered three-quarter overhead food photograph, bowl and pieces fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle contact shadow beneath bowl. Background: genuine transparent alpha. No table, package, branding, text, utensils, watermark, or border.",
+          "generatedSource": "exec-e267d463-1771-4145-bf6f-f8e4ef41b011.png"
         },
         {
           "id": "08084",
           "name": "Cereal, Wheat germ",
           "file": "08084-cereal-wheat-germ.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of toasted wheat germ in a simple white ceramic ramekin. Subject: fine irregular pale-golden wheat germ flakes and tiny crunchy grain pieces, softly mounded, delicate fibrous texture, naturally varied toasted tones. Composition: centered three-quarter overhead food photograph, ramekin and contents fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint contact shadow only. Background: genuine transparent alpha. No table, packaging, label, text, utensils, watermark, or border.",
+          "generatedSource": "exec-7c7fc072-9cf9-4652-9072-6eecd9a26e8a.png"
         },
         {
           "id": "08089",
           "name": "Cereal, Wheaties",
           "file": "08089-cereal-wheaties.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of crisp toasted wheat flakes in a plain white ceramic bowl, no milk. Subject: thin golden-brown square and rectangular whole-wheat flakes, lightly puffed with subtle toasted grain texture and softly uneven edges; no symbols or writing on flakes. Composition: centered three-quarter overhead food photograph, bowl and flakes fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, packaging, brand, logo, text, utensils, watermark, or border.",
+          "generatedSource": "exec-c9bbc84b-1add-428d-b154-1926adc89def.png"
         },
         {
           "id": "08090",
           "name": "Cereals, Corn grits, White, Regular and quick, Enriched, Dry",
           "file": "08090-cereals-corn-grits-white-regular-and-quick-enriched-dry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small portion of dry white corn grits in a simple white ceramic ramekin. Subject: coarse ivory-white ground corn granules with visible tiny grains and subtle cream variations, dry, granular and softly mounded, clearly uncooked. Composition: centered three-quarter overhead food photograph, ramekin and contents fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint contact shadow only. Background: genuine transparent alpha. No table, package, label, text, spoon, watermark, or border.",
+          "generatedSource": "exec-057be28d-6fdd-4acf-8581-1c10e264d393.png"
         },
         {
           "id": "08159",
           "name": "Cereals, Corn grits, Yellow, Regular and quick, Enriched, Dry",
           "file": "08159-cereals-corn-grits-yellow-regular-and-quick-enriched-dry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small portion of dry yellow corn grits in a simple white ceramic ramekin. Subject: coarse warm golden-yellow ground corn granules with visible tiny grains and subtle natural color variation, dry and granular, clearly uncooked, distinct from fine flour. Composition: centered three-quarter overhead food photograph, ramekin and contents fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint contact shadow only. Background: genuine transparent alpha. No table, package, label, text, spoon, watermark, or border.",
+          "generatedSource": "exec-8e13ecd5-feb0-411a-9ad6-056c56d1eafc.png"
         },
         {
           "id": "08101",
           "name": "Cereals, Cream of rice, Cooked with water",
           "file": "08101-cereals-cream-of-rice-cooked-with-water.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of plain cooked cream of rice cereal in a simple white ceramic bowl. Subject: smooth creamy white rice porridge with a softly mounded surface and a few clearly visible tiny tender rice grains, thick and spoonable rather than liquid, prepared with water, no toppings. Composition: centered three-quarter overhead food photograph, bowl and cereal fully visible, clear transparent margins. Lighting: soft upper-left studio light, faint natural shadow beneath bowl. Background: genuine transparent alpha. No table, milk splash, fruit, package, text, spoon, watermark, or border.",
+          "generatedSource": "exec-37f17d94-c7b5-4f1d-9a12-5a6df78fb863.png"
         },
         {
           "id": "08106",
           "name": "Cereals, Cream of wheat, Instant, Dry",
           "file": "08106-cereals-cream-of-wheat-instant-dry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small portion of dry instant cream-of-wheat cereal in a plain white ceramic ramekin. Subject: fine ivory-beige wheat farina granules with subtle golden flecks, dry and softly mounded, distinct tiny gritty texture rather than cooked porridge or flour powder. Composition: centered three-quarter overhead food photograph, ramekin and contents fully visible, clear transparent margins. Lighting: soft upper-left studio light, faint contact shadow only. Background: genuine transparent alpha. No table, package, label, text, spoon, watermark, or border.",
+          "generatedSource": "exec-9f8a3ee8-bf7e-4a02-8b58-2c0dcf787d91.png"
         },
         {
           "id": "08104",
           "name": "Cereals, Farina, Enriched, Assorted brands including cream of wheat, Quick (1-3 minutes), Dry",
           "file": "08104-cereals-farina-enriched-assorted-brands-including-cream-of-wheat-quick-1-3-minutes-dry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small portion of dry quick-cooking enriched farina in a plain white ceramic ramekin. Subject: pale warm-beige finely cracked wheat granules, slightly coarser than powder and with small visible grain particles, dry and evenly mounded. Composition: centered three-quarter overhead food photograph, ramekin and contents fully visible, clear transparent margins. Lighting: soft upper-left studio light, faint contact shadow only. Background: genuine transparent alpha. No table, packaging, brand, label, text, spoon, watermark, or border.",
+          "generatedSource": "exec-dd8b4fe8-6be4-4fb4-b599-dba86f1849f5.png"
         },
         {
           "id": "08123",
           "name": "Cereals, Oats, Instant, Fortified, Prepared with water (boiling water added or microwaved)",
           "file": "08123-cereals-oats-instant-fortified-prepared-with-water-boiling-water-added-or-microwaved.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of plain instant oatmeal prepared with water in a simple white ceramic bowl. Subject: soft spoonable beige oat porridge with visible tender rolled oat flakes and a creamy surface, thick rather than runny, no toppings. Composition: centered three-quarter overhead food photograph, bowl and oatmeal fully visible, clear transparent margins. Lighting: soft upper-left studio light, faint natural shadow beneath bowl. Background: genuine transparent alpha. No table, milk splash, fruit, nuts, package, spoon, text, watermark, or border.",
+          "generatedSource": "exec-0eef0367-34b7-4616-8556-3100b877e035.png"
         }
       ]
     },
