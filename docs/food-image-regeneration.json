@@ -2840,73 +2840,97 @@
           "id": "08001",
           "name": "Cereal, Kellogg's all-bran original",
           "file": "08001-cereal-kelloggs-all-bran-original.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of original wheat-bran breakfast cereal in a plain white ceramic bowl, no milk. Show many short, thin, dark golden-brown bran twigs and crunchy irregular bran pieces with rough fibrous texture, loose and dry. Clearly bran cereal, not broad flakes, buds or granola clusters. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-30f00c34-369f-426f-a310-03c0b008f2e9.png"
         },
         {
           "id": "08003",
           "name": "Cereal, Kellogg's apple jacks",
           "file": "08003-cereal-kellogg-s-apple-jacks.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of apple-cinnamon flavored toasted oat ring cereal in a plain white ceramic bowl, no milk. Show many distinct O-shaped rings with clear center holes in vivid natural orange and green, lightly sugared and crisp. Emphasize the two bright colors and ring shape, no fruit pieces. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-2daadb7f-0626-45d0-b49b-079ceeb28f26.png"
         },
         {
           "id": "08588",
           "name": "Cereal, Kellogg's cinnabon cereal",
           "file": "08588-cereal-kellogg-s-cinnabon-cereal.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of cinnamon-roll flavored breakfast cereal in a plain white ceramic bowl, no milk. Show miniature crisp golden cinnamon pastry-shaped cereal pieces, several distinct little spiral swirls with toasted cinnamon-brown ridges and a very light white icing drizzle, not actual soft dough or full-size rolls. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No box, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-7aaa0f0c-5c42-4bd9-80b9-7ea4c909bc16.png"
         },
         {
           "id": "08014",
           "name": "Cereal, Kellogg's cocoa krispies",
           "file": "08014-cereal-kellogg-s-cocoa-krispies.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of chocolate crisped-rice breakfast cereal in a plain white ceramic bowl, no milk. Show many tiny irregular puffed rice grains and crisp rice bubbles, deep cocoa brown with subtle highlights and dry airy texture. Clearly small rice crisps, not round chocolate balls or flakes. Centered three-quarter overhead close photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-b465bdf1-9c2d-43be-b7ad-26b0ca378792.png"
         },
         {
           "id": "08020",
           "name": "Cereal, Kellogg's corn flakes",
           "file": "08020-cereal-kellogg-s-corn-flakes.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of classic toasted corn flakes in a plain white ceramic bowl, no milk. Show thin broad irregular golden-yellow corn flakes with crisp curled edges and subtle toasted speckles, lightly layered and dry, no sugar coating. Clearly individual flat flakes, not puff pieces. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No box, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-d0ddc76c-f22e-4f20-844e-d963e736860a.png"
         },
         {
           "id": "08068",
           "name": "Cereal, Kellogg's corn pops",
           "file": "08068-cereal-kellogg-s-corn-pops.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of sweet puffed corn cereal in a plain white ceramic bowl, no milk. Show many small plump oval-to-short-cylinder corn puffs with golden-yellow color, lightly glossy crisp surfaces and small airy pores. Clearly puffed corn pieces rather than rings, flakes or round balls. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-c654c0c3-5911-4143-afdd-69f4d4ca3246.png"
         },
         {
           "id": "08023",
           "name": "Cereal, Kellogg's cracklin' oat bran",
           "file": "08023-cereal-kellogg-s-cracklin-oat-bran.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of crunchy oat-bran breakfast cereal in a plain white ceramic bowl, no milk. Show many small toasted coarse bran-and-oat pieces, a mix of short crunchy ridged squares and broken flakes with a dry rough oat texture, warm medium brown. Keep the pieces bite-sized and irregular, not long bran twigs. Centered three-quarter overhead close photo with clear margins, soft upper-left light. No package, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-4fcb2766-4c96-43ca-8b8e-08317adbecb4.png"
         },
         {
           "id": "08259",
           "name": "Cereal, Kellogg's crispix",
           "file": "08259-cereal-kellogg-s-crispix.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of dual-grain hexagonal cereal in a plain white ceramic bowl, no milk. Show small crisp six-sided pieces with a clear hexagonal honeycomb profile, each piece contrasting pale creamy rice on one side and toasted golden corn on the other. Distinct individual geometric pieces, not round loops or puffs. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic dry texture. No packaging, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-10360839-74b2-4195-b982-8b46571529bb.png"
         },
         {
           "id": "08030",
           "name": "Cereal, Kellogg's froot loops",
           "file": "08030-cereal-kellogg-s-froot-loops.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of brightly colored fruit-flavored oat ring cereal in a plain white ceramic bowl, no milk. Show many small distinct O-shaped loops with clear center holes in saturated red, orange, yellow, green, blue and purple, lightly sugar-coated and crisp. Clearly multicolor rings, not solid balls. Centered three-quarter overhead close food photo with clear margins, soft upper-left studio light. No box, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-954121b0-0b52-4220-bd28-a88c714429be.png"
         },
         {
           "id": "08069",
           "name": "Cereal, Kellogg's frosted flakes",
           "file": "08069-cereal-kellogg-s-frosted-flakes.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of frosted corn flakes in a plain white ceramic bowl, no milk. Show thin broad irregular golden flakes with crisp curls and edges, each dusted with a visible light crystalline sugar sheen; flakes remain separate and dry. Clearly flat corn flakes, not square cereal or puffs. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-dce66566-e312-4bcf-b526-98d7c48f9052.png"
         },
         {
           "id": "08032",
           "name": "Cereal, Kellogg's frosted rice krispies",
           "file": "08032-cereal-kellogg-s-frosted-rice-krispies.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of frosted crisped-rice cereal in a plain white ceramic bowl, no milk. Show many tiny irregular puffed rice grains and rice bubbles coated with a delicate fine white sugar sparkle, pale ivory to light golden color, airy crisp texture. Clearly tiny rice crisps, not broad flakes or large balls. Centered three-quarter overhead close photo with clear margins, soft upper-left light. No packaging, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-ef4b5cd4-0e27-4b1d-aadf-002c31030a98.png"
         },
         {
           "id": "08309",
           "name": "Cereal, Kellogg's honey crunch corn flakes",
           "file": "08309-cereal-kellogg-s-honey-crunch-corn-flakes.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-crunch corn-flake cereal in a plain white ceramic bowl, no milk. Show crisp golden corn flakes mixed with a few small toasted oat-and-honey crunchy clusters, lightly glazed with warm honey and visibly distinct from the flakes. Dry, crisp and naturally golden, no fruit or nuts. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No box, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-a23066a1-eb63-4d1e-963d-de80874dc0cc.png"
         }
       ]
     },
