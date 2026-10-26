@@ -2537,73 +2537,97 @@
           "id": "08267",
           "name": "Cereal, Frosted cheerios",
           "file": "08267-cereal-frosted-cheerios.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of sweet frosted toasted oat ring cereal, distinct small round golden rings with a thin pale sugar glaze and clear center holes, in a plain white ceramic bowl, no milk. Emphasize crisp ring shapes with a light sugary sheen, not flakes or puffs. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic cereal texture. No package, brand logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-42b65eba-14ef-4882-9494-337b9d856245.png"
         },
         {
           "id": "08409",
           "name": "Cereal, Frosted flakes",
           "file": "08409-cereal-frosted-flakes.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of corn flakes coated with fine sugar frosting, thin broad irregular golden flakes with crisp curled edges and a light crystalline sugar sheen, in a plain white ceramic bowl, no milk. Clearly visible individual flakes, not rings or square cereal. Centered three-quarter overhead view with clear margins, soft upper-left studio light, realistic dry texture. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-8c6e2a53-71ad-47fa-acf1-e197e6fecaf7.png"
         },
         {
           "id": "08500",
           "name": "Cereal, Frosted mini spooners",
           "file": "08500-cereal-frosted-mini-spooners.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of frosted shredded-wheat cereal biscuits, tiny rectangular wheat pillows with clearly visible fine fibrous shredded strands and a thin snowy white sugar frosting on top, in a plain white ceramic bowl, no milk. Clearly mini frosted wheat biscuits, not flakes or cake. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic crisp texture. No package, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-a7055299-08fc-4bc3-9c57-f074eef526a7.png"
         },
         {
           "id": "42236",
           "name": "Cereal, Frosted oat cereal with marshmallows",
           "file": "42236-cereal-frosted-oat-cereal-with-marshmallows.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of sweet frosted oat cereal in a plain white ceramic bowl, small golden toasted oat rings and irregular crisp oat puffs lightly coated with sugar, mixed with a few distinct pastel marshmallow shapes in pink, blue and white. Keep cereal and marshmallows separate, dry and crisp, no milk. Centered three-quarter overhead view, clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-bc312aed-4bd6-48a8-affc-789777f65502.png"
         },
         {
           "id": "08583",
           "name": "Cereal, Fruity cheerios",
           "file": "08583-cereal-fruity-cheerios.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of fruity toasted oat ring cereal, many distinct tiny O-shaped rings with clear center holes in bright natural berry red, orange, yellow, green, blue and purple, in a plain white ceramic bowl, no milk. Crisp dry cereal rings, not solid balls. Centered three-quarter overhead close photo with clear margins, soft upper-left light, realistic cereal texture. No package, logo, branding, text or background. Genuine transparent background.",
+          "generatedSource": "exec-638312ea-b461-4f3d-8fc4-5ba8e8a6512c.png"
         },
         {
           "id": "08501",
           "name": "Cereal, Fruity dyno-bites",
           "file": "08501-cereal-fruity-dyno-bites.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of fruity multigrain children's cereal, many tiny bright crunchy puffed pieces in simple playful shapes and colors: red, orange, yellow, green, blue and purple, in a plain white ceramic bowl, no milk. Use small ridged or star-like cereal pieces rather than smooth spheres or O-rings; no character figures. Centered three-quarter overhead photo with clear margins, soft upper-left light, realistic dry crisp texture. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-9b196a18-34f9-48ee-80dc-5ab775bb3a77.png"
         },
         {
           "id": "08034",
           "name": "Cereal, Fruity pebbles",
           "file": "08034-cereal-fruity-pebbles.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of multicolored crisp rice cereal flakes, many tiny thin irregular flattened flakes in bright fruit colors including red, orange, yellow, green, blue and purple, lightly curled with crisp edges, in a plain white ceramic bowl, no milk. Clearly miniature flat rice flakes, not loops or balls. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-6d927557-ea74-4983-a653-cf6a5ac71974.png"
         },
         {
           "id": "08073",
           "name": "Cereal, Golden crisp",
           "file": "08073-cereal-golden-crisp.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-sweetened puffed wheat breakfast cereal, many small airy round-to-oval golden-brown wheat puffs with a light glossy honey sheen and crisp porous texture, in a plain white ceramic bowl, no milk. Clearly puffed wheat rather than flakes or square pillows. Centered three-quarter overhead view with clear margins, soft upper-left studio light, realistic food photography. No package, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-e043c4be-0fd7-457c-af07-3d97db332231.png"
         },
         {
           "id": "08035",
           "name": "Cereal, Golden grahams",
           "file": "08035-cereal-golden-grahams.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey graham breakfast cereal, crisp small square toasted pieces with gently ridged edges, a subtle crosshatch pattern and golden-brown honey color, in a plain white ceramic bowl, no milk. Clearly flat square graham cereal rather than puff balls, rings or waffle grids. Centered three-quarter overhead close photo with clear margins, soft upper-left light. No box, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-67896691-a21a-4628-9f53-1b62a2277242.png"
         },
         {
           "id": "08038",
           "name": "Cereal, Grape-nuts cereal",
           "file": "08038-cereal-grape-nuts-cereal.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of dense crunchy whole-grain cereal nuggets, tiny irregular pebbly tan-brown nuggets and coarse granules with a dry rough toasted texture, in a plain white ceramic bowl, no milk. Clearly hard small grain nuggets rather than flakes, fruit or granola clusters. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, natural toasted colors. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-b829ca64-01cd-4e4c-bc4c-feaa7b54e6ad.png"
         },
         {
           "id": "08039",
           "name": "Cereal, Grape-nuts flakes",
           "file": "08039-cereal-grape-nuts-flakes.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of toasted whole-grain wheat flakes, thin wide crisp flakes in warm wheat-brown and tan shades with lightly curled edges and fine bran texture, in a plain white ceramic bowl, no milk. Clearly flat flakes, distinct from small crunchy cereal nuggets. Centered three-quarter overhead view with clear margins, soft upper-left light, realistic dry texture. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-c58a92df-40ac-4be6-bb2a-b4fcb2bd4361.png"
         },
         {
           "id": "42261",
           "name": "Cereal, Great grains crunchy pecan cereal",
           "file": "42261-cereal-great-grains-crunchy-pecan-cereal.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of crunchy whole-grain breakfast cereal with pecans, toasted wheat flakes mixed with several golden oat clusters and recognizable ridged pecan halves and pieces, in a plain white ceramic bowl, no milk. Clearly show flakes, crunchy clusters and pecans with natural toasted-brown color. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic dry texture. No package, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-62a66ca9-9df9-4668-9a15-f0529ebf7d1e.png"
         }
       ]
     },
