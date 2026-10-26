@@ -3648,73 +3648,97 @@
           "id": "01011",
           "name": "Cheese, Colby",
           "file": "01011-cheese-colby.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a piece of Colby cheese with one cut slice. Subject: mild semi-firm cheese in a warm orange-gold color with a smooth creamy interior and a few tiny natural air holes, a clean rectangular block and a thick slice laid beside it, no wrapper or wax. Composition: centered three-quarter overhead food photograph, cheese fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, knife, package, label, text, watermark, or border.",
+          "generatedSource": "exec-cae2a9cb-2584-496d-8754-3cd0ccda517e.png"
         },
         {
           "id": "01017",
           "name": "Cheese, Cream",
           "file": "01017-cheese-cream.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of plain cream cheese. Subject: smooth dense white cream cheese in a short soft rectangular block with one rounded scoop and clean spreadable cut marks, slightly glossy creamy surface, no toppings. Present in a simple shallow white ceramic dish. Composition: centered three-quarter overhead food photograph, dish and cheese fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint natural shadow beneath dish. Background: genuine transparent alpha. No table, bagel, crackers, package, text, utensil, watermark, or border.",
+          "generatedSource": "exec-c05da4aa-e02f-4dcf-b81b-e83fbdba2760.png"
         },
         {
           "id": "01018",
           "name": "Cheese, Edam",
           "file": "01018-cheese-edam.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small Edam cheese wheel with one wedge removed. Subject: smooth round cheese with a thin deep coral-red natural wax rind, pale golden-yellow firm interior, one clean cut face and a small detached wedge showing the inside; no label. Composition: centered three-quarter overhead food photograph, wheel and wedge fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, packaging, text, knife, watermark, or border.",
+          "generatedSource": "exec-70158974-80dc-4a74-b20c-9d68d02864f8.png"
         },
         {
           "id": "01020",
           "name": "Cheese, Fontina",
           "file": "01020-cheese-fontina.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a piece of Fontina cheese and a thick cut slice. Subject: pale buttery-yellow semi-soft cheese with a few small irregular eyes, smooth dense interior, a thin muted brown natural rind, rectangular block with slice resting in front. Composition: centered three-quarter overhead food photograph, all cheese fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, knife, package, text, watermark, or border.",
+          "generatedSource": "exec-8f082f91-c9fa-4d07-b857-c5b21226fe91.png"
         },
         {
           "id": "01156",
           "name": "Cheese, Goat, Hard type",
           "file": "01156-cheese-goat-hard-type.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small wedge of aged hard goat cheese with a slice. Subject: dense firm ivory cheese with fine crumbly crystals and a dry natural beige-gray rind, compact triangular wedge and one small cut piece showing the interior, visibly aged and hard rather than fresh soft chèvre. Composition: centered three-quarter overhead food photograph, pieces fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, label, package, knife, text, watermark, or border.",
+          "generatedSource": "exec-a517ef3b-a11d-4a99-aab5-cacebd821846.png"
         },
         {
           "id": "01157",
           "name": "Cheese, Goat, Semisoft type",
           "file": "01157-cheese-goat-semisoft-type.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small semisoft goat cheese log with two thick slices. Subject: short ivory goat cheese cylinder with a delicate pale edible rind, dense smooth but yielding interior and slightly uneven cut surface, milder and softer-looking than aged hard cheese but firmer than fresh spreadable chèvre. Composition: centered three-quarter overhead food photograph, log and slices fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, wrapper, label, package, knife, text, watermark, or border.",
+          "generatedSource": "exec-fe602fd6-6b38-43ff-bc62-c9dc2f83bec9.png"
         },
         {
           "id": "01159",
           "name": "Cheese, Goat, Soft type",
           "file": "01159-cheese-goat-soft-type.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: fresh soft goat cheese in a small log and a spoonable mound. Subject: bright-white fresh chèvre with a delicate fluffy crumb, very creamy soft center, no aged rind, small neat goat cheese cylinder cut through the center beside a soft rounded scoop, natural milky texture. Present on a simple plain white dish. Composition: centered three-quarter overhead food photograph, dish and cheese fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, herbs, crackers, wrapper, text, spoon, watermark, or border.",
+          "generatedSource": "exec-f6d54f8d-4d57-47ed-84c3-44d4ed74986c.png"
         },
         {
           "id": "01022",
           "name": "Cheese, Gouda",
           "file": "01022-cheese-gouda.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small Gouda cheese wheel with one wedge removed. Subject: smooth rounded golden-yellow semi-hard cheese with a thin muted ochre natural rind, creamy dense interior and one neat slice leaning beside the wheel, no wax coating. Composition: centered three-quarter overhead food photograph, wheel and slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, knife, label, package, text, watermark, or border.",
+          "generatedSource": "exec-92659fbd-7c38-4d88-84fa-7a716eab4d9b.png"
         },
         {
           "id": "01023",
           "name": "Cheese, Gruyere",
           "file": "01023-cheese-gruyere.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a wedge of Gruyere cheese with one thick slice. Subject: pale straw-yellow firm cheese with a few medium irregular natural eyes and a thin brownish natural rind, nutty-looking smooth interior and crisp cut edges. Composition: centered three-quarter overhead food photograph, wedge and slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, crackers, knife, package, label, text, watermark, or border.",
+          "generatedSource": "exec-b77fe4ca-f344-459d-8f04-372c98af0bd7.png"
         },
         {
           "id": "01024",
           "name": "Cheese, Limburger",
           "file": "01024-cheese-limburger.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small block of Limburger washed-rind cheese with one cut slice. Subject: rectangular soft-ripened cheese with a distinctive smooth orange-tan washed rind and a pale creamy ivory interior, slightly soft edges and a moist cut face, realistic and appetizing, no visible mold. Composition: centered three-quarter overhead food photograph, block and slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, package, crackers, knife, text, watermark, or border.",
+          "generatedSource": "exec-38ef4912-e1f6-4286-995b-2d162d7a431e.png"
         },
         {
           "id": "01251",
           "name": "Cheese, Mexican blend",
           "file": "01251-cheese-mexican-blend.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of shredded Mexican-style cheese blend in a plain white ceramic bowl. Subject: loose fluffy shreds of pale white Monterey-style cheese and warm yellow-orange cheddar, naturally mixed strands with distinct colors, no seasoning. Composition: centered three-quarter overhead food photograph, bowl and cheese fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, package, garnish, chips, text, utensils, watermark, or border.",
+          "generatedSource": "exec-43fdba0b-db2a-4ea7-919c-3ae7df4a1593.png"
         },
         {
           "id": "01025",
           "name": "Cheese, Monterey",
           "file": "01025-cheese-monterey.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small block of Monterey Jack cheese with two thick slices. Subject: smooth mild ivory-white semi-firm cheese with a few tiny irregular air holes, no rind, clean rectangular block and slices with softly rounded edges, visibly lighter and less orange than cheddar. Composition: centered three-quarter overhead food photograph, cheese fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, knife, package, label, text, watermark, or border.",
+          "generatedSource": "exec-475130c6-5cb9-4659-a63a-da9a7b2c8914.png"
         }
       ]
     },
