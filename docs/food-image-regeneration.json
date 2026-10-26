@@ -4355,73 +4355,97 @@
           "id": "28332",
           "name": "Cookies, Gluten-free, Chocolate sandwich, With creme filling",
           "file": "28332-cookies-gluten-free-chocolate-sandwich-with-creme-filling.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: three gluten-free chocolate sandwich cookies with creme filling. Subject: round dark cocoa wafer cookies with a slightly rustic fine-grained gluten-free texture, one whole, one stacked and one separated to show a thick white creme center; generic unbranded sandwich cookies. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No brand marks, package, wheat, milk, table, text, watermark, or border.",
+          "generatedSource": "exec-e671789e-7c0a-440e-85e7-6ab9b53f8cef.png"
         },
         {
           "id": "18173",
           "name": "Cookies, Graham crackers",
           "file": "18173-cookies-graham-crackers.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small stack of classic graham crackers. Subject: rectangular honey-brown whole-grain crackers with crisp square corners, rows of small perforation holes and a fine crumbly grain texture, one broken corner showing the crisp inside. Composition: centered three-quarter overhead food photograph, crackers fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No marshmallows, chocolate, package, table, text, watermark, or border.",
+          "generatedSource": "exec-7705ab7b-4eff-4514-b82f-ec6a2d26b048.png"
         },
         {
           "id": "28302",
           "name": "Cookies, Graham crackers, Lowfat",
           "file": "28302-cookies-graham-crackers-lowfat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few light low-fat graham crackers. Subject: thin, light golden-tan rectangular whole-grain crackers, neatly perforated and slightly flatter, with a dry crisp surface and modest crumb texture; make them appear lighter and less rich than standard graham crackers. Composition: centered three-quarter overhead food photograph, crackers fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No butter, frosting, chocolate, package, table, text, watermark, or border.",
+          "generatedSource": "exec-911fc06f-70b5-4536-85b8-8759ad7e92e7.png"
         },
         {
           "id": "18177",
           "name": "Cookies, Molasses",
           "file": "18177-cookies-molasses.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several soft molasses cookies. Subject: round deep amber-brown cookies with a gently crackled crinkled top, soft chewy center and darker molasses-rich edges, one broken piece shows its tender interior. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No gingerbread figures, frosting, sugar crystals, package, table, text, watermark, or border.",
+          "generatedSource": "exec-ca43685d-6065-49cb-b1f0-21ec8c045b3a.png"
         },
         {
           "id": "28349",
           "name": "Cookies, Oatmeal, Reduced fat",
           "file": "28349-cookies-oatmeal-reduced-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few reduced-fat oatmeal cookies. Subject: thin, lighter golden-brown oatmeal rounds with visible rolled oats, a slightly dry crisp surface and a few raisins, one broken piece shows a firm crumb; less thick and less rich than regular oatmeal cookies. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No icing, nuts, package, table, text, watermark, or border.",
+          "generatedSource": "exec-4e82e6d0-f88e-4045-931b-384ab94aea9a.png"
         },
         {
           "id": "18178",
           "name": "Cookies, Oatmeal, Regular",
           "file": "18178-cookies-oatmeal-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several regular chewy oatmeal cookies. Subject: thick golden-brown rustic rounds with abundant rolled oats, plump raisins and a moist chewy-looking center; one cookie broken to reveal the soft interior, richer and thicker than a reduced-fat oatmeal cookie. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No frosting, chocolate, package, table, text, watermark, or border.",
+          "generatedSource": "exec-b57e3756-e6e1-46fa-991f-e689bc615d37.png"
         },
         {
           "id": "18185",
           "name": "Cookies, Peanut butter, Regular",
           "file": "18185-cookies-peanut-butter-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several regular peanut butter cookies. Subject: round golden-brown peanut butter cookies with a classic fork-crosshatch pattern, slightly crumbly dense centers, a few tiny roasted peanut bits on the surface, one broken cookie showing its tender interior. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No whole peanuts scattered around, chocolate chips, package, table, text, watermark, or border.",
+          "generatedSource": "exec-89b4a7e3-023d-477c-a02f-dcf01d5c9dbf.png"
         },
         {
           "id": "18191",
           "name": "Cookies, Raisin, Soft-type",
           "file": "18191-cookies-raisin-soft-type.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several soft-type raisin cookies. Subject: thick pale-golden soft cookies with many dark plump raisins embedded throughout, lightly crackled tops and a tender moist-looking center, one cookie broken open to show the soft crumb. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No oats, icing, package, table, text, watermark, or border.",
+          "generatedSource": "exec-03516fdc-dc8b-4d97-b3bf-047dbf1741f4.png"
         },
         {
           "id": "18192",
           "name": "Cookies, Shortbread",
           "file": "18192-cookies-shortbread.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few traditional shortbread cookies. Subject: pale buttery-golden round cookies with delicate crumbly edges, simple fork-pricked or scalloped tops, one broken piece showing a fine tender sandy crumb; understated classic appearance. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No jam, chocolate, frosting, package, table, text, watermark, or border.",
+          "generatedSource": "exec-7a75de09-78f5-4852-84da-da002318c17a.png"
         },
         {
           "id": "18210",
           "name": "Cookies, Vanilla sandwich with creme filling",
           "file": "18210-cookies-vanilla-sandwich-with-creme-filling.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: three vanilla sandwich cookies with creme filling. Subject: lightly golden vanilla wafer cookies, pale embossed patterned tops with thick white creme filling, one whole, one stacked and one split open to show the filling; generic unbranded cookies. Composition: centered three-quarter overhead food photograph, cookies fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No recognizable brand name or logo, package, chocolate, table, text, watermark, or border.",
+          "generatedSource": "exec-9cb667ef-f954-40e6-98a5-ba03e78804ee.png"
         },
         {
           "id": "11165",
           "name": "Coriander (cilantro) leaves, Raw",
           "file": "11165-coriander-cilantro-leaves-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small fresh bunch of raw coriander (cilantro) leaves. Subject: bright-green delicate flat lobed cilantro leaves with thin stems, a compact natural bunch, fresh crisp leaflets and no flowers or roots. Composition: centered three-quarter overhead food photograph, entire bunch fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, gentle natural shadow. Background: genuine transparent alpha. No parsley, lime, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-bc2be701-02bc-4511-b1a1-68069f933d81.png"
         },
         {
           "id": "11901",
           "name": "Corn, Sweet, White, Boiled",
           "file": "11901-corn-sweet-white-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a short ear of boiled white sweet corn. Subject: tender ivory-white kernels in even rows on a small husked cob, freshly boiled and lightly glossy, one cut end visible; natural white sweet corn clearly distinct from yellow corn. Composition: centered three-quarter overhead food photograph, cob fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No butter, salt, pepper, husk leaves, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-1f337a65-2a5e-4c98-9735-be142f04ee0d.png"
         }
       ]
     },
