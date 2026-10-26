@@ -4961,73 +4961,97 @@
           "id": "11209",
           "name": "Eggplant, Raw",
           "file": "11209-eggplant-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one fresh raw eggplant with a cut slice. Subject: a compact plump aubergine with glossy deep-purple skin, green calyx and short stem, one thick round slice placed beside it showing firm pale ivory flesh and tiny seeds, unblemished fresh vegetable. Composition: centered three-quarter overhead food photograph, eggplant and slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, delicate natural contact shadow. Background: genuine transparent alpha. No cooked eggplant, tomato, sauce, leaves, table, text, watermark, or border.",
+          "generatedSource": "exec-b5c3913e-97fc-4f7b-b086-028c78f32eb4.png"
         },
         {
           "id": "11213",
           "name": "Endive, Raw",
           "file": "11213-endive-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: fresh raw endive. Subject: two compact Belgian endive heads, one whole tapered ivory-white head with pale yellow tips and one split lengthwise showing tightly layered crisp leaves, delicate natural leaf ribs. Composition: centered three-quarter overhead food photograph, both heads fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle natural shadow. Background: genuine transparent alpha. No salad, radicchio, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-56d69da4-fcee-492d-bf8f-2aca27ed5fd1.png"
         },
         {
           "id": "18260",
           "name": "English muffins, Mixed-grain (includes granola)",
           "file": "18260-english-muffins-mixed-grain-includes-granola.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: two mixed-grain English muffins. Subject: round golden English muffins with a coarse cornmeal-dusted exterior and visible oats, seeds and whole-grain flecks, one muffin split open to show its honeycomb interior and grainy crumb. Composition: centered three-quarter overhead food photograph, muffins and halves fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No butter, jam, sandwich fillings, package, table, text, watermark, or border.",
+          "generatedSource": "exec-c40b6019-0879-4ad4-aac3-6dde54a0982e.png"
         },
         {
           "id": "18262",
           "name": "English muffins, Raisin-cinnamon (includes apple-cinnamon)",
           "file": "18262-english-muffins-raisin-cinnamon-includes-apple-cinnamon.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: cinnamon-raisin English muffins. Subject: round English muffins with warm cinnamon-brown swirls and visible dark raisins throughout, one split open showing the airy English-muffin texture and raisins in the crumb, lightly cornmeal-dusted exterior. Composition: centered three-quarter overhead food photograph, muffins and halves fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No apple slices, butter, jam, package, table, text, watermark, or border.",
+          "generatedSource": "exec-dbb7ec18-f951-4f2b-8548-94dede8705a5.png"
         },
         {
           "id": "11214",
           "name": "Escarole, Boiled",
           "file": "11214-escarole-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of boiled escarole. Subject: broad gently ruffled dark-green escarole leaves, tender and softly wilted from boiling, a few pale ribs visible and a natural cooked sheen, loosely piled in a small plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and greens fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No broth, garlic, onions, other vegetables, garnish, table, text, watermark, or border.",
+          "generatedSource": "exec-0f581859-a9d9-491b-b037-d1ba65185ad8.png"
         },
         {
           "id": "01243",
           "name": "Fat free ice cream, No sugar added, Flavors other than chocolate",
           "file": "01243-fat-free-ice-cream-no-sugar-added-flavors-other-than-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of vanilla fat-free ice cream with no added sugar. Subject: two smooth pale ivory vanilla ice-cream scoops with a light crystalline frozen sheen, one small spooned edge revealing dense creamy texture, presented in a small plain white dessert bowl; no chocolate flavor. Composition: centered three-quarter overhead food photograph, bowl and ice cream fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate bowl shadow. Background: genuine transparent alpha. No cone, chocolate, candy, berries, whipped cream, spoon, package, table, text, watermark, or border.",
+          "generatedSource": "exec-4f748dc2-2a57-4051-93af-9f6623201553.png"
         },
         {
           "id": "04001",
           "name": "Fat, Beef tallow",
           "file": "04001-fat-beef-tallow.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small amount of rendered beef tallow. Subject: firm smooth warm ivory-yellow block of rendered beef fat with a soft scoop mark and a slightly waxy solid texture, placed in a small plain white ceramic ramekin; no meat attached. Composition: centered three-quarter overhead food photograph, ramekin and tallow fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint ramekin shadow. Background: genuine transparent alpha. No steak, bacon, dripping liquid, jar, label, table, text, watermark, or border.",
+          "generatedSource": "exec-5da358f7-2ad2-4707-a9f5-9801c53a6c76.png"
         },
         {
           "id": "04542",
           "name": "Fat, Chicken",
           "file": "04542-fat-chicken.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of rendered chicken fat. Subject: translucent pale golden chicken schmaltz in a small plain white ceramic ramekin, gently pooled and liquid with a delicate glossy surface and a few tiny opaque golden flecks. Composition: centered three-quarter overhead food photograph, ramekin and rendered fat fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle ramekin shadow. Background: genuine transparent alpha. No chicken meat, skin, jar, label, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-5196a3f3-c6cb-486b-83bf-0bdd0a216b94.png"
         },
         {
           "id": "04574",
           "name": "Fat, Duck",
           "file": "04574-fat-duck.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of rendered duck fat. Subject: pale cream-gold solid rendered fat, softly whipped into a smooth scoop with a gentle glossy sheen, less yellow than chicken schmaltz, in a small plain white ceramic ramekin. Composition: centered three-quarter overhead food photograph, ramekin and fat fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint ramekin shadow. Background: genuine transparent alpha. No duck meat, feathers, jar, label, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-b706c0bb-60e5-450f-8383-5d05315830eb.png"
         },
         {
           "id": "04520",
           "name": "Fat, Mutton tallow",
           "file": "04520-fat-mutton-tallow.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small portion of rendered mutton tallow. Subject: firm ivory-white solid fat in a few compact slightly crumbly chunks with a fine dense waxy texture, set in a small plain white ceramic dish; distinctly pale and firm, not liquid. Composition: centered three-quarter overhead food photograph, dish and fat fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle dish shadow. Background: genuine transparent alpha. No lamb or mutton meat, dripping oil, jar, label, table, text, watermark, or border.",
+          "generatedSource": "exec-84e0fda9-1b8a-48df-afa4-1dbfd27f7c59.png"
         },
         {
           "id": "04575",
           "name": "Fat, Turkey",
           "file": "04575-fat-turkey.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of rendered turkey fat. Subject: pale straw-colored smooth semi-solid rendered fat with a soft spooned mound and gentle satin sheen, lighter and more opaque than liquid chicken fat, in a small plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and fat fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate bowl shadow. Background: genuine transparent alpha. No turkey meat, skin, jar, label, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-14b558b6-da0a-4d73-ad2f-5059059c4ac2.png"
         },
         {
           "id": "11957",
           "name": "Fennel, Bulb, Raw",
           "file": "11957-fennel-bulb-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one fresh raw fennel bulb. Subject: plump ivory-white layered fennel bulb with pale green ribs, long slender green stalks and feathery fresh fronds, one cleanly cut section showing the crisp layered interior; sweet anise vegetable, not celery. Composition: centered three-quarter overhead food photograph, bulb and fronds fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle natural contact shadow. Background: genuine transparent alpha. No other vegetables, seeds, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-d18d16d7-e726-4f13-a1c8-60daf4dbbce0.png"
         }
       ]
     },
