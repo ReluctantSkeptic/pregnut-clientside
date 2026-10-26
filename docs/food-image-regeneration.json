@@ -4456,73 +4456,97 @@
           "id": "11905",
           "name": "Corn, Sweet, White, Canned, Whole kernel",
           "file": "11905-corn-sweet-white-canned-whole-kernel.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of canned whole-kernel white sweet corn. Subject: plump ivory-white corn kernels, moist and lightly glossy with a little clear packing liquid, spoonable but not soupy, in a small plain white ceramic bowl; clearly white corn, not yellow. Composition: centered three-quarter overhead food photograph, bowl and kernels fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No cob, butter, label, can, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-0cf90403-7e94-4dcf-bd94-b3e206a460c2.png"
         },
         {
           "id": "11172",
           "name": "Corn, Sweet, Yellow, Canned, Whole kernel",
           "file": "11172-corn-sweet-yellow-canned-whole-kernel.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of canned whole-kernel yellow sweet corn. Subject: plump bright golden-yellow corn kernels, moist and lightly glossy with a little clear packing liquid, spoonable but not soupy, in a small plain white ceramic bowl; clearly yellow corn, not white. Composition: centered three-quarter overhead food photograph, bowl and kernels fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No cob, butter, label, can, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-3d5b6ba1-1387-448f-a8a2-2fbeede4a1b1.png"
         },
         {
           "id": "19003",
           "name": "Corn-based, Extruded, Chips",
           "file": "19003-corn-based-extruded-chips.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a compact handful of plain extruded corn chips. Subject: several crisp golden-yellow triangular corn tortilla chips with lightly bubbled toasted surfaces and irregular edges, stacked loosely, no seasoning and no dip. Composition: centered three-quarter overhead food photograph, all chips fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No salsa, guacamole, packaging, text, watermark, or border.",
+          "generatedSource": "exec-006ae6e7-7944-4dd0-82e8-d1a29d80acef.png"
         },
         {
           "id": "19008",
           "name": "Corn-based, Extruded, Puffs or twists, Cheese-flavor",
           "file": "19008-corn-based-extruded-puffs-or-twists-cheese-flavor.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small pile of cheese-flavored extruded corn puffs and twists. Subject: airy curved crunchy puff snacks in vivid orange cheese powder, a mix of short ridged curls and puffy twists, dry crisp texture, no dip. Composition: centered three-quarter overhead food photograph, all puffs fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No bag, logo, cheese block, table, text, watermark, or border.",
+          "generatedSource": "exec-e2e973fd-0f8c-4bb4-87e9-779df861967f.png"
         },
         {
           "id": "11192",
           "name": "Cowpeas (blackeyes), Immature seeds, Boiled",
           "file": "11192-cowpeas-blackeyes-immature-seeds-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of boiled immature black-eyed cowpea seeds. Subject: tender fresh pale-green cowpea seeds with tiny dark eyes, softly cooked but still green and plump, spoonable in a small plain white ceramic bowl; clearly immature green seeds, not mature beige beans. Composition: centered three-quarter overhead food photograph, bowl and peas fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No pods, rice, sauce, meat, label, table, text, watermark, or border.",
+          "generatedSource": "exec-f4e00a60-ff2d-406d-80f9-cf18247a230a.png"
         },
         {
           "id": "16063",
           "name": "Cowpeas, Common (blackeyes, Crowder, Southern), Mature seeds, Boiled",
           "file": "16063-cowpeas-common-blackeyes-crowder-southern-mature-seeds-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of boiled mature black-eyed cowpeas. Subject: tender pale ivory-beige beans with distinct small black eyes, moist but intact and plump, cooked mature beans spooned into a small plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and beans fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate bowl shadow. Background: genuine transparent alpha. No green immature peas, pods, rice, bacon, sauce, label, table, text, watermark, or border.",
+          "generatedSource": "exec-1f66ced8-3a5a-4504-b62a-01a7e7c35b81.png"
         },
         {
           "id": "15138",
           "name": "Crab, Alaska king, Imitation, Made from surimi",
           "file": "15138-crab-alaska-king-imitation-made-from-surimi.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: imitation crab made from surimi. Subject: several short white surimi seafood sticks with distinctive coral-red outer surfaces and delicate layered fibers, one stick split lengthwise to reveal white flaky interior, clean seafood-counter appearance. Composition: centered three-quarter overhead food photograph, all pieces fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No crab shells, real claws, mayonnaise, package, label, table, text, watermark, or border.",
+          "generatedSource": "exec-733ad48b-95e6-4bd8-9a49-6771717cd9ca.png"
         },
         {
           "id": "15141",
           "name": "Crab, Blue, Canned",
           "file": "15141-crab-blue-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of canned blue crab meat. Subject: clean white and pale ivory lump crab meat with delicate natural flakes and a few longer claw pieces, moist and gently glossy, neatly mounded in a small plain white ceramic bowl; canned crab with no shell. Composition: centered three-quarter overhead food photograph, bowl and crab fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No can, label, shell, lemon, parsley, mayonnaise, table, text, watermark, or border.",
+          "generatedSource": "exec-930d4bd7-4bb7-4579-a7a5-672ecd5f11ab.png"
         },
         {
           "id": "15140",
           "name": "Crab, Blue, Cooked, Moist heat",
           "file": "15140-crab-blue-cooked-moist-heat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one blue crab cooked with moist heat. Subject: a whole cooked blue crab with open claws and legs, shell turned rich orange-red from cooking with subtle blue markings retained at the legs, firm intact body and natural shell texture, no seasoning. Composition: centered three-quarter overhead food photograph, crab fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No canned meat, lemon, parsley, sauce, table, text, watermark, or border.",
+          "generatedSource": "exec-01a621ce-7b38-488d-aa05-10263bfdb6ae.png"
         },
         {
           "id": "18214",
           "name": "Crackers, Cheese, Regular",
           "file": "18214-crackers-cheese-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several crisp cheese crackers. Subject: small square vivid golden-orange baked cheese crackers with tiny perforations and gently ridged edges, a few stacked and one broken to show a crisp airy crumb, savory cheesy baked texture. Composition: centered three-quarter overhead food photograph, crackers fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No cheese dip, cheese block, package, brand, text, watermark, or border.",
+          "generatedSource": "exec-22962ee3-23df-4ae5-9c15-01954d0a108b.png"
         },
         {
           "id": "28345",
           "name": "Crackers, Gluten-free, Multi-seeded and multigrain",
           "file": "28345-crackers-gluten-free-multi-seeded-and-multigrain.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several gluten-free multiseeded multigrain crackers. Subject: thin rustic square and rectangular crackers in a deep tan toasted color, densely studded with visible sesame, flax, chia and sunflower seeds, crisp irregular edges and a few tiny grains; clearly seed-rich and gluten-free, no wheat stalks. Composition: centered three-quarter overhead food photograph, all crackers fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No cheese, dip, package, label, table, text, watermark, or border.",
+          "generatedSource": "exec-ce76823b-d5c7-41c8-be6f-cf8624abb7b7.png"
         },
         {
           "id": "28292",
           "name": "Crackers, Multigrain",
           "file": "28292-crackers-multigrain.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small stack of ordinary multigrain crackers. Subject: golden whole-grain square crackers with a coarse flecked grain texture and small even perforations, lightly toasted, sturdy crisp edges and few visible seeds; simpler and less seed-dense than seeded gluten-free crackers. Composition: centered three-quarter overhead food photograph, crackers fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No package, label, cheese, dip, table, text, watermark, or border.",
+          "generatedSource": "exec-bfc22753-205e-4753-bd00-7e5fca1252f9.png"
         }
       ]
     },
