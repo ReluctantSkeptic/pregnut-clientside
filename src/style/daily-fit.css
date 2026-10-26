@@ -582,8 +582,8 @@ img.df-item-photo {
 .df-tiles {
   margin-top: 18px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px 4px;
 }
 
 .df-tile {
@@ -598,19 +598,26 @@ img.df-item-photo {
   cursor: pointer;
 }
 
+/* Frameless: the chosen diet's food lifts and comes into full colour */
 .df-tile span {
-  min-height: 116px;
-  padding: 12px 8px;
+  padding: 6px 2px 8px;
   display: grid;
   justify-items: center;
-  align-content: center;
-  gap: 8px;
-  border: 1.5px solid transparent;
-  border-radius: 22px;
-  background: var(--df-soft);
-  font-size: 0.9rem;
+  align-content: start;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 0.86rem;
   text-align: center;
-  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.df-tile span img {
+  opacity: 0.6;
+  filter: grayscale(0.35) var(--cutout-shadow);
+  transition: transform 320ms var(--ease-spring), opacity 200ms ease, filter 200ms ease;
+}
+
+.df-tile:hover span img {
+  opacity: 0.9;
 }
 
 .df-tile img {
@@ -621,9 +628,14 @@ img.df-item-photo {
 }
 
 .df-tile input:checked + span {
-  border-color: var(--accent-2);
-  background: var(--df-green);
+  color: var(--ink);
   font-weight: 600;
+}
+
+.df-tile input:checked + span img {
+  opacity: 1;
+  filter: var(--cutout-shadow);
+  transform: translateY(-4px) scale(1.1);
 }
 
 .df-sheet-hint {
@@ -1247,4 +1259,93 @@ img.df-item-photo {
 .df-gain-value,
 .df-faq h2 {
   font-family: var(--font-display);
+}
+
+/* Phones: searching takes the whole screen; the field sits at the top and the
+   results fill what the keyboard leaves visible (daily-fit.js sets the vars). */
+.df-search-cancel {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .df-searching,
+  .df-searching body {
+    overflow: hidden;
+  }
+
+  .df-searching .df-dash {
+    z-index: 300;
+  }
+
+  /* The sheet is the whole screen: the site header steps away */
+  .df-searching .site-header {
+    visibility: hidden;
+  }
+
+  .df-searching .df-search {
+    position: fixed;
+    z-index: 200;
+    top: var(--df-vvtop, 0px);
+    right: 0;
+    left: 0;
+    height: var(--df-vvh, 100vh);
+    max-width: none;
+    margin: 0;
+    padding: calc(var(--s-2) + env(safe-area-inset-top)) var(--s-3) 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--card);
+  }
+
+  .df-searching .df-search input {
+    flex: 0 0 auto;
+    width: auto;
+    margin-right: 72px;
+    height: 52px;
+    padding-left: 44px;
+    background: var(--df-soft);
+    font-size: 1.05rem;
+  }
+
+  .df-searching .df-search-icon {
+    top: calc(var(--s-2) + env(safe-area-inset-top) + 26px);
+    left: calc(var(--s-3) + 14px);
+  }
+
+  .df-searching .df-search-cancel {
+    position: absolute;
+    top: calc(var(--s-2) + env(safe-area-inset-top));
+    right: var(--s-2);
+    min-height: 52px;
+    padding: 0 var(--s-3);
+    display: block;
+    border: 0;
+    color: var(--accent-2);
+    background: none;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .df-searching .df-results {
+    position: static;
+    flex: 1 1 auto;
+    max-height: none;
+    margin: var(--s-2) calc(-1 * var(--s-3)) 0;
+    padding: 0 var(--s-2) calc(var(--s-4) + env(safe-area-inset-bottom));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-top: 1px solid var(--border);
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .df-searching .df-fab,
+  .df-searching .df-toast {
+    display: none;
+  }
+}
+
+.df-tile input {
+  z-index: 1;
 }

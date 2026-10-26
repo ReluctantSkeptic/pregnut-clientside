@@ -2,8 +2,6 @@
 // Each entry: [label, url, image, rank, aliases]. Rank puts everyday foods
 // with photos ahead of treats, odd items and foods to avoid.
 
-const path = require("path");
-const fs = require("fs");
 const foodData = require("./resource/pregnut_fooddata.v1.json");
 const foodImages = require("./_data/foodimages.js");
 const { searchItems } = require("./_data/foodpages.js");
@@ -11,14 +9,10 @@ const ALIASES = require("../scripts/food-aliases.js");
 const { isWholeFood } = require("../scripts/food-serving.js");
 
 const TREATS = new Set(["Sweets", "Snacks", "Fast Foods", "Restaurant Foods", "Fats and Oils"]);
-const CUTOUT_DIR = path.join(__dirname, "resource/portions/cutouts");
-const cutouts = new Set(fs.existsSync(CUTOUT_DIR) ? fs.readdirSync(CUTOUT_DIR) : []);
 
+// foodimages already resolves each photo to its cut-out.
 function picture(id) {
-  const photo = foodImages.get(String(id));
-  if (!photo) return "";
-  const name = path.basename(photo);
-  return cutouts.has(name) ? `/resource/portions/cutouts/${name}` : photo;
+  return foodImages.get(String(id)) || "";
 }
 
 module.exports = class SearchIndex {

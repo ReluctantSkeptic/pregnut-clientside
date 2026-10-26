@@ -9,10 +9,10 @@
   var SLOTS = [["breakfast", "Breakfast"], ["lunch", "Lunch"], ["snack", "Snack"], ["dinner", "Dinner"]];
   // Shown while a meal is empty.
   var SLOT_PHOTOS = {
-    breakfast: "/resource/portions/portion-oatmeal-100g.webp",
-    lunch: "/resource/portions/portion-lentils-100g.webp",
-    snack: "/resource/portions/portion-almonds-100g.webp",
-    dinner: "/resource/portions/portion-salmon-100g.webp"
+    breakfast: "/resource/portions/cutouts/portion-oatmeal-100g-600.webp",
+    lunch: "/resource/portions/cutouts/portion-lentils-100g-600.webp",
+    snack: "/resource/portions/cutouts/portion-almonds-100g-600.webp",
+    dinner: "/resource/portions/cutouts/portion-salmon-100g-600.webp"
   };
   var STEPS = [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10];
   // Eggs, slices and bananas count in whole numbers (and a half).
@@ -48,11 +48,11 @@
   }
 
   function loadState() {
-    var fresh = { date: today(), items: [], plan: {}, prefs: { style: "all", df: false, gf: false, prep: 2 } };
+    var fresh = { date: today(), items: [], plan: {}, prefs: { diet: "everything", prep: 2 } };
     try {
       var saved = JSON.parse(window.localStorage.getItem(STORE_KEY) || "null");
       if (!saved || typeof saved !== "object") return fresh;
-      fresh.prefs = saved.prefs || fresh.prefs;
+      fresh.prefs = migratePrefs(saved.prefs) || fresh.prefs;
       // A new day starts with an empty list; preferences carry over.
       if (saved.date === fresh.date && Array.isArray(saved.items)) {
         fresh.items = saved.items;
@@ -60,6 +60,14 @@
       }
     } catch (e) {}
     return fresh;
+  }
+
+  // Earlier versions stored a style plus dairy-free and gluten-free switches.
+  function migratePrefs(p) {
+    if (!p || typeof p !== "object") return null;
+    if (p.diet) return { diet: p.diet, prep: p.prep || 2 };
+    var diet = p.style === "vegetarian" || p.style === "vegan" ? p.style : p.df ? "dairyfree" : p.gf ? "glutenfree" : "everything";
+    return { diet: diet, prep: p.prep || 2 };
   }
 
   function save() {
@@ -281,6 +289,7 @@
     results = [];
     active = -1;
     renderResults();
+    exitSearchMode(true);
     openAmount({ id: f[0], u: 0, q: f[6][0][2] || 1, slot: pendingSlot || tab || guessSlot() }, -1);
     pendingSlot = null;
   }
@@ -288,26 +297,79 @@
   function focusSearch(slot) {
     pendingSlot = slot || null;
     var input = $("DfSearch");
-    input.scrollIntoView({ block: "center", behavior: "smooth" });
+    if (!phone.matches) input.scrollIntoView({ block: "center", behavior: "smooth" });
     input.focus({ preventScroll: true });
+  }
+
+  // Phones: the search becomes a full-screen sheet. The field sits at the top
+  // and the results fill exactly what the keyboard leaves visible.
+  var phone = window.matchMedia("(max-width: 700px)");
+  var searching = false;
+  var pushed = false;
+  // Shown before anything is typed: everyday staples.
+  var STAPLES = ["01129", "08121", "01287", "09040", "15086", "16070", "11457", "42290"];
+
+  function fitSearch() {
+    if (!searching) return;
+    var vv = window.visualViewport;
+    var root = document.documentElement;
+    root.style.setProperty("--df-vvh", (vv ? vv.height : window.innerHeight) + "px");
+    root.style.setProperty("--df-vvtop", (vv ? vv.offsetTop : 0) + "px");
+  }
+
+  function enterSearchMode() {
+    if (searching || !phone.matches) return;
+    searching = true;
+    document.documentElement.classList.add("df-searching");
+    $("DfSearchCancel").hidden = false;
+    fitSearch();
+    try { history.pushState({ dfSearch: 1 }, ""); pushed = true; } catch (e) { pushed = false; }
+    showSearch();
+  }
+
+  function exitSearchMode(viaHistory) {
+    if (!searching) return;
+    searching = false;
+    document.documentElement.classList.remove("df-searching");
+    $("DfSearchCancel").hidden = true;
+    var input = $("DfSearch");
+    input.value = "";
+    input.blur();
+    results = [];
+    renderResults();
+    if (viaHistory && pushed) { pushed = false; history.back(); }
+  }
+
+  function showSearch() {
+    var input = $("DfSearch");
+    results = input.value.trim() ? search(input.value)
+      : searching ? STAPLES.map(food).filter(Boolean) : [];
+    active = results.length && input.value.trim() ? 0 : -1;
+    renderResults();
   }
 
   function wireSearch() {
     var input = $("DfSearch");
-    input.addEventListener("input", function () {
-      results = search(input.value);
-      active = results.length ? 0 : -1;
-      renderResults();
-    });
+    input.addEventListener("focus", enterSearchMode);
+    input.addEventListener("input", showSearch);
     input.addEventListener("keydown", function (ev) {
       if (ev.key === "ArrowDown" && results.length) { active = (active + 1) % results.length; renderResults(); ev.preventDefault(); }
       else if (ev.key === "ArrowUp" && results.length) { active = (active - 1 + results.length) % results.length; renderResults(); ev.preventDefault(); }
       else if (ev.key === "Enter" && active >= 0) { choose(active); ev.preventDefault(); }
-      else if (ev.key === "Escape") { input.value = ""; results = []; renderResults(); }
+      else if (ev.key === "Escape") { if (searching) exitSearchMode(true); else { input.value = ""; results = []; renderResults(); } }
     });
+    // On phones the results stay while the keyboard is down; on desktop the
+    // dropdown closes when the field loses focus.
     input.addEventListener("blur", function () {
-      setTimeout(function () { results = []; renderResults(); }, 150);
+      setTimeout(function () { if (!searching) { results = []; renderResults(); } }, 150);
     });
+    $("DfResults").addEventListener("touchstart", function () { if (searching) input.blur(); }, { passive: true });
+    $("DfSearchCancel").addEventListener("click", function () { exitSearchMode(true); });
+    window.addEventListener("popstate", function () { if (searching) { pushed = false; exitSearchMode(false); } });
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener("resize", fitSearch);
+      window.visualViewport.addEventListener("scroll", fitSearch);
+    }
     input.disabled = false;
   }
 
@@ -795,24 +857,89 @@
 
   // Design my day ---------------------------------------------------------
 
+  // meal: [slot, name, diet, dairyFree, glutenFree, prep, items, eggFree, nutFree]
+  var DIETS = {
+    everything: function () { return true; },
+    pescatarian: function (m) { return m[2] !== "meat"; },
+    vegetarian: function (m) { return m[2] === "vegetarian" || m[2] === "vegan"; },
+    vegan: function (m) { return m[2] === "vegan"; },
+    dairyfree: function (m) { return !!m[3]; },
+    glutenfree: function (m) { return !!m[4]; },
+    eggfree: function (m) { return !!m[7]; },
+    nutfree: function (m) { return !!m[8]; }
+  };
+
   function fits(meal, prefs, prep) {
-    var diet = meal[2];
-    if (prefs.style === "vegetarian" && diet !== "vegetarian" && diet !== "vegan") return false;
-    if (prefs.style === "vegan" && diet !== "vegan") return false;
-    if (prefs.df && !meal[3]) return false;
-    if (prefs.gf && !meal[4]) return false;
-    return meal[5] <= prep;
+    return (DIETS[prefs.diet] || DIETS.everything)(meal) && meal[5] <= prep;
   }
 
-  function planItems(meal, slot) {
-    return meal[6].map(function (it) { return { id: it[0], q: it[1], u: it[2] || 0, slot: slot }; });
+  // A larger portion scales every food; countable foods (eggs, slices,
+  // bananas) round to the nearest half so amounts stay sensible.
+  function planItems(meal, slot, scale) {
+    return meal[6].map(function (it) {
+      var q = it[1] * (scale || 1);
+      var f = food(it[0]);
+      var unit = f ? (f[6][it[2] || 0] || f[6][0])[0] : "";
+      if (scale > 1) q = MEASURE.test(unit) ? Math.round(q * 4) / 4 : Math.round(q * 2) / 2;
+      return { id: it[0], q: q, u: it[2] || 0, slot: slot };
+    });
   }
 
-  // Try many random days and keep the one that covers the most, so each plan
-  // is varied but still strong.
+  // What each meal brings, worked out once per plan.
+  function mealFacts(meal, scale) {
+    var items = planItems(meal, meal[0], scale);
+    return {
+      meal: meal,
+      scale: scale || 1,
+      totals: amounts(items),
+      kcal: calories(items),
+      ids: items.map(function (it) { return it.id; }),
+      fish: meal[2] === "fish"
+    };
+  }
+
+  // The optional second snack can also be left out.
+  var NO_MEAL = { meal: null, scale: 1, totals: [], kcal: 0, ids: [], fish: false };
+
+  // A day scores for coverage (the five hardest nutrients count more), for
+  // each nutrient fully met, and loses points for calories outside a
+  // pregnancy range, the same food twice, more than one fish meal (FDA
+  // advice is 2 to 3 servings a week) and repeating the last plan.
+  function scoreDay(day, avoid) {
+    var score = 0;
+    for (var i = 0; i < data.nutrients.length; i++) {
+      var total = 0;
+      for (var k = 0; k < day.length; k++) total += day[k].totals[i] || 0;
+      var p = percent(i, total);
+      score += Math.min(100, p) * (i < 5 ? 1.5 : 1);
+      if (p >= 100) score += 15;
+    }
+    var kcal = 0;
+    var seen = {};
+    var fish = 0;
+    day.forEach(function (f) {
+      if (!f.meal) return;
+      kcal += f.kcal;
+      if (f.fish) fish++;
+      var name = f.meal[1].toLowerCase();
+      if (avoid && avoid.some(function (a) { return a && a.toLowerCase().indexOf(name) !== -1; })) score -= 40;
+      f.ids.forEach(function (id) {
+        if (seen[id]) score -= 25;
+        seen[id] = 1;
+      });
+    });
+    // Pregnancy days run about 1,900 to 2,700 kcal (more in later trimesters).
+    if (kcal < 1900) score -= (1900 - kcal) / 4;
+    if (kcal > 2700) score -= (kcal - 2700) / 4;
+    if (fish > 1) score -= 80 * (fish - 1);
+    return score;
+  }
+
+  // Random starts, each improved one meal at a time until nothing helps; then
+  // a random pick among the near-best days, so plans vary but stay strong.
+  // Main meals can come as a larger portion, and a second snack is optional.
   function planDay(prefs, avoid) {
-    var pools = {};
-    SLOTS.forEach(function (s) {
+    var pools = SLOTS.map(function (s) {
       var prep = prefs.prep;
       var pool = [];
       while (prep <= 3) {
@@ -820,32 +947,55 @@
         if (pool.length >= 2) break;
         prep++;
       }
-      var fresh = pool.filter(function (m) { return !avoid || avoid.indexOf(m[1]) === -1; });
-      pools[s[0]] = fresh.length ? fresh : pool;
-    });
-    var best = null;
-    var bestScore = -1;
-    for (var t = 0; t < 80; t++) {
-      var pick = SLOTS.map(function (s) {
-        var pool = pools[s[0]];
-        return pool[Math.floor(Math.random() * pool.length)];
+      var facts = [];
+      pool.forEach(function (m) {
+        facts.push(mealFacts(m, 1));
+        if (s[0] !== "snack") facts.push(mealFacts(m, 1.5));
       });
-      if (pick.some(function (m) { return !m; })) continue;
-      var items = [];
-      pick.forEach(function (m, k) { items = items.concat(planItems(m, SLOTS[k][0])); });
-      var totals = amounts(items);
-      var score = totals.reduce(function (sum, a, i) { return sum + Math.min(100, percent(i, a)); }, 0) + Math.random() * 40;
-      if (score > bestScore) { bestScore = score; best = { pick: pick, items: items }; }
+      return facts;
+    });
+    if (pools.some(function (pool) { return !pool.length; })) return null;
+    var snackIndex = SLOTS.map(function (s) { return s[0]; }).indexOf("snack");
+    pools.push([NO_MEAL].concat(pools[snackIndex]));
+
+    var results = [];
+    for (var start = 0; start < 24; start++) {
+      var day = pools.map(function (pool) { return pool[Math.floor(Math.random() * pool.length)]; });
+      var score = scoreDay(day, avoid);
+      for (var pass = 0; pass < 4; pass++) {
+        var improved = false;
+        for (var k = 0; k < pools.length; k++) {
+          var keep = day[k];
+          for (var c = 0; c < pools[k].length; c++) {
+            day[k] = pools[k][c];
+            var next = scoreDay(day, avoid);
+            if (next > score + 0.01) { score = next; keep = day[k]; improved = true; }
+          }
+          day[k] = keep;
+        }
+        if (!improved) break;
+      }
+      results.push({ day: day.slice(), score: score });
     }
-    return best;
+    results.sort(function (a, b) { return b.score - a.score; });
+    var good = results.filter(function (r) { return r.score >= results[0].score * 0.97; });
+    var chosen = good[Math.floor(Math.random() * good.length)];
+    var items = [];
+    var names = {};
+    chosen.day.forEach(function (f, k) {
+      if (!f.meal) return;
+      var slot = k < SLOTS.length ? SLOTS[k][0] : "snack";
+      items = items.concat(planItems(f.meal, slot, f.scale));
+      names[slot] = names[slot] ? names[slot] + ", then " + f.meal[1].charAt(0).toLowerCase() + f.meal[1].slice(1) : f.meal[1];
+    });
+    return { names: names, items: items };
   }
 
   function applyPlan(avoid) {
     var plan = planDay(state.prefs, avoid);
     if (!plan) return;
     state.items = plan.items;
-    state.plan = {};
-    plan.pick.forEach(function (m, k) { state.plan[SLOTS[k][0]] = m[1]; });
+    state.plan = plan.names;
     commit();
   }
 
@@ -855,9 +1005,7 @@
     closeOnBackdrop(dialog);
     function openDesign() {
       var p = state.prefs;
-      form.querySelector("input[name=style][value=" + p.style + "]").checked = true;
-      form.elements.df.checked = !!p.df;
-      form.elements.gf.checked = !!p.gf;
+      form.querySelector("input[name=diet][value=" + (DIETS[p.diet] ? p.diet : "everything") + "]").checked = true;
       form.querySelector("input[name=prep][value='" + p.prep + "']").checked = true;
       openDialog(dialog);
     }
@@ -868,9 +1016,7 @@
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       state.prefs = {
-        style: form.querySelector("input[name=style]:checked").value,
-        df: form.elements.df.checked,
-        gf: form.elements.gf.checked,
+        diet: form.querySelector("input[name=diet]:checked").value,
         prep: Number(form.querySelector("input[name=prep]:checked").value)
       };
       if (state.items.length) undoable("Planned a new day");

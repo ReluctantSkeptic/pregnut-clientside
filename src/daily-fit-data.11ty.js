@@ -43,8 +43,9 @@ const portionPhoto = new Map();
 const largePhoto = new Map();
 for (const [name, ids] of Object.entries(PORTION_PHOTOS)) {
   for (const id of ids) {
-    portionPhoto.set(id, `/resource/portions/portion-${name}-100g-600.webp`);
-    largePhoto.set(id, `/resource/portions/portion-${name}-100g.webp`);
+    // Cut-outs only: the 480 px cut-out also serves the large photo.
+    portionPhoto.set(id, `/resource/portions/cutouts/portion-${name}-100g-600.webp`);
+    largePhoto.set(id, `/resource/portions/cutouts/portion-${name}-100g-600.webp`);
   }
 }
 
@@ -77,6 +78,19 @@ const BORROWED_CUTOUTS = {
   "11674": "11364-potatoes-baked-skin.webp", "11091": "11090-broccoli-raw.webp",
   "08029": "08028-cereal-kellogg-s-all-bran-complete-wheat-flakes.webp"
 };
+
+// Egg-free and nut-free are worked out from each meal's foods.
+const EGG = /\begg(s)?\b|omelet|eggnog|mayonnaise|french toast|waffle|pancake/i;
+const NUT = /peanut|almond|walnut|cashew|pecan|pistachio|hazelnut|tahini|sesame/i;
+const foodById = new Map(foodData.foods.map((f) => [f.id, f]));
+function labelOf(id) {
+  const f = foodById.get(id);
+  return f ? f.label || f.name : "";
+}
+function isNut(id) {
+  const f = foodById.get(id);
+  return Boolean(f) && (f.group === "Nut and Seed Products" || NUT.test(labelOf(id)));
+}
 
 function round(n) {
   return Math.round(n * 1000) / 1000;
@@ -129,7 +143,9 @@ module.exports = class DailyFitData {
       })),
       foods,
       helpers,
-      meals: meals.map((m) => [m.slot, m.name, m.diet, m.df ? 1 : 0, m.gf ? 1 : 0, m.prep, m.items])
+      meals: meals.map((m) => [m.slot, m.name, m.diet, m.df ? 1 : 0, m.gf ? 1 : 0, m.prep, m.items,
+        m.items.some(([id]) => EGG.test(labelOf(id))) ? 0 : 1,
+        m.items.some(([id]) => isNut(id)) ? 0 : 1])
     });
   }
 };

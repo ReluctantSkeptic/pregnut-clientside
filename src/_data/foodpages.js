@@ -513,8 +513,8 @@ const items = (foodData.foods || [])
         ? {
             src: foodImages.get(String(food.id)),
             alt: `Illustration of ${hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name}`,
-            width: 400,
-            height: 400
+            width: 320,
+            height: 320
           }
         : null
     };
