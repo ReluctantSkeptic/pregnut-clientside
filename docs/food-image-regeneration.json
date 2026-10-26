@@ -5264,73 +5264,97 @@
           "id": "09105",
           "name": "Fruit salad, (peach and pear and apricot and pineapple and cherry), Canned, in syrup",
           "file": "09105-fruit-salad-peach-and-pear-and-apricot-and-pineapple-and-cherry-canned-in-syrup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of canned mixed fruit salad in clear light syrup, colorful tender chunks of peach, pear, apricot and pineapple with one visible red cherry, arranged naturally in a small plain white ceramic bowl, slight three-quarter view, centered, soft upper-left studio light, delicate bowl shadow, no table, no background, true transparent background beyond the bowl, no can, no label, no spoon, no text, no extra objects. Square 1:1 composition, bowl fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-b9521470-a447-4c30-8944-f85164c3ab91.png"
         },
         {
           "id": "17157",
           "name": "Game meat, Bison, Separable lean only, Roasted",
           "file": "17157-game-meat-bison-separable-lean-only-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of roasted lean bison, one compact dark mahogany-brown roast medallion with two thick slices cut to reveal a deep rosy-red interior, clean lean meat grain and lightly seared edges, isolated without plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no table, no background, true transparent background, no bone, no sauce, no garnish, no text, no extra objects. Square 1:1 composition, food fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-bdc5330b-c16c-4e33-972c-3699ed71bfea.png"
         },
         {
           "id": "17159",
           "name": "Game meat, Boar, Wild, Roasted",
           "file": "17159-game-meat-boar-wild-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of roasted wild boar, compact rustic roast with a dark brown crisped exterior and two lean slices showing a warm brownish-rose center, distinctly darker and more fully cooked than a beef roast, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no plate, no table, no background, true transparent background, no bone, no sauce, no herbs, no text, no extra objects. Square 1:1 composition, meat fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-327c2ae8-4046-4965-9a9c-ace4c6834388.png"
         },
         {
           "id": "17344",
           "name": "Game meat, Deer, Ground, Pan-broiled",
           "file": "17344-game-meat-deer-ground-pan-broiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one pan-broiled patty made from ground venison, a compact irregular-edged round patty with a well-browned seared crust and a small cut edge showing coarse lean ground meat inside, appetizing natural brown tones, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no plate, no bun, no pan, no sauce, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, patty fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-6c0edcc6-99c8-4240-a6c2-3c65e575199b.png"
         },
         {
           "id": "17346",
           "name": "Game meat, Deer, Shoulder clod, Separable lean only, 3-5 lb roast, Braised",
           "file": "17346-game-meat-deer-shoulder-clod-braised.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one serving of braised lean deer shoulder clod roast, a thick compact shoulder roast chunk with a deep brown braised exterior and one cut face showing tender moist fibers, richly browned but fully cooked, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no gravy pool, no vegetables, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, meat fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-21228097-90ed-4477-8d7a-36d3d1b1dcc0.png"
         },
         {
           "id": "17169",
           "name": "Game meat, Goat, Roasted",
           "file": "17169-game-meat-goat-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one roasted goat shank portion, a rustic narrow bone-in cut with a slender exposed bone and small lean golden-brown roasted meat at one end, clearly different from a broad beef steak, naturally roasted crust, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no sauce, no herbs, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, food fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-4bc892b4-0f50-42af-8fd6-97c4dd4cc272.png"
         },
         {
           "id": "17173",
           "name": "Game meat, Moose, Roasted",
           "file": "17173-game-meat-moose-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one serving of lean roasted moose, a compact dark mahogany roast with two narrow slices showing a firm even deep red-brown interior and a clean lightly seared edge, distinctly lean with little visible fat, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no plate, no table, no background, true transparent background, no bone, no sauce, no garnish, no text, no extra objects. Square 1:1 composition, meat fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-46c474b1-276a-48fd-98bb-37024394127c.png"
         },
         {
           "id": "17179",
           "name": "Game meat, Rabbit, Composite of cuts, Stewed",
           "file": "17179-game-meat-rabbit-composite-cuts-stewed.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small bowl of traditional rabbit stew made with mixed cuts, several tender pale rabbit meat pieces with a small visible bone in a light savory broth with a few tiny carrot and celery pieces, served in a plain white ceramic bowl, slight three-quarter view, centered, soft upper-left studio light, delicate bowl shadow, no table, no background, true transparent background beyond the bowl, no text, no herbs piled on top, no extra objects. Square 1:1 composition, bowl fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-829d9b71-2082-41e1-bb63-cc3335d8aef0.png"
         },
         {
           "id": "17181",
           "name": "Game meat, Rabbit, Wild, Stewed",
           "file": "17181-game-meat-rabbit-wild-stewed.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of rustic wild rabbit stew, several small dark golden-brown bone-in rabbit pieces in a deeper amber-brown broth with a few tiny carrot and onion pieces, served in a plain white ceramic bowl; meat and broth clearly visible, slight three-quarter view, centered, soft upper-left studio light, delicate bowl shadow, no table, no background, true transparent background beyond the bowl, no text, no herbs piled on top, no extra objects. Square 1:1 composition, bowl fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-328ee200-cbbd-4fe5-9871-1973c33fb96b.png"
         },
         {
           "id": "18963",
           "name": "Garlic bread, Frozen",
           "file": "18963-garlic-bread-frozen.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: two short toasted garlic bread baguette slices, golden crisp crust and soft pale interior with visible garlic-herb butter and tiny green herb flecks, freshly baked and appetizing, set at a slight angle without a plate, centered, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no packaging, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bread fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-df1079da-0b43-480c-b057-49d4607a8055.png"
         },
         {
           "id": "11215",
           "name": "Garlic, Raw",
           "file": "11215-garlic-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one fresh whole white garlic bulb with papery ivory skin and a few separated peeled cloves arranged beside it, natural root end visible, clean realistic detail, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, garlic fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-7c81966d-797b-48fd-8aa5-92a9a5d4e61c.png"
         },
         {
           "id": "14460",
           "name": "Gatorade, G performance o 2, Ready-to-drink.",
           "file": "14460-gatorade-g-performance-o-2-ready-to-drink.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated product cutout for a nutrition app: one ready-to-drink sports beverage in a clear ridged plastic bottle, filled with translucent pale golden citrus-colored electrolyte drink, simple dark flip-top sports cap, completely blank clear bottle with no label or markings, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no table, no background, true transparent background, no text, no brand, no logo, no straw, no extra objects. Square 1:1 composition, bottle fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-ae57ed35-f395-48d4-bc93-44a07b8eb280.png"
         }
       ]
     },
