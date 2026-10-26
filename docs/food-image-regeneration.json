@@ -3345,73 +3345,97 @@
           "id": "08194",
           "name": "Cereal, Reese's puffs",
           "file": "08194-cereal-reese-s-puffs.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one small serving of crisp cereal puffs in a plain white ceramic bowl, no milk. Subject: round airy cereal puffs with a distinct cocoa-brown and peanut-butter-golden coating, several separate puffs visible, appetizing and plausible, no recognizable branded shapes. Composition: centered three-quarter overhead food photograph, bowl and contents fully visible with clear transparent margins. Lighting: soft upper-left studio light, subtle natural shadows beneath the bowl only. Background: genuine transparent alpha. No table, scene, packaging, logo, text, props, watermark, or border.",
+          "generatedSource": "exec-675f79d8-168b-4ce1-a6c1-0ca674d1e209.png"
         },
         {
           "id": "08064",
           "name": "Cereal, Rice chex",
           "file": "08064-cereal-rice-chex.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of crisp square rice cereal pillows in a plain white ceramic bowl, no milk. Subject: light golden toasted square pillows with a clear crosshatched grid pressed into both sides and open airy centers; recognizable as rice chex-style cereal without any brand marks. Composition: centered three-quarter overhead food photograph, bowl and pieces fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle natural shadow beneath bowl. Background: genuine transparent alpha. No table, packaging, logos, text, utensils, watermark, or border.",
+          "generatedSource": "exec-baab7a99-94e6-42d2-b875-cf1673eaa444.png"
         },
         {
           "id": "43393",
           "name": "Cereal, Shredded wheat n' bran, Spoon-size",
           "file": "43393-cereal-shredded-wheat-n-bran-spoon-size.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of spoon-size shredded wheat and bran cereal in a plain white ceramic bowl, no milk. Subject: many small golden-brown woven wheat pillows, rough fine toasted strands and a few darker bran flecks, crisp and dry, distinct spoon-size pieces. Composition: centered three-quarter overhead food photograph, bowl and contents fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle shadow under bowl. Background: genuine transparent alpha. No table, package, branding, text, utensils, watermark, or border.",
+          "generatedSource": "exec-003c90c5-1029-4d05-9dad-6bb659eb692e.png"
         },
         {
           "id": "08191",
           "name": "Cereal, Shredded wheat, Lightly frosted, Spoon-size",
           "file": "08191-cereal-shredded-wheat-lightly-frosted-spoon-size.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of lightly frosted spoon-size shredded wheat in a plain white ceramic bowl, no milk. Subject: small woven golden whole-wheat pillows with fine crisp strands, a delicate sparse dusting of sugar crystals on the tops, warm toasted edges; not coated white or glazed. Composition: centered three-quarter overhead food photograph, bowl and contents fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle shadow under bowl. Background: genuine transparent alpha. No table, package, branding, text, utensils, watermark, or border.",
+          "generatedSource": "exec-5264ed1c-1746-4e0b-8fb3-ccfae99a653f.png"
         },
         {
           "id": "08147",
           "name": "Cereal, Shredded wheat, Original big biscuit",
           "file": "08147-cereal-shredded-wheat-original-big-biscuit.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one serving of original large shredded wheat biscuits, presented dry with no milk. Subject: two large rectangular golden-brown shredded wheat biscuits made of tightly woven crisp wheat strands, one standing slightly behind the other, clearly much larger than spoon-size cereal. Place them directly as a food cutout with no plate or bowl. Composition: centered three-quarter overhead food photograph, biscuits fully visible, clear transparent margins. Lighting: soft upper-left studio light, faint natural contact shadow only. Background: genuine transparent alpha. No table, package, branding, text, props, watermark, or border.",
+          "generatedSource": "exec-6693f7ac-308e-42b8-9d17-460989e7ff50.png"
         },
         {
           "id": "08148",
           "name": "Cereal, Shredded wheat, Original spoon-size",
           "file": "08148-cereal-shredded-wheat-original-spoon-size.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: spoon-size original shredded wheat cereal, dry and without milk. Subject: a small white ceramic bowl filled with many compact rectangular wheat pillows made from tightly woven golden-brown crisp strands, plain and unsweetened. Composition: centered three-quarter overhead food photograph, bowl and contents fully visible, clear transparent margins. Lighting: soft upper-left studio light with a faint natural contact shadow beneath. Background: genuine transparent alpha. No table, package, branding, text, utensils, watermark, or border.",
+          "generatedSource": "exec-dcb99b52-e2da-4477-95f3-b67d71415102.png"
         },
         {
           "id": "08543",
           "name": "Cereal, Special k vanilla almond",
           "file": "08543-cereal-special-k-vanilla-almond.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of crisp vanilla almond breakfast flakes in a plain white ceramic bowl, no milk. Subject: thin lightly toasted golden wheat and rice flakes with visible sliced almonds and a few tiny vanilla-specked pieces, dry, delicate, and crisp. Composition: centered three-quarter overhead food photograph, bowl and contents fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, packaging, logos, text, utensils, watermark, or border.",
+          "generatedSource": "exec-dfa9de98-ed81-4227-896b-f96bec2a58ba.png"
         },
         {
           "id": "08531",
           "name": "Cereal, Special k, Fruit & yogurt",
           "file": "08531-cereal-special-k-fruit-yogurt.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of fruit-and-yogurt breakfast cereal in a plain white ceramic bowl, no milk. Subject: thin toasted wheat flakes mixed with small pale yogurt-coated clusters and a few small dried strawberry and berry pieces, natural restrained fruit colors, appetizing and crisp. Composition: centered three-quarter overhead food photograph, bowl and contents fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, packaging, logos, text, utensils, watermark, or border.",
+          "generatedSource": "exec-3b759600-554a-4867-b838-80216e7a36bd.png"
         },
         {
           "id": "08059",
           "name": "Cereal, Sweet crunch/quisp",
           "file": "08059-cereal-sweet-crunch-quisp.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a serving of lightly sweetened puffed cereal in a plain white ceramic bowl, no milk. Subject: small rounded golden toasted corn puffs and crunchy cereal curls, with a few flatter puffed pieces, airy porous texture and a light sweet glaze, warm honey color. Composition: centered three-quarter overhead food photograph, bowl and contents fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, package, branding, text, utensils, watermark, or border.",
+          "generatedSource": "exec-a0fb661c-37bc-47a7-8420-c4c3ccacdb27.png"
         },
         {
           "id": "08216",
           "name": "Cereal, Toasted multigrain crisps",
           "file": "08216-cereal-toasted-multigrain-crisps.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of toasted multigrain crisp cereal in a plain white ceramic bowl, no milk. Subject: thin crisp irregular round and oval flakes made from mixed grains, toasted light gold with a few darker grain flecks and subtle layered texture, dry and crunchy. Composition: centered three-quarter overhead food photograph, bowl and cereal fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, packaging, logos, text, utensils, watermark, or border.",
+          "generatedSource": "exec-ebf062df-54e5-48e3-bc85-ab2ecaf8aa68.png"
         },
         {
           "id": "08349",
           "name": "Cereal, Tootie fruities",
           "file": "08349-cereal-tootie-fruities.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of colorful fruit-ring breakfast cereal in a plain white ceramic bowl, no milk. Subject: crisp little O-shaped cereal loops in a natural mix of berry red, orange, lemon yellow, leafy green, and purple, lightly textured corn cereal, cheerful but realistic colors, varied positions and sizes. Composition: centered three-quarter overhead food photograph, bowl and cereal fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, package, branding, text, utensils, watermark, or border.",
+          "generatedSource": "exec-32463dcf-9d7b-4d58-993e-8dead7168ebf.png"
         },
         {
           "id": "08078",
           "name": "Cereal, Trix",
           "file": "08078-cereal-trix.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of brightly colored fruity puff cereal in a plain white ceramic bowl, no milk. Subject: plump irregular round and gently puffed corn cereal pieces, separate fruit-inspired colors of red, orange, lemon yellow, green, and purple, crisp porous cereal texture; avoid ring shapes. Composition: centered three-quarter overhead food photograph, bowl and cereal fully visible, clear transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No table, package, branding, text, utensils, watermark, or border.",
+          "generatedSource": "exec-cc0b2e38-a349-42bd-b3d5-49853249e9d7.png"
         }
       ]
     },
