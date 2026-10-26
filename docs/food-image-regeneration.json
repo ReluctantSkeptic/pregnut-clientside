@@ -4658,73 +4658,97 @@
           "id": "11204",
           "name": "Cress, Garden, Boiled",
           "file": "11204-cress-garden-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of boiled garden cress. Subject: tiny round cress leaves and slender tender stems, dark green and softly wilted from boiling, loosely gathered and lightly moist, no garnish. Present in a small plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and greens fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No flowers, soup broth, other greens, table, text, watermark, or border.",
+          "generatedSource": "exec-168df49d-7615-4727-b49a-a4454ab7f1bd.png"
         },
         {
           "id": "11203",
           "name": "Cress, Garden, Raw",
           "file": "11203-cress-garden-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a compact fresh bunch of raw garden cress. Subject: delicate small rounded vivid-green leaves on many thin stems, crisp fresh watercress-like herb texture, loosely gathered with stems visible, no flowers. Composition: centered three-quarter overhead food photograph, whole bunch fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, gentle natural shadow. Background: genuine transparent alpha. No boiled wilted leaves, other herbs, roots, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-ae99f8a8-ec6b-4ac3-903d-03c4f8435480.png"
         },
         {
           "id": "15020",
           "name": "Croaker, Atlantic",
           "file": "15020-croaker-atlantic.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one fresh Atlantic croaker fish. Subject: a modest whole croaker with silvery scales, muted bronze-gray back, pale belly, visible fins and tail, realistic streamlined fish shape, clean and unseasoned. Composition: centered three-quarter overhead food photograph, whole fish fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, delicate natural shadow. Background: genuine transparent alpha. No cooked browning, ice, lemon, herbs, hooks, table, text, watermark, or border.",
+          "generatedSource": "exec-8747f4d4-ed0b-4d63-9cc3-1718da149ab1.png"
         },
         {
           "id": "18239",
           "name": "Croissants, Butter",
           "file": "18239-croissants-butter.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: two classic butter croissants. Subject: crescent-shaped golden-brown laminated pastries with crisp flaky layered surface, delicate darker toasted tips and visible buttery folds, one whole and one gently broken to show airy layered interior. Composition: centered three-quarter overhead food photograph, pastries fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No cheese filling, jam, powdered sugar, package, table, text, watermark, or border.",
+          "generatedSource": "exec-6c26c75a-0259-4c83-bdad-696ca18c3e3c.png"
         },
         {
           "id": "18241",
           "name": "Croissants, Cheese",
           "file": "18241-croissants-cheese.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create a photorealistic transparent food cutout for a nutrition website. Show ONE savory cheese croissant, visibly different from a plain butter croissant: a short golden laminated crescent pastry cut cleanly through the middle, with its two halves separated so the cut faces point toward the viewer. The center must contain a clearly visible thick layer of pale yellow melted cheese filling between the airy pastry layers; make the cheese unmistakable and prominent, with a small natural soft cheese stretch at the cut edge. Rich flaky browned crust. Centered three-quarter overhead studio food photograph, whole pastry and both halves fully visible, generous clear transparent alpha margin, subtle contact shadow only. No plain unfilled croissant, no jam, ham, plate, package, text, watermark, or border.",
+          "generatedSource": "exec-84ce0497-1178-4273-8ae2-99edb9caa427.png"
         },
         {
           "id": "18243",
           "name": "Croutons, Seasoned",
           "file": "18243-croutons-seasoned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small pile of seasoned croutons. Subject: irregular bite-size bread cubes toasted crisp golden-brown with fine flecks of dried herbs and subtle savory seasoning, dry crunchy texture. Composition: centered three-quarter overhead food photograph, croutons fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, gentle contact shadow. Background: genuine transparent alpha. No salad, soup, cheese, package, table, text, watermark, or border.",
+          "generatedSource": "exec-e2dc02ff-50b3-4f5c-885e-91de4fb9d940.png"
         },
         {
           "id": "11206",
           "name": "Cucumber, Peeled, Raw",
           "file": "11206-cucumber-peeled-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: peeled raw cucumber with a few slices. Subject: one short cucumber peeled entirely so its exterior is smooth pale green-white, with several moist round slices showing translucent seeded centers; fresh crisp vegetable, no dark-green peel. Composition: centered three-quarter overhead food photograph, cucumber and slices fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle natural contact shadow. Background: genuine transparent alpha. No tomato, salad, vinegar, table, text, watermark, or border.",
+          "generatedSource": "exec-1550f677-c0e5-4dca-a2e1-e1b2b46a2cfc.png"
         },
         {
           "id": "09084",
           "name": "Currants, Red and white, Raw",
           "file": "09084-currants-red-and-white-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small cluster of fresh red and white currants. Subject: tiny translucent berries in ruby-red and creamy pale ivory mixed together on delicate branching green-brown stems, natural subtle gloss and visible round forms. Composition: centered three-quarter overhead food photograph, berry clusters fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint natural shadow. Background: genuine transparent alpha. No black currants, raisins, leaves, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-79d8643f-f958-4b25-be57-b7818fbca6b2.png"
         },
         {
           "id": "09085",
           "name": "Currants, Zante, Dried",
           "file": "09085-currants-zante-dried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small loose handful of dried Zante currants. Subject: tiny dark brown to nearly black dried grape currants, wrinkled matte skins and very small raisin-like oval shape, clustered loosely to emphasize their small size. Composition: centered three-quarter overhead food photograph, all fruit fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No stems, fresh red berries, bowl, package, table, text, watermark, or border.",
+          "generatedSource": "exec-a0858f44-6f80-4a0e-858c-401802e57db9.png"
         },
         {
           "id": "11208",
           "name": "Dandelion greens, Boiled",
           "file": "11208-dandelion-greens-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of boiled dandelion greens. Subject: tender dark-green dandelion leaves with their distinctive jagged edges, softly wilted and moist after boiling, a few pale stems visible, no garnish. Present in a small plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and greens fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No yellow flowers, broth, onions, table, text, watermark, or border.",
+          "generatedSource": "exec-73a56803-0b51-4044-baf0-92ab7f91eb04.png"
         },
         {
           "id": "11207",
           "name": "Dandelion greens, Raw",
           "file": "11207-dandelion-greens-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a fresh bunch of raw dandelion greens. Subject: several elongated bright-to-deep-green leaves with sharply toothed jagged margins and prominent pale midribs, crisp fresh unboiled surface, stems gathered at the base. Composition: centered three-quarter overhead food photograph, whole bunch fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle natural shadow. Background: genuine transparent alpha. No yellow flowers, roots, boiled wilted leaves, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-ca34d043-3b71-4cd2-8636-e59db8e64434.png"
         },
         {
           "id": "18245",
           "name": "Danish pastry, Cheese",
           "file": "18245-danish-pastry-cheese.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one cheese Danish pastry. Subject: square golden flaky laminated pastry with a visible soft white sweet cream-cheese center, folded corners and a thin delicate white icing drizzle, bakery-fresh crisp layers. Composition: centered three-quarter overhead food photograph, whole pastry fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No fruit filling, croissant shape, fork, package, table, text, watermark, or border.",
+          "generatedSource": "exec-17b2c2a7-157c-4649-8425-f7c486f9b2a0.png"
         }
       ]
     },
