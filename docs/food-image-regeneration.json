@@ -6779,73 +6779,97 @@
           "id": "20118",
           "name": "Noodles, Flat, Crunchy, Chinese restaurant",
           "file": "20118-noodles-flat-crunchy-chinese-restaurant.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of flat crunchy Chinese restaurant noodles, golden-brown fried flat rice-noodle strips formed into a light crisp tangled nest with delicate blistered edges and a subtle fried sheen, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no sauce, no vegetables, no chopsticks, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, noodle nest fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-d19436a1-8ec7-4881-91ec-5398073fa868.png"
         },
         {
           "id": "11964",
           "name": "Nopales, Cooked",
           "file": "11964-nopales-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of cooked nopales cactus, tender glossy green cactus strips cut into short flat pieces, lightly softened and moist, gathered in a small plain white ceramic bowl, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no prickles, no tomato, no onion, no herbs, no fork, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-2432bdb5-61d5-42df-9bdc-31f3a03a8ec1.png"
         },
         {
           "id": "11963",
           "name": "Nopales, Raw",
           "file": "11963-nopales-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated produce cutout for a nutrition app: one fresh raw edible nopal cactus pad, vivid natural green flat oval paddle with clearly visible tiny areoles and a few subtle spines removed, a clean slice beside it showing crisp pale green interior, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no pot, no soil, no knife, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, cactus pad fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-bceda736-d3f3-4cb0-afd0-c0f960379e9f.png"
         },
         {
           "id": "25048",
           "name": "Nutri-grain fruit and nut bar",
           "file": "25048-nutri-grain-fruit-and-nut-bar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated snack cutout for a nutrition app: one unwrapped fruit-and-nut oat bar, rectangular chewy golden oat cereal bar with visible whole almonds, dried cranberries and small raisins bound together, one neat cut end showing dense oat and fruit interior, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no wrapper, no logo, no plate, no loose crumbs, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bar fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-bae1faed-295a-4113-b5d8-47dea8e31977.png"
         },
         {
           "id": "12062",
           "name": "Nuts, Almonds, Blanched",
           "file": "12062-nuts-almonds-blanched.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small compact handful of blanched almonds, smooth ivory-white whole almond kernels with brown skins fully removed, a few overlapping naturally with their tapered shapes clearly visible, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no bowl, no shell, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, almonds fill about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-5b23e0dd-b8fd-448c-b7d9-86f86d4252b7.png"
         },
         {
           "id": "12563",
           "name": "Nuts, Almonds, Dry roasted",
           "file": "12563-nuts-almonds-dry-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small handful of dry-roasted almonds, warm toasted golden-brown whole kernels with natural dry matte skin and a few subtle roasted darker spots, arranged loosely in a compact mound, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no salt crystals, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, almonds fill about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-66d5676c-40f5-4343-b7c2-c63cb25b1de3.png"
         },
         {
           "id": "12078",
           "name": "Nuts, Brazilnuts, Dried, Unblanched",
           "file": "12078-nuts-brazilnuts-dried-unblanched.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a few dried unblanched Brazil nuts, large irregular curved ivory kernels with thin naturally wrinkled brown skins intact, several whole and one split to reveal the creamy interior, clustered compactly, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no shell, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, nuts fill about 64% of frame with generous transparent padding.",
+          "generatedSource": "exec-85d52f7e-1331-4b1c-90cb-215247696e63.png"
         },
         {
           "id": "12588",
           "name": "Nuts, Cashew butter",
           "file": "12588-nuts-cashew-butter.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of cashew butter, thick smooth pale tan nut butter with a rich creamy satin sheen and soft natural swirl marks, mounded in a small plain white ceramic ramekin, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no cashews scattered, no knife, no toast, no label, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, ramekin fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-b64e9f0b-a40b-4fc3-b63c-b85c2250e6c6.png"
         },
         {
           "id": "12167",
           "name": "Nuts, Chestnuts, European, Roasted",
           "file": "12167-nuts-chestnuts-european-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of roasted European chestnuts, several glossy mahogany-brown whole roasted chestnuts with natural scoring marks, one split open to show the golden cream-colored cooked interior, arranged in a compact pile, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no leaves, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, chestnuts fill about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-35aede16-1064-4bf4-abd8-ad1cff2e7963.png"
         },
         {
           "id": "12116",
           "name": "Nuts, Coconut cream, Canned, Sweetened",
           "file": "12116-nuts-coconut-cream-canned-sweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of sweetened canned coconut cream, thick glossy pure white coconut cream with a soft swirl and dense spoonable texture, presented in a small clear glass bowl, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no coconut pieces, no spoon, no can, no label, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-a337eeb4-3736-40a3-b56f-f3e4871f5492.png"
         },
         {
           "id": "12108",
           "name": "Nuts, Coconut meat, Dried (desiccated), Not sweetened",
           "file": "12108-nuts-coconut-meat-dried-desiccated-not-sweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a compact pile of unsweetened dried desiccated coconut meat, fine dry ivory-white coconut flakes and short shreds with a natural slightly fibrous texture, softly mounded without sugar crystals, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no bowl, no coconut shell, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, coconut fills about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-2c16e9eb-034f-441c-b601-b614f0d7227b.png"
         },
         {
           "id": "12179",
           "name": "Nuts, Coconut meat, Dried (desiccated), Sweetened, Shredded",
           "file": "12179-nuts-coconut-meat-dried-desiccated-sweetened-shredded.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small mound of sweetened shredded dried coconut, fine white coconut strands with a lightly moist glossy sheen and tiny translucent sugar sparkle, curled delicate shreds distinct from dry coarse flakes, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no bowl, no shell, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, coconut fills about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-20a141c1-52bc-4f87-b62a-ac7f1f847400.png"
         }
       ]
     },
@@ -6856,73 +6880,97 @@
           "id": "12104",
           "name": "Nuts, Coconut meat, Raw",
           "file": "12104-nuts-coconut-meat-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: fresh raw coconut meat, a few chunky curved pieces of pure white coconut flesh with a thin natural brown skin edge, beside one small section cut to show clean moist interior, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no shell, no grater, no bowl, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, coconut pieces fill about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-7fd2662e-4c8e-4e62-8781-32b13b9cb70c.png"
         },
         {
           "id": "12117",
           "name": "Nuts, Coconut milk, Raw (liquid expressed from grated meat and water)",
           "file": "12117-nuts-coconut-milk-raw-liquid-expressed-from-grated-meat-and-water.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one clear glass tumbler filled with fresh raw coconut milk expressed from grated coconut and water, opaque silky pure-white liquid with a soft natural creamy meniscus, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no coconut pieces, no straw, no garnish, no bottle, no label, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, glass fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-deb3db51-f453-4cf8-94d6-55e63f1286d4.png"
         },
         {
           "id": "12119",
           "name": "Nuts, Coconut water (liquid from coconuts)",
           "file": "12119-coconut-water-liquid-from-coconuts.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a clear drinking glass filled with fresh coconut water, nearly transparent faintly straw-colored liquid with a few subtle natural droplets on the inside of glass, clean refreshing surface, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no coconut, no straw, no lime, no garnish, no bottle, no label, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, glass fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-9f12fc6a-15da-4a25-adf0-a18ad6d053ba.png"
         },
         {
           "id": "12120",
           "name": "Nuts, Hazelnuts or filberts",
           "file": "12120-nuts-hazelnuts-or-filberts.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small handful of raw hazelnuts or filberts, smooth round warm brown nuts with thin natural papery skins, several whole and one cracked open to reveal the pale ivory kernel, arranged compactly, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no leaves, no bowl, no shell fragments scattered, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, nuts fill about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-68ee3e39-6870-4346-b977-bd47892810a7.png"
         },
         {
           "id": "12632",
           "name": "Nuts, Macadamia nuts, Dry roasted",
           "file": "12632-nuts-macadamia-nuts-dry-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small handful of dry-roasted macadamia nuts, plump round pale golden kernels with smooth toasted surfaces and subtle brown roasted spots, several whole and one split to reveal the creamy interior, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no salt crystals, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, nuts fill about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-4afda5ea-c7c0-41dc-ad40-a13d2abc2aea.png"
         },
         {
           "id": "12635",
           "name": "Nuts, Mixed nuts, Dry roasted, With peanuts",
           "file": "12635-nuts-mixed-nuts-dry-roasted-with-peanuts.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small compact handful of dry-roasted mixed nuts with peanuts, clearly varied whole almonds, cashews, peanuts, pecans and hazelnuts in natural toasted brown shades, dry roasted matte texture, one peanut split open to reveal its center, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no salt crystals, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, nuts fill about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-83c707ce-8dc0-4475-b9ea-58427ab01dff.png"
         },
         {
           "id": "12142",
           "name": "Nuts, Pecans",
           "file": "12142-nuts-pecans.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of raw pecans, several ridged warm brown pecan halves with distinctive curved grooves, natural unroasted dry texture, loosely gathered into a compact pile, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no shell, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, pecans fill about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-f0cc8e35-06d1-42c7-bddb-0ce785ed241d.png"
         },
         {
           "id": "12147",
           "name": "Nuts, Pine nuts, Dried",
           "file": "12147-nuts-pine-nuts-dried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small pile of dried pine nuts, narrow teardrop-shaped ivory kernels with subtle dry matte surfaces and gentle natural color variation, several kernels overlapping compactly, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no pine cones, no shells, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, pine nuts fill about 60% of frame with generous transparent padding.",
+          "generatedSource": "exec-0a94ca21-2ec9-49f5-a0ce-7cd298d67d2c.png"
         },
         {
           "id": "12652",
           "name": "Nuts, Pistachio nuts, Dry roasted",
           "file": "12652-nuts-pistachio-nuts-dry-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small handful of dry-roasted pistachio nuts, naturally split beige shells with visible bright green kernels and warm toasted accents, several whole nuts and a few shelled kernels grouped compactly, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no salt crystals, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, pistachios fill about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-c5385c48-918b-4936-8e08-9edf65c55f0a.png"
         },
         {
           "id": "12157",
           "name": "Nuts, Walnuts, Dry roasted",
           "file": "12157-nuts-walnuts-dry-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small handful of dry-roasted walnut halves, golden-brown deeply folded kernels with a dry toasted texture and natural irregular lobes, arranged compactly with one piece split to show its center, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no shells, no salt crystals, no bowl, no package, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, walnuts fill about 62% of frame with generous transparent padding.",
+          "generatedSource": "exec-de391df7-2315-438e-a1cf-049fe14cf20b.png"
         },
         {
           "id": "20033",
           "name": "Oat bran, Raw",
           "file": "20033-oat-bran-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of raw oat bran, fine tan and light-brown bran flakes with a soft dry grainy texture, gently mounded in a small plain white ceramic bowl, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no milk, no spoon, no package, no oats on table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 64% of frame with generous transparent padding.",
+          "generatedSource": "exec-230a0393-3c68-4e6b-bff1-a41a5eeb78b8.png"
         },
         {
           "id": "14038",
           "name": "Ocean spray, Cran-energy, Cranberry energy juice drink",
           "file": "14038-ocean-spray-cran-energy-cranberry-energy-juice-drink.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one clear glass tumbler filled with a cranberry energy juice drink, translucent deep ruby-red beverage with a few natural tiny bubbles and a soft glossy meniscus, generic unbranded drink with no label, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no cranberries, no straw, no bottle, no logo, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, glass fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-8c19d432-c2ae-4636-895c-0908dc0f095b.png"
         }
       ]
     },
@@ -6933,73 +6981,97 @@
           "id": "15230",
           "name": "Octopus, Common, Cooked, Moist heat",
           "file": "15230-octopus-common-cooked-moist-heat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated seafood cutout for a nutrition app: a small serving of cooked common octopus, tender curled purple-brown tentacle sections with clearly visible round suction cups and a slice of pale firm body meat, neatly arranged on a small plain white ceramic plate, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no sauce, no lemon, no herbs, no cutlery, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, plate fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-ff4693c0-327e-4974-be63-ee1025878d14.png"
         },
         {
           "id": "04529",
           "name": "Oil, Almond",
           "file": "04529-oil-almond.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one small unbranded clear glass bottle of almond oil, transparent pale golden-yellow oil visible through the bottle, simple plain cap with no label, elegant compact food-oil bottle shape, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no almonds, no dish, no text, no table, no background, true transparent background, no extra objects. Square 1:1 composition, bottle fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-b642d00d-b90f-4578-8c9a-34bb811b1630.png"
         },
         {
           "id": "04582",
           "name": "Oil, Canola",
           "file": "04582-oil-canola.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a compact clear glass bottle filled with pale golden canola oil, plain simple screw cap and completely blank bottle with no label, no visible branding, clean refined cooking oil with subtle highlights, centered in a square frame, slight three-quarter view, soft upper-left studio light, realistic clean transparent glass edges and subtle contact shadow only, no canola seeds or flowers, no dishes, no text, no table, no background, true transparent background. Bottle fills about 70% of the canvas with generous transparent margins.",
+          "generatedSource": "exec-bcce2019-f212-49ed-8e4f-d97520512b42.png"
         },
         {
           "id": "04047",
           "name": "Oil, Coconut",
           "file": "04047-oil-coconut.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one small plain clear glass jar filled with clean white semi-solid coconut oil, softly visible creamy solid texture through the glass, simple unmarked clear lid beside or on the jar, no label, no branding, centered with a slight three-quarter view, soft upper-left studio light and a subtle realistic contact shadow only. No coconuts, no leaves, no spoon, no table, no background, true transparent background, no text, no extra objects. Square 1:1 image, jar fills about 68% of frame with generous transparent padding.",
+          "generatedSource": "exec-ac8fbce4-6693-4202-a29a-c6f3fb46e4f9.png"
         },
         {
           "id": "42289",
           "name": "Oil, Corn and canola",
           "file": "42289-oil-corn-and-canola.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small squat clear glass cruet bottle filled with a pale golden corn-and-canola cooking oil blend, plain unmarked silver cap, no label or branding, smooth clean oil with realistic glass reflections, centered in square frame, slight three-quarter view, softly lit from upper left with only a subtle contact shadow. No kernels, no flowers, no other ingredients, no table, no background, true transparent background, no text, no extra objects. Bottle occupies about 68% of the canvas with clear transparent padding.",
+          "generatedSource": "exec-5490fdbf-0b6a-4cd4-92e9-4fb391c3513c.png"
         },
         {
           "id": "04518",
           "name": "Oil, Corn, Industrial and retail, All purpose salad or cooking",
           "file": "04518-oil-corn-industrial-and-retail-all-purpose-salad-or-cooking.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a slender tall clear glass bottle containing bright clear yellow corn cooking oil, rounded shoulders, simple dark plain cap, entirely unbranded with no label, no writing, no marks, realistic transparent glass and liquid highlights, centered, slight three-quarter angle, soft upper-left studio light and only a subtle contact shadow. No corn kernels or cob, no dishes, no table, no backdrop, true transparent background, no text, no extra objects. Square frame with bottle occupying about 70% and generous clean transparent margins.",
+          "generatedSource": "exec-ce5a4007-7a1e-4b99-83a8-dffff2f97c80.png"
         },
         {
           "id": "44005",
           "name": "Oil, Corn, Peanut, And olive",
           "file": "44005-oil-corn-peanut-and-olive.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a petite round-bellied clear glass cruet filled with a golden-green blend of corn, peanut, and olive oils, plain natural cork stopper, no label, no lettering or branding, smooth transparent cooking oil with realistic glass highlights, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only. No olives, peanuts, corn, herbs, dish, table, background, or text; true transparent background. Square composition with cruet occupying about 68% and generous transparent padding.",
+          "generatedSource": "exec-70ce4c98-25a1-4573-9d89-281aa4146a3b.png"
         },
         {
           "id": "04502",
           "name": "Oil, Cottonseed, Salad or cooking",
           "file": "04502-oil-cottonseed-salad-or-cooking.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a squat rectangular clear glass bottle of light straw-yellow cottonseed cooking oil, sturdy rounded corners, plain cream screw top, completely blank unbranded surface, realistic clear liquid and subtle glass reflections, centered, slight three-quarter view, soft upper-left studio light, only a gentle contact shadow. No cotton bolls, seeds, herbs, table, background, labels or text; true transparent background. Square 1:1 composition, bottle fills around 68% with generous transparent margins.",
+          "generatedSource": "exec-44224ef3-ba37-4d03-bc72-df65f46264ae.png"
         },
         {
           "id": "42231",
           "name": "Oil, Flaxseed, Cold pressed",
           "file": "42231-oil-flaxseed-cold-pressed.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one compact dark amber glass bottle filled with cold-pressed flaxseed oil, rich translucent golden-brown oil faintly visible through the glass, simple plain black cap with no label, no text or branding, elegant food-grade oil bottle, centered three-quarter view, soft upper-left studio light with realistic glass reflections and a subtle contact shadow only. No flax seeds, no flowers, no other food, no table, no backdrop; true transparent background. Square composition, bottle fills about 70% with generous clear transparent margins.",
+          "generatedSource": "exec-b2b43755-7af7-4ab9-b45a-e6e3359dddb4.png"
         },
         {
           "id": "04659",
           "name": "Oil, Industrial, Coconut, Confection fat, Typical basis for ice cream coatings",
           "file": "04659-oil-industrial-coconut-confection-fat-typical-basis-for-ice-cream-coatings.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small neat slab of refined white coconut confectionery fat, smooth solid block with one cut edge showing a dense creamy white interior, set on a tiny plain clear glass dish because the fat is semi-solid, clean unbranded food, centered at slight three-quarter overhead angle, soft upper-left studio lighting and a realistic subtle contact shadow only. No coconut pieces, no chocolate, no decorations, no table, no background, true transparent background, no text, no extra objects. Square composition with the dish and block filling about 66% and generous transparent padding.",
+          "generatedSource": "exec-fdd273dd-ce83-46ef-9fa7-99e5bfd92faf.png"
         },
         {
           "id": "04652",
           "name": "Oil, Industrial, Soy ( partially hydrogenated), All purpose",
           "file": "04652-oil-industrial-soy-partially-hydrogenated-all-purpose.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small plain pale ceramic ramekin filled with smooth ivory-white partially hydrogenated soybean shortening, softly mounded with a clean spatula-like curve and dense creamy texture, no brand, no writing, centered in a slight three-quarter view, soft upper-left studio light and a subtle realistic contact shadow. No oil bottle, soybeans, utensils, table, backdrop or text; true transparent background. Square image with the ramekin filling about 65% and generous transparent margins.",
+          "generatedSource": "exec-11dad52b-4d67-4bc4-8876-b5095f736165.png"
         },
         {
           "id": "04053",
           "name": "Oil, Olive, Salad or cooking",
           "file": "04053-oil-olive-salad-or-cooking.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a classic small clear olive-oil cruet with elongated neck and rounded body, filled with luminous golden-green olive oil, simple natural cork stopper, no label, no words, no branding, transparent glass with realistic reflections, centered at a gentle three-quarter angle, soft upper-left studio lighting and a very subtle contact shadow. No olives, leaves, bread, herbs, table, or background; true transparent background, no text. Square image, cruet fills about 70% of the canvas with generous transparent margins.",
+          "generatedSource": "exec-4e1e6675-6573-4be3-b8f9-3b567a69e7fc.png"
         }
       ]
     },
@@ -7010,73 +7082,97 @@
           "id": "04679",
           "name": "Oil, Pam cooking spray, Original",
           "file": "04679-oil-pam-cooking-spray-original.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one generic unbranded aerosol can of original cooking oil spray, clean white cylindrical can with a simple forest-green cap and small spray nozzle, blank smooth label area with absolutely no words, logos, symbols, or brand marks, centered upright with a slight three-quarter view, soft upper-left studio light and a subtle realistic contact shadow only. No food, no spray cloud, no table, no background, true transparent background, no text or extra objects. Square 1:1 composition, can fills about 72% with generous transparent margins.",
+          "generatedSource": "exec-1613ef4c-1dd7-47b8-a6e6-df1cfeca5082.png"
         },
         {
           "id": "04042",
           "name": "Oil, Peanut, Salad or cooking",
           "file": "04042-oil-peanut-salad-or-cooking.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small clear glass bottle filled with rich amber-gold peanut cooking oil, rounded shoulders and a short dark brown screw cap, unbranded with a blank surface, no label, no letters, realistic transparent glass and liquid highlights, centered at a gentle three-quarter angle, soft upper-left studio light, subtle contact shadow only. No peanuts, no peanut shells, no dishes or other ingredients, no table, no background; true transparent background. Square frame with the bottle occupying about 68% and generous transparent margins.",
+          "generatedSource": "exec-e9cbe61a-a7fd-4fa8-baf2-09a0191c5fb9.png"
         },
         {
           "id": "04511",
           "name": "Oil, Safflower, Salad or cooking, High oleic (primary safflower oil of commerce)",
           "file": "04511-oil-safflower-salad-or-cooking-high-oleic-primary-safflower-oil-of-commerce.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a narrow elegant clear glass bottle of high-oleic safflower cooking oil, very pale golden straw liquid, plain matte cream cap, completely unbranded with no text or label, subtle transparent glass highlights, centered upright in slight three-quarter view, soft upper-left studio light and a soft contact shadow only. No safflower flowers or seeds, no table, no background; true transparent background. Square 1:1 composition, bottle fills about 68% with generous clear margins.",
+          "generatedSource": "exec-27e7e1fe-6bb6-4126-bcce-e07f27c14733.png"
         },
         {
           "id": "04058",
           "name": "Oil, Sesame, Salad or cooking",
           "file": "04058-oil-sesame-salad-or-cooking.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small classic clear glass bottle filled with warm golden sesame cooking oil, gently curved shoulders, plain natural wood-look cap, no brand, no text, no label, realistic liquid depth and crisp transparent glass reflections, centered at a slight three-quarter angle, soft upper-left studio light and a subtle contact shadow only. No sesame seeds or garnish, no dish, no table, no background; true transparent background. Square composition with bottle filling about 68% and generous clear margins.",
+          "generatedSource": "exec-ddbf12f7-5e2d-4565-bb60-d8ce48475aad.png"
         },
         {
           "id": "04044",
           "name": "Oil, Soybean, Salad or cooking",
           "file": "04044-oil-soybean-salad-or-cooking.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a compact wide-shouldered clear glass bottle filled with pale straw-colored soybean cooking oil, plain matte white cap, no label, no words, no brand markings, realistic liquid surface and clear glass highlights, centered upright with slight three-quarter perspective, soft upper-left studio lighting and a faint contact shadow only. No soybeans, no food props, no table, no background; true transparent background. Square composition, bottle fills about 68% with generous transparent padding.",
+          "generatedSource": "exec-cc20cad2-50c7-4a0c-ad3d-78d091327c64.png"
         },
         {
           "id": "04506",
           "name": "Oil, Sunflower, Linoleic, (approx. 65%)",
           "file": "04506-oil-sunflower-linoleic-approx-65.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small clear glass oil dispenser with a slim neck and short pouring spout, filled with bright sunflower-yellow linoleic sunflower cooking oil, no cap label, no brand or text, crisp realistic glass and liquid highlights, centered at a slight three-quarter angle, soft upper-left studio light with only a subtle contact shadow. No sunflower seeds or flowers, no table, no background; true transparent background. Square composition, dispenser fills about 68% with generous transparent margins.",
+          "generatedSource": "exec-5e170729-b475-4c9a-aca1-2bbd3a7af494.png"
         },
         {
           "id": "04528",
           "name": "Oil, Walnut",
           "file": "04528-oil-walnut.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a short dark green glass bottle containing amber walnut oil, softly transparent golden-brown oil visible inside, plain natural cork stopper, no label or writing, no brand, elegant compact food-oil bottle, centered at a slight three-quarter view, soft upper-left studio light and realistic glass reflections with only a subtle contact shadow. No walnuts or shells, no table or background; true transparent background. Square 1:1 composition, bottle fills about 68% with generous clear margins.",
+          "generatedSource": "exec-a1b2c127-8e75-4403-b56f-0503603d4095.png"
         },
         {
           "id": "04038",
           "name": "Oil, Wheat germ",
           "file": "04038-oil-wheat-germ.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a petite dark amber medicine-style glass bottle filled with deep golden wheat germ oil, slim body and short ribbed black cap, completely unbranded with no label, writing, logos or marks, realistic glass highlights and a faintly visible amber oil level, centered three-quarter view, soft upper-left studio light and only a subtle contact shadow. No wheat stalks, grains or other food, no table, no backdrop; true transparent background. Square image, bottle fills about 68% with generous transparent margins.",
+          "generatedSource": "exec-305fe155-03a9-4dcc-8bf8-37d35d1ef216.png"
         },
         {
           "id": "11279",
           "name": "Okra, Boiled",
           "file": "11279-okra-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a modest serving of boiled okra pods, tender bright green whole pods with softly cooked surfaces and a few cut cross-sections showing pale round seeds, neatly arranged on a small plain white ceramic plate, centered at a slight three-quarter overhead view, soft upper-left studio light and subtle realistic contact shadow only. No sauce, no herbs, no seasoning, no cutlery, no table, no background; true transparent background. Square composition, plate fills about 68% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-099d1fb0-4401-45a4-aae0-5e5a195a602b.png"
         },
         {
           "id": "11280",
           "name": "Okra, Frozen, Unprepared",
           "file": "11280-okra-frozen-unprepared.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small cluster of raw frozen okra pods, vibrant green whole pods with a light natural frost and a few clean cross-cut frozen slices showing pale seeds, loose tidy arrangement, no bowl or plate, centered at a slight three-quarter overhead view, soft upper-left studio lighting and subtle contact shadow only. No vegetables besides okra, no packaging, no table, no background; true transparent background. Square composition, cluster fills about 68% with generous transparent margins, no text.",
+          "generatedSource": "exec-d59ea00d-7132-4845-b429-682250d8ea74.png"
         },
         {
           "id": "11278",
           "name": "Okra, Raw",
           "file": "11278-okra-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: four fresh raw okra pods, smooth vivid green ridged skins with natural matte sheen, one pod sliced diagonally to show pale seeds, arranged loosely in a tidy compact cluster with no plate, centered at a gentle three-quarter overhead view, soft upper-left studio lighting and a subtle contact shadow only. No frost, no seasoning, no other vegetables, no table, no background; true transparent background. Square composition, food occupies about 68% and leaves generous transparent margins, no text.",
+          "generatedSource": "exec-116ef979-7cf3-4d95-9b8c-ef852ace4bfd.png"
         },
         {
           "id": "09195",
           "name": "Olives, Pickled, Canned or bottled, Green",
           "file": "09195-olives-pickled-canned-or-bottled-green.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: five glossy whole pickled green olives, natural olive-green color with tiny natural pores and a soft briny sheen, arranged in a simple cluster on a small plain white ceramic saucer, no pimentos or stuffing, centered at a gentle three-quarter overhead angle, soft upper-left studio light and subtle realistic contact shadow only. No herbs, no garnish, no fork, no table, no background; true transparent background. Square composition, saucer fills about 66% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-f0b6efc9-e2da-4741-8c95-efec550736d1.png"
         }
       ]
     },
@@ -7087,73 +7183,97 @@
           "id": "09193",
           "name": "Olives, Ripe, Canned (small-extra large)",
           "file": "09193-olives-ripe-canned-small-extra-large.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: six whole ripe canned black olives, glossy deep purple-black skins with subtle natural wrinkles, no stuffing, arranged in a neat small cluster on a plain white ceramic saucer, centered at a slight three-quarter overhead view, soft upper-left studio light and subtle realistic contact shadow only. No herbs, no garnish, no fork, no table, no background; true transparent background. Square composition with saucer filling about 66% and generous transparent margins, no text or extra objects.",
+          "generatedSource": "exec-bf46c9de-bdc1-4fc4-a049-bca9d8188401.png"
         },
         {
           "id": "21130",
           "name": "Onion rings, Breaded and fried",
           "file": "21130-onion-rings-breaded-and-fried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of breaded deep-fried onion rings, about six crisp round golden-brown rings with rough crunchy crumb coating and visible onion layers, stacked casually on a small plain white ceramic plate, centered at a three-quarter overhead angle, soft upper-left studio light and realistic subtle contact shadow only. No dipping sauce, no parsley, no fries, no table, no background; true transparent background. Square composition, plate fills about 68% with generous transparent padding, no text.",
+          "generatedSource": "exec-f320d0aa-8899-48f9-bc78-d7177d371e29.png"
         },
         {
           "id": "11296",
           "name": "Onion rings, Breaded, Par fried, Prepared, Heated in oven",
           "file": "11296-onion-rings-breaded-par-fried-prepared-heated-in-oven.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a modest serving of oven-heated breaded onion rings, five light golden crisp rings with a fine even crumb coating, slightly paler and less oily than deep-fried rings, loosely stacked on a small plain matte white ceramic plate, centered at a slight three-quarter overhead angle, soft upper-left studio light with subtle realistic contact shadow only. No sauce, no garnish, no fries, no cutlery, no table, no background; true transparent background. Square image, plate fills about 66% with clear transparent padding, no text.",
+          "generatedSource": "exec-fb50aca2-6b53-4453-a30c-0ce42b2bc5aa.png"
         },
         {
           "id": "11805",
           "name": "Onions, Boiled",
           "file": "11805-onions-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of plain boiled white onion, tender translucent onion wedges with soft glossy layers and a few separated curved segments, arranged simply on a small plain white ceramic plate, centered at a slight three-quarter overhead view, soft upper-left studio light and a subtle realistic contact shadow only. No butter, no herbs, no seasoning, no utensils, no table, no background; true transparent background. Square 1:1 image, plate fills about 66% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-cbab737e-fb29-49f9-abdd-c893014f61b1.png"
         },
         {
           "id": "11282",
           "name": "Onions, Raw",
           "file": "11282-onions-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one whole raw golden yellow onion beside a single clean half showing its pale concentric rings, papery skin with natural tan and amber tones, arranged as a compact ingredient cutout without plate, centered at a gentle three-quarter angle, soft upper-left studio light and a subtle contact shadow only. No green stems, no knife, no table, no background; true transparent background. Square image, onions occupy about 70% with generous transparent margins, no text or extra objects.",
+          "generatedSource": "exec-fc1be0bb-3d4d-4cf3-b58a-19f14f50b341.png"
         },
         {
           "id": "11291",
           "name": "Onions, Spring or scallions (includes tops and bulb), Raw",
           "file": "11291-onions-spring-or-scallions-includes-tops-and-bulb-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small fresh bunch of raw spring onions (scallions), slender glossy green tops with crisp white bulbs and fine pale roots intact, naturally overlapping in a tidy diagonal cluster, no plate, centered in a gentle three-quarter view, soft upper-left studio light and a subtle contact shadow only. No chopped pieces, no garnish, no table, no background; true transparent background. Square composition, bunch occupies about 70% with generous transparent margins, no text or extra objects.",
+          "generatedSource": "exec-eb32a4f7-c1db-404c-b4f1-c42ad2ed3e5c.png"
         },
         {
           "id": "11292",
           "name": "Onions, Young green, Tops only",
           "file": "11292-onions-young-green-tops-only.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a tidy bunch of fresh young green onion tops only, long slender hollow green leaves with no white bulbs and no roots, a few clean cut pale-green ends visible, naturally curved and overlapping, no plate, centered, soft upper-left studio lighting and a subtle contact shadow only. No scallion bulbs, no chopped piles, no garnish, no table, no background; true transparent background. Square image, greens fill about 70% while leaving generous transparent margins, no text or other objects.",
+          "generatedSource": "exec-d2c354df-26b4-4536-ba6d-15463b0e9e47.png"
         },
         {
           "id": "09207",
           "name": "Orange juice, Canned, Unsweetened",
           "file": "09207-orange-juice-canned-unsweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small straight-sided clear drinking glass filled with smooth pale orange canned unsweetened orange juice, uniform texture with no visible pulp, realistic translucent rim and orange liquid highlights, centered upright at a gentle three-quarter angle, soft upper-left studio lighting and only a subtle contact shadow. No can, no fruit, no straw, no garnish, no table, no background; true transparent background. Square image, glass fills about 68% with generous clear transparent margins, no words or extra objects.",
+          "generatedSource": "exec-4a5d7017-038f-4bd8-bca9-db5cc643aca9.png"
         },
         {
           "id": "09209",
           "name": "Orange juice, Chilled, Includes from concentrate",
           "file": "09209-orange-juice-chilled-includes-from-concentrate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small chilled clear glass bottle filled with bright orange juice reconstituted from concentrate, smooth no-pulp drink with a slightly deeper orange color, plain white screw cap and completely blank bottle with no label or writing, a few tiny cold condensation droplets, centered at a slight three-quarter view, soft upper-left studio light and a subtle contact shadow only. No orange fruit, no straw, no table, no background; true transparent background. Square composition, bottle fills about 68% with generous transparent margins.",
+          "generatedSource": "exec-453da347-0770-44ff-838b-14990b7b4a01.png"
         },
         {
           "id": "14064",
           "name": "Orange juice, Light, No pulp",
           "file": "14064-orange-juice-light-no-pulp.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a short elegant clear tumbler filled with light pale orange no-pulp orange juice, noticeably lighter than regular orange juice but still natural citrus color, perfectly smooth liquid, clean curved glass rim and transparent base, centered upright at a slight three-quarter angle, soft upper-left studio lighting and only a subtle contact shadow. No fruit, no straw, no garnish, no table, no backdrop; true transparent background. Square composition, glass occupies about 65% with generous clear transparent margins, no text or extra objects.",
+          "generatedSource": "exec-d6584845-d7ed-477a-9bd4-6745a3b8f865.png"
         },
         {
           "id": "09206",
           "name": "Orange juice, Raw",
           "file": "09206-orange-juice-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a clear cylindrical juice glass filled with freshly squeezed raw orange juice, rich natural orange color with tiny visible pulp and a faint foamy surface, clean realistic transparent glass and liquid highlights, centered upright at a gentle three-quarter angle, soft upper-left studio light with only a subtle contact shadow. No oranges, no straw, no garnish, no table or background; true transparent background. Square composition, glass fills about 67% with generous transparent margins, no text or extra objects.",
+          "generatedSource": "exec-3116204b-8589-4a37-8c38-0cec65c7e24c.png"
         },
         {
           "id": "19031",
           "name": "Oriental mix, Rice-based",
           "file": "19031-oriental-mix-rice-based.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small loose serving of Asian-style rice-based snack mix, mostly crisp puffed rice crackers in varied simple shapes such as pale airy rice puffs, thin golden rice sticks, and a few light tan crunchy rice squares, naturally clustered as a compact mound with no bowl or plate, centered at a slight three-quarter overhead view, soft upper-left studio light and a subtle realistic contact shadow only. No peanuts, no dried fruit, no garnish, no package, no table, no background; true transparent background. Square composition, mix occupies about 66% with generous transparent margins, no text.",
+          "generatedSource": "exec-94ecb6bd-f1fc-4f17-b7ad-4e39c648cc28.png"
         }
       ]
     },
