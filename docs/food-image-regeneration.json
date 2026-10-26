@@ -5466,73 +5466,97 @@
           "id": "09128",
           "name": "Grapefruit juice, White, Raw",
           "file": "09128-grapefruit-juice-white-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one serving of fresh white grapefruit juice, pale translucent straw-yellow juice in a plain clear straight-sided tumbler, a faint natural cloudy look, no pulp pieces, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bottle, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-28d234e1-35c6-4ca4-a229-599f4cb1f851.png"
         },
         {
           "id": "09111",
           "name": "Grapefruit, Raw, Pink and red and white, All areas",
           "file": "09111-grapefruit-raw-pink-and-red-and-white-all-areas.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: fresh raw grapefruit in pink, ruby-red and pale-pink flesh varieties, one whole golden yellow-pink grapefruit beside one cut half with juicy ruby-pink segments and one small pale blush segment visible, natural lightly dimpled peel, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no leaves, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, fruit fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-147f487d-2a58-40e9-930f-a31c046ee1d3.png"
         },
         {
           "id": "09131",
           "name": "Grapes, American type (slip skin), Raw",
           "file": "09131-grapes-american-type-slip-skin-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small bunch of raw American slip-skin grapes, plump Concord-style deep blue-purple grapes with a natural powdery bloom on their skins and a few green vine stems, one grape peeled open slightly to show pale translucent green flesh, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no leaves, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, grapes fill about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-7cc5ab2d-5598-4793-92d6-c4e90a7addff.png"
         },
         {
           "id": "09134",
           "name": "Grapes, Canned, Thompson seedless, in syrup",
           "file": "09134-grapes-canned-thompson-seedless-in-syrup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of canned Thompson seedless grapes in light clear syrup, several plump translucent pale green seedless grapes with a gentle glossy sheen gathered in a small plain white ceramic bowl, slight three-quarter view, centered, soft upper-left studio light, delicate bowl shadow, no table, no background, true transparent background beyond the bowl, no can, no label, no spoon, no text, no garnish, no extra objects. Square 1:1 composition, bowl fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-fb34b2b4-f03c-4f74-af4a-5cfb8f53010c.png"
         },
         {
           "id": "06116",
           "name": "Gravy, Beef, Canned",
           "file": "06116-gravy-beef-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of canned beef gravy, smooth glossy deep mahogany-brown gravy with a rich savory sheen in a small plain white ceramic bowl, surface gently pooled but not overflowing, slight three-quarter view, centered, soft upper-left studio light, delicate bowl shadow, no meat, no spoon, no table, no background, true transparent background beyond the bowl, no can, no label, no text, no garnish, no extra objects. Square 1:1 composition, bowl fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-3af449fd-bd07-4edf-bd65-72f14101916b.png"
         },
         {
           "id": "06119",
           "name": "Gravy, Chicken, Canned or bottled",
           "file": "06119-gravy-chicken-canned-or-bottled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of chicken gravy, smooth creamy light golden-beige gravy with a warm buttery sheen in a small plain white ceramic bowl, visibly lighter and creamier than brown beef gravy, slight three-quarter view, centered, soft upper-left studio light, delicate bowl shadow, no meat, no spoon, no table, no background, true transparent background beyond the bowl, no bottle, no label, no text, no garnish, no extra objects. Square 1:1 composition, bowl fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-523d7b7b-9265-42a2-981f-9ed5d41cccb1.png"
         },
         {
           "id": "06125",
           "name": "Gravy, Turkey, Canned",
           "file": "06125-gravy-turkey-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of canned turkey gravy, smooth glossy medium-deep amber-brown gravy with a roasted savory sheen in a small plain white ceramic bowl, slightly darker than chicken gravy but lighter than beef gravy, slight three-quarter view, centered, soft upper-left studio light, delicate bowl shadow, no meat, no spoon, no table, no background, true transparent background beyond the bowl, no can, no label, no text, no garnish, no extra objects. Square 1:1 composition, bowl fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-57d5343b-d69e-4806-b469-3087af8e3a35.png"
         },
         {
           "id": "09434",
           "name": "Guanabana nectar, Canned",
           "file": "09434-guanabana-nectar-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one serving of canned soursop nectar, smooth pale ivory-white tropical fruit drink with a faint creamy pulp texture in a plain clear straight-sided tumbler, naturally milky white with a subtle greenish tint, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no can, no label, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-9d5fac06-bb78-4b18-b8d9-faf1927309d3.png"
         },
         {
           "id": "09519",
           "name": "Guava nectar, With sucralose, Canned",
           "file": "09519-guava-nectar-with-sucralose-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one serving of canned guava nectar sweetened with sucralose, smooth pale coral-pink drink with a softly pulpy texture in a plain clear straight-sided tumbler, natural guava color, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no can, no label, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-fe61fc94-c818-4a9c-a0fd-ec0435185ed1.png"
         },
         {
           "id": "09143",
           "name": "Guava sauce, Cooked",
           "file": "09143-guava-sauce-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small serving of cooked guava sauce, thick smooth rosy-magenta fruit puree with a few tiny guava seeds and a glossy cooked surface in a small plain white ceramic bowl, gentle mound showing its thick consistency, slight three-quarter view, centered, soft upper-left studio light, delicate bowl shadow, no table, no background, true transparent background beyond the bowl, no jar, no label, no spoon, no text, no garnish, no extra objects. Square 1:1 composition, bowl fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-5e79c939-31b8-460a-b9fb-1cc49e7ebc55.png"
         },
         {
           "id": "09139",
           "name": "Guavas, Common, Raw",
           "file": "09139-guavas-common-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: common raw guavas, one whole small green guava with lightly pebbled skin beside one cut half showing pale blush-pink flesh and many tiny edible seeds, fresh natural fruit, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no leaves, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, fruit fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-dbc40078-069a-4490-9483-6e458ef457e4.png"
         },
         {
           "id": "15035",
           "name": "Haddock, Smoked",
           "file": "15035-haddock-smoked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one smoked haddock fillet, a gently curved boneless white fish portion with pale golden smoke tint along its surface and subtle flaky flesh visible at one end, clean naturally smoked texture, no plate, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no lemon, no herbs, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, fillet fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-9733a21b-e2e8-425c-82ba-407a43071f42.png"
         }
       ]
     },
