@@ -3547,73 +3547,97 @@
           "id": "08200",
           "name": "Cereals, Quaker, Quaker multigrain oatmeal, Dry",
           "file": "08200-cereals-quaker-quaker-multigrain-oatmeal-dry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small portion of dry multigrain oatmeal in a plain white ceramic ramekin. Subject: pale rolled oat flakes mixed with a few tiny toasted whole-grain pieces, dry and natural with visible distinct grain textures, no cooked porridge. Composition: centered three-quarter overhead food photograph, ramekin and grains fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint contact shadow only. Background: genuine transparent alpha. No package, brand, label, table, spoon, text, watermark, or border.",
+          "generatedSource": "exec-3cd5770f-bd36-4d5d-b17c-eeb435f05e1e.png"
         },
         {
           "id": "11148",
           "name": "Chard, Swiss, Boiled",
           "file": "11148-chard-swiss-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of simply boiled Swiss chard in a plain white ceramic bowl. Subject: tender glossy dark-green chard leaves chopped into soft pieces with a few visible pale green and red stem sections, lightly moist from cooking, no oil or sauce. Composition: centered three-quarter overhead food photograph, bowl and chard fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint natural shadow beneath bowl. Background: genuine transparent alpha. No table, garnish, package, text, utensils, watermark, or border.",
+          "generatedSource": "exec-863cfed9-ad28-4455-9da9-ee47c0f5ce25.png"
         },
         {
           "id": "11147",
           "name": "Chard, Swiss, Raw",
           "file": "11147-chard-swiss-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small fresh bunch of raw Swiss chard leaves and stalks. Subject: broad crinkled dark-green leaves with prominent colorful stems in deep red, pale green, and golden yellow, fresh natural variation and crisp leaf edges. Composition: centered three-quarter overhead food photograph, entire bunch visible, generous transparent margins, no plate or container. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, soil, packaging, label, text, watermark, or border.",
+          "generatedSource": "exec-68b924dc-beaf-437b-a70b-b490bf4067fb.png"
         },
         {
           "id": "11766",
           "name": "Chayote, Fruit, Boiled",
           "file": "11766-chayote-fruit-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of boiled chayote squash. Subject: tender pale-green chayote wedges and cubes, peeled with a few pieces showing the recognizable ridged contour, softly translucent and moist from cooking, no seasoning or sauce. Present in a plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and squash fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint natural shadow beneath bowl. Background: genuine transparent alpha. No table, garnish, packaging, text, utensils, watermark, or border.",
+          "generatedSource": "exec-bb5885d4-11e6-40c9-adf8-05d8995b6882.png"
         },
         {
           "id": "11149",
           "name": "Chayote, Fruit, Raw",
           "file": "11149-chayote-fruit-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: raw chayote squash shown as one whole fruit and one lengthwise half. Subject: pale fresh green pear-shaped chayote with deep lengthwise ridges, slightly waxy smooth peel, the cut half revealing pale ivory-green flesh and one soft central seed. Composition: centered three-quarter overhead food photograph, both pieces fully visible, generous transparent margins, no plate or bowl. Lighting: soft upper-left studio light, subtle contact shadows only. Background: genuine transparent alpha. No vine, leaves, table, props, text, watermark, or border.",
+          "generatedSource": "exec-980e7791-c652-417a-8847-2dce0d6ac07c.png"
         },
         {
           "id": "19434",
           "name": "Cheese puffs and twists, Corn based, Baked, Low fat",
           "file": "19434-cheese-puffs-and-twists-corn-based-baked-low-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of baked low-fat cheese puffs and twists in a plain white ceramic bowl. Subject: airy porous corn puffs and short curved crunchy twists in pale golden-orange with a light cheese dusting, baked and dry rather than glossy or deep fried. Composition: centered three-quarter overhead food photograph, bowl and snack pieces fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle shadow beneath bowl. Background: genuine transparent alpha. No package, brand, table, napkin, text, utensils, watermark, or border.",
+          "generatedSource": "exec-086f4531-090f-4f63-b489-4413270a78fd.png"
         },
         {
           "id": "43278",
           "name": "Cheese, American cheddar, Imitation",
           "file": "43278-cheese-american-cheddar-imitation.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few slices of imitation American cheddar cheese, presented as food only. Subject: smooth uniform orange processed cheese slices, slightly glossy, thin square slices stacked neatly with two corners lifted to show flexible texture, no wrappers. Composition: centered three-quarter overhead food photograph, entire stack fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No package, wrapper, brand, table, sandwich, text, watermark, or border.",
+          "generatedSource": "exec-c34cc9e0-69ff-4dea-aa07-308c64ba12aa.png"
         },
         {
           "id": "01004",
           "name": "Cheese, Blue",
           "file": "01004-cheese-blue.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a wedge of blue cheese with one small broken piece. Subject: creamy ivory cheese with distinct natural blue-green veining through a dense moist interior, a slightly textured pale rind and crumbly cut edge, appetizing realistic texture. Composition: centered three-quarter overhead food photograph, wedge and small piece fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow only. Background: genuine transparent alpha. No table, crackers, grapes, knife, package, text, watermark, or border.",
+          "generatedSource": "exec-b50b3f9d-cc37-44f8-8077-250e1fe55b4e.png"
         },
         {
           "id": "01005",
           "name": "Cheese, Brick",
           "file": "01005-cheese-brick.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small block of brick cheese with one thick cut slice. Subject: rectangular pale ivory-yellow semi-soft cheese with a smooth dense interior, a thin natural amber rind along the outside, clean cut face and softly rounded corners. Composition: centered three-quarter overhead food photograph, block and slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, cracker, knife, package, label, text, watermark, or border.",
+          "generatedSource": "exec-eb531e59-75fe-4ae7-b68b-6009a7885098.png"
         },
         {
           "id": "01006",
           "name": "Cheese, Brie",
           "file": "01006-cheese-brie.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a wedge of soft Brie cheese with one small slice. Subject: creamy pale-ivory interior with a thin edible white bloomy rind, wide rich triangular wedge and a gently soft cut edge, natural slight sheen. Composition: centered three-quarter overhead food photograph, wedge and slice fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, crackers, fruit, knife, packaging, text, watermark, or border.",
+          "generatedSource": "exec-a8328010-7451-4af8-b14a-437e4c3277d1.png"
         },
         {
           "id": "01007",
           "name": "Cheese, Camembert",
           "file": "01007-cheese-camembert.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small Camembert wheel cut in half with one neat wedge removed. Subject: petite round soft cheese wheel with a white velvety bloomy rind and buttery ivory interior, thin gray-brown natural rind at the base, smooth creamy cut face, clearly a small round wheel rather than a large triangular cheese wedge. Composition: centered three-quarter overhead food photograph, all pieces fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No table, box, label, knife, crackers, text, watermark, or border.",
+          "generatedSource": "exec-cb0cc4fa-7973-4207-8071-e6f5f6d65dd5.png"
         },
         {
           "id": "01270",
           "name": "Cheese, Cheddar, Sharp, Sliced",
           "file": "01270-cheese-cheddar-sharp-sliced.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a few slices of sharp cheddar cheese with a small broken piece. Subject: rich golden-orange aged cheddar with a firm slightly crumbly interior, sharp natural edges and fine crystalline texture, several thin irregular slices stacked neatly; clearly natural cheddar, not smooth processed cheese. Composition: centered three-quarter overhead food photograph, slices and piece fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No table, crackers, knife, package, label, text, watermark, or border.",
+          "generatedSource": "exec-eb2b70ea-e1f7-4a3c-ab4b-697ccd80ae3d.png"
         }
       ]
     },
