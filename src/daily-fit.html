@@ -5,9 +5,9 @@ layout: base.njk
 permalink: /pregnancy-nutrition-calculator/index.html
 bodyClass: page-dailyfit
 pageStyles:
-  - /style/daily-fit.css?v=20261026-cutout
+  - /style/daily-fit.css?v=20261026-diets
 pageScripts:
-  - /js/daily-fit.js?v=20261025-stack
+  - /js/daily-fit.js?v=20261026-diets
 ---
 
 <div class="df-app" id="DailyFit">
@@ -29,6 +29,7 @@ pageScripts:
       <label class="sr-only" for="DfSearch">Add a food</label>
       <svg class="df-search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input id="DfSearch" type="search" placeholder="Add a food" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="DfResults" aria-autocomplete="list" disabled>
+      <button class="df-search-cancel" id="DfSearchCancel" type="button" hidden>Cancel</button>
       <ul class="df-results" id="DfResults" role="listbox" aria-label="Matching foods" hidden></ul>
     </div>
     <p class="df-or" id="DfOr" hidden>or <button type="button" id="DfPlanLink">plan a day for me</button></p>
@@ -72,13 +73,16 @@ pageScripts:
       <h2 id="DfDesignTitle">Design my day</h2>
       <button type="button" class="df-skip" id="DfDesignCancel">Cancel</button>
     </div>
-    <p class="df-sub">What do you eat? Pick any that fit.</p>
-    <div class="df-tiles">
-      <label class="df-tile"><input type="radio" name="style" value="all" checked><span><img src="/resource/portions/portion-chicken-100g-600.webp" alt="" width="600" height="600">Everything</span></label>
-      <label class="df-tile"><input type="radio" name="style" value="vegetarian"><span><img src="/resource/portions/portion-eggs-100g-600.webp" alt="" width="600" height="600">Vegetarian</span></label>
-      <label class="df-tile"><input type="radio" name="style" value="vegan"><span><img src="/resource/portions/portion-lentils-100g-600.webp" alt="" width="600" height="600">Vegan</span></label>
-      <label class="df-tile"><input type="checkbox" name="df"><span><img src="/resource/portions/portion-milk-100g-600.webp" alt="" width="600" height="600">Dairy-free</span></label>
-      <label class="df-tile"><input type="checkbox" name="gf"><span><img src="/resource/portions/portion-bread-100g-600.webp" alt="" width="600" height="600">Gluten-free</span></label>
+    <p class="df-sub">Which way do you eat?</p>
+    <div class="df-tiles" role="radiogroup" aria-label="Diet">
+      <label class="df-tile"><input type="radio" name="diet" value="everything" checked><span><img src="/resource/portions/cutouts/portion-chicken-100g-600.webp" alt="" width="200" height="200">Everything</span></label>
+      <label class="df-tile"><input type="radio" name="diet" value="pescatarian"><span><img src="/resource/portions/cutouts/portion-salmon-100g-600.webp" alt="" width="200" height="200">Pescatarian</span></label>
+      <label class="df-tile"><input type="radio" name="diet" value="vegetarian"><span><img src="/resource/portions/cutouts/portion-eggs-100g-600.webp" alt="" width="200" height="200">Vegetarian</span></label>
+      <label class="df-tile"><input type="radio" name="diet" value="vegan"><span><img src="/resource/portions/cutouts/portion-lentils-100g-600.webp" alt="" width="200" height="200">Vegan</span></label>
+      <label class="df-tile"><input type="radio" name="diet" value="dairyfree"><span><img src="/resource/portions/cutouts/portion-avocado-100g-600.webp" alt="" width="200" height="200">Dairy-free</span></label>
+      <label class="df-tile"><input type="radio" name="diet" value="glutenfree"><span><img src="/resource/portions/cutouts/portion-cooked-rice-100g-600.webp" alt="" width="200" height="200">Gluten-free</span></label>
+      <label class="df-tile"><input type="radio" name="diet" value="eggfree"><span><img src="/resource/portions/cutouts/portion-oatmeal-100g-600.webp" alt="" width="200" height="200">Egg-free</span></label>
+      <label class="df-tile"><input type="radio" name="diet" value="nutfree"><span><img src="/resource/portions/cutouts/portion-blueberries-100g-600.webp" alt="" width="200" height="200">Nut-free</span></label>
     </div>
     <p class="df-label">Time to cook</p>
     <div class="df-pills df-pills-even" role="radiogroup" aria-label="Time to cook">

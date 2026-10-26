@@ -13,4 +13,12 @@ if (fs.existsSync(imageDirectory)) {
   }
 }
 
+// Every food photo is shown as its cut-out (no background) when one exists.
+const cutoutDirectory = path.join(__dirname, "../resource/portions/cutouts");
+const cutouts = new Set(fs.existsSync(cutoutDirectory) ? fs.readdirSync(cutoutDirectory) : []);
+for (const [id, src] of imageMap) {
+  const name = path.basename(src);
+  if (cutouts.has(name)) imageMap.set(id, `/resource/portions/cutouts/${name}`);
+}
+
 module.exports = imageMap;

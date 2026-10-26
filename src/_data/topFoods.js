@@ -24,13 +24,9 @@ const PER_KIND = 2;
 const pages = new Map(items.map((food) => [food.id, food]));
 const guides = new Map(require("./nutrientGuidance.js").map((n) => [n.id, n.guide]));
 
-const CUTOUT_DIR = path.join(__dirname, "../resource/portions/cutouts");
-const cutouts = new Set(fs.existsSync(CUTOUT_DIR) ? fs.readdirSync(CUTOUT_DIR) : []);
+// foodimages already resolves each photo to its cut-out.
 function picture(id) {
-  const photo = foodImages.get(String(id));
-  if (!photo) return "";
-  const name = path.basename(photo);
-  return cutouts.has(name) ? `/resource/portions/cutouts/${name}` : photo;
+  return foodImages.get(String(id)) || "";
 }
 
 // "Atlantic salmon, farmed" and "Wild coho salmon" are both salmon: keep the
@@ -49,6 +45,7 @@ function amount(n) {
 
 // Boiled spinach looks like raw spinach: a food without a photo borrows one
 // from the same kind of food, or from the 100 g portion photos.
+const cutouts = new Set(fs.readdirSync(path.join(__dirname, "../resource/portions/cutouts")));
 const kindPicture = new Map(["yogurt", "milk", "egg", "lentil", "almond", "avocado", "salmon", "chicken",
   "beef", "bread", "banana", "apple", "broccoli", "spinach", "oatmeal", "blueberrie"]
   .map((k) => [k, `/resource/portions/cutouts/portion-${k === "blueberrie" ? "blueberries" : k === "egg" ? "eggs" : k === "lentil" ? "lentils" : k === "almond" ? "almonds" : k}-100g-600.webp`])
