@@ -6,10 +6,10 @@ bodyClass: page-food
 eleventyComputed:
   description: "Search and browse pregnancy nutrition facts for {{ foodpages.count }} foods, with nutrient coverage per 100 grams and food safety notes."
 pageStyles:
-  - /style/weekly-diet.css
-  - /style/food.css?v=20261025-gloock
+  - /style/weekly-diet.css?v=20261026-cutout
+  - /style/food.css?v=20261026-search
 pageScripts:
-  - /js/food-directory.js?v=20260925-2
+  - /js/food-directory.js?v=20261026-search
 ---
 
 <section class="hero slim">
@@ -23,11 +23,11 @@ pageScripts:
   <div class="content-card">
     <div class="content-head">
       <h2 class="content-title" id="food-search-title">Find a food</h2>
-      <p class="content-summary">Enter a full or partial food name. Choose an autocomplete suggestion to open its nutrition page directly.</p>
+      <p class="content-summary">Type a food name; pick a suggestion to open its page.</p>
     </div>
     <form class="food-directory-form" action="/food/" method="get" autocomplete="off">
       <label class="sr-only" for="FoodDirectoryInput">Search foods</label>
-      <input id="FoodDirectoryInput" class="food-directory-input" name="q" type="search" aria-describedby="FoodDirectoryStatus" placeholder="Try salmon, lentils, or spinach">
+      <input id="FoodDirectoryInput" class="food-directory-input" name="q" type="search" aria-describedby="FoodDirectoryStatus" placeholder="Try salmon, lentils, or spinach" data-food-search>
       <button class="food-directory-button" type="submit">Search</button>
     </form>
     <p id="FoodDirectoryStatus" class="food-directory-status" role="status" hidden></p>

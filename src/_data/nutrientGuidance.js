@@ -19,6 +19,6 @@ const entries = [
 
 module.exports = entries.map((entry) => ({
   ...entry,
-  artwork: "/resource/nutrients/" + entry.id.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-$/, "") + ".png",
+  artwork: "/resource/nutrients/" + entry.id.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-$/, "") + ".webp",
   amount: entry.id === "Iodine" ? "220 mcg" : foodData.nutrients[entry.id].rda.label
 }));

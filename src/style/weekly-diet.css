@@ -404,17 +404,14 @@
   aspect-ratio: 1;
   justify-self: end;
   margin: 0;
-  overflow: hidden;
-  border-radius: 22px;
-  background: #fff7e9;
-  box-shadow: 0 16px 34px rgba(23, 19, 16, 0.12);
 }
 
 .chapter-art img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  filter: var(--cutout-shadow);
 }
 
 .dev-list {

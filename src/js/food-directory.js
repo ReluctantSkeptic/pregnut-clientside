@@ -1,154 +1,89 @@
+// /food/?q=...: full search results, ranked the same way as the suggestions
+// (searchbar.js), with each food's photo.
 (function () {
   "use strict";
 
-  var SEARCH_DATA_URL = "/foodfindersearch.json";
+  var SHOWN = 40;
+
+  function el(tag, className, text) {
+    var node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined && text !== null) node.textContent = String(text);
+    return node;
+  }
 
   function normalize(value) {
     return String(value || "").toLowerCase().replace(/\s+/g, " ").trim();
   }
 
-  function normalizeBaseName(value) {
-    return normalize(value).replace(/\s+\(food id \d+\)$/, "");
-  }
-
-  function createResult(food) {
-    var item = document.createElement("li");
-    var link = document.createElement("a");
-    link.href = food.FoodUrl;
-    link.textContent = food.FoodName + " nutrition in pregnancy";
+  function row(food) {
+    var item = el("li", "food-result");
+    var link = el("a", "food-result-link");
+    link.href = food.url;
+    if (food.image) {
+      var img = el("img", "food-result-pic");
+      img.src = food.image;
+      img.alt = "";
+      img.width = 80;
+      img.height = 80;
+      img.loading = "lazy";
+      img.decoding = "async";
+      link.appendChild(img);
+    } else {
+      var letter = el("span", "food-result-pic is-letter", food.label.charAt(0).toUpperCase());
+      letter.setAttribute("aria-hidden", "true");
+      link.appendChild(letter);
+    }
+    link.appendChild(el("span", "food-result-name", food.label));
     item.appendChild(link);
     return item;
   }
 
-  function renderResults(foods, query) {
+  function render(foods, query) {
     var results = document.getElementById("FoodDirectoryResults");
     var status = document.getElementById("FoodDirectoryStatus");
     if (!results || !status) return;
-
-    while (results.firstChild) results.removeChild(results.firstChild);
-
+    results.textContent = "";
     if (!foods.length) {
-      status.textContent = "No foods found for \"" + query + "\". Try a shorter or more general search.";
+      status.textContent = "No foods match “" + query + "”. Try a simpler word, like “beans”.";
       status.hidden = false;
       results.hidden = true;
       return;
     }
-
-    var shown = Math.min(foods.length, 50);
-    status.textContent = shown === foods.length
-      ? foods.length + (foods.length === 1 ? " result" : " results") + " for \"" + query + "\"."
-      : "Showing first " + shown + " of " + foods.length + " results for \"" + query + "\". Try a more specific food name.";
+    status.textContent = foods.length >= SHOWN
+      ? "Top " + SHOWN + " matches for “" + query + "”."
+      : foods.length + (foods.length === 1 ? " match" : " matches") + " for “" + query + "”.";
     status.hidden = false;
     results.hidden = false;
-
-    foods.slice(0, shown).forEach(function (food) {
-      results.appendChild(createResult(food));
-    });
-  }
-
-  function findMatches(foods, query) {
-    var normalizedQuery = normalize(query);
-    if (!normalizedQuery) return [];
-
-    return foods.filter(function (food) {
-      return normalize(food.FoodName).indexOf(normalizedQuery) !== -1;
-    });
-  }
-
-  function initAutocomplete() {
-    var input = document.getElementById("FoodDirectoryInput");
-    if (!input) return;
-    input.addEventListener("focus", function () {
-      if (input.dataset.autocompleteReady) return;
-      window.loadFoodAutocomplete().then(function () {
-        if (input.dataset.autocompleteReady) return;
-        var $input = window.jQuery(input);
-        $input.easyAutocomplete({
-          url: SEARCH_DATA_URL,
-          getValue: "FoodName",
-          list: {
-            match: { enabled: true },
-            maxNumberOfElements: 20,
-            onChooseEvent: function () {
-              var selected = null;
-              try { selected = $input.getSelectedItemData(); } catch (error) {}
-              if (selected && selected.FoodUrl) window.location.href = selected.FoodUrl;
-            }
-          }
-        });
-        $input.closest("div.easy-autocomplete").removeAttr("style");
-        input.dataset.autocompleteReady = "true";
-        if (input.value.trim()) $input.trigger("keyup");
-      }).catch(function () { /* The form still submits without suggestions. */ });
-    });
+    foods.forEach(function (food) { results.appendChild(row(food)); });
   }
 
   function start() {
-    initAutocomplete();
-
-    var form = document.querySelector(".food-directory-form");
-    var input = document.getElementById("FoodDirectoryInput");
-    var status = document.getElementById("FoodDirectoryStatus");
-    if (form && input && status) {
-      form.addEventListener("submit", function (event) {
-        if (input.value.trim()) return;
-        event.preventDefault();
-        input.setAttribute("aria-invalid", "true");
-        status.textContent = "Enter a food name to search.";
-        status.hidden = false;
-        input.focus();
-      });
-      input.addEventListener("input", function () {
-        input.removeAttribute("aria-invalid");
-        status.hidden = true;
-      });
-    }
-
     var params;
-    try {
-      params = new URLSearchParams(window.location.search);
-    } catch (error) {
-      return;
-    }
+    try { params = new URLSearchParams(window.location.search); } catch (e) { return; }
+    var legacy = String(params.get("food") || "").trim();
+    var query = legacy || String(params.get("q") || "").trim();
+    if (!query || !window.PregnutSearch) return;
 
-    var legacyQuery = String(params.get("food") || "").trim();
-    var query = legacyQuery || String(params.get("q") || "").trim();
-    if (!query) return;
-
+    var input = document.getElementById("FoodDirectoryInput");
     if (input) input.value = query;
+    var status = document.getElementById("FoodDirectoryStatus");
 
-    if (status) {
-      status.textContent = "Searching foods…";
-      status.hidden = false;
-    }
-
-    fetch(SEARCH_DATA_URL, { cache: "force-cache" })
-      .then(function (response) {
-        if (!response.ok) throw new Error("Food search is temporarily unavailable.");
-        return response.json();
+    window.PregnutSearch.load()
+      .then(function () {
+        var foods = window.PregnutSearch.search(query, SHOWN);
+        // Old ?food= links named one food exactly: go straight to it.
+        var exact = foods.filter(function (f) { return normalize(f.label) === normalize(query); });
+        if (legacy && exact.length === 1) { window.location.replace(exact[0].url); return; }
+        render(foods, query);
       })
-      .then(function (foods) {
-        var exactMatches = foods.filter(function (food) {
-          return normalizeBaseName(food.FoodName) === normalize(query);
-        });
-
-        if (legacyQuery && exactMatches.length === 1) {
-          window.location.replace(exactMatches[0].FoodUrl);
-          return;
-        }
-
-        renderResults(findMatches(foods, query), query);
-      })
-      .catch(function (error) {
+      .catch(function () {
         if (!status) return;
-        status.textContent = error && error.message ? error.message : "Food search is temporarily unavailable.";
+        status.textContent = "Food search is temporarily unavailable. Refresh to try again.";
         status.hidden = false;
       });
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", start);
-  } else {
-    start();
-  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+  else start();
 })();

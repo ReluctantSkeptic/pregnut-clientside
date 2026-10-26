@@ -354,11 +354,13 @@
 
 .portion-guide .portion-media {
   aspect-ratio: 1;
-  background: #eee9df;
+  background: none;
 }
 
 .portion-guide .portion-media img {
+  object-fit: contain;
   object-position: center;
+  filter: var(--cutout-shadow);
 }
 
 .portion-guide .portion-body {

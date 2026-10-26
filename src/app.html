@@ -1,75 +1,35 @@
 ---
-title: Foods Highest in Pregnancy Nutrients per 100 g
-description: Compare pregnancy nutrient amounts per 100 grams across food groups, then check portions, preparation, and food safety before choosing a food.
+title: Best Foods for Each Pregnancy Nutrient, per Serving
+description: The everyday foods with the most folate, iron, choline, DHA, calcium and more in one typical serving, ranked against pregnancy reference amounts.
 layout: base.njk
 permalink: /app/index.html
 bodyClass: page-topfoods
-vizStyles: true
 pageStyles:
-  - /style/weekly-diet.css
-  - /style/top-foods.css?v=20261025-gloock
+  - /style/top-foods.css?v=20261025-fold
 pageScripts:
-  - /js/viz.js?v=20261023-common
-  - /js/top-foods.js?v=20261023-common
+  - /js/top-foods.js?v=20261025-lean
 ---
 
-<section class="hero slim">
-  <div>
-    <h1 class="hero-title">Foods highest in pregnancy nutrients per 100&nbsp;g</h1>
-    <p class="hero-lede">Choose a nutrient and compare equal weights across food groups. These are nutrient rankings, not suggested servings.</p>
-  </div>
-</section>
+<section class="tf" aria-labelledby="TopFoodsTitle">
+  <div class="tf-side">
+  <h1 class="tf-title" id="TopFoodsTitle">The best foods for each pregnancy nutrient</h1>
 
-<section class="section topfoods-shell" aria-label="Top foods per nutrient">
-  <div class="viz-toolbar" id="topfoods-filters" role="group" aria-label="Top foods filters">
-    <div class="viz-chips" id="NutrientChips" role="radiogroup" aria-label="Nutrient">
-      {% for key in topFoods.keys %}<label class="viz-chip"><input type="radio" name="topfoods-nutrient" disabled value="{{ key | escape }}"{% if key == topFoods.nutrient %} checked{% endif %}><span>{{ key }}</span></label>{% endfor %}
+  <div class="tf-controls" id="TopFoodsControls">
+    <div class="tf-chips" id="NutrientChips" role="radiogroup" aria-label="Nutrient">
+      {% for n in topFoods.nutrients %}<label class="tf-chip"><input type="radio" name="topfoods-nutrient" value="{{ n.key | escape }}"{% if loop.first %} checked{% endif %} disabled><span>{{ n.name }}</span></label>{% endfor %}
     </div>
-    <div class="viz-segmented" id="SourceToggle" role="radiogroup" aria-label="Food source">
-      <label class="viz-segment"><input type="radio" name="topfoods-source" disabled value="processed" checked><span>Processed</span></label>
-      <label class="viz-segment"><input type="radio" name="topfoods-source" disabled value="natural"><span>Natural</span></label>
+    <div class="tf-toggle" id="SourceToggle" role="radiogroup" aria-label="Foods">
+      <label><input type="radio" name="topfoods-source" value="whole" checked disabled><span>Whole foods</span></label>
+      <label><input type="radio" name="topfoods-source" value="all" disabled><span>All foods</span></label>
     </div>
   </div>
 
-  <div class="topfoods-head">
-    <p class="viz-summary" id="TopFoodsSummary"><strong>{{ topFoods.nutrient }}</strong> in 100 g, as % of the {{ topFoods.target }} daily pregnancy reference</p>
-    <p class="sr-only" id="TopFoodsStatus" aria-live="polite"></p>
+  <p class="tf-basis" id="TopFoodsBasis">One typical serving, as % of the daily pregnancy reference for <strong>{{ topFoods.initial.sentence }}</strong> ({{ topFoods.initial.target }}).</p>
+  <p class="tf-guide"><a id="TopFoodsGuide" href="{{ topFoods.initial.guide }}">Why {{ topFoods.initial.sentence }} matters in pregnancy</a></p>
+  <p class="tf-source">Servings follow FDA reference amounts. Nutrient values come from PregNut's <a href="/about/#food-data-sources">USDA-based food data</a>.</p>
   </div>
 
-  <noscript><p class="viz-note">Showing calcium in processed foods. Enable JavaScript to change filters, or <a href="/food/">browse every food</a>.</p></noscript>
-  <div class="topfoods-grid" id="FoodsByNutrient" aria-label="Top foods list">{% include "components/top-foods-initial.njk" %}</div>
-  <p class="viz-note topfoods-footnote">Percentages compare food amounts with the site's <a href="/about/#nutrient-references">pregnancy nutrient references</a>. DHA and protein use illustrative benchmarks rather than individualized daily targets. Food values come from a <a href="/about/#food-data-sources">fixed historical USDA snapshot</a>.</p>
-</section>
+  <ol class="tf-list" id="FoodsByNutrient" aria-labelledby="TopFoodsBasis">{% include "components/top-foods-initial.njk" %}</ol>
+  <p class="sr-only" id="TopFoodsStatus" aria-live="polite"></p>
 
-<section class="section topfoods-examples" aria-labelledby="example-comparisons-title">
-  <h2 class="viz-section-title" id="example-comparisons-title">Start with familiar foods</h2>
-  <p class="viz-note">These examples show the amount of one nutrient in 100 g of each prepared food.</p>
-  <ul class="topfoods-example-grid">
-    {% for item in featuredComparisons %}
-      <li class="topfoods-example">
-        {% if item.image and item.image.src %}<img src="{{ item.image.src }}" alt="" width="400" height="400" loading="lazy" decoding="async">{% else %}<span class="topfoods-example-ph" aria-hidden="true">{{ item.nutrient }}</span>{% endif %}
-        <a href="{{ item.url }}">{{ item.label }}</a>
-        <p><span class="topfoods-example-amount">{{ item.value | formatNumber }} {{ item.unit }}</span> {{ item.nutrient }} per 100 g</p>
-      </li>
-    {% endfor %}
-  </ul>
-  <details class="viz-more">
-    <summary>About these examples</summary>
-    <p class="viz-note">They are starting points for comparison, not serving recommendations or a ranking of the best foods to eat. Figures come from PregNut's <a href="/about/#food-data-sources">historical USDA-based dataset</a>. Open a food page for its full nutrient chart and preparation or safety notes; check current labels for packaged products.</p>
-  </details>
-</section>
-
-<section class="section topfoods-guides-section" aria-labelledby="topfoods-guides-title">
-  <nav class="topfoods-guides" aria-labelledby="topfoods-guides-title">
-    <h2 class="viz-section-title" id="topfoods-guides-title">Understand the nutrients behind the rankings</h2>
-    <p class="viz-note">The chart compares nutrients per 100 grams. These guides put food amounts, everyday portions, and prenatal labels in context. You can also <a href="/food/">search foods by name</a>.</p>
-    <ul class="viz-pill-links">
-      {% for nutrient in nutrientGuidance %}
-        {% if nutrient.id != "Iodine" %}
-          <li><a href="{{ nutrient.guide }}">{{ nutrient.label }} in pregnancy</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-    <p class="viz-note topfoods-iodine">Looking for iodine? The food chart does not include iodine amounts. Read the <a href="/blog/iodine-without-dairy-pregnancy/">iodine food and prenatal label guide</a>.</p>
-  </nav>
 </section>

@@ -144,14 +144,14 @@
     <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name or (documentTitle + " | " + site.name) | length > 60 %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
     <link rel="preload" href="/style/fonts/funnel-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/style/fonts/gloock-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/style/style.css?v=20261025-gloock">
+    <link rel="stylesheet" href="/style/style.css?v=20261026-search">
     {% if pageStyles %}
       {% for href in pageStyles %}
         <link rel="stylesheet" href="{{ href }}">
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/style/overhaul.css?v=20261025-gloock">
-    {% if vizStyles %}<link rel="stylesheet" href="/style/viz.css?v=20261025-gloock">{% endif %}
+    <link rel="stylesheet" href="/style/overhaul.css?v=20261026-cutout">
+    {% if vizStyles %}<link rel="stylesheet" href="/style/viz.css?v=20261026-cutout">{% endif %}
   </head>
   <body{% if bodyClass or vizStyles %} class="{{ bodyClass }}{% if vizStyles %} viz-page{% endif %}"{% endif %}>
     {% include "components/navbar.njk" %}
@@ -166,7 +166,7 @@
         <button type="button" id="CookieAccept">Accept analytics</button>
       </div>
     </div>
-    <script src="/js/searchbar.js?v=20260925-1" defer></script>
+    <script src="/js/searchbar.js?v=20261026-search" defer></script>
     <script src="/js/caution.js" defer></script>
     {% if pageScripts %}
       {% for src in pageScripts %}

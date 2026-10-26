@@ -256,9 +256,8 @@
   height: auto;
   aspect-ratio: 1;
   margin-bottom: 10px;
-  border-radius: 22px;
-  background: var(--bg-2);
-  object-fit: cover;
+  object-fit: contain;
+  filter: var(--cutout-shadow);
   transition: transform 300ms ease;
 }
 
