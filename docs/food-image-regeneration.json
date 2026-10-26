@@ -2638,73 +2638,97 @@
           "id": "42265",
           "name": "Cereal, Great grains, Raisin, Date & pecan",
           "file": "42265-cereal-great-grains-raisin-date-pecan.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of crunchy whole-grain breakfast cereal with fruit and pecans, toasted wheat flakes mixed with a few golden oat clusters, visible dark red raisin pieces, small chopped date pieces and recognizable ridged pecan halves, in a plain white ceramic bowl, no milk. Keep the components visibly distinct and natural. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic dry toasted texture. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-3985532a-de57-44d0-b143-cc8a0f4ae92b.png"
         },
         {
           "id": "43495",
           "name": "Cereal, Health valley",
           "file": "43495-cereal-health-valley.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of a wholesome high-fiber whole-grain breakfast cereal in a plain white ceramic bowl, no milk, with toasted wheat and bran flakes, a few small crisp bran pieces and natural golden-brown grain texture. Clearly dry cereal, not granola bars or porridge. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic dry texture. No package, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-7c718ef0-21da-4772-98d4-72494f28ce8d.png"
         },
         {
           "id": "08538",
           "name": "Cereal, Heart to heart, Oat flakes & blueberry clusters",
           "file": "08538-cereal-heart-to-heart-oat-flakes-blueberry-clusters.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of oat-flake breakfast cereal with blueberry clusters in a plain white ceramic bowl, no milk. Show thin golden oat flakes mixed with several small crunchy toasted oat clusters and a few distinct deep-blue dried blueberries. Keep flakes, clusters and berries separate, dry and crisp. Centered three-quarter overhead close photo with clear margins, soft upper-left light. No box, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-ede7c556-e4dc-47e7-9ecf-9812d83a62fb.png"
         },
         {
           "id": "08037",
           "name": "Cereal, Homemade",
           "file": "08037-cereal-homemade.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of homemade multigrain breakfast cereal in a plain white ceramic bowl, no milk. Show a rustic but appetizing mixture of golden rolled oat and wheat flakes, a few toasted crunchy clusters, small raisins and almond slivers, dry and loose rather than a baked bar. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic natural ingredients. No packaging, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-5382fd6b-145e-46f6-b6ca-e2d39baaed1c.png"
         },
         {
           "id": "08560",
           "name": "Cereal, Honey almond flax",
           "file": "08560-cereal-honey-almond-flax.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey almond flax breakfast cereal in a plain white ceramic bowl, no milk. Mix crisp golden whole-grain flakes and a few small honey oat clusters with recognizable sliced almonds and tiny brown flax seeds scattered throughout. Dry, crunchy cereal with natural toasted colors. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-cc9ab9e9-d30d-47b8-b0d8-dba4c2c1a3ca.png"
         },
         {
           "id": "08633",
           "name": "Cereal, Honey bunches of oats with vanilla bunches",
           "file": "08633-cereal-honey-bunches-of-oats-with-vanilla-bunches.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-sweetened oat-and-wheat breakfast cereal in a plain white ceramic bowl, no milk. Show crisp golden wheat flakes mixed with a few larger chunky oat clusters with a subtle pale vanilla coating and warm honey sheen; clusters are distinct from the flakes. No fruit or nuts. Centered three-quarter overhead close photo with clear margins, soft upper-left light, realistic dry cereal texture. No box, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-6ad6a091-cb9b-413b-adea-b22db5e96174.png"
         },
         {
           "id": "43570",
           "name": "Cereal, Honey bunches of oats, Honey roasted",
           "file": "43570-cereal-honey-bunches-of-oats-honey-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-roasted oat-and-wheat breakfast cereal in a plain white ceramic bowl, no milk. Show crisp toasted golden flakes mixed with several compact crunchy oat clusters coated in a subtle amber honey glaze. Keep clusters visibly distinct from the flakes, no fruit or nuts. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, realistic dry texture. No packaging, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-76b50329-558a-475b-b5ad-7186e8774880.png"
         },
         {
           "id": "08655",
           "name": "Cereal, Honey bunches of oats, Pecan bunches",
           "file": "08655-cereal-honey-bunches-of-oats-pecan-bunches.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-sweetened oat-and-wheat cereal with pecan clusters in a plain white ceramic bowl, no milk. Show crisp golden flakes and a few chunky toasted oat clusters with recognizable ridged pecan halves and pieces, lightly glazed with honey. Natural dry crunchy texture. Centered three-quarter overhead close view with clear margins, soft upper-left light. No package, logo, brand, text or background. Genuine transparent background.",
+          "generatedSource": "exec-61812f33-a93f-479c-9138-d488f1583cbf.png"
         },
         {
           "id": "42240",
           "name": "Cereal, Honey bunches of oats, With almonds",
           "file": "42240-cereal-honey-bunches-of-oats-with-almonds.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-sweetened oat-and-wheat cereal with almonds in a plain white ceramic bowl, no milk. Show crisp golden flakes with several small crunchy toasted oat clusters and visible thin sliced almonds, lightly glossy with honey. Keep the almonds distinct and the cereal dry. Centered three-quarter overhead close food photo with clear margins, soft upper-left light, natural toasted color. No packaging, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-8a80007f-f1b0-494a-ae42-219268d04687.png"
         },
         {
           "id": "08211",
           "name": "Cereal, Honey graham oh!s",
           "file": "08211-cereal-honey-graham-oh-s.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of graham-flavored O-shaped breakfast cereal in a plain white ceramic bowl, no milk. Show distinct small golden-brown crunchy O-rings with center holes, lightly ridged surfaces and a few dark cocoa-colored cereal rings mixed in for contrast. Clearly ring cereal, not flat crackers or granola. Centered three-quarter overhead close photo with clear margins, soft upper-left light, realistic dry texture. No box, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-241a9945-96f8-46d3-8102-3a54ea030841.png"
         },
         {
           "id": "08643",
           "name": "Cereal, Honey kix",
           "file": "08643-cereal-honey-kix.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-sweetened corn puff cereal in a plain white ceramic bowl, no milk. Show many small airy round-to-oval golden corn puffs with slightly dimpled crisp matte surfaces and a faint honey sheen. Distinct individual pieces, not O-rings, flakes or large balls. Centered three-quarter overhead close view with clear margins, soft upper-left studio light. No packaging, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-cad2ee02-9206-4aec-a72a-765aa2b070ad.png"
         },
         {
           "id": "08045",
           "name": "Cereal, Honey nut cheerios",
           "file": "08045-cereal-honey-nut-cheerios.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-nut toasted oat ring cereal in a plain white ceramic bowl, no milk. Show many distinct small golden O-shaped rings with clear center holes and lightly glazed toasted surfaces, with a few tiny almond slivers visible between them. Crisp dry cereal, not solid balls. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-c6297488-e798-42e3-a118-7fb52e9d864d.png"
         }
       ]
     },
