@@ -4557,73 +4557,97 @@
           "id": "18228",
           "name": "Crackers, Saltines (includes oyster, Soda, Soup)",
           "file": "18228-crackers-saltines-includes-oyster-soda-soup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small stack of saltine crackers. Subject: thin pale-cream square soda crackers with crisp straight edges, evenly spaced tiny docking holes and a light dusting of salt, one broken piece showing its crisp flaky inside. Composition: centered three-quarter overhead food photograph, crackers fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No soup, cheese, package, brand, table, text, watermark, or border.",
+          "generatedSource": "exec-4a2df53c-b08f-49e7-8a6c-801e865c5adb.png"
         },
         {
           "id": "18229",
           "name": "Crackers, Standard snack-type, Regular",
           "file": "18229-crackers-standard-snack-type-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several standard snack-type crackers. Subject: crisp small round golden wheat crackers with scalloped rims, tiny pinholes and a lightly toasted savory surface, a few stacked and one broken, distinct from pale square saltines. Composition: centered three-quarter overhead food photograph, crackers fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No cheese, dip, packaging, brand, table, text, watermark, or border.",
+          "generatedSource": "exec-c6fd9853-7a32-4054-8c75-bbee7ee5ec83.png"
         },
         {
           "id": "09079",
           "name": "Cranberries, Dried, Sweetened",
           "file": "09079-cranberries-dried-sweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small loose handful of sweetened dried cranberries. Subject: ruby-burgundy wrinkled oval cranberry pieces, plump and chewy with a subtle glossy sugared sheen, several loosely clustered. Composition: centered three-quarter overhead food photograph, all fruit fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, faint contact shadow. Background: genuine transparent alpha. No fresh leaves, bowl, package, table, text, watermark, or border.",
+          "generatedSource": "exec-a6b9b2d6-c7e8-4e5c-99aa-4bb59a5705fd.png"
         },
         {
           "id": "09078",
           "name": "Cranberries, Raw",
           "file": "09078-cranberries-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a compact handful of fresh raw cranberries. Subject: whole round firm cranberries in vivid scarlet to deep red, smooth glossy skins with natural subtle dimples and tiny dried blossom tips, fresh uncut berries. Composition: centered three-quarter overhead food photograph, fruit fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, delicate contact shadow. Background: genuine transparent alpha. No dried wrinkled berries, leaves, bowl, table, text, watermark, or border.",
+          "generatedSource": "exec-b5a4030c-4842-4b6b-b8cd-34def9fdd8c5.png"
         },
         {
           "id": "43382",
           "name": "Cranberry juice, Unsweetened",
           "file": "43382-cranberry-juice-unsweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a glass of unsweetened cranberry juice. Subject: deep ruby-red cranberry juice, clear but richly pigmented with a few tiny natural bubbles, in a simple transparent tumbler; no sweetener, fresh fruit or garnish. Composition: centered three-quarter view, entire glass fully visible, generous transparent margins. Lighting: soft upper-left studio light, realistic glass highlights and faint contact shadow. Background: genuine transparent alpha. No straw, bottle, label, table, text, watermark, or border.",
+          "generatedSource": "exec-d810ede1-f0e0-461a-8588-2ef489ffe898.png"
         },
         {
           "id": "09081",
           "name": "Cranberry sauce, Canned, Sweetened",
           "file": "09081-cranberry-sauce-canned-sweetened.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of canned sweetened cranberry sauce. Subject: thick glossy ruby-red cranberry sauce in a small plain white ceramic bowl, soft jelly-like texture with visible cranberry skins and a gentle spooned swirl, sweetened canned appearance. Composition: centered three-quarter overhead food photograph, bowl and sauce fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle bowl shadow. Background: genuine transparent alpha. No can, label, spoon, turkey, herbs, table, text, watermark, or border.",
+          "generatedSource": "exec-a7b4c99c-6abc-4ca1-ba8d-b8b620199748.png"
         },
         {
           "id": "15146",
           "name": "Crayfish, Wild, Cooked, Moist heat",
           "file": "15146-crayfish-wild-cooked-moist-heat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one whole cooked wild crayfish. Subject: small freshwater crayfish with curled segmented tail, narrow pincers and antennae, cooked shell vivid orange-red with slight natural blue-brown markings, clean intact crustacean shape. Composition: centered three-quarter overhead food photograph, entire crayfish fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, delicate contact shadow. Background: genuine transparent alpha. No crab, lobster, corn, seasoning, lemon, table, text, watermark, or border.",
+          "generatedSource": "exec-e7f4501e-899e-4028-b2b8-1312102a4a29.png"
         },
         {
           "id": "18969",
           "name": "Cream puff, Eclair, Custard or cream filled, Iced",
           "file": "18969-cream-puff-eclair-custard-or-cream-filled-iced.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one iced cream-filled eclair. Subject: elongated golden choux pastry topped with a smooth dark chocolate icing layer, one neat cut end showing generous pale vanilla custard or cream filling and airy pastry shell, bakery-fresh appearance. Composition: centered three-quarter overhead food photograph, entire eclair fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No powdered sugar, berries, fork, napkin, package, table, text, watermark, or border.",
+          "generatedSource": "exec-f0a97d1b-4ee4-4ce0-8333-5860273ff38c.png"
         },
         {
           "id": "01055",
           "name": "Cream, Sour, Reduced fat, Cultured",
           "file": "01055-cream-sour-reduced-fat-cultured.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of reduced-fat cultured sour cream. Subject: smooth thick bright-white cultured sour cream with a gentle central swirl and softly spooned ridges, creamy but slightly lighter-bodied, held in a small plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and sour cream fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate bowl shadow. Background: genuine transparent alpha. No baked potato, chives, dip chips, spoon, carton, label, table, text, watermark, or border.",
+          "generatedSource": "exec-b6464a0c-27d5-45f9-a850-ad1fb4891bba.png"
         },
         {
           "id": "01054",
           "name": "Cream, Whipped, Cream topping, Pressurized",
           "file": "01054-cream-whipped-cream-topping-pressurized.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of pressurized whipped cream topping. Subject: airy pure-white whipped cream piped into two tall soft rosettes with fine spiral ridges and light fluffy peaks, smooth whipped texture, placed on a small plain white dessert plate. Composition: centered three-quarter overhead food photograph, plate and cream fully visible, generous transparent margins. Lighting: soft upper-left studio light, gentle plate shadow. Background: genuine transparent alpha. No aerosol can, pie, fruit, chocolate, spoon, label, table, text, watermark, or border.",
+          "generatedSource": "exec-b6c092ed-f65f-4c65-bb65-799e3644d4a3.png"
         },
         {
           "id": "42116",
           "name": "Creamy dressing, Made with sour cream and/or buttermilk and oil, Reduced calorie",
           "file": "42116-creamy-dressing-made-with-sour-cream-and-or-buttermilk-and-oil-reduced-calorie.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of reduced-calorie creamy salad dressing. Subject: pale ivory lightly pourable creamy buttermilk-style dressing with a few fine green herb flecks, smooth glossy surface and soft rippling pour line, served in a small plain white ceramic ramekin. Composition: centered three-quarter overhead food photograph, ramekin and dressing fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle ramekin shadow. Background: genuine transparent alpha. No salad, bottle, label, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-63e8b980-62d0-4524-a33e-8b2b73be594a.png"
         },
         {
           "id": "42157",
           "name": "Creamy dressing, Made with sour cream and/or buttermilk and oil, Reduced calorie, Fat-free",
           "file": "42157-creamy-dressing-made-with-sour-cream-and-or-buttermilk-and-oil-reduced-calorie-fat-free.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of fat-free creamy salad dressing. Subject: very pale white smooth low-viscosity creamy dressing, a little thinner and more uniform than a reduced-calorie dressing, with only subtle tiny herb flecks, served in a small plain white ceramic ramekin. Composition: centered three-quarter overhead food photograph, ramekin and dressing fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint ramekin shadow. Background: genuine transparent alpha. No salad, bottle, label, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-6a38f867-aead-4fb0-9b18-65544cb1faa3.png"
         }
       ]
     },
