@@ -5163,73 +5163,97 @@
           "id": "21471",
           "name": "Fried chicken, Thigh",
           "file": "21471-fried-chicken-thigh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one generous golden-brown crispy fried chicken thigh, whole recognizable bone-in thigh with craggy seasoned breading, appetizing but natural, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no plate, no background, true transparent background, no text, no package, no garnish, no extra objects. Square 1:1 composition, food fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-2c06777e-610e-4117-aeb3-0308fc58ee43.png"
         },
         {
           "id": "21472",
           "name": "Fried chicken, Wing",
           "file": "21472-fried-chicken-wing.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: two golden-brown crispy fried chicken wings, one whole wing and one split at the joint to show the classic drumette and flat shapes, craggy seasoned breading, appetizing and natural, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no plate, no background, true transparent background, no text, no package, no garnish, no extra objects. Square 1:1 composition, food fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-e3fbe867-5468-4147-8fa5-120d03b0a55c.png"
         },
         {
           "id": "25013",
           "name": "Fritolay, Sunchips, Multigrain snack",
           "file": "25013-fritolay-sunchips-multigrain-snack.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small natural pile of golden multigrain wavy square corn chips, ridged surfaced whole-grain chips with toasted flecks, loose pieces at varied angles, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bag, no plate, no background, true transparent background, no text, no logo, no garnish, no extra objects. Square 1:1 composition, chips fill about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-5780629c-5f08-490a-8e2d-ef5582ea5cf6.png"
         },
         {
           "id": "80200",
           "name": "Frog legs",
           "file": "80200-frog-legs.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a neat serving of cooked frog legs, two recognizable paired hind legs with slender crossed shanks and small browned thigh portions, lightly golden sautéed finish, presented on a simple small white ceramic plate because the cooked meat is delicate, slight three-quarter view, centered, soft upper-left studio light, no table, no background, true transparent background beyond the plate, no text, no garnish, no extra objects. Square 1:1 composition, plate and food fill about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-6c124b23-0b85-4838-bc91-5694c34ffed0.png"
         },
         {
           "id": "42186",
           "name": "Frozen yogurts, Chocolate",
           "file": "42186-frozen-yogurts-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one serving of rich chocolate frozen yogurt, a smooth high soft-serve swirl with a glossy cocoa-brown surface, served in a small plain white ceramic dessert cup, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no table, no background, true transparent background beyond the cup, no text, no label, no toppings, no garnish, no extra objects. Square 1:1 composition, dessert fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-c3def70f-1c32-46dc-9aca-f4432cdb6ebc.png"
         },
         {
           "id": "19293",
           "name": "Frozen yogurts, Vanilla, Soft-serve",
           "file": "19293-frozen-yogurts-vanilla-soft-serve.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one serving of vanilla soft-serve frozen yogurt, a creamy ivory high soft-serve swirl with clean ridged spirals, served in a small plain white ceramic dessert cup, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no table, no background, true transparent background beyond the cup, no text, no label, no toppings, no garnish, no extra objects. Square 1:1 composition, dessert fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-b380c3f4-dd0b-4341-a14e-b6857de341cf.png"
         },
         {
           "id": "09515",
           "name": "Fruit juice smoothie, Bolthouse farms, Green goodness",
           "file": "09515-fruit-juice-smoothie-bolthouse-farms-green-goodness.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a single serving of thick bright-green vegetable-and-fruit smoothie inspired by a green goodness blend, smooth vivid leafy green drink in a plain clear straight-sided glass, natural fresh green color, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bottle, no label, no straw, no table, no background, true transparent background, no text, no garnish, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-8ce2794c-298a-4b0b-a9f8-e531f0f7f056.png"
         },
         {
           "id": "09516",
           "name": "Fruit juice smoothie, Bolthouse farms, Strawberry banana",
           "file": "09516-fruit-juice-smoothie-bolthouse-farms-strawberry-banana.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a single serving of creamy strawberry-banana smoothie, soft rose-pink blended drink with faint strawberry flecks in a plain clear straight-sided glass, slightly lighter pink than a berry-only smoothie, natural appetizing color, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bottle, no label, no straw, no table, no background, true transparent background, no text, no garnish, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-0b853bff-4d89-4d5f-8770-2abf90568e08.png"
         },
         {
           "id": "09508",
           "name": "Fruit juice smoothie, Naked juice, Green machine",
           "file": "09508-fruit-juice-smoothie-naked-juice-green-machine.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a single serving of deep emerald-green fruit-and-vegetable smoothie inspired by a green machine blend, thick smooth drink in a plain clear straight-sided glass, darker richer green than a mild leafy green smoothie with subtle kiwi-and-apple color, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bottle, no label, no straw, no table, no background, true transparent background, no text, no garnish, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-b21ae731-9316-4e22-b9c7-8ae35be9eb18.png"
         },
         {
           "id": "09531",
           "name": "Fruit juice smoothie, Naked juice, Strawberry banana",
           "file": "09531-fruit-juice-smoothie-naked-juice-strawberry-banana.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a single serving of strawberry-banana fruit smoothie, creamy light coral-pink drink with a warm pale banana undertone and tiny strawberry flecks in a plain clear straight-sided glass, naturally distinct from a deep berry smoothie, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bottle, no label, no straw, no table, no background, true transparent background, no text, no garnish, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-c1c34c51-83ea-441c-92a4-0e3828b55c10.png"
         },
         {
           "id": "09513",
           "name": "Fruit juice smoothie, Odwalla, Original superfood",
           "file": "09513-fruit-juice-smoothie-odwalla-original-superfood.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a single serving of a thick golden peach-mango-banana fruit smoothie inspired by an original superfood blend, warm yellow-orange color with a creamy fruit puree texture in a plain clear straight-sided glass, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bottle, no label, no straw, no table, no background, true transparent background, no text, no garnish, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-7e72c406-7ebe-4af3-9d6c-f14e634ba46c.png"
         },
         {
           "id": "09530",
           "name": "Fruit juice smoothie, Odwalla, Strawberry banana",
           "file": "09530-fruit-juice-smoothie-odwalla-strawberry-banana.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a single serving of strawberry-banana smoothie, smooth creamy strawberry-pink drink with tiny real strawberry flecks and a subtle banana-cream tone in a plain clear straight-sided glass, a richer pink than a pale strawberry-banana smoothie, natural fruit color, slight three-quarter view, centered, soft upper-left studio light, subtle realistic contact shadow only, no bottle, no label, no straw, no table, no background, true transparent background, no text, no garnish, no extra objects. Square 1:1 composition, glass fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-675a203a-0f78-44a6-a1ed-582b73131bf6.png"
         }
       ]
     },
