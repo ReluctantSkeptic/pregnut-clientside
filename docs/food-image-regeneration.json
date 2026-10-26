@@ -5870,73 +5870,97 @@
           "id": "11241",
           "name": "Kohlrabi, Raw",
           "file": "11241-kohlrabi-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one fresh raw kohlrabi bulb, pale green round vegetable with a few short trimmed stems and small natural leaf scars, one clean wedge cut away to reveal crisp ivory flesh, fresh matte skin, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no extra leafy tops, no soil, no knife, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, vegetable fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-3938c509-132d-4bdf-ae28-80beb23664e6.png"
         },
         {
           "id": "19009",
           "name": "Kraft, Cornnuts",
           "file": "19009-kraft-cornnuts.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated snack cutout for a nutrition app: a small compact pile of crunchy roasted corn kernels, golden-yellow and lightly browned whole maize kernels with a dry crisp toasted surface, irregular but clean and appetizing, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no bag, no brand, no seasoning dust, no bowl, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, kernels fill about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-d0a88882-dddf-459f-8707-00fea397f752.png"
         },
         {
           "id": "09149",
           "name": "Kumquats, Raw",
           "file": "09149-kumquats-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small cluster of fresh raw kumquats, tiny oval bright-orange citrus fruits with smooth pebbled skin, two whole fruits and one cut lengthwise to reveal juicy segmented flesh and seeds, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no leaves, no bowl, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, fruit fills about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-336f6c0e-4a84-4dcb-b902-fcb88c416e57.png"
         },
         {
           "id": "17060",
           "name": "Lamb, Cubed for stew or kabob (leg and shoulder), Separable lean only, Braised",
           "file": "17060-lamb-cubed-for-stew-or-kabob-leg-and-shoulder-separable-lean-only-braised.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a modest serving of braised lamb stew cubes made from lean leg and shoulder, tender dark golden-brown lamb chunks with lightly caramelized edges and a subtle moist braised sheen, arranged in a small plain white ceramic bowl with just a little natural cooking jus, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no vegetables, no herbs, no garnish, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-4cd92b96-6771-4150-bd63-9c470dfc9137.png"
         },
         {
           "id": "17225",
           "name": "Lamb, Ground, Broiled",
           "file": "17225-lamb-ground-broiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one small broiled ground-lamb patty, round and gently irregular with a browned seared exterior and a cut edge showing a moist fine-textured interior, subtle natural grill marks, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no bun, no herbs, no sauce, no garnish, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, patty fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-c63a6a08-2c0e-4e41-ac7d-5e4b897b1b17.png"
         },
         {
           "id": "11245",
           "name": "Lambsquarters, Boiled",
           "file": "11245-lambsquarters-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one modest serving of boiled lambsquarters greens, tender cooked broad green leaves and delicate stems gathered in a compact glossy mound inside a small plain white ceramic bowl, natural soft moist texture, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no garnish, no seasoning, no spoon, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, bowl fills about 65% of frame with generous transparent padding.",
+          "generatedSource": "exec-b8e04f5d-d219-4454-8e46-07c49ce16d28.png"
         },
         {
           "id": "04002",
           "name": "Lard",
           "file": "04002-lard.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small clear glass ramekin holding smooth opaque white rendered lard, soft semi-solid fat with a gently rounded surface and subtle creamy sheen, neat clean serving, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no spoon, no label, no wrapper, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, ramekin fills about 60% of frame with generous transparent padding.",
+          "generatedSource": "exec-bc0506e3-f1ac-47ba-86aa-0ae21973838d.png"
         },
         {
           "id": "36403",
           "name": "Latino, Empanadas, Beef, Prepared",
           "file": "36403-latino-empanadas-beef-prepared.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: two golden baked beef empanadas, crisp half-moon pastry turnovers with neatly crimped edges, one whole and one cut open to reveal a savory finely crumbled browned beef filling, flaky pastry texture, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no plate, no sauce, no garnish, no paper, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, pastries fill about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-04043aef-4870-432c-b440-c03375205326.png"
         },
         {
           "id": "36409",
           "name": "Latino, Pupusas con queso (pupusas, Cheese)",
           "file": "36409-latino-pupusas-con-queso-pupusas-cheese.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: two Salvadoran cheese pupusas, thick hand-formed round corn masa cakes with golden-brown griddle spots and softly crisp edges, one whole and one cut open showing a warm melted white cheese filling, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no curtido, no salsa, no garnish, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, pupusas fill about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-8db8c5f1-f9a2-4de3-bb2e-592d2510fc26.png"
         },
         {
           "id": "36410",
           "name": "Latino, Pupusas del cerdo (pupusas, Pork)",
           "file": "36410-latino-pupusas-del-cerdo-pupusas-pork.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: two Salvadoran pork pupusas, thick hand-formed round corn masa cakes with golden-brown griddle spots and softly crisp edges, one whole and one cut open showing savory finely shredded cooked pork filling, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no cheese, no curtido, no salsa, no garnish, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, pupusas fill about 70% of frame with generous transparent padding.",
+          "generatedSource": "exec-3d9a7155-f5ab-4ea1-8e98-876083450a90.png"
         },
         {
           "id": "36411",
           "name": "Latino, Tamale, Corn",
           "file": "36411-latino-tamale-corn.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one traditional corn tamale made with tender yellow masa, partially unwrapped in a pale corn husk so the soft golden corn filling is visible, a small neat cut section showing moist masa texture, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no salsa, no garnish, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, entire tamale and husk visible with generous transparent padding.",
+          "generatedSource": "exec-024373c8-1505-4ae9-abc9-4a78635fff0a.png"
         },
         {
           "id": "36412",
           "name": "Latino, Tamale, Pork",
           "file": "36412-latino-tamale-pork.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one traditional pork tamale in a pale corn husk, partially unwrapped to reveal golden masa surrounding a savory tender shredded pork center, one small cut end clearly showing the pork filling, centered, slight three-quarter view, soft upper-left studio light, subtle realistic contact shadow only, no salsa, no garnish, no plate, no table, no background, true transparent background, no text, no extra objects. Square 1:1 composition, entire tamale and husk visible with generous transparent padding.",
+          "generatedSource": "exec-3658dbcc-05dc-4c18-b6a6-977763a01efc.png"
         }
       ]
     },
