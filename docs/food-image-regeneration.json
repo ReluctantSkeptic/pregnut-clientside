@@ -3042,73 +3042,97 @@
           "id": "08584",
           "name": "Cereal, Kellogg's special k chocolatey delight",
           "file": "08584-cereal-kellogg-s-special-k-chocolatey-delight.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of chocolatey breakfast flakes in a plain white ceramic bowl, no milk. Show many thin crisp golden wheat-and-rice flakes with dark cocoa flecks, a few small chocolate curls and tiny chocolate clusters. Keep the flakes pale golden and chocolate accents distinct; dry crunchy texture. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-2140f269-f4a6-446b-9a1d-f48576d0909b.png"
         },
         {
           "id": "08383",
           "name": "Cereal, Kellogg's special k red berries",
           "file": "08383-cereal-kellogg-s-special-k-red-berries.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of red-berry wheat-and-rice flake cereal in a plain white ceramic bowl, no milk. Show thin crisp pale-golden flakes mixed with a few visible pieces of dried red strawberry and small red berry clusters, bright but natural color. Clearly flakes with fruit, not granola. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-ef4be39b-ef96-484a-8e0c-359cd5b3b9b6.png"
         },
         {
           "id": "08602",
           "name": "Cereal, Kellogg's special k, Cinnamon pecan",
           "file": "08602-cereal-kellogg-s-special-k-cinnamon-pecan.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of cinnamon pecan wheat-and-rice flake cereal in a plain white ceramic bowl, no milk. Show thin pale-golden crisp flakes mixed with a few toasted pecan pieces and tiny cinnamon oat clusters, warm cinnamon speckles and dry texture. Clearly flakes with pecans, not a bowl of granola. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-ce00c95e-403f-4f9e-9e99-319a5371a641.png"
         },
         {
           "id": "08380",
           "name": "Cereal, Kellogg's, Raisin bran crunch",
           "file": "08380-cereal-kellogg-s-raisin-bran-crunch.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of raisin bran crunch cereal in a plain white ceramic bowl, no milk. Show crisp medium-brown bran flakes mixed with chunky toasted oat-and-wheat clusters and a generous scattering of dark raisins. Keep bran flakes and clusters visually distinct, with a dry crunchy texture. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-9908c946-5dcf-4bc9-a24c-5031685ccd25.png"
         },
         {
           "id": "08047",
           "name": "Cereal, King vitaman",
           "file": "08047-cereal-king-vitaman.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of old-fashioned toasted corn-and-oat breakfast cereal in a plain white ceramic bowl, no milk. Show many distinct small puffed cereal pieces shaped like little crowns, with scalloped points and a shallow center, pale honey-golden, lightly sweetened and porous. Clearly crown-shaped puffs, not loops or flakes. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, character, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-27ebb9b4-e9f6-416d-94c9-4fe18d8c644b.png"
         },
         {
           "id": "08048",
           "name": "Cereal, Kix",
           "file": "08048-cereal-kix.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of crispy corn-puff cereal in a plain white ceramic bowl, no milk. Show many small plump round-to-oval corn puffs, pale golden yellow with lightly toasted freckles and airy porous surfaces. Keep the pieces simple and distinct, not rings, flakes or balls with a smooth shell. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-faf0fd18-cc0f-4cba-a956-2f8d79343325.png"
         },
         {
           "id": "08085",
           "name": "Cereal, Kretschmer honey crunch wheat germ",
           "file": "08085-cereal-kretschmer-honey-crunch-wheat-germ.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of honey-crunch toasted wheat germ cereal in a plain white ceramic bowl, no milk. Show many fine golden toasted wheat-germ granules gathered into delicate crisp little clusters, with a light honey gloss and warm amber color. Keep it visibly grainy and crumbly, not broad flakes or large granola chunks. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-c90f9aac-bae1-45ea-b850-e6cbda59c64f.png"
         },
         {
           "id": "08220",
           "name": "Cereal, Low fat 100% natural granola with raisins",
           "file": "08220-cereal-low-fat-100-natural-granola-with-raisins.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of low-fat all-natural raisin granola in a plain white ceramic bowl, no milk. Show loose toasted rolled oats and crisp wheat pieces bound into modest crunchy clusters, with several plump dark raisins mixed throughout. Dry natural golden-brown texture, no nuts or other fruit. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-8b2aedb2-e8ea-4289-81f3-9425b5a8af4f.png"
         },
         {
           "id": "08050",
           "name": "Cereal, Lucky charms",
           "file": "08050-cereal-lucky-charms.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of colorful marshmallow oat cereal in a plain white ceramic bowl, no milk. Show pale golden crunchy toasted oat pieces with a few bright pastel marshmallow shapes—tiny stars, moons, hearts and rainbows—mixed throughout. Crisp dry cereal, vivid but natural colors, no text or themed decorations. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No box, brand, character, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-68305dc5-3b96-4c80-bf7c-eb8f85a89e37.png"
         },
         {
           "id": "08138",
           "name": "Cereal, Marshmallow mateys",
           "file": "08138-cereal-marshmallow-mateys.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of marshmallow corn cereal in a plain white ceramic bowl, no milk. Show many small crunchy golden corn cereal pieces mixed with a few colorful marshmallows shaped like stars, moons and little nautical shapes, in pale blue, pink, yellow and white. Keep the cereal dry, playful and clearly distinct from oat rings. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No pirate character, package, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-b82c7b76-eecb-46f6-ab97-dc0adf2665b7.png"
         },
         {
           "id": "08087",
           "name": "Cereal, Multi-grain cheerios",
           "file": "08087-cereal-multi-grain-cheerios.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of multigrain toasted oat ring cereal in a plain white ceramic bowl, no milk. Show many small O-shaped rings with clear center holes, warm golden-brown and lightly toasted with slightly varied grain flecks and crisp porous texture. Clearly ring cereal, no fruit, sugar coating or clusters. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No package, branding, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-822ca3df-bccb-4a39-bd5a-a185aa0be5f8.png"
         },
         {
           "id": "08277",
           "name": "Cereal, Nature valley low fat fruit granola",
           "file": "08277-cereal-nature-valley-low-fat-fruit-granola.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one square photorealistic food cutout image: a small serving of low-fat fruit granola in a plain white ceramic bowl, no milk. Show loose golden toasted oat flakes and crunchy small cereal clusters with visible pieces of dried red berries, golden raisins and a few pale dried apple bits. Keep the mixture natural, crisp and dry with clear fruit details, no nuts. Centered three-quarter overhead close food photo with clear margins, soft upper-left light. No packaging, brand, logo, text or background. Genuine transparent background.",
+          "generatedSource": "exec-2eef2319-f611-4098-863a-06d11eacb9a3.png"
         }
       ]
     },
