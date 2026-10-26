@@ -4860,73 +4860,97 @@
           "id": "01225",
           "name": "Dulce de leche",
           "file": "01225-dulce-de-leche.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of dulce de leche. Subject: thick glossy golden-caramel milk spread with a smooth silky surface and a soft spooned ribbon curling back into a small plain white ceramic bowl, rich warm amber color. Composition: centered three-quarter overhead food photograph, bowl and spread fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate bowl shadow. Background: genuine transparent alpha. No jar, label, spoon, bread, table, text, watermark, or border.",
+          "generatedSource": "exec-3466f17c-bde8-4f6b-8c9c-50f2f9ecc4ff.png"
         },
         {
           "id": "15025",
           "name": "Eel",
           "file": "15025-eel.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a clean fresh eel portion. Subject: one long tapered eel fillet with intact glossy dark olive-brown skin along one side and pale cream flesh visible at a neatly cut end, smooth natural shape and moist fresh seafood texture, no scales emphasized. Present as a single tidy fillet. Composition: centered three-quarter overhead food photograph, fillet fully visible, generous transparent margins, no plate. Lighting: soft upper-left studio light, subtle contact shadow. Background: genuine transparent alpha. No whole snake-like body, sauce, grill marks, lemon, herbs, table, text, watermark, or border.",
+          "generatedSource": "exec-615dac8e-1527-4d22-bcef-456fc8ed290f.png"
         },
         {
           "id": "01144",
           "name": "Egg substitute, Powder",
           "file": "01144-egg-substitute-powder.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of powdered egg substitute. Subject: fine pale buttery-yellow dry egg-replacement powder, softly heaped in a small plain white ceramic bowl with a clean powdery texture and a few fine grains visible near the rim. Composition: centered three-quarter overhead food photograph, bowl and powder fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No prepared scramble, shell eggs, packet, label, spoon, table, text, watermark, or border.",
+          "generatedSource": "exec-b4535baf-696f-4054-9d66-a3d026c47d8b.png"
         },
         {
           "id": "01138",
           "name": "Egg, Duck, Fresh",
           "file": "01138-egg-duck-fresh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: two fresh raw duck eggs. Subject: distinctly large smooth duck eggs with pale cream-to-muted blue-gray shells, one intact and one cracked open in a small white ceramic bowl revealing a clear raw white and rich deep-golden yolk; clean natural shell texture. Composition: centered three-quarter overhead food photograph, both eggs fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No chicken eggs, cooked eggs, nest, carton, package, table, text, watermark, or border.",
+          "generatedSource": "exec-ff079e98-c836-4e9a-a9dc-05da701c17fd.png"
         },
         {
           "id": "01139",
           "name": "Egg, Goose, Fresh",
           "file": "01139-egg-goose-fresh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one fresh raw goose egg, notably larger than a duck or chicken egg. Subject: very large oval smooth matte ivory-white shell with broad round ends, a second goose egg cracked open in a small plain white ceramic bowl showing clear raw white and a large golden yolk; emphasize the unusually large egg size. Composition: centered three-quarter overhead food photograph, intact egg and cracked egg fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No chickens, duck shell tint, cooked egg, nest, carton, package, table, text, watermark, or border.",
+          "generatedSource": "exec-28e215c6-b3ff-480e-9283-a9c03684f028.png"
         },
         {
           "id": "01131",
           "name": "Egg, Poached",
           "file": "01131-egg-poached.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one freshly poached egg. Subject: delicate smooth white oval of softly set egg white with a just-visible warm golden yolk gently bulging through a small opening, tender moist poached texture, on a small plain white ceramic plate. Composition: centered three-quarter overhead food photograph, entire egg and plate fully visible, generous transparent margins. Lighting: soft upper-left studio light, delicate plate shadow. Background: genuine transparent alpha. No toast, herbs, pepper, hollandaise, pan, text, watermark, or border.",
+          "generatedSource": "exec-6539547a-855f-48c2-87f9-28abe143e2dc.png"
         },
         {
           "id": "01140",
           "name": "Egg, Quail, Fresh",
           "file": "01140-egg-quail-fresh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: several fresh raw quail eggs. Subject: tiny delicate eggs with pale cream shells covered in distinctive dark brown speckles, three intact with one cracked open in a small white ceramic bowl showing its small clear white and golden yolk; clearly miniature quail eggs. Composition: centered three-quarter overhead food photograph, eggs fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle bowl shadow. Background: genuine transparent alpha. No chicken eggs, nest, straw, carton, package, table, text, watermark, or border.",
+          "generatedSource": "exec-d78bf182-c451-4478-be5c-e7604d08c324.png"
         },
         {
           "id": "01124",
           "name": "Egg, White, Fresh",
           "file": "01124-egg-white-fresh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: fresh raw egg white with no yolk. Subject: one portion of clear slightly opalescent viscous raw egg albumen pooled visibly in a small plain white ceramic bowl, gelatinous glossy folds that catch the studio light, one clean half eggshell beside it; absolutely no yellow yolk. Composition: centered three-quarter overhead food photograph, bowl and egg white fully visible, generous transparent margins. Lighting: soft upper-left studio light, gentle bowl shadow. Background: genuine transparent alpha. No whole egg, cooked white, whisk, carton, package, table, text, watermark, or border.",
+          "generatedSource": "exec-9fa593da-1397-4649-ad67-ab51fd159e5c.png"
         },
         {
           "id": "01125",
           "name": "Egg, Yolk, Fresh",
           "file": "01125-egg-yolk-fresh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: one fresh raw egg yolk with no egg white. Subject: a single intact glossy deep golden-orange spherical yolk, smooth and slightly domed, resting in a small plain white ceramic pinch bowl with a tiny amount of clear surrounding moisture; no albumen. Composition: centered three-quarter overhead food photograph, bowl and yolk fully visible, generous transparent margins. Lighting: soft upper-left studio light, gentle bowl shadow. Background: genuine transparent alpha. No cracked shell, cooked yolk, salt, pepper, spoon, package, table, text, watermark, or border.",
+          "generatedSource": "exec-2d5125fc-9aa7-4583-ac30-e3bf76c26f7b.png"
         },
         {
           "id": "01057",
           "name": "Eggnog",
           "file": "01057-eggnog.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a glass of classic eggnog. Subject: creamy pale ivory-yellow chilled eggnog in a simple clear tumbler, smooth rich surface with a tiny delicate dusting of nutmeg, festive but unadorned; no alcohol. Composition: centered three-quarter view, glass fully visible, generous transparent margins. Lighting: soft upper-left studio light, realistic glass highlights and faint contact shadow. Background: genuine transparent alpha. No cinnamon stick, whipped cream, straw, bottle, label, table, text, watermark, or border.",
+          "generatedSource": "exec-5ac1a3e0-2e66-4195-992c-056a1f6b2fae.png"
         },
         {
           "id": "11210",
           "name": "Eggplant, Boiled",
           "file": "11210-eggplant-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of boiled eggplant. Subject: tender moist chunks of boiled aubergine with soft pale cream flesh and narrow deep-purple skin strips, slightly translucent cooked texture and simple unseasoned appearance, served in a small plain white ceramic bowl. Composition: centered three-quarter overhead food photograph, bowl and eggplant fully visible, generous transparent margins. Lighting: soft upper-left studio light, subtle bowl shadow. Background: genuine transparent alpha. No tomatoes, sauce, oil, herbs, garlic, table, text, watermark, or border.",
+          "generatedSource": "exec-0e27c32f-d503-413a-9e92-f876ec073636.png"
         },
         {
           "id": "43146",
           "name": "Eggplant, Pickled",
           "file": "43146-eggplant-pickled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition website. Primary request: a small serving of pickled eggplant. Subject: glossy tender eggplant slices with dark purple skin and pale beige flesh, neatly layered in a small plain white ceramic bowl with a modest amount of clear tangy pickle brine and a few tiny herb flecks; visibly preserved rather than plain boiled. Composition: centered three-quarter overhead food photograph, bowl and slices fully visible, generous transparent margins. Lighting: soft upper-left studio light, faint bowl shadow. Background: genuine transparent alpha. No glass jar, red sauce, tomato, package, table, text, watermark, or border.",
+          "generatedSource": "exec-b359f023-d444-45df-b1de-8edd59ade314.png"
         }
       ]
     },
