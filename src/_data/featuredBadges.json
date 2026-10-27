@@ -1,0 +1,23 @@
+[
+  {
+    "href": "https://twelve.tools",
+    "src": "https://twelve.tools/badge0-dark.svg",
+    "alt": "Featured on Twelve Tools",
+    "width": 200,
+    "height": 54
+  },
+  {
+    "href": "https://neeed.directory",
+    "src": "https://neeed.directory/badges/neeed-badge-dark.svg",
+    "alt": "Featured on neeed.directory",
+    "width": 139,
+    "height": 44
+  },
+  {
+    "href": "https://www.saas.fyi",
+    "src": "https://www.saas.fyi/assets/brand/badge.svg",
+    "alt": "Featured on SaaS.fyi",
+    "width": 200,
+    "height": 80
+  }
+]
