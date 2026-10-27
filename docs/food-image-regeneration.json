@@ -9304,73 +9304,97 @@
           "id": "11445",
           "name": "Seaweed, Kelp, Raw",
           "file": "11445-seaweed-kelp-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small fresh raw kelp seaweed frond, broad ruffled olive-green to deep forest-green blade with realistic wet sheen, softly folded and branching naturally, clean and edible, arranged in a compact loose cluster. Composition/framing: centered at a gentle three-quarter overhead view, subject about 58% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, plate, shells, garnish, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-bad90e5f-e880-4755-8e7e-f8f7e1e6a020.png"
         },
         {
           "id": "11446",
           "name": "Seaweed, Laver, Raw",
           "file": "11446-seaweed-laver-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small portion of fresh raw laver seaweed, delicate dark burgundy-purple thin leafy sheets with softly ruffled edges, subtle wet sheen, loosely folded into a compact natural cluster. Composition/framing: centered at a gentle three-quarter overhead view, subject about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no sushi, rice, bowl, shells, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-a542f7be-9ab8-4a9c-9a15-34def4257513.png"
         },
         {
           "id": "11667",
           "name": "Seaweed, Spirulina, Dried",
           "file": "11667-seaweed-spirulina-dried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: dried spirulina powder, a small compact mound of fine deep green-blue powder with a few naturally clumped grains, presented in a plain shallow white ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 56% of a square canvas with clear transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fresh seaweed, leaves, scoop, spoon, package, table, background, label or text; true transparent background.",
+          "generatedSource": "exec-e37006af-7d6a-4b56-802c-add2e6dcebca.png"
         },
         {
           "id": "11669",
           "name": "Seaweed, Wakame, Raw",
           "file": "11669-seaweed-wakame-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a compact cluster of fresh raw wakame seaweed, glossy deep forest-green folded fronds with delicate ruffled edges and a few narrow stems, naturally layered and moist. Composition/framing: centered in a plain small white ceramic bowl at a gentle three-quarter overhead view, bowl about 56% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no soup, sesame, other ingredients, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-ec25b3e2-75a4-4bf5-87dd-25a4d86d24bd.png"
         },
         {
           "id": "12516",
           "name": "Seeds, Pumpkin and squash seed kernels, Roasted",
           "file": "12516-seeds-pumpkin-and-squash-seed-kernels-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small loose mound of roasted pumpkin and squash seed kernels, oval flat olive-green pepitas with gently toasted golden-brown edges and a few lightly wrinkled surfaces, realistic dry roasted texture. Composition/framing: centered at a gentle three-quarter overhead view, seeds occupy about 56% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no shells, bowl, spoon, salt pile, table, background, package or text; true transparent background.",
+          "generatedSource": "exec-f27edd77-8ca6-430f-b606-24dc997df296.png"
         },
         {
           "id": "12529",
           "name": "Seeds, Sesame seed kernels, With salt added (decorticated)",
           "file": "12529-seeds-sesame-seed-kernels-with-salt-added-decorticated.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small neat mound of salted hulled sesame seed kernels, tiny ivory-white oval seeds with a few glistening coarse salt crystals visible among them, delicate dry texture. Composition/framing: centered at a gentle three-quarter overhead view, seeds occupy about 52% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, spoon, bread, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-2534473a-1012-4fa6-9b0d-1621f1258477.png"
         },
         {
           "id": "12023",
           "name": "Seeds, Sesame seeds, Whole, Dried",
           "file": "12023-seeds-sesame-seeds-whole-dried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a modest loose mound of whole dried sesame seeds, tiny pale ivory and warm tan oval seeds with a crisp dry matte finish and subtle individual texture. Composition/framing: centered at a gentle three-quarter overhead view, seeds occupy about 54% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no salt crystals, bowl, bread, spoon, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-3fa5205d-ada9-44a6-8a2a-8d3e189f53d0.png"
         },
         {
           "id": "12537",
           "name": "Seeds, Sunflower seed kernels, Dry roasted",
           "file": "12537-seeds-sunflower-seed-kernels-dry-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small natural mound of dry-roasted hulled sunflower seed kernels, elongated cream-colored kernels with lightly toasted golden-brown edges and fine dry roasted texture, no shells. Composition/framing: centered at a gentle three-quarter overhead view, seeds occupy about 54% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, salt, spoon, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-494a3dcf-783f-48b2-a866-06453972a2f8.png"
         },
         {
           "id": "12538",
           "name": "Seeds, Sunflower seed kernels, Oil roasted",
           "file": "12538-seeds-sunflower-seed-kernels-oil-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small natural mound of oil-roasted hulled sunflower seed kernels, elongated ivory and warm golden kernels with a subtle glossy roasted sheen, a few lightly toasted brown edges, no shells. Composition/framing: centered at a gentle three-quarter overhead view, seeds occupy about 54% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, salt, spoon, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-544ddb37-dddd-469b-b2b1-56711e89a182.png"
         },
         {
           "id": "19080",
           "name": "Semisweet chocolate",
           "file": "19080-semisweet-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small loose pile of semisweet dark chocolate, several irregular broken squares and bite-size shards with rich deep brown color, satin matte cocoa surface and a few clean snapped edges, no wrappers. Composition/framing: centered at a gentle three-quarter overhead view, chocolate occupies about 55% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, plate, nuts, chips, table, background, packaging, lettering or text; true transparent background.",
+          "generatedSource": "exec-0a126537-7d6d-4554-84a5-144d34925408.png"
         },
         {
           "id": "19154",
           "name": "Sesame crunch",
           "file": "19154-sesame-crunch.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: sesame crunch brittle candy, a compact pile of thin amber honey-sugar brittle shards densely embedded with ivory and toasted sesame seeds, glossy caramelized surface and crisp broken edges. Composition/framing: centered at a gentle three-quarter overhead view, brittle occupies about 55% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, bowl, wrapper, extra candy, table, background or text; true transparent background.",
+          "generatedSource": "exec-9a60fbdb-c78b-45a4-892d-19cfe0c3a6e9.png"
         },
         {
           "id": "19418",
           "name": "Sesame sticks, Wheat-based",
           "file": "19418-sesame-sticks-wheat-based.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: wheat-based sesame snack sticks, a compact small pile of short straight crunchy golden-brown baked breadsticks coated with visible ivory sesame seeds, crisp porous baked texture, varied natural angles. Composition/framing: centered at a gentle three-quarter overhead view, sticks occupy about 55% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no dip, bowl, plate, crumbs scattered away from the pile, table, background, package or text; true transparent background.",
+          "generatedSource": "exec-2b86f27b-a3b2-4334-a1a2-877c04c43da2.png"
         }
       ]
     },
@@ -9381,73 +9405,97 @@
           "id": "15094",
           "name": "Shad, American",
           "file": "15094-shad-american.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small cooked American shad fish portion, golden-browned flaky silvery-skinned fish fillet with realistic moist flesh, no bones projecting, simply prepared. Composition/framing: centered at a gentle three-quarter overhead view, food occupies about 55% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no garnish, lemon, plate, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-e584221f-cb11-43b3-91d9-d915c25982d7.png"
         },
         {
           "id": "14347",
           "name": "Shake, Fast food, Vanilla",
           "file": "14347-shake-fast-food-vanilla.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a classic thick vanilla fast-food milkshake in a simple plain white paper cup with a soft swirl of pale vanilla shake visible above the rim, no logo, straw or toppings. Composition/framing: centered at a gentle three-quarter overhead view, cup occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no table, background, branding, label or text; true transparent background.",
+          "generatedSource": "exec-9c0d2a6a-7e88-4c3e-824d-da1d858badf5.png"
         },
         {
           "id": "19097",
           "name": "Sherbet, Orange",
           "file": "19097-sherbet-orange.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one generous round scoop of vivid orange sherbet with a slightly creamy icy surface, visible smooth ice crystals, served in a small plain ivory ceramic dessert dish. Composition/framing: centered at a gentle three-quarter overhead view, dish occupies about 58% of a square canvas with clear transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no spoon, garnish, fruit, table, background, branding or text; true transparent background.",
+          "generatedSource": "exec-c642a0cf-7bcd-44c9-84a8-882dc3c27b14.png"
         },
         {
           "id": "04554",
           "name": "Shortening industrial, Soybean (hydrogenated) and cottonseed",
           "file": "04554-shortening-industrial-soybean-hydrogenated-and-cottonseed.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small portion of solid industrial vegetable shortening, smooth opaque white creamy fat with softly rounded ridges, neatly presented in a plain shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl occupies about 54% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no oil pour, spoon, package, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-f3d01d1e-b50e-4b88-971a-25cf50278dee.png"
         },
         {
           "id": "04666",
           "name": "Shortening, Industrial, Soy (partially hydrogenated ) and corn for frying",
           "file": "04666-shortening-industrial-soy-partially-hydrogenated-and-corn-for-frying.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: solid industrial vegetable shortening used for frying, a compact scoop of smooth opaque white shortening with a gently glossy soft surface in a small plain ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl occupies about 54% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no pour, utensils, package, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-3bd56c7a-2b6d-4bd3-8125-4c6820f6a447.png"
         },
         {
           "id": "04615",
           "name": "Shortening, Vegetable, Household, Composite",
           "file": "04615-shortening-vegetable-household-composite.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: household vegetable shortening, a small pale ivory softly whipped mound with smooth rounded ridges, presented on a simple small shallow white ceramic dish. Composition/framing: centered at a gentle three-quarter overhead view, dish occupies about 54% of a square canvas with clear transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no package, spoon, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-1f44adc4-d040-4060-9632-3b140b5f3139.png"
         },
         {
           "id": "25070",
           "name": "Shrimp cracker",
           "file": "25070-shrimp-cracker.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small loose pile of airy crispy shrimp crackers, thin puffed curled discs in natural pale coral, ivory and light peach tones with porous bubbles and lightly browned edges. Composition/framing: centered at a gentle three-quarter overhead view, crackers occupy about 56% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, dip, shrimp garnish, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-a709653d-6c39-44cb-806a-afbc8a3b5e9b.png"
         },
         {
           "id": "21059",
           "name": "Shrimp, Breaded and fried",
           "file": "21059-shrimp-breaded-and-fried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small pile of breaded fried shrimp, curled medium prawns with crisp coarse golden breadcrumb coating, deep-fried warm amber tips, tails removed. Composition/framing: centered at a gentle three-quarter overhead view, shrimp occupy about 56% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, lemon, dipping sauce, parsley, table, background or text; true transparent background.",
+          "generatedSource": "exec-ea9b62d4-7e35-495e-96fe-2f52e434a5dc.png"
         },
         {
           "id": "15152",
           "name": "Shrimp, Canned",
           "file": "15152-shrimp-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small serving of canned shrimp, tender tiny pale pink and ivory shrimp pieces drained and gathered in a plain shallow ivory ceramic bowl, natural moist texture. Composition/framing: centered at a gentle three-quarter overhead view, bowl occupies about 54% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no can, brine, lemon, garnish, spoon, table, background or text; true transparent background.",
+          "generatedSource": "exec-b1af3e9b-d809-43f1-b6e6-15b1005bb4f0.png"
         },
         {
           "id": "25020",
           "name": "Slim-fast optima meal bar, Milk chocolate peanut",
           "file": "25020-slim-fast-optima-meal-bar-milk-chocolate-peanut.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one unwrapped milk-chocolate peanut meal bar, compact rectangular bar with a smooth medium-brown chocolate coating and visible roasted peanut pieces and crisp grain filling on one snapped end. Composition/framing: centered at a gentle three-quarter overhead view, bar occupies about 56% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no wrapper, logo, brand name, plate, crumbs scattered away from the bar, table, background or text; true transparent background.",
+          "generatedSource": "exec-1dba4e2b-8cea-44e0-bb28-260f287d6095.png"
         },
         {
           "id": "14044",
           "name": "Slimfast, Meal replacement, high protein shake, 3-2-1 plan",
           "file": "14044-slimfast-meal-replacement-high-protein-shake-3-2-1-plan.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a smooth pale chocolate high-protein meal-replacement shake, creamy light cocoa-colored drink in a plain clear tumbler with a small natural foam layer, no powder or toppings. Composition/framing: centered at a gentle three-quarter overhead view, glass occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no package, logo, straw, table, background or text; true transparent background.",
+          "generatedSource": "exec-d0325c7c-6a56-4f6a-a511-e01c7235c8ef.png"
         },
         {
           "id": "19014",
           "name": "Snacks, Fruit leather, Rolls",
           "file": "19014-snacks-fruit-leather-rolls.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: two small rolls of fruit leather, thin flexible translucent deep red and amber fruit puree sheets rolled into loose spirals, with one short end partially unrolled to show the smooth chewy texture. Composition/framing: centered at a gentle three-quarter overhead view, rolls occupy about 54% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no wrapper, plate, fresh fruit, table, background or text; true transparent background.",
+          "generatedSource": "exec-900fffeb-c625-48af-88e6-de2cf15747da.png"
         }
       ]
     },
@@ -9458,73 +9506,97 @@
           "id": "90560",
           "name": "Snail",
           "file": "90560-snail.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small group of cooked edible land snails presented as escargot, dark natural spiral shells with one tender tan-brown snail visible at each opening, clean and appetizing with no butter. Composition/framing: centered at a gentle three-quarter overhead view, snails occupy about 54% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, parsley, garlic, butter, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-89107403-d05a-49f5-a3fd-c4f079cd997a.png"
         },
         {
           "id": "15101",
           "name": "Snapper",
           "file": "15101-snapper.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one fresh whole red snapper fish, cleaned and intact, natural silvery pink-red scales with a subtle rose sheen, clear eye and neatly closed mouth, fins and tail visible. Composition/framing: centered at a gentle three-quarter overhead view, fish occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no ice, lemon, garnish, cutting board, platter, table, background or text; true transparent background.",
+          "generatedSource": "exec-4cd72a04-e49a-4188-92fc-55f79f327db0.png"
         },
         {
           "id": "06749",
           "name": "Soup, Beef and vegetables, Canned",
           "file": "06749-soup-beef-and-vegetables-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: hearty canned-style beef and vegetable soup, a modest serving of clear savory broth with tender beef cubes, diced carrots, potatoes and green peas, presented in a plain small ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light, subtle contact shadow only. Constraints: no bread, spoon, garnish, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-7cc09d60-78ca-44e0-ab7f-7c5f2f7af7f5.png"
         },
         {
           "id": "06008",
           "name": "Soup, Beef broth or bouillon canned",
           "file": "06008-soup-beef-broth-or-bouillon-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: clear brown beef broth, a small serving of warm translucent golden-brown stock with a few tiny natural fat droplets, in a simple plain ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no meat, noodles, vegetables, spoon, garnish, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-f3cf077d-56b1-425c-836c-777770639701.png"
         },
         {
           "id": "06980",
           "name": "Soup, Beef stroganoff, Canned, Chunky style",
           "file": "06980-soup-beef-stroganoff-canned-chunky-style.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: chunky beef stroganoff soup, creamy light brown broth with tender beef pieces and sliced mushrooms, small serving in a plain ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no noodles, garnish, parsley, spoon, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-4f0f2d4c-ffca-4518-8058-94ea67f546fb.png"
         },
         {
           "id": "06024",
           "name": "Soup, Chicken and vegetable, Canned",
           "file": "06024-soup-chicken-and-vegetable-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: homestyle canned-style chicken vegetable soup, clear golden broth with tender chicken pieces, small diced carrots, celery and potatoes, served in a plain small ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no noodles, bread, spoon, parsley, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-938f3116-3e5f-4a1b-a7d2-e39f87e3c5ab.png"
         },
         {
           "id": "06194",
           "name": "Soup, Chicken broth",
           "file": "06194-soup-chicken-broth.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: clear chicken broth, a small serving of pale golden translucent stock in a simple plain ivory ceramic soup bowl, a few delicate golden droplets on the surface. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no meat, noodles, vegetables, spoon, garnish, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-f9512772-5216-48aa-8ab9-9fc80b476b52.png"
         },
         {
           "id": "06022",
           "name": "Soup, Chicken rice, Canned, Chunky",
           "file": "06022-soup-chicken-rice-canned-chunky.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: chunky chicken and rice soup, tender chicken chunks and distinct soft rice grains with tiny carrots in warm clear broth, in a plain small ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no crackers, bread, spoon, garnish, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-aed2e962-820f-4554-9286-8784fae842de.png"
         },
         {
           "id": "06208",
           "name": "Soup, Chicken vegetable with potato and cheese, Chunky",
           "file": "06208-soup-chicken-vegetable-with-potato-and-cheese-chunky.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: thick chunky chicken vegetable soup with potatoes and cheese, creamy pale golden broth, tender chicken pieces, potato cubes and a few soft vegetables with subtle melted cheese, in a plain small ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no garnish, bread, spoon, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-bab7f6b4-7712-4328-afc4-b8b9f043fdba.png"
         },
         {
           "id": "06015",
           "name": "Soup, Chicken, Canned, Chunky",
           "file": "06015-soup-chicken-canned-chunky.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: hearty chunky chicken soup, a small serving of tender chicken chunks, soft carrots and celery in a rich clear golden broth, presented in a plain ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no noodles, bread, spoon, garnish, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-03f46ef4-131d-4a28-8720-f592e71ef3bb.png"
         },
         {
           "id": "06070",
           "name": "Soup, Chunky beef, Canned",
           "file": "06070-soup-chunky-beef-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: chunky beef soup, tender dark-brown beef cubes, carrots, potatoes and peas in a rich dark amber broth, modest portion in a plain ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bread, spoon, parsley, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-1f5e9bb6-6c75-4054-80c7-9ab6916fb075.png"
         },
         {
           "id": "06027",
           "name": "Soup, Clam chowder, Manhattan style, Canned, Chunky",
           "file": "06027-soup-clam-chowder-manhattan-style-canned-chunky.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: chunky Manhattan clam chowder, a small serving of tomato-red broth with chopped clams, potato cubes, celery and tomato, in a plain small ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no crackers, spoon, parsley, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-032fc0ab-e2b6-4337-8fc4-b768d8516d81.png"
         }
       ]
     },
@@ -9535,73 +9607,97 @@
           "id": "06050",
           "name": "Soup, Pea, Split with ham, Canned, Chunky",
           "file": "06050-soup-pea-split-with-ham-canned-chunky.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: thick split pea soup with ham, deep green creamy puree with visible small pieces of pink-brown ham, hearty rustic texture in a plain small ivory ceramic soup bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 58% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no crackers, spoon, garnish, can, table, background or text; true transparent background.",
+          "generatedSource": "exec-490adee0-9ddc-488c-a6ac-3927ea6fc56e.png"
         },
         {
           "id": "01180",
           "name": "Sour cream, Fat free",
           "file": "01180-sour-cream-fat-free.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small serving of smooth bright white fat-free sour cream with a soft natural swirl, in a simple shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with clear transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no garnish, spoon, label, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-f36130e2-a079-48d5-a8e0-6e23d9633aa0.png"
         },
         {
           "id": "01179",
           "name": "Sour cream, Light",
           "file": "01179-sour-cream-light.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: light sour cream, a small thick glossy white dollop with a smooth shallow swirl, served in a simple shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with generous clear transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no herbs, garnish, spoon, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-42fa082e-0e51-4ee0-8458-1d01a802b312.png"
         },
         {
           "id": "01178",
           "name": "Sour cream, Reduced fat",
           "file": "01178-sour-cream-reduced-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small serving of reduced-fat sour cream, thick creamy white with a gentle natural swirl, presented in a simple shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no herbs, garnish, spoon, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-263582b2-9a8c-4ad8-addd-d25449544f17.png"
         },
         {
           "id": "09315",
           "name": "Soursop, Raw",
           "file": "09315-soursop-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one whole fresh raw soursop fruit with elongated oval green skin and distinctive soft short curved conical spines, plus a small cross-section slice showing white fibrous flesh and black seeds. Composition/framing: centered at a gentle three-quarter overhead view, fruit and slice occupy about 60% of a square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no leaves, plate, knife, table, background or text; true transparent background.",
+          "generatedSource": "exec-90f8514b-0030-40e7-bf0f-cd30e2460058.png"
         },
         {
           "id": "25067",
           "name": "South beach protein bar",
           "file": "25067-south-beach-protein-bar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one unwrapped chocolate-coated high-protein snack bar, small rectangular cocoa-brown bar with a firm smooth top and one broken end showing tan crunchy protein grains and nuts. Composition/framing: centered at a gentle three-quarter overhead view, bar occupies about 56% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no wrapper, logo, text, plate, crumbs scattered away from bar, table or background; true transparent background.",
+          "generatedSource": "exec-b63b148b-772e-403b-94d2-451a7b288d3d.png"
         },
         {
           "id": "25025",
           "name": "Soy chips or crisps",
           "file": "25025-soy-chips-or-crisps.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: small pile of crunchy soy chips or crisps, irregular thin golden-beige puffed rounds with airy porous texture and lightly browned edges. Composition/framing: centered at a gentle three-quarter overhead view, chips occupy about 55% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, dip, seasoning pile, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-f5bc28d4-adea-4260-9890-030860ccd87f.png"
         },
         {
           "id": "16115",
           "name": "Soy flour, Full-fat, Raw",
           "file": "16115-soy-flour-full-fat-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: raw full-fat soy flour, a small mound of fine pale cream-beige powder in a simple small shallow ivory ceramic bowl, soft powder surface and a few naturally clumped grains. Composition/framing: centered at a gentle three-quarter overhead view, bowl occupies about 54% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no soybean pile, scoop, spoon, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-d67eb6fd-f1d2-4b12-bdf0-516afc86a7af.png"
         },
         {
           "id": "16118",
           "name": "Soy flour, Low-fat",
           "file": "16118-soy-flour-low-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: low-fat soy flour, a small mound of fine light tan powder with slightly coarse natural texture in a simple shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no beans, scoop, spoon, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-b786670e-77a2-47d6-8ad9-55d11b1f5f5b.png"
         },
         {
           "id": "16122",
           "name": "Soy protein isolate",
           "file": "16122-soy-protein-isolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: soy protein isolate powder, a small compact mound of very fine pale cream powder with a few soft clumps, in a simple small shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no soybeans, scoop, spoon, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-d4cf4c3d-c409-4475-b793-f9b7871fe764.png"
         },
         {
           "id": "16125",
           "name": "Soy sauce made from hydrolyzed vegetable protein",
           "file": "16125-soy-sauce-made-from-hydrolyzed-vegetable-protein.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: dark soy sauce made from hydrolyzed vegetable protein, a modest serving of glossy deep brown liquid in a small simple ivory ceramic dipping bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bottle, label, chopsticks, food, table, background or text; true transparent background.",
+          "generatedSource": "exec-d5d5a6a9-3c9b-458b-a560-e8fd86bc5665.png"
         },
         {
           "id": "16124",
           "name": "Soy sauce made from soy (tamari)",
           "file": "16124-soy-sauce-made-from-soy-tamari.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: tamari soy sauce made from soy, a modest serving of clear glossy dark reddish-brown liquid in a small plain ivory ceramic dipping bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bottle, label, chopsticks, food, table, background or text; true transparent background.",
+          "generatedSource": "exec-48aca4a1-f577-47d2-9fdf-ec2cf9661e45.png"
         }
       ]
     },
@@ -9612,73 +9708,97 @@
           "id": "43299",
           "name": "Soybean, Curd cheese",
           "file": "43299-soybean-curd-cheese.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: fresh soybean curd cheese (tofu), several neat soft off-white rectangular tofu cubes with a delicate porous texture and moist smooth surfaces, arranged in a small compact stack. Composition/framing: centered at a gentle three-quarter overhead view, tofu occupies about 55% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no sauce, herbs, plate, chopsticks, table, background or text; true transparent background.",
+          "generatedSource": "exec-85af425d-8a15-4086-9072-1686f824285c.png"
         },
         {
           "id": "16109",
           "name": "Soybeans, Mature cooked, Boiled",
           "file": "16109-soybeans-mature-cooked-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small serving of boiled mature soybeans, plump pale golden-beige beans with smooth moist skins, in a simple small shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no pods, herbs, spoon, salt pile, table, background or text; true transparent background.",
+          "generatedSource": "exec-c276b9d1-ccc8-4eec-8d2b-cd7ca8cf8fd3.png"
         },
         {
           "id": "11453",
           "name": "Soybeans, Mature seeds, Sprouted, Steamed",
           "file": "11453-soybeans-mature-seeds-sprouted-steamed.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: steamed mature soybean sprouts, a small compact cluster of pale ivory sprouted soybeans with visible short tender white roots and yellow seed heads, lightly moist, in a plain small shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no other vegetables, garnish, spoon, table, background or text; true transparent background.",
+          "generatedSource": "exec-7aeff1ad-ad86-4e0f-817a-5696c0a721ea.png"
         },
         {
           "id": "16230",
           "name": "Soymilk (all flavors), Nonfat, With added calcium, Vitamins a and d",
           "file": "16230-soymilk-all-flavors-nonfat-with-added-calcium-vitamins-a-and-d.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a serving of nonfat soymilk, smooth pale ivory beverage in a simple clear tumbler with a slight natural meniscus, no foam. Composition/framing: centered at a gentle three-quarter overhead view, glass occupies about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no carton, label, straw, beans, table, background or text; true transparent background.",
+          "generatedSource": "exec-989ac245-c4e5-4fd8-9119-b6e252b755d3.png"
         },
         {
           "id": "16168",
           "name": "Soymilk, Chocolate, With added calcium, Vitamins a and d",
           "file": "16168-soymilk-chocolate-with-added-calcium-vitamins-a-and-d.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: chocolate soymilk, smooth even light cocoa-brown plant milk in a simple clear tumbler with a subtle creamy sheen. Composition/framing: centered at a gentle three-quarter overhead view, glass occupies about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no carton, label, straw, chocolate pieces, table, background or text; true transparent background.",
+          "generatedSource": "exec-95b9d288-ed26-47da-9fc2-7e30ffa849ba.png"
         },
         {
           "id": "16225",
           "name": "Soymilk, Original and vanilla, Light, With added calcium, Vitamins a and d",
           "file": "16225-soymilk-original-and-vanilla-light-with-added-calcium-vitamins-a-and-d.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: light vanilla soymilk, a small serving of creamy pale cream-colored plant milk in a simple clear tumbler, faint vanilla tone and smooth surface. Composition/framing: centered at a gentle three-quarter overhead view, glass occupies about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no vanilla pods, carton, label, straw, table, background or text; true transparent background.",
+          "generatedSource": "exec-bffd374f-ea25-4db0-b7fb-f267a6a0bcaa.png"
         },
         {
           "id": "16120",
           "name": "Soymilk, Original and vanilla, Unfortified",
           "file": "16120-soymilk-original-and-vanilla-unfortified.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: unfortified original vanilla soymilk, pale warm ivory plant milk with a subtle vanilla tint in a simple clear tumbler, smooth liquid surface. Composition/framing: centered at a gentle three-quarter overhead view, glass occupies about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no carton, label, straw, vanilla pods, table, background or text; true transparent background.",
+          "generatedSource": "exec-5096f78b-f7d7-436b-91fc-a06ba994fba2.png"
         },
         {
           "id": "20126",
           "name": "Spaghetti, Spinach, Dry",
           "file": "20126-spaghetti-spinach-dry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one compact nest of dry spinach spaghetti pasta, long thin uncooked green strands with natural muted spinach color, loosely coiled with several ends visible, matte dried texture. Composition/framing: centered at a gentle three-quarter overhead view, pasta occupies about 56% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, sauce, fork, cooked noodles, table, background or text; true transparent background.",
+          "generatedSource": "exec-97334d30-514e-475b-846a-c1165375be54.png"
         },
         {
           "id": "11461",
           "name": "Spinach, Canned",
           "file": "11461-spinach-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small serving of canned spinach, tender chopped dark green spinach leaves, drained and gently gathered in a plain shallow ivory ceramic bowl, slightly moist. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with clear transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no can, butter, garlic, spoon, garnish, table, background or text; true transparent background.",
+          "generatedSource": "exec-c2e67b5e-ff3c-43f0-a8bb-cbd2046f530c.png"
         },
         {
           "id": "11642",
           "name": "Squash, Summer, All varieties, Boiled",
           "file": "11642-squash-summer-all-varieties-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: boiled summer squash, tender pale yellow and light green squash slices with soft translucent centers, modest serving in a plain shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no butter, herbs, seasoning, spoon, table, background or text; true transparent background.",
+          "generatedSource": "exec-e83e0d34-ddb7-46e8-869f-3fcac4aad7c1.png"
         },
         {
           "id": "11641",
           "name": "Squash, Summer, All varieties, Raw",
           "file": "11641-squash-summer-all-varieties-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: fresh raw summer squash, one small yellow crookneck squash and one smooth green zucchini-like summer squash with a few neat cross-section slices, crisp moist cut surfaces. Composition/framing: centered at a gentle three-quarter overhead view, vegetables occupy about 58% of square canvas with generous transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no leaves, knife, plate, table, background or text; true transparent background.",
+          "generatedSource": "exec-9a9a664b-1cdb-428b-a4d3-15a4e2d4c29e.png"
         },
         {
           "id": "11468",
           "name": "Squash, Summer, Crookneck and straightneck, Boiled",
           "file": "11468-squash-summer-crookneck-and-straightneck-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: boiled yellow summer squash, tender crookneck and straightneck squash rounds with soft golden skin and translucent cooked centers, small serving in a plain shallow ivory ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl about 54% of square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no butter, herbs, spoon, table, background or text; true transparent background.",
+          "generatedSource": "exec-2bc141a9-eee3-44e3-801a-9e643eb7e971.png"
         }
       ]
     },
