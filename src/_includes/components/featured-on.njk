@@ -5,14 +5,14 @@
     <div class="featured-on__track">
       <div class="featured-on__group">
         {% for b in featuredBadges %}
-        <a class="featured-on__link" href="{{ b.href }}" target="_blank" rel="noopener noreferrer">
+        <a class="featured-on__link" href="{{ b.href }}" target="_blank" rel="noopener noreferrer"{% for k, v in b.data %} {{ k }}="{{ v }}"{% endfor %}>
           <img src="{{ b.src }}" alt="{{ b.alt }}" width="{{ b.width }}" height="{{ b.height }}" loading="lazy" decoding="async" />
         </a>
         {% endfor %}
       </div>
       <div class="featured-on__group" aria-hidden="true">
         {% for b in featuredBadges %}
-        <a class="featured-on__link" href="{{ b.href }}" target="_blank" rel="noopener noreferrer" tabindex="-1">
+        <a class="featured-on__link" href="{{ b.href }}" target="_blank" rel="noopener noreferrer" tabindex="-1"{% for k, v in b.data %} {{ k }}="{{ v }}"{% endfor %}>
           <img src="{{ b.src }}" alt="" width="{{ b.width }}" height="{{ b.height }}" loading="lazy" decoding="async" />
         </a>
         {% endfor %}

@@ -7,7 +7,7 @@
     "height": 54
   },
   {
-    "href": "https://neeed.directory",
+    "href": "https://neeed.directory/products/pregnut",
     "src": "https://neeed.directory/badges/neeed-badge-dark.svg",
     "alt": "Featured on neeed.directory",
     "width": 139,
@@ -19,5 +19,15 @@
     "alt": "Featured on SaaS.fyi",
     "width": 200,
     "height": 80
+  },
+  {
+    "href": "https://publishyoursaas.com/listing/pregnut-com",
+    "src": "https://publishyoursaas.com/publishyoursaas-badge.svg",
+    "alt": "PregNut is listed on publishyoursaas",
+    "width": 240,
+    "height": 60,
+    "data": {
+      "data-publishyoursaas-badge": "pregnut-com"
+    }
   }
 ]
