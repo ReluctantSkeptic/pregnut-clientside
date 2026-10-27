@@ -896,3 +896,89 @@ p {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* Featured on — directory badge marquee */
+.featured-on {
+  --fo-gap: 1.5rem;
+  --fo-h: 40px;
+  width: 100%;
+  margin: 28px 0 0;
+  padding: 0;
+}
+.featured-on__label {
+  margin: 0 0 12px;
+  color: rgba(240, 244, 240, 0.55);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.featured-on__viewport {
+  overflow: hidden;
+  border-radius: 14px;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.featured-on__track {
+  display: flex;
+  width: max-content;
+  animation: fo-marquee 40s linear infinite;
+}
+.featured-on:hover .featured-on__track,
+.featured-on:focus-within .featured-on__track {
+  animation-play-state: paused;
+}
+.featured-on__group {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--fo-gap);
+  padding-right: var(--fo-gap);
+}
+.featured-on__link {
+  display: inline-flex;
+  flex-shrink: 0;
+  border-radius: 12px;
+  outline-offset: 3px;
+  outline-color: #c7d8cf;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: rgba(255, 255, 255, 0.06);
+}
+.featured-on__link:hover,
+.featured-on__link:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.featured-on__link img {
+  display: block;
+  height: var(--fo-h);
+  width: auto;
+  border-radius: 10px;
+}
+@keyframes fo-marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .featured-on__track {
+    animation: none;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    row-gap: 12px;
+  }
+  .featured-on__group {
+    padding-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .featured-on__group[aria-hidden="true"] {
+    display: none;
+  }
+  .featured-on__viewport {
+    overflow: visible;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}
