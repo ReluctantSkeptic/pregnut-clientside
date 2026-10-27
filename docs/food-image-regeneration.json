@@ -7789,73 +7789,97 @@
           "id": "11945",
           "name": "Pickle relish, Sweet",
           "file": "11945-pickle-relish-sweet.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: sweet pickle relish made from tiny diced cucumber pieces, bright green with a glossy sweet brine, served in a tiny plain white ceramic ramekin. Composition/framing: centered, gentle three-quarter overhead view, ramekin occupies about 50% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no whole pickles, no hot dog, no spoon, no label, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-466530b7-898e-4b48-97a9-5aebce4ea7d3.png"
         },
         {
           "id": "11983",
           "name": "Pickles, Chowchow, With cauliflower onion mustard, Sweet",
           "file": "11983-pickles-chowchow-with-cauliflower-onion-mustard-sweet.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: sweet chowchow vegetable pickle relish with small pieces of pale cauliflower, onion, green cabbage and green pepper, a few mustard seeds, glossy with a little brine, served in a small plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no whole vegetables, no jar, no label, no spoon, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-551fab4a-2e4d-4973-b037-4935fc66a55a.png"
         },
         {
           "id": "11937",
           "name": "Pickles, Cucumber, Dill or kosher dill",
           "file": "11937-pickles-cucumber-dill-or-kosher-dill.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: several kosher dill cucumber pickles, dark olive green bumpy skins and crisp interiors, one whole pickle with two long cut spears showing pale centers. Composition/framing: centered at a gentle three-quarter overhead view, pickles occupy about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no jar, no dill sprigs, no plate, no label, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-0414d077-7a40-4046-821f-927ce2c1b96e.png"
         },
         {
           "id": "11941",
           "name": "Pickles, Cucumber, Sour",
           "file": "11941-pickles-cucumber-sour.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: small sour cucumber pickles, pale olive-green ridged skins with a moist tangy brine sheen, three short whole gherkins and several round cross-section slices arranged together. Composition/framing: centered at a gentle three-quarter overhead view, pickles occupy about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no dill, no jar, no label, no plate, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-1e72d759-1fd0-4a4c-9fe5-1ae3b8e39c7d.png"
         },
         {
           "id": "18304",
           "name": "Pie, Banana cream",
           "file": "18304-pie-banana-cream.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of banana cream pie with a buttery golden crust, smooth pale banana custard filling, a thin layer of softly whipped cream on top and a few banana rounds, served on a small plain white ceramic dessert plate. Composition/framing: centered at a gentle three-quarter overhead view, plate and slice occupy about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fork, no whole pie, no extra fruit, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-e40ac3a8-a27c-4154-a970-ba4f0dbc8e5f.png"
         },
         {
           "id": "18305",
           "name": "Pie, Blueberry",
           "file": "18305-pie-blueberry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of blueberry pie with a flaky golden crust and deep purple blueberry filling, a few glossy blueberries visible at the cut edge, served on a small plain white ceramic dessert plate. Composition/framing: centered at a gentle three-quarter overhead view, plate and slice occupy about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fork, no ice cream, no whole pie, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-e2c1824d-1adb-431b-8d4c-73e8e8f060ac.png"
         },
         {
           "id": "18308",
           "name": "Pie, Cherry",
           "file": "18308-pie-cherry.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of classic cherry pie with flaky golden crust and glossy ruby-red cherry filling, cherries visible at the cut edge, served on a small plain white ceramic dessert plate. Composition/framing: centered at a gentle three-quarter overhead view, plate and slice occupy about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fork, no whipped cream, no whole pie, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-ad297c80-e1eb-4d57-92c2-b2597a99fd4b.png"
         },
         {
           "id": "18320",
           "name": "Pie, Lemon meringue",
           "file": "18320-pie-lemon-meringue.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of lemon meringue pie with a buttery golden crust, bright pale-yellow lemon custard and tall toasted meringue peaks, served on a small plain white ceramic dessert plate. Composition/framing: centered at a gentle three-quarter overhead view, plate and slice occupy about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fork, no lemon fruit, no whole pie, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-6d397783-298e-4fdb-be94-0b39392b3f4e.png"
         },
         {
           "id": "18323",
           "name": "Pie, Peach",
           "file": "18323-pie-peach.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of peach pie with tender golden peach slices in a lightly glazed filling and flaky golden lattice crust, served on a small plain white ceramic dessert plate. Composition/framing: centered at a gentle three-quarter overhead view, plate and slice occupy about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fork, no ice cream, no whole pie, no fresh peach, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-5d87bb7e-70ef-4ea2-a07d-d90d35fb169f.png"
         },
         {
           "id": "18324",
           "name": "Pie, Pecan",
           "file": "18324-pie-pecan.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of pecan pie with glossy amber-brown filling and distinct pecan halves arranged over the top, crisp golden pastry crust, served on a small plain white ceramic dessert plate. Composition/framing: centered at a gentle three-quarter overhead view, plate and slice occupy about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fork, no whipped cream, no whole pie, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-967d7982-d5ae-4811-abb2-b5345c38e035.png"
         },
         {
           "id": "18326",
           "name": "Pie, Pumpkin",
           "file": "18326-pie-pumpkin.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of pumpkin pie with smooth deep-orange spiced pumpkin custard, lightly browned top and crisp golden pastry crust, served on a small plain white ceramic dessert plate. Composition/framing: centered at a gentle three-quarter overhead view, plate and slice occupy about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fork, no whipped cream, no whole pie, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-c299bd41-3cbe-4c62-bb65-84e2aa5bc10e.png"
         },
         {
           "id": "18328",
           "name": "Pie, Vanilla cream",
           "file": "18328-pie-vanilla-cream.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of vanilla cream pie with a flaky golden crust, smooth pale ivory vanilla custard filling and a neat softly whipped cream layer on top, served on a small plain white ceramic dessert plate. Composition/framing: centered at a gentle three-quarter overhead view, plate and slice occupy about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fork, no fruit, no chocolate, no whole pie, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-bb712a66-df0a-4d24-ae5e-d07457bf3ee3.png"
         }
       ]
     },
@@ -7866,73 +7890,97 @@
           "id": "11345",
           "name": "Pigeonpeas, Immature seeds, Boiled",
           "file": "11345-pigeonpeas-immature-seeds-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: tender boiled immature pigeon peas, plump small oval peas in muted olive and tan-green shades with a little cooking moisture, served in a small plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no rice, no sauce, no garnish, no spoon, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-c0ae0618-f961-4484-b72e-566f63a50a08.png"
         },
         {
           "id": "11344",
           "name": "Pigeonpeas, Immature seeds, Raw",
           "file": "11344-pigeonpeas-immature-seeds-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: fresh raw immature pigeon peas, a small loose mound of plump green oval seeds with smooth natural skins and subtle color variation, a few pea pods partly open beside the seeds. Composition/framing: centered, gentle three-quarter overhead view, group occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, no cooked food, no rice, no leaves, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-ed2adce2-589f-417c-9947-a6c8813c1516.png"
         },
         {
           "id": "15062",
           "name": "Pike, Northern",
           "file": "15062-pike-northern.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one fresh raw northern pike fillet, pale translucent ivory flesh with a narrow strip of silvery gray skin and subtle natural texture. Composition/framing: centered, gentle three-quarter overhead view, fillet occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no lemon, no herbs, no ice, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-04e7f925-f823-40f6-83f3-5d4fa1602673.png"
         },
         {
           "id": "11943",
           "name": "Pimento, Canned",
           "file": "11943-pimento-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: soft canned pimento pepper strips, vivid red and glossy with a small amount of clear packing liquid, served in a tiny plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 54% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no whole fresh pepper, no can, no label, no olives, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-9d05dd62-5744-4b7d-851b-6f9dca85255a.png"
         },
         {
           "id": "09409",
           "name": "Pineapple juice, Canned or bottled, Unsweetened, With added ascorbic acid",
           "file": "09409-pineapple-juice-canned-or-bottled-unsweetened-with-added-ascorbic-acid.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a serving of unsweetened canned pineapple juice, translucent pale golden yellow with a few tiny natural bubbles, in a small clear glass tumbler. Composition/framing: centered, gentle three-quarter overhead view, glass occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light, clean glass highlights and subtle contact shadow only. Constraints: no pineapple fruit, no straw, no bottle, no can, no label, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-78235c6d-3d94-490a-ab03-ec14ee4ab961.png"
         },
         {
           "id": "09270",
           "name": "Pineapple, Canned, in syrup",
           "file": "09270-pineapple-canned-in-syrup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: canned pineapple chunks packed in glossy light amber syrup, several juicy golden pieces with visible fibrous texture, served in a small plain white ceramic bowl with a little syrup. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no whole pineapple, no leaves, no can, no label, no spoon, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-1078de1a-4b1c-45c2-93f6-f996a0663388.png"
         },
         {
           "id": "09267",
           "name": "Pineapple, Canned, in water",
           "file": "09267-pineapple-canned-in-water.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: canned pineapple chunks packed in clear water, pale golden juicy pieces with visible fibrous texture, served in a small plain white ceramic bowl with a little clear liquid. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no whole pineapple, no leaves, no syrup, no can, no label, no spoon, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-2282349c-fe92-4d33-9fc4-ba9dcb3e6111.png"
         },
         {
           "id": "25037",
           "name": "Pita chips",
           "file": "25037-pita-chips.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small pile of crisp triangular pita chips, golden toasted surfaces with subtle bubbled texture and lightly browned edges, a few chips overlapping naturally. Composition/framing: centered at a gentle three-quarter overhead view, chips occupy about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no dip, no bowl, no bag, no label, no herbs, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-ebeb3741-4820-40d7-9efa-595fb78a3697.png"
         },
         {
           "id": "21304",
           "name": "Pizza, Meat and vegetable topping, Regular crust",
           "file": "21304-pizza-meat-and-vegetable-topping-regular-crust.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of regular-crust pizza topped with tomato sauce, melted cheese, small browned pieces of sausage and beef, green bell pepper, mushrooms and onion. Composition/framing: centered at a gentle three-quarter overhead view, slice occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no box, no extra slices, no herbs, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-a1c1d0b7-8425-4de8-b88b-fdaa962e5165.png"
         },
         {
           "id": "21302",
           "name": "Pizza, Pepperoni topping, Regular crust",
           "file": "21302-pizza-pepperoni-regular-crust.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one triangular slice of regular-crust pepperoni pizza topped with tomato sauce, melted cheese and several round red pepperoni slices with lightly crisped edges. Composition/framing: centered at a gentle three-quarter overhead view, slice occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no box, no extra slices, no vegetables, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-c9cfd31e-c8b0-43f9-8435-4e1ebbf25df9.png"
         },
         {
           "id": "25027",
           "name": "Plantain chips",
           "file": "25027-plantain-chips.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small pile of thin crisp plantain chips, curved golden-yellow slices with lightly browned edges and a dry crunchy surface, a few pieces overlapping naturally. Composition/framing: centered at a gentle three-quarter overhead view, chips occupy about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no dip, no bowl, no bag, no label, no banana, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-b5d5ce0c-cf41-4320-b168-73f663afdca9.png"
         },
         {
           "id": "09278",
           "name": "Plantains, Cooked",
           "file": "09278-plantains-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: tender cooked ripe plantain slices, thick diagonal pieces with golden yellow flesh, softly caramelized dark-brown edges and moist interior, arranged on a small plain white ceramic plate. Composition/framing: centered, gentle three-quarter overhead view, plate occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no raw whole plantain, no sauce, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-926d0299-749f-4648-bc0d-53e6bc757a77.png"
         }
       ]
     },
@@ -7943,73 +7991,97 @@
           "id": "09277",
           "name": "Plantains, Raw",
           "file": "09277-plantains-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one raw green plantain, long firm fruit with matte green peel, shown whole beside a thick cut piece revealing firm pale ivory starchy flesh. Composition/framing: centered at a gentle three-quarter overhead view, fruit occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no cooked slices, no leaves, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-2c725682-abf3-421e-bdb6-0d519c9d9ca5.png"
         },
         {
           "id": "09284",
           "name": "Plums, Canned, Purple, in syrup",
           "file": "09284-plums-canned-purple-in-syrup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: canned deep purple plums, glossy whole fruit and a halved plum with amber-red flesh, packed in clear purple-tinted syrup in a small plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fresh leaves, no can, no label, no spoon, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-373a77ea-fb34-4fe8-857d-954f676df3de.png"
         },
         {
           "id": "09281",
           "name": "Plums, Canned, Purple, in water",
           "file": "09281-plums-canned-purple-in-water.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: canned deep purple plums, glossy whole fruit and one halved plum with amber-red flesh, packed in clear water in a small plain white ceramic bowl. Composition/framing: centered at a gentle three-quarter overhead view, bowl occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no syrup, fresh leaves, can, label, spoon, table, background, or text; true transparent background.",
+          "generatedSource": "exec-df884cd8-300c-4dfc-a1ef-3c94fa1c62c8.png"
         },
         {
           "id": "09291",
           "name": "Plums, Dried (prunes), Uncooked",
           "file": "09291-plums-dried-prunes-uncooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small loose pile of dried prunes, deep purple-black wrinkled oval fruits with subtle natural sheen, one prune split to show dense golden-brown interior. Composition/framing: centered at a gentle three-quarter overhead view, fruit occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, plate, leaves, table, background, packaging, or text; true transparent background.",
+          "generatedSource": "exec-1bdf7599-438a-4d13-8719-71400683f108.png"
         },
         {
           "id": "09279",
           "name": "Plums, Raw",
           "file": "09279-plums-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: three fresh ripe plums, round dusky purple-blue skins with natural bloom and subtle highlights, one cut in half showing golden amber flesh and a small visible pit. Composition/framing: centered, gently clustered at a three-quarter overhead view, fruit occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no leaves, bowl, plate, table, background, packaging, or text; true transparent background.",
+          "generatedSource": "exec-386a114b-222f-4208-9b4e-2b7f53219463.png"
         },
         {
           "id": "11349",
           "name": "Poi",
           "file": "11349-poi.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a modest mound of traditional Hawaiian poi, smooth thick pale lavender-gray taro paste with a soft glossy surface, served in a small plain light ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no spoon, garnish, table, background, packaging, or text; true transparent background.",
+          "generatedSource": "exec-65ca3748-246d-4240-bc85-9a5e69cbdc99.png"
         },
         {
           "id": "11351",
           "name": "Pokeberry shoots, (poke), Boiled",
           "file": "11351-pokeberry-shoots-poke-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small serving of boiled pokeberry shoots, tender dark-green leafy stems with a few curled leaves, lightly glossy and cooked-soft, arranged in a small plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 56% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no berries, garnish, utensils, table, background, or text; true transparent background.",
+          "generatedSource": "exec-350e4b6d-c571-4f3a-8767-36a8f12f9643.png"
         },
         {
           "id": "15067",
           "name": "Pollock, Alaska, Cooked",
           "file": "15067-pollock-alaska-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one cooked Alaska pollock fillet, opaque flaky ivory fish with lightly golden seared edges, moist natural texture, resting on a plain small white ceramic plate. Composition/framing: centered, gentle three-quarter overhead view, plate occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no lemon, herbs, sauce, garnish, table, background, or text; true transparent background.",
+          "generatedSource": "exec-5180d465-40f7-44a8-a03a-a33d02d9e447.png"
         },
         {
           "id": "09442",
           "name": "Pomegranate juice, Bottled",
           "file": "09442-pomegranate-juice-bottled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a short clear glass filled with rich ruby-red pomegranate juice, small amount of natural bubbles and realistic translucent highlights, glass with no branding. Composition/framing: centered, gentle three-quarter overhead angle at glass level, glass occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fruit, straw, garnish, coaster, table, background, label, or text; true transparent background.",
+          "generatedSource": "exec-100e0e24-8f71-4dd0-80b4-483d2d579c31.png"
         },
         {
           "id": "09286",
           "name": "Pomegranates, Raw",
           "file": "09286-pomegranates-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: two ripe whole pomegranates with leathery deep-red rind and one cleanly halved fruit revealing tightly packed glossy ruby arils, natural crown calyxes. Composition/framing: centered, gently clustered at three-quarter overhead view, fruit occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no leaves, bowl, plate, table, background, packaging, or text; true transparent background.",
+          "generatedSource": "exec-d145a6e6-d344-46d5-874c-127ab8e26ad9.png"
         },
         {
           "id": "15068",
           "name": "Pompano, Florida",
           "file": "15068-pompano-florida.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one Florida pompano cooked whole, compact silver-golden fish with delicate crisp skin, head and tail intact, presented on a plain small white ceramic plate. Composition/framing: centered diagonally across plate at a gentle three-quarter overhead view, plate occupies about 65% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no lemon, herbs, sauce, garnish, utensils, table, background, or text; true transparent background.",
+          "generatedSource": "exec-1d15b496-ed3f-4286-b78c-f2c9e85fead8.png"
         },
         {
           "id": "19034",
           "name": "Popcorn, Air-popped",
           "file": "19034-popcorn-air-popped.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small airy pile of plain air-popped popcorn, irregular fluffy white kernels with subtle toasted edges, naturally scattered and not buttered. Composition/framing: centered loose mound viewed from a gentle three-quarter overhead angle, occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, container, butter, salt shaker, table, background, or text; true transparent background.",
+          "generatedSource": "exec-19eb57c7-40e8-4067-b029-1fe1abb13d4c.png"
         }
       ]
     },
@@ -8020,73 +8092,97 @@
           "id": "19036",
           "name": "Popcorn, Cakes",
           "file": "19036-popcorn-cakes.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show two round compressed popcorn cakes, pale puffed corn kernels bonded into thin flat circular snack cakes, one whole and one broken to reveal airy texture. Centered at a three-quarter overhead view, about 58% of square canvas with clear padding. Soft upper-left studio light, subtle contact shadow. No wrapper, plate, table, background or text; true transparent background.",
+          "generatedSource": "exec-22c83309-36b8-49da-a865-0fa746d43806.png"
         },
         {
           "id": "42259",
           "name": "Popcorn, Home-prepared, Oil-popped",
           "file": "42259-popcorn-home-prepared-oil-popped.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a modest loose mound of freshly oil-popped popcorn, fluffy irregular white kernels with a faint golden sheen from oil and a few toasted edges. Centered at a three-quarter overhead view, about 58% of square canvas with clear padding. Soft upper-left studio light, subtle contact shadow. No bowl, butter, garnish, table, background or text; true transparent background.",
+          "generatedSource": "exec-bc48f105-3cfd-459d-82f2-d7922a57fe3c.png"
         },
         {
           "id": "25001",
           "name": "Popcorn, Microwave, Low fat",
           "file": "25001-popcorn-microwave-low-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a modest portion of low-fat microwave popcorn, airy popped white kernels, mostly matte with very slight even buttery-gold tint and restrained sheen. Centered loose mound at a three-quarter overhead view, about 58% of square canvas with clear padding. Soft upper-left studio light, subtle contact shadow. No bag, bowl, plate, table, background or text; true transparent background.",
+          "generatedSource": "exec-628987fc-0cbd-4e55-a511-9d88c5039962.png"
         },
         {
           "id": "25026",
           "name": "Popcorn, Microwave, Regular (butter) flavor, Made with palm oil",
           "file": "25026-popcorn-microwave-regular-butter-flavor-made-with-palm-oil.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a modest portion of regular butter-flavored microwave popcorn, fluffy popped kernels with a richer warm golden buttery coating and subtle glossy highlights, naturally irregular. Centered loose mound at a three-quarter overhead view, about 58% of square canvas with clear padding. Soft upper-left studio light, subtle contact shadow. No bag, bowl, plate, table, background or text; true transparent background.",
+          "generatedSource": "exec-9e1df57d-5c04-435c-85fb-f6cb65619b5b.png"
         },
         {
           "id": "19041",
           "name": "Pork skins",
           "file": "19041-pork-skins.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small loose pile of fried pork skins, irregular airy crunchy curled pieces, golden beige and deep caramel brown with realistic blistered texture. Centered at a three-quarter overhead view, about 56% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No bowl, dip, garnish, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-bc8023fc-d95c-4a54-b416-cc3ee9c7b406.png"
         },
         {
           "id": "10862",
           "name": "Pork, Bacon, Pre-sliced, Pan-fried",
           "file": "10862-pork-bacon-pre-sliced-pan-fried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show three pan-fried bacon strips, pre-sliced pork bacon cooked crisp at the edges with alternating caramelized pink meat and rendered golden fat, gently curled, arranged on a small plain white ceramic plate. Centered at a three-quarter overhead view, plate about 61% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No eggs, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-a7685373-29ba-489f-b33f-666b74dc457e.png"
         },
         {
           "id": "10220",
           "name": "Pork, Ground, Cooked",
           "file": "10220-pork-ground-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small serving of cooked ground pork, browned moist crumbles with varied golden edges and pale interior bits, on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 60% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No sauce, herbs, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-7c8cf1c7-7978-4f02-9922-44dc054d8ba6.png"
         },
         {
           "id": "10182",
           "name": "Pork, Ham, Boneless, Extra lean and regular, Unheated",
           "file": "10182-pork-ham-boneless-extra-lean-and-regular-unheated.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show boneless cured pork ham served unheated, several thin folded rose-pink slices with a narrow creamy-white fat edge, arranged neatly on a small plain white ceramic plate. Centered at a three-quarter overhead view, plate about 60% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No heating marks, glaze, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-92636f24-53d6-4791-9925-4c294354327a.png"
         },
         {
           "id": "10136",
           "name": "Pork, Ham, Boneless, Regular (approximately 11% fat), Roasted",
           "file": "10136-pork-ham-boneless-regular-approximately-11-fat-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show roasted boneless pork ham, one thick juicy rose-pink slice with a browned caramelized outer edge and modest visible fat seam, on a small plain white ceramic plate. Centered at a three-quarter overhead view, plate about 60% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No glaze, herbs, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-6c3a6248-5333-4f2f-9cc3-bec589524db4.png"
         },
         {
           "id": "10022",
           "name": "Pork, Loin, Whole, Separable lean and fat, Broiled",
           "file": "10022-pork-loin-whole-separable-lean-and-fat-broiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show broiled pork loin, two thick medallion slices with moist pale ivory interior, a narrow outer fat rim and appetizing golden-brown sear, arranged on a small plain white ceramic plate. Centered at a three-quarter overhead view, plate about 61% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No sauce, herbs, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-38f72674-5e6d-43f4-81c3-6ee671f4dd50.png"
         },
         {
           "id": "10007",
           "name": "Pork, Separable fat, Cooked",
           "file": "10007-pork-separable-fat-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small portion of cooked pork fat, several soft rendered golden-white fatty pieces and crisp-edged caramelized cubes with realistic glossy rendered fat, on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 58% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No meat cuts, sauce, herbs, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-3798f5f4-5ebe-4245-90b0-018f861262cd.png"
         },
         {
           "id": "10089",
           "name": "Pork, Spareribs, Separable lean and fat, Braised",
           "file": "10089-pork-spareribs-separable-lean-and-fat-braised.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show two braised pork sparerib pieces with tender browned meat, visible rib bones, caramelized edges and a little natural braising sheen, arranged on a small plain white ceramic plate. Centered at a three-quarter overhead view, plate about 62% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No barbecue sauce, herbs, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-4012ac7d-4d43-46fe-b6ec-f2bfc77769e9.png"
         }
       ]
     },
@@ -8097,73 +8193,97 @@
           "id": "19411",
           "name": "Potato chips",
           "file": "19411-potato-chips.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small loose pile of classic thin potato chips, golden yellow irregular rounds with gentle natural curls, crisp blistered texture and a light sheen of frying oil. Centered at a three-quarter overhead view, about 58% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No bowl, dip, garnish, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-128e2a18-d934-4e71-aa0d-2e7861085eea.png"
         },
         {
           "id": "19437",
           "name": "Potato chips, Fat free",
           "file": "19437-potato-chips-fat-free.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small loose pile of fat-free potato chips, thin crisp lightly bubbled potato rounds, pale golden matte surface with slight uneven browning and no oily shine. Centered at a three-quarter overhead view, about 58% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No bowl, dip, garnish, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-bd22201e-3fec-479b-8de8-eff2da942096.png"
         },
         {
           "id": "11413",
           "name": "Potato flour",
           "file": "11413-potato-flour.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show fine white potato flour, a small softly mounded portion of delicate pale powder in a plain shallow white ceramic bowl, with a tiny dusting of flour at one edge. Centered at a three-quarter overhead view, bowl about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No spoon, sack, grain, table, background, label or text; true transparent background.",
+          "generatedSource": "exec-7fb07b56-635e-4327-b600-fc0fc5034309.png"
         },
         {
           "id": "11399",
           "name": "Potato puffs, Frozen, Oven-heated",
           "file": "11399-potato-puffs-frozen-oven-heated.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a serving of oven-heated potato puffs, about ten short cylindrical tater tots with crisp ridged golden-brown exteriors and fluffy potato visible at one broken end, on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 60% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No ketchup, herbs, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-ff391788-d458-4c1f-a083-480b0d966aa6.png"
         },
         {
           "id": "19415",
           "name": "Potato sticks",
           "file": "19415-potato-sticks.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small loose heap of crisp potato sticks, very thin shoestring-like fried potato strips, straight and slightly curled, uniform golden straw color with crisp edges. Centered at a three-quarter overhead view, about 57% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No can, bowl, dip, garnish, table, background, packaging or text; true transparent background.",
+          "generatedSource": "exec-a979be41-138f-4994-882b-ce0973f99902.png"
         },
         {
           "id": "11363",
           "name": "Potatoes, Baked, Flesh",
           "file": "11363-potatoes-baked-flesh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show the fluffy interior flesh of a baked potato with its skin removed, one whole peeled oval baked potato and one cut cross-section revealing soft pale cream interior with a lightly browned surface. Rest on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 61% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No skin, toppings, butter, herbs, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-461c18f8-39c7-4f04-a43b-6ab63514c944.png"
         },
         {
           "id": "11364",
           "name": "Potatoes, Baked, Skin",
           "file": "11364-potatoes-baked-skin.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show one whole russet potato baked in its skin and one lengthwise split half, rough wrinkled deep-brown skin with fluffy pale interior and a little natural steam-soft texture. Arrange on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 62% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No butter, toppings, herbs, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-d72b235b-2f28-426d-828f-fd4b2f29506b.png"
         },
         {
           "id": "11831",
           "name": "Potatoes, Boiled, Cooked in skin, Flesh",
           "file": "11831-potatoes-boiled-cooked-in-skin-flesh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show two boiled potatoes cooked in their skins, one whole small red-brown potato and one cut in half revealing moist dense pale flesh beneath smooth tender skin, lightly damp but not glossy. Arrange on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 60% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No seasoning, butter, herbs, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-13e2497c-f41d-4b7b-8634-2f3d8fcc7023.png"
         },
         {
           "id": "11833",
           "name": "Potatoes, Boiled, Cooked without skin, Flesh",
           "file": "11833-potatoes-boiled-cooked-without-skin-flesh.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show several chunks of boiled peeled potatoes, tender smooth ivory flesh with softly rounded edges and a slight moist sheen, on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 60% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No skin, butter, herbs, seasoning, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-22d35497-37a0-4a2e-acf6-00da0f5209c8.png"
         },
         {
           "id": "11403",
           "name": "Potatoes, French fried, All types, Salt added in processing, Home-prepared, Oven heated",
           "file": "11403-potatoes-french-fried-all-types-salt-added-in-processing-home-prepared-oven-heated.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small serving of home-prepared oven-heated French fries, irregular straight-cut potato batons, crisp golden edges and fluffy pale centers with a light salt-like granular texture, arranged on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 62% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No ketchup, herbs, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-e24e52ea-0771-4d6e-b7db-a46d5f84accf.png"
         },
         {
           "id": "11400",
           "name": "Potatoes, Frozen, Whole, Unprepared",
           "file": "11400-potatoes-frozen-whole-unprepared.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show several whole peeled frozen potatoes, compact oval pale ivory potatoes with a lightly frosted matte surface and tiny ice crystals, clearly uncooked and frozen. Arrange together on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 60% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No bag, seasoning, table, background, label or text; true transparent background.",
+          "generatedSource": "exec-859906ea-649b-4ccc-8b03-c5bea7527976.png"
         },
         {
           "id": "11370",
           "name": "Potatoes, Hash brown, Home-prepared",
           "file": "11370-potatoes-hash-brown-home-prepared.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a homemade hash brown potato patty, compact round oval cake of shredded potato, crisp golden-brown exterior with visible fine potato strands and a small broken edge revealing tender interior, on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 60% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No eggs, ketchup, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-e686471a-c5f7-4ea4-9eba-47c8ae4cfd1c.png"
         }
       ]
     },
