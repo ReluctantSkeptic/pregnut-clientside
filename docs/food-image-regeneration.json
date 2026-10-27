@@ -8799,73 +8799,97 @@
           "id": "43015",
           "name": "Salad dressing, Caesar, Regular",
           "file": "43015-salad-dressing-caesar-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show classic Caesar salad dressing, thick creamy pale ivory-gold sauce with tiny Parmesan flecks, black pepper and subtle garlic-herb specks, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, croutons, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-fa34b91f-0176-4f1c-acb0-6cdfd817d45e.png"
         },
         {
           "id": "43016",
           "name": "Salad dressing, Coleslaw",
           "file": "43016-salad-dressing-coleslaw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show creamy coleslaw dressing, smooth thick pale ivory mayonnaise-like sauce with a faint sweet sheen in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No cabbage, carrot, salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-49a96fe7-c398-40d0-936c-d170609aa4c9.png"
         },
         {
           "id": "42230",
           "name": "Salad dressing, Coleslaw, Reduced fat",
           "file": "42230-salad-dressing-coleslaw-reduced-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show reduced-fat creamy coleslaw dressing, pale ivory, smooth and softly pourable with a lighter glossy surface than rich mayonnaise dressing, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No cabbage, carrot, salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-43114633-e8b3-474e-94d3-42e056d7bcae.png"
         },
         {
           "id": "04120",
           "name": "Salad dressing, French, Commercial, Regular",
           "file": "04120-salad-dressing-french-commercial-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show regular commercial French salad dressing, creamy vivid orange-red tomato-based dressing with a smooth glossy surface and gentle swirl, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, vegetables, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-6b4c8d6d-0195-4077-80c2-b11cd116ebfe.png"
         },
         {
           "id": "04367",
           "name": "Salad dressing, French, Fat-free",
           "file": "04367-salad-dressing-french-fat-free.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show fat-free French salad dressing, thin smooth bright orange-red tomato dressing with a light translucent edge and a few tiny spice flecks, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, vegetables, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-6858c417-2ef2-41d7-bba2-91a85afa5605.png"
         },
         {
           "id": "04020",
           "name": "Salad dressing, French, Reduced fat",
           "file": "04020-salad-dressing-french-reduced-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show reduced-fat French salad dressing, creamy coral-orange tomato-based sauce, moderately thick glossy swirl with tiny herb and spice flecks, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, vegetables, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-6b54c21d-3db7-4197-8f1b-1913e9819699.png"
         },
         {
           "id": "43017",
           "name": "Salad dressing, Green goddess, Regular",
           "file": "43017-salad-dressing-green-goddess-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show classic green goddess salad dressing, rich creamy pale green sauce with fresh green herb flecks and a smooth glossy surface, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, avocado, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-d477c8d2-e3a5-4368-8978-4ec7675311ce.png"
         },
         {
           "id": "04135",
           "name": "Salad dressing, Home recipe, Vinegar and oil",
           "file": "04135-salad-dressing-home-recipe-vinegar-and-oil.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show homemade vinegar-and-oil salad dressing, a golden olive-oil vinaigrette with translucent yellow oil, amber vinegar, tiny herbs and pepper suspended in the liquid, in a plain small clear glass bowl. Centered at a three-quarter overhead view, bowl about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, bread, spoon, bottle, table, background or text; true transparent background.",
+          "generatedSource": "exec-6adaef50-29d9-44b8-b18b-084f8cd8eb8f.png"
         },
         {
           "id": "04686",
           "name": "Salad dressing, Honey mustard, Reduced calorie",
           "file": "04686-salad-dressing-honey-mustard-reduced-calorie.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show reduced-calorie honey mustard salad dressing, smooth light golden-cream sauce with a gently pourable texture, tiny mustard seed flecks and soft sheen, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, pretzel, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-ae1bcc3f-ef01-43aa-8f3b-8c704de2c551.png"
         },
         {
           "id": "04703",
           "name": "Salad dressing, Honey mustard, Regular",
           "file": "04703-salad-dressing-honey-mustard-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show regular honey mustard salad dressing, rich thick amber-gold creamy sauce with visible mustard seed flecks and a glossy swirl, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, pretzel, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-fc0b9e26-5ae3-4b99-9e56-754d06dcd712.png"
         },
         {
           "id": "04021",
           "name": "Salad dressing, Italian, Commercial, Reduced fat",
           "file": "04021-salad-dressing-italian-commercial-reduced-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show reduced-fat Italian salad dressing, translucent amber-orange vinaigrette with visible Italian herb flecks, red pepper dots and a light oily sheen, in a plain small clear glass ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-4318bbeb-1ae4-4d93-961a-aa3d7e624b63.png"
         },
         {
           "id": "04636",
           "name": "Salad dressing, Italian, Fat-free",
           "file": "04636-salad-dressing-italian-fat-free.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show fat-free Italian salad dressing, thin bright orange-red vinaigrette with tiny herbs and pepper specks suspended in a mostly non-oily translucent liquid, in a plain small clear glass ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-11de62e7-d67b-4aab-b842-9ff6453b854c.png"
         }
       ]
     },
@@ -8876,73 +8900,97 @@
           "id": "04013",
           "name": "Salad dressing, Kraft mayo fat free mayonnaise",
           "file": "04013-salad-dressing-kraft-mayo-fat-free-mayonnaise.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show fat-free mayonnaise-style salad dressing, smooth pale ivory-white sauce with a lighter pourable consistency and soft glossy swirl, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No brand, label, salad, spoon, bottle, table, background or text; true transparent background.",
+          "generatedSource": "exec-43592d8d-1a47-4f87-8664-827868a48ab7.png"
         },
         {
           "id": "04018",
           "name": "Salad dressing, Mayonnaise type, Regular",
           "file": "04018-salad-dressing-mayonnaise-type-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show regular mayonnaise-style salad dressing, thick glossy off-white cream with a rich smooth swirl and softly rounded peaks, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No brand, label, salad, spoon, bottle, table, background or text; true transparent background.",
+          "generatedSource": "exec-9bbafa58-7978-4564-98c4-413dc9e01a83.png"
         },
         {
           "id": "04027",
           "name": "Salad dressing, Mayonnaise, Imitation, Soybean",
           "file": "04027-salad-dressing-mayonnaise-imitation-soybean.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show imitation soybean-oil mayonnaise dressing, a compact mound of smooth pale ivory cream with a slight warm-yellow tint and soft glossy surface, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No brand, label, salad, spoon, bottle, table, background or text; true transparent background.",
+          "generatedSource": "exec-6775331c-3267-4cbd-9e77-f6da0bf5ab96.png"
         },
         {
           "id": "04641",
           "name": "Salad dressing, Mayonnaise, Light",
           "file": "04641-salad-dressing-mayonnaise-light.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show light mayonnaise salad dressing, soft pale cream-white sauce with a lighter airy texture, gentle flowing ribbon and modest gloss, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No brand, label, salad, spoon, bottle, table, background or text; true transparent background.",
+          "generatedSource": "exec-bdc3ae6c-e5d1-4250-be07-a18e590a04c2.png"
         },
         {
           "id": "04709",
           "name": "Salad dressing, Mayonnaise-type, Light",
           "file": "04709-salad-dressing-mayonnaise-type-light.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a light mayonnaise-type salad dressing, a pale cream-colored serving with soft satin sheen and a smooth gentle swirl, slightly thinner than full-fat mayonnaise, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No brand, label, salad, spoon, bottle, table, background or text; true transparent background.",
+          "generatedSource": "exec-9ac6d6c8-10a5-47a0-8c89-d31d046c9139.png"
         },
         {
           "id": "42137",
           "name": "Salad dressing, Peppercorn, Commercial, Regular",
           "file": "42137-salad-dressing-peppercorn-commercial-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show creamy peppercorn salad dressing, pale ivory cream with visible cracked black and green peppercorn pieces and fine herb specks, rich smooth glossy texture, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, whole peppercorn garnish outside, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-e2b3badd-b7bb-41c5-89e1-dfeb299dbb5c.png"
         },
         {
           "id": "04704",
           "name": "Salad dressing, Poppyseed, Creamy",
           "file": "04704-salad-dressing-poppyseed-creamy.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show creamy poppy-seed salad dressing, pale ivory sauce with many tiny black poppy seeds evenly scattered through a smooth glossy swirl, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No fruit, salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-2903238e-cb38-4ba9-8ce0-36acf969b598.png"
         },
         {
           "id": "04639",
           "name": "Salad dressing, Ranch, Regular",
           "file": "04639-salad-dressing-ranch-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show classic ranch salad dressing, thick cool off-white cream with green herb flecks, tiny black pepper specks and a subtle glossy swirl, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No vegetables, salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-a8928122-534d-4c30-aa16-b378a61b02d8.png"
         },
         {
           "id": "04015",
           "name": "Salad dressing, Russian",
           "file": "04015-salad-dressing-russian.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show regular Russian salad dressing, creamy rosy orange sauce with a smooth mayonnaise-tomato base, tiny relish and spice flecks, glossy swirl in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-05b19cf8-088c-45d9-b78d-b588062df05b.png"
         },
         {
           "id": "04022",
           "name": "Salad dressing, Russian, Low calorie",
           "file": "04022-salad-dressing-russian-low-calorie.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show low-calorie Russian salad dressing, smooth pale salmon-orange tomato cream with a lighter gently pourable texture, delicate tiny spice flecks, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-396bfac0-ef56-40fa-8343-f8e1fbe8249a.png"
         },
         {
           "id": "04016",
           "name": "Salad dressing, Sesame seed, Regular",
           "file": "04016-salad-dressing-sesame-seed-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show regular sesame-seed salad dressing, glossy warm tan-brown sauce with visible pale sesame seeds and a creamy savory sheen, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-15ecdd33-c300-4b29-b4ea-abdededc8088.png"
         },
         {
           "id": "43019",
           "name": "Salad dressing, Sweet and sour",
           "file": "43019-salad-dressing-sweet-and-sour.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show sweet-and-sour salad dressing, translucent coral-red sauce with a glossy lightly syrupy surface and subtle orange highlights, in a plain small clear glass ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No fruit, salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-29d339c8-c1cc-420e-8064-f01e45219c89.png"
         }
       ]
     },
@@ -8953,73 +9001,97 @@
           "id": "04017",
           "name": "Salad dressing, Thousand island, Commercial, Regular",
           "file": "04017-salad-dressing-thousand-island-commercial-regular.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show regular Thousand Island salad dressing, creamy pink-orange sauce with tiny pickle relish and pepper flecks, thick glossy swirl in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-1e9cb0df-2dbe-4195-b101-73e949d3949a.png"
         },
         {
           "id": "04635",
           "name": "Salad dressing, Thousand island, Fat-free",
           "file": "04635-salad-dressing-thousand-island-fat-free.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show fat-free Thousand Island salad dressing, lighter pourable coral-pink tomato cream with fine relish flecks and a thin glossy surface, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No salad, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-257012eb-138e-4590-ab37-c194267fe517.png"
         },
         {
           "id": "07072",
           "name": "Salami, Dry or hard, Pork, Beef",
           "file": "07072-salami-dry-or-hard-pork-beef.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show dry cured pork-and-beef salami, a short dark-red sausage segment beside several thin marbled slices with peppercorn flecks and a natural firm cured texture, arranged on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 62% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No cheese, crackers, herbs, wrapper, table, background or text; true transparent background.",
+          "generatedSource": "exec-59ea6bd9-e59a-45f6-8dcd-46186f6507f3.png"
         },
         {
           "id": "15247",
           "name": "Salmon, Coho, Wild, Cooked, Dry heat",
           "file": "15247-salmon-coho-wild-cooked-dry-heat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show one wild coho salmon fillet cooked with dry heat, moist coral-pink flesh with clearly visible natural flakes and a lightly browned top edge, on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 62% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No lemon, herbs, sauce, garnish, table, background or text; true transparent background.",
+          "generatedSource": "exec-ac757f13-b38b-493c-9c94-132eb5e409ea.png"
         },
         {
           "id": "11438",
           "name": "Salsify, Boiled",
           "file": "11438-salsify-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show boiled salsify root, several tender cream-white root pieces cut into short batons with lightly golden tips and one lengthwise section revealing dense pale interior, arranged in a plain small white ceramic bowl. Centered at a three-quarter overhead view, bowl about 56% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No greens, butter, herbs, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-9628b6b0-798d-4b83-a1c7-ee2e32abcf0a.png"
         },
         {
           "id": "15089",
           "name": "Sardine, Pacific, Canned in tomato sauce, Drained solids with bone",
           "file": "15089-sardine-pacific-canned-in-tomato-sauce-drained-solids-with-bone.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show two small Pacific sardines from a can, drained but coated with a trace of red tomato sauce, silvery skin with realistic scale highlights and one fish opened slightly to show tender flesh and fine central bone. Arrange on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 61% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No can, lemon, herbs, sauce pool, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-4a71ecab-aa1c-4ced-b291-9669f832010d.png"
         },
         {
           "id": "06150",
           "name": "Sauce, Barbecue",
           "file": "06150-sauce-barbecue.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small serving of barbecue sauce, thick glossy dark mahogany-red sauce with subtle smoky brown highlights and a gentle swirl, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No ribs, brush, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-b2a8c63c-5403-4f13-8e0c-9658dc76948c.png"
         },
         {
           "id": "06962",
           "name": "Sauce, Chili, Peppers, Hot, Immature green, Canned",
           "file": "06962-sauce-chili-peppers-hot-immature-green-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show canned hot immature green chili pepper sauce, a small serving of finely chopped bright green chilies in a glossy pale green brine, in a plain small clear glass ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No whole peppers outside, can, spoon, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-8ba01261-6b33-4ac9-b41e-ac81f531b1bd.png"
         },
         {
           "id": "27051",
           "name": "Sauce, Cocktail",
           "file": "27051-sauce-cocktail.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small serving of cocktail sauce, thick vivid tomato-red sauce with a glossy surface, subtle horseradish flecks and a gentle swirl, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No shrimp, lemon, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-1b3603b1-179b-4e36-94bf-39864800e0d0.png"
         },
         {
           "id": "27046",
           "name": "Sauce, Duck",
           "file": "27046-sauce-duck.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a small serving of Chinese-style duck sauce, translucent amber-orange sweet fruit sauce with a smooth glossy jelly-like surface and tiny fruit bits, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No duck, plum, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-775e6376-a368-445c-b7f1-98426eca022f.png"
         },
         {
           "id": "27063",
           "name": "Sauce, Enchilada, Red, Mild",
           "file": "27063-sauce-enchilada-red-mild.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show red mild enchilada sauce, smooth brick-red tomato-chili sauce with a glossy gently rippled surface and fine spice flecks, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No enchilada, chili garnish, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-8c7cbfb8-0fd3-4855-8bcb-29abb16b168f.png"
         },
         {
           "id": "06179",
           "name": "Sauce, Fish",
           "file": "06179-sauce-fish.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show fish sauce, a small portion of translucent amber-brown liquid with realistic warm highlights in a petite clear glass ramekin. Centered at a three-quarter overhead view, ramekin about 54% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No fish, herbs, bottle, label, spoon, table, background or text; true transparent background.",
+          "generatedSource": "exec-70ea2a61-2a4a-402f-a6e2-3e5f98a0ae3a.png"
         }
       ]
     },
@@ -9030,73 +9102,97 @@
           "id": "06175",
           "name": "Sauce, Hoisin",
           "file": "06175-sauce-hoisin.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show hoisin sauce, thick glossy deep reddish-brown paste with a smooth swirl and warm highlights, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No duck, spring rolls, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-e7157b20-1c05-41b1-bb1e-9049488f283a.png"
         },
         {
           "id": "06166",
           "name": "Sauce, Homemade, White, Medium",
           "file": "06166-sauce-homemade-white-medium.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show homemade medium-thickness white sauce, smooth creamy ivory sauce with a gently settling surface and light sheen in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No herbs, pepper, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-a5d8a70e-0838-4745-b6f1-a7e6f2eda76f.png"
         },
         {
           "id": "06167",
           "name": "Sauce, Homemade, White, Thick",
           "file": "06167-sauce-homemade-white-thick.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show homemade thick white sauce, dense ivory cream with pronounced soft ridges and a stable rounded peak, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No herbs, pepper, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-d3b7a31a-19a3-4219-9055-6e8c5b5bb508.png"
         },
         {
           "id": "06165",
           "name": "Sauce, Homemade, White, Thin",
           "file": "06165-sauce-homemade-white-thin.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show homemade thin white sauce, smooth fluid pale ivory sauce pooling evenly with a delicate translucent edge and small flowing ripple, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No herbs, pepper, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-d26e78b2-7aa3-4560-ba5a-3804ce48343c.png"
         },
         {
           "id": "27066",
           "name": "Sauce, Horseradish",
           "file": "27066-sauce-horseradish.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show prepared horseradish sauce, a small serving of pale cream-white grated horseradish in a plain small white ceramic ramekin, moist finely shredded texture with tiny translucent pieces. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No roast beef, herbs, spoon, jar, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-1589cc4c-9668-4a30-836f-7d218cfeac96.png"
         },
         {
           "id": "06176",
           "name": "Sauce, Oyster",
           "file": "06176-sauce-oyster.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show oyster sauce, a small portion of thick glossy dark mahogany-brown sauce with a smooth viscous surface and warm highlights, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No oysters, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-a77df0ea-c96f-4f39-b686-70ba73e8f535.png"
         },
         {
           "id": "06618",
           "name": "Sauce, Peanut, Made from coconut, Water, Sugar, Peanuts",
           "file": "06618-sauce-peanut-made-from-coconut-water-sugar-peanuts.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show peanut dipping sauce, creamy tan-brown sauce with fine crushed peanut texture and a glossy surface, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No noodles, garnish, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-38726591-c99b-4517-8652-e6f3e47a49bb.png"
         },
         {
           "id": "06169",
           "name": "Sauce, Pepper, Tabasco",
           "file": "06169-sauce-pepper-tabasco.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show hot red pepper sauce, a small portion of thin translucent scarlet-red liquid with tiny red pepper specks in a petite clear glass ramekin. Centered at a three-quarter overhead view, ramekin about 54% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No bottle, brand, label, peppers, spoon, table, background or text; true transparent background.",
+          "generatedSource": "exec-8b141efe-3655-415a-8d4a-05fb8a82cb7e.png"
         },
         {
           "id": "06961",
           "name": "Sauce, Peppers, Hot, Chili, Mature red, Canned",
           "file": "06961-sauce-peppers-hot-chili-mature-red-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show canned mature red hot-chili pepper sauce, a small serving of finely chopped deep-red chili peppers suspended in glossy reddish brine, in a plain small clear glass ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No whole peppers outside, can, spoon, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-c0a17b67-d60f-4354-9cb2-25b1bbbb9292.png"
         },
         {
           "id": "27047",
           "name": "Sauce, Salsa, Verde",
           "file": "27047-sauce-salsa-verde.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show salsa verde, a small serving of coarse bright green tomatillo salsa with visible tiny green pepper and cilantro flecks, gently glossy and spoon-thick in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No chips, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-6086e26d-cfed-4246-9282-a72246415b63.png"
         },
         {
           "id": "27048",
           "name": "Sauce, Steak, Tomato based",
           "file": "27048-sauce-steak-tomato-based.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show tomato-based steak sauce, thick dark reddish-brown glossy sauce with subtle spiced flecks and rounded highlights, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No steak, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-7cdcbdb3-3fc7-4bc0-9be5-80503d9323ec.png"
         },
         {
           "id": "27050",
           "name": "Sauce, Sweet and sour",
           "file": "27050-sauce-sweet-and-sour.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show sweet-and-sour dipping sauce, glossy translucent orange-red sauce with a smooth syrupy surface and small orange highlights, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No pineapple, vegetables, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-9cc19371-4fcd-47c5-99e8-618e18eb71d1.png"
         }
       ]
     },
@@ -9107,73 +9203,97 @@
           "id": "27049",
           "name": "Sauce, Tartar",
           "file": "27049-sauce-tartar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show tartar sauce, a small serving of thick pale cream-white sauce with chopped pickle bits and caper flecks, gently glossy in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No fish, lemon, spoon, jar, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-c1d96970-01c7-42c8-bafe-910f0f4d3da3.png"
         },
         {
           "id": "06112",
           "name": "Sauce, Teriyaki",
           "file": "06112-sauce-teriyaki.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show teriyaki sauce, a small serving of dark amber-brown glossy glaze with a smooth viscous surface and warm reflected highlights, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No sesame seeds, meat, spoon, bottle, label, table, background or text; true transparent background.",
+          "generatedSource": "exec-b6264551-021b-4ac1-b0b4-fee1fc0048b0.png"
         },
         {
           "id": "06972",
           "name": "Sauce, Tomato chili sauce, Bottled",
           "file": "06972-sauce-tomato-chili-sauce-bottled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show bottled tomato-chili sauce as a small serving of thick vivid red condiment with tiny chili seeds and glossy highlights, in a plain small white ceramic ramekin. Centered at a three-quarter overhead view, ramekin about 55% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No bottle, brand, label, spoon, table, background or text; true transparent background.",
+          "generatedSource": "exec-70c2eac0-5f09-40d9-87db-c8dc56503bad.png"
         },
         {
           "id": "06971",
           "name": "Sauce, Worcestershire",
           "file": "06971-sauce-worcestershire.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show Worcestershire sauce, a small amount of thin translucent deep brown liquid with amber-red highlights in a petite clear glass ramekin. Centered at a three-quarter overhead view, ramekin about 54% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No bottle, brand, label, spoon, table, background or text; true transparent background.",
+          "generatedSource": "exec-da297893-a8f6-4f1e-b8c6-3a55ef3a6a0e.png"
         },
         {
           "id": "11439",
           "name": "Sauerkraut, Canned",
           "file": "11439-sauerkraut-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show canned sauerkraut, a modest nest of fine pale ivory shredded fermented cabbage with a slight wet sheen and soft translucent brine moisture, in a plain small white ceramic bowl. Centered at a three-quarter overhead view, bowl about 56% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No can, caraway, sausage, fork, table, background or text; true transparent background.",
+          "generatedSource": "exec-b3edbef4-607d-4531-a8b7-c74f88a08f92.png"
         },
         {
           "id": "07089",
           "name": "Sausage, Italian, Pork, Cooked",
           "file": "07089-sausage-italian-pork-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show cooked Italian pork sausage, one browned curved link beside two thick slices revealing coarse seasoned pork interior, lightly glistening and appetizing, arranged on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 62% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No peppers, sauce, herbs, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-a45385b3-a8a7-46e9-a4d6-219540a07543.png"
         },
         {
           "id": "16107",
           "name": "Sausage, Meatless",
           "file": "16107-sausage-meatless.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show two cooked meatless sausage links, warm golden-brown lightly seared skins with one cut cross-section revealing a textured pale plant-protein interior, arranged on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 61% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No bread, mustard, sauce, garnish, utensils, table, background or text; true transparent background.",
+          "generatedSource": "exec-46756799-86bf-4851-a3c3-5bbdd70aba22.png"
         },
         {
           "id": "90240",
           "name": "Scallop, (bay and sea), Steamed",
           "file": "90240-scallop-bay-and-sea-steamed.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show several steamed bay and sea scallops, plump moist ivory-white rounds with gently fluted edges and subtle pearly sheen, arranged on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 61% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No lemon, butter, herbs, sauce, garnish, table, background or text; true transparent background.",
+          "generatedSource": "exec-da97b166-b20c-40aa-9a50-2302c4acaf6c.png"
         },
         {
           "id": "15091",
           "name": "Sea bass",
           "file": "15091-sea-bass.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show a cooked sea-bass fillet, tender opaque white fish with distinct flaky layers and lightly golden dry-heat seared edges, on a plain small white ceramic plate. Centered at a three-quarter overhead view, plate about 62% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No lemon, herbs, sauce, garnish, table, background or text; true transparent background.",
+          "generatedSource": "exec-972d2181-6522-41f7-abaf-0dc82e3ddf56.png"
         },
         {
           "id": "11663",
           "name": "Seaweed, Agar, Dried",
           "file": "11663-seaweed-agar-dried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show dried agar seaweed, a small loose bundle of thin curled ivory-tan translucent dried strips with a few amber highlights and crisp papery texture, gathered in a plain small white ceramic bowl. Centered at a three-quarter overhead view, bowl about 56% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No soaking water, garnish, package, table, background or text; true transparent background.",
+          "generatedSource": "exec-b9efa458-9b6c-4954-a7e1-93c5d04c63bb.png"
         },
         {
           "id": "11442",
           "name": "Seaweed, Agar, Raw",
           "file": "11442-seaweed-agar-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show fresh raw agar seaweed, a small cluster of delicate branching amber-red to golden translucent fronds, moist glistening surface and fine fernlike branches, gathered loosely in a plain small white ceramic bowl. Centered at a three-quarter overhead view, bowl about 56% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No dried strips, water pool, garnish, table, background or text; true transparent background.",
+          "generatedSource": "exec-23f854f9-abe2-4730-9763-e35e6a88f40a.png"
         },
         {
           "id": "11444",
           "name": "Seaweed, Irishmoss, Raw",
           "file": "11444-seaweed-irishmoss-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Transparent food cutout for a nutrition app. Show fresh raw Irish moss seaweed, a tangled small cluster of short branching deep burgundy-purple and brown fronds with realistic wet sheen, gathered naturally in a plain small white ceramic bowl. Centered at a three-quarter overhead view, bowl about 56% of square canvas with clear padding. Soft upper-left studio light and subtle contact shadow. No red agar branches, shells, water pool, garnish, table, background or text; true transparent background.",
+          "generatedSource": "exec-1a6645ec-d9d4-48f3-8178-bee9191d5c63.png"
         }
       ]
     },
