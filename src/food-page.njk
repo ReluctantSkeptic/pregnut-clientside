@@ -12,53 +12,55 @@ eleventyComputed:
   bodyClass: page-food-detail
 vizStyles: true
 pageStyles:
-  - /style/weekly-diet.css?v=20261026-diets
-  - /style/food.css?v=20261026-search
+  - /style/food-page.css?v=20261027-answer
 ---
-
-<article class="section food-static-page">
-  <nav class="food-breadcrumbs" aria-label="Breadcrumb">
-    <a href="/">Home</a><span aria-hidden="true">/</span><a href="/food/">Foods</a><span aria-hidden="true">/</span><span aria-current="page">{{ food.displayName }}</span>
+{% set verdict = food.guidance.verdict if food.guidance else ("Avoid" if food.isAvoid else "") %}
+<article class="section fp">
+  <nav class="fp-crumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a><span aria-hidden="true">/</span><a href="/food/">Foods</a>
   </nav>
 
-  <header class="food-detail-hero{% if food.image and food.image.src %} has-image{% endif %}">
-    <div>
-      <h1 class="food-detail-name{% if food.displayName | length > 40 %} is-long{% endif %}">{{ food.displayName }}</h1>
-      {% if food.isAvoid %}
-        <p class="food-hero-alert"><span class="food-safety-badge">Avoid in pregnancy</span> <a href="#food-safety">See why</a></p>
-      {% elif food.isHumanMilk %}
-        <p class="food-hero-alert">Historical data record only — not a pregnancy food recommendation.</p>
+  <header class="fp-hero{% if food.image and food.image.src %} has-image{% endif %}">
+    {% if food.image and food.image.src %}
+      <img class="fp-cutout" src="{{ food.image.src }}" alt="" width="{{ food.image.width }}" height="{{ food.image.height }}" loading="eager" fetchpriority="high">
+    {% endif %}
+    <div class="fp-hero-text">
+      {% if verdict %}<p class="fp-verdict is-{{ verdict | lower | replace(' ', '-') }}">{{ verdict }}</p>{% endif %}
+      <h1 class="fp-name{% if food.heading | length > 22 %} is-long{% endif %}">{{ food.heading }}</h1>
+      {% if food.answer %}<p class="fp-answer">{{ food.answer }}</p>{% endif %}
+      {% if food.isHumanMilk %}
+        <p class="fp-answer">A historical data record, not a pregnancy food recommendation.</p>
       {% elif food.isRawPulse or food.isRawFlour %}
-        <p class="food-hero-alert">Uncooked ingredient — values are before cooking.</p>
+        <p class="fp-aside">Uncooked ingredient: values are before cooking.</p>
       {% endif %}
     </div>
-    {% if food.image and food.image.src %}
-      <figure class="food-detail-image">
-        <img src="{{ food.image.src }}" alt="{{ food.image.alt or food.displayName }}"{% if food.image.width %} width="{{ food.image.width }}"{% endif %}{% if food.image.height %} height="{{ food.image.height }}"{% endif %} loading="eager" fetchpriority="high">
-      </figure>
-    {% endif %}
   </header>
 
-  <section class="content-card food-chart-card" aria-labelledby="food-chart-title">
-    <div class="food-chart-head">
-      <h2 class="content-title" id="food-chart-title">Pregnancy nutrients in 100 g</h2>
-      <p class="viz-summary">{{ food.summary }}</p>
+  <section class="fp-card" aria-labelledby="fp-nutrients-title">
+    <div class="fp-card-head">
+      <h2 class="fp-card-title" id="fp-nutrients-title">Pregnancy nutrients</h2>
+      <div class="fp-toggle" role="radiogroup" aria-label="Amount">
+        <label><input type="radio" name="fp-amount" id="fp-serving" value="serving" checked><span>{{ food.serving.label }}</span></label>
+        <label><input type="radio" name="fp-amount" id="fp-100g" value="100g"><span>100 g</span></label>
+      </div>
     </div>
-    <ol class="food-chart" aria-label="Share of daily pregnancy reference amount per nutrient">
+    <ol class="fp-rows">
       {% set trace = [] %}
       {% for row in food.chartRows %}
-        {% if row.displayPercent == 0 %}{% set trace = (trace.push(row.name), trace) %}{% else %}
-        <li class="food-chart-row">
-          <span class="food-chart-name">{{ row.name }}</span>
-          {% set amount = row.value | formatNumber %}<span class="food-chart-amount">{{ amount }}{% if amount != "—" %} {{ row.unit }}{% endif %}</span>
-          <span class="viz-bar has-value{% if row.percent >= 100 %} is-full{% endif %}" style="--pct: {{ row.barPercent }}%;" role="img" aria-label="{{ row.name }}: {% if row.displayPercent == null %}not available{% else %}{{ row.displayPercent }}% of the daily pregnancy reference{% endif %}"><span class="viz-bar-fill" aria-hidden="true"></span><span class="viz-bar-value{% if row.percent >= 24 %} is-inside{% endif %}" aria-hidden="true">{% if row.displayPercent == null %}—{% else %}{% if row.percent >= 100 %}✓ {% endif %}{{ row.displayPercent }}%{% endif %}</span></span>
+        {% set s = food.serving.rows[loop.index0] %}
+        {% if row.displayPercent == 0 or row.displayPercent == null %}{% set trace = (trace.push(row.name), trace) %}{% else %}
+        <li class="fp-row" style="--c: {{ row.color }}; --s: {{ s.barPercent }}%; --h: {{ row.barPercent }}%;">
+          <span class="fp-row-name">{{ row.label }}</span>
+          <span class="fp-row-amount"><span class="is-serving">{{ s.amount }} {{ row.unit }}</span><span class="is-100g">{{ row.amount }} {{ row.unit }}</span></span>
+          <span class="fp-row-pct"><span class="is-serving">{{ s.displayPercent }}<small>%</small></span><span class="is-100g">{{ row.displayPercent }}<small>%</small></span></span>
+          <span class="fp-row-bar" aria-hidden="true"><span></span></span>
         </li>
         {% endif %}
       {% endfor %}
     </ol>
-    {% if trace.length %}<p class="viz-note food-chart-note">Under 1%: {{ trace | join(", ") }}</p>{% endif %}
-    <details class="viz-more food-table-details">
-      <summary id="food-table-title">Show full nutrient table</summary>
+    <p class="fp-note">Share of the daily amount needed in pregnancy{% if trace.length %}. Under 1% per 100 g: {{ trace | join(", ") | replace("Vitamin B-", "Vitamin B") }}{% endif %}.</p>
+    <details class="viz-more fp-table">
+      <summary>Full nutrient table per 100 g</summary>
       <div class="table-shell">
         <table class="data-table">
           <caption class="sr-only">Nutrients per 100 grams</caption>
@@ -74,80 +76,59 @@ pageStyles:
   </section>
 
   {% if food.guidance %}
-    <section class="content-card food-guidance-card{% if food.guidance.verdict | lower == 'avoid' %} is-avoid{% endif %}" id="food-guidance" aria-labelledby="food-guidance-title">
-      <div class="food-guidance-head">
-        <h2 class="food-explainer-title" id="food-guidance-title">Pregnancy guidance</h2>
-        {% if food.guidance.verdict %}
-          <span class="food-guidance-badge is-{{ food.guidance.verdict | lower | replace(' ', '-') }}">{{ food.guidance.verdict }}</span>
-        {% endif %}
-      </div>
+    <section class="fp-why" id="food-guidance" aria-labelledby="fp-why-title">
+      <h2 class="fp-section-title" id="fp-why-title">In pregnancy</h2>
       {% if food.guidance.claims %}
-        {% for claim in food.guidance.claims %}<p class="food-guidance-text">{{ claim.text }} <a href="{{ claim.source.url | escape }}">{{ claim.source.name }}</a></p>{% endfor %}
+        {% for claim in food.guidance.claims %}<p>{{ claim.text }} <a href="{{ claim.source.url | escape }}">{{ claim.source.name }}</a></p>{% endfor %}
       {% else %}
-        <p class="food-guidance-text">{{ food.guidance.explanation }}</p>
+        <p>{{ food.guidance.explanation }}</p>
+        {% if food.guidance.sources and food.guidance.sources.length %}
+          <p class="fp-sources">Sources: {% for src in food.guidance.sources %}<a href="{{ src.url }}" target="_blank" rel="noopener noreferrer">{{ src.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+        {% endif %}
       {% endif %}
-      {% if food.guidance.dateModified %}<p class="viz-note">Guidance updated {{ food.guidance.dateModified | readableDate }}.</p>{% endif %}
-      {% if not food.guidance.claims and food.guidance.sources and food.guidance.sources.length %}
-        <p class="food-guidance-sources">
-          <span class="food-guidance-sources-label">Sources:</span>
-          {% for src in food.guidance.sources %}
-            <a href="{{ src.url }}" target="_blank" rel="noopener noreferrer">{{ src.name }}</a>{% if not loop.last %} · {% endif %}
-          {% endfor %}
-        </p>
-      {% endif %}
+      {% if food.guidance.dateModified %}<p class="fp-sources">Updated {{ food.guidance.dateModified | readableDate }}</p>{% endif %}
     </section>
   {% elif food.warning or food.isRawPulse or food.isRawFlour %}
-    <aside class="content-card food-safety-note{% if food.isAvoid %} is-avoid{% endif %}" id="food-safety" aria-labelledby="food-safety-title">
-      <div class="food-safety-heading">
-        <h2 class="food-explainer-title" id="food-safety-title">Food safety</h2>
-        {% if food.warning %}<span class="food-safety-badge">{{ food.warning }}</span>{% endif %}
-      </div>
+    <section class="fp-why" id="food-safety" aria-labelledby="fp-why-title">
+      <h2 class="fp-section-title" id="fp-why-title">In pregnancy</h2>
       {% if food.isRawPulse %}
-        <p class="content-summary">Cook dried pulses fully before eating; cooking also changes weight and nutrients per 100 g. <a href="https://www.efsa.europa.eu/en/news/lectins-food-undercooked-beans-pose-health-risk-says-efsa">EFSA on undercooked beans</a>{% if food.id == "16069" %} · <a href="/food/16070-lentils-mature-seeds-boiled/">Boiled lentils</a>{% endif %}</p>
+        <p>Cook dried pulses fully before eating; cooking also changes weight and nutrients per 100 g. <a href="https://www.efsa.europa.eu/en/news/lectins-food-undercooked-beans-pose-health-risk-says-efsa">EFSA on undercooked beans</a>{% if food.id == "16069" %} · <a href="/food/16070-lentils-mature-seeds-boiled/">Boiled lentils</a>{% endif %}</p>
       {% elif food.isRawFlour %}
-        <p class="content-summary">Don't eat raw dough or batter; cook flour foods as directed. <a href="https://www.cdc.gov/food-safety/foods/no-raw-dough.html">CDC on raw flour</a></p>
+        <p>Don't eat raw dough or batter; cook flour foods as directed. <a href="https://www.cdc.gov/food-safety/foods/no-raw-dough.html">CDC on raw flour</a></p>
       {% else %}
-        <p class="content-summary">{{ food.warningText }}
+        <p>{{ food.warningText }}
           {% if food.id == "05028" or food.id == "13327" %}<a href="https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/">NHS source</a>
           {% elif food.group == "Finfish and Shellfish Products" %}<a href="https://www.fda.gov/food/consumers/advice-about-eating-fish">FDA/EPA fish chart</a>
           {% else %}<a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC source</a>{% endif %}
         </p>
       {% endif %}
-    </aside>
+    </section>
   {% endif %}
 
-  <section class="food-explainer" aria-labelledby="food-explainer-title">
-    <h2 class="food-explainer-title" id="food-explainer-title">How to read this</h2>
-    <p>During pregnancy you need more of certain nutrients each day, like folate, iron and choline. Each bar shows how much of that daily amount 100 g of {{ food.displayName }} provides. 100% means 100 g alone covers the whole day; smaller numbers show its share. A ✓ marks 100% or more.</p>
-  </section>
-
   {% if not food.isHumanMilk %}
-    <section class="food-next" aria-labelledby="food-next-title">
-      <h2 class="food-explainer-title" id="food-next-title">Keep exploring</h2>
-      <ul class="viz-pill-links">
-        {% for link in food.toolLinks %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-        {% for link in food.readingLinks %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </section>
-
     {% if food.relatedFoods.length %}
-      <section class="food-next" aria-labelledby="related-foods-title">
-        <h2 class="food-explainer-title" id="related-foods-title">Similar foods</h2>
-        <ul class="viz-link-list">
+      <section class="fp-similar" aria-labelledby="fp-similar-title">
+        <h2 class="fp-section-title" id="fp-similar-title">Similar foods</h2>
+        <ul class="fp-similar-list">
           {% for related in food.relatedFoods %}
-            <li><a href="{{ related.url }}">{{ related.name }}</a></li>
+            <li><a href="{{ related.url }}">
+              {% if related.image %}<img src="{{ related.image }}" alt="" width="96" height="96" loading="lazy" decoding="async">{% else %}<span class="fp-similar-letter" aria-hidden="true">{{ related.name | first | upper }}</span>{% endif %}
+              <span>{{ related.name }}</span>
+            </a></li>
           {% endfor %}
         </ul>
       </section>
     {% endif %}
+
+    <nav class="fp-more" aria-label="Keep reading">
+      <ul class="viz-pill-links">
+        {% for link in food.toolLinks %}<li><a href="{{ link.url }}">{{ link.title }}</a></li>{% endfor %}
+        {% for link in food.readingLinks %}<li><a href="{{ link.url }}">{{ link.title }}</a></li>{% endfor %}
+      </ul>
+    </nav>
   {% endif %}
 
-  <footer class="food-source-note viz-note">
-    {% if food.displayName != food.pageName %}<p>USDA record: {{ food.pageName }} · {{ food.group }}</p>{% else %}<p>Food group: {{ food.group }}</p>{% endif %}
-    <p>Values come from a historical USDA-based dataset; DHA and protein use illustrative benchmarks. Nutrient data can't show whether a food is safe — see <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC pregnancy food safety</a>. <a href="/about/#food-data-sources">Sources and limits</a>. Not medical advice. Image is illustrative.</p>
+  <footer class="fp-foot">
+    <p>USDA record: {{ food.pageName }} · {{ food.group }}. A serving follows FDA reference amounts ({{ food.serving.grams }} g). Values come from a historical USDA-based dataset; DHA and protein use illustrative benchmarks. See <a href="https://www.cdc.gov/food-safety/foods/pregnant-women.html">CDC pregnancy food safety</a> and <a href="/about/#food-data-sources">sources and limits</a>. Not medical advice.</p>
   </footer>
 </article>

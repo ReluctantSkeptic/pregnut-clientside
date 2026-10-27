@@ -1,5 +1,6 @@
 const foodData = require("../resource/pregnut_fooddata.v1.json");
 const foodImages = require("./foodimages");
+const { foodServing } = require("../../scripts/food-serving.js");
 let foodExplanations = {};
 try {
   foodExplanations = require("../resource/food_explanations.json");
@@ -240,6 +241,40 @@ const FOOD_SEARCH_OVERRIDES = {
   }
 };
 
+// A food without its own cut-out borrows one from the same food prepared
+// another way ("Spinach, boiled" uses the spinach photo), never a different food.
+const PREP_WORDS = new Set(("raw boiled cooked steamed frozen canned baked roasted drained solids dry heat moist " +
+  "fresh unprepared without salt with whole mature seeds fried pan-fried broiled grilled stewed braised " +
+  "microwaved plain unsalted salted and in water").split(" "));
+function labelWords(label) {
+  return String(label || "").toLowerCase().replace(/[(),]/g, " ").split(/\s+/).filter(Boolean);
+}
+function labelHead(label) {
+  return (labelWords(label)[0] || "").replace(/(es|s)$/, "");
+}
+const headPictures = new Map();
+for (const food of foodData.foods || []) {
+  const src = foodImages.get(String(food.id));
+  const head = labelHead(food.label || food.name);
+  if (src && !headPictures.has(head)) headPictures.set(head, src);
+}
+function pictureFor(food) {
+  const own = foodImages.get(String(food.id));
+  if (own) return own;
+  const words = labelWords(food.label || food.name);
+  if (words.slice(1).every((word) => PREP_WORDS.has(word))) return headPictures.get(labelHead(food.label || food.name)) || "";
+  return "";
+}
+
+function amountText(value) {
+  const n = Number(value);
+  if (value === null || value === undefined || value === "" || !Number.isFinite(n)) return "—";
+  if (n >= 100) return String(Math.round(n));
+  if (n >= 10) return String(Math.round(n * 10) / 10);
+  if (n >= 1) return String(Math.round(n * 10) / 10);
+  return String(Number(n.toPrecision(2)));
+}
+
 function slugify(value) {
   return String(value || "")
     .normalize("NFKD")
@@ -313,11 +348,61 @@ function joinList(parts) {
   return parts.slice(0, -1).join(", ") + " and " + parts[parts.length - 1];
 }
 
-// One plain-English sentence describing the strongest contributions.
-function summaryText(topNutrients) {
-  if (!topNutrients.length) return "100 g has little or none of the pregnancy nutrients tracked here.";
-  const parts = topNutrients.map((row) => `${row.displayPercent}% of daily ${lowerNutrient(row.name)}`);
-  return `100 g gives about ${joinList(parts)} needed in pregnancy.`;
+// Daily Fit's nutrient colours, so a nutrient looks the same on every page.
+const NUTRIENT_COLORS = {
+  "Folate (DFE)": "#2f6b5a", Iron: "#3f7d63", Choline: "#5b8f5e", DHA: "#7ea25a",
+  "Vitamin D": "#a9b25a", Calcium: "#d3b45a", Protein: "#e8a65a", "Vitamin B-12": "#ee955e",
+  Zinc: "#ef8566", "Vitamin C": "#e57770", "Vitamin B-6": "#d46f7d", Riboflavin: "#b86c8a",
+  Potassium: "#946a94"
+};
+
+function sentences(text) {
+  return String(text || "").split(/(?<=[.!?]["”]?)\s+(?=[A-Z"“])/).map((s) => s.trim()).filter(Boolean);
+}
+
+const VERDICT_LINES = {
+  recommended: "A good choice in pregnancy.",
+  "safe with precautions": "Fine in pregnancy with a few precautions.",
+  "safe with preparation": "Fine in pregnancy when prepared safely.",
+  "preparation matters": "Fine in pregnancy when prepared safely.",
+  "safe when cooked": "Fine in pregnancy once fully cooked.",
+  caution: "Fine in pregnancy with some care.",
+  limit: "Fine in pregnancy in small amounts.",
+  avoid: "Best avoided in pregnancy."
+};
+
+function nutrientWord(name) {
+  return lowerNutrient(name).replace(/B-(\d)/, "B$1");
+}
+
+// The answer at the top of a food page: the guidance's own opening line
+// ("Cooked salmon is recommended during pregnancy as an FDA Best Choice
+// fish.") plus what one typical serving gives.
+function answerText(guidance, servingTop, serving) {
+  const verdict = String((guidance && guidance.verdict) || "").toLowerCase();
+  const lines = sentences(guidance && guidance.explanation);
+  let lead = lines[0] || "";
+  // Some entries open with the reader's question: answer it instead.
+  if (/\?$/.test(lead)) {
+    lead = lines[1] || "";
+    if (lead.length < 40) {
+      if (lines[2] && lines[2].length <= 130) lead += " " + lines[2];
+      else if (/^Yes\.$/.test(lead)) lead = "Yes, it fits a pregnancy diet.";
+    }
+  }
+  // Data-record openings read like a lab sheet: say the verdict instead.
+  if (!lead || /PregNut|per 100 g|^This record/.test(lead)) {
+    lead = VERDICT_LINES[verdict] || "";
+  }
+  // Only praise nutrients in foods the guidance is happy with.
+  const strong = verdict === "limit" || verdict === "avoid" ? []
+    : servingTop.filter((row) => row.percent >= 10).slice(0, 2);
+  let gives = "";
+  if (strong.length) {
+    const parts = strong.map((row, i) => `${row.displayPercent}% of ${i ? "" : "your daily "}${nutrientWord(row.name)}`);
+    gives = `${serving.charAt(0).toUpperCase() + serving.slice(1)} gives about ${joinList(parts)}.`;
+  }
+  return [lead, gives].filter(Boolean).join(" ");
 }
 
 const TOPIC_GUIDES = {
@@ -432,11 +517,12 @@ function toolLinks(topNutrients) {
   return links;
 }
 
-function nutrientRows(food) {
+function nutrientRows(food, grams = 100) {
   return Object.entries(foodData.nutrients || {})
     .filter(([name, info]) => name !== "Calories" && info && info.rda)
     .map(([name, info]) => {
-      const value = food.nutrients && food.nutrients[name];
+      const raw = food.nutrients && food.nutrients[name];
+      const value = grams === 100 || raw === null || raw === undefined || raw === "" ? raw : Number(raw) * grams / 100;
       const convertedValue = convertValue(value, info.unit, info.rda.unit);
       const targetValue = Number(info.rda.value);
       const percent = convertedValue !== null && targetValue > 0
@@ -451,7 +537,10 @@ function nutrientRows(food) {
         percent,
         displayPercent: percent === null ? null : Math.round(percent),
         barPercent: percent === null ? 0 : Math.min(Math.max(percent, 0), 100),
-        isOver100: percent !== null && percent > 100
+        isOver100: percent !== null && percent > 100,
+        amount: amountText(value),
+        label: name.replace(/B-(\d)/, "B$1"),
+        color: NUTRIENT_COLORS[name] || "var(--accent)"
       };
     });
 }
@@ -475,6 +564,15 @@ const items = (foodData.foods || [])
       .slice()
       .sort((a, b) => (b.percent ?? -1) - (a.percent ?? -1) || a.name.localeCompare(b.name));
     const topNutrients = chartRows.filter((row) => row.percent > 0).slice(0, 3);
+    const [servingGrams, servingLabel] = foodServing(food.label || food.name, food.group);
+    const byName = new Map(nutrientRows(food, servingGrams).map((row) => [row.name, row]));
+    // Same order as the 100 g chart so the two views line up.
+    const servingRows = chartRows.map((row) => byName.get(row.name));
+    const servingTop = servingRows.slice().sort((a, b) => (b.percent ?? -1) - (a.percent ?? -1));
+    const guidance = foodExplanations[food.id] || null;
+    const heading = food.label && !FOOD_TITLE_OVERRIDES[food.id] && !hasDuplicateName
+      ? food.label.charAt(0).toUpperCase() + food.label.slice(1)
+      : displayName(food, pageName);
     let pageDescription = metaDescription(pageName, topNutrients);
     if (isRawPulse || isRawFlour) pageDescription = `${pageName}: historical USDA-based nutrients per 100 g before cooking. Uncooked ingredient data; see preparation guidance.`;
     if (isAvoid) pageDescription = `Avoid ${pageName} during pregnancy. See the safety reason, source guidance, and historical nutrients per 100 g.`;
@@ -498,8 +596,10 @@ const items = (foodData.foods || [])
       nutrientRows: rows,
       chartRows,
       topNutrients,
-      summary: summaryText(topNutrients),
-      guidance: foodExplanations[food.id] || null,
+      guidance,
+      serving: { grams: servingGrams, label: servingLabel, rows: servingRows },
+      answer: isHumanMilk ? "" : answerText(guidance, servingTop, servingLabel),
+      heading,
       metaDescription: (FOOD_SEARCH_OVERRIDES[food.id] && FOOD_SEARCH_OVERRIDES[food.id].description) || pageDescription,
       seoTitle: isHumanMilk ? "Human Milk Nutrient Data | PregNut" : ((FOOD_SEARCH_OVERRIDES[food.id] && FOOD_SEARCH_OVERRIDES[food.id].title) || FOOD_TITLE_OVERRIDES[food.id] || seoTitle(pageName, isAvoid)),
       readingLinks: readingLinks(food, flags, topNutrients),
@@ -509,9 +609,9 @@ const items = (foodData.foods || [])
       isRawPulse,
       isRawFlour,
       calories: food.nutrients && food.nutrients.Calories,
-      image: foodImages.has(String(food.id))
+      image: pictureFor(food)
         ? {
-            src: foodImages.get(String(food.id)),
+            src: pictureFor(food),
             alt: `Illustration of ${hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name}`,
             width: 320,
             height: 320
@@ -535,9 +635,12 @@ for (const groupFoods of itemsByGroup.values()) {
       .filter((candidate) => candidate.id !== food.id && String(candidate.warning || "").toLowerCase() !== "avoid")
       .map((candidate) => ({
         id: candidate.id,
-        name: candidate.pageName,
-        url: candidate.url
-      }));
+        name: candidate.heading,
+        url: candidate.url,
+        image: candidate.image && candidate.image.src
+      }))
+      // Foods with a cut-out first.
+      .sort((a, b) => (b.image ? 1 : 0) - (a.image ? 1 : 0));
   });
 }
 
@@ -559,6 +662,7 @@ const searchItems = listedItems.map((food) => ({
 }));
 
 module.exports = {
+  pictureFor,
   count: listedItems.length,
   groups,
   items,
