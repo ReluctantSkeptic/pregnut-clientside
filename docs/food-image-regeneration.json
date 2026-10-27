@@ -7473,7 +7473,9 @@
           "id": "16090",
           "name": "Peanuts, All types, Dry-roasted",
           "file": "16090-peanuts-all-types-dry-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small neat mound of dry-roasted shelled peanuts, warm golden tan kernels with some natural reddish papery skins, crisp roasted texture and varied whole and split nuts. Centered as an isolated ingredient with a subtle contact shadow, soft upper-left studio lighting. No salt crystals, no shells, no bowl, no garnish, no table, no background; true transparent background. Square composition, peanuts fill about 58% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-6cc0e242-3446-45e1-8250-5dab5b91bc06.png"
         }
       ]
     },
@@ -7484,73 +7486,97 @@
           "id": "16089",
           "name": "Peanuts, All types, Oil-roasted",
           "file": "16089-peanuts-oil-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small neat mound of oil-roasted shelled peanuts, warm golden-brown kernels with a light natural oil sheen and a few split nuts, crisp roasted texture. Centered as an isolated ingredient with a subtle contact shadow, soft upper-left studio lighting. No salt crystals, no shells, no bowl, no garnish, no table, no background; true transparent background. Square composition, peanuts fill about 58% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-7d85db52-0888-4caf-8d98-141d1c4fcec7.png"
         },
         {
           "id": "16087",
           "name": "Peanuts, All types, Raw",
           "file": "16087-peanuts-all-types-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a small loose mound of raw shelled peanuts, pale ivory-beige kernels with natural thin muted rose-brown papery skins, matte uncooked surface and a few split halves. Centered as an isolated ingredient with a faint contact shadow, soft upper-left studio lighting. No salt, no bowl, no shells, no garnish, no table, no background; true transparent background. Square composition, peanuts fill about 58% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-9cb0c905-5fb0-462c-8d08-22be6f824d1b.png"
         },
         {
           "id": "09262",
           "name": "Pear nectar, Canned",
           "file": "09262-pear-nectar-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: a short clear glass filled with smooth canned pear nectar, pale golden cream color with a slightly thick glossy surface and gentle meniscus, no pulp or garnish. Centered at a gentle three-quarter overhead angle, soft upper-left studio lighting with delicate realistic highlights and a subtle contact shadow only. No pear fruit, no straw, no label, no table, no background; true transparent background. Square composition, glass fills about 60% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-39d60412-4bc0-4eab-a2c8-e81b91be2331.png"
         },
         {
           "id": "09340",
           "name": "Pears, Asian, Raw",
           "file": "09340-pears-asian-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: one ripe Asian pear shown whole beside a clean half, round apple-like pale golden skin with natural tiny lenticel speckles, crisp ivory flesh and a small neat seed core visible. Centered at a gentle three-quarter angle, soft upper-left studio lighting and a subtle contact shadow only. No leaves, no knife, no plate, no table, no background; true transparent background. Square composition, fruit fills about 64% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-d40effed-1adf-412f-9f5d-910ca29c321f.png"
         },
         {
           "id": "09257",
           "name": "Pears, Canned, in syrup",
           "file": "09257-pears-canned-in-syrup.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: several tender pale golden pear slices from a can, glossy with a little clear light syrup in a small plain white ceramic bowl. Natural pear texture, softly curved slices and no skin, centered at a gentle three-quarter overhead angle, soft upper-left studio lighting and subtle contact shadow only. No whole pears, no garnish, no label, no utensils, no table, no background; true transparent background. Square composition, bowl fills about 64% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-6381d167-96e3-4b55-92ee-692935384677.png"
         },
         {
           "id": "09253",
           "name": "Pears, Canned, in water",
           "file": "09253-pears-canned-in-water.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic isolated food cutout for a nutrition app: several tender pale ivory pear slices from a can packed in water, gently glossy and resting in a small amount of clear water in a plain white ceramic bowl. Natural pear texture, softly curved slices, no skin, centered at a gentle three-quarter overhead angle, soft upper-left studio lighting and subtle contact shadow only. No syrup, no whole pears, no garnish, no label, no utensils, no table, no background; true transparent background. Square composition, bowl fills about 64% with generous transparent padding, no text or extra objects.",
+          "generatedSource": "exec-5926bea6-af3c-4e47-a300-54ba37f03953.png"
         },
         {
           "id": "09259",
           "name": "Pears, Dried, Uncooked",
           "file": "09259-pears-dried-uncooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: several dried pear halves and slices, deep amber-brown with visibly wrinkled chewy surfaces, naturally irregular and slightly overlapping. Composition/framing: centered, gentle three-quarter overhead view, subject occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light with a subtle contact shadow only. Constraints: isolated food only, no plate, no whole fresh pears, no garnish, no packaging, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-60cef2e3-e81e-47db-a8bb-6ced0172dd1d.png"
         },
         {
           "id": "09252",
           "name": "Pears, Raw",
           "file": "09252-pears-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one ripe green pear with a natural teardrop shape and subtle speckled skin, shown with one clean cut half beside it revealing pale juicy flesh and a small seed core. Composition/framing: centered, gentle three-quarter overhead view, pear grouping occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no other fruit, no leaves, no garnish, no packaging, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-b606af37-1b90-4afe-a287-33189eaf75c4.png"
         },
         {
           "id": "11816",
           "name": "Peas and carrots, Canned",
           "file": "11816-peas-and-carrots-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: glossy canned green peas mixed with small orange carrot cubes, lightly moist with a little clear canning liquid, served in a simple plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no garnish, no label, no can, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-6aa35f2d-55a7-4d58-8627-c59e80251e17.png"
         },
         {
           "id": "11327",
           "name": "Peas and onions, Frozen, Boiled",
           "file": "11327-peas-and-onions-frozen-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small serving of tender bright green cooked peas mixed with small pearl onions, lightly glazed and naturally irregular, arranged as a neat mound without a dish. Composition/framing: centered, gentle three-quarter overhead view, food occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no carrots, no garnish, no plate, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-cbca8625-a2f2-4074-8376-49592be0ea85.png"
         },
         {
           "id": "11301",
           "name": "Peas, Edible-podded, Boiled",
           "file": "11301-peas-edible-podded-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: several tender cooked edible green pea pods, gently softened and glossy from boiling, a few pods slightly open to show peas inside. Composition/framing: centered loose cluster at a gentle three-quarter overhead view, filling about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-de4ff10b-1f2d-4581-9e8e-46af2f7c60d1.png"
         },
         {
           "id": "11300",
           "name": "Peas, Edible-podded, Raw",
           "file": "11300-peas-edible-podded-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: several fresh raw edible green pea pods, crisp and plump with natural matte green skin and tiny stems, a couple of pods opened to reveal round peas. Composition/framing: centered loose cluster at a gentle three-quarter overhead view, filling about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-f948b453-4aee-4fcd-aaf2-d6e5bdda6775.png"
         }
       ]
     },
@@ -7561,73 +7587,97 @@
           "id": "11305",
           "name": "Peas, Green, Boiled",
           "file": "11305-peas-green-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: tender bright green boiled peas, slightly soft and lightly glossy, served in a small plain white ceramic bowl with just a trace of cooking moisture. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no carrots, no onions, no garnish, no spoon, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-d9a4017c-716d-4b42-b870-f7cf5a6dff1a.png"
         },
         {
           "id": "11812",
           "name": "Peas, Green, Canned",
           "file": "11812-peas-green-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: canned green peas, softly cooked and slightly muted olive green, visibly glossy with a small amount of clear canning liquid, served in a plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no carrots, no onions, no garnish, no spoon, no can, no label, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-6933ee2f-9d3a-4b58-9b88-a7ba0a3a337f.png"
         },
         {
           "id": "11304",
           "name": "Peas, Green, Raw",
           "file": "11304-peas-green-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small loose mound of fresh shelled green peas, plump and vivid spring green with natural matte-to-soft-satin skin and subtle variation in size. Composition/framing: centered, gentle three-quarter overhead view, peas occupy about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no pods, no bowl, no leaves, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-6cf3c54c-9c3f-445d-8fec-795d50bc7102.png"
         },
         {
           "id": "16085",
           "name": "Peas, Green, Split, Mature seeds, Raw",
           "file": "16085-peas-green-split-mature-seeds-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small mound of dry raw split green peas, flat round halves in muted yellow-green tones with matte dried surfaces and a few individual pieces scattered naturally near the base. Composition/framing: centered, gentle three-quarter overhead view, pile occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no cooked peas, no pod, no bowl, no packaging, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-8784381d-c515-4ee5-8e39-baa11ed24d1e.png"
         },
         {
           "id": "25066",
           "name": "Peas, Roasted, Wasabi-flavored",
           "file": "25066-peas-roasted-wasabi-flavored.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small mound of crunchy roasted green peas coated in a fine pale green wasabi seasoning, irregular crisp texture with a few pieces scattered naturally at the base. Composition/framing: centered, gentle three-quarter overhead view, mound occupies about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, no packaging, no label, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-751ca7c7-c173-43d6-a2a9-4fe5ae416b51.png"
         },
         {
           "id": "16086",
           "name": "Peas, Split, Mature seeds, Boiled",
           "file": "16086-peas-split-mature-seeds-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: tender boiled mature split peas, soft yellow-green halves with a thick creamy consistency but still visibly distinct peas and a little cooking moisture, served in a plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bacon, no garnish, no spoon, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-64717223-771e-4c57-8ccc-19f8e6d2234f.png"
         },
         {
           "id": "42063",
           "name": "Pectin, Liquid",
           "file": "42063-pectin-liquid.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small portion of clear, slightly amber liquid pectin, glossy and viscous, shown in a tiny plain clear glass ramekin with one delicate ribbon of gel visible at the surface. Composition/framing: centered, gentle three-quarter overhead view, ramekin occupies about 48% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light, clean glass highlights and subtle contact shadow only. Constraints: no packaging, no label, no spoon, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-16118d4f-b138-41d2-9bf5-a111ef7bb711.png"
         },
         {
           "id": "11976",
           "name": "Pepper, Banana, Raw",
           "file": "11976-pepper-banana-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: two fresh raw banana peppers, long curved glossy yellow-green peppers with tapered tips, one whole and one cut lengthwise to reveal pale ribs and seeds. Composition/framing: centered at a gentle three-quarter overhead view, peppers occupy about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no leaves, no garnish, no other peppers, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-e54645b1-22a3-42a4-a2a7-c91521ae9fab.png"
         },
         {
           "id": "07057",
           "name": "Pepperoni, Beef and pork, Sliced",
           "file": "07057-pepperoni-beef-and-pork-sliced.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a short overlapping stack of thin round pepperoni slices made from beef and pork, deep red with fine white fat flecks and slightly curled edges. Composition/framing: centered at a gentle three-quarter overhead view, slices occupy about 58% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no pizza, no cheese, no plate, no packaging, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-cea64c70-ddc0-4152-975c-2a2bd560cbfd.png"
         },
         {
           "id": "11962",
           "name": "Peppers, Hot chile, Sun-dried",
           "file": "11962-peppers-hot-chile-sun-dried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: several sun-dried hot red chile peppers, slender curved pods with deeply wrinkled leathery burgundy-red skin, brittle stems and a few subtle natural creases. Composition/framing: centered loose cluster at a gentle three-quarter overhead view, peppers occupy about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no fresh peppers, no bowl, no leaves, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-f9983374-450a-48fa-8c1c-5451a0b60908.png"
         },
         {
           "id": "11329",
           "name": "Peppers, Hot chili, Green, Canned, Pods, Excluding seeds",
           "file": "11329-peppers-hot-chili-green-canned-pods-excluding-seeds.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: soft canned green chile pepper strips with seeds removed, muted olive green, tender and glossy with a little clear packing liquid, served in a small plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no whole peppers, no seeds, no label, no can, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-4d3c3483-a061-4e30-a561-707cafda6e1f.png"
         },
         {
           "id": "11670",
           "name": "Peppers, Hot chili, Green, Raw",
           "file": "11670-peppers-hot-chili-green-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: three fresh raw hot green chile peppers, slender tapered pods with smooth deep green skin, one sliced lengthwise to reveal pale ribs and small seeds. Composition/framing: centered at a gentle three-quarter overhead view, peppers occupy about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, no red peppers, no leaves, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-24442e2b-3c47-4fbe-9c2d-dad0f7265f56.png"
         }
       ]
     },
@@ -7638,73 +7688,97 @@
           "id": "11820",
           "name": "Peppers, Hot chili, Red, Canned, Excluding seeds",
           "file": "11820-peppers-hot-chili-red-canned-excluding-seeds.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: tender canned red hot chile pepper strips with most seeds removed, softened crimson-red skin, gently glossy with a little clear packing liquid, served in a small plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no whole fresh peppers, no green peppers, no can, no label, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-9f3f9d14-fe2b-48d1-a5ec-87b364520ee8.png"
         },
         {
           "id": "11819",
           "name": "Peppers, Hot chili, Red, Raw",
           "file": "11819-peppers-hot-chili-red-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: three fresh raw hot red chile peppers, slender glossy crimson pods with tapered tips, one sliced lengthwise to show pale ribs and seeds. Composition/framing: centered at a gentle three-quarter overhead view, peppers occupy about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, no green peppers, no leaves, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-39721fa0-920c-429d-b59a-8ba86c29a97a.png"
         },
         {
           "id": "31034",
           "name": "Peppers, Hot pickled, Canned",
           "file": "31034-peppers-hot-pickled-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: sliced hot pickled peppers in vivid yellow-green and red tones, glossy and slightly translucent with visible seeds in light brine, served in a small plain white ceramic bowl. Composition/framing: centered, gentle three-quarter overhead view, bowl occupies about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no jar, no label, no whole fresh peppers, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-f05de7a9-f978-4a71-b074-bf703981185d.png"
         },
         {
           "id": "11979",
           "name": "Peppers, Jalapeno, Raw",
           "file": "11979-peppers-jalapeno-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: three raw jalapeno peppers, plump glossy deep green pods with natural dimples, one cut into a cross-section showing pale ribs and cream-colored seeds. Composition/framing: centered at a gentle three-quarter overhead view, peppers occupy about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, no red peppers, no leaves, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-c2ec6f67-bb9f-4a45-b2dd-2e36c366e723.png"
         },
         {
           "id": "11977",
           "name": "Peppers, Serrano, Raw",
           "file": "11977-peppers-serrano-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: three fresh raw serrano peppers, narrow tapered glossy green chiles with natural gentle curves, one cut crosswise to show a few pale seeds. Composition/framing: centered at a gentle three-quarter overhead view, peppers occupy about 60% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no bowl, no jalapenos, no red peppers, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-4114cfab-300e-4aca-be8e-37114ecaf597.png"
         },
         {
           "id": "11334",
           "name": "Peppers, Sweet, Green, Boiled",
           "file": "11334-peppers-sweet-green-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: tender boiled sweet green bell pepper strips, softened and glossy, gathered on a small plain white ceramic plate. Composition/framing: centered, gentle three-quarter overhead view, plate occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no raw pepper, no red pepper, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-4b3e4cef-8fc8-44e3-825b-4f3a592ba6be.png"
         },
         {
           "id": "11333",
           "name": "Peppers, Sweet, Green, Raw",
           "file": "11333-peppers-sweet-green-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one fresh raw green bell pepper with smooth glossy skin, shown with a clean cut half revealing pale ribs and seeds. Composition/framing: centered at a gentle three-quarter overhead view, pepper occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no red pepper, no leaves, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-062ee6be-2bf9-4a80-bbb0-d8dbc5ffebdd.png"
         },
         {
           "id": "11823",
           "name": "Peppers, Sweet, Red, Boiled",
           "file": "11823-peppers-sweet-red-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: tender boiled sweet red bell pepper strips, softened and glossy with deep red skin, arranged on a small plain white ceramic plate. Composition/framing: centered, gentle three-quarter overhead view, plate occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no green pepper, no raw whole pepper, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-fd13b3f5-9c6d-4e74-a364-a014669236cd.png"
         },
         {
           "id": "15060",
           "name": "Perch",
           "file": "15060-perch.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: one cooked perch fillet, flaky ivory-white flesh with delicate golden sear marks and a strip of crisp mottled skin along one edge. Composition/framing: centered, gentle three-quarter overhead view, fillet occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no lemon, no herbs, no sauce, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-2fe37874-5c2c-40b9-83aa-15d8133560b4.png"
         },
         {
           "id": "09263",
           "name": "Persimmons, Japanese, Raw",
           "file": "09263-persimmons-japanese-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: two ripe Japanese persimmons, smooth bright orange fruit with natural four-point green-brown leafy calyxes, one whole and one cut in half to reveal glistening orange flesh and small seeds. Composition/framing: centered at a gentle three-quarter overhead view, fruit occupies about 64% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no plate, no other fruit, no leaves beyond calyxes, no garnish, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-de36dc62-bb3d-496e-9b00-06ce1e563a6e.png"
         },
         {
           "id": "43283",
           "name": "Pheasant, Cooked, Total edible",
           "file": "43283-pheasant-cooked-total-edible.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a small serving of cooked pheasant meat, one roasted breast piece and a small leg portion with crisp golden-brown skin, tender pale meat visible at a clean cut edge. Composition/framing: centered, gentle three-quarter overhead view, meat occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no whole bird, no plate, no stuffing, no gravy, no garnish, no utensils, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-fbe56677-10f3-466a-83e0-8b85531182f4.png"
         },
         {
           "id": "18338",
           "name": "Phyllo dough",
           "file": "18338-phyllo-dough.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Use case: photorealistic-natural. Asset type: transparent food cutout for a nutrition app. Primary request: a neat stack of raw phyllo dough sheets, paper-thin pale ivory pastry layers with delicate slightly uneven edges, one corner gently lifted to reveal many fine layers. Composition/framing: centered, gentle three-quarter overhead view, stack occupies about 62% of a square canvas with transparent padding. Lighting/mood: soft upper-left studio light and subtle contact shadow only. Constraints: no baked pastry, no filling, no packaging, no plate, no rolling pin, no table, no background, no text; true transparent background.",
+          "generatedSource": "exec-4a83a72b-5bf7-4e36-b1c4-71e6f652d94b.png"
         }
       ]
     },
