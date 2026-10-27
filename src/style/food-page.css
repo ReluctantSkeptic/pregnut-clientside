@@ -27,7 +27,7 @@
 }
 
 .fp-hero.has-image {
-  grid-template-columns: minmax(0, 1fr) minmax(240px, 400px);
+  grid-template-columns: minmax(0, 1fr) 260px;
   grid-template-areas: "text image";
   align-items: center;
   gap: var(--s-6);
@@ -41,11 +41,18 @@
   grid-area: image;
   justify-self: center;
   display: block;
-  width: 100%;
+  /* Shown at about the photo's own size so it stays crisp. */
+  width: 220px;
   height: auto;
   object-fit: contain;
   filter: var(--cutout-shadow);
-  animation: fp-settle var(--dur-3) var(--ease-out) both;
+  transition: transform var(--dur-2) var(--ease-spring), filter var(--dur-2) ease;
+  animation: fp-settle var(--dur-3) var(--ease-out) backwards;
+}
+
+.fp-cutout:hover {
+  transform: translateY(-6px) rotate(-3deg) scale(1.04);
+  filter: drop-shadow(0 18px 18px rgba(38, 48, 56, 0.16));
 }
 
 @keyframes fp-settle {
@@ -409,8 +416,7 @@
   }
 
   .fp-cutout {
-    width: min(78%, 300px);
-    justify-self: center;
+    width: 180px;
   }
 
   .fp-card {
@@ -423,6 +429,7 @@
 @media (prefers-reduced-motion: reduce) {
   .fp-cutout {
     animation: none;
+    transition: none;
   }
 
   .fp-row-bar span,
