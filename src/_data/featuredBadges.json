@@ -57,5 +57,12 @@
     "alt": "Featured on LaunchIgniter",
     "width": 212,
     "height": 55
+  },
+  {
+    "href": "https://smollaunch.com",
+    "src": "https://smollaunch.com/badges/featured.svg",
+    "alt": "PregNut — Featured on Smol Launch",
+    "width": 250,
+    "height": 60
   }
 ]
