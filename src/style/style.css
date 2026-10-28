@@ -1204,8 +1204,8 @@ p {
   --fo-gap: 1.5rem;
   --fo-h: 40px;
   width: 100%;
-  margin: 28px 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 48px 0 20px;
 }
 .featured-on__label {
   margin: 0 0 12px;
@@ -1282,15 +1282,4 @@ p {
     -webkit-mask-image: none;
     mask-image: none;
   }
-}
-.home-hero-badges {
-  margin-top: 1rem;
-  display: flex;
-  gap: 0.5rem;
-  opacity: 0.85;
-}
-.home-hero-badges img {
-  display: block;
-  height: 40px;
-  width: auto;
 }
