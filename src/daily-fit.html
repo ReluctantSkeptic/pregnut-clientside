@@ -5,9 +5,9 @@ layout: base.njk
 permalink: /pregnancy-nutrition-calculator/index.html
 bodyClass: page-dailyfit
 pageStyles:
-  - /style/daily-fit.css?v=20261026-plan
+  - /style/daily-fit.css?v=20261027-swaps
 pageScripts:
-  - /js/daily-fit.js?v=20261026-plan
+  - /js/daily-fit.js?v=20261027-swaps
 ---
 
 <div class="df-app" id="DailyFit">
@@ -33,6 +33,11 @@ pageScripts:
       <ul class="df-results" id="DfResults" role="listbox" aria-label="Matching foods" hidden></ul>
     </div>
     <p class="df-or" id="DfOr" hidden>or <button type="button" id="DfPlanLink">plan a day for me</button></p>
+    <div class="df-actions" id="DfActions" hidden>
+      <button type="button" class="df-chip" id="DfReplan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>New plan</button>
+      <button type="button" class="df-chip" id="DfFill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Fill my gaps</button>
+      <button type="button" class="df-chip" id="DfPrefs" aria-label="Plan options"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="2"/></svg>Options</button>
+    </div>
   </section>
 
   <ul class="df-meals" id="DfMeals" aria-label="Meals"></ul>
@@ -84,6 +89,20 @@ pageScripts:
       <label class="df-tile"><input type="radio" name="diet" value="eggfree"><span><img src="/resource/portions/cutouts/portion-oatmeal-100g-600.webp" alt="" width="200" height="200">Egg-free</span></label>
       <label class="df-tile"><input type="radio" name="diet" value="nutfree"><span><img src="/resource/portions/cutouts/portion-blueberries-100g-600.webp" alt="" width="200" height="200">Nut-free</span></label>
     </div>
+    <p class="df-label">Focus on</p>
+    <div class="df-pills" role="radiogroup" aria-label="Nutrient to focus on">
+      <label class="df-pill"><input type="radio" name="focus" value="balanced" checked><span>Balanced</span></label>
+      <label class="df-pill"><input type="radio" name="focus" value="iron"><span>Iron</span></label>
+      <label class="df-pill"><input type="radio" name="focus" value="folate"><span>Folate</span></label>
+      <label class="df-pill"><input type="radio" name="focus" value="protein"><span>Protein</span></label>
+      <label class="df-pill"><input type="radio" name="focus" value="calcium"><span>Calcium</span></label>
+    </div>
+    <p class="df-label">Appetite</p>
+    <div class="df-pills df-pills-even" role="radiogroup" aria-label="Appetite">
+      <label class="df-pill"><input type="radio" name="size" value="light"><span>Light</span></label>
+      <label class="df-pill"><input type="radio" name="size" value="usual" checked><span>Usual</span></label>
+      <label class="df-pill"><input type="radio" name="size" value="hungry"><span>Hungry</span></label>
+    </div>
     <p class="df-label">Time to cook</p>
     <div class="df-pills df-pills-even" role="radiogroup" aria-label="Time to cook">
       <label class="df-pill"><input type="radio" name="prep" value="1"><span>Quick</span></label>
@@ -92,6 +111,17 @@ pageScripts:
     </div>
     <button type="submit" class="df-primary">Plan my day</button>
   </form>
+</dialog>
+
+<dialog class="df-sheet" id="DfSwap" aria-labelledby="DfSwapTitle">
+  <div class="df-sheet-body">
+    <div class="df-sheet-top">
+      <h2 id="DfSwapTitle">Swap</h2>
+      <button type="button" class="df-skip" id="DfSwapCancel">Cancel</button>
+    </div>
+    <p class="df-sub">Pick something similar. Amounts stay about the same.</p>
+    <ul class="df-swap-list" id="DfSwapList"></ul>
+  </div>
 </dialog>
 
 <dialog class="df-sheet" id="DfNutrientSheet" aria-labelledby="DfNutrientName">
@@ -113,6 +143,10 @@ pageScripts:
   <details>
     <summary>Is my food list saved?</summary>
     <p>Only in this browser on this device. Nothing is sent to us, and there's no account.</p>
+  </details>
+  <details>
+    <summary>How do swaps and "Fill my gaps" work?</summary>
+    <p>Swap on a meal trades it for another meal from the library that fits your diet and covers the day well; tap it again for a different one. The swap button next to a food offers similar foods at about the same weight. Fill my gaps adds the snack that covers the most of what's still missing. Every change can be undone.</p>
   </details>
   <details>
     <summary>Can I get everything from food alone?</summary>

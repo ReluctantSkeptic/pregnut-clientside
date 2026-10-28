@@ -685,6 +685,7 @@ img.df-item-photo {
   left: 50%;
   bottom: 24px;
   z-index: 60;
+  width: max-content;
   max-width: calc(100vw - 32px);
   padding: 10px 10px 10px 20px;
   display: flex;
@@ -1348,4 +1349,234 @@ img.df-item-photo {
 
 .df-tile input {
   z-index: 1;
+}
+
+/* Quick actions under the gauge once a day has food */
+.df-actions {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.df-actions[hidden],
+.df-chip[hidden] {
+  display: none;
+}
+
+.df-chip {
+  min-height: 42px;
+  padding: 0 16px 0 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--card);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.df-chip svg {
+  width: 17px;
+  height: 17px;
+  flex: none;
+}
+
+.df-chip:hover {
+  border-color: var(--ink);
+  background: var(--df-soft);
+}
+
+.df-chip:active {
+  transform: scale(0.97);
+}
+
+/* Meal cards: the food stack with a Swap button beside it */
+.df-meal-mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.df-meal-mid .df-stack {
+  min-width: 0;
+}
+
+.df-meal-swap {
+  min-height: 40px;
+  margin-left: auto;
+  padding: 0 14px 0 11px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--card);
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.df-meal-swap svg,
+.df-item-swap svg {
+  width: 17px;
+  height: 17px;
+}
+
+.df-meal-swap:hover {
+  border-color: var(--ink);
+  background: var(--df-soft);
+}
+
+.df-item-swap {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: var(--muted);
+  background: none;
+  cursor: pointer;
+}
+
+.df-item-swap:hover {
+  color: var(--ink);
+  background: var(--card);
+}
+
+.df-item-swap + .df-item-remove {
+  margin-left: -4px;
+}
+
+:where(.df-chip, .df-meal-swap, .df-item-swap, .df-swap-choice):focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 3px;
+}
+
+/* Swap sheet: similar foods as photo tiles */
+.df-swap-list {
+  margin: 18px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  list-style: none;
+}
+
+.df-swap-list li {
+  display: grid;
+}
+
+.df-swap-choice {
+  width: 100%;
+  height: 100%;
+  align-content: start;
+  padding: 12px 6px 14px;
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  color: var(--ink);
+  background: var(--df-soft);
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.df-swap-choice:hover {
+  border-color: var(--border-strong);
+  background: var(--card);
+}
+
+.df-swap-pic {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 4px;
+  display: grid;
+  place-items: center;
+}
+
+.df-swap-pic img,
+.df-swap-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: var(--cutout-shadow);
+  transition: transform 320ms var(--ease-spring, ease);
+}
+
+.df-swap-photo.is-empty {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--accent-2);
+  background: var(--card);
+  font-size: 1.4rem;
+}
+
+.df-swap-choice:hover .df-swap-pic img {
+  transform: translateY(-3px) scale(1.06);
+}
+
+.df-swap-name {
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.df-swap-amount {
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.df-toast button[hidden] {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .df-actions {
+    gap: 6px;
+  }
+
+  .df-chip {
+    min-height: 40px;
+    padding: 0 11px 0 9px;
+    gap: 5px;
+    font-size: 0.84rem;
+  }
+
+  .df-chip svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .df-swap-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 380px) {
+  .df-chip svg {
+    display: none;
+  }
+
+  .df-chip {
+    padding: 0 12px;
+  }
 }

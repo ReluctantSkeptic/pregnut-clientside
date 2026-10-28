@@ -96,30 +96,36 @@
 }
 
 /* Story: large serif paragraphs that light up as they are read */
+/* Story: a display-serif opening line, then comfortable sans-serif reading text */
 .ab-story {
   display: grid;
-  gap: 1.1em;
+  gap: 1.15em;
   padding-bottom: clamp(96px, 14vw, 180px);
-  font-family: var(--font-serif);
-  font-size: clamp(1.65rem, 3.3vw, 2.75rem);
-  line-height: 1.2;
-  letter-spacing: -0.012em;
+  color: #2f3836;
+  font-family: var(--font-sans);
+  font-size: clamp(1.14rem, 1.25vw + 0.7rem, 1.36rem);
+  line-height: 1.7;
 }
 
 .ab-story p {
-  max-width: 30ch;
+  max-width: 60ch;
   margin: 0;
+  color: inherit;
   line-height: inherit;
 }
 
 .ab-story .ab-lead {
-  max-width: 22ch;
-  font-size: 1.3em;
-  line-height: 1.08;
+  max-width: 24ch;
+  margin-bottom: 0.35em;
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: clamp(1.9rem, 3.6vw, 2.9rem);
+  line-height: 1.14;
+  letter-spacing: -0.012em;
 }
 
 .ab-motion [data-read] .w {
-  opacity: 0.16;
+  opacity: 0.22;
   transition: opacity 260ms ease;
 }
 
@@ -153,8 +159,8 @@
   max-width: 32ch;
   margin: 0;
   color: var(--muted);
-  font-size: 1.02rem;
-  line-height: 1.6;
+  font-size: 1.08rem;
+  line-height: 1.65;
 }
 
 /* Phone screenshots */
@@ -341,9 +347,9 @@
 
 .ab-fine-item p {
   margin: 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-  line-height: 1.7;
+  color: #444c49;
+  font-size: 1.04rem;
+  line-height: 1.72;
 }
 
 .ab-fine a {
@@ -366,7 +372,7 @@
   width: 100%;
   min-width: 520px;
   border-collapse: collapse;
-  font-size: 0.86rem;
+  font-size: 0.95rem;
 }
 
 .ab-table th,
@@ -379,7 +385,7 @@
 
 .ab-table thead th {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   font-weight: 500;
 }
 
@@ -394,11 +400,11 @@
 }
 
 .ab-table td {
-  color: var(--muted);
+  color: #444c49;
 }
 
 .ab-src {
-  font-size: 0.78rem;
+  font-size: 0.88rem;
 }
 
 /* Sign-off */

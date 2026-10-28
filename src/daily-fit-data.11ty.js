@@ -92,6 +92,35 @@ function isNut(id) {
   return Boolean(f) && (f.group === "Nut and Seed Products" || NUT.test(labelOf(id)));
 }
 
+// What a food does in a meal, so a swap offers like for like, and which
+// diets it suits: m meat, f fish, e egg, d dairy, n nut, g gluten.
+const MEAT_GROUPS = new Set(["Beef Products", "Pork Products", "Poultry Products", "Lamb, Veal, and Game Products",
+  "Sausages and Luncheon Meats"]);
+const GRAIN_GROUPS = new Set(["Cereal Grains and Pasta", "Baked Products", "Breakfast Cereals"]);
+const GLUTEN = /wheat|bread|pasta|spaghetti|macaroni|noodle|bagel|bran\b|barley|\brye\b|couscous|cracker|muffin|pita|tortillas?, flour|flour tortilla|waffle|pancake|bulgur|farro|semolina|biscuit|croissant|granola|cheerios|shredded wheat/i;
+const PULSE = /tofu|tempeh|bean|lentil|chickpea|edamame|\bpeas?\b|hummus|soybeans/i;
+function swapInfo(food) {
+  const label = food.label || food.name;
+  const g = food.group;
+  let role = "";
+  let tags = "";
+  if (MEAT_GROUPS.has(g)) { role = "protein"; tags = "m"; }
+  else if (g === "Finfish and Shellfish Products") { role = "protein"; tags = "f"; }
+  else if (g === "Dairy and Egg Products") {
+    if (EGG.test(label)) { role = "protein"; tags = "e"; } else { role = "dairy"; tags = "d"; }
+  } else if (g === "Legumes and Legume Products") {
+    if (/peanut/i.test(label)) { role = "nut"; tags = "n"; }
+    else if (/milk/i.test(label)) role = "dairy";
+    else if (PULSE.test(label)) role = "protein";
+  } else if (g === "Nut and Seed Products") { role = "nut"; tags = "n"; }
+  else if (GRAIN_GROUPS.has(g)) role = "grain";
+  else if (g === "Vegetables and Vegetable Products") role = "veg";
+  else if (g === "Fruits and Fruit Juices") role = "fruit";
+  if (GRAIN_GROUPS.has(g) && GLUTEN.test(label) && !/gluten-free|rice|corn|oat|quinoa|buckwheat/i.test(label)) tags += "g";
+  if (role !== "nut" && NUT.test(label)) tags += "n";
+  return [role, tags];
+}
+
 function round(n) {
   return Math.round(n * 1000) / 1000;
 }
@@ -117,7 +146,8 @@ module.exports = class DailyFitData {
       const rank = (mealIds.has(food.id) ? 2 : 0) + (image ? 1 : 0) - (TREAT_GROUPS.has(food.group) ? 2 : 0) -
         (food.uncommon ? 3 : 0) - (level === 2 ? 2 : 0);
       foods.push([food.id, label, image, level, level ? food.warningText || "" : "", values, portions, rank,
-        ALIASES[food.id] || "", largePhoto.get(food.id) || "", cutout(image) || cutout(BORROWED_CUTOUTS[food.id])]);
+        ALIASES[food.id] || "", largePhoto.get(food.id) || "", cutout(image) || cutout(BORROWED_CUTOUTS[food.id]),
+        ...swapInfo(food)]);
       if (mealIds.has(food.id) && level < 2 && WHOLE_GROUPS.has(food.group)) helperPool.push({ food, portions, values });
     }
 
