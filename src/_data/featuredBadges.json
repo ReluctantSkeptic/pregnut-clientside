@@ -71,5 +71,12 @@
     "alt": "Listed on Turbo0",
     "width": 200,
     "height": 54
+  },
+  {
+    "href": "https://launchfree.io/listings/pregnut.html",
+    "src": "https://launchfree.io/badge-light.svg",
+    "alt": "Listed on The Runway - LaunchFree.io",
+    "width": 250,
+    "height": 56
   }
 ]
