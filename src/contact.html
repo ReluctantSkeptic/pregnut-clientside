@@ -1,51 +1,43 @@
 ---
-title: Contact PregNut
-description: Send PregNut a question, a correction, a source issue, or a privacy request using the contact form.
-layout: base.njk
 permalink: /contact/index.html
-pageStyles:
-  - /style/contact.css
-pageScripts:
-  - /js/contact.js
+eleventyExcludeFromCollections: true
 ---
-
-<section class="section prose legal-page contact-page">
-  <h1>Contact PregNut</h1>
-  <p>Use this form for questions about the site, corrections, broken source links, or privacy requests. Messages go to the person who publishes PregNut, or write to <a href="mailto:admin@yuriystasyuk.com">admin@yuriystasyuk.com</a>.</p>
-  <p class="contact-note"><strong>Not for medical questions.</strong> PregNut can't give personal medical advice. For questions about your own pregnancy, contact your obstetric clinician or midwife. In an emergency, call your local emergency number.</p>
-
-  <form class="contact-form" id="ContactForm" action="/api/contact" method="post" novalidate>
-    <div class="contact-field">
-      <label for="ContactName">Name <span class="contact-optional">(optional)</span></label>
-      <input id="ContactName" name="name" type="text" maxlength="100" autocomplete="name">
-    </div>
-    <div class="contact-field">
-      <label for="ContactEmail">Your email</label>
-      <input id="ContactEmail" name="email" type="email" maxlength="200" autocomplete="email" required>
-      <p class="contact-hint">Used only to reply to you.</p>
-    </div>
-    <div class="contact-field">
-      <label for="ContactTopic">Topic</label>
-      <select id="ContactTopic" name="topic">
-        <option>General question</option>
-        <option>Correction or source issue</option>
-        <option>Privacy request</option>
-        <option>Other</option>
-      </select>
-    </div>
-    <div class="contact-field">
-      <label for="ContactMessage">Message</label>
-      <textarea id="ContactMessage" name="message" rows="7" minlength="10" maxlength="3000" required></textarea>
-    </div>
-    <div class="contact-trap" aria-hidden="true">
-      <label for="ContactWebsite">Leave this field empty</label>
-      <input id="ContactWebsite" name="website" type="text" tabindex="-1" autocomplete="off">
-    </div>
-    <input type="hidden" name="started_at" id="ContactStartedAt" value="">
-    <input type="hidden" name="page" id="ContactPage" value="/contact/">
-    <button class="button primary" type="submit" id="ContactSubmit">Send message</button>
-    <p class="contact-status" id="ContactStatus" role="status" aria-live="polite"></p>
-  </form>
-
-  <p class="contact-privacy">We use what you send only to read and answer your message. See the <a href="/privacy/#contact-form">privacy policy</a> for details.</p>
-</section>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | PregNut</title>
+<meta name="description" content="Contact PregNut.">
+<link rel="canonical" href="https://pregnut.com/contact/">
+<link rel="stylesheet" href="/style/contact-page.css">
+</head>
+<body class="cx-body">
+<main class="cx">
+  <section class="cx-left">
+    <a class="cx-home" href="/">PregNut</a>
+    <h1>Contact <em>us</em></h1>
+    <p class="cx-sub">Ready to start? Let&rsquo;s chat.</p>
+    <form class="cx-form" data-contact novalidate>
+      <div class="cx-row">
+        <div class="cx-field"><label for="cx-first">First name</label><input id="cx-first" name="first" autocomplete="given-name" maxlength="50" placeholder="First name"></div>
+        <div class="cx-field"><label for="cx-last">Last name</label><input id="cx-last" name="last" autocomplete="family-name" maxlength="50" placeholder="Last name"></div>
+      </div>
+      <div class="cx-field"><label for="cx-email">Email</label><input id="cx-email" name="email" type="email" required autocomplete="email" maxlength="200" placeholder="you@example.com"></div>
+      <div class="cx-field"><label for="cx-loc">Location</label><div class="cx-select"><span class="cx-flag" aria-hidden="true"></span><select id="cx-loc" name="location" autocomplete="country-name"></select></div></div>
+      <div class="cx-field"><label for="cx-msg">Message</label><textarea id="cx-msg" name="message" required maxlength="5000" rows="5" placeholder="How can we help?"></textarea></div>
+      <input class="cx-hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="cx-btn" type="submit">Contact</button>
+      <p class="cx-mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg><a href="mailto:admin@yuriystasyuk.com">admin@yuriystasyuk.com</a></p>
+      <p class="cx-status" role="status" aria-live="polite"></p>
+      <p class="cx-note">Not for medical questions. For your own pregnancy, ask your clinician or midwife.</p>
+    </form>
+  </section>
+  <aside class="cx-right" aria-hidden="true">
+    <div class="cx-guides"><i class="v1"></i><i class="v2"></i><i class="h1"></i><i class="h2"></i></div>
+    <div class="cx-tablet"><img src="/resource/contact-tablet.webp" alt="" width="1280" height="960" loading="eager" decoding="async"></div>
+  </aside>
+</main>
+<script src="/js/contact-page.js" defer></script>
+</body>
+</html>
