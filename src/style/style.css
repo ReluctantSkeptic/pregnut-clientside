@@ -1283,3 +1283,14 @@ p {
     mask-image: none;
   }
 }
+.home-hero-badges {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  opacity: 0.85;
+}
+.home-hero-badges img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
