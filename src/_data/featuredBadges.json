@@ -29,5 +29,26 @@
     "data": {
       "data-publishyoursaas-badge": "pregnut-com"
     }
+  },
+  {
+    "href": "https://fazier.com",
+    "src": "https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light",
+    "alt": "Fazier badge",
+    "width": 120,
+    "height": 51
+  },
+  {
+    "href": "https://openhunts.com",
+    "src": "https://cdn.openhunts.com/badges/club.webp",
+    "alt": "OpenHunts Club Member",
+    "width": 204,
+    "height": 44
+  },
+  {
+    "href": "https://www.startupinspire.com",
+    "src": "https://www.startupinspire.com/images/badge_1.svg",
+    "alt": "Featured on Startup Inspire",
+    "width": 149,
+    "height": 43
   }
 ]
