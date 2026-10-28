@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const imageDirectory = path.join(__dirname, "../resource/portions/top-foods");
+// Every food photo here is a transparent cut-out (see docs/food-image-regeneration.json).
 const imageMap = new Map();
 
 if (fs.existsSync(imageDirectory)) {
@@ -11,14 +12,6 @@ if (fs.existsSync(imageDirectory)) {
     if (!match) continue;
     imageMap.set(match[1], `/resource/portions/top-foods/${filename}`);
   }
-}
-
-// Every food photo is shown as its cut-out (no background) when one exists.
-const cutoutDirectory = path.join(__dirname, "../resource/portions/cutouts");
-const cutouts = new Set(fs.existsSync(cutoutDirectory) ? fs.readdirSync(cutoutDirectory) : []);
-for (const [id, src] of imageMap) {
-  const name = path.basename(src);
-  if (cutouts.has(name)) imageMap.set(id, `/resource/portions/cutouts/${name}`);
 }
 
 module.exports = imageMap;
