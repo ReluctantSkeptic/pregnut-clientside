@@ -50,5 +50,12 @@
     "alt": "Featured on Startup Inspire",
     "width": 149,
     "height": 43
+  },
+  {
+    "href": "https://launchigniter.com/product/pregnut?ref=badge-pregnut",
+    "src": "https://launchigniter.com/api/badge/pregnut?theme=light",
+    "alt": "Featured on LaunchIgniter",
+    "width": 212,
+    "height": 55
   }
 ]
