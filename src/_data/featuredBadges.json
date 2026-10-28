@@ -64,5 +64,12 @@
     "alt": "PregNut — Featured on Smol Launch",
     "width": 250,
     "height": 60
+  },
+  {
+    "href": "https://turbo0.com/item/pregnut",
+    "src": "https://img.turbo0.com/badge-listed-light.svg",
+    "alt": "Listed on Turbo0",
+    "width": 200,
+    "height": 54
   }
 ]
