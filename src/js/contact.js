@@ -16,32 +16,22 @@
     status.className = "contact-status" + (kind ? " is-" + kind : "");
   }
 
-  // After /api/contact accepts and stores a message, it may hand back a
-  // FormSubmit alias endpoint (no email address); the browser forwards the
-  // message there so it arrives by email. The copy saved by /api/contact is
-  // the backup, so a failed relay is logged but not shown as an error.
-  function relay(body, data) {
-    return fetch(body.relay.url, {
+  // The message is emailed to admin@yuriystasyuk.com by the shared site-contact Worker.
+  // /api/contact has already stored a copy, so a failed email is logged, not shown.
+  function sendEmail(body, data) {
+    return fetch("https://site-contact.ystasyuk.workers.dev", {
       method: "POST",
-      headers: { "content-type": "application/json", accept: "application/json" },
-      referrerPolicy: "strict-origin",
+      headers: { "content-type": "application/json" },
       body: JSON.stringify({
-        _subject: body.relay.subject,
-        _replyto: data.email,
-        _template: "box",
-        _captcha: "false",
-        Name: data.name || "(not given)",
-        Email: data.email,
-        Topic: data.topic,
-        Message: data.message,
-        Page: data.page || "/contact/",
-        Received: body.relay.received,
-        Reference: body.id
+        name: data.name,
+        email: data.email,
+        message: "Topic: " + data.topic + "\nPage: " + (data.page || "/contact/") + "\nReference: " + (body.id || "") + "\n\n" + data.message,
+        site: location.href
       })
     }).then(function (r) { return r.json(); }).then(function (r) {
-      if (String(r && r.success) !== "true") throw new Error((r && r.message) || "relay failed");
+      if (!r || !r.ok) throw new Error((r && r.error) || "email failed");
     }).catch(function (error) {
-      if (window.console) console.warn("Contact email relay failed; the message was still saved.", error && error.message);
+      if (window.console) console.warn("Contact email failed; the message was still saved.", error && error.message);
     });
   }
 
@@ -71,7 +61,7 @@
       .then(function (response) {
         return response.json().catch(function () { return {}; }).then(function (body) {
           if (!response.ok || !body.ok) throw new Error(body.error || "Sorry, the message could not be sent. Please try again later.");
-          if (body.relay && body.relay.url) return relay(body, data);
+          return sendEmail(body, data);
         });
       })
       .then(function () {
