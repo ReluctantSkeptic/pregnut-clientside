@@ -10160,37 +10160,49 @@
           "id": "11888",
           "name": "Tomato products, Canned, Puree",
           "file": "11888-tomato-products-canned-puree.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Photorealistic food catalog cutout matching the existing PregNut gallery: a small smooth mound of thick canned tomato puree, deep orange-red and spoonable, served in a plain white ramekin. Isolated on a genuinely transparent background, centered, three-quarter view, realistic food texture, crisp studio lighting, compact composition with generous clear margins. No tabletop, text, branding, garnish, or unrelated props.",
+          "generatedSource": "exec-c2efbbe8-696b-4a57-8c8d-ba72117b214a.png"
         },
         {
           "id": "11549",
           "name": "Tomato products, Canned, Sauce",
           "file": "11549-tomato-products-canned-sauce.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small portion of smooth glossy canned tomato sauce, vivid red-orange, served in a white ceramic ramekin.",
+          "generatedSource": "exec-be7dc49e-ae05-4690-b819-8defe347257a.png"
         },
         {
           "id": "11557",
           "name": "Tomato products, Canned, Sauce, With onions, Green peppers, And celery",
           "file": "11557-tomato-products-canned-sauce-with-onions-green-peppers-and-celery.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small bowl of canned tomato sauce with clearly visible diced onion, green bell pepper and celery pieces.",
+          "generatedSource": "exec-9103e021-4c49-4170-af5f-44011fcb78bd.png"
         },
         {
           "id": "11527",
           "name": "Tomatoes, Green, Raw",
           "file": "11527-tomatoes-green-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Several firm unripe green tomatoes, one cut open to show its pale green interior.",
+          "generatedSource": "exec-c1e092e7-8085-47df-97ef-19e72b580cfc.png"
         },
         {
           "id": "11530",
           "name": "Tomatoes, Red, Ripe, Cooked",
           "file": "11530-tomatoes-red-ripe-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Tender cooked ripe red tomato pieces with softened skins and glossy juices in a small white bowl.",
+          "generatedSource": "exec-334b527f-a4b3-4074-a1eb-01da52354db0.png"
         },
         {
           "id": "11955",
           "name": "Tomatoes, Sun-dried",
           "file": "11955-tomatoes-sun-dried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small pile of wrinkled deep red sun-dried tomato halves with leathery texture.",
+          "generatedSource": "exec-8f02124c-cd9c-4102-9750-3cd60986bd6c.png"
         }
       ]
     },
@@ -10201,73 +10213,97 @@
           "id": "25028",
           "name": "Tortilla chips, Yellow",
           "file": "25028-tortilla-chips-yellow.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small loose serving of crisp triangular yellow corn tortilla chips with lightly blistered surfaces.",
+          "generatedSource": "exec-212a8494-5f98-4a66-91a1-c7112e50e30a.png"
         },
         {
           "id": "18970",
           "name": "Tortillas, Flour, Shelf stable",
           "file": "18970-tortillas-flour-shelf-stable.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A short neat stack of soft round pale flour tortillas, plain and unfilled.",
+          "generatedSource": "exec-60de17e2-9d04-4ed3-b1b7-6ea29d0f0b28.png"
         },
         {
           "id": "19062",
           "name": "Trail mix, Regular, With chocolate chips, Salted nuts and seeds",
           "file": "19062-trail-mix-regular-with-chocolate-chips-salted-nuts-and-seeds.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A compact handful of trail mix with visible chocolate chips, salted nuts and mixed seeds.",
+          "generatedSource": "exec-84c4990f-802e-4eb5-b4c1-9c7c2a6fcd51.png"
         },
         {
           "id": "15114",
           "name": "Trout",
           "file": "15114-trout.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Subject: one small cooked whole trout, intact head and tail, crisp browned skin, cleanly presented by itself. Genuinely transparent background with clean alpha edges; no plate, bowl, lemon, garnish, table, backdrop, text, branding, or unrelated props.",
+          "generatedSource": "exec-44d0948e-bea9-413c-90e2-af133d52a9b8.png"
         },
         {
           "id": "15117",
           "name": "Tuna, Fresh, Bluefin",
           "file": "15117-tuna-fresh-bluefin.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A thick raw bluefin tuna steak with ruby-red flesh and subtle marbling, no garnish.",
+          "generatedSource": "exec-7ee6e153-f4e7-4d99-bc4e-32cfc273bd64.png"
         },
         {
           "id": "15119",
           "name": "Tuna, Light, Canned in oil",
           "file": "15119-tuna-light-canned-in-oil.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Flaked light tuna packed in oil, shown as a moist small serving in a plain white dish.",
+          "generatedSource": "exec-82f0856a-d19a-45f9-99c8-f289caccaa37.png"
         },
         {
           "id": "07081",
           "name": "Turkey breast, Sliced, Prepackaged",
           "file": "07081-turkey-breast-sliced-prepackaged.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small fan of thin uniformly sliced cooked turkey breast with a moist pale-pink interior.",
+          "generatedSource": "exec-450abcc1-39ad-4a72-aef6-4716146478f0.png"
         },
         {
           "id": "05220",
           "name": "Turkey, Breast, From whole bird, Non-enhanced, Meat only, Roasted",
           "file": "05220-turkey-breast-from-whole-bird-non-enhanced-meat-only-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A few slices of roasted turkey breast meat with golden edges and juicy ivory interior.",
+          "generatedSource": "exec-a84958ec-ed9d-4826-9042-45096177d631.png"
         },
         {
           "id": "05284",
           "name": "Turkey, Canned, Meat only, With broth",
           "file": "05284-turkey-canned-meat-only-with-broth.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Tender pieces of canned turkey meat with a little clear broth in a small white bowl.",
+          "generatedSource": "exec-57bf5e78-fba8-4c89-a399-bfb61eea90f6.png"
         },
         {
           "id": "05166",
           "name": "Turkey, Whole, Meat and skin, Roasted",
           "file": "05166-turkey-whole-meat-and-skin-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A roasted turkey leg and breast portion with crisp golden skin and cooked meat visible.",
+          "generatedSource": "exec-dcf891e9-aa60-45cf-9d3b-5233f3b6a79f.png"
         },
         {
           "id": "05168",
           "name": "Turkey, Whole, Meat only, Roasted",
           "file": "05168-turkey-whole-meat-only-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small serving of sliced roasted turkey meat without skin, moist ivory and light-brown edges.",
+          "generatedSource": "exec-ffcce921-578b-4da0-ae92-4af1600b1847.png"
         },
         {
           "id": "11577",
           "name": "Turnip greens and turnips, Frozen, Boiled",
           "file": "11577-turnip-greens-and-turnips-frozen-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Boiled turnip greens mixed with tender pale turnip cubes in a simple white bowl.",
+          "generatedSource": "exec-84e285fe-4335-4a3d-8a98-62f189f49961.png"
         }
       ]
     },
@@ -10278,73 +10314,97 @@
           "id": "11569",
           "name": "Turnip greens, Boiled",
           "file": "11569-turnip-greens-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small serving of dark green tender boiled turnip greens, loosely gathered with visible leaves.",
+          "generatedSource": "exec-2077ee8a-0d67-4e36-9621-6d7802931fe7.png"
         },
         {
           "id": "43387",
           "name": "Turnip greens, Canned",
           "file": "43387-turnip-greens-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Soft canned turnip greens, dark green and moist, served in a small white ceramic bowl.",
+          "generatedSource": "exec-699a1af5-88d4-4090-a85e-b17917915ea7.png"
         },
         {
           "id": "11565",
           "name": "Turnips, Boiled",
           "file": "11565-turnips-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Several peeled boiled turnip chunks, tender ivory flesh in a loose cluster, no plate.",
+          "generatedSource": "exec-98334bde-6692-43c1-80d9-440deb7808d4.png"
         },
         {
           "id": "11567",
           "name": "Turnips, Frozen, Boiled",
           "file": "11567-turnips-frozen-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small serving of tender boiled frozen turnip cubes, pale ivory with a moist surface.",
+          "generatedSource": "exec-58927fea-0f48-4878-94e8-cc43f0bc3376.png"
         },
         {
           "id": "93600",
           "name": "Turtle, Green",
           "file": "93600-turtle-green.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small cooked green turtle meat portion, shown as a neutral cooked meat serving by itself, no plate.",
+          "generatedSource": "exec-5d5511b1-2e56-4211-b443-d10d007a849c.png"
         },
         {
           "id": "17143",
           "name": "Veal, Ground, Broiled",
           "file": "17143-veal-ground-broiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small broiled ground veal patty, browned outside and showing a tender pale interior, no plate.",
+          "generatedSource": "exec-4b6decd6-fe22-4de6-a96f-abc634d93504.png"
         },
         {
           "id": "17106",
           "name": "Veal, Loin, Separable lean and fat, Roasted",
           "file": "17106-veal-loin-separable-lean-and-fat-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A roasted veal loin slice showing lean rosy-tan meat and a narrow edge of rendered fat, no plate.",
+          "generatedSource": "exec-1cab9c46-db3e-405e-9bcf-d95c28492fec.png"
         },
         {
           "id": "17136",
           "name": "Veal, Sirloin, Separable lean and fat, Roasted",
           "file": "17136-veal-sirloin-separable-lean-and-fat-roasted.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A roasted veal sirloin medallion with browned edges and visible lean meat and fat, no plate.",
+          "generatedSource": "exec-7ee9331c-9cad-43bb-84bf-84bf8a4a663d.png"
         },
         {
           "id": "25040",
           "name": "Vegetable chips, Made from garden vegetables",
           "file": "25040-vegetable-chips-made-from-garden-vegetables.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small loose assortment of crisp garden-vegetable chips in natural muted colors, no plate.",
+          "generatedSource": "exec-0875a164-7f78-440f-aa1e-c7bf879fa1dc.png"
         },
         {
           "id": "11578",
           "name": "Vegetable juice cocktail, Canned",
           "file": "11578-vegetable-juice-cocktail-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small clear glass of red-orange canned vegetable juice cocktail, smooth and lightly pulpy.",
+          "generatedSource": "exec-4144d39a-f9a2-4008-83cc-73c35742a6bd.png"
         },
         {
           "id": "31035",
           "name": "Vegetable juice, Bolthouse farms, Daily greens",
           "file": "31035-vegetable-juice-bolthouse-farms-daily-greens.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small glass of deep green vegetable juice with a smooth dense leafy-green appearance, no garnish.",
+          "generatedSource": "exec-2ab7c71a-4804-4e20-92af-31d82875cfac.png"
         },
         {
           "id": "04513",
           "name": "Vegetable oil, Palm kernel",
           "file": "04513-vegetable-oil-palm-kernel.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small clear glass cruet filled with pale golden palm kernel oil, with a subtle glossy surface.",
+          "generatedSource": "exec-229f0ee3-b04a-47a4-940c-9527b3fdce83.png"
         }
       ]
     },
@@ -10355,73 +10415,97 @@
           "id": "42151",
           "name": "Vegetable oil-butter spread, Reduced calorie",
           "file": "42151-vegetable-oil-butter-spread-reduced-calorie.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small soft curl of pale yellow reduced-calorie vegetable oil butter spread on a plain small white dish.",
+          "generatedSource": "exec-5beeb9b3-9282-45ff-ba2a-90a8432bc2bd.png"
         },
         {
           "id": "31032",
           "name": "Vegetable smoothie, Naked juice, Kale blazer",
           "file": "31032-vegetable-smoothie-naked-juice-kale-blazer.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small clear glass of thick dark green kale vegetable smoothie, smooth and opaque, no branding or garnish.",
+          "generatedSource": "exec-e2b120ed-a622-41cf-8e57-a6bdb17eb85f.png"
         },
         {
           "id": "43312",
           "name": "Vegetables, Mixed (corn, Lima beans, Peas, Green beans, Carrots) canned",
           "file": "43312-vegetables-mixed-corn-lima-beans-peas-green-beans-carrots-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small bowl of canned mixed vegetables with visible corn, lima beans, peas, green beans and carrot pieces.",
+          "generatedSource": "exec-ef4b84b8-8ea6-4716-8e0c-da1cc255b24c.png"
         },
         {
           "id": "11581",
           "name": "Vegetables, Mixed, Canned",
           "file": "11581-vegetables-mixed-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small serving of canned mixed vegetables with tender peas, carrots, corn and green beans in a white bowl.",
+          "generatedSource": "exec-25e4c6c1-bfc7-4c29-932c-ca78dee49b20.png"
         },
         {
           "id": "43134",
           "name": "Vegetarian fillets",
           "file": "43134-vegetarian-fillets.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Two golden-brown plant-based vegetarian fillets with a tender textured interior, no plate.",
+          "generatedSource": "exec-1863e96b-0893-4c1f-8e0a-734cb94ed111.png"
         },
         {
           "id": "43137",
           "name": "Vegetarian meatloaf or patties",
           "file": "43137-vegetarian-meatloaf-or-patties.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small browned vegetarian patty with a textured vegetable-and-grain interior, no plate.",
+          "generatedSource": "exec-864ca85a-d6a1-4fb0-8119-a5ea3f94dba0.png"
         },
         {
           "id": "16147",
           "name": "Veggie burgers or soyburgers, Unprepared",
           "file": "16147-veggie-burgers-or-soyburgers-unprepared.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Two uncooked plant-based veggie burger patties, round and lightly textured, no buns, plate, or garnish.",
+          "generatedSource": "exec-ecbf2f54-a53b-4aa5-a23d-59666b1070f0.png"
         },
         {
           "id": "43114",
           "name": "Vermicelli, Made from soy",
           "file": "43114-vermicelli-made-from-soy.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small nest of thin dry pale soy vermicelli noodles, lightly curled and unprepared, no plate.",
+          "generatedSource": "exec-56b1c8bc-83b0-4198-822d-b6f8bef5d0fa.png"
         },
         {
           "id": "18933",
           "name": "Waffle, Buttermilk",
           "file": "18933-waffle-buttermilk.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: One golden buttermilk waffle with a crisp grid pattern, no toppings or plate.",
+          "generatedSource": "exec-7bfc70e4-176d-454e-856b-8be5da28135c.png"
         },
         {
           "id": "18951",
           "name": "Waffles, Chocolate chip",
           "file": "18951-waffles-chocolate-chip.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: One golden waffle with visible chocolate chips embedded in its crisp square grid, no toppings or plate.",
+          "generatedSource": "exec-62b4a3e1-a8e2-4db7-85f8-b024b3d3275b.png"
         },
         {
           "id": "28346",
           "name": "Waffles, Gluten-free",
           "file": "28346-waffles-gluten-free.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: One golden gluten-free waffle with a crisp square grid and slightly rustic texture, no toppings or plate.",
+          "generatedSource": "exec-269fddb9-761e-4b3a-a0d6-3f3e2661ac3c.png"
         },
         {
           "id": "18403",
           "name": "Waffles, Plain, Ready -to-heat",
           "file": "18403-waffles-plain-ready-to-heat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Two plain ready-to-heat waffles, lightly toasted golden with clear square grid texture, no plate or toppings.",
+          "generatedSource": "exec-162a7b2d-3375-4c67-b84d-da2f2c7df761.png"
         }
       ]
     },
@@ -10432,73 +10516,97 @@
           "id": "27064",
           "name": "Wasabi",
           "file": "27064-wasabi.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small neat mound of vivid pale-green wasabi paste with a smooth dense texture, no plate.",
+          "generatedSource": "exec-d1778305-06c4-4dda-a722-268929c44af9.png"
         },
         {
           "id": "14555",
           "name": "Water, Bottled, Generic",
           "file": "14555-water-bottled-generic.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A clear simple glass filled with fresh bottled drinking water, no label or bottle.",
+          "generatedSource": "exec-d4fb086a-c7fc-480c-9381-23461c86369c.png"
         },
         {
           "id": "14411",
           "name": "Water, Tap, Drinking",
           "file": "14411-water-tap-drinking.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A clear simple glass filled with fresh tap drinking water, no label or extra props.",
+          "generatedSource": "exec-883baaa2-b663-4206-bcf6-ee558893400c.png"
         },
         {
           "id": "11590",
           "name": "Waterchestnuts, Chinese, Canned",
           "file": "11590-waterchestnuts-chinese-canned.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Several glossy pale Chinese water chestnut slices, a few whole and a few sliced, arranged as a small cutout with no bowl.",
+          "generatedSource": "exec-b0157c78-5112-42e7-a4af-25f59668fb2b.png"
         },
         {
           "id": "11591",
           "name": "Watercress, Raw",
           "file": "11591-watercress-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A compact bunch of fresh watercress sprigs with small rounded green leaves and delicate stems, no plate.",
+          "generatedSource": "exec-25ccd2f8-304d-4057-97cf-606fe1660615.png"
         },
         {
           "id": "09326",
           "name": "Watermelon, Raw",
           "file": "09326-watermelon-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A few juicy watermelon wedges with vivid red flesh, black seeds and green rind, no plate.",
+          "generatedSource": "exec-1e832dea-b330-4b59-a259-3a6334b34709.png"
         },
         {
           "id": "11594",
           "name": "Waxgourd, (chinese preserving melon), Boiled",
           "file": "11594-waxgourd-chinese-preserving-melon-boiled.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: Tender pale boiled wax gourd cubes in a small white bowl, with translucent soft edges.",
+          "generatedSource": "exec-0cb92cbc-02ea-4bb9-a4c8-f1a132687eea.png"
         },
         {
           "id": "19162",
           "name": "Whatchamacallit candy bar",
           "file": "19162-whatchamacallit-candy-bar.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A generic chocolate-coated crispy rice and caramel candy bar broken once to show its layered interior, no branding or plate.",
+          "generatedSource": "exec-cd9efe19-48e7-4c79-96b4-9f6ba597d6cb.png"
         },
         {
           "id": "20081",
           "name": "Wheat flour, White, All-purpose, Enriched, Bleached",
           "file": "20081-wheat-flour-white-all-purpose-enriched-bleached.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small mound of fine white all-purpose wheat flour in a plain white ceramic bowl.",
+          "generatedSource": "exec-8dd934eb-80cd-4809-a240-cb99f24944f8.png"
         },
         {
           "id": "20080",
           "name": "Wheat flour, Whole-grain",
           "file": "20080-wheat-flour-whole-grain.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small mound of tan whole-grain wheat flour with visible bran flecks in a plain bowl.",
+          "generatedSource": "exec-30008ab2-afb1-4b44-b5f5-2fbd82159cf5.png"
         },
         {
           "id": "01115",
           "name": "Whey, Sweet, Dried",
           "file": "01115-whey-sweet-dried.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small mound of fine pale cream-colored sweet whey powder in a small white ceramic bowl.",
+          "generatedSource": "exec-cae116bd-1459-42a0-a96d-b53252ad68cf.png"
         },
         {
           "id": "42135",
           "name": "Whipped topping, Frozen, Low fat",
           "file": "42135-whipped-topping-frozen-low-fat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small airy swirl of frozen low-fat whipped topping in a shallow clear dessert cup.",
+          "generatedSource": "exec-16837975-214f-422f-947a-54f9898ce4b8.png"
         }
       ]
     },
@@ -10509,73 +10617,97 @@
           "id": "19087",
           "name": "White chocolate",
           "file": "19087-white-chocolate.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A few ivory white-chocolate squares with smooth surfaces, one broken to show a creamy interior, no plate.",
+          "generatedSource": "exec-54959ae3-24c4-4a11-b32e-68d06d9c04f6.png"
         },
         {
           "id": "15131",
           "name": "Whitefish, Smoked",
           "file": "15131-whitefish-smoked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small serving of flaky smoked whitefish with pale ivory flesh and a light golden smoked edge, no plate.",
+          "generatedSource": "exec-78e54cef-ff0e-4e55-a904-1fdde54277f2.png"
         },
         {
           "id": "15133",
           "name": "Whiting, Cooked, Dry heat",
           "file": "15133-whiting-cooked-dry-heat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A cooked whiting fillet with tender flaky white flesh and lightly browned edges, no plate.",
+          "generatedSource": "exec-5371e783-1cc6-48e4-b978-5c25fe674283.png"
         },
         {
           "id": "20089",
           "name": "Wild rice, Cooked",
           "file": "20089-wild-rice-cooked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small mound of cooked dark wild rice grains, separate and glossy, served in a white bowl.",
+          "generatedSource": "exec-b6019668-57e5-4af2-9a37-296cc83b7114.png"
         },
         {
           "id": "11897",
           "name": "Yam, Boiled, Or baked",
           "file": "11897-yam-boiled-or-baked.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A few tender boiled or baked yam chunks with creamy pale flesh and lightly browned edges, no plate.",
+          "generatedSource": "exec-acf4c93e-fa87-4621-aa6e-58abb926f38f.png"
         },
         {
           "id": "11601",
           "name": "Yam, Raw",
           "file": "11601-yam-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A whole raw yam with rough brown skin and one clean cut end revealing pale flesh, no plate.",
+          "generatedSource": "exec-44989008-df72-4461-b827-68bfd405aaee.png"
         },
         {
           "id": "11603",
           "name": "Yambean (jicama), Raw",
           "file": "11603-yambean-jicama-raw.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A peeled whole jicama with one slice cut off, showing crisp moist white flesh and thin brown skin, no plate.",
+          "generatedSource": "exec-c6e63b64-174e-4e1d-9943-cfc6ad5402dd.png"
         },
         {
           "id": "01256",
           "name": "Yogurt, Greek, Nonfat",
           "file": "01256-yogurt-greek-nonfat.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small bowl of thick smooth plain nonfat Greek yogurt, bright white and creamy.",
+          "generatedSource": "exec-fa9b95c4-284e-4253-9cc0-a93bb1636f4b.png"
         },
         {
           "id": "01293",
           "name": "Yogurt, Greek, Whole milk",
           "file": "01293-yogurt-greek-whole-milk.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small bowl of thick plain whole-milk Greek yogurt with a rich creamy texture.",
+          "generatedSource": "exec-fedf9372-b57a-4b3c-b89d-bd4909034b36.png"
         },
         {
           "id": "01117",
           "name": "Yogurt, Plain, Low fat, 12 grams protein per 8 ounce",
           "file": "01117-yogurt-plain-low-fat-12-grams-protein-per-8-ounce.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small bowl of plain low-fat yogurt, smooth glossy white with a soft spoonable texture.",
+          "generatedSource": "exec-62c439cb-92e6-44cf-be19-558467565547.png"
         },
         {
           "id": "01118",
           "name": "Yogurt, Plain, Skim milk, 13 grams protein per 8 ounce",
           "file": "01118-yogurt-plain-skim-milk-13-grams-protein-per-8-ounce.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A small bowl of plain skim-milk yogurt, smooth and light white, spoonable and glossy.",
+          "generatedSource": "exec-11f76aa7-e2ce-40f9-8529-ba961f0ee615.png"
         },
         {
           "id": "25031",
           "name": "Zone perfect classic crunch bar, Mixed flavors",
           "file": "25031-zone-perfect-classic-crunch-bar-mixed-flavors.webp",
-          "status": "pending"
+          "status": "complete",
+          "prompt": "Create one new photorealistic food catalog cutout matching the PregNut homepage clean transparent food photography. Natural colors, soft upper-left studio light, realistic texture, slightly elevated three-quarter view, centered square composition, subject about 78% of the canvas with generous clear margins. Use a plain white plate or bowl only when specified for loose or runny food. Genuinely transparent background with clean alpha edges; no tabletop, backdrop, text, branding, garnish, or unrelated props. Subject: A generic chocolate-coated crunchy protein snack bar broken to show a layered crisp interior, no branding.",
+          "generatedSource": "exec-d8e5b44b-0018-4604-9ab4-e656bc9d6bce.png"
         }
       ]
     }
