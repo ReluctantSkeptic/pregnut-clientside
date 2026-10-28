@@ -144,7 +144,7 @@
     <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name or (documentTitle + " | " + site.name) | length > 60 %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
     <link rel="preload" href="/style/fonts/funnel-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/style/fonts/gloock-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/style/style.css?v=20261027-badges">
+    <link rel="stylesheet" href="/style/style.css?v=20261027-badgewall">
     {% if pageStyles %}
       {% for href in pageStyles %}
         <link rel="stylesheet" href="{{ href }}">

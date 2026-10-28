@@ -20,6 +20,10 @@
   var MEASURE = /cup|tbsp|tsp|\boz\b|handful|portion|scoop|serving|container|order|plate|bowl|worth/;
   var FRACTIONS = { 0.125: "⅛", 0.25: "¼", 0.5: "½", 0.75: "¾", 1.5: "1½", 2.5: "2½" };
   var GRAMS = -1;
+  // Planning options: a nutrient to lean toward (its index in the data) and
+  // a calorie range for how hungry you are.
+  var FOCUS = { balanced: -1, folate: 0, iron: 1, calcium: 5, protein: 6 };
+  var SIZES = { light: [1700, 2300], usual: [1900, 2700], hungry: [2300, 3100] };
   var CALORIES = 13; // index of calories in each food's values
 
   var data = null;
@@ -48,7 +52,7 @@
   }
 
   function loadState() {
-    var fresh = { date: today(), items: [], plan: {}, prefs: { diet: "everything", prep: 2 } };
+    var fresh = { date: today(), items: [], plan: {}, prefs: { diet: "everything", prep: 2, focus: "balanced", size: "usual" } };
     try {
       var saved = JSON.parse(window.localStorage.getItem(STORE_KEY) || "null");
       if (!saved || typeof saved !== "object") return fresh;
@@ -65,9 +69,8 @@
   // Earlier versions stored a style plus dairy-free and gluten-free switches.
   function migratePrefs(p) {
     if (!p || typeof p !== "object") return null;
-    if (p.diet) return { diet: p.diet, prep: p.prep || 2 };
-    var diet = p.style === "vegetarian" || p.style === "vegan" ? p.style : p.df ? "dairyfree" : p.gf ? "glutenfree" : "everything";
-    return { diet: diet, prep: p.prep || 2 };
+    var diet = p.diet || (p.style === "vegetarian" || p.style === "vegan" ? p.style : p.df ? "dairyfree" : p.gf ? "glutenfree" : "everything");
+    return { diet: diet, prep: p.prep || 2, focus: FOCUS[p.focus] !== undefined ? p.focus : "balanced", size: SIZES[p.size] ? p.size : "usual" };
   }
 
   function save() {
@@ -76,7 +79,7 @@
 
   function snapshot() { return JSON.parse(JSON.stringify(state)); }
 
-  // food: [id, label, image, level, warningText, values, portions, rank, alias, largeImage, cutout]
+  // food: [id, label, image, level, warningText, values, portions, rank, alias, largeImage, cutout, role, tags]
   function food(id) { return byId[id]; }
 
   function grams(item) {
@@ -597,12 +600,22 @@
     open.appendChild(copy);
     open.addEventListener("click", function () { openAmount(item, i); });
     li.appendChild(open);
+    if (swapChoices(item).length) {
+      var swap = el("button", "df-item-swap");
+      swap.type = "button";
+      swap.innerHTML = SWAP_ICON;
+      swap.setAttribute("aria-label", "Swap " + f[1] + " for something similar");
+      swap.title = "Swap for something similar";
+      swap.addEventListener("click", function () { openSwap(i); });
+      li.appendChild(swap);
+    }
     var remove = el("button", "df-item-remove", "×");
     remove.type = "button";
     remove.setAttribute("aria-label", "Remove " + f[1]);
     remove.addEventListener("click", function () {
       undoable("Removed " + shortName(f));
       state.items.splice(i, 1);
+      delete state.plan[item.slot];
       commit();
     });
     li.appendChild(remove);
@@ -637,8 +650,17 @@
       li.appendChild(head);
 
       if (items.length) {
+        var mid = el("div", "df-meal-mid");
         var stack = foodStack(items);
-        if (stack.children.length) li.appendChild(stack);
+        if (stack.children.length) mid.appendChild(stack);
+        var swap = el("button", "df-meal-swap");
+        swap.type = "button";
+        swap.innerHTML = SWAP_ICON;
+        swap.appendChild(el("span", "", "Swap"));
+        swap.setAttribute("aria-label", "Swap " + s[1].toLowerCase() + " for another meal");
+        swap.addEventListener("click", function () { swapMeal(slot); });
+        mid.appendChild(swap);
+        li.appendChild(mid);
         var stats = el("ul", "df-meal-stats");
         ranked(items, 3).forEach(function (x) {
           var stat = el("li", "");
@@ -667,6 +689,7 @@
     });
     $("DfClear").hidden = !state.items.length;
     $("DfOr").hidden = !!state.items.length;
+    renderActions();
   }
 
   // The gauge: one rounded bar per nutrient around a half circle. Each bar
@@ -911,8 +934,9 @@
       var total = 0;
       for (var k = 0; k < day.length; k++) total += day[k].totals[i] || 0;
       var p = percent(i, total);
-      score += Math.min(100, p) * (i < 5 ? 1.5 : 1);
-      if (p >= 100) score += 15;
+      var focus = i === FOCUS[state.prefs.focus];
+      score += Math.min(100, p) * (focus ? 3 : i < 5 ? 1.5 : 1);
+      if (p >= 100) score += focus ? 45 : 15;
     }
     var kcal = 0;
     var seen = {};
@@ -928,9 +952,11 @@
         seen[id] = 1;
       });
     });
-    // Pregnancy days run about 1,900 to 2,700 kcal (more in later trimesters).
-    if (kcal < 1900) score -= (1900 - kcal) / 4;
-    if (kcal > 2700) score -= (kcal - 2700) / 4;
+    // Pregnancy days run about 1,900 to 2,700 kcal (more in later trimesters);
+    // "Light" and "Hungry" shift that range.
+    var range = SIZES[state.prefs.size] || SIZES.usual;
+    if (kcal < range[0]) score -= (range[0] - kcal) / 4;
+    if (kcal > range[1]) score -= (kcal - range[1]) / 4;
     if (fish > 1) score -= 80 * (fish - 1);
     return score;
   }
@@ -999,6 +1025,218 @@
     commit();
   }
 
+  // Swaps and gap filling ---------------------------------------------------
+
+  var SWAP_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h11l-3-3M17 17H6l3 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var swapSeen = {};
+  var swapping = null; // the item index being swapped
+  var mealUse = null;
+
+  // Which food tags each diet leaves out (see daily-fit-data.11ty.js).
+  var DIET_BLOCKS = { pescatarian: "m", vegetarian: "mf", vegan: "mfed", dairyfree: "d", glutenfree: "g", eggfree: "e", nutfree: "n" };
+
+  function suitsDiet(f) {
+    var blocked = DIET_BLOCKS[state.prefs.diet] || "";
+    var tags = f[12] || "";
+    for (var i = 0; i < blocked.length; i++) if (tags.indexOf(blocked[i]) !== -1) return false;
+    return true;
+  }
+
+  function slotFacts(slot, items) {
+    return {
+      meal: [slot, state.plan[slot] || ""],
+      totals: amounts(items),
+      kcal: calories(items),
+      ids: items.map(function (it) { return it.id; }),
+      fish: false
+    };
+  }
+
+  // Another meal for this slot: the best-scoring one that fits your diet and
+  // hasn't been shown yet, so tapping Swap again keeps offering new meals.
+  function swapMeal(slot) {
+    var current = state.plan[slot] || "";
+    var others = SLOTS.filter(function (s) { return s[0] !== slot; })
+      .map(function (s) { return slotFacts(s[0], mealItems(s[0])); });
+    var options = data.meals
+      .filter(function (m) { return m[0] === slot && m[1] !== current && fits(m, state.prefs, 3); })
+      .map(function (m) {
+        var score = scoreDay(others.concat([mealFacts(m, 1)]));
+        if (m[5] > state.prefs.prep) score -= 40;
+        return { meal: m, score: score };
+      })
+      .sort(function (a, b) { return b.score - a.score; });
+    if (!options.length) return;
+    var seen = swapSeen[slot] || [];
+    var next = options.filter(function (o) { return seen.indexOf(o.meal[1]) === -1; })[0];
+    if (!next) { seen = []; next = options[0]; }
+    swapSeen[slot] = seen.concat([current, next.meal[1]]);
+    undoable("Swapped " + slotName(slot).toLowerCase());
+    state.items = state.items.filter(function (it) { return it.slot !== slot; })
+      .concat(planItems(next.meal, slot, 1));
+    state.plan[slot] = next.meal[1];
+    tab = null;
+    commit();
+  }
+
+  // Coverage of the 13 nutrients, ignoring calories: used to pick a snack.
+  function gapScore(totals) {
+    var score = 0;
+    for (var i = 0; i < data.nutrients.length; i++) {
+      var p = percent(i, totals[i] || 0);
+      var focus = i === FOCUS[state.prefs.focus];
+      score += Math.min(100, p) * (focus ? 2 : 1);
+      if (p >= 100) score += 20;
+    }
+    return score;
+  }
+
+  function missing() {
+    var totals = amounts(state.items);
+    return data.nutrients.filter(function (n, i) { return percent(i, totals[i]) < 100; }).length;
+  }
+
+  // The snack from the meal library that covers the most of what's left.
+  function bestFill() {
+    var totals = amounts(state.items);
+    var base = gapScore(totals);
+    var have = {};
+    state.items.forEach(function (it) { have[it.id] = 1; });
+    var best = null;
+    data.meals.forEach(function (m) {
+      if (m[0] !== "snack" || !fits(m, state.prefs, 3)) return;
+      var items = planItems(m, "snack", 1);
+      var add = amounts(items);
+      var score = gapScore(totals.map(function (t, i) { return t + add[i]; })) - base - calories(items) / 12;
+      if (m[6].some(function (it) { return have[it[0]]; })) score -= 30;
+      if (!best || score > best.score) best = { meal: m, items: items, score: score };
+    });
+    return best && best.score > 0 ? best : null;
+  }
+
+  function fillGaps() {
+    var best = bestFill();
+    if (!best) {
+      notify("A snack wouldn't add much more today");
+      return;
+    }
+    undoable("Added " + best.meal[1].charAt(0).toLowerCase() + best.meal[1].slice(1));
+    var snackItems = mealItems("snack");
+    if (!snackItems.length) state.plan.snack = best.meal[1];
+    else if (state.plan.snack) state.plan.snack += ", then " + best.meal[1].charAt(0).toLowerCase() + best.meal[1].slice(1);
+    state.items = state.items.concat(best.items);
+    commit();
+  }
+
+  // Similar foods (same role in a meal, from the meal library, suited to your
+  // diet) at about the same weight in their usual portion.
+  function swapChoices(item) {
+    var f = food(item.id);
+    if (!f || !f[11]) return [];
+    if (!mealUse) {
+      mealUse = {};
+      data.meals.forEach(function (m) {
+        m[6].forEach(function (it) {
+          var use = mealUse[it[0]] || (mealUse[it[0]] = { all: 0 });
+          use.all++;
+          use[m[0]] = (use[m[0]] || 0) + 1;
+        });
+      });
+    }
+    var inMeal = {};
+    mealItems(item.slot).forEach(function (it) { inMeal[shortName(food(it.id)).toLowerCase()] = 1; });
+    var kinds = {};
+    kinds[shortName(f).toLowerCase()] = 1;
+    var g = grams(item);
+    var kcal = f[5][CALORIES] * g / 100;
+    // Foods eaten at this meal first, then ones with a photo, then the most used.
+    function rank(o) {
+      var use = mealUse[o[0]];
+      return (use[item.slot] ? 1000 : 0) + (o[10] || o[2] ? 100 : 0) + use.all;
+    }
+    return Object.keys(mealUse)
+      .map(food)
+      .filter(function (o) { return o && o[11] === f[11] && o[3] < 2 && suitsDiet(o); })
+      .sort(function (a, b) { return rank(b) - rank(a); })
+      .filter(function (o) {
+        var kind = shortName(o).toLowerCase();
+        if (kinds[kind] || inMeal[kind]) return false;
+        kinds[kind] = 1;
+        return true;
+      })
+      .slice(0, 6)
+      .map(function (o) {
+        var unit = o[6][0];
+        var steps = (MEASURE.test(unit[0]) ? STEPS : COUNT_STEPS).filter(function (x) { return x >= 0.25 && x <= 4; });
+        // Fruit and vegetables keep the weight; everything else keeps the calories.
+        var unitKcal = o[5][CALORIES] * unit[1] / 100;
+        var want = f[11] === "veg" || f[11] === "fruit" || !unitKcal ? g / unit[1] : kcal / unitKcal;
+        var q = steps.reduce(function (a, b) { return Math.abs(b - want) < Math.abs(a - want) ? b : a; });
+        return { id: o[0], u: 0, q: q, slot: item.slot };
+      });
+  }
+
+  function openSwap(index) {
+    var item = state.items[index];
+    var f = food(item.id);
+    var choices = swapChoices(item);
+    swapping = index;
+    $("DfSwapTitle").textContent = "Swap " + shortName(f);
+    var list = $("DfSwapList");
+    clear(list);
+    choices.forEach(function (c) {
+      var o = food(c.id);
+      var li = el("li", "");
+      var btn = el("button", "df-swap-choice");
+      btn.type = "button";
+      var pic = el("span", "df-swap-pic");
+      if (o[10]) {
+        var img = el("img", "");
+        img.src = o[10];
+        img.alt = "";
+        img.width = 200;
+        img.height = 200;
+        pic.appendChild(img);
+      } else {
+        pic.appendChild(photo(o, "df-swap-photo"));
+      }
+      btn.appendChild(pic);
+      btn.appendChild(el("span", "df-swap-name", shortName(o)));
+      btn.appendChild(el("span", "df-swap-amount", portionText(o, c.u, c.q)));
+      btn.addEventListener("click", function () {
+        undoable("Swapped in " + shortName(o).toLowerCase());
+        state.items[swapping] = c;
+        // The meal's name no longer matches its foods.
+        delete state.plan[c.slot];
+        closeDialog($("DfSwap"));
+        commit();
+      });
+      li.appendChild(btn);
+      list.appendChild(li);
+    });
+    openDialog($("DfSwap"));
+  }
+
+  function wireSwaps() {
+    var dialog = $("DfSwap");
+    closeOnBackdrop(dialog);
+    $("DfSwapCancel").addEventListener("click", function () { closeDialog(dialog); });
+    $("DfReplan").addEventListener("click", function () {
+      undoable("Planned a new day");
+      applyPlan(SLOTS.map(function (s) { return state.plan[s[0]]; }));
+      tab = null;
+      renderMeals();
+    });
+    $("DfFill").addEventListener("click", fillGaps);
+    $("DfPrefs").addEventListener("click", function () { $("DfDesignOpen").click(); });
+  }
+
+  function renderActions() {
+    var row = $("DfActions");
+    row.hidden = !state.items.length;
+    $("DfFill").hidden = !state.items.length || !missing() || !bestFill();
+  }
+
   function wireDesign() {
     var dialog = $("DfDesign");
     var form = $("DfDesignForm");
@@ -1007,6 +1245,8 @@
       var p = state.prefs;
       form.querySelector("input[name=diet][value=" + (DIETS[p.diet] ? p.diet : "everything") + "]").checked = true;
       form.querySelector("input[name=prep][value='" + p.prep + "']").checked = true;
+      form.querySelector("input[name=focus][value=" + (FOCUS[p.focus] !== undefined ? p.focus : "balanced") + "]").checked = true;
+      form.querySelector("input[name=size][value=" + (SIZES[p.size] ? p.size : "usual") + "]").checked = true;
       openDialog(dialog);
     }
     $("DfDesignOpen").addEventListener("click", openDesign);
@@ -1017,7 +1257,9 @@
       ev.preventDefault();
       state.prefs = {
         diet: form.querySelector("input[name=diet]:checked").value,
-        prep: Number(form.querySelector("input[name=prep]:checked").value)
+        prep: Number(form.querySelector("input[name=prep]:checked").value),
+        focus: form.querySelector("input[name=focus]:checked").value,
+        size: form.querySelector("input[name=size]:checked").value
       };
       if (state.items.length) undoable("Planned a new day");
       // Planning again gives a fresh set of meals.
@@ -1038,7 +1280,14 @@
   // Undo toast and phone add button ---------------------------------------------
 
   function undoable(message) {
+    notify(message);
     undoState = snapshot();
+    $("DfUndo").hidden = false;
+  }
+
+  function notify(message) {
+    undoState = null;
+    $("DfUndo").hidden = true;
     $("DfToastText").textContent = message;
     var toast = $("DfToast");
     toast.hidden = false;
@@ -1082,6 +1331,7 @@
     wireSearch();
     wireSheet();
     wireDesign();
+    wireSwaps();
     wireToast();
     wireFab();
     commit();
