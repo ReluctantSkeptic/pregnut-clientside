@@ -1,14 +1,14 @@
 [
   {
     "href": "https://twelve.tools",
-    "src": "https://twelve.tools/badge0-dark.svg",
+    "src": "https://twelve.tools/badge0-light.svg",
     "alt": "Featured on Twelve Tools",
     "width": 200,
     "height": 54
   },
   {
     "href": "https://neeed.directory/products/pregnut",
-    "src": "https://neeed.directory/badges/neeed-badge-dark.svg",
+    "src": "https://neeed.directory/badges/neeed-badge-light.svg",
     "alt": "Featured on neeed.directory",
     "width": 139,
     "height": 44
