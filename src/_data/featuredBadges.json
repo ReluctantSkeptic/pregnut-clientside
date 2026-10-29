@@ -78,5 +78,33 @@
     "alt": "Listed on The Runway - LaunchFree.io",
     "width": 250,
     "height": 56
+  },
+  {
+    "href": "https://peerpush.com/p/pregnut",
+    "src": "https://peerpush.com/p/pregnut/badge.png",
+    "alt": "PregNut on PeerPush",
+    "width": 156,
+    "height": 44
+  },
+  {
+    "href": "https://www.sideprojectors.com/project/105588/pregnut",
+    "src": "https://www.sideprojectors.com/img/badges/badge_show_white.png",
+    "alt": "Check out PregNut at @SideProjectors",
+    "width": 110,
+    "height": 44
+  },
+  {
+    "href": "https://www.uneed.best/tool/pregnut",
+    "src": "https://www.uneed.best/EMBED3.png",
+    "alt": "PregNut - Launching soon on Uneed",
+    "width": 168,
+    "height": 44
+  },
+  {
+    "href": "https://www.saaspa.ge/product/cmvrk593y001tle07mxwx3yaj",
+    "src": "https://www.saaspa.ge/api/embed/product/cmvrk593y001tle07mxwx3yaj/badge.png?theme=light",
+    "alt": "Featured on Saaspa.ge",
+    "width": 147,
+    "height": 44
   }
 ]
