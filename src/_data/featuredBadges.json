@@ -1,6 +1,6 @@
 [
   {
-    "href": "https://twelve.tools",
+    "href": "https://twelve.tools/pregnut",
     "src": "https://twelve.tools/badge0-light.svg",
     "alt": "Featured on Twelve Tools",
     "width": 200,
@@ -31,7 +31,7 @@
     }
   },
   {
-    "href": "https://fazier.com",
+    "href": "https://fazier.com/launches/pregnut",
     "src": "https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light",
     "alt": "Fazier badge",
     "width": 120,
@@ -45,7 +45,7 @@
     "height": 44
   },
   {
-    "href": "https://www.startupinspire.com",
+    "href": "https://www.startupinspire.com/startup/pregnut",
     "src": "https://www.startupinspire.com/images/badge_1.svg",
     "alt": "Featured on Startup Inspire",
     "width": 149,
@@ -59,7 +59,7 @@
     "height": 55
   },
   {
-    "href": "https://smollaunch.com",
+    "href": "https://smollaunch.com/products/pregnut",
     "src": "https://smollaunch.com/badges/featured.svg",
     "alt": "PregNut — Featured on Smol Launch",
     "width": 250,
