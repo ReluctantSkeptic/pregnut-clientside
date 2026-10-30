@@ -1,110 +1,110 @@
 [
   {
     "href": "https://twelve.tools/pregnut",
-    "src": "https://twelve.tools/badge0-light.svg",
-    "alt": "Featured on Twelve Tools",
-    "width": 200,
-    "height": 54
+    "src": "/resource/featured/logo-twelve.svg",
+    "alt": "PregNut on Twelve Tools",
+    "width": 168,
+    "height": 40
   },
   {
     "href": "https://neeed.directory/products/pregnut",
-    "src": "https://neeed.directory/badges/neeed-badge-light.svg",
-    "alt": "Featured on neeed.directory",
-    "width": 139,
-    "height": 44
+    "src": "/resource/featured/logo-neeed.svg",
+    "alt": "PregNut on Neeed",
+    "width": 89,
+    "height": 40
   },
   {
     "href": "https://www.saas.fyi",
-    "src": "https://www.saas.fyi/assets/brand/badge.svg",
-    "alt": "Featured on SaaS.fyi",
-    "width": 200,
-    "height": 80
+    "src": "/resource/featured/logo-saasfyi.svg",
+    "alt": "PregNut on SaaS.fyi",
+    "width": 124,
+    "height": 40
   },
   {
     "href": "https://publishyoursaas.com/listing/pregnut-com",
-    "src": "https://publishyoursaas.com/publishyoursaas-badge.svg",
-    "alt": "PregNut is listed on publishyoursaas",
-    "width": 240,
-    "height": 60,
+    "src": "/resource/featured/logo-publishyoursaas.svg",
+    "alt": "PregNut on PublishYourSaaS",
+    "width": 225,
+    "height": 40,
     "data": {
       "data-publishyoursaas-badge": "pregnut-com"
     }
   },
   {
     "href": "https://fazier.com/launches/pregnut",
-    "src": "https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light",
-    "alt": "Fazier badge",
-    "width": 120,
-    "height": 51
+    "src": "/resource/featured/logo-fazier.svg",
+    "alt": "PregNut on Fazier",
+    "width": 104,
+    "height": 40
   },
   {
     "href": "https://openhunts.com",
-    "src": "https://cdn.openhunts.com/badges/club.webp",
-    "alt": "OpenHunts Club Member",
-    "width": 204,
-    "height": 44
+    "src": "/resource/featured/logo-openhunts.svg",
+    "alt": "PregNut on OpenHunts",
+    "width": 154,
+    "height": 40
   },
   {
     "href": "https://www.startupinspire.com/startup/pregnut",
-    "src": "https://www.startupinspire.com/images/badge_1.svg",
-    "alt": "Featured on Startup Inspire",
-    "width": 149,
-    "height": 43
+    "src": "/resource/featured/logo-startupinspire.svg",
+    "alt": "PregNut on Startup Inspire",
+    "width": 196,
+    "height": 40
   },
   {
     "href": "https://launchigniter.com/product/pregnut?ref=badge-pregnut",
-    "src": "https://launchigniter.com/api/badge/pregnut?theme=light",
-    "alt": "Featured on LaunchIgniter",
-    "width": 212,
-    "height": 55
+    "src": "/resource/featured/logo-launchigniter.svg",
+    "alt": "PregNut on LaunchIgniter",
+    "width": 192,
+    "height": 40
   },
   {
     "href": "https://smollaunch.com/products/pregnut",
-    "src": "https://smollaunch.com/badges/featured.svg",
-    "alt": "PregNut — Featured on Smol Launch",
-    "width": 250,
-    "height": 60
+    "src": "/resource/featured/logo-smollaunch.svg",
+    "alt": "PregNut on Smol Launch",
+    "width": 166,
+    "height": 40
   },
   {
     "href": "https://turbo0.com/item/pregnut",
-    "src": "https://img.turbo0.com/badge-listed-light.svg",
-    "alt": "Listed on Turbo0",
-    "width": 200,
-    "height": 54
+    "src": "/resource/featured/logo-turbo0.svg",
+    "alt": "PregNut on Turbo0",
+    "width": 124,
+    "height": 40
   },
   {
     "href": "https://launchfree.io/listings/pregnut.html",
-    "src": "https://launchfree.io/badge-light.svg",
-    "alt": "Listed on The Runway - LaunchFree.io",
-    "width": 250,
-    "height": 56
+    "src": "/resource/featured/logo-launchfree.svg",
+    "alt": "PregNut on LaunchFree",
+    "width": 197,
+    "height": 40
   },
   {
     "href": "https://peerpush.com/p/pregnut",
-    "src": "https://peerpush.com/p/pregnut/badge.png",
+    "src": "/resource/featured/logo-peerpush.svg",
     "alt": "PregNut on PeerPush",
-    "width": 156,
-    "height": 44
+    "width": 138,
+    "height": 40
   },
   {
     "href": "https://www.sideprojectors.com/project/105588/pregnut",
-    "src": "https://www.sideprojectors.com/img/badges/badge_show_white.png",
-    "alt": "Check out PregNut at @SideProjectors",
-    "width": 110,
-    "height": 44
+    "src": "/resource/featured/logo-sideprojectors.svg",
+    "alt": "PregNut on SideProjectors",
+    "width": 190,
+    "height": 40
   },
   {
     "href": "https://www.uneed.best/tool/pregnut",
-    "src": "https://www.uneed.best/EMBED3.png",
-    "alt": "PregNut - Launching soon on Uneed",
-    "width": 168,
-    "height": 44
+    "src": "/resource/featured/logo-uneed.svg",
+    "alt": "PregNut on Uneed",
+    "width": 91,
+    "height": 40
   },
   {
     "href": "https://www.saaspa.ge/product/cmvrk593y001tle07mxwx3yaj",
-    "src": "https://www.saaspa.ge/api/embed/product/cmvrk593y001tle07mxwx3yaj/badge.png?theme=light",
-    "alt": "Featured on Saaspa.ge",
-    "width": 147,
-    "height": 44
+    "src": "/resource/featured/logo-saaspage.svg",
+    "alt": "PregNut on Saaspa.ge",
+    "width": 138,
+    "height": 40
   }
 ]

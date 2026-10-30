@@ -1,13 +1,17 @@
-{# Edit badge list in src/_data/featuredBadges.json #}
+{# Edit badge list in src/_data/featuredBadges.json. CSS-only marquee; the second group is a decorative aria-hidden copy. #}
 <section class="featured-on" aria-labelledby="FeaturedOnTitle">
   <h2 class="featured-on__title" id="FeaturedOnTitle">Featured on</h2>
-  <ul class="featured-on__list">
-    {% for b in featuredBadges %}
-    <li>
-      <a class="featured-on__link" href="{{ b.href }}" target="_blank" rel="noopener noreferrer"{% for k, v in b.data %} {{ k }}="{{ v }}"{% endfor %}>
-        <img src="{{ b.src }}" alt="{{ b.alt }}" width="{{ b.width }}" height="{{ b.height }}" loading="lazy" decoding="async" />
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="featured-on__viewport">
+    <div class="featured-on__track">
+      {% for copy in [0, 1] %}
+      <div class="featured-on__group"{% if copy %} aria-hidden="true"{% endif %}>
+        {% for b in featuredBadges %}
+        <a class="featured-on__link" href="{{ b.href }}" target="_blank" rel="noopener noreferrer"{% if copy %} tabindex="-1"{% endif %}{% for k, v in b.data %} {{ k }}="{{ v }}"{% endfor %}>
+          <img src="{{ b.src }}" alt="{% if not copy %}{{ b.alt }}{% endif %}" width="{{ b.width }}" height="{{ b.height }}" loading="lazy" decoding="async" />
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
