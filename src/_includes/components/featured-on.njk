@@ -1,4 +1,4 @@
-{# Edit badge list in src/_data/featuredBadges.json. CSS-only marquee; the second group is a decorative aria-hidden copy. #}
+{# Edit badge list in src/_data/featuredBadges.json (most important first). The second group is a decorative aria-hidden copy; the marquee starts once the band is in view. #}
 <section class="featured-on" aria-labelledby="FeaturedOnTitle">
   <h2 class="featured-on__title" id="FeaturedOnTitle">Featured on</h2>
   <div class="featured-on__viewport">
@@ -15,3 +15,4 @@
     </div>
   </div>
 </section>
+<script>(function(){var s=document.currentScript.previousElementSibling;if(!s)return;if(!("IntersectionObserver" in window)){s.classList.add("is-in");return;}var o=new IntersectionObserver(function(e){if(e[0].isIntersecting){s.classList.add("is-in");o.disconnect();}},{threshold:0.2});o.observe(s);})();</script>
