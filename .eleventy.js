@@ -33,6 +33,11 @@ module.exports = function(eleventyConfig) {
    eleventyConfig.addPassthroughCopy("src/favicon.ico");
    eleventyConfig.addPassthroughCopy("src/_redirects");
    eleventyConfig.addPassthroughCopy("src/_headers");
+   // Installable app: manifest, service worker, icons, install bar and offline page (generated; see src/pwa/).
+   eleventyConfig.addPassthroughCopy("src/pwa");
+   eleventyConfig.addPassthroughCopy("src/sw.js");
+   eleventyConfig.addPassthroughCopy("src/manifest.webmanifest");
+   eleventyConfig.ignores.add("src/pwa/**");
 
    eleventyConfig.addFilter("isoDate", (dateObj) => {
      if (!dateObj) return "";
