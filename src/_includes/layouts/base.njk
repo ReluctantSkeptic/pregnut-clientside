@@ -44,10 +44,11 @@
     <meta name="description" content="{{ pageDescription | escape }}">
     <meta name="author" content="{{ (author or site.author) | escape }}">
     <meta name="theme-color" content="#f3f0e8">
-    <link rel="icon" href="/favicon.ico?v=20261023-simple" sizes="16x16 32x32 48x48">
-    <link rel="icon" type="image/png" href="/resource/brand/favicon-32.png?v=20261023-simple" sizes="32x32">
-    <link rel="icon" type="image/png" href="/resource/brand/favicon-48.png?v=20261023-simple" sizes="48x48">
-    <link rel="apple-touch-icon" href="/pwa/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/favicon.ico?v=20261102-acorn" sizes="16x16 32x32 48x48">
+    <link rel="icon" type="image/png" href="/resource/brand/favicon-32.png?v=20261102-acorn" sizes="32x32">
+    <link rel="icon" type="image/png" href="/resource/brand/favicon-48.png?v=20261102-acorn" sizes="48x48">
+    <link rel="icon" type="image/svg+xml" href="/resource/brand/pregnut-icon.svg?v=20261102-acorn">
+    <link rel="apple-touch-icon" href="/pwa/apple-touch-icon.png?v=20261102-acorn" sizes="180x180">
     <link rel="manifest" href="/manifest.webmanifest">
     <script src="/pwa/pwa.js" defer></script>
     {% if noindex or (food and (food.topNutrients.length < 3 or food.isHumanMilk)) %}<meta name="robots" content="noindex">{% elif pageSchemaType == "Article" and socialImageWidth >= 1200 %}<meta name="robots" content="max-image-preview:large">{% endif %}
@@ -146,7 +147,7 @@
     <title>{% if food %}{{ food.seoTitle | escape }}{% elif documentTitle == site.name or (documentTitle + " | " + site.name) | length > 60 %}{{ documentTitle | escape }}{% else %}{{ documentTitle | escape }} | {{ site.name }}{% endif %}</title>
     <link rel="preload" href="/style/fonts/funnel-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/style/fonts/gloock-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/style/style.css?v=20261029-logomarquee">
+    <link rel="stylesheet" href="/style/style.css?v=20261102-acorn">
     {% if pageStyles %}
       {% for href in pageStyles %}
         <link rel="stylesheet" href="{{ href }}">
