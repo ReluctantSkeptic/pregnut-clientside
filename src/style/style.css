@@ -254,8 +254,8 @@ p {
 .brand-mark {
   display: block;
   flex: 0 0 auto;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
 
@@ -265,9 +265,9 @@ p {
 }
 
 .brand-name {
-  font-family: var(--font-serif);
-  font-size: 1.45rem;
-  line-height: 1;
+  display: block;
+  width: auto;
+  height: 25px;
 }
 
 .brand-tagline {
@@ -746,7 +746,7 @@ p {
 }
 
 .footer-name {
-  margin: 0 0 4px;
+  margin: 0 0 8px;
   color: #fff;
   font-family: var(--font-serif);
   font-size: 2rem;
@@ -998,8 +998,12 @@ p {
   }
 
   .brand-mark {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .brand-name {
+    height: 22px;
   }
 
   .nav-collapse {
@@ -1295,4 +1299,10 @@ p {
   .featured-on__group[aria-hidden="true"] { display: none; }
   .featured-on__link img { transition: none; }
   .featured-on__viewport { overflow: visible; padding: 8px clamp(16px, 4vw, 40px); -webkit-mask-image: none; mask-image: none; }
+}
+
+.footer-name img {
+  display: block;
+  width: auto;
+  height: 32px;
 }

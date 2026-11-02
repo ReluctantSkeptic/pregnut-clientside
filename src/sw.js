@@ -1,5 +1,5 @@
 /* PregNut service worker: app shell + offline fallback. Network-first; only same-origin GETs are handled. */
-const VERSION = 'pregnut-v1';
+const VERSION = 'pregnut-v2';
 const SHELL = ["/pwa/offline.html","/manifest.webmanifest","/pwa/icon-192.png","/pwa/icon-512.png","/pwa/pwa.js"];
 const OFFLINE = '/pwa/offline.html';
 const SKIP = ["/api/","/cdn-cgi/"];
