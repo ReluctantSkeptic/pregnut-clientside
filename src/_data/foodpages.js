@@ -518,6 +518,7 @@ function toolLinks(topNutrients) {
 }
 
 function nutrientRows(food, grams = 100) {
+  const RE_VITAMIN_B = /B-(\d)/;
   return Object.entries(foodData.nutrients || {})
     .filter(([name, info]) => name !== "Calories" && info && info.rda)
     .map(([name, info]) => {
@@ -539,7 +540,7 @@ function nutrientRows(food, grams = 100) {
         barPercent: percent === null ? 0 : Math.min(Math.max(percent, 0), 100),
         isOver100: percent !== null && percent > 100,
         amount: amountText(value),
-        label: name.replace(/B-(\d)/, "B$1"),
+        label: name.replace(RE_VITAMIN_B, "B$1"),
         color: NUTRIENT_COLORS[name] || "var(--accent)"
       };
     });
@@ -552,6 +553,13 @@ for (const food of foodData.foods || []) {
 
 const items = (foodData.foods || [])
   .map((food) => {
+    const RE_MILK_YOGURT = /^(Milk|Yogurt),/;
+    const RE_MILK_HUMAN_IMITATION = /^Milk, (Human|Imitation)/;
+    const RE_SMOKED = /\bSmoked\b/i;
+    const RE_JUICE = /\bjuice\b/i;
+    const RE_IN_WITH_JUICE = /\b(?:in|with) (?:\w+ )?juice\b/i;
+    const RE_RAW = /\bRaw\b/i;
+    const RE_SPROUTED = /\bSprouted\b/i;
     const slug = `${food.id}-${slugify(food.name)}`;
     const hasDuplicateName = foodNameCounts.get(food.name) > 1;
     const pageName = hasDuplicateName ? `${food.name} (Food ID ${food.id})` : food.name;
@@ -578,12 +586,12 @@ const items = (foodData.foods || [])
     if (isAvoid) pageDescription = `Avoid ${pageName} during pregnancy. See the safety reason, source guidance, and historical nutrients per 100 g.`;
     const flags = {
       isCheese: food.group === "Dairy and Egg Products" && food.name.startsWith("Cheese,"),
-      isMilkOrYogurt: food.group === "Dairy and Egg Products" && /^(Milk|Yogurt),/.test(food.name) && !/^Milk, (Human|Imitation)/.test(food.name),
-      isSmokedFish: food.group === "Finfish and Shellfish Products" && /\bSmoked\b/i.test(food.name),
+      isMilkOrYogurt: food.group === "Dairy and Egg Products" && RE_MILK_YOGURT.test(food.name) && !RE_MILK_HUMAN_IMITATION.test(food.name),
+      isSmokedFish: food.group === "Finfish and Shellfish Products" && RE_SMOKED.test(food.name),
       isEgg: food.name.startsWith("Egg,"),
-      isJuice: /\bjuice\b/i.test(food.name) && !/\b(?:in|with) (?:\w+ )?juice\b/i.test(food.name),
-      isFreshProduce: /\bRaw\b/i.test(food.name) && Boolean(food.warningText && food.warningText.startsWith("Wash fresh")),
-      isSeedSprout: /\bSprouted\b/i.test(food.name),
+      isJuice: RE_JUICE.test(food.name) && !RE_IN_WITH_JUICE.test(food.name),
+      isFreshProduce: RE_RAW.test(food.name) && Boolean(food.warningText && food.warningText.startsWith("Wash fresh")),
+      isSeedSprout: RE_SPROUTED.test(food.name),
       isProteinPowder: food.name.startsWith("Protein powder") || food.name.startsWith("Protein supplement,")
     };
     return {

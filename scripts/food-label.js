@@ -79,6 +79,10 @@ function upperFirst(text) {
 }
 
 function foodLabel(name) {
+  const RE_MEAT_AND_SKIN = /^meat and skin$/i;
+  const RE_MEAT_ONLY = /^meat only$/i;
+  const RE_SEPARABLE_LEAN_ONLY = /^separable lean only$/i;
+  const RE_WHOLE = /^whole$/i;
   let parts = cleanup(name).split(",").map((p) => p.trim()).filter(Boolean);
   if (!parts.length) return String(name || "").trim();
 
@@ -100,7 +104,7 @@ function foodLabel(name) {
 
   let head = parts.shift();
   let rest = parts
-    .map((p) => p.replace(/^meat and skin$/i, "with skin").replace(/^meat only$/i, "skinless").replace(/^separable lean only$/i, "lean only"))
+    .map((p) => p.replace(RE_MEAT_AND_SKIN, "with skin").replace(RE_MEAT_ONLY, "skinless").replace(RE_SEPARABLE_LEAN_ONLY, "lean only"))
     .filter((p) => !NOISE.some((re) => re.test(p)));
   const headKey = head.toLowerCase();
   const stem = headKey.replace(/s$/, "");
@@ -125,7 +129,7 @@ function foodLabel(name) {
   }
 
   // Fold simple modifiers to the front: "Peppers, Sweet, Red" -> "Red sweet peppers".
-  while (rest.length && FRONT_WORDS.has(rest[0].toLowerCase()) && !(meatCut && /^whole$/i.test(rest[0])) && !head.toLowerCase().includes(rest[0].toLowerCase())) {
+  while (rest.length && FRONT_WORDS.has(rest[0].toLowerCase()) && !(meatCut && RE_WHOLE.test(rest[0])) && !head.toLowerCase().includes(rest[0].toLowerCase())) {
     head = lowerFirst(rest.shift()) + " " + lowerFirst(head);
   }
 

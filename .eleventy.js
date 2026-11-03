@@ -1,5 +1,9 @@
 
 module.exports = function(eleventyConfig) {
+   const RE_H2_H3 = /^h[23]$/;
+   const RE_COMBINING_MARKS = /[\u0300-\u036f]/g;
+   const RE_NON_ALNUM = /[^a-z0-9]+/g;
+   const RE_EDGE_DASH = /^-|-$/g;
    const site = require("./src/_data/site.js");
    const sitemapData = require("./src/_data/sitemapData.js");
 
@@ -11,14 +15,14 @@ module.exports = function(eleventyConfig) {
      markdown.core.ruler.push("heading-ids", (state) => {
        const counts = new Map();
        state.tokens.forEach((token, index) => {
-         if (token.type !== "heading_open" || !/^h[23]$/.test(token.tag)) return;
+         if (token.type !== "heading_open" || !RE_H2_H3.test(token.tag)) return;
          const inline = state.tokens[index + 1];
          const label = (inline.children || [])
            .filter((child) => child.type === "text" || child.type === "code_inline")
            .map((child) => child.content)
            .join("");
-         const base = label.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
-           .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "section";
+         const base = label.normalize("NFKD").replace(RE_COMBINING_MARKS, "")
+           .toLowerCase().replace(RE_NON_ALNUM, "-").replace(RE_EDGE_DASH, "") || "section";
          const count = (counts.get(base) || 0) + 1;
          counts.set(base, count);
          token.attrSet("id", count === 1 ? base : `${base}-${count}`);
