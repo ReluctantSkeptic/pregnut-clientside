@@ -5,6 +5,9 @@
 // suggestions fill the space above the keyboard.
 
 (function () {
+  const RE_ES = /(es|s)$/;
+  const RE_ALL_WS = /^\s+$/;
+  const RE_WORD_CHAR = /[a-z0-9%]/i;
   var INDEX_URL = "/resource/search.v1.json";
   var RECENT_KEY = "pregnut.search.recent.v1";
   var LIMIT = 8;
@@ -54,7 +57,7 @@
       var ok = true;
       for (var t = 0; t < tokens.length && ok; t++) {
         var token = tokens[t];
-        var stem = token.length > 3 ? token.replace(/(es|s)$/, "") : token;
+        var stem = token.length > 3 ? token.replace(RE_ES, "") : token;
         ok = false;
         for (var w = 0; w < e.words.length; w++) {
           if (e.words[w].indexOf(token) === 0 || e.words[w].indexOf(stem) === 0) { ok = true; break; }
@@ -79,10 +82,10 @@
       var plain = normalize(part);
       var typed = 0;
       tokens.forEach(function (t) { if (plain.indexOf(t) === 0 && t.length > typed) typed = t.length; });
-      if (!typed || /^\s+$/.test(part)) { frag.appendChild(part.trim() ? el("b", "", part) : document.createTextNode(part)); return; }
+      if (!typed || RE_ALL_WS.test(part)) { frag.appendChild(part.trim() ? el("b", "", part) : document.createTextNode(part)); return; }
       // Map the normalized length back onto the original characters.
       var cut = 0, seen = 0;
-      while (cut < part.length && seen < typed) { if (/[a-z0-9%]/i.test(part[cut])) seen++; cut++; }
+      while (cut < part.length && seen < typed) { if (RE_WORD_CHAR.test(part[cut])) seen++; cut++; }
       frag.appendChild(document.createTextNode(part.slice(0, cut)));
       if (cut < part.length) frag.appendChild(el("b", "", part.slice(cut)));
     });

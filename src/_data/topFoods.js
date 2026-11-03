@@ -96,12 +96,13 @@ function rank(key, wholeOnly) {
 }
 
 const nutrients = NUTRIENTS.map(([key, name]) => {
+  const RE_LEADING_CAPS = /^[A-Z]{2,}/;
   const info = foodData.nutrients[key];
   return {
     key,
     name,
     // "Vitamin B12" -> "vitamin B12"; "DHA" stays.
-    sentence: /^[A-Z]{2,}/.test(name) ? name : name.charAt(0).toLowerCase() + name.slice(1),
+    sentence: RE_LEADING_CAPS.test(name) ? name : name.charAt(0).toLowerCase() + name.slice(1),
     target: info.rda.value + " " + info.rda.unit,
     guide: guides.get(key) || "/blog/",
     whole: rank(key, true),

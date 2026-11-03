@@ -22,6 +22,8 @@ const BANNED_PATTERNS = [
 ];
 
 function validateBatch(filePath) {
+  const RE_ABBREVIATIONS = /e\.g\.|i\.e\.|U\.S\.|vs\.|Dr\.|oz\.|lb\.|approx\./gi;
+  const RE_SENTENCE_END = /[.!?]+(?:\s+|$)/;
   if (!fs.existsSync(filePath)) return { error: 'File does not exist' };
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   const issues = [];
@@ -32,8 +34,8 @@ function validateBatch(filePath) {
       continue;
     }
     const text = item.explanation.trim();
-    const clean = text.replace(/e\.g\.|i\.e\.|U\.S\.|vs\.|Dr\.|oz\.|lb\.|approx\./gi, 'abbr');
-    const sentences = clean.split(/[.!?]+(?:\s+|$)/).filter(s => s.trim().length > 0);
+    const clean = text.replace(RE_ABBREVIATIONS, 'abbr');
+    const sentences = clean.split(RE_SENTENCE_END).filter(s => s.trim().length > 0);
     if (sentences.length < 3 || sentences.length > 5) {
       issues.push(`ID ${id}: sentence count is ${sentences.length} (expected 3-4)`);
     }

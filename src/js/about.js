@@ -3,6 +3,8 @@
 // nothing here runs when the reader prefers reduced motion.
 
 (function () {
+  const RE_WS_CAPTURE = /(\s+)/;
+  const RE_ALL_WS = /^\s+$/;
   if (!window.matchMedia || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
   var body = document.body;
@@ -16,9 +18,9 @@
     while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach(function (node) {
       var frag = document.createDocumentFragment();
-      node.textContent.split(/(\s+)/).forEach(function (part) {
+      node.textContent.split(RE_WS_CAPTURE).forEach(function (part) {
         if (!part) return;
-        if (/^\s+$/.test(part)) {
+        if (RE_ALL_WS.test(part)) {
           frag.appendChild(document.createTextNode(part));
           return;
         }

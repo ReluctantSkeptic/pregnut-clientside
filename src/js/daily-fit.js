@@ -4,6 +4,9 @@
 // browser (localStorage); data comes from /resource/daily-fit.v1.json.
 
 (function () {
+  const RE_CH_SH = /(ch|sh|s|x)$/;
+  const RE_CONSONANT_Y = /[^aeiou]y$/;
+  const RE_ES = /(es|s)$/;
   var DATA_URL = "/resource/daily-fit.v1.json";
   var STORE_KEY = "pregnut.dailyFit.v1";
   var SLOTS = [["breakfast", "Breakfast"], ["lunch", "Lunch"], ["snack", "Snack"], ["dinner", "Dinner"]];
@@ -137,8 +140,8 @@
     if (/\bcup\b/.test(head)) return head.replace(/\bcup\b/, "cups") + tail;
     if (/'s worth$/.test(head)) return head.replace(/'s worth$/, "s' worth") + tail;
     head = head.replace(/(\w+)$/, function (w) {
-      if (/(ch|sh|s|x)$/.test(w)) return w + "es";
-      if (/[^aeiou]y$/.test(w)) return w.slice(0, -1) + "ies";
+      if (RE_CH_SH.test(w)) return w + "es";
+      if (RE_CONSONANT_Y.test(w)) return w.slice(0, -1) + "ies";
       return w + "s";
     });
     return head + tail;
@@ -229,7 +232,7 @@
     index.forEach(function (entry) {
       for (var t = 0; t < tokens.length; t++) {
         var token = tokens[t];
-        var stem = token.length > 3 ? token.replace(/(es|s)$/, "") : token;
+        var stem = token.length > 3 ? token.replace(RE_ES, "") : token;
         var found = false;
         for (var w = 0; w < entry.words.length; w++) {
           if (entry.words[w].indexOf(token) === 0 || entry.words[w].indexOf(stem) === 0) { found = true; break; }
