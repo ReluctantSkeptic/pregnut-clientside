@@ -1,19 +1,5 @@
 [
   {
-    "href": "https://peerpush.com/p/pregnut",
-    "src": "/resource/featured/logo-peerpush.svg",
-    "alt": "PregNut on PeerPush",
-    "width": 138,
-    "height": 40
-  },
-  {
-    "href": "https://twelve.tools/pregnut",
-    "src": "/resource/featured/logo-twelve.svg",
-    "alt": "PregNut on Twelve Tools",
-    "width": 168,
-    "height": 40
-  },
-  {
     "href": "https://www.uneed.best/tool/pregnut",
     "src": "/resource/featured/logo-uneed.svg",
     "alt": "PregNut on Uneed",
@@ -28,31 +14,34 @@
     "height": 40
   },
   {
-    "href": "https://neeed.directory/products/pregnut",
-    "src": "/resource/featured/logo-neeed.svg",
-    "alt": "PregNut on Neeed",
-    "width": 89,
+    "href": "https://twelve.tools/pregnut",
+    "src": "/resource/featured/logo-twelve.svg",
+    "alt": "PregNut on Twelve Tools",
+    "width": 168,
     "height": 40
   },
   {
-    "href": "https://openhunts.com",
-    "src": "/resource/featured/logo-openhunts.svg",
-    "alt": "PregNut on OpenHunts",
-    "width": 154,
-    "height": 40
+    "href": "https://smollaunch.com",
+    "src": "https://smollaunch.com/badges/featured.svg",
+    "alt": "PregNut — Featured on Smol Launch",
+    "width": 250,
+    "height": 60,
+    "loading": "eager",
+    "knockout": true
   },
   {
-    "href": "https://turbo0.com/item/pregnut",
-    "src": "/resource/featured/logo-turbo0.svg",
-    "alt": "PregNut on Turbo0",
-    "width": 124,
-    "height": 40
+    "href": "https://tinylaunch.com",
+    "src": "https://tinylaunch.com/tinylaunch_badge_launching_soon.svg",
+    "alt": "Launching soon on TinyLaunch",
+    "width": 132,
+    "height": 40,
+    "knockout": true
   },
   {
-    "href": "https://launchigniter.com/product/pregnut?ref=badge-pregnut",
-    "src": "/resource/featured/logo-launchigniter.svg",
-    "alt": "PregNut on LaunchIgniter",
-    "width": 192,
+    "href": "https://www.startupinspire.com/startup/pregnut",
+    "src": "/resource/featured/logo-startupinspire.svg",
+    "alt": "PregNut on Startup Inspire",
+    "width": 196,
     "height": 40
   },
   {
@@ -63,24 +52,53 @@
     "height": 40
   },
   {
-    "href": "https://www.startupinspire.com/startup/pregnut",
-    "src": "/resource/featured/logo-startupinspire.svg",
-    "alt": "PregNut on Startup Inspire",
-    "width": 196,
+    "href": "https://peerpush.com/p/pregnut",
+    "src": "/resource/featured/logo-peerpush.svg",
+    "alt": "PregNut on PeerPush",
+    "width": 138,
     "height": 40
   },
   {
-    "href": "https://smollaunch.com/products/pregnut",
-    "src": "/resource/featured/logo-smollaunch.svg",
-    "alt": "PregNut on Smol Launch",
-    "width": 166,
+    "href": "https://openhunts.com",
+    "src": "/resource/featured/logo-openhunts.svg",
+    "alt": "PregNut on OpenHunts",
+    "width": 154,
     "height": 40
+  },
+  {
+    "href": "https://www.saaspa.ge/product/cmvrk593y001tle07mxwx3yaj",
+    "src": "/resource/featured/logo-saaspage.svg",
+    "alt": "PregNut on Saaspa.ge",
+    "width": 138,
+    "height": 40
+  },
+  {
+    "href": "https://indielaunch.dev/products/pregnut?ref=badge",
+    "src": "https://indielaunch.dev/badges/indielaunch-light.svg",
+    "alt": "Featured on IndieLaunch",
+    "width": 200,
+    "height": 54,
+    "knockout": true
   },
   {
     "href": "https://launchfree.io/listings/pregnut.html",
     "src": "/resource/featured/logo-launchfree.svg",
-    "alt": "PregNut on LaunchFree",
+    "alt": "PregNut on The Runway at LaunchFree",
     "width": 197,
+    "height": 40
+  },
+  {
+    "href": "https://neeed.directory/products/pregnut",
+    "src": "/resource/featured/logo-neeed.svg",
+    "alt": "PregNut on Neeed",
+    "width": 89,
+    "height": 40
+  },
+  {
+    "href": "https://turbo0.com/item/pregnut",
+    "src": "/resource/featured/logo-turbo0.svg",
+    "alt": "PregNut on Turbo0",
+    "width": 124,
     "height": 40
   },
   {
@@ -98,13 +116,6 @@
     "src": "/resource/featured/logo-saasfyi.svg",
     "alt": "PregNut on SaaS.fyi",
     "width": 124,
-    "height": 40
-  },
-  {
-    "href": "https://www.saaspa.ge/product/cmvrk593y001tle07mxwx3yaj",
-    "src": "/resource/featured/logo-saaspage.svg",
-    "alt": "PregNut on Saaspa.ge",
-    "width": 138,
     "height": 40
   }
 ]
