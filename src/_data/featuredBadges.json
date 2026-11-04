@@ -1,19 +1,5 @@
 [
   {
-    "href": "https://peerpush.com/p/pregnut",
-    "src": "/resource/featured/logo-peerpush.svg",
-    "alt": "PregNut on PeerPush",
-    "width": 138,
-    "height": 40
-  },
-  {
-    "href": "https://twelve.tools/pregnut",
-    "src": "/resource/featured/logo-twelve.svg",
-    "alt": "PregNut on Twelve Tools",
-    "width": 168,
-    "height": 40
-  },
-  {
     "href": "https://www.uneed.best/tool/pregnut",
     "src": "/resource/featured/logo-uneed.svg",
     "alt": "PregNut on Uneed",
@@ -21,38 +7,10 @@
     "height": 40
   },
   {
-    "href": "https://fazier.com/launches/pregnut",
-    "src": "/resource/featured/logo-fazier.svg",
-    "alt": "PregNut on Fazier",
-    "width": 104,
-    "height": 40
-  },
-  {
-    "href": "https://neeed.directory/products/pregnut",
-    "src": "/resource/featured/logo-neeed.svg",
-    "alt": "PregNut on Neeed",
-    "width": 89,
-    "height": 40
-  },
-  {
-    "href": "https://openhunts.com",
-    "src": "/resource/featured/logo-openhunts.svg",
-    "alt": "PregNut on OpenHunts",
-    "width": 154,
-    "height": 40
-  },
-  {
-    "href": "https://turbo0.com/item/pregnut",
-    "src": "/resource/featured/logo-turbo0.svg",
-    "alt": "PregNut on Turbo0",
-    "width": 124,
-    "height": 40
-  },
-  {
-    "href": "https://launchigniter.com/product/pregnut?ref=badge-pregnut",
-    "src": "/resource/featured/logo-launchigniter.svg",
-    "alt": "PregNut on LaunchIgniter",
-    "width": 192,
+    "href": "https://peerpush.com/p/pregnut",
+    "src": "/resource/featured/logo-peerpush.svg",
+    "alt": "PregNut on PeerPush",
+    "width": 138,
     "height": 40
   },
   {
@@ -63,10 +21,45 @@
     "height": 40
   },
   {
+    "href": "https://twelve.tools/pregnut",
+    "src": "/resource/featured/logo-twelve.svg",
+    "alt": "PregNut on Twelve Tools",
+    "width": 168,
+    "height": 40
+  },
+  {
+    "href": "https://fazier.com/launches/pregnut",
+    "src": "/resource/featured/logo-fazier.svg",
+    "alt": "PregNut on Fazier",
+    "width": 104,
+    "height": 40
+  },
+  {
     "href": "https://www.startupinspire.com/startup/pregnut",
     "src": "/resource/featured/logo-startupinspire.svg",
     "alt": "PregNut on Startup Inspire",
     "width": 196,
+    "height": 40
+  },
+  {
+    "href": "https://www.saaspa.ge/product/cmvrk593y001tle07mxwx3yaj",
+    "src": "/resource/featured/logo-saaspage.svg",
+    "alt": "PregNut on Saaspa.ge",
+    "width": 138,
+    "height": 40
+  },
+  {
+    "href": "https://launchigniter.com/product/pregnut?ref=badge-pregnut",
+    "src": "/resource/featured/logo-launchigniter.svg",
+    "alt": "PregNut on LaunchIgniter",
+    "width": 192,
+    "height": 40
+  },
+  {
+    "href": "https://neeed.directory/products/pregnut",
+    "src": "/resource/featured/logo-neeed.svg",
+    "alt": "PregNut on Neeed",
+    "width": 89,
     "height": 40
   },
   {
@@ -94,6 +87,20 @@
     }
   },
   {
+    "href": "https://turbo0.com/item/pregnut",
+    "src": "/resource/featured/logo-turbo0.svg",
+    "alt": "PregNut on Turbo0",
+    "width": 124,
+    "height": 40
+  },
+  {
+    "href": "https://openhunts.com",
+    "src": "/resource/featured/logo-openhunts.svg",
+    "alt": "PregNut on OpenHunts",
+    "width": 154,
+    "height": 40
+  },
+  {
     "href": "https://www.saas.fyi",
     "src": "/resource/featured/logo-saasfyi.svg",
     "alt": "PregNut on SaaS.fyi",
@@ -101,10 +108,10 @@
     "height": 40
   },
   {
-    "href": "https://www.saaspa.ge/product/cmvrk593y001tle07mxwx3yaj",
-    "src": "/resource/featured/logo-saaspage.svg",
-    "alt": "PregNut on Saaspa.ge",
-    "width": 138,
+    "href": "https://indielaunch.dev/products/pregnut",
+    "src": "/resource/featured/logo-indielaunch.svg",
+    "alt": "PregNut on IndieLaunch",
+    "width": 135,
     "height": 40
   }
 ]
