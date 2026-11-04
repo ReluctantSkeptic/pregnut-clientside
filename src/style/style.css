@@ -1203,12 +1203,13 @@ p {
 }
 
 
-/* Featured on: full-bleed sage band that closes the footer; marquee waits until in view */
+/* Featured on: full-bleed sage band. Two rows scroll in opposite directions once in view. */
 .site-footer:has(.featured-on) { overflow-x: clip; }
 .site-footer:has(.featured-on) .footer-shell { padding-bottom: 0; }
 .featured-on {
   --fo-gap: clamp(3rem, 5vw, 4.75rem);
   --fo-h: clamp(38px, 3.2vw, 48px);
+  --fo-row-gap: clamp(22px, 3vw, 36px);
   width: 100vw;
   margin: clamp(56px, 7vw, 96px) calc(50% - 50vw) 0;
   padding: clamp(64px, 8vw, 112px) 0 clamp(72px, 9vw, 120px);
@@ -1233,12 +1234,14 @@ p {
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 2.5%, #000 97.5%, transparent);
   mask-image: linear-gradient(90deg, transparent, #000 2.5%, #000 97.5%, transparent);
 }
+.featured-on__viewport + .featured-on__viewport { margin-top: var(--fo-row-gap); }
 .featured-on__track {
   display: flex;
   width: max-content;
   animation: fo-marquee 56s linear infinite;
   animation-play-state: paused;
 }
+.featured-on__track--rev { animation-name: fo-marquee-rev; }
 .featured-on.is-in .featured-on__track { animation-play-state: running; }
 .featured-on:hover .featured-on__track,
 .featured-on:focus-within .featured-on__track {
@@ -1268,6 +1271,8 @@ p {
   opacity: 0.62;
   transition: filter 0.4s ease, opacity 0.4s ease;
 }
+/* Official pill badges ship on a white card. Multiply drops that card into the sage band. */
+.featured-on__link--knockout img { mix-blend-mode: multiply; }
 .featured-on__link:hover img,
 .featured-on__link:focus-visible img {
   filter: none;
@@ -1277,10 +1282,15 @@ p {
   from { transform: translate3d(0, 0, 0); }
   to { transform: translate3d(-50%, 0, 0); }
 }
+@keyframes fo-marquee-rev {
+  from { transform: translate3d(-50%, 0, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
 @media (max-width: 640px) {
   .featured-on {
     --fo-gap: 2.5rem;
     --fo-h: 34px;
+    --fo-row-gap: 18px;
     margin-top: 48px;
     padding: 56px 0 64px;
   }
