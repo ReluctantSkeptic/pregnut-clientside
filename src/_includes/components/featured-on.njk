@@ -1,23 +1,20 @@
-{# Edit badge list in src/_data/featuredBadges.json (most reputable first).
-   The list is split into two rows. Each row's second group is a decorative aria-hidden copy so the marquee can loop; both marquees start once the band is in view. #}
+{# Edit the badge list in src/_data/featuredBadges.json (most reputable first).
+   Two rows scroll in opposite directions. The second group in each row is a
+   decorative copy: aria-hidden, not in the tab order. #}
 <section class="featured-on" aria-labelledby="FeaturedOnTitle">
   <h2 class="featured-on__title" id="FeaturedOnTitle">Featured on</h2>
-  {% set topCount = (featuredBadges | length / 2) | round(0, "ceil") %}
-  {% set topBadges = featuredBadges.slice(0, topCount) %}
-  {% set bottomBadges = featuredBadges.slice(topCount) %}
-  {% for row in [
-    { dir: "left", badges: topBadges },
-    { dir: "right", badges: bottomBadges }
-  ] %}
+  {% for row in [0, 1] %}
   <div class="featured-on__viewport">
-    <div class="featured-on__track featured-on__track--{{ row.dir }}">
+    <div class="featured-on__track{% if row %} featured-on__track--rev{% endif %}">
       {% for copy in [0, 1] %}
       <div class="featured-on__group"{% if copy %} aria-hidden="true"{% endif %}>
-        {% for b in row.badges %}
-        <a class="featured-on__link" href="{{ b.href }}" target="_blank" rel="noopener noreferrer"{% if copy %} tabindex="-1"{% endif %}{% for k, v in b.data %} {{ k }}="{{ v }}"{% endfor %}>
-          <img src="{{ b.src }}" alt="{% if not copy %}{{ b.alt }}{% endif %}" width="{{ b.width }}" height="{{ b.height }}" loading="lazy" decoding="async" />
+        {%- for b in featuredBadges -%}
+        {%- if (row == 0 and loop.index <= (featuredBadges.length / 2)) or (row == 1 and loop.index > (featuredBadges.length / 2)) %}
+        <a class="featured-on__link{% if b.knockout %} featured-on__link--knockout{% endif %}" href="{{ b.href }}" target="_blank" rel="noopener"{% if copy %} tabindex="-1"{% endif %}{% for k, v in b.data %} {{ k }}="{{ v }}"{% endfor %}>
+          <img src="{{ b.src }}" alt="{% if not copy %}{{ b.alt }}{% endif %}" width="{{ b.width }}" height="{{ b.height }}" loading="{% if copy %}lazy{% else %}{{ b.loading or "lazy" }}{% endif %}" decoding="async" />
         </a>
-        {% endfor %}
+        {% endif -%}
+        {%- endfor %}
       </div>
       {% endfor %}
     </div>
