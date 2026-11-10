@@ -203,7 +203,9 @@
   }
 
   function closeDialog(dialog) {
-    if (dialog.close) dialog.close(); else dialog.removeAttribute("open");
+    if (!dialog) return;
+    if (dialog.close) { if (dialog.open) dialog.close(); }
+    else dialog.removeAttribute("open");
   }
 
   // Close a sheet by tapping the dimmed backdrop.
@@ -356,7 +358,11 @@
 
   function wireSearch() {
     var input = $("DfSearch");
-    input.addEventListener("focus", enterSearchMode);
+    var dismiss = PregnutState.createGeneration();
+    input.addEventListener("focus", function () {
+      dismiss.bump();
+      enterSearchMode();
+    });
     input.addEventListener("input", showSearch);
     input.addEventListener("keydown", function (ev) {
       if (ev.key === "ArrowDown" && results.length) { active = (active + 1) % results.length; renderResults(); ev.preventDefault(); }
@@ -367,7 +373,12 @@
     // On phones the results stay while the keyboard is down; on desktop the
     // dropdown closes when the field loses focus.
     input.addEventListener("blur", function () {
-      setTimeout(function () { if (!searching) { results = []; renderResults(); } }, 150);
+      var token = dismiss.current();
+      setTimeout(function () {
+        if (!dismiss.isCurrent(token) || searching || document.activeElement === input) return;
+        results = [];
+        renderResults();
+      }, 150);
     });
     $("DfResults").addEventListener("touchstart", function () { if (searching) input.blur(); }, { passive: true });
     $("DfSearchCancel").addEventListener("click", function () { exitSearchMode(true); });
@@ -465,16 +476,14 @@
   }
 
   function step(dir) {
+    if (!sheet) return;
     var item = sheet.item;
     if (item.u === GRAMS) {
       item.q = Math.max(5, item.q + dir * 10);
     } else {
       var name = food(item.id)[6][item.u][0];
       var steps = MEASURE.test(name) ? STEPS : COUNT_STEPS;
-      var i = 0;
-      while (i < steps.length - 1 && steps[i] < item.q) i++;
-      if (steps[i] !== item.q && dir < 0) i++;
-      item.q = steps[Math.max(0, Math.min(steps.length - 1, i + dir))];
+      item.q = PregnutState.nextPortionQuantity(item.q, dir, steps);
     }
     renderSheet();
   }
@@ -490,18 +499,31 @@
     });
     $("DfCancel").addEventListener("click", function () { closeDialog(dialog); });
     $("DfRemove").addEventListener("click", function () {
-      undoable("Removed " + shortName(food(sheet.item.id)));
-      state.items.splice(sheet.edit, 1);
+      if (!sheet || sheet.edit < 0) return;
+      var name = shortName(food(sheet.item.id));
+      var index = sheet.edit;
+      if (syncDay(true)) return;
+      undoable("Removed " + name);
+      state.items.splice(index, 1);
       commit();
       closeDialog(dialog);
     });
     $("DfAmountForm").addEventListener("submit", function (ev) {
       ev.preventDefault();
-      var item = sheet.item;
-      if (sheet.edit >= 0) {
-        state.items[sheet.edit] = item;
+      if (!sheet) return;
+      var item = { id: sheet.item.id, u: sheet.item.u, q: sheet.item.q, slot: sheet.item.slot };
+      var edit = sheet.edit;
+      if (item.u === GRAMS) {
+        var gramsValue = Number($("DfGramsInput").value);
+        if (!(gramsValue > 0)) return;
+        item.q = gramsValue;
+      }
+      var rolled = syncDay(false);
+      if (rolled) edit = -1;
+      if (edit >= 0 && state.items[edit]) {
+        state.items[edit] = item;
       } else {
-        undoable("Added " + shortName(food(item.id)) + " to " + slotName(item.slot).toLowerCase());
+        undoable((rolled ? "It's a new day. " : "") + "Added " + shortName(food(item.id)) + " to " + slotName(item.slot).toLowerCase());
         state.items.push(item);
       }
       tab = item.slot;
@@ -616,6 +638,7 @@
     remove.type = "button";
     remove.setAttribute("aria-label", "Remove " + f[1]);
     remove.addEventListener("click", function () {
+      if (syncDay(true)) return;
       undoable("Removed " + shortName(f));
       state.items.splice(i, 1);
       delete state.plan[item.slot];
@@ -823,7 +846,9 @@
     clear(body);
 
     var top = el("div", "df-sheet-top");
-    top.appendChild(el("h2", "", n.name));
+    var heading = el("h2", "", n.name);
+    heading.id = "DfNutrientName";
+    top.appendChild(heading);
     var close = el("button", "df-skip", "Close");
     close.type = "button";
     close.addEventListener("click", function () { closeDialog($("DfNutrientSheet")); });
@@ -1007,8 +1032,8 @@
       results.push({ day: day.slice(), score: score });
     }
     results.sort(function (a, b) { return b.score - a.score; });
-    var good = results.filter(function (r) { return r.score >= results[0].score * 0.97; });
-    var chosen = good[Math.floor(Math.random() * good.length)];
+    var chosen = PregnutState.chooseNearBest(results, Math.random);
+    if (!chosen) return null;
     var items = [];
     var names = {};
     chosen.day.forEach(function (f, k) {
@@ -1020,12 +1045,16 @@
     return { names: names, items: items };
   }
 
-  function applyPlan(avoid) {
-    var plan = planDay(state.prefs, avoid);
-    if (!plan) return;
-    state.items = plan.items;
-    state.plan = plan.names;
+  // previous is the log from before this plan, so a failed plan and Undo
+  // both put the diet and the foods back together.
+  function applyPlan(avoid, previous) {
+    var saved = previous || snapshot();
+    var plan = null;
+    try { plan = planDay(state.prefs, avoid); } catch (e) { plan = null; }
+    var result = PregnutState.planEdit(saved, state.prefs, plan);
+    state = result.state;
     commit();
+    return result.ok ? result : null;
   }
 
   // Swaps and gap filling ---------------------------------------------------
@@ -1058,6 +1087,7 @@
   // Another meal for this slot: the best-scoring one that fits your diet and
   // hasn't been shown yet, so tapping Swap again keeps offering new meals.
   function swapMeal(slot) {
+    if (syncDay(true)) return;
     var current = state.plan[slot] || "";
     var others = SLOTS.filter(function (s) { return s[0] !== slot; })
       .map(function (s) { return slotFacts(s[0], mealItems(s[0])); });
@@ -1118,12 +1148,13 @@
   }
 
   function fillGaps() {
+    var rolled = syncDay(false);
     var best = bestFill();
     if (!best) {
       notify("A snack wouldn't add much more today");
       return;
     }
-    undoable("Added " + best.meal[1].charAt(0).toLowerCase() + best.meal[1].slice(1));
+    undoable((rolled ? "It's a new day. " : "") + "Added " + best.meal[1].charAt(0).toLowerCase() + best.meal[1].slice(1));
     var snackItems = mealItems("snack");
     if (!snackItems.length) state.plan.snack = best.meal[1];
     else if (state.plan.snack) state.plan.snack += ", then " + best.meal[1].charAt(0).toLowerCase() + best.meal[1].slice(1);
@@ -1207,6 +1238,8 @@
       btn.appendChild(el("span", "df-swap-name", shortName(o)));
       btn.appendChild(el("span", "df-swap-amount", portionText(o, c.u, c.q)));
       btn.addEventListener("click", function () {
+        if (syncDay(true)) return;
+        if (state.items[swapping] == null) return;
         undoable("Swapped in " + shortName(o).toLowerCase());
         state.items[swapping] = c;
         // The meal's name no longer matches its foods.
@@ -1225,10 +1258,12 @@
     closeOnBackdrop(dialog);
     $("DfSwapCancel").addEventListener("click", function () { closeDialog(dialog); });
     $("DfReplan").addEventListener("click", function () {
-      undoable("Planned a new day");
-      applyPlan(SLOTS.map(function (s) { return state.plan[s[0]]; }));
+      syncDay(false);
+      var previous = snapshot();
       tab = null;
-      renderMeals();
+      var result = applyPlan(SLOTS.map(function (s) { return previous.plan[s[0]]; }), previous);
+      if (!result) notify("No other day fits right now.");
+      else if (result.undo) showUndo(result.undo, "Planned a new day");
     });
     $("DfFill").addEventListener("click", fillGaps);
     $("DfPrefs").addEventListener("click", function () { $("DfDesignOpen").click(); });
@@ -1258,21 +1293,26 @@
     $("DfDesignCancel").addEventListener("click", function () { closeDialog(dialog); });
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
+      syncDay(false);
+      var previous = snapshot();
       state.prefs = {
         diet: form.querySelector("input[name=diet]:checked").value,
         prep: Number(form.querySelector("input[name=prep]:checked").value),
         focus: form.querySelector("input[name=focus]:checked").value,
         size: form.querySelector("input[name=size]:checked").value
       };
-      if (state.items.length) undoable("Planned a new day");
-      // Planning again gives a fresh set of meals.
-      applyPlan(SLOTS.map(function (s) { return state.plan[s[0]]; }));
       tab = null;
-      renderMeals();
+      var result = applyPlan(SLOTS.map(function (s) { return previous.plan[s[0]]; }), previous);
       closeDialog(dialog);
+      if (!result) {
+        notify("No meals fit those choices. Nothing was changed.");
+        return;
+      }
+      if (result.undo) showUndo(result.undo, "Planned a new day");
       $("DailyFit").scrollIntoView({ block: "start", behavior: "smooth" });
     });
     $("DfClear").addEventListener("click", function () {
+      syncDay(false);
       undoable("Cleared today");
       state.items = [];
       state.plan = {};
@@ -1282,10 +1322,14 @@
 
   // Undo toast and phone add button ---------------------------------------------
 
-  function undoable(message) {
+  function showUndo(previous, message) {
     notify(message);
-    undoState = snapshot();
+    undoState = previous;
     $("DfUndo").hidden = false;
+  }
+
+  function undoable(message) {
+    showUndo(snapshot(), message);
   }
 
   function notify(message) {
@@ -1304,6 +1348,8 @@
       state = undoState;
       undoState = null;
       $("DfToast").hidden = true;
+      clearTimeout(toastTimer);
+      if (syncDay(true)) return;
       commit();
     });
   }
@@ -1318,6 +1364,23 @@
     }).observe($("DfSearch"));
   }
 
+  // Midnight while the page is open used to keep writing yesterday's date,
+  // and the next visit threw those foods away. A new day starts empty.
+  function syncDay(announce) {
+    var next = PregnutState.rollDailyLog(state, today());
+    if (next === state) return false;
+    state = next;
+    sheet = null;
+    undoState = null;
+    ["DfAmount", "DfDesign", "DfSwap", "DfNutrientSheet"].forEach(function (id) {
+      var dialog = $(id);
+      if (dialog && (dialog.open || dialog.hasAttribute("open"))) closeDialog(dialog);
+    });
+    commit();
+    if (announce) notify("It's a new day, so yesterday's list was cleared.");
+    return true;
+  }
+
   function commit() {
     save();
     renderMeals();
@@ -1327,7 +1390,7 @@
   function start(json) {
     data = json;
     data.foods.forEach(function (f) { byId[f[0]] = f; });
-    state.items = state.items.filter(function (item) { return byId[item.id]; });
+    state.items = PregnutState.sanitizeDailyItems(state.items, function (id) { return !!byId[id]; });
     closeOnBackdrop($("DfNutrientSheet"));
     buildGauge();
     buildIndex();
@@ -1337,6 +1400,9 @@
     wireSwaps();
     wireToast();
     wireFab();
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState === "visible") syncDay(true);
+    });
     commit();
   }
 

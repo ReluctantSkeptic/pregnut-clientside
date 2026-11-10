@@ -13,10 +13,11 @@
 //
 // Delivery: FormSubmit (free, no account) answers every request that comes
 // from Cloudflare Workers/Pages Functions with HTTP 429, so the email cannot
-// be sent server-side. Instead, once this function has validated the message,
-// passed the honeypot/timing checks, rate-limited and stored it, it returns
-// the FormSubmit alias endpoint and the browser relays the message there
-// (see src/js/contact.js). Bots caught by the checks never get the endpoint.
+// be sent server-side. The browser (src/js/contact-page.js) mails through the
+// shared site-contact Worker after this function accepts the message.
+// A honeypot hit returns {ok:true} with no id, and the browser does not
+// forward it. A too-fast note also has no id; the browser still forwards
+// that one so a real message typed quickly is not dropped.
 
 const FORMSUBMIT_AJAX = "https://formsubmit.co/ajax/";
 const LIMITS = { name: 100, email: 200, topic: 60, message: 3000 };

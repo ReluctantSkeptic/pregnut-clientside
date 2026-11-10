@@ -4,7 +4,7 @@
   "description": "A Nerdy Moms Nutrition Calculator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test test/*.js test/*.mjs",
     "build:fooddata": "node scripts/build-fooddata.js",
     "clean": "node scripts/clean-site.js",
     "eleventy": "node node_modules/@11ty/eleventy/cmd.cjs",

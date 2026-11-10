@@ -1,5 +1,5 @@
 /* PregNut service worker: app shell + offline fallback. Network-first; only same-origin GETs are handled. */
-const VERSION = 'pregnut-v2';
+const VERSION = 'pregnut-v3';
 const SHELL = ["/pwa/offline.html","/manifest.webmanifest","/pwa/icon-192.png","/pwa/icon-512.png","/pwa/pwa.js"];
 const OFFLINE = '/pwa/offline.html';
 const SKIP = ["/api/","/cdn-cgi/"];
@@ -21,10 +21,23 @@ function cacheable(res) {
   return !/no-store|private/i.test(cc);
 }
 async function put(req, res) {
-  const c = await caches.open(VERSION);
-  await c.put(req, res);
-  const keys = await c.keys();
-  if (keys.length > 80) await c.delete(keys.find((k) => !SHELL.includes(new URL(k.url).pathname)));
+  try {
+    const c = await caches.open(VERSION);
+    let stored = res;
+    // cache.put rejects redirected responses, so keep a same-URL copy.
+    if (res.redirected) {
+      const headers = new Headers(res.headers);
+      headers.delete('content-encoding');
+      headers.delete('content-length');
+      stored = new Response(await res.blob(), { status: res.status, statusText: res.statusText, headers: headers });
+    }
+    await c.put(req, stored);
+    const keys = await c.keys();
+    if (keys.length > 80) {
+      const extra = keys.find((k) => !SHELL.includes(new URL(k.url).pathname));
+      if (extra) await c.delete(extra);
+    }
+  } catch (e) {}
 }
 self.addEventListener('fetch', (e) => {
   const req = e.request;

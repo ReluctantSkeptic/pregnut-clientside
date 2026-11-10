@@ -46,6 +46,8 @@ jobs:
 
       - run: npm ci
 
+      - run: npm test
+
       - run: npm run build
 
       # Branch and commit for the Pages deployment. Values come in through env: (never
