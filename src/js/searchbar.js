@@ -41,8 +41,11 @@
             return { label: r[0], url: r[1], image: r[2], rank: r[3], norm: label, words: (label + " " + normalize(r[4])).split(" "), alias: " " + normalize(r[4]) + " " };
           });
           return entries;
+        })
+        .catch(function (err) {
+          indexPromise = null;
+          throw err;
         });
-      indexPromise.catch(function () { indexPromise = null; });
     }
     return indexPromise;
   }
@@ -241,7 +244,7 @@
       input.removeAttribute("aria-activedescendant");
     };
 
-    input.addEventListener("input", function () { loadIndex().then(self.update); });
+    input.addEventListener("input", function () { loadIndex().then(self.update, function () {}); });
     input.addEventListener("keydown", function (ev) {
       if (ev.key === "ArrowDown") { move(1); ev.preventDefault(); }
       else if (ev.key === "ArrowUp") { move(-1); ev.preventDefault(); }
@@ -252,6 +255,7 @@
   // Phone sheet ------------------------------------------------------------
 
   var sheet = null;
+  var lastFocus = null;
 
   function buildSheet() {
     var root = el("div", "search-sheet");
@@ -302,6 +306,8 @@
 
   function openSheet(seed) {
     var s = sheet || buildSheet();
+    var already = !s.root.hidden;
+    if (!already) lastFocus = document.activeElement;
     s.input.value = seed || "";
     s.root.hidden = false;
     document.documentElement.classList.add("is-searching");
@@ -309,10 +315,13 @@
     // Focus inside the tap so phones raise the keyboard.
     s.input.focus({ preventScroll: true });
     if (seed) s.input.setSelectionRange(seed.length, seed.length);
-    loadIndex().then(s.suggest.update);
+    loadIndex().then(s.suggest.update, function () {});
     s.suggest.update();
     // The back button closes the sheet instead of leaving the page.
-    try { history.pushState({ pregnutSearch: 1 }, ""); s.pushed = true; } catch (e) { s.pushed = false; }
+    // Opening an already-open sheet must not push a second history entry.
+    if (!already) {
+      try { history.pushState({ pregnutSearch: 1 }, ""); s.pushed = true; } catch (e) { s.pushed = false; }
+    }
   }
 
   function closeSheet(viaHistory) {
@@ -321,6 +330,9 @@
     sheet.input.blur();
     document.documentElement.classList.remove("is-searching");
     if (viaHistory && sheet.pushed) { sheet.pushed = false; history.back(); }
+    var back = lastFocus;
+    lastFocus = null;
+    if (back && back.focus && back.matches && back.matches("[data-search-open]")) back.focus();
   }
 
   window.addEventListener("popstate", function () {
@@ -343,18 +355,26 @@
     list.hidden = true;
     (form || input.parentNode).appendChild(list);
     var suggest = new Suggest(input, list);
+    var dismiss = PregnutState.createGeneration();
 
     input.addEventListener("pointerdown", function (ev) {
-      if (!phone.matches) { loadIndex(); return; }
+      if (!phone.matches) { loadIndex().catch(function () {}); return; }
       ev.preventDefault();
     });
     input.addEventListener("click", function () { if (phone.matches) openSheet(input.value); });
     input.addEventListener("focus", function () {
+      dismiss.bump();
       if (phone.matches) { input.blur(); openSheet(input.value); return; }
-      loadIndex().then(suggest.update);
+      loadIndex().then(suggest.update, function () {});
       suggest.update();
     });
-    input.addEventListener("blur", function () { setTimeout(suggest.close, 120); });
+    input.addEventListener("blur", function () {
+      var token = dismiss.current();
+      setTimeout(function () {
+        if (!dismiss.isCurrent(token) || document.activeElement === input) return;
+        suggest.close();
+      }, 120);
+    });
     if (form) {
       form.addEventListener("submit", function (ev) {
         ev.preventDefault();

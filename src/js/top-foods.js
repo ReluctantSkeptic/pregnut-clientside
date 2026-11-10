@@ -28,14 +28,13 @@
     try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
   }
 
-  // Older links used ?source=natural|processed.
+  // Older links and saves used ?source=natural|processed.
   function readUrl() {
     try {
       var params = new URLSearchParams(window.location.search);
-      var source = params.get("source");
       return {
         nutrient: params.get("nutrient"),
-        source: source === "all" || source === "processed" ? "all" : (source === "whole" || source === "natural" ? "whole" : null)
+        source: PregnutState.normalizeFoodSource(params.get("source"))
       };
     } catch (e) { return {}; }
   }
@@ -156,7 +155,7 @@
     var saved = load();
     var fromUrl = readUrl();
     state.nutrient = fromUrl.nutrient || saved.nutrient || nutrients[0].key;
-    state.source = fromUrl.source || saved.source || "whole";
+    state.source = fromUrl.source || PregnutState.normalizeFoodSource(saved.source) || "whole";
     if (!find(state.nutrient)) state.nutrient = nutrients[0].key;
 
     var changed = state.nutrient !== nutrients[0].key || state.source !== "whole";

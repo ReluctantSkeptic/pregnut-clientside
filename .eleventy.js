@@ -33,7 +33,17 @@ module.exports = function(eleventyConfig) {
    // Passthroughs
    eleventyConfig.addPassthroughCopy("src/js");
    eleventyConfig.addPassthroughCopy("src/style");
-   eleventyConfig.addPassthroughCopy("src/resource");
+   // Build inputs that the site never requests. home-food-gallery.webp is the
+   // source for scripts/segment-home-gallery.py, not a page asset.
+   eleventyConfig.addPassthroughCopy("src/resource", {
+     filter: function (relativePath) {
+       var norm = String(relativePath).replace(/\\/g, "/");
+       if (/(^|\/)explanations(\/|$)/.test(norm)) return false;
+       if (norm.endsWith("food_explanations.json")) return false;
+       if (norm.endsWith("home-food-gallery.webp")) return false;
+       return true;
+     }
+   });
    eleventyConfig.addPassthroughCopy("src/favicon.ico");
    eleventyConfig.addPassthroughCopy("src/_redirects");
    eleventyConfig.addPassthroughCopy("src/_headers");

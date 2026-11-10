@@ -34,35 +34,53 @@ pageScripts:
   </label>
 </section>
 
+{% set defaultPeriod = weeklyProtocol.periods | selectattr("id", "equalto", "wk1-8") | first %}
+{% set chapterArt = weeklyChapterArt.chapters | selectattr("periodId", "equalto", "wk1-8") | first %}
 <article class="wk-chapter" aria-labelledby="PeriodTitle">
-  <figure class="wk-chapter-art" id="ChapterArt" hidden>
-    <img id="ChapterArtImage" width="1024" height="1280" decoding="async" alt="" />
+  <figure class="wk-chapter-art" id="ChapterArt"{% if not chapterArt %} hidden{% endif %}>
+    <img id="ChapterArtImage" width="1024" height="1280" decoding="async" fetchpriority="high" alt="{{ chapterArt.alt if chapterArt else "" }}"{% if chapterArt %} src="{{ chapterArt.image }}" srcset="{{ chapterArt.image640 }} 640w, {{ chapterArt.image960 }} 960w, {{ chapterArt.image }} 1024w" sizes="(max-width: 760px) 92vw, 440px"{% endif %}>
   </figure>
   <div class="wk-chapter-copy">
-    {# Server-render the default week (4) so crawlers and no-JS readers get a real heading; weekly-diet.js replaces it with the same text, or with the reader's own week. #}
-    {% for period in weeklyProtocol.periods %}{% if period.weeks.start <= 4 and period.weeks.end >= 4 %}
-    <h2 class="wk-chapter-title" id="PeriodTitle">{{ period.title.split("(")[0] | replace(" + ", " & ") | replace(";", ",") | trim }}</h2>
-    <p class="wk-chapter-summary" id="PeriodSummary">{{ period.summary }}</p>
-    {% endif %}{% endfor %}
-    <ul class="wk-dev" id="DevList" aria-label="What’s developing"></ul>
-    <ul class="wk-notes" id="PeriodNotes" aria-label="Good to know"></ul>
-    <details class="wk-sources" id="PeriodSources" hidden>
+    {# Server-render week 4 (weeks 1–8) so crawlers and no-JS readers get the chapter. weekly-diet.js replaces it with the same text, or with the reader's own week. #}
+    <h2 class="wk-chapter-title" id="PeriodTitle">{{ defaultPeriod.title.split("(")[0] | replace(" + ", " & ") | replace(";", ",") | trim }}</h2>
+    <p class="wk-chapter-summary" id="PeriodSummary">{{ defaultPeriod.summary }}</p>
+    <ul class="wk-dev" id="DevList" aria-label="What’s developing">
+      {% for item in defaultPeriod.development %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+    <ul class="wk-notes" id="PeriodNotes" aria-label="Good to know"{% if not defaultPeriod.notes.length %} hidden{% endif %}>
+      {% for note in defaultPeriod.notes %}<li>{{ note.text }}</li>{% endfor %}
+    </ul>
+    <details class="wk-sources" id="PeriodSources"{% if not defaultPeriod.rankedSources.length %} hidden{% endif %}>
       <summary><span>Sources</span></summary>
-      <ol id="PeriodSourceList"></ol>
+      <ol id="PeriodSourceList">
+        {% for src in defaultPeriod.rankedSources %}<li><a href="{{ src.url }}" target="_blank" rel="noopener noreferrer">{{ src.label or src.id }}</a></li>{% endfor %}
+      </ol>
     </details>
   </div>
 </article>
 
 <section class="wk-block" aria-labelledby="wk-nutrients-title">
   <h2 class="wk-block-title" id="wk-nutrients-title">Nutrients to prioritize</h2>
-  <ol class="wk-nutrients" id="NutrientCards"></ol>
+  <ol class="wk-nutrients" id="NutrientCards">
+    {% for priority in ["high", "medium", "supporting"] %}
+      {% for n in defaultPeriod.nutrients %}
+        {% if n.priority == priority %}
+        <li class="wk-nutrient is-{{ n.priority }}">
+          <h3 class="wk-nutrient-name">{{ n.id }}</h3>
+          <p class="wk-nutrient-why">{{ n.why or "" }}</p>
+          {% if n.guide %}<a class="wk-nutrient-guide" href="{{ n.guide.url }}">{{ n.id }} guide</a>{% endif %}
+        </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ol>
 </section>
 
 <section class="wk-block" aria-labelledby="wk-foods-title">
   <div class="wk-block-head">
     <h2 class="wk-block-title" id="wk-foods-title">Foods for this stage</h2>
     <div class="viz-segmented wk-source" id="SourceToggle" role="radiogroup" aria-label="Food source">
-      <label class="viz-segment"><input type="radio" name="weekly-source" value="natural"><span>Whole foods</span></label>
+      <label class="viz-segment"><input type="radio" name="weekly-source" value="natural" checked><span>Whole foods</span></label>
       <label class="viz-segment"><input type="radio" name="weekly-source" value="processed"><span>Fortified</span></label>
     </div>
   </div>

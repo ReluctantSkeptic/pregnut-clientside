@@ -16,29 +16,36 @@
   sel.addEventListener("change", sync); sync();
 
   var started = Date.now();
+  var sendLock = PregnutState.createSubmitLock();
   form.addEventListener("submit", async function (event) {
     event.preventDefault();
+    if (!sendLock.tryAcquire()) return;
     var status = form.querySelector("[role=status]");
     var button = form.querySelector("button[type=submit]");
     var d = Object.fromEntries(new FormData(form));
     button.disabled = true; status.textContent = "Sending…";
     try {
       var name = (d.first + " " + d.last).trim(), msg = "Location: " + d.location + "\n\n" + d.message;
+      var honeypot = !!(d.website && String(d.website).trim());
       // /api/contact keeps a copy (with its own timing and rate checks); the Worker emails admin@yuriystasyuk.com.
       var saved = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: name, email: d.email, topic: "General question", message: msg, page: "/contact/", website: d.website, started_at: String(started) }) });
       var sb = await saved.json().catch(function () { return {}; });
-      if (!saved.ok || !sb.ok) throw new Error(sb.error || "Sorry, the message could not be sent. Please try again later.");
-      var res = await fetch("https://site-contact.ystasyuk.workers.dev", {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: (d.first + " " + d.last).trim(), email: d.email, message: "Location: " + d.location + "\n\n" + d.message, website: d.website, site: location.href })
-      });
-      var out = await res.json();
-      if (!out.ok) throw new Error(out.error);
+      var delivery = PregnutState.contactDelivery(saved.ok, sb, honeypot);
+      if (delivery === "error") throw new Error(sb.error || "Sorry, the message could not be sent. Please try again later.");
+      // A filled honeypot is accepted quietly and is not mailed. A fast note has no id either, and is still mailed.
+      if (delivery !== "quiet") {
+        var res = await fetch("https://site-contact.ystasyuk.workers.dev", {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name: name, email: d.email, message: msg, website: d.website, site: location.href })
+        });
+        var out = await res.json().catch(function () { return {}; });
+        if (!res.ok || !out.ok) throw new Error(out.error || "Sorry, the message could not be sent. Please try again later.");
+      }
       form.reset(); sync(); started = Date.now();
       status.textContent = "Thanks. Your message is on its way.";
     } catch (err) {
       status.textContent = (err && err.message) || "Couldn't send. Email admin@yuriystasyuk.com directly.";
-    } finally { button.disabled = false; }
+    } finally { sendLock.release(); button.disabled = false; }
   });
 })();
