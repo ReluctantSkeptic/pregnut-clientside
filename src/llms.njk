@@ -11,6 +11,13 @@ eleventyExcludeFromCollections: true
 {% endfor %}
 ## Tools
 - [Food lookup]({{ site.url }}/food/): Nutrients per 100 g for reference foods, USDA-based.
+- [Top foods by nutrient]({{ site.url }}/app/): Everyday foods ranked by one pregnancy nutrient per typical serving.
 - [Pregnancy nutrition calculator]({{ site.url }}/pregnancy-nutrition-calculator/): Log foods in cups, slices or servings and check 13 daily pregnancy nutrients, or plan a day of easy meals.
 - [Weekly guide]({{ site.url }}/weekly-diet/): Nutrition by pregnancy week.
+- [All pregnancy nutrition guides]({{ site.url }}/blog/): Source-linked answers on nutrients, diets, labels, and food safety.
 - [About and editorial standards]({{ site.url }}/about/#editorial)
+
+## Week-by-week chapters
+{% for period in weeklyProtocol.periods -%}
+- [Weeks {{ period.weeks.start }}–{{ period.weeks.end }}]({{ site.url }}/weekly-guide/{{ period.id }}/): {{ period.summary }}
+{% endfor %}
