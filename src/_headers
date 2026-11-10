@@ -1,6 +1,8 @@
 # Security headers for every page (added 2026-10 security hardening).
 # No script/style Content-Security-Policy yet: it would need a careful allow-list for
 # Google Analytics and fonts. frame-ancestors only blocks other sites from framing pages.
+# HTML revalidates. Longer caches below are not immutable: these paths are not
+# content-hashed, so a replaced file must be allowed to expire.
 /*
   Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
@@ -8,6 +10,7 @@
   X-Frame-Options: SAMEORIGIN
   Content-Security-Policy: frame-ancestors 'self'
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Cache-Control: public, max-age=0, must-revalidate
 
 # Keep the Cloudflare Pages hosts out of search; the canonical host is pregnut.com.
 https://:project.pages.dev/*
@@ -15,3 +18,58 @@ https://:project.pages.dev/*
 
 https://:version.:project.pages.dev/*
   X-Robots-Tag: noindex
+
+/style/*
+  Cache-Control: public, max-age=86400
+
+/style/fonts/*
+  Cache-Control: public, max-age=2592000
+
+/js/*
+  Cache-Control: public, max-age=86400
+
+/pwa/*
+  Cache-Control: public, max-age=86400
+
+# Wildcard rules here match one path segment, so each image directory is listed.
+/resource/*
+  Cache-Control: public, max-age=604800
+
+/resource/portions/*
+  Cache-Control: public, max-age=604800
+
+/resource/portions/cutouts/*
+  Cache-Control: public, max-age=604800
+
+/resource/portions/top-foods/*
+  Cache-Control: public, max-age=604800
+
+/resource/weekly-guides/*
+  Cache-Control: public, max-age=604800
+
+/resource/home-gallery/*
+  Cache-Control: public, max-age=604800
+
+/resource/nutrients/*
+  Cache-Control: public, max-age=604800
+
+/resource/blog/*
+  Cache-Control: public, max-age=604800
+
+/resource/about/*
+  Cache-Control: public, max-age=604800
+
+/resource/brand/*
+  Cache-Control: public, max-age=604800
+
+/resource/featured/*
+  Cache-Control: public, max-age=604800
+
+/resource/*.json
+  Cache-Control: public, max-age=3600
+
+/sw.js
+  Cache-Control: no-cache
+
+/api/*
+  Cache-Control: no-store
