@@ -27,7 +27,11 @@ Look for rolls where every seafood ingredient was cooked through, and ask when y
 - Rolls with **cooked crab**, also an FDA Best Choice.
 - **Vegetable rolls**, such as cucumber or avocado. Follow the usual produce advice in our [washing guide](/blog/wash-produce-pregnancy/).
 
+<figure class="post-image"><img src="/resource/blog/sushi-pregnancy/cooked-veg-and-shrimp-rolls.webp" srcset="/resource/blog/sushi-pregnancy/cooked-veg-and-shrimp-rolls-600.webp 600w, /resource/blog/sushi-pregnancy/cooked-veg-and-shrimp-rolls.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A plate of vegetable sushi rolls and cooked shrimp rolls, with pickled ginger and a small dish of soy" width="1280" height="720" loading="lazy"><figcaption>Vegetable rolls and cooked shrimp rolls, with ginger on the side.</figcaption></figure>
+
 Watch for raw toppings or garnishes on an otherwise cooked roll, and for **cold-smoked salmon**. FDA advises against refrigerated smoked seafood unless it is cooked in a dish; our [smoked salmon guide](/blog/smoked-salmon-pregnancy/) covers lox and nova.
+
+<figure class="post-image"><img src="/resource/blog/sushi-pregnancy/cooked-rolls-raw-set-aside.webp" srcset="/resource/blog/sushi-pregnancy/cooked-rolls-raw-set-aside-600.webp 600w, /resource/blog/sushi-pregnancy/cooked-rolls-raw-set-aside.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Cooked avocado and shrimp rolls in the foreground, with a plate of raw nigiri set aside in the background" width="1280" height="720" loading="lazy"><figcaption>The cooked rolls are in front; raw nigiri sits to the side.</figcaption></figure>
 
 ## Is a California roll safe while pregnant?
 

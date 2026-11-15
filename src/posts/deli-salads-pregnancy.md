@@ -13,6 +13,8 @@ tags: post
 
 **The short answer:** Choose **homemade** over premade. [CDC's pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists **premade deli salads**, such as coleslaw, potato salad, tuna salad, chicken salad, and egg salad, as riskier choices, and **homemade deli salads** as the safer choice.
 
+<figure class="post-image"><img src="/resource/blog/deli-salads-pregnancy/homemade-potato-salad.webp" srcset="/resource/blog/deli-salads-pregnancy/homemade-potato-salad-600.webp 600w, /resource/blog/deli-salads-pregnancy/homemade-potato-salad.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A homemade bowl of potato salad on a kitchen table, with a deli salad case slightly out of focus in the background" width="1280" height="720" loading="lazy"><figcaption>A potato salad made at home, with the deli case in the background.</figcaption></figure>
+
 ## Why are store deli salads riskier?
 
 CDC's [Listeria prevention page](https://www.cdc.gov/listeria/prevention/index.html) lists premade deli salads among foods more likely to be contaminated with *Listeria*, and pregnant women among the groups at higher risk.
@@ -28,6 +30,8 @@ Homemade tuna salad made with canned light tuna fits CDC's safer choices; CDC li
 ## What about egg salad and potato salad?
 
 Homemade versions are safer. For egg salad, CDC advises eggs cooked until the yolks and whites are firm. Keep any salad out of the fridge no longer than FDA's [two-hour rule](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be) (1 hour above 90°F).
+
+<figure class="post-image"><img src="/resource/blog/deli-salads-pregnancy/homemade-egg-salad.webp" srcset="/resource/blog/deli-salads-pregnancy/homemade-egg-salad-600.webp 600w, /resource/blog/deli-salads-pregnancy/homemade-egg-salad.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A homemade bowl of egg salad with celery, parsley, and a wooden spoon" width="1280" height="720" loading="lazy"><figcaption>Fresh egg salad mixed in a home kitchen.</figcaption></figure>
 
 ## Is coleslaw OK when pregnant?
 

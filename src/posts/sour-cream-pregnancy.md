@@ -19,6 +19,8 @@ Check the label. The [FDA's dairy advice for moms-to-be](https://www.fda.gov/foo
 
 The same check applies to **crema** and other cultured creams: choose ones labeled as made with pasteurized milk or cream.
 
+<figure class="post-image"><img src="/resource/blog/sour-cream-pregnancy/pasteurized-tub.webp" srcset="/resource/blog/sour-cream-pregnancy/pasteurized-tub-600.webp 600w, /resource/blog/sour-cream-pregnancy/pasteurized-tub.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="An open tub of sour cream with a label that reads pasteurized, a spoon, and chives" width="1280" height="720" loading="lazy"><figcaption>Store-bought sour cream often lists pasteurized on the tub.</figcaption></figure>
+
 ## How long can sour cream sit out?
 
 Keep it refrigerated at **40°F or below**, as FDA advises for milk products. At a taco bar, buffet, or picnic, FDA's [two-hour rule](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be) applies: do not eat perishable food that has been left out for more than **2 hours**, or more than **1 hour** when it is above 90°F. A bowl of sour cream that sat out through a long party is the one to skip.
@@ -26,6 +28,8 @@ Keep it refrigerated at **40°F or below**, as FDA advises for milk products. At
 ## Is sour cream on cooked food OK?
 
 Yes. A spoonful of pasteurized sour cream on a baked potato, chili, or tacos is fine. It does not need to be heated, unlike [queso fresco](/blog/queso-fresco-pregnancy/), which the CDC treats differently even when pasteurized.
+
+<figure class="post-image"><img src="/resource/blog/sour-cream-pregnancy/baked-potato.webp" srcset="/resource/blog/sour-cream-pregnancy/baked-potato-600.webp 600w, /resource/blog/sour-cream-pregnancy/baked-potato.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A baked potato topped with sour cream and chives, with a small bowl of sour cream beside the plate" width="1280" height="720" loading="lazy"><figcaption>A baked potato with a dollop of sour cream and chives.</figcaption></figure>
 
 ## Does sour cream have any pregnancy nutrients?
 

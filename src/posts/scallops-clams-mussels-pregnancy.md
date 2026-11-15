@@ -17,9 +17,13 @@ tags: post
 
 Cooked scallops are. The [FDA's pregnancy advice](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be) is to cook scallops until they are **opaque (milky white) and firm**. A seared scallop with a translucent center is undercooked by that standard. Scallops are an FDA Best Choice, so they count toward the [2 to 3 four-ounce servings a week](https://www.fda.gov/food/consumers/advice-about-eating-fish) FDA suggests from that list.
 
+<figure class="post-image"><img src="/resource/blog/scallops-clams-mussels-pregnancy/seared-scallops.webp" srcset="/resource/blog/scallops-clams-mussels-pregnancy/seared-scallops-600.webp 600w, /resource/blog/scallops-clams-mussels-pregnancy/seared-scallops.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Seared sea scallops, golden brown and cooked through, with lemon, asparagus, and zucchini" width="1280" height="720" loading="lazy"><figcaption>Seared scallops, browned on the outside, with a simple vegetable side.</figcaption></figure>
+
 ## Are clams and mussels safe during pregnancy?
 
 Yes, when cooked. [FDA says](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be) to cook clams, mussels, and oysters until their shells open and to **throw away any that did not open**. Shucked clams are cooked when they are opaque (milky white) and firm. Clams are on FDA's Best Choices list. The FDA/EPA chart does not list mussels, so it gives no mercury rating for them; the cooking rule above still applies.
+
+<figure class="post-image"><img src="/resource/blog/scallops-clams-mussels-pregnancy/steamed-mussels.webp" srcset="/resource/blog/scallops-clams-mussels-pregnancy/steamed-mussels-600.webp 600w, /resource/blog/scallops-clams-mussels-pregnancy/steamed-mussels.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A wide bowl of steamed mussels, shells open, in a herb broth with lemon and a little steam" width="1280" height="720" loading="lazy"><figcaption>Steamed mussels, shells open, in a light broth.</figcaption></figure>
 
 ## Why is raw shellfish riskier in pregnancy?
 

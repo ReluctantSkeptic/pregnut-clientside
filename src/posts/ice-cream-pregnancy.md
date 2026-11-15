@@ -23,7 +23,11 @@ tags: post
 
 ## Is store-bought ice cream safe during pregnancy?
 
+<figure class="post-image"><img src="/resource/blog/ice-cream-pregnancy/pint-and-bowl.webp" srcset="/resource/blog/ice-cream-pregnancy/pint-and-bowl-600.webp 600w, /resource/blog/ice-cream-pregnancy/pint-and-bowl.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="An open unbranded pint of vanilla ice cream with a scoop, and a small bowl nearby" width="1280" height="720" loading="lazy"><figcaption>An ordinary pint from the freezer, scooped into a bowl.</figcaption></figure>
+
 Yes, when it is made with pasteurized milk. The FDA notes that store-bought versions of foods that traditionally use raw eggs are often made with cooked or pasteurized eggs. Keep it frozen until you serve it, and check for recalls: the [CDC explains](https://www.cdc.gov/listeria/causes/index.html) that *Listeria* can spread inside food-processing facilities and grow in cold food, so a pasteurized label does not rule out contamination after processing. The FDA advises returning or discarding recalled food.
+
+<figure class="post-image"><img src="/resource/blog/ice-cream-pregnancy/scoops-with-strawberries.webp" srcset="/resource/blog/ice-cream-pregnancy/scoops-with-strawberries-600.webp 600w, /resource/blog/ice-cream-pregnancy/scoops-with-strawberries.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A ceramic bowl with two scoops of vanilla ice cream and sliced strawberries" width="1280" height="720" loading="lazy"><figcaption>A simple bowl of store-style ice cream with fruit.</figcaption></figure>
 
 ## What ice cream should you avoid while pregnant?
 

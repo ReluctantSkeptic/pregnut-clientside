@@ -23,7 +23,11 @@ tags: post
 
 ## Is store-bought mayonnaise safe during pregnancy?
 
+<figure class="post-image"><img src="/resource/blog/mayonnaise-pregnancy/pasteurized-jar.webp" srcset="/resource/blog/mayonnaise-pregnancy/pasteurized-jar-600.webp 600w, /resource/blog/mayonnaise-pregnancy/pasteurized-jar.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A jar of mayonnaise with a round label that reads pasteurized, beside a knife and lettuce" width="1280" height="720" loading="lazy"><figcaption>Store-bought mayonnaise often lists pasteurized on the jar.</figcaption></figure>
+
 Yes. The FDA's statement covers **commercial** mayonnaise as a category, so a jar from the grocery store fits it whatever the brand. The [CDC chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) likewise names pasteurized eggs as the safer choice in foods that will not be cooked, such as salad dressing. Keep opened jars refrigerated as the label directs.
+
+<figure class="post-image"><img src="/resource/blog/mayonnaise-pregnancy/sandwich-with-mayo.webp" srcset="/resource/blog/mayonnaise-pregnancy/sandwich-with-mayo-600.webp 600w, /resource/blog/mayonnaise-pregnancy/sandwich-with-mayo.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A lettuce and tomato sandwich with mayonnaise, beside a small unbranded jar" width="1280" height="720" loading="lazy"><figcaption>A simple sandwich with a little mayonnaise.</figcaption></figure>
 
 ## Why is homemade mayonnaise different?
 

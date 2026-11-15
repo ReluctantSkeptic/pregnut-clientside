@@ -24,9 +24,13 @@ tags: post
 
 Yes, when the pizza is served **steaming hot**. Pepperoni baked on top of a pizza is heated with it; choose a pizza that comes out of the oven hot rather than one that has been sitting at room temperature. Toppings added cold after baking, such as [raw sprouts](/blog/sprouts-during-pregnancy/) or crumbled [queso fresco](/blog/queso-fresco-pregnancy/), have not been heated with the pizza.
 
+<figure class="post-image"><img src="/resource/blog/pepperoni-pregnancy/steaming-pizza.webp" srcset="/resource/blog/pepperoni-pregnancy/steaming-pizza-600.webp 600w, /resource/blog/pepperoni-pregnancy/steaming-pizza.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A pepperoni pizza just out of the oven, cheese melted and pepperoni steaming, on a wooden peel" width="1280" height="720" loading="lazy"><figcaption>Pepperoni pizza, still steaming from the oven.</figcaption></figure>
+
 ## Is cold pepperoni or leftover pizza OK?
 
 Cold pepperoni straight from the package is in the CDC's riskier column. The [CDC explains](https://www.cdc.gov/listeria/causes/index.html) that *Listeria* can grow in food kept in the refrigerator and is killed by heating. Reheat leftover pepperoni pizza until it is **steaming hot** throughout, and follow our [leftovers guide](/blog/leftovers-pregnancy/) for how long to keep it.
+
+<figure class="post-image"><img src="/resource/blog/pepperoni-pregnancy/skillet-cold-set-aside.webp" srcset="/resource/blog/pepperoni-pregnancy/skillet-cold-set-aside-600.webp 600w, /resource/blog/pepperoni-pregnancy/skillet-cold-set-aside.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Pepperoni slices sizzling and curling in a skillet, with a plate of cold pepperoni set aside" width="1280" height="720" loading="lazy"><figcaption>The skillet is hot and curling; the cold slices sit to the side.</figcaption></figure>
 
 ## Is turkey or uncured pepperoni different?
 

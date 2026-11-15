@@ -18,6 +18,8 @@ tags: post
 
 “Queso” often means **queso fresco** or a similar fresh Mexican-style cheese, not melted cheddar. For that category, [CDC](https://www.cdc.gov/food-safety/foods/pregnant-women.html) and [FDA](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) advise avoiding **unheated** queso fresco-type cheese in pregnancy, even when the milk was pasteurized. Heat it to **165°F or until steaming hot** inside a dish. A hot cheese dip or nacho cheese made from pasteurized processed cheese is a different product—ask what is in it and whether it arrives steaming hot.
 
+<figure class="post-image"><img src="/resource/blog/queso-fresco-pregnancy/crumbled-on-tacos.webp" srcset="/resource/blog/queso-fresco-pregnancy/crumbled-on-tacos-600.webp 600w, /resource/blog/queso-fresco-pregnancy/crumbled-on-tacos.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Soft corn tacos filled with beans, salsa, and cilantro, topped with crumbled queso fresco" width="1280" height="720" loading="lazy"><figcaption>A little crumbled queso fresco on bean tacos.</figcaption></figure>
+
 ## Why is pasteurized queso fresco still a concern?
 
 The [FDA's queso fresco guidance](https://www.fda.gov/food/buy-store-serve-safe-food/queso-fresco-type-cheeses-consumer-guidance) says most queso fresco sold in stores is pasteurized, but the cheese can be **recontaminated** with *Listeria* after pasteurization if the plant is not clean. These soft, moist, low-acid cheeses can support *Listeria* growth, and *Listeria* can grow in the refrigerator. FDA reports that listeriosis outbreaks have repeatedly been linked to queso fresco-type cheeses and recommends that people at higher risk, including pregnant women, avoid them.
@@ -31,6 +33,8 @@ Queso fresco that has been **cooked as part of the dish** to 165°F or until ste
 - Baked enchiladas or casseroles with queso fresco melted inside.
 - [Pupusas con queso](/food/36409-latino-pupusas-con-queso-pupusas-cheese/) cooked on the griddle until the filling is hot.
 - Cheese dip served bubbling hot.
+
+<figure class="post-image"><img src="/resource/blog/queso-fresco-pregnancy/pasteurized-milk-label.webp" srcset="/resource/blog/queso-fresco-pregnancy/pasteurized-milk-label-600.webp 600w, /resource/blog/queso-fresco-pregnancy/pasteurized-milk-label.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A round of queso fresco on a plate, with a small paper tag that reads pasteurized milk, beside tomato slices and a knife" width="1280" height="720" loading="lazy"><figcaption>Some rounds come with pasteurized milk printed on a tag or wrap.</figcaption></figure>
 
 Cheese **crumbled on top** after cooking, such as on tacos, elote, beans, or salads, has not been heated and stays in the riskier column.
 

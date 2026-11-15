@@ -13,6 +13,8 @@ tags: post
 
 **The short answer:** Avoid **refrigerated** pâté and meat spreads while pregnant. [CDC's pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists refrigerated pâté or meat spreads as a riskier choice, and **pâté or meat spreads in sealed, airtight containers that don't need refrigeration before opening** (shelf-stable, such as canned) as the safer choice. The [FDA's ready-to-eat advice for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be) also says not to eat refrigerated pâtés or meat spreads.
 
+<figure class="post-image"><img src="/resource/blog/pate-pregnancy/cooked-mushroom-spread.webp" srcset="/resource/blog/pate-pregnancy/cooked-mushroom-spread-600.webp 600w, /resource/blog/pate-pregnancy/cooked-mushroom-spread.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A bowl of cooked mushroom pâté with toasted baguette slices and thyme" width="1280" height="720" loading="lazy"><figcaption>A homemade cooked mushroom spread, served with toast.</figcaption></figure>
+
 ## Why is refrigerated pâté risky?
 
 *Listeria*. CDC's [Listeria prevention page](https://www.cdc.gov/listeria/prevention/index.html) lists refrigerated pâté and meat spreads among foods more likely to be contaminated, and pregnant women among the groups at higher risk.
@@ -38,5 +40,7 @@ Similar. CDC says to heat deli meat and hot dogs to 165°F or until steaming hot
 ### Is a hot dish that contains pâté OK?
 
 CDC's chart addresses refrigerated pâté as is. If you cook with it, heating food to 165°F or until steaming hot is the step CDC uses for other ready-to-eat foods like deli meat.
+
+<figure class="post-image"><img src="/resource/blog/pate-pregnancy/heated-pate-fridge-set-aside.webp" srcset="/resource/blog/pate-pregnancy/heated-pate-fridge-set-aside-600.webp 600w, /resource/blog/pate-pregnancy/heated-pate-fridge-set-aside.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A small pan of pâté being heated until steaming, with a refrigerated crock of pâté set aside in the background" width="1280" height="720" loading="lazy"><figcaption>The pan is being warmed; the refrigerated crock stays in the background.</figcaption></figure>
 
 **Sources:** [CDC safer food choices for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html), [CDC preventing Listeria](https://www.cdc.gov/listeria/prevention/index.html), and [FDA ready-to-eat foods for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be). This guide is educational and does not replace prenatal care.

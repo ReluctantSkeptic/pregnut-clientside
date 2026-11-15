@@ -21,6 +21,8 @@ Because cream cheese is a soft cheese, and short "avoid soft cheese" lists drop 
 
 Any cream cheese whose label says it is **made with pasteurized milk** (or lists pasteurized milk or cream in the ingredients). [FDA's advice](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) is to check the label on every dairy product, keep milk products refrigerated at **40°F** or below, and follow "use-by" dates. PregNut does not verify brands, so read the package you buy. For a house-made spread at a café or a farmers' market cheese, ask what it is made from, and skip it if no one can confirm.
 
+<figure class="post-image"><img src="/resource/blog/cream-cheese-pregnancy/bagel-pasteurized.webp" srcset="/resource/blog/cream-cheese-pregnancy/bagel-pasteurized-600.webp 600w, /resource/blog/cream-cheese-pregnancy/bagel-pasteurized.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A toasted bagel spread with cream cheese beside a tub labeled pasteurized" width="1280" height="720" loading="lazy"><figcaption>A familiar bagel-and-cream-cheese breakfast, with pasteurized on the tub.</figcaption></figure>
+
 ## Can you eat cheesecake while pregnant?
 
 Usually yes, with two checks: the cheese and the eggs.
@@ -28,6 +30,8 @@ Usually yes, with two checks: the cheese and the eggs.
 - **Baked cheesecake:** cream cheese is baked with eggs. [CDC lists egg dishes](https://www.cdc.gov/food-safety/foods/pregnant-women.html) without meat or poultry cooked to **160°F** as a safer choice. Store-bought cheesecake is a common option; the [FDA says](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) store-bought versions of raw-egg foods are often already cooked or pasteurized.
 - **No-bake cheesecake:** check the recipe. If it uses raw eggs, it falls under CDC's riskier list of foods that contain raw or undercooked eggs; [CDC's safer option](https://www.cdc.gov/food-safety/foods/pregnant-women.html) is pasteurized eggs in foods that will not be cooked. If it has no eggs, the cream cheese rule applies: made with pasteurized milk.
 - **Leftovers:** the [FDA's 2-hour rule](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be) applies; refrigerate within two hours (one hour above 90°F).
+
+<figure class="post-image"><img src="/resource/blog/cream-cheese-pregnancy/baked-cheesecake.webp" srcset="/resource/blog/cream-cheese-pregnancy/baked-cheesecake-600.webp 600w, /resource/blog/cream-cheese-pregnancy/baked-cheesecake.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A slice of fully baked cheesecake, golden on top, with berries on a plate" width="1280" height="720" loading="lazy"><figcaption>A baked cheesecake, golden on top, is a cooked dessert.</figcaption></figure>
 
 Our [raw-egg foods guide](/blog/raw-egg-foods-pregnancy/) covers mousse, tiramisu, and other no-bake desserts.
 

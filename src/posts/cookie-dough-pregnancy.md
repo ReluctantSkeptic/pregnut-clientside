@@ -13,6 +13,8 @@ tags: post
 
 **The short answer:** Skip raw cookie dough and raw batter while pregnant unless it is labeled **edible** or **safe to eat raw**. [CDC's pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists raw dough or batter made with raw flour, and raw cookie dough made with raw eggs, as riskier choices.
 
+<figure class="post-image"><img src="/resource/blog/cookie-dough-pregnancy/baked-cookies-not-raw-dough.webp" srcset="/resource/blog/cookie-dough-pregnancy/baked-cookies-not-raw-dough-600.webp 600w, /resource/blog/cookie-dough-pregnancy/baked-cookies-not-raw-dough.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A plate of baked cookies, with a bowl of raw dough set aside in the background" width="1280" height="720" loading="lazy"><figcaption>Baked cookies are the finished version of the same dough.</figcaption></figure>
+
 ## Why is raw cookie dough risky?
 
 Two ingredients. **Raw eggs** can carry *Salmonella*, and the [FDA's advice for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) says to avoid raw batter, filling, or cookie dough made with raw eggs. **Raw flour** is the other: the [FDA's flour guide](https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know) says never to eat or taste raw flour, dough, or batter, and notes outbreaks linked to raw flour and products like cake mixes and cookie dough.
@@ -24,6 +26,8 @@ Not automatically. Removing the eggs does not address the raw flour. FDA's advic
 ## Is "edible" cookie dough OK when pregnant?
 
 CDC lists dough and batter **labeled "edible" or "safe to eat raw,"** and dough made with heat-treated flour and pasteurized eggs, as safer choices. Read the package to be sure.
+
+<figure class="post-image"><img src="/resource/blog/cookie-dough-pregnancy/heat-treated-flour.webp" srcset="/resource/blog/cookie-dough-pregnancy/heat-treated-flour-600.webp 600w, /resource/blog/cookie-dough-pregnancy/heat-treated-flour.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A bag of flour labeled heat-treated beside a bowl of edible cookie dough and a wooden spoon" width="1280" height="720" loading="lazy"><figcaption>Edible dough is usually made with heat-treated flour.</figcaption></figure>
 
 ## What about cookie dough ice cream?
 

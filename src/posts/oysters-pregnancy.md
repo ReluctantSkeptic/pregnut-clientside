@@ -31,9 +31,13 @@ The [CDC's Vibrio prevention page](https://www.cdc.gov/vibrio/prevention/index.h
 - **In the shell:** throw out any with open shells before cooking. Boil until the shells open, then keep boiling for another **3 to 5 minutes**, or add them to a steamer that is already steaming and cook another **4 to 9 minutes**. Eat only the ones that open; discard any that do not open fully.
 - **Shucked:** boil for at least **3 minutes**, fry in oil at **375°F** for at least 3 minutes, broil **3 inches** from the heat for 3 minutes, or bake at **450°F** for **10 minutes**.
 
+<figure class="post-image"><img src="/resource/blog/oysters-pregnancy/skillet-raw-set-aside.webp" srcset="/resource/blog/oysters-pregnancy/skillet-raw-set-aside-600.webp 600w, /resource/blog/oysters-pregnancy/skillet-raw-set-aside.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Cooked oysters in a skillet with lemon and herbs, with a platter of raw oysters on ice set aside in the background" width="1280" height="720" loading="lazy"><figcaption>The skillet is the cooked plate; the raw oysters on ice sit to the side.</figcaption></figure>
+
 ## Can you eat cooked or baked oysters while pregnant?
 
 Yes, when they are cooked through. Fried oysters, oyster stew, and baked or grilled oysters are safer choices when they meet the cooking steps above. Lightly warmed or "just-kissed" grilled oysters on the half shell may not, so ask how long they are cooked, or skip them. The [CDC's pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) also lists canned seafood as a safer choice.
+
+<figure class="post-image"><img src="/resource/blog/oysters-pregnancy/baked-oysters-breadcrumbs.webp" srcset="/resource/blog/oysters-pregnancy/baked-oysters-breadcrumbs-600.webp 600w, /resource/blog/oysters-pregnancy/baked-oysters-breadcrumbs.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A plate of baked oysters topped with golden breadcrumbs, with lemon wedges and a little steam" width="1280" height="720" loading="lazy"><figcaption>Baked oysters with a breadcrumb topping, hot from the oven.</figcaption></figure>
 
 ## Are oysters high in mercury?
 

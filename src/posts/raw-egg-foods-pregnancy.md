@@ -37,11 +37,15 @@ Traditional tiramisu uses raw eggs in the cream, and FDA lists it by name. Choos
 
 All three are on FDA's list when homemade with raw eggs. CDC lists **pasteurized eggs in foods that will not be cooked to a safe temperature, such as mousse and salad dressing** as the safer choice. Our [mayonnaise and aioli guide](/blog/mayonnaise-pregnancy/) and [ice cream guide](/blog/ice-cream-pregnancy/) go deeper.
 
+<figure class="post-image"><img src="/resource/blog/raw-egg-foods-pregnancy/baked-custard-raw-set-aside.webp" srcset="/resource/blog/raw-egg-foods-pregnancy/baked-custard-raw-set-aside-600.webp 600w, /resource/blog/raw-egg-foods-pregnancy/baked-custard-raw-set-aside.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A baked custard in a ramekin in the foreground, with a glass of homemade eggnog and a scoop of cookie dough set aside" width="1280" height="720" loading="lazy"><figcaption>A baked custard in front; homemade eggnog and raw dough stay to the side.</figcaption></figure>
+
 ## Common questions
 
 ### Are cooked egg dishes OK?
 
 Yes. CDC says eggs cooked until yolks and whites are firm, and egg dishes cooked to 160°F (165°F if they contain meat or poultry), are safer. See our [eggs guide](/blog/eggs-during-pregnancy/).
+
+<figure class="post-image"><img src="/resource/blog/raw-egg-foods-pregnancy/cooked-scrambled-eggs.webp" srcset="/resource/blog/raw-egg-foods-pregnancy/cooked-scrambled-eggs-600.webp 600w, /resource/blog/raw-egg-foods-pregnancy/cooked-scrambled-eggs.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A plate of fully cooked fluffy scrambled eggs with toast, chives, and a fork" width="1280" height="720" loading="lazy"><figcaption>Fluffy scrambled eggs, cooked through, with toast.</figcaption></figure>
 
 ### What about eggnog?
 

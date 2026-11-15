@@ -24,6 +24,8 @@ tags: post
 
 The public-health sources we use do not give a pregnancy-specific number of cashews. NIH food tables use **1 ounce** as the serving for nuts, which is a reasonable starting point for a snack. Cashews are energy-dense: PregNut's data lists **574 calories per 100 g** of [dry-roasted cashews](/food/12585-nuts-cashew-nuts-dry-roasted/), so a few handfuls add up quickly.
 
+<figure class="post-image"><img src="/resource/blog/cashews-pregnancy/handful-in-a-bowl.webp" srcset="/resource/blog/cashews-pregnancy/handful-in-a-bowl-600.webp 600w, /resource/blog/cashews-pregnancy/handful-in-a-bowl.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A small ceramic bowl holding a modest handful of roasted cashews" width="1280" height="720" loading="lazy"><figcaption>A small handful is a typical snack portion.</figcaption></figure>
+
 ## What are the benefits of cashews in pregnancy?
 
 **Magnesium.** The [NIH magnesium fact sheet](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/) lists **74 mg** in 1 ounce of dry-roasted cashews. Its pregnancy recommendation is **350 mg a day** at ages 19 to 30 and **360 mg** at ages 31 to 50. Our [magnesium foods guide](/blog/magnesium-foods-pregnancy/) compares more options.
@@ -31,6 +33,8 @@ The public-health sources we use do not give a pregnancy-specific number of cash
 **Iron.** NIH lists **2 mg** of iron in 1 ounce of oil-roasted cashews. The pregnancy recommendation is **27 mg a day**, and plant iron is absorbed less readily than iron from meat. See [iron-rich foods and pairings](/blog/iron-foods-pregnancy/).
 
 **Zinc, protein, and folate.** Per 100 g, PregNut's historical USDA-based data lists **15.31 g protein**, **6 mg iron**, **5.6 mg zinc**, **69 mcg DFE folate**, and **61 mg choline** for dry-roasted cashews. NIH's zinc recommendation in pregnancy is **11 mg a day** for adults.
+
+<figure class="post-image"><img src="/resource/blog/cashews-pregnancy/on-yogurt-with-berries.webp" srcset="/resource/blog/cashews-pregnancy/on-yogurt-with-berries-600.webp 600w, /resource/blog/cashews-pregnancy/on-yogurt-with-berries.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Cashews sprinkled over a bowl of yogurt with berries" width="1280" height="720" loading="lazy"><figcaption>Cashews also work as a topping on yogurt and fruit.</figcaption></figure>
 
 ## Are cashews good for morning sickness?
 

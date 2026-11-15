@@ -22,11 +22,15 @@ tags: post
 
 ## What cereal is good for pregnancy?
 
+<figure class="post-image"><img src="/resource/blog/cereal-pregnancy/bowl-with-milk-and-berries.webp" srcset="/resource/blog/cereal-pregnancy/bowl-with-milk-and-berries-600.webp 600w, /resource/blog/cereal-pregnancy/bowl-with-milk-and-berries.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A bowl of breakfast cereal with milk and berries in soft morning light" width="1280" height="720" loading="lazy"><figcaption>A simple bowl of cereal with milk and fruit.</figcaption></figure>
+
 Look at three lines on the label:
 
 - **Folate.** Labels list folate in mcg DFE, with the folic acid amount in parentheses when it is added. The [NIH folate fact sheet](https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/) uses a cereal fortified with **25% of the Daily Value**, or **100 mcg DFE** per serving, as an example; some cereals are fortified to 100%. The pregnancy recommendation is **600 mcg DFE** a day from all sources.
 - **Iron.** The [NIH iron fact sheet](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) lists **18 mg** of iron in a serving of cereal fortified with 100% of the Daily Value. The pregnancy recommendation is **27 mg** a day.
 - **Fiber and added sugar.** These vary by cereal; compare labels if constipation or blood sugar is on your mind. Our [fiber guide](/blog/fiber-foods-constipation-pregnancy/) has more ideas.
+
+<figure class="post-image"><img src="/resource/blog/cereal-pregnancy/fortified-folic-acid-box.webp" srcset="/resource/blog/cereal-pregnancy/fortified-folic-acid-box-600.webp 600w, /resource/blog/cereal-pregnancy/fortified-folic-acid-box.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="An unbranded kraft cereal box with two short lines of text, fortified and folic acid, beside a bowl of flakes" width="1280" height="720" loading="lazy"><figcaption>Some boxes highlight that the cereal is fortified with folic acid.</figcaption></figure>
 
 ## Is Special K or corn flakes good for pregnancy?
 

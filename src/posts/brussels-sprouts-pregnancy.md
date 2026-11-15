@@ -26,9 +26,13 @@ The pregnancy warning is about **raw or undercooked seed sprouts**. The [CDC's s
 
 Brussels sprouts share the word "sprouts" (and are often spelled "brussel sprouts"), but they are not germinated seeds. The steaming-hot sprout rule does not apply to them. The CDC's general vegetable advice does.
 
+<figure class="post-image"><img src="/resource/blog/brussels-sprouts-pregnancy/brussels-not-seed-sprouts.webp" srcset="/resource/blog/brussels-sprouts-pregnancy/brussels-not-seed-sprouts-600.webp 600w, /resource/blog/brussels-sprouts-pregnancy/brussels-not-seed-sprouts.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A bowl of cooked Brussels sprouts in the foreground, with a carton of alfalfa sprouts set aside" width="1280" height="720" loading="lazy"><figcaption>Brussels sprouts are a cabbage. Alfalfa and other seed sprouts are a different food.</figcaption></figure>
+
 ## Can you eat raw Brussels sprouts while pregnant?
 
 The CDC places **unwashed** fresh vegetables in its riskier column and **washed** vegetables in its safer column, adding that washed and then cooked produce is safest. Shaved raw Brussels sprouts in a salad fit the safer column when they are washed well; roasted, steamed, or sautéed sprouts fit the safest one. See [how to wash fruits and vegetables when pregnant](/blog/wash-produce-pregnancy/) for the steps.
+
+<figure class="post-image"><img src="/resource/blog/brussels-sprouts-pregnancy/roasted-brussels-sprouts.webp" srcset="/resource/blog/brussels-sprouts-pregnancy/roasted-brussels-sprouts-600.webp 600w, /resource/blog/brussels-sprouts-pregnancy/roasted-brussels-sprouts.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A pan of roasted Brussels sprouts, browned and caramelized" width="1280" height="720" loading="lazy"><figcaption>Roasted Brussels sprouts, the cabbage vegetable.</figcaption></figure>
 
 At a restaurant, you cannot check how a raw salad was washed, so a cooked side is the simpler choice.
 

@@ -31,7 +31,11 @@ Any method works if the center is done. [CDC lists fish cooked to 145°F](https:
 - **Fried or breaded:** a crisp coating does not tell you the center is cooked; check the flesh.
 - **Frozen fillets and fish sticks:** follow the package directions and check the center.
 
+<figure class="post-image"><img src="/resource/blog/tilapia-cod-pregnancy/baked-tilapia-lemon.webp" srcset="/resource/blog/tilapia-cod-pregnancy/baked-tilapia-lemon-600.webp 600w, /resource/blog/tilapia-cod-pregnancy/baked-tilapia-lemon.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A baked white fish fillet with lemon slices, herbs, and roasted vegetables on a ceramic plate" width="1280" height="720" loading="lazy"><figcaption>A baked white-fish fillet with lemon and roasted vegetables.</figcaption></figure>
+
 [FDA also advises](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be) not reusing a marinade that touched raw seafood unless you boil it first.
+
+<figure class="post-image"><img src="/resource/blog/tilapia-cod-pregnancy/seared-cod-dill.webp" srcset="/resource/blog/tilapia-cod-pregnancy/seared-cod-dill-600.webp 600w, /resource/blog/tilapia-cod-pregnancy/seared-cod-dill.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A seared cod fillet, cooked through, with dill, lemon, potatoes, and greens" width="1280" height="720" loading="lazy"><figcaption>Seared cod, cooked through, with dill and lemon.</figcaption></figure>
 
 ## Is smoked cod or raw fish OK?
 
