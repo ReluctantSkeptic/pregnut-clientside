@@ -25,9 +25,13 @@ CDC's chart does not name prosciutto. It is a cured ham that is usually sliced t
 
 Yes. Fried salami, salami on a hot pizza, and salami cooked in a casserole all fit CDC's safer choice once the meat is **steaming hot** throughout. Check that the slices are hot, not just warm, and eat them soon after cooking.
 
+<figure class="post-image"><img src="/resource/blog/salami-prosciutto-pregnancy/steaming-salami-pizza.webp" srcset="/resource/blog/salami-prosciutto-pregnancy/steaming-salami-pizza-600.webp 600w, /resource/blog/salami-prosciutto-pregnancy/steaming-salami-pizza.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A pizza topped with salami, hot and steaming" width="1280" height="720" loading="lazy"><figcaption>Salami on a pizza, still steaming from the oven.</figcaption></figure>
+
 ## What about charcuterie boards and salami sandwiches?
 
 A cold charcuterie board and a cold salami or Italian sub are unheated, which puts them in CDC's riskier column. If you want a sandwich, heat it until the meat is steaming hot, for example a toasted or pressed sandwich. Cheese on the board needs its own check; see our [soft cheese guide](/blog/soft-cheese-pregnancy/). Our [deli meat guide](/blog/deli-meat-pregnancy/) covers turkey, ham, and other cold cuts, and the [pepperoni guide](/blog/pepperoni-pregnancy/) covers pizza and snack sticks.
+
+<figure class="post-image"><img src="/resource/blog/salami-prosciutto-pregnancy/skillet-cold-board-set-aside.webp" srcset="/resource/blog/salami-prosciutto-pregnancy/skillet-cold-board-set-aside-600.webp 600w, /resource/blog/salami-prosciutto-pregnancy/skillet-cold-board-set-aside.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Salami and prosciutto heating in a skillet until steaming, with a cold board of sliced meats set aside" width="1280" height="720" loading="lazy"><figcaption>The skillet is steaming; the cold board sits in the background.</figcaption></figure>
 
 ## Is sausage different from salami?
 

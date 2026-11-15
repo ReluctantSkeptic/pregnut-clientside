@@ -21,9 +21,13 @@ The concern is *Listeria*. The [FDA explains](https://www.fda.gov/food/people-ri
 
 The answer depends on the guidance you use and how it is served. FDA's advice is that blue-veined cheese is acceptable when the label says **"made with pasteurized milk."** CDC's chart does not list blue cheese by name on its safer side; it lists **pasteurized soft cheese heated to 165°F or until steaming hot**. If you want to follow the more cautious option, eat blue cheese melted or cooked until steaming hot. Ask your prenatal clinician if you are unsure about a specific cheese.
 
+<figure class="post-image"><img src="/resource/blog/blue-cheese-pregnancy/pasteurized-milk-label.webp" srcset="/resource/blog/blue-cheese-pregnancy/pasteurized-milk-label-600.webp 600w, /resource/blog/blue-cheese-pregnancy/pasteurized-milk-label.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A wedge of blue cheese in paper wrapping printed with the words made with pasteurized milk, on a wooden board with sage and a knife" width="1280" height="720" loading="lazy"><figcaption>Many packaged blue cheeses print pasteurized milk on the wrap.</figcaption></figure>
+
 ## Can you eat cooked blue cheese, like on a burger?
 
 Yes, when it is heated until **steaming hot**. Blue cheese melted into a hot sauce, baked into a dish, or melted on a burger fits CDC's heated-soft-cheese option. A cold crumble added after cooking has not been heated. Cook the burger itself to **160°F**, CDC's temperature for ground beef; see our [steak and burger guide](/blog/medium-rare-steak-pregnancy/).
+
+<figure class="post-image"><img src="/resource/blog/blue-cheese-pregnancy/steaming-melted-on-burger.webp" srcset="/resource/blog/blue-cheese-pregnancy/steaming-melted-on-burger-600.webp 600w, /resource/blog/blue-cheese-pregnancy/steaming-melted-on-burger.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Melted blue cheese steaming on a cooked burger" width="1280" height="720" loading="lazy"><figcaption>A burger with blue cheese melted until it is hot and bubbling.</figcaption></figure>
 
 ## Is blue cheese dressing safe during pregnancy?
 

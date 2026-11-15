@@ -27,12 +27,16 @@ FDA does not set a separate salmon limit. Its advice is **2 to 3 servings a week
 
 Cook it to **145°F**, or until the flesh is **opaque and separates easily with a fork**, per [CDC's pregnancy chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html). [FDA](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be) gives the same 145°F target for finfish. Baked, grilled, pan-seared, and poached salmon all work when the thickest part reaches that point. A fillet that is still translucent in the center is undercooked.
 
+<figure class="post-image"><img src="/resource/blog/salmon-pregnancy/cooked-salmon-fillet.webp" srcset="/resource/blog/salmon-pregnancy/cooked-salmon-fillet-600.webp 600w, /resource/blog/salmon-pregnancy/cooked-salmon-fillet.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A cooked salmon fillet, opaque and flaky, with lemon, dill, and a little steam" width="1280" height="720" loading="lazy"><figcaption>A cooked salmon fillet, flaky and opaque.</figcaption></figure>
+
 ## What kind of salmon can you eat while pregnant?
 
 - **Cooked fresh or frozen salmon:** a safer choice once it reaches 145°F.
 - **Canned salmon:** CDC lists canned fish and seafood as a safer choice.
 - **Smoked salmon and lox:** CDC lists refrigerated smoked seafood, often labeled "nova-style," "lox," "kippered," or "smoked," as riskier unless it is in a cooked dish. Shelf-stable smoked salmon in a sealed package that does not need refrigeration before opening is a safer choice. See our [smoked salmon guide](/blog/smoked-salmon-pregnancy/).
 - **Raw salmon in sushi, sashimi, or poke:** CDC lists raw or undercooked fish as riskier. Our [sushi guide](/blog/sushi-pregnancy/) lists cooked rolls.
+
+<figure class="post-image"><img src="/resource/blog/salmon-pregnancy/cooked-fillet-smoked-set-aside.webp" srcset="/resource/blog/salmon-pregnancy/cooked-fillet-smoked-set-aside-600.webp 600w, /resource/blog/salmon-pregnancy/cooked-fillet-smoked-set-aside.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A seared, cooked salmon fillet in the foreground, with a plate of cold thin-sliced smoked salmon set aside" width="1280" height="720" loading="lazy"><figcaption>The cooked fillet is in front; cold smoked slices sit to the side.</figcaption></figure>
 
 ## Is farmed or wild salmon better in pregnancy?
 

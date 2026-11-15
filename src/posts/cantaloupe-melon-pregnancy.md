@@ -21,9 +21,13 @@ Bacteria on the rind. The [FDA's produce advice for moms-to-be](https://www.fda.
 
 FDA advises rinsing under running water, and using a small vegetable brush to remove surface dirt. Do not use soap, detergents, or bleach. Cut away damaged or bruised areas. Our [produce washing guide](/blog/wash-produce-pregnancy/) has the full steps.
 
+<figure class="post-image"><img src="/resource/blog/cantaloupe-melon-pregnancy/wash-before-cutting.webp" srcset="/resource/blog/cantaloupe-melon-pregnancy/wash-before-cutting-600.webp 600w, /resource/blog/cantaloupe-melon-pregnancy/wash-before-cutting.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A whole cantaloupe being rinsed under a kitchen faucet, with a cutting board and towel waiting beside the sink" width="1280" height="720" loading="lazy"><figcaption>Rinse the whole melon before it meets the knife.</figcaption></figure>
+
 ## How long does cut melon last?
 
 Per CDC: in the refrigerator for **7 days or fewer**, and out of the fridge for no more than **2 hours** (1 hour if hotter than 90°F, such as a picnic or hot car).
+
+<figure class="post-image"><img src="/resource/blog/cantaloupe-melon-pregnancy/whole-and-cut-in-fridge.webp" srcset="/resource/blog/cantaloupe-melon-pregnancy/whole-and-cut-in-fridge-600.webp 600w, /resource/blog/cantaloupe-melon-pregnancy/whole-and-cut-in-fridge.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A whole cantaloupe and a covered container of cut melon in a refrigerator" width="1280" height="720" loading="lazy"><figcaption>Cut melon usually lives in the fridge, covered.</figcaption></figure>
 
 ## Is pre-cut fruit from the store OK?
 

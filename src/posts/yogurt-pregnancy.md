@@ -17,6 +17,8 @@ tags: post
 
 Any yogurt made with pasteurized milk: plain, Greek, low-fat, whole-milk, or flavored. The [FDA says](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) milk sold across state lines is pasteurized, but some dairy products are not, especially those made and sold locally on dairy farms; check the label. The yogurt to skip is one made from **raw milk**, which CDC lists as riskier. Our [raw milk guide](/blog/raw-milk-pregnancy/) walks through the label check.
 
+<figure class="post-image"><img src="/resource/blog/yogurt-pregnancy/pasteurized-yogurt.webp" srcset="/resource/blog/yogurt-pregnancy/pasteurized-yogurt-600.webp 600w, /resource/blog/yogurt-pregnancy/pasteurized-yogurt.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="An open cup of yogurt with a spoon, labeled pasteurized, beside a small plate of berries" width="1280" height="720" loading="lazy"><figcaption>Packaged yogurt often lists pasteurized on the cup.</figcaption></figure>
+
 ## Is homemade yogurt OK?
 
 Yes, if you start with **pasteurized milk**; that keeps it in CDC's "dairy products made from pasteurized milk" column. Yogurt made at home from raw milk is in CDC's riskier column. Refrigerate it like any dairy food: the [FDA advises](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) keeping milk products at **40°F** or below.
@@ -36,6 +38,8 @@ The safety check is the same. CDC's guidance is about whether the milk was paste
 ## What about flavored yogurt and added sugar?
 
 Flavored yogurt is still a pasteurized-dairy choice; the difference is sugar. The [FDA says](https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label) the Dietary Guidelines recommend keeping added sugars under **10% of daily calories**, or **50 g** on a 2,000-calorie diet. Check the "Added Sugars" line, or sweeten plain yogurt with fruit.
+
+<figure class="post-image"><img src="/resource/blog/yogurt-pregnancy/bowl-with-berries.webp" srcset="/resource/blog/yogurt-pregnancy/bowl-with-berries-600.webp 600w, /resource/blog/yogurt-pregnancy/bowl-with-berries.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A ceramic bowl of yogurt topped with strawberries, blueberries, and a drizzle of honey" width="1280" height="720" loading="lazy"><figcaption>A bowl of yogurt with berries and a little honey.</figcaption></figure>
 
 ## Is frozen yogurt OK while pregnant?
 

@@ -30,9 +30,13 @@ Our [low-mercury fish guide](/blog/low-mercury-fish-pregnancy/) lists the Best C
 
 The [FDA's seafood advice for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be) says to cook shrimp and lobster until the flesh is **opaque (milky white)**. The CDC similarly says to cook shellfish until the flesh is **pearly or white, and opaque**. Grilled, boiled, sautéed, and baked shrimp all work when the whole piece reaches that point.
 
+<figure class="post-image"><img src="/resource/blog/shrimp-pregnancy/sauteed-garlic-shrimp.webp" srcset="/resource/blog/shrimp-pregnancy/sauteed-garlic-shrimp-600.webp 600w, /resource/blog/shrimp-pregnancy/sauteed-garlic-shrimp.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A skillet of sautéed shrimp, pink and opaque, with garlic, lemon, parsley, and a little steam" width="1280" height="720" loading="lazy"><figcaption>Sautéed shrimp, pink and opaque, with lemon and garlic.</figcaption></figure>
+
 ## Can you eat cold shrimp or shrimp cocktail?
 
 Cold shrimp fits the cooked-shellfish guidance when it was fully cooked before chilling. Ask or check the package to confirm the shrimp were cooked, keep it refrigerated, and follow FDA's rule not to leave perishable food out for more than **2 hours** (1 hour above 90°F). Skip shrimp that was "cooked" only in citrus juice, as in ceviche, because the CDC lists ceviche as a riskier choice.
+
+<figure class="post-image"><img src="/resource/blog/shrimp-pregnancy/shrimp-cocktail.webp" srcset="/resource/blog/shrimp-pregnancy/shrimp-cocktail-600.webp 600w, /resource/blog/shrimp-pregnancy/shrimp-cocktail.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A glass of cooked shrimp cocktail, shrimp pink and opaque, with lemon and a small bowl of cocktail sauce" width="1280" height="720" loading="lazy"><figcaption>Shrimp cocktail made with cooked, pink shrimp.</figcaption></figure>
 
 ## Can you eat crab while pregnant?
 

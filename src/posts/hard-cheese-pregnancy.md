@@ -13,6 +13,8 @@ tags: post
 
 **The short answer:** Yes, most people can eat hard cheese while pregnant when it is made with **pasteurized milk**. [CDC's pregnancy food-safety chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists pasteurized hard cheeses such as **Asiago, Cheddar, Parmesan, and Swiss/Gruyère/Emmental** as safer choices. Any cheese made from raw (unpasteurized) milk is a riskier choice.
 
+<figure class="post-image"><img src="/resource/blog/hard-cheese-pregnancy/cheddar-parmesan-board.webp" srcset="/resource/blog/hard-cheese-pregnancy/cheddar-parmesan-board-600.webp 600w, /resource/blog/hard-cheese-pregnancy/cheddar-parmesan-board.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A wooden board with aged cheddar, Parmesan, crackers, and a grater" width="1280" height="720" loading="lazy"><figcaption>Hard aged cheeses such as cheddar and Parmesan.</figcaption></figure>
+
 ## Is cheddar safe during pregnancy?
 
 Pasteurized cheddar is on CDC's safer list, by name. Check the label for "made with pasteurized milk." See our [cheddar](/food/01009-cheese-cheddar/) and [sharp sliced cheddar](/food/01270-cheese-cheddar-sharp-sliced/) entries for nutrition data.
@@ -20,6 +22,8 @@ Pasteurized cheddar is on CDC's safer list, by name. Check the label for "made w
 ## Can you eat Parmesan while pregnant?
 
 Yes, when it is made with pasteurized milk. CDC names Parmesan among safer hard cheeses. Some imported or specialty Parmesan-style cheeses are made with raw milk, so the label is the deciding step: the [FDA notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that some cheeses are not made with pasteurized milk. [Parmesan](/food/01033-cheese-parmesan-hard/) has its own food page.
+
+<figure class="post-image"><img src="/resource/blog/hard-cheese-pregnancy/pasta-with-grated-cheese.webp" srcset="/resource/blog/hard-cheese-pregnancy/pasta-with-grated-cheese-600.webp 600w, /resource/blog/hard-cheese-pregnancy/pasta-with-grated-cheese.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A bowl of pasta with tomato sauce and freshly grated hard cheese, with a Parmesan wedge and grater beside the bowl" width="1280" height="720" loading="lazy"><figcaption>A little grated hard cheese over pasta is a familiar weeknight plate.</figcaption></figure>
 
 ## Is Swiss cheese safe in pregnancy?
 

@@ -21,6 +21,8 @@ No, not when it is pasteurized. Cottage cheese is a fresh, soft cheese, which is
 
 Choose cottage cheese whose label says **made with pasteurized milk** or lists pasteurized milk in the ingredients. The [FDA notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that milk sold across state lines is pasteurized, but some dairy products are not, especially those made and sold locally on dairy farms or at local cheese stores. PregNut does not verify brands, so check the tub you buy.
 
+<figure class="post-image"><img src="/resource/blog/cottage-cheese-pregnancy/pasteurized-milk-label.webp" srcset="/resource/blog/cottage-cheese-pregnancy/pasteurized-milk-label-600.webp 600w, /resource/blog/cottage-cheese-pregnancy/pasteurized-milk-label.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="An open tub of cottage cheese with a label that reads pasteurized milk, beside cucumber slices and a spoon" width="1280" height="720" loading="lazy"><figcaption>Packaged cottage cheese often lists pasteurized milk on the label.</figcaption></figure>
+
 ## How should I store cottage cheese?
 
 The [FDA advises](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) keeping milk and milk products refrigerated at **40°F** or below and following "use-by" dates. FDA also notes that *Listeria* [can grow at refrigerator temperatures](https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be) and advises using ready-to-eat perishable foods, including dairy, as soon as possible. Put the tub back in the fridge after serving rather than leaving it out; FDA's rule is within **2 hours** (1 hour above 90°F).
@@ -28,6 +30,8 @@ The [FDA advises](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-a
 ## Is cottage cheese good to eat during pregnancy?
 
 It is a high-protein dairy food. PregNut's historical USDA-based data lists [creamed cottage cheese](/food/01012-cheese-cottage-creamed-large-or-small-curd/) at **11.12 g protein**, **83 mg calcium**, and **0.43 mcg vitamin B12** per 100 g, at **98 calories**. For calcium, other dairy foods list more: the [NIH calcium fact sheet](https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/) lists **415 mg** in 8 ounces of plain low-fat yogurt and **333 mg** in 1.5 ounces of part-skim mozzarella, against a pregnancy RDA of **1,000 mg a day** for ages 19 to 50. Our [yogurt guide](/blog/yogurt-pregnancy/) and [vegetarian protein guide](/blog/vegetarian-protein-pregnancy/) compare more options.
+
+<figure class="post-image"><img src="/resource/blog/cottage-cheese-pregnancy/bowl-with-fruit.webp" srcset="/resource/blog/cottage-cheese-pregnancy/bowl-with-fruit-600.webp 600w, /resource/blog/cottage-cheese-pregnancy/bowl-with-fruit.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A ceramic bowl of cottage cheese topped with peaches, raspberries, and blueberries" width="1280" height="720" loading="lazy"><figcaption>Cottage cheese is easy to pair with fruit.</figcaption></figure>
 
 ## What about mozzarella and string cheese?
 

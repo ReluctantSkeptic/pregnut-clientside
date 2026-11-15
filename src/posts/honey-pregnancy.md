@@ -13,6 +13,8 @@ tags: post
 
 **The short answer:** Honey is **not** on [CDC's list of riskier foods for pregnant women](https://www.cdc.gov/food-safety/foods/pregnant-women.html). CDC's honey warning is about **infants**: [do not feed honey to a child younger than 1 year old](https://www.cdc.gov/botulism/prevention/index.html), because honey can contain the bacteria that cause botulism.
 
+<figure class="post-image"><img src="/resource/blog/honey-pregnancy/honey-jar-and-tea.webp" srcset="/resource/blog/honey-pregnancy/honey-jar-and-tea-600.webp 600w, /resource/blog/honey-pregnancy/honey-jar-and-tea.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A jar of honey beside a cup of tea" width="1280" height="720" loading="lazy"><figcaption>Honey in a cup of tea is a familiar kitchen use.</figcaption></figure>
+
 ## Why is honey unsafe for babies but not listed for pregnancy?
 
 CDC explains that infant botulism happens when bacterial spores get into a baby's intestines and grow. Its pregnancy food-safety chart, which covers meat, eggs, dairy, produce, juice, seafood, and flour, does not include honey. If you have specific concerns, ask your prenatal care provider.
@@ -24,6 +26,8 @@ CDC's pregnancy chart doesn't address raw honey separately, and we couldn't find
 ## How much honey is OK?
 
 Honey is an added sugar. The [FDA's added sugars label page](https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label) explains the Daily Value of 50 g of added sugars per day on a 2,000-calorie diet. See [honey](/food/19296-honey/) for nutrition data.
+
+<figure class="post-image"><img src="/resource/blog/honey-pregnancy/honey-on-toast.webp" srcset="/resource/blog/honey-pregnancy/honey-on-toast-600.webp 600w, /resource/blog/honey-pregnancy/honey-on-toast.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A slice of toast with a drizzle of honey, a small jar and a wooden dipper beside the plate" width="1280" height="720" loading="lazy"><figcaption>A little honey on toast.</figcaption></figure>
 
 ## What about honey mustard and other honey foods?
 

@@ -21,6 +21,8 @@ Because feta is not always pasteurized. The [FDA explains](https://www.fda.gov/f
 
 Read the label for "made with pasteurized milk." [FDA notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that milk sold across state lines is pasteurized, but some cheeses are not, especially those produced and sold locally on farms or at local cheese shops. For feta from a farmers' market, an imported specialty shop, or a restaurant, ask, and skip it if no one can confirm. Our [pasteurized vs unpasteurized cheese section](/blog/soft-cheese-pregnancy/) walks through the label check.
 
+<figure class="post-image"><img src="/resource/blog/feta-cheese-pregnancy/pasteurized-milk-label.webp" srcset="/resource/blog/feta-cheese-pregnancy/pasteurized-milk-label-600.webp 600w, /resource/blog/feta-cheese-pregnancy/pasteurized-milk-label.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A block of feta in a tub, with a cloth label that reads pasteurized milk, beside cucumber slices" width="1280" height="720" loading="lazy"><figcaption>Many feta packages print pasteurized milk on the label.</figcaption></figure>
+
 ## Can you eat crumbled feta in a salad?
 
 Yes, when the feta was made with pasteurized milk. Packaged feta crumbles carry the same milk statement as a block, so check it the same way. Wash the greens too: CDC lists unwashed leafy greens as riskier; see our [produce washing guide](/blog/wash-produce-pregnancy/).
@@ -28,6 +30,8 @@ Yes, when the feta was made with pasteurized milk. Packaged feta crumbles carry 
 ## Is baked or cooked feta safe during pregnancy?
 
 Heating adds a margin. CDC's chart lists **pasteurized soft cheeses heated to 165°F or until steaming hot** as a safer choice, and [CDC's Listeria prevention page](https://www.cdc.gov/listeria/prevention/index.html) also lists raw-milk cheeses heated to 165°F or until steaming hot among its safer options. Baked feta pasta, spanakopita, or feta melted into a hot dish fits that when the cheese is steaming hot throughout.
+
+<figure class="post-image"><img src="/resource/blog/feta-cheese-pregnancy/baked-steaming-feta.webp" srcset="/resource/blog/feta-cheese-pregnancy/baked-steaming-feta-600.webp 600w, /resource/blog/feta-cheese-pregnancy/baked-steaming-feta.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A baking dish of feta and cherry tomatoes, steaming from the oven" width="1280" height="720" loading="lazy"><figcaption>Baked feta with tomatoes, still steaming from the oven.</figcaption></figure>
 
 ## What about goat cheese and halloumi?
 

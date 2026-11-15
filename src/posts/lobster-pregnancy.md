@@ -21,9 +21,13 @@ FDA does not set a separate lobster limit. Lobster counts toward the same **2 to
 
 The [FDA's seafood advice for moms-to-be](https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be) says the flesh of cooked lobster should be **opaque (milky white)**. FDA's [seafood handling page](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) adds that cooked shrimp, scallops, crab, and lobster flesh becomes **firm, pearly, and opaque**. CDC's chart describes cooked shellfish the same way: pearly or white, and opaque. Boiled, steamed, grilled, and baked lobster all work once the meat reaches that point.
 
+<figure class="post-image"><img src="/resource/blog/lobster-pregnancy/steamed-lobster-with-lemon.webp" srcset="/resource/blog/lobster-pregnancy/steamed-lobster-with-lemon-600.webp 600w, /resource/blog/lobster-pregnancy/steamed-lobster-with-lemon.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A fully cooked bright-red lobster on a plate with lemon wedges and a cup of drawn butter" width="1280" height="720" loading="lazy"><figcaption>A steamed lobster, bright red, with lemon and butter.</figcaption></figure>
+
 ## Are lobster rolls safe during pregnancy?
 
 A lobster roll made with fully cooked lobster fits the cooked-shellfish guidance, even served cold, if the meat was cooked first and kept refrigerated. [FDA says](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely) not to leave seafood out of the refrigerator for more than **2 hours** (1 hour above 90°F). For the mayonnaise, FDA [notes](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) that commercial mayonnaise contains pasteurized eggs; a house-made mayo is the one to ask about. See our [mayonnaise guide](/blog/mayonnaise-pregnancy/). A warm, butter-style roll avoids the question.
+
+<figure class="post-image"><img src="/resource/blog/lobster-pregnancy/lobster-roll.webp" srcset="/resource/blog/lobster-pregnancy/lobster-roll-600.webp 600w, /resource/blog/lobster-pregnancy/lobster-roll.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A toasted lobster roll filled with cooked lobster meat, with a small salad and lemon wedges" width="1280" height="720" loading="lazy"><figcaption>A lobster roll made with cooked meat.</figcaption></figure>
 
 ## Can you eat raw lobster or lobster sashimi?
 

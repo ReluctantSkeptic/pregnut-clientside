@@ -24,9 +24,13 @@ tags: post
 
 Yes. FDA's statement covers **commercial dressings** as a category, so a bottle from the grocery store fits it whatever the brand. The [CDC chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) likewise names pasteurized eggs as the safer choice in foods that will not be cooked, such as salad dressing. Refrigerate the bottle after opening as the label directs.
 
+<figure class="post-image"><img src="/resource/blog/ranch-dressing-pregnancy/salad-with-ranch.webp" srcset="/resource/blog/ranch-dressing-pregnancy/salad-with-ranch-600.webp 600w, /resource/blog/ranch-dressing-pregnancy/salad-with-ranch.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A garden salad of lettuce, tomato, and cucumber with a drizzle of ranch dressing" width="1280" height="720" loading="lazy"><figcaption>A simple salad with a drizzle of ranch.</figcaption></figure>
+
 ## Is pasteurized ranch dressing something to look for?
 
 You do not need to hunt for the word on a bottled ranch; FDA's commercial-dressing statement already covers the eggs. The dairy is a separate check. Ranch is usually made with buttermilk, sour cream, or both, and [CDC lists dairy products made from pasteurized milk](https://www.cdc.gov/food-safety/foods/pregnant-women.html) as the safer choice and raw-milk dairy as the riskier one. [FDA advises](https://www.fda.gov/food/people-risk-foodborne-illness/dairy-and-eggs-food-safety-moms-be) making sure the dairy you eat is made with pasteurized milk and checking the label, especially on farm-made or locally made products.
+
+<figure class="post-image"><img src="/resource/blog/ranch-dressing-pregnancy/pasteurized-bottle.webp" srcset="/resource/blog/ranch-dressing-pregnancy/pasteurized-bottle-600.webp 600w, /resource/blog/ranch-dressing-pregnancy/pasteurized-bottle.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="An unbranded glass bottle of ranch dressing with a label that reads pasteurized, beside a small bowl and carrot sticks" width="1280" height="720" loading="lazy"><figcaption>Some bottled ranch dressings print pasteurized on the label.</figcaption></figure>
 
 ## Is restaurant ranch OK when pregnant?
 

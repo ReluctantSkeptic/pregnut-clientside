@@ -32,6 +32,10 @@ Undercooked meat is one way people get *Toxoplasma*. The [CDC lists eating under
 
 "Rare," "medium-rare," and "medium-well" are descriptions, not a temperature reading. The [CDC says](https://www.cdc.gov/toxoplasmosis/prevention/index.html) you cannot tell whether meat is safely cooked by its color or texture. The question to ask is whether the thickest part reached **145°F** before resting. If you are cooking at home, use a food thermometer. At a restaurant, ask whether the kitchen can cook it to at least 145°F.
 
+<figure class="post-image"><img src="/resource/blog/medium-rare-steak-pregnancy/thermometer-145.webp" srcset="/resource/blog/medium-rare-steak-pregnancy/thermometer-145-600.webp 600w, /resource/blog/medium-rare-steak-pregnancy/thermometer-145.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A cooked steak on a board with a meat thermometer reading 145" width="1280" height="720" loading="lazy"><figcaption>A cooked steak with a thermometer reading 145.</figcaption></figure>
+
+<figure class="post-image"><img src="/resource/blog/medium-rare-steak-pregnancy/resting-on-the-board.webp" srcset="/resource/blog/medium-rare-steak-pregnancy/resting-on-the-board-600.webp 600w, /resource/blog/medium-rare-steak-pregnancy/resting-on-the-board.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="A cooked steak resting on a wooden board with herbs, a knife, and a small kitchen timer" width="1280" height="720" loading="lazy"><figcaption>Letting the steak rest on the board after cooking.</figcaption></figure>
+
 ## What about burgers and ground beef?
 
 Ground meat has a higher target. The [CDC chart](https://www.cdc.gov/food-safety/foods/pregnant-women.html) lists ground meats, such as beef and pork, cooked to **160°F**, and the CDC's toxoplasmosis page notes that ground meat does not need a rest time. A pink-centered burger is not a safety check either way; use a thermometer or ask the restaurant.

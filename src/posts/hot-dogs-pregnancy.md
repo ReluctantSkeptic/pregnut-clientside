@@ -27,7 +27,11 @@ Any method works if the **center** gets hot:
 - **Grill or pan-fry**, turning until heated through, not just browned on the outside.
 - **Microwave**, then check the middle before eating.
 
+<figure class="post-image"><img src="/resource/blog/hot-dogs-pregnancy/heated-until-steaming.webp" srcset="/resource/blog/hot-dogs-pregnancy/heated-until-steaming-600.webp 600w, /resource/blog/hot-dogs-pregnancy/heated-until-steaming.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Hot dogs heated in a pan until steaming" width="1280" height="720" loading="lazy"><figcaption>Heating until the hot dog is steaming is the usual kitchen method.</figcaption></figure>
+
 A food thermometer gives the clearest answer: **165°F** in the center. Eat it soon after heating; a hot dog that has cooled on a party table is no longer "just heated."
+
+<figure class="post-image"><img src="/resource/blog/hot-dogs-pregnancy/skillet-cold-pack-set-aside.webp" srcset="/resource/blog/hot-dogs-pregnancy/skillet-cold-pack-set-aside-600.webp 600w, /resource/blog/hot-dogs-pregnancy/skillet-cold-pack-set-aside.webp 1280w" sizes="(max-width: 720px) calc(100vw - 104px), 792px" alt="Hot dogs steaming in a skillet, with a pack of cold hot dogs set aside in the background" width="1280" height="720" loading="lazy"><figcaption>The cold pack stays to the side; the skillet is the one that's steaming.</figcaption></figure>
 
 ## Are ballpark or restaurant hot dogs OK?
 
